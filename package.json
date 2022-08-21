@@ -1,0 +1,23 @@
+{
+   "name": "genshin-api",
+   "version": "1.0.0",
+   "description": "API for genshin impact",
+   "main": "index.js",
+   "type": "module",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/devesh-anand/genshin-api.git"
+   },
+   "author": "Devesh Anand",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/devesh-anand/genshin-api/issues"
+   },
+   "homepage": "https://github.com/devesh-anand/genshin-api#readme",
+   "dependencies": {
+      "express": "^4.18.1"
+   }
+}
