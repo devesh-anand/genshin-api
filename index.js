@@ -9,11 +9,7 @@ app.get("/", (req, res) => {
    res.send("Welcome to genshin-api");
 });
 
-app.use("/character", characterRoutes);
-
-app.get("/character", async (req, res) => {
-   res.send({ character: "genshin-characters" });
-});
+app.use(["/character", "/characters"], characterRoutes);
 
 app.use(errorHandle);
 
