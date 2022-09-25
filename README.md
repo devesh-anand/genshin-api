@@ -5,5 +5,10 @@
 ```
 /character
 /character/:name
-/character/type/:weapontype
+/character/weapon/:weapontype
+/character/element/:element
 ```
+
+## Weapons:
+
+Work In Progress

@@ -1,7 +1,7 @@
 import express from "express";
 import fs from "fs/promises";
 import path from "path";
-import { getCharactersOfType } from "./scripts.js";
+import { getCharactersOfType, getCharactersOfElement } from "./scripts.js";
 
 const dirname = path.resolve();
 const router = express.Router();
@@ -39,7 +39,19 @@ router.get("/:name", async (req, res) => {
    }
 });
 
-router.get("/type/:weapon", async (req, res, next) => {
+router.get("/element/:element", async (req, res, next) => {
+   try {
+      let element = req.params.element;
+      let characters = await getCharactersOfElement(element);
+
+      res.send({ characters: characters });
+   } catch (e) {
+      console.log(e);
+      next(e);
+   }
+});
+
+router.get("/weapon/:weapon", async (req, res, next) => {
    try {
       let type = req.params.weapon;
       let characters = await getCharactersOfType(type);
