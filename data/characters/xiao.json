@@ -125,37 +125,43 @@
          "name": "Dissolution Eon - Destroyer of Worlds",
          "unlock": "Constellation Lv. 1",
          "description": "Increases Lemniscatic Wind Cycling's charges by 1.",
-         "level": 1
+         "level": 1,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-1.png"
       },
       {
          "name": "Annihilation Eon - Blossom of Kaleidos",
          "unlock": "Constellation Lv. 2",
          "description": "When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%.",
-         "level": 2
+         "level": 2,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-2.png"
       },
       {
          "name": "Evil Conqueror - Wrath Deity",
          "unlock": "Constellation Lv. 3",
          "description": "Increases the Level of Lemniscatic Wind Cycling by 3.\nMaximum upgrade level is 15.",
-         "level": 3
+         "level": 3,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-3.png"
       },
       {
          "name": "Transcension - Extinction of Suffering",
          "unlock": "Constellation Lv. 4",
          "description": "When Xiao's HP falls below 50%, gains a 100% DEF Bonus.",
-         "level": 4
+         "level": 4,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-4.png"
       },
       {
          "name": "Evolution Eon - Origin of Ignorance",
          "unlock": "Constellation Lv. 5",
          "description": "Increase the Level of Bane of All Evil by 3.\nMaximum upgrade level is 15.",
-         "level": 5
+         "level": 5,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-5.png"
       },
       {
          "name": "Evil Conqueror - Vigilant Yaksha",
          "unlock": "Constellation Lv. 6",
          "description": "During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s.",
-         "level": 6
+         "level": 6,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-6.png"
       }
    ],
    "vision_key": "ANEMO",
