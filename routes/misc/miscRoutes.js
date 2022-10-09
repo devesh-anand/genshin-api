@@ -34,7 +34,7 @@ router.post("/image", async (req, res) => {
       } else {
          try {
             let { character } = req.body;
-            console.log(req.files);
+            character = character.toLowerCase();
 
             let publicUrls = [];
             //upload all images individually
