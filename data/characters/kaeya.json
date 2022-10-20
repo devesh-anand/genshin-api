@@ -153,5 +153,8 @@
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "SWORD"
+  "weapon_type": "SWORD",
+  "img":{
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/harsh/Character_Kaeya_Card.png"
+}
 }
