@@ -60,7 +60,8 @@
           "value": "149% / 186%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/talent-na.png"
     },
     {
       "name": "Icetide Vortex",
@@ -108,7 +109,8 @@
           "value": "10s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img" : "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/talent-skill.png"
     },
     {
       "name": "Glacial Illumination",
@@ -140,7 +142,8 @@
           "value": "80"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -148,18 +151,21 @@
       "name": "Roiling Rime",
       "unlock": "Unlocked at Ascension 1",
       "description": "If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/talent-passive-1.png"
     },
     {
       "name": "Wellspring of War-Lust",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/talent-passive-2.png"
     },
     {
       "name": "Aristocratic Introspection",
       "unlock": "Unlocked Automatically",
-      "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product."
+      "description": "When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -167,39 +173,54 @@
       "name": "Tidal Illusion",
       "unlock": "Constellation Lv. 1",
       "description": "Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.\nEach stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation-1.png"
     },
     {
       "name": "Lady of Seafoam",
       "unlock": "Constellation Lv. 2",
       "description": "Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Tapping CD.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation-2.png"
     },
     {
       "name": "Lawrence Pedigree",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Glacial Illumination Mix by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation-3.png"
     },
     {
       "name": "The Obstinacy of One's Inferiors",
       "unlock": "Constellation Lv. 4",
       "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation-4.png"
     },
     {
       "name": "Chivalric Quality",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Icetide Vortex by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation-5.png"
     },
     {
       "name": "Noble Obligation",
       "unlock": "Constellation Lv. 6",
       "description": "Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation-6.png"
     }
+    
   ],
   "vision_key": "CRYO",
-  "weapon_type": "CLAYMORE"
+  "weapon_type": "CLAYMORE",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/eula/portrait.png"
+ }
 }

@@ -64,7 +64,8 @@
           "value": "114% / 142%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-na.png"
     },
     {
       "name": "Trail of the Qilin",
@@ -92,7 +93,8 @@
           "value": "10s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-skill.png"
     },
     {
       "name": "Celestial Shower",
@@ -116,7 +118,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -124,18 +127,21 @@
       "name": "Undivided Heart",
       "unlock": "Unlocked at Ascension 1",
       "description": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-passive-1.png"
     },
     {
       "name": "Harmony between Heaven and Earth",
       "unlock": "Unlocked at Ascension 4",
       "description": "Celestial Shower grants a 20% Cryo DMG Bonus to active members in the AoE.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-passive-2.png"
     },
     {
       "name": "Preserved for the Hunt",
       "unlock": "Unlocked Automatically",
-      "description": "Refunds 15% of the ores used when crafting Bow-type weapons."
+      "description": "Refunds 15% of the ores used when crafting Bow-type weapons.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -143,39 +149,53 @@
       "name": "Dew-Drinker",
       "unlock": "Constellation Lv. 1",
       "description": "Taking DMG from a Charge Level 2 Frostflake Arrow or Frostflake Arrow Bloom decreases opponents' Cryo RES by 15% for 6s.\n\nA hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hit the target.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation-1.png"
     },
     {
       "name": "The Auspicious",
       "unlock": "Constellation Lv. 2",
       "description": "Trail of the Qilin gains 1 additional charge.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation-2.png"
     },
     {
       "name": "Cloud-Strider",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Celestial Shower by 3. Maximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation-3.png"
     },
     {
       "name": "Westward Sojourn",
       "unlock": "Constellation Lv. 4",
       "description": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time. Increased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.\nThe effect lingers for 3s after the opponent leaves the AoE.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation-4.png"
     },
     {
       "name": "The Merciful",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of Trail of the Qilin by 3. Maximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation-5.png"
     },
     {
       "name": "The Clement",
       "unlock": "Constellation Lv. 6",
       "description": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "BOW"
+  "weapon_type": "BOW",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/portrait.png"
+ }
 }

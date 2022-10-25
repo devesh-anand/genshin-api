@@ -52,7 +52,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-na.png"
     },
     {
       "name": "Kamisato Art: Hyouka",
@@ -68,7 +69,8 @@
           "value": "10s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-skill.png"
     },
     {
       "name": "Kamisato Art: Soumetsu",
@@ -96,7 +98,8 @@
           "value": "80"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-burst.png"
     },
     {
       "name": "Kamisato Art: Senho",
@@ -123,18 +126,21 @@
       "name": "Amatsumi Kunitsumi Sanctification",
       "unlock": "Unlocked at Ascension 1",
       "description": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged attacks deal 30% increased DMG for 6s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-passive-1.png"
     },
     {
       "name": "Kanten Senmyou Blessing",
       "unlock": "Unlocked at Ascension 4",
       "description": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\nRestores 10 Stamina\nGains 18% Cryo DMG Bonus for 10s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-passive-2.png"
     },
     {
       "name": "Fruits of Shinsa",
       "unlock": "Unlocked Automatically",
-      "description": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product."
+      "description": "When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive double the product.",
+      "img" : "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -142,39 +148,54 @@
       "name": "Snowswept Sakura",
       "unlock": "Constellation Lv. 1",
       "description": "When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation-1.png"
     },
     {
       "name": "Blizzard Blade Seki no To",
       "unlock": "Constellation Lv. 2",
       "description": "When casting Kamisato Art: Soumetsu, unleashes 2 smaller additional Frostflake Seki no To, each dealing 20% of the original storm's DMG.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation-2.png"
     },
     {
       "name": "Frostbloom Kamifubuki",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Kamisato Art: Soumetsu by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation-3.png"
     },
     {
       "name": "Ebb and Flow",
       "unlock": "Constellation Lv. 4",
       "description": "Opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To will have their DEF decreased by 30% for 6s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation-4.png"
     },
     {
       "name": "Blossom Cloud Irutsuki",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of Kamisato Art: Hyouka by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation-5.png"
     },
     {
       "name": "Dance of Suigetsu",
       "unlock": "Constellation Lv. 6",
       "description": "Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.  ",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "SWORD"
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/portrait.png"
+ }
+
 }
