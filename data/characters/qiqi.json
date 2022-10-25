@@ -52,7 +52,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-na.png"
     },
     {
       "name": "Adeptus Art: Herald of Frost",
@@ -84,7 +85,8 @@
           "value": "30s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-skill.png"
     },
     {
       "name": "Adeptus Art: Preserver of Fortune",
@@ -112,7 +114,8 @@
           "value": "80"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -120,18 +123,21 @@
       "name": "Life-Prolonging Methods",
       "unlock": "Unlocked at Ascension 1",
       "description": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-passive-1.png"
     },
     {
       "name": "A Glimpse into Arcanum",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Qiqi hits enemies with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-passive-2.png"
     },
     {
       "name": "Former Life Memories",
       "unlock": "Unlocked Automatically",
-      "description": "Displays the location of nearby resources unique to Liyue on the mini-map."
+      "description": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -139,39 +145,53 @@
       "name": "Ascetics of Frost",
       "unlock": "Constellation Lv. 1",
       "description": "When the Herald of Frost hits an enemy marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation-1.png"
     },
     {
       "name": "Frozen to the Bone",
       "unlock": "Constellation Lv. 2",
       "description": "Qiqi's Normal and Charge Attack DMG against enemies affected by Cryo is increased by 15%.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation-2.png"
     },
     {
       "name": "Ascendant Praise",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation-3.png"
     },
     {
       "name": "Divine Suppression",
       "unlock": "Constellation Lv. 4",
       "description": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation-4.png"
     },
     {
       "name": "Crimson Lotus Bloom",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Adeptus Art: Herald of Frost by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation-5.png"
     },
     {
       "name": "Rite of Resurrection",
       "unlock": "Constellation Lv. 6",
       "description": "Using Adeptus Art: Preserve of Fortune revives all nearby fallen characters and regenerates 50% of their HP.\nThis effect can only occur once every 15 mins.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "SWORD"
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/portrait.png"
+ }
 }

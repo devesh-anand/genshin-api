@@ -52,7 +52,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-na.png"
     },
     {
       "name": "Ravaging Confession",
@@ -68,7 +69,8 @@
           "value": "6s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-skill.png"
     },
     {
       "name": "Rites of Termination",
@@ -96,7 +98,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -104,18 +107,21 @@
       "name": "Regina Probationum",
       "unlock": "Unlocked at Ascension 1",
       "description": "When Rosaria strikes an opponent from behind using Ravaging Confession, Rosaria's CRIT Rate increases by 12% for 5s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-passive-1.png"
     },
     {
       "name": "Shadow Samaritan",
       "unlock": "Unlocked at Ascension 4",
       "description": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nRosaria's CRIT Rate Bonus gained this way cannot exceed 15%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-passive-2.png"
     },
     {
       "name": "Night Walk",
       "unlock": "Unlocked Automatically",
-      "description": "At night (18:00 - 6:00), increases the Movement SPD of your own party members by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the same effects."
+      "description": "At night (18:00 - 6:00), increases the Movement SPD of your own party members by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the same effects.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -123,39 +129,53 @@
       "name": "Unholy Revelation",
       "unlock": "Constellation Lv. 1",
       "description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation-1.png"
     },
     {
       "name": "Land Without Promise",
       "unlock": "Constellation Lv. 2",
       "description": "The duration of the Ice Lance created by Rites of Termination is increased by 4s.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation-2.png"
     },
     {
       "name": "The Wages of Sin",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Ravaging Confession by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation-3.png"
     },
     {
       "name": "Painful Grace",
       "unlock": "Constellation Lv. 4",
       "description": "Ravaging Confession's CRIT Hits regenerate 5 Energy for Rosaria.\nCan only be triggered once each time Ravaging Confession is cast.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation-4.png"
     },
     {
       "name": "Last Rites",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of Rites of Termination by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation-5.png"
     },
     {
       "name": "Divine Retribution",
       "unlock": "Constellation Lv. 6",
       "description": "Rites of Termination's attack decreases opponents' Physical RES by 20% for 10s.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "POLEARM"
+  "weapon_type": "POLEARM",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/portrait.png"
+ }
 }
