@@ -57,7 +57,8 @@
             "value": "163.6% / 204.4%"
           }
         ],
-        "type": "NORMAL_ATTACK"
+        "type": "NORMAL_ATTACK",
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-na.png"
       },
       {
         "name": "Masatsu Zetsugi: Akaushi Burst!",
@@ -81,7 +82,8 @@
             "value": "10s"
           }
         ],
-        "type": "ELEMENTAL_SKILL"
+        "type": "ELEMENTAL_SKILL",
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-skill.png"
       },
       {
         "name": "Royal Descent: Behold, Itto the Evil!",
@@ -109,26 +111,30 @@
             "value": "70"
           }
         ],
-        "type": "ELEMENTAL_BURST"
+        "type": "ELEMENTAL_BURST",
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-burst.png"
       }
     ],
     "passiveTalents": [
       {
         "name": "Woodchuck Chucked",
         "unlock": "Unlocked Automatically",
-        "description": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood."
+        "description": "When a party member uses attacks to obtain wood from a tree, they have a 25% chance to get an additional log of wood.",
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-passive-0.png"
       },
       {
         "name": "Arataki Ichiban",
         "unlock": "Unlocked at Ascension 1",
         "description": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n - Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n - Increases his resistance to interruption.\nThese effects will be cleared once he stops performing consecutive slashes.",
-        "level": 1
+        "level": 1,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-passive-1.png"
       },
       {
         "name": "Bloodline of the Crimson Oni",
         "unlock": "Unlocked at Ascension 4",
         "description": "Arataki Kesagiri DMG is increased by 35% of Arataki Itto's DEF.",
-        "level": 4
+        "level": 4,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-passive-2.png"
       }
     ],
     "constellations": [
@@ -136,40 +142,54 @@
         "name": "Stay a While and Listen Up",
         "unlock": "Constellation Lv. 1",
         "description": "Royal Descent: Behold, Itto the Evil!, Arataki Itto gains 2 stacks of Superlative Superstrength. After 1s, Itto will gain 1 stack of Superlative Superstrength every 0.5s for 1.5s.",
-        "level": 1
+        "level": 1,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation-1.png"
       },
       {
         "name": "Gather 'Round, It's a Brawl!",
         "unlock": "Constellation Lv. 2",
         "description": "Geo will decrease that skill's CD by 1.5s and restore 6 Energy to Arataki Itto. CD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored in this manner.",
-        "level": 2
+        "level": 2,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation-2.png"
       },
       {
         "name": "Horns Lowered, Coming Through",
         "unlock": "Constellation Lv. 3",
         "description": "Masatsu Zetsugi: Akaushi Burst! by 3. Maximum upgrade level is 15.",
-        "level": 3
+        "level": 3,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation-3.png"
       },
       {
         "name": "Jailhouse Bread and Butter",
         "unlock": "Constellation Lv. 4",
         "description": "When the Raging Oni King state caused by Royal Descent: Behold, Itto the Evil! ends, all nearby party members gain 20% DEF and 20% ATK for 10s.",
-        "level": 4
+        "level": 4,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation-4.png"
       },
       {
         "name": "10 Years of Hanamizaka Fame",
         "unlock": "Constellation Lv. 5",
         "description": "Royal Descent: Behold, Itto the Evil! by 3. Maximum upgrade level is 15.",
-        "level": 5
+        "level": 5,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation-5.png"
       },
       {
         "name": "Arataki Itto, Present!",
         "unlock": "Constellation Lv. 6",
         "description": "Arataki Itto's Charged Attacks deal +70% Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.",
-        "level": 6
+        "level": 6,
+        "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation-6.png"
       }
     ],
     "vision_key": "GEO",
-    "weapon_type": "CLAYMORE"
+    "weapon_type": "CLAYMORE",
+    "img": {
+      "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/card.png",
+      "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/constellation.png",
+      "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/gacha-splash.png",
+      "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/icon.png",
+      "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/icon-big.png",
+      "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/portrait.png"
+   }
   }
   
