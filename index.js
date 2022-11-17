@@ -6,6 +6,7 @@ import bodyParser from "body-parser";
 import errorHandle from "./middlewares/errorHandle.js";
 import characterRoutes from "./routes/character/characterRoutes.js";
 import miscRoutes from "./routes/misc/miscRoutes.js";
+import weaponRoutes from "./routes/weapons/weaponRoutes.js";
 
 const app = express();
 
@@ -19,12 +20,12 @@ app.get("/", (req, res) => {
 
 app.use(["/character", "/characters"], characterRoutes);
 
+app.use(["/weapon", "/weapons"], weaponRoutes);
+
 app.use("/others", miscRoutes);
 
 app.use(errorHandle);
 
-app.post("/image", async (req, res) => {});
-
 app.listen(process.env.PORT, () => {
-   console.log(`app on port 5k`);
+   console.log(`app running`);
 });
