@@ -39,3 +39,39 @@ export async function getCharactersOfElement(element) {
 
    return characters;
 }
+
+export async function charsWithImages(element = "all") {
+   let allChars = await fs.readdir(dirname + `/data/characters/`);
+
+   let data = await Promise.all(
+      allChars.map(async (name) => {
+         let charData = await fs.readFile(
+            dirname + `/data/characters/${name}`,
+            "utf-8"
+         );
+         charData = JSON.parse(charData);
+         if (element == "all") {
+            let info = {
+               name: charData.name,
+               key: name.split(".")[0],
+               element: charData.vision,
+               img: charData.img,
+            };
+
+            return info;
+         } else if (charData.vision.toUpperCase() == element.toUpperCase()) {
+            let info = {
+               name: charData.name,
+               key: name.split(".")[0],
+               element: charData.vision,
+               img: charData.img,
+            };
+
+            return info;
+         } else return "";
+      })
+   );
+   data = data.filter((name) => name != "");
+
+   return data;
+}

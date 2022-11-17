@@ -1,65 +1,26 @@
 import express from "express";
-import fs from "fs/promises";
-import path from "path";
-import { getCharactersOfType, getCharactersOfElement } from "./scripts.js";
+import {
+   characters,
+   element,
+   imgList,
+   imgOfCharsOfElement,
+   name,
+   weapon,
+} from "./controllers.js";
 
-const dirname = path.resolve();
 const router = express.Router();
 
-router.get("/", async (req, res, next) => {
-   try {
-      let names = [];
-      let allChars = await fs.readdir(dirname + `/data/characters/`);
-      let data = allChars.forEach((fileName) => {
-         names.push(fileName.split(".")[0]);
-      });
-      data = {
-         characters: names,
-      };
+router.get("/", characters);
 
-      res.send(data);
-   } catch (e) {
-      console.log(e);
-      next(e);
-   }
-});
+//gets a list of all characters of an element along with icon
+router.get("/imglist", imgList);
 
-router.get("/:name", async (req, res) => {
-   try {
-      let name = req.params.name;
-      let data = await fs.readFile(
-         dirname + `/data/characters/${name}.json`,
-         "utf-8"
-      );
-      data = JSON.parse(data);
+router.get("/imglist/:element", imgOfCharsOfElement);
 
-      res.send(data);
-   } catch (e) {
-      res.send({ error: "Character not found." });
-   }
-});
+router.get("/:name", name);
 
-router.get("/element/:element", async (req, res, next) => {
-   try {
-      let element = req.params.element;
-      let characters = await getCharactersOfElement(element);
+router.get("/element/:element", element);
 
-      res.send({ characters: characters });
-   } catch (e) {
-      console.log(e);
-      next(e);
-   }
-});
-
-router.get("/weapon/:weapon", async (req, res, next) => {
-   try {
-      let type = req.params.weapon;
-      let characters = await getCharactersOfType(type);
-
-      res.send({ characters: characters });
-   } catch (e) {
-      next(e);
-   }
-});
+router.get("/weapon/:weapon", weapon);
 
 export default router;

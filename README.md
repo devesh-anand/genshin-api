@@ -9,6 +9,8 @@ For contribution guide, refer to [Contribution guidelines](./CONTRIBUTING.md).
 /character/:name
 /character/weapon/:weapontype
 /character/element/:element
+/character/imglist
+/character/imglist/:element
 ```
 
 ### /character (or /characters)
@@ -33,6 +35,12 @@ Gives list of all character of that specific weapon type.
 > :element is one of the elements in game: pyro, cryo, hydro, electro, geo, anemo, dendro
 
 Gives list of all characters of that element.
+
+### /character/imglist/:element
+
+> :element is optional, just call /character/imglist to get all characters.
+
+Gives name, key (eg: For Raiden Shogun, "raiden" is key), img and element.
 
 ## Weapons:
 
