@@ -56,8 +56,10 @@
           "value": "149% / 186%"
         }
       ],
-      "type": "NORMAL_ATTACK"
-    },
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/talent-na.png"
+    }
+    ,
     {
       "name": "Breastplate",
       "unlock": "Elemental Skill",
@@ -88,8 +90,10 @@
           "value": "24s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
-    },
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/talent-skill.png"
+    }
+    ,
     {
       "name": "Sweeping Time",
       "unlock": "Elemental Burst",
@@ -120,7 +124,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -128,18 +133,21 @@
       "name": "Devotion",
       "unlock": "Unlocked at Ascension 1",
       "description": "When Noelle is in the party but not on the field, this ability triggers automatically when the active character's HP falls below 30%:\nCreates a shield that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. This effect can only occur once every 60s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/talent-passive-1.png"
     },
     {
       "name": "Nice and Clean",
       "unlock": "Unlocked at Ascension 4",
       "description": "Every 4 Normal or Charged Attack hits will decrease the CD of Breastplate by 1s.\nHitting multiple enemies with a single attack is only counted as 1 hit.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/talent-passive-2.png"
     },
     {
       "name": "Maid's Knighthood",
       "unlock": "Unlocked Automatically",
-      "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
+      "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -147,39 +155,53 @@
       "name": "I Got Your Back",
       "unlock": "Constellation Lv. 1",
       "description": "While Sweeping Time and Breastplate are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation-1.png"
     },
     {
       "name": "Combat Maid",
       "unlock": "Constellation Lv. 2",
       "description": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation-2.png"
     },
     {
       "name": "Invulnerable Maid",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Breastplate by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation-3.png"
     },
     {
       "name": "To Be Cleaned",
       "unlock": "Constellation Lv. 4",
       "description": "When Breastplate's duration expires or it is destroyed by DMG, it will deal 400% ATK of Geo DMG to surrounding enemies.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation-4.png"
     },
     {
       "name": "Favonius Sweeper Master",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Sweeping Time by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation-5.png"
     },
     {
       "name": "Must Be Spotless",
       "unlock": "Constellation Lv. 6",
       "description": "Sweeping Time increases Noelle's ATK by an additional 50% of her DEF.\nAdditionally, every enemy defeated during the skill's duration adds 1s to the duration, up to 10s.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation-6.png"
     }
   ],
   "vision_key": "GEO",
-  "weapon_type": "CLAYMORE"
+  "weapon_type": "CLAYMORE",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/noelle/portrait.png"
+ }
 }

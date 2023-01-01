@@ -50,7 +50,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-na.png"
     },
     {
       "name": "Starfell Sword",
@@ -70,7 +71,8 @@
           "value": "8s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-skill.png"
     },
     {
       "name": "Wake of Earth",
@@ -94,7 +96,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -102,13 +105,15 @@
       "name": "Shattered Darkrock",
       "unlock": "Unlocked at Ascension 1",
       "description": "Reduces Starfell Sword's CD by 2s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-passive-1.png"
     },
     {
       "name": "Frenzied Rockslide",
       "unlock": "Unlocked at Ascension 4",
       "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG.",
-      "level": 4
+      "level": 4,
+      "img":"https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-passive-2.png"
     }
   ],
   "constellations": [
@@ -116,39 +121,58 @@
       "name": "Invincible Stonewall",
       "unlock": "Constellation Lv. 1",
       "description": "Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation-1.png"
     },
     {
       "name": "Rockcore Meltdown",
       "unlock": "Constellation Lv. 2",
       "description": "When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation-2.png"
     },
     {
       "name": "Will of the Rock",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the level of Wake of Earth by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation-3.png"
     },
     {
       "name": "Reaction Force",
       "unlock": "Constellation Lv. 4",
       "description": "The shockwave triggered by Wake of Earth regenerates 5 Energy for every enemy hit. A maximum of 25 Energy can be recovered in this manner.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation-4.png"
     },
     {
       "name": "Meteorite Impact",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Starfell Sword by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation-5.png"
     },
     {
       "name": "Everlasting Boulder",
       "unlock": "Constellation Lv. 6",
       "description": "The barrier created by Wake of Earth lasts 5s longer. The meteorite created by Starfell Sword lasts 10s longer.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation-6.png"
     }
   ],
   "vision_key": "GEO",
-  "weapon_type": "SWORD"
-}
+  "weapon_type": "SWORD",
+  "img": {
+    
+    "card-aether": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/card-aether.png",
+    "card-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon.png",
+    "icon-big-aether": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon-big-aether.png",
+    "icon-big-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon-big-lumine.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portrait.png",
+    "portrait-aether": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portraitm.png",
+    "portrait-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portraitf.png"
+    }
+ }
+

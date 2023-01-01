@@ -52,7 +52,8 @@
           "value": "114% / 142%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img":"https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-na.png"
     },
     {
       "name": "Icy Paws",
@@ -80,7 +81,8 @@
           "value": "15s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-skill.png"
     },
     {
       "name": "Signature Mix",
@@ -112,7 +114,8 @@
           "value": "80"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -120,18 +123,21 @@
       "name": "Cat's Tail Secret Menu",
       "unlock": "Unlocked at Ascension 1",
       "description": "Characters shielded by Icy Paws have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-passive-1.png"
     },
     {
       "name": "Drunkard's Farce",
       "unlock": "Unlocked at Ascension 4",
       "description": "Opponents who enter the AoE of Signature Mix have 10% decreased ATK for 15s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-passive-2.png"
     },
     {
       "name": "Complimentary Bar Food",
       "unlock": "Unlocked Automatically",
-      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "img": " https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -139,39 +145,53 @@
       "name": "A Lingering Flavor",
       "unlock": "Constellation Lv. 1",
       "description": "Regenerates 15 Energy for Diona after the effects of Signature Mix end.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation-1.png"
     },
     {
       "name": "Shaken, Not Purred",
       "unlock": "Constellation Lv. 2",
       "description": "Increases Icy Paws' DMG by 15%, and increases its shield's DMG Absorption by 15%. Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the Icy Paws shield's DMG Absorption for 5s.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation-2.png"
     },
     {
       "name": "A-Another Round?",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Signature Mix by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation-3.png"
     },
     {
       "name": "Wine Industry Slayer",
       "unlock": "Constellation Lv. 4",
       "description": "Within the radius of Signature Mix, Diona's charge time for aimed shots is reduced by 60%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation-4.png"
     },
     {
       "name": "Double Shot, On The Rocks",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Icy Paws by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation-5.png"
     },
     {
       "name": "Cat's Tail Closing Time",
       "unlock": "Constellation Lv. 6",
       "description": "Characters within Signature Mix's radius will gain the following effects based on their HP amounts:\nIncreasing Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.\nElemental Mastery is increased by 200 when HP is above 50%.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "BOW"
+  "weapon_type": "BOW",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/portrait.png"
+ }
 }

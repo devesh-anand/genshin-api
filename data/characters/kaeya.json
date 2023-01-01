@@ -52,7 +52,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-na.png"
     },
     {
       "name": "Frostgnaw",
@@ -68,7 +69,8 @@
           "value": "6s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-skill.png"
     },
     {
       "name": "Glacial Waltz",
@@ -92,7 +94,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -100,18 +103,21 @@
       "name": "Cold-Blooded Strike",
       "unlock": "Unlocked at Ascension 1",
       "description": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of ATK.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-passive-1.png"
     },
     {
       "name": "Glacial Heart",
       "unlock": "Unlocked at Ascension 4",
       "description": "Enemies Frozen by Frostgnaw will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-passive-2.png"
     },
     {
       "name": "Hidden Strength",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party member's sprinting Stamina consumption by 20%."
+      "description": "Decreases all party member's sprinting Stamina consumption by 20%.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -119,39 +125,53 @@
       "name": "Excellent Blood",
       "unlock": "Constellation Lv. 1",
       "description": "The CRIT Rate of Normal Attack and Charged Attack DMG against enemies affected by the Cold or Frozen status effects is increased by 15%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation-1.png"
     },
     {
       "name": "Never-Ending Performance",
       "unlock": "Constellation Lv. 2",
       "description": "Every time Glacial Waltz defeats an enemy, its duration is increased by 2.5s, up to a maximum of 15s.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation-2.png"
     },
     {
       "name": "Dance of Frost",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Frostgnaw by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation-3.png"
     },
     {
       "name": "Frozen Kiss",
       "unlock": "Constellation Lv. 4",
       "description": "Triggers automatically when Kaeya's HP falls below 20%:\nCreates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s.\nThis shield absorbs Cryo DMG with 250% efficiency.\nCan only occur once every 60s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation-4.png"
     },
     {
       "name": "Frostbiting Embrace",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Glacial Waltz by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation-5.png"
     },
     {
       "name": "Glacial Whirlwind",
       "unlock": "Constellation Lv. 6",
       "description": "Glacial Waltz will generate 1 additional icicle, and will regenerate 15 Energy when cast.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
-  "weapon_type": "SWORD"
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/portrait.png"
+ }
 }

@@ -40,7 +40,8 @@
           "value": "114% / 142%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-na.png"
     },
     {
       "name": "Jade Screen",
@@ -60,7 +61,8 @@
           "value": "12s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-skill.png"
     },
     {
       "name": "Starshatter",
@@ -80,7 +82,8 @@
           "value": "40"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -88,18 +91,21 @@
       "name": "Backup Plan",
       "unlock": "Unlocked at Ascension 1",
       "description": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-passive-1.png"
     },
     {
       "name": "Strategic Reserve",
       "unlock": "Unlocked at Ascension 4",
       "description": "A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-passive-2.png"
     },
     {
       "name": "Trove of Marvelous Treasure",
       "unlock": "Unlocked Automatically",
-      "description": "Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, and Magical Crystal Ore) on the mini-map."
+      "description": "Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, and Magical Crystal Ore) on the mini-map.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -107,41 +113,55 @@
       "name": "Piercing Fragments",
       "unlock": "Constellation Lv. 1",
       "description": "When a Normal Attack hits, it deals AoE DMG.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation-1.png"
     },
     {
       "name": "Shock Effect",
       "unlock": "Constellation Lv. 2",
       "description": "When Jade Screen is shattered, its CD will reset.\nCan occur once every 6s.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation-2.png"
     },
     {
       "name": "Majesty be the Array of Stars",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Starshatter by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation-3.png"
     },
     {
       "name": "Exquisite be the Jade, Outshining All the Beneath",
       "unlock": "Constellation Lv. 4",
       "description": "Jade Screen increases nearby characters' Elemental RES by 10%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation-4.png"
     },
     {
       "name": "Invincible be the Jade Screen",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Jade Screen by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation-5.png"
     },
     {
       "name": "Grandeur be the Seven Stars",
       "unlock": "Constellation Lv. 6",
       "description": "When Starshatter is used, Ningguang gains 7 Star Jades.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation-6.png"
     }
   ],
   "vision_key": "GEO",
   "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/portrait.png"
+ },
   "outfits": [
     {
       "type": "Formal",
@@ -149,7 +169,7 @@
       "description": "Ningguang's formal wear. The long cyan skirt traces her elegant curves, and the butterfly wings at her ankles lend the outfit a touch of light grace.",
       "rarity": 4,
       "price": 1680,
-      "image": "outfit-orchids-evening-gown"
+      "image": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/outfit-orchids-evening-gown.png"
     }
   ]
 }
