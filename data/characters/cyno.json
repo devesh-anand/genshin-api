@@ -44,7 +44,8 @@
                "value": "127.8% / 159.7%"
             }
          ],
-         "type": "NORMAL_ATTACK"
+         "type": "NORMAL_ATTACK",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-na.png"
       },
       {
          "name": "Secret Rite: Chasmic Soulfarer",
@@ -72,7 +73,8 @@
                "value": "3s"
             }
          ],
-         "type": "ELEMENTAL_SKILL"
+         "type": "ELEMENTAL_SKILL",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-skill.png"
       },
       {
          "name": "Sacred Rite: Wolf's Swiftness",
@@ -128,7 +130,8 @@
                "value": "80"
             }
          ],
-         "type": "ELEMENTAL_BURST"
+         "type": "ELEMENTAL_BURST",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-burst.png"
       }
    ],
    "passiveTalents": [
@@ -136,18 +139,21 @@
          "name": "Featherfall Judgment",
          "unlock": "Unlocked at Ascension 1",
          "description": "When Cyno is in the Pactsworn Pathclearer state activated by Sacred Rite: Wolf's Swiftness, Cyno will enter the Endseer stance at intervals. If he activates Secret Rite: Chasmic Soulfarer while affected by this stance, he will activate the Judication effect, increasing the DMG of this Secret Rite: Chasmic Soulfarer by 35%, and firing off 3 Duststalker Bolts that deal 100% of Cyno's ATK as Electro DMG.\nDuststalker Bolt DMG is considered Elemental Skill DMG.",
-         "level": 1
+         "level": 1,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-1.png"
       },
       {
          "name": "Authority Over the Nine Bows",
          "unlock": "Unlocked at Ascension 4",
          "description": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n- Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n- Duststalker Bolt DMG from his Passive Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.",
-         "level": 4
+         "level": 4,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-2.png"
       },
       {
          "name": "The Gift of Silencee",
          "unlock": "Unlocked Automatically",
-         "description": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours."
+         "description": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-0.png"
       }
    ],
    "constellations": [
@@ -155,40 +161,54 @@
          "name": "Ordinance: Unceasing Vigil",
          "unlock": "Constellation Lv. 1",
          "description": "After using Sacred Rite: Wolf's Swiftness, Cyno's Normal Attack SPD will be increased by 20% for 10s. If the Judication effect of his Passive Talent Featherfall Judgment is triggered during Secret Rite: Chasmic Soulfarer, the duration of this increase will be refreshed.\nYou need to unlock the Passive Talent \"Featherfall Judgement.\"",
-         "level": 1
+         "level": 1,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation-1.png"
       },
       {
          "name": "Ceremony: Homecoming of Spirits",
          "unlock": "Constellation Lv. 2",
          "description": "When Cyno's Normal Attacks hit opponents, his Electro DMG Bonus will increase by 10% for 4s. This effect can be triggered once every 0.1s. Max 5 stacks.",
-         "level": 2
+         "level": 2,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation-2.png"
       },
       {
          "name": "Precept: Lawful Enforcer",
          "unlock": "Constellation Lv. 3",
          "description": "Increases the Level of Sacred Rite: Wolf's Swiftness by 3.\nMaximum upgrade level is 15.",
-         "level": 3
+         "level": 3,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation-3.png"
       },
       {
          "name": "Austerity: Forbidding Guard",
          "unlock": "Constellation Lv. 4",
          "description": "When Cyno is in the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, after he triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself).\nThis effect can occur 5 times within one use of Sacred Rite: Wolf’s Swiftness.",
-         "level": 4
+         "level": 4,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation-4.png"
       },
       {
          "name": "Funerary Rite: The Passing of Starlight",
          "unlock": "Constellation Lv. 5",
          "description": "Increases the Level of Secret Rite: Chasmic Soulfarer by 3.\nMaximum upgrade level is 15.",
-         "level": 5
+         "level": 5,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation-5.png"
       },
       {
          "name": "Raiment: Just Scales",
          "unlock": "Constellation Lv. 6",
          "description": "After using Sacred Rite: Wolf's Swiftness or triggering the Judication effect of the Passive Talent \"Featherfall Judgment,\" Cyno will gain 4 stacks of the \"Day of the Jackal\" effect. When he hits opponents with Normal Attacks, he will consume 1 stack of \"Day of the Jackal\" to fire off one Duststalker Bolt.\n\"Day of the Jackal\" lasts for 8s. Max 8 stacks. It will be canceled once Pactsworn Pathclearer ends.\nA maximum of 1 Duststalker Bolt can be unleashed this way every 0.4s.\nYou must first unlock the Passive Talent \"Featherfall Judgment.\"",
-         "level": 6
+         "level": 6,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation-6.png"
       }
    ],
    "vision_key": "ELECTRO",
    "name_key": "cyno",
-   "weapon_type": "POLEARM"
+   "weapon_type": "POLEARM",
+   "img": {
+      "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/card.png",
+      "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/constellation.png",
+      "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/gacha-splash.png",
+      "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/icon-big.png",
+      "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/icon-big.png",
+      "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/portrait.png"
+   }
 }

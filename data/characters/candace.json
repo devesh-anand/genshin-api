@@ -48,7 +48,8 @@
                "value": "128% / 160%"
             }
          ],
-         "type": "NORMAL_ATTACK"
+         "type": "NORMAL_ATTACK",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-na.png"
       },
       {
          "name": "Sacred Rite: Heron's Sanctum,",
@@ -76,7 +77,8 @@
                "value": "9.0s"
             }
          ],
-         "type": "ELEMENTAL_SKILL"
+         "type": "ELEMENTAL_SKILL",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-skill.png"
       },
       {
          "name": "Sacred Rite: Wagtail's Tide",
@@ -112,7 +114,8 @@
                "value": "60"
             }
          ],
-         "type": "ELEMENTAL_BURST"
+         "type": "ELEMENTAL_BURST",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-burst.png"
       }
    ],
    "passiveTalents": [
@@ -120,18 +123,21 @@
          "name": "Aegis of Crossed Arrows",
          "unlock": "Unlocked at Ascension 1",
          "description": "If Candace is hit by an attack in the Hold duration of Sacred Rite: Heron's Sanctum, that skill will finish charging instantly.",
-         "level": 1
+         "level": 1,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-passive-1.png"
       },
       {
          "name": "Celestial Dome of Sand",
          "unlock": "Unlocked at Ascension 4",
          "description": "Characters affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide will deal 0.5% increased DMG to opponents every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
-         "level": 4
+         "level": 4,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-passive-2.png"
       },
       {
          "name": "To Dawn's First Light",
          "unlock": "Unlocked Automatically",
-         "description": "Decreases climbing Stamina consumption for your own party members by 20%. Not stackable with Passive Talents that provide the same effects."
+         "description": "Decreases climbing Stamina consumption for your own party members by 20%. Not stackable with Passive Talents that provide the same effects.",
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-passive-0.png"
       }
    ],
    "constellations": [
@@ -139,39 +145,53 @@
          "name": "Returning Heiress of the Scarlet Sands",
          "unlock": "Constellation Lv. 1",
          "description": "The duration of Player of the Crimson Crown effect triggered by Sacred Rite: Wagtail's Tide is increased by 3s.",
-         "level": 1
+         "level": 1,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation-1.png"
       },
       {
          "name": "Moon-Piercing Brilliance",
          "unlock": "Constellation Lv. 2",
          "description": "When Sacred Rite: Heron's Sanctum hits opponents, Candace's Max HP will be increased by 20% for 15s.",
-         "level": 2
+         "level": 2,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation-2.png"
       },
       {
          "name": "Hunter's Supplication",
          "unlock": "Constellation Lv. 3",
          "description": "Increases the Level of Sacred Rite: Wagtail's Tide by 3.\nMaximum upgrade level is 15.",
-         "level": 3
+         "level": 3,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation-3.png"
       },
       {
          "name": "Sentinel Oath",
          "unlock": "Constellation Lv. 4",
          "description": "Shortens the Hold CD of Sacred Rite: Heron's Sanctum to be the same as that of the Tapping CD.",
-         "level": 4
+         "level": 4,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation-4.png"
       },
       {
          "name": "Heterochromatic Gaze",
          "unlock": "Constellation Lv. 5",
          "description": "Increases the Level of Sacred Rite: Heron's Sanctum by 3.\nMaximum upgrade level is 15.",
-         "level": 5
+         "level": 5,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation-5.png"
       },
       {
          "name": "The Overflow",
          "unlock": "Constellation Lv. 6",
          "description": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals AoE Hydro DMG equal to 15% of Candace's Max HP.\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
-         "level": 6
+         "level": 6,
+         "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation-6.png"
       }
    ],
    "vision_key": "HYDRO",
-   "weapon_type": "POLEARM"
+   "weapon_type": "POLEARM",
+   "img": {
+      "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/card.png",
+      "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/constellation.png",
+      "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/gacha-splash.png",
+      "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/icon.png",
+      "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/icon-big.png",
+      "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/portrait.png"
+   }
 }

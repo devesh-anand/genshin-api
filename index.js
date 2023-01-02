@@ -9,6 +9,7 @@ import miscRoutes from "./routes/misc/miscRoutes.js";
 import weaponRoutes from "./routes/weapons/weaponRoutes.js";
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -26,6 +27,6 @@ app.use("/others", miscRoutes);
 
 app.use(errorHandle);
 
-app.listen(process.env.PORT, () => {
-   console.log(`app running`);
+app.listen(PORT, () => {
+   console.log(`app running on port ${PORT}`);
 });
