@@ -52,7 +52,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-na.png"
     },
     {
       "name": "Gale Blade",
@@ -76,7 +77,8 @@
           "value": "6s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-skill.png"
     },
     {
       "name": "Dandelion Breeze",
@@ -108,7 +110,8 @@
           "value": "80"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -116,18 +119,21 @@
       "name": "Wind Companion",
       "unlock": "Unlocked at Ascension 1",
       "description": "Hits by Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-passive-1.png"
     },
     {
       "name": "Let the Wind Lead",
       "unlock": "Unlocked at Ascension 4",
       "description": "Using Dandelion Breeze will regenerate 20% of its Energy.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-passive-2.png"
     },
     {
       "name": "Guiding Breeze",
       "unlock": "Unlocked Automatically",
-      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+      "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -135,37 +141,43 @@
       "name": "Spiraling Tempest",
       "unlock": "Constellation Lv. 1",
       "description": "Increases the pulling speed of Gale Blade after holding for more than 1s, and increases the DMG dealt by 40%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation-1.png"
     },
     {
       "name": "People's Aegis",
       "unlock": "Constellation Lv. 2",
       "description": "When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation-2.png"
     },
     {
       "name": "When the West Wind Arises",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Dandelion Breeze by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation-3.png"
     },
     {
       "name": "Lands of Dandelion",
       "unlock": "Constellation Lv. 4",
       "description": "Within the Field created by Dandelion Breeze, all enemies have their Anemo RES decreased by 40%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation-4.png"
     },
     {
       "name": "Outbursting Gust",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Gale Blade by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation-5.png"
     },
     {
       "name": "Lion's Fang, Fair Protector of Mondstadt",
       "unlock": "Constellation Lv. 6",
       "description": "Incoming DMG is decreased by 35% within the Field created by Dandelion Breeze. Upon leaving the Dandelion Field, this effect lasts for 3 attacks or 10s.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
@@ -177,7 +189,16 @@
       "description": "Jean's summer wear. Light and cool, but no less elegant for it. The perfect choice for a trip to the seaside.",
       "rarity": 4,
       "price": 1680,
-      "image": "outfit-sea-breeze-dandelion"
+      "image": "outfit-sea-breeze-dandelion",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/outfit-sea-breeze-dandelion.png"
     }
-  ]
+  ],
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/portrait.png"
+ }
 }

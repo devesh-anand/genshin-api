@@ -48,7 +48,8 @@
           "value": "114% / 142%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-na.png"
     },
     {
       "name": "Reflection of Doom",
@@ -68,7 +69,8 @@
           "value": "12s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-skill.png"
     },
     {
       "name": "Stellaris Phantasm",
@@ -100,7 +102,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-burst.png"
     },
     {
       "name": "Illusory Torrent",
@@ -115,7 +118,8 @@
           "name": "Stamina Drain",
           "value": "15/s"
         }
-      ]
+      ],
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-misc.png"
     }
   ],
   "passiveTalents": [
@@ -123,18 +127,21 @@
       "name": "Come 'n' Get Me, Hag!",
       "unlock": "Unlocked at Ascension 1",
       "description": "After she has used Illusory Torrent for 2s, if there are any enemies nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-1.png"
     },
     {
       "name": "Waterborne Destiny",
       "unlock": "Unlocked at Ascension 4",
       "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-2.png"
     },
     {
       "name": "Principium of Astrology",
       "unlock": "Unlocked Automatically",
-      "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used."
+      "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -142,39 +149,53 @@
       "name": "Prophecy of Submersion",
       "unlock": "Constellation Lv. 1",
       "description": "The effects of Hydro-related Elemental Reactions are enhanced for 8s after a character hits an enemy affected by an Omen:\nElectro-Charged DMG is increased by 15%.\nVaporize DMG is increased by 15%.\nHydro Swirl DMG is increased by 15%.\nThe duration for which enemies are Frozen is increased by 15%.",
-      "level": 1
+      "level": 1,
+      "img": ""
     },
     {
       "name": "Lunar Chain",
       "unlock": "Constellation Lv. 2",
       "description": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\nThis effect can only occur once every 5s.",
-      "level": 2
+      "level": 2,
+      "img": ""
     },
     {
       "name": "Restless Revolution",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Stellaris Phantasm by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": ""
     },
     {
       "name": "Prophecy of Oblivion",
       "unlock": "Constellation Lv. 4",
       "description": "When a character attacks an enemy affected by the Omen status effect, their CRIT Rate is increased by 15%.",
-      "level": 4
+      "level": 4,
+      "img": ""
     },
     {
       "name": "Mockery of Fortuna",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Mirror Reflection of Doom by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": ""
     },
     {
       "name": "Rhetorics of Calamitas",
       "unlock": "Constellation Lv. 6",
       "description": "Upon entering Illusory Torrent, Mona gain a 60% increase to the DMG her next Charged Attack per second of movement.\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
-      "level": 6
+      "level": 6,
+      "img": ""
     }
   ],
   "vision_key": "HYDRO",
-  "weapon_type": "CATALYST"
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/portrait.png"
+ }
 }

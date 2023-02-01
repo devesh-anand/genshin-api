@@ -68,7 +68,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-na.png"
     },
     {
       "name": "Foul Legacy: Raging Tide",
@@ -128,7 +129,8 @@
           "value": "45s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-skill.png"
     },
     {
       "name": "Havor: Obliteration",
@@ -160,7 +162,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -168,18 +171,21 @@
       "name": "Never Ending",
       "unlock": "Unlocked at Ascension 1",
       "description": "Extends Riptide duration by 8s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-passive-1.png"
     },
     {
       "name": "Sword of Torrents",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, or if his Normal and Charged Attacks do CRIT DMG, they will apply the Riptide status effect on the hit enemy.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-passive-2.png"
     },
     {
       "name": "Master of Weaponry",
       "unlock": "Unlocked Automatically",
-      "description": "Increases your own party member's Normal Attack Level by 1."
+      "description": "Increases your own party member's Normal Attack Level by 1.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -187,39 +193,53 @@
       "name": "Foul Legacy: Tide Withholder",
       "unlock": "Constellation Lv. 1",
       "description": "Decreases the CD of Foul Legacy: Raging Tide by 20%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation-1.png"
     },
     {
       "name": "Foul Legacy: Understream",
       "unlock": "Constellation Lv. 2",
       "description": "When opponents affected by Riptide are defeated, Tartaglia regenerates 4 Elemental Energy.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation-2.png"
     },
     {
       "name": "Abyssal Mayhem: Vortex of Turmoil",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Foul Legacy: Raging Tide by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation-3.png"
     },
     {
       "name": "Abyssal Mayhem: Hydrospout",
       "unlock": "Constellation Lv. 4",
       "description": "If Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, triggers Riptide Slash against opponents on the field affected by Riptide every 4s, otherwise, triggers Riptide Flash.\nRiptide Slashes and Riptide Flashes triggered by this Constellation effect are not subject to the time intervals that would typically apply to these two Riptide effects, nor do they have any effect on those time intervals.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation-4.png"
     },
     {
       "name": "Havoc: Formless Blade",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Havoc: Obliteration by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation-5.png"
     },
     {
       "name": "Havoc: Annihilation",
       "unlock": "Constellation Lv. 6",
       "description": "When Havoc: Obliteration is cast in Melee Stance, the CD of Foul Legacy: Raging Tide is reset.\nThis effect will only take place once Tartaglia returns to his Ranged Stance.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation-6.png"
     }
   ],
   "vision_key": "HYDRO",
-  "weapon_type": "BOW"
+  "weapon_type": "BOW",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/portrait.png"
+ }
 }

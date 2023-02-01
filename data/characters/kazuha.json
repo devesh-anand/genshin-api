@@ -52,7 +52,8 @@
           "value": "164% / 204%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/talent-na.png"
     },
     {
       "name": "Chihayaburu",
@@ -76,7 +77,8 @@
           "value": "9s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/talent-skill.png"
     },
     {
       "name": "Kazuha Slash",
@@ -108,7 +110,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -116,18 +119,21 @@
       "name": "Soumon Swordsmanship",
       "unlock": "Unlocked at Ascension 1",
       "description": "If Chihayaburu comes into contact with Hydro/Pyro/Cryo/Electro when cast, Chihayaburu will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG.\nElemental Absorption may only occur once per use of Chihayaburu.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/talent-passive-1.png"
     },
     {
       "name": "Poetics of Fuubutsu",
       "unlock": "Unlocked at Ascension 4",
       "description": "Upon triggering a Swirl reaction, Kaedehara Kazuha will grant all party members a 0.04% Elemental DMG Bonus to the element absorbed by Swirl for every point of Elemental Mastery he has for 8s. Bonuses for different elements obtained through this method can co-exist.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/talent-passive-2.png"
     },
     {
       "name": "Cloud Strider",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -135,39 +141,53 @@
       "name": "Scarlet Hills",
       "unlock": "Constellation Lv. 1",
       "description": "Decreases Chihayaburu's CD by 10%.\nUsing Kazuha Slash resets the CD of Chihayaburu.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation-1.png"
     },
     {
       "name": "Yamaarashi Tailwind",
       "unlock": "Constellation Lv. 2",
       "description": "The Autumn Whirlwind field created by Kazuha Slash has the following effects:\n- Increases Kaedehara Kazuha's own Elemental Mastery by 200.\n- Increases the Elemental Mastery of characters within the field by 200.\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation-2.png"
     },
     {
       "name": "Maple Monogatari",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Chihayaburu by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation-3.png"
     },
     {
       "name": "Oozora Genpou",
       "unlock": "Constellation Lv. 4",
       "description": "When Kaedehara Kazuha's Energy is lower than 45, he obtains the following effects:\n-Pressing or Holding Chihayaburu regenerates 3 or 4 Energy for Kaedehara Kazuha, respectively.\n- When gliding, Kaedehara Kazuha regenerates 2 Energy per second.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation-4.png"
     },
     {
       "name": "Wisdom of Bansei",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Kazuha Slash by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation-5.png"
     },
     {
       "name": "Crimson Momiji",
       "unlock": "Constellation Lv. 6",
       "description": "After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusion for 5s. Additionally, each point of Elemental Mastery will increase the DMG dealt by Kaedehara Kazuha's Normal, Charged, and Plunging Attack by 0.2%.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
-  "weapon_type": "SWORD"
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kazuha/portrait.png"
+ }
 }

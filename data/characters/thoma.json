@@ -47,7 +47,8 @@
                     "value": "127.8% / 159.7%"
                 }
             ],
-            "type": "NORMAL_ATTACK"
+            "type": "NORMAL_ATTACK",
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-na.png"
         },
         {
             "name": "Blazing Blessing",
@@ -70,7 +71,8 @@
                     "name": "CD", "value": "15s"
                 }
             ],
-            "type": "ELEMENTAL_SKILL"
+            "type": "ELEMENTAL_SKILL",
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-skill.png"
         },
         {
             "name": "Crimson Ooyoroi",
@@ -106,7 +108,8 @@
                     "value": "80"
                 }
             ],
-            "type": "ELEMENTAL_BURST"
+            "type": "ELEMENTAL_BURST",
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-burst.png"
         }
     ],
     "passiveTalents": [
@@ -114,18 +117,21 @@
             "name": "Imbricated Armor",
             "unlock": "Unlocked at Ascension 1",
             "description": "When your current active character obtains or refreshes a Blazing Barrier, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3 seconds. Max 5 stacks.",
-            "level": 1
+            "level": 1,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-1.png"
         },
         {
             "name": "Flaming Assault",
             "unlock": "Unlocked at Ascension 4",
             "description": "DMG dealt by Crimson Ooyoroi's Fiery Collapse is increased by 2.2% of Thoma's Max HP. ",
-            "level": 4
+            "level": 4,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-2.png"
         },
         {
             "name": "Snap and Swing",
             "unlock": "Unlocked Automatically",
-            "description": "When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch."
+            "description": "When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-0.png"
         }
     ],
     "constellations": [
@@ -133,39 +139,53 @@
             "name": "A Comrade's Duty",
             "unlock": "Constellation Lv. 1",
             "description": "When a character protected by Thoma's own Blazing Barrier (Thoma excluded) is attacked, Thoma's own Blazing Blessing CD is decreased by 3s, while his own Crimson Ooyoroi's CD is decreased by 3s.\nThis effect can be triggered once every 20s.",
-            "level": 1
+            "level": 1,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-1.png"
         },
         {
             "name": "A Subordinate's Skills",
             "unlock": "Constellation Lv. 2",
             "description": "Crimson Ooyoroi's duration is increased by 3s. ",
-            "level": 2
+            "level": 2,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-2.png"
         },
         {
             "name": "Fortified Resolve",
             "unlock": "Constellation Lv. 3",
             "description": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15. ",
-            "level": 3
+            "level": 3,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-3.png"
         },
         {
             "name": "Long-Term Planning",
             "unlock": "Constellation Lv. 4",
             "description": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma. ",
-            "level": 4
+            "level": 4,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-4.png"
         },
         {
             "name": "Raging Wildfire",
             "unlock": "Constellation Lv. 5",
             "description": "Increases the Level of Crimson Ooyoroi by 3.\nMaximum upgrade level is 15.",
-            "level": 5
+            "level": 5,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-5.png"
         },
         {
             "name": "Burning Heart",
             "unlock": "Constellation Lv. 6",
             "description": "When a Blazing Barrier is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
-            "level": 6
+            "level": 6,
+            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-6.png"
         }
     ],
     "vision_key": "PYRO",
-    "weapon_type": "POLEARM"
+    "weapon_type": "POLEARM",
+    "img": {
+      "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/card.png",
+      "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation.png",
+      "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/portrait.png",
+      "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/icon.png",
+      "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/icon-big.png",
+      "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/portrait.png"
+   }
 }
