@@ -50,7 +50,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/talent-na.png"
     },
     {
       "name": "Palm Vortex",
@@ -78,7 +79,8 @@
           "value": "5 / 8s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/talent-skill.png"
     },
     {
       "name": "Gust Surge",
@@ -106,7 +108,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -114,13 +117,15 @@
       "name": "Slitting Wind",
       "unlock": "Unlocked at Ascension 1",
       "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/talent-passive-1.png"
     },
     {
       "name": "Second Wind",
       "unlock": "Unlocked at Ascension 4",
       "description": "Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/talent-passive-2.png"
     }
   ],
   "constellations": [
@@ -128,39 +133,53 @@
       "name": "Raging Vortex",
       "unlock": "Constellation Lv. 1",
       "description": "Decreases the CD of Foul Legacy: Raging Tide by 20%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation-1.png"
     },
     {
       "name": "Uprising Whirlwind",
       "unlock": "Constellation Lv. 2",
       "description": "Increases Energy Recharge by 16%.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation-2.png"
     },
     {
       "name": "Sweeping Gust",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the level of Gust Surge by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation-3.png"
     },
     {
       "name": "Cherishing Breezes",
       "unlock": "Constellation Lv. 4",
       "description": "Reduces DMG taken while casting Palm Vortex by 10%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation-4.png"
     },
     {
       "name": "Vortex Stellaris",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Palm Vortex by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation-5.png"
     },
     {
       "name": "Intertwined Winds",
       "unlock": "Constellation Lv. 6",
       "description": "Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
-  "weapon_type": "SWORD"
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/portrait.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/icon.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-anemo/portrait.png"
+  }
 }

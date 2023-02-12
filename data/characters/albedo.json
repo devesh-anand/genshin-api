@@ -103,9 +103,9 @@
   "img": {
     "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/card.png",
     "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/icon-big.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/gacha-splash.png.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/icon.png.png.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/icon-big.png.png.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/albedo/portrait.png"
  }
 }

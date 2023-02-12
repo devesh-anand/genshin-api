@@ -52,7 +52,8 @@
           "value": "128% / 160%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/talent-na.png"
     },
     {
       "name": "Guoba Attack",
@@ -68,7 +69,8 @@
           "value": "12s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/talent-skill.png"
     },
     {
       "name": "Pyronado",
@@ -104,7 +106,8 @@
           "value": "80"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -112,18 +115,21 @@
       "name": "Crossfire",
       "unlock": "Unlocked at Ascension 1",
       "description": "Increases the flame range of Guoba by 20%.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/talent-passive-1.png"
     },
     {
       "name": "Beware, It's Super Hot!",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Guoba Attack's effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/talent-passive-2.png"
     },
     {
       "name": "Chef de Cuisine",
       "unlock": "Unlocked Automatically",
-      "description": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product."
+      "description": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -131,39 +137,53 @@
       "name": "Crispy Outside, Tender Inside",
       "unlock": "Constellation Lv. 1",
       "description": "Enemies hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation-1.png"
     },
     {
       "name": "Oil Meets Fire",
       "unlock": "Constellation Lv. 2",
       "description": "The last attack in a Normal Attack sequence applies the Implode status onto the enemy for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation-2.png"
     },
     {
       "name": "Deepfry",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Pyronado by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation-3.png"
     },
     {
       "name": "Slowbake",
       "unlock": "Constellation Lv. 4",
       "description": "Pyronado's duration is increased by 40%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation-4.png"
     },
     {
       "name": "Guoba Mad",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Guoba Attack by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation-5.png"
     },
     {
       "name": "Condensed Pyronado",
       "unlock": "Constellation Lv. 6",
       "description": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation-6.png"
     }
   ],
   "vision_key": "PYRO",
-  "weapon_type": "POLEARM"
+  "weapon_type": "POLEARM",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/gacha-card.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiangling/portrait.png"
+  }
 }

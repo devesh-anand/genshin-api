@@ -56,7 +56,8 @@
           "value": "114% / 142%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-na.png"
     },
     {
       "name": "Skyward Sonnet",
@@ -80,7 +81,8 @@
           "value": "15s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-skill.png"
     },
     {
       "name": "Wind's Grand Ode",
@@ -108,7 +110,8 @@
           "value": "60"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -116,18 +119,21 @@
       "name": "Embrace of Winds",
       "unlock": "Unlocked at Ascension 1",
       "description": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-passive-1.png"
     },
     {
       "name": "Stormeye",
       "unlock": "Unlocked at Ascension 4",
       "description": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-passive-2.png"
     },
     {
       "name": "Windrider",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party member's gliding Stamina Consumption by 20%."
+      "description": "Decreases all party member's gliding Stamina Consumption by 20%.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -135,39 +141,53 @@
       "name": "Splitting Gale",
       "unlock": "Constellation Lv. 1",
       "description": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation-1.png"
     },
     {
       "name": "Breeze of Reminiscence",
       "unlock": "Constellation Lv. 2",
       "description": "Skyward Sonnet decreases enemy Anemo RES by 12% for 10s.\nEnemies launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation-2.png"
     },
     {
       "name": "Ode to Thousand Winds",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Wind's Grand Ode by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation-3.png"
     },
     {
       "name": "Hurricane of Freedom",
       "unlock": "Constellation Lv. 4",
       "description": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation-4.png"
     },
     {
       "name": "Concierto dal Cielo",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Skyward Sonnet by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation-5.png"
     },
     {
       "name": "Storm of Defiance",
       "unlock": "Constellation Lv. 6",
       "description": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
-  "weapon_type": "BOW"
+  "weapon_type": "BOW",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/portrait.png"
+  }
 }

@@ -113,7 +113,7 @@
       "unlock": "Unlocked at Ascension 4",
       "description": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG.",
       "level": 4,
-      "img":"https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-passive-2.png"
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/talent-passive-2.png"
     }
   ],
   "constellations": [
@@ -163,16 +163,16 @@
   "vision_key": "GEO",
   "weapon_type": "SWORD",
   "img": {
-    
     "card-aether": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/card-aether.png",
     "card-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/card.png",
     "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/constellation.png",
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon.png",
     "icon-big-aether": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon-big-aether.png",
     "icon-big-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/icon-big-lumine.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portrait.png",
     "portrait-aether": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portraitm.png",
-    "portrait-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portraitf.png"
-    }
- }
-
+    "portrait-lumine": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portraitf.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveller-geo/portrait.png"
+  }
+}
