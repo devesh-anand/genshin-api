@@ -44,7 +44,8 @@
           "value": "114% / 142%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-na.png"
     },
     {
       "name": "Yakan Evocation: Sesshou Sakura",
@@ -60,8 +61,8 @@
           "value": "76%"
         },
         {
-        "name": "Level 3 DMG",
-        "value": "95%"
+          "name": "Level 3 DMG",
+          "value": "95%"
         },
         {
           "name": "Level 4 DMG",
@@ -76,7 +77,8 @@
           "value": "4s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-skill.png"
     },
     {
       "name": "Great Secret Art: Tenko Kenshin",
@@ -100,7 +102,8 @@
           "value": "90"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -108,18 +111,21 @@
       "name": "The Shrine's Sacred Shade",
       "unlock": "Unlocked at Ascension 1",
       "description": "When casting Great Secret Art: Tenko Kenshin, each Sesshou Sakura destroyed resets the cooldown for 1 charge of Yakan Evocation: Sesshou Sakura.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-passive-1.png"
     },
     {
       "name": "Enlightened Blessing",
       "unlock": "Unlocked at Ascension 4",
       "description": "Every point of Elemental Mastery Yae Miko possesses will increase Sesshou Sakura DMG by 0.15%.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-passive-2.png"
     },
     {
       "name": "Meditations of a Yako",
       "unlock": "Unlocked Automatically",
-      "description": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material."
+      "description": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -127,39 +133,53 @@
       "name": "Yakan Offering",
       "unlock": "Constellation Lv. 1",
       "description": "Each time Great Secret Art: Tenko Kenshin activates a Tenko Thunderbolt, Yae Miko will restore 8 Elemental Energy for herself.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation-1.png"
     },
     {
       "name": "Fox's Mooncall",
       "unlock": "Constellation Lv. 2",
       "description": "Sesshou Sakura start at Level 2 when created, their max level is increased to 4, and their attack range is increased by 60%.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation-2.png"
     },
     {
       "name": "The Seven Glamours",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Yakan Evocation: Sesshou Sakura by 3.\nMaximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation-3.png"
     },
     {
       "name": "Sakura Channeling",
       "unlock": "Constellation Lv. 4",
       "description": "When Sesshou Sakura lightning hits opponents, the Electro DMG Bonus of all nearby party members is increased by 20% for 5s.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation-4.png"
     },
     {
       "name": "Mischevious Teasing",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Great Secret Art: Tenko Kenshin by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation-5.png"
     },
     {
       "name": "Forbidden Art: Daisesshou",
       "unlock": "Constellation Lv. 6",
       "description": "The Sesshou Sakura's attacks will ignore 60% of the opponents' DEF.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation-6.png"
     }
   ],
   "vision_key": "ELECTRO",
-  "weapon_type": "CATALYST"
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/portrait.png"
+  }
 }

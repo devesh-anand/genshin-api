@@ -52,7 +52,8 @@
           "value": "113.6% / 141.9%"
         }
       ],
-      "type": "NORMAL_ATTACK"
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/talent-na.png"
     },
     {
       "name": "Signed Edict",
@@ -68,7 +69,8 @@
           "value": "9s"
         }
       ],
-      "type": "ELEMENTAL_SKILL"
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/talent-skill.png"
     },
     {
       "name": "Done Deal",
@@ -88,7 +90,8 @@
           "value": "40"
         }
       ],
-      "type": "ELEMENTAL_BURST"
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -96,18 +99,21 @@
       "name": "Proviso",
       "unlock": "Unlocked at Ascension 1",
       "description": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This effect lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/talent-passive-1.png"
     },
     {
       "name": "Blazing Eye",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/talent-passive-2.png"
     },
     {
       "name": "Encyclopedic Expertise",
       "unlock": "Unlocked Automatically",
-      "description": "Displays the location of nearby resources unique to Liyue on the mini-map."
+      "description": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -115,39 +121,53 @@
       "name": "The Law Knows No Kindness",
       "unlock": "Constellation Lv. 1",
       "description": "When Yanfei uses her Charged Attacks,each existing Scarlet Seal additionally reduces the stamina cost of this Charged Attack by 10% and increases resistance against interruption during its release.",
-      "level": 1
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation-1.png"
     },
     {
       "name": "Right of Final Interpretation",
       "unlock": "Constellation Lv. 2",
       "description": "Increases Yanfei's Charged Attack CRIT rate by 20% against enemies below 50% HP.",
-      "level": 2
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation-2.png"
     },
     {
       "name": "Samadhi Fire-Forged",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Signed Edict by 3. Maximum upgrade level is 15.",
-      "level": 3
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation-3.png"
     },
     {
       "name": "Supreme Amnesty",
       "unlock": "Constellation Lv. 4",
       "description": "When Done Deal is used:\nCreates a shield which absorbes upto 45% of Yanfei's Max HP for 15s. This shield absorbes Pyro DMG 250% more efficiently.",
-      "level": 4
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation-4.png"
     },
     {
       "name": "Abiding Affidavit",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of Done Deal by 3.\nMaximum upgrade level is 15.",
-      "level": 5
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation-5.png"
     },
     {
       "name": "Extra Clause",
       "unlock": "Constellation Lv. 6",
       "description": "Increases the maximum number of Scarlet Seals by 1.",
-      "level": 6
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation-6.png"
     }
   ],
   "vision_key": "PYRO",
-  "weapon_type": "CATALYST"
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/gacha-card.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yanfei/portrait.png"
+  }
 }
