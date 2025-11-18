@@ -59,7 +59,7 @@ export const name = async (req, res) => {
 
       res.send(data);
    } catch (e) {
-      res.send({ error: "Character not found." });
+      res.status(404).send({ error: "Character not found." });
    }
 };
 
