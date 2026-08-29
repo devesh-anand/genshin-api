@@ -4,6 +4,7 @@ import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import errorHandle from "./middlewares/errorHandle.js";
+import rateLimiter from "./middlewares/rateLimiter.js";
 import characterRoutes from "./routes/character/characterRoutes.js";
 import miscRoutes from "./routes/misc/miscRoutes.js";
 import weaponRoutes from "./routes/weapons/weaponRoutes.js";
@@ -14,6 +15,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(rateLimiter);
 
 app.get("/", (req, res) => {
    res.send("Welcome to genshin-api");

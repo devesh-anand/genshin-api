@@ -2,9 +2,11 @@ import express from "express";
 import {
    characters,
    element,
+   elements,
    imgList,
    imgOfCharsOfElement,
    name,
+   nations,
    weapon,
 } from "./controllers.js";
 
@@ -12,15 +14,16 @@ const router = express.Router();
 
 router.get("/", characters);
 
-//gets a list of all characters of an element along with icon
+router.get("/elements", elements);
+router.get("/nations", nations);
+
+// kept for backwards compatibility
 router.get("/imglist", imgList);
-
 router.get("/imglist/:element", imgOfCharsOfElement);
-
-router.get("/:name", name);
-
 router.get("/element/:element", element);
-
 router.get("/weapon/:weapon", weapon);
+
+// must be last — catches any slug
+router.get("/:name", name);
 
 export default router;
