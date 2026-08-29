@@ -1,0 +1,114 @@
+{
+  "name": "Ifa",
+  "title": "In the Wake of Wandering Winds",
+  "vision": "Anemo",
+  "weapon": "Catalyst",
+  "nation": "Natlan",
+  "affiliation": "Tlalocan",
+  "rarity": 4,
+  "constellation": "Catena Opele",
+  "birthday": "0000-03-23",
+  "description": "A vet from the Flower-Feather Clan who cherishes the life he leads alongside all manner of living things — people, animals, you name it.",
+  "skillTalents": [
+    {
+      "name": "Rite of Dispelling Winds",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 attacks, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and fires off a shot, dealing AoE Anemo DMG.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals AoE Anemo DMG upon impact with the ground.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/talent-1.png"
+    },
+    {
+      "name": "Airborne Disease Prevention",
+      "unlock": "Elemental Skill",
+      "description": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.\nAfter using this skill, Ifa gains 80 Nightsoul points and enters the {LINK#N11130003}Nightsoul's Blessing{/LINK} state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of {LINK#N11130001}Supporting Fire{/LINK} depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.\n\nAdditionally, Holding the Elemental Skill Airborne Disease Prevention while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/talent-skill.png"
+    },
+    {
+      "name": "Compound Sedation Field",
+      "unlock": "Elemental Burst",
+      "description": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned AoE Anemo DMG.\nWhen the Therapeutic Sedative hits an opponent affected by Hydro/Pyro/Cryo/Electro, it will apply a {LINK#N11130004}Sedation Mark{/LINK} to them.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Field Medic's Vision",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When Ifa is in the Nightsoul's Blessing state, every 1 Nightsoul point out of the current total in his entire party will grant him 1 {LINK#N11130002}Rescue Essentials{/LINK} point. Rescue Essentials will increase the Swirl, Stellar Swirl, Electro-Charged, and Lunar-Charged reaction DMG dealt by nearby party members.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/talent-passive-1.png"
+    },
+    {
+      "name": "Mutual Aid Agreement",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When nearby party members trigger Nightsoul Bursts, Ifa's Elemental Mastery increases by 80 for 10s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/talent-passive-2.png"
+    },
+    {
+      "name": "Night Realm's Gift: Focused Emergency Rescue",
+      "unlock": "Unlocked Automatically",
+      "description": "After his Nightsoul points are exhausted, Ifa will switch to consuming Phlogiston to maintain his Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ifa. When the active character is a certain height in the air, the following will occur when switching to Ifa: Ifa will enter the Nightsoul's Blessing state and gain 32 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Vitiferous Elixir's Concoction",
+      "unlock": "Constellation Lv. 1",
+      "description": "When {LINK#N11130001}Supporting Fire{/LINK} hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-1.png"
+    },
+    {
+      "name": "Guiding Spirit of Ballistic Prayer",
+      "unlock": "Constellation Lv. 2",
+      "description": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional {LINK#N11130002}Rescue Essentials{/LINK} points.\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\nYou must first unlock the Ascension Talent {LINK#P1132101}Field Medic's Vision{/LINK}.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-2.png"
+    },
+    {
+      "name": "Rebuttal in Negotiations With the Night",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of {LINK#S11132}Airborne Disease Prevention{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-3.png"
+    },
+    {
+      "name": "Decayed Vessel's Permutation",
+      "unlock": "Constellation Lv. 4",
+      "description": "The restraining wind current created by the Elemental Burst {LINK#S11135}Compound Sedation Field{/LINK} has its duration extended to 3s.\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-4.png"
+    },
+    {
+      "name": "Vow of Universal Coexistence",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of {LINK#S11135}Compound Sedation Field{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-5.png"
+    },
+    {
+      "name": "Oath on a Feathered Knot",
+      "unlock": "Constellation Lv. 6",
+      "description": "When Ifa uses the Hold version of his {LINK#N11130001}Supporting Fire{/LINK}, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/portrait.png"
+  }
+}

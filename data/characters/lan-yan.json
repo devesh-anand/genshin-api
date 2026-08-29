@@ -1,0 +1,114 @@
+{
+  "name": "Lan Yan",
+  "title": "Spring Woven From Jade",
+  "vision": "Anemo",
+  "weapon": "Catalyst",
+  "nation": "Liyue",
+  "affiliation": "Chenyu Vale",
+  "rarity": 4,
+  "constellation": "Hirundo Lazuli",
+  "birthday": "0000-01-06",
+  "description": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring.",
+  "skillTalents": [
+    {
+      "name": "Black Pheasant Strides on Water",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nWields her Feathermoon Rings to perform up to 4 attacks, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing Anemo DMG.\n\nPlunging Attack\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/talent-1.png"
+    },
+    {
+      "name": "Swallow-Wisp Pinion Dance",
+      "unlock": "Elemental Skill",
+      "description": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against Anemo DMG.\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing Anemo DMG.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the dash direction.\n\n\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/talent-skill.png"
+    },
+    {
+      "name": "Lustrous Moonrise",
+      "unlock": "Elemental Burst",
+      "description": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of AoE Anemo DMG.\n\nStrictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Four Sealing Divination Charms",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When the dash from the Elemental Skill Swallow-Wisp Pinion Dance hits a target, if it interacts with Hydro/Pyro/Cryo/Electro, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.\nAdditionally, if this use of Swallow-Wisp Pinion Dance causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/talent-passive-1.png"
+    },
+    {
+      "name": "Skyfeather Evil-Subduing Charm",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "The Elemental Skill Swallow-Wisp Pinion Dance and the Elemental Burst Lustrous Moonrise deal increased DMG equal to 309% and 774% of Lan Yan's Elemental Mastery respectively.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/talent-passive-2.png"
+    },
+    {
+      "name": "Thought and Intent, Like Silken Scent",
+      "unlock": "Unlocked Automatically",
+      "description": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "\"As One Might Stride Betwixt the Clouds\"",
+      "unlock": "Constellation Lv. 1",
+      "description": "After triggering the Elemental Absorption from the Ascension Talent \"Four Sealing Divination Charms,\" this instance of Lan Yan's Elemental Skill Swallow-Wisp Pinion Dance will produce another Feathermoon Ring when they are thrown at opponents.\nYou must first unlock the Ascension Talent \"Four Sealing Divination Charms.\"",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation-1.png"
+    },
+    {
+      "name": "\"Dance Vestments Billow Like Rainbow Jade\"",
+      "unlock": "Constellation Lv. 2",
+      "description": "While the Swallow-Wisp Shield is active, when your active party member's Normal Attacks deal DMG, 40% of the Shield's DMG absorption will be restored, up to its original maximum absorption. This effect can occur once every 2s.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation-2.png"
+    },
+    {
+      "name": "\"On White Wings Pierce Through Cloud and Fog\"",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Swallow-Wisp Pinion Dance by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation-3.png"
+    },
+    {
+      "name": "\"With Drakefalcon's Blood-Pearls Adorned\"",
+      "unlock": "Constellation Lv. 4",
+      "description": "After Lan Yan uses her Elemental Burst Lustrous Moonrise, the Elemental Mastery of all nearby party members increases by 60 for 12s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation-4.png"
+    },
+    {
+      "name": "\"Having Met You, My Heart is Gladdened\"",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Lustrous Moonrise by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation-5.png"
+    },
+    {
+      "name": "\"Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring\"",
+      "unlock": "Constellation Lv. 6",
+      "description": "Swallow-Wisp Pinion Dance gains 1 additional charge.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lan-yan/portrait.png"
+  }
+}

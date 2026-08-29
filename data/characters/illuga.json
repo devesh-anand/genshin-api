@@ -1,0 +1,114 @@
+{
+  "name": "Illuga",
+  "title": "Nightmare's Burning Heart",
+  "vision": "Geo",
+  "weapon": "Polearm",
+  "nation": "Nodkrai",
+  "affiliation": "Lightkeepers",
+  "rarity": 4,
+  "constellation": "Oriolus",
+  "birthday": "0000-12-23",
+  "description": "Member of the investigation squad, the Nightmare Orioles. The youngest squad leader among the Lightkeepers.",
+  "skillTalents": [
+    {
+      "name": "Oathkeeper's Spear",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-1.png"
+    },
+    {
+      "name": "Dawnbearing Songbird",
+      "unlock": "Elemental Skill",
+      "description": "Summons the trusty messenger bird, \"Aedon.\" Different effects are produced depending on whether the skill is Tapped or Held.\n\nTap\nAedon dashes towards enemies in front, dealing Geo DMG to enemies it comes into contact with.\n\nHold\nEnter aiming mode, and command Aedon to dash towards opponents being aimed at, dealing Geo DMG to opponents it comes into contact with.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-skill.png"
+    },
+    {
+      "name": "Shadowless Reflection",
+      "unlock": "Elemental Burst",
+      "description": "Light the lamp, dealing AoE Geo DMG, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of {LINK#N11270001}Nightingale's Song{/LINK}. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal Geo DMG to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\nWhen Geo DMG dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\n\nAdditionally, if there are Geo Constructs created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create Geo Constructs while Haunted Night's Oriole-Song is active, every Geo Construct on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\n\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Torchforger's Covenant",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "After unleashing Elemental Skill {LINK#S11272}Dawnbearing Songbird{/LINK} or Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For Geo DMG dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\n\nMoonsign: Ascendant Gleam \nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-1.png"
+    },
+    {
+      "name": "Demonhunter's Dusk",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "{LINK#N11270001}Nightingale's Song{/LINK}'s effects are enhanced: When there are 1/2/3 Hydro or Geo characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-2.png"
+    },
+    {
+      "name": "Moonsign Benediction: Unwithering in Winter",
+      "unlock": "Unlocked Automatically",
+      "description": "When Illuga is in the party, the party's Moonsign will increase by 1 level.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Vigilant Sentinel",
+      "unlock": "Constellation Lv. 1",
+      "description": "After Illuga triggers a Geo-related Reaction on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-1.png"
+    },
+    {
+      "name": "Elk With Fanged Antlers",
+      "unlock": "Constellation Lv. 2",
+      "description": "When Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of {LINK#N11270001}Nightingale's Song{/LINK} consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-2.png"
+    },
+    {
+      "name": "Earthshaking Maw",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-3.png"
+    },
+    {
+      "name": "Solarhunting Wolf",
+      "unlock": "Constellation Lv. 4",
+      "description": "When Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-4.png"
+    },
+    {
+      "name": "Hurricane Steed",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Elemental Skill {LINK#S11272}Dawnbearing Songbird{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-5.png"
+    },
+    {
+      "name": "Nightmare Orioles",
+      "unlock": "Constellation Lv. 6",
+      "description": "Enhances the Lightkeeper's Oath effect of the Ascension Talent {LINK#P1272101}Torchforger's Covenant{/LINK}: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam:\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\"",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-6.png"
+    }
+  ],
+  "vision_key": "GEO",
+  "weapon_type": "POLEARM",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/portrait.png"
+  }
+}

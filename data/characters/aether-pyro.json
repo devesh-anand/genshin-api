@@ -1,0 +1,114 @@
+{
+  "name": "Traveler",
+  "title": "",
+  "vision": "Pyro",
+  "weapon": "Sword",
+  "nation": "Mainactor",
+  "affiliation": "-",
+  "rarity": 5,
+  "constellation": "Viator",
+  "birthday": "0000-00-00",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "skillTalents": [
+    {
+      "name": "Foreign Blaze",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/talent-1.png"
+    },
+    {
+      "name": "Flowfire Blade",
+      "unlock": "Elemental Skill",
+      "description": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\n\nTap\nCall forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character.\nWhen the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned Pyro DMG to nearby opponents at intervals.\n\nHold\nUnleash fire in a composed manner, dealing Nightsoul-aligned AoE Pyro DMG to nearby opponents. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character.\nWhen the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned Pyro DMG based on the Traveler's ATK. This effect can occur once every 3s.\n\nNightsoul's Blessing: Traveler\nContinuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, this state will end. If this Elemental Skill is used again while active, the Traveler's Nightsoul points will be reset to 42 points.\nBlazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and only 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.\n\nTogether, you and Paimon watched the shifting colors of the flowing flames.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/talent-skill.png"
+    },
+    {
+      "name": "Plains Scorcher",
+      "unlock": "Elemental Burst",
+      "description": "Condense the flames into a mark, dealing Nightsoul-aligned AoE Pyro DMG to opponents up ahead. The Traveler restores 7 Nightsoul points per second for the next 4s.\n\nTogether, you and Paimon studied the principles behind an undying flame.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "True Flame of Incineration",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When the Traveler has over 20 Nightsoul points, the attack AoE of the Blazing and Scorching Thresholds from the Elemental Skill Flowfire Blade after they hit opponents is increased.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/talent-passive-1.png"
+    },
+    {
+      "name": "Embers Unspent",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "After the current active character inside a Blazing Threshold or Scorching Threshold triggers a Pyro-related reaction, the Traveler will regain 5 Energy. This can occur once every 12s. Additionally, when a nearby party member triggers a Nightsoul Burst, the Traveler will regain 4 Energy.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/talent-passive-2.png"
+    },
+    {
+      "name": "Foreign Starfire",
+      "unlock": "Unlocked Automatically",
+      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}buffs{/LINK}.\n\nAdditionally, when nearby party members trigger Nightsoul Burst, Traveler will receive 1 stack of Blade of the Sacred Flame, max 2 stacks. After obtaining 2 stacks of Blade of the Sacred Flame, performing a Charged Attack will consume all stacks of Blade of the Sacred Flame and transform into a special Charged Attack: Inferno.\n\nCharged Attack: Inferno\n· Each Charged Attack hit deals increased, Nightsoul-aligned Pyro DMG. Increase in DMG is equal to 200% of Traveler's ATK.\n· Charged Attack: Inferno can be triggered up to once every 15s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Starfire's Flowing Light",
+      "unlock": "Constellation Lv. 1",
+      "description": "While Blazing Threshold or Scorching Threshold are active, the current active character deals 6% increased DMG. If said character is in the Nightsoul's Blessing state, they will deal an additional 9% DMG.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation-1.png"
+    },
+    {
+      "name": "Ever-Lit Candle",
+      "unlock": "Constellation Lv. 2",
+      "description": "Within 12s of using the Elemental Skill Flowfire Blade, after nearby party members trigger a Pyro-related reaction on an opponent, the Traveler will regain 14 Nightsoul points. Each use of Flowfire Blade will restore at most 28 Nightsoul points in this way.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation-2.png"
+    },
+    {
+      "name": "Relayed Beacon",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Flowfire Blade by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation-3.png"
+    },
+    {
+      "name": "Ravaging Flame",
+      "unlock": "Constellation Lv. 4",
+      "description": "After using the Elemental Burst Plains Scorcher, the Traveler gains 20% Pyro DMG Bonus for 9s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation-4.png"
+    },
+    {
+      "name": "The Fire Inextinguishable",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Plains Scorcher by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation-5.png"
+    },
+    {
+      "name": "The Sacred Flame Imperishable",
+      "unlock": "Constellation Lv. 6",
+      "description": "While in the Nightsoul's Blessing state, the Traveler's Normal, Charged, and Plunging Attacks will be converted to Nightsoul-aligned Pyro DMG that cannot be overridden, and the CRIT DMG of these attacks is increased by 40%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation-6.png"
+    }
+  ],
+  "vision_key": "PYRO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-pyro/portrait.png"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Odette",
+  "title": "Swirling Snow",
+  "vision": "Cryo",
+  "weapon": "Sword",
+  "nation": "Snezhnaya_star",
+  "affiliation": "Korolevskiy Troupe",
+  "rarity": 5,
+  "constellation": "Cygnus Olor",
+  "birthday": "0000-02-20",
+  "description": "A famed Snezhnayan ballerina who blossoms against the frozen landscape with a beauty as sharp as frost.",
+  "skillTalents": [
+    {
+      "name": "Snow Swan Variation",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nUnleashes a sword attack of up to 5 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash a dazzling slash on opponents in front of her.\n\nPlunging Attack\nAttacks opponents in her path while plunging from mid-air, then deals AoE DMG upon landing.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-1.png"
+    },
+    {
+      "name": "Adagio: Phantom Night Dancers",
+      "unlock": "Elemental Skill",
+      "description": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her {LINK#N11500001}Solo Dance Double{/LINK} to the field.\nIf a Dance Double summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.\n\nSolo Dance Double\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\nAdditionally, for 6s after unleashing the Elemental Skill Adagio: Phantom Night Dancers, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill {LINK#N11500002}Adagio: Coda at Dawn's Tolling{/LINK} instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-skill.png"
+    },
+    {
+      "name": "Presto: Bluebird Finale",
+      "unlock": "Elemental Burst",
+      "description": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG, and summons her {LINK#N11500001}Solo Dance Double{/LINK}. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill {LINK#N11500002}Adagio: Coda at Dawn's Tolling{/LINK} instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Spring Rite of the Chosen One",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When Odette summons her {LINK#N11500001}Solo Dance Double{/LINK}, she also obtains 4 stacks of {LINK#N11500003}Marvelous Splendor{/LINK}.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-passive-1.png"
+    },
+    {
+      "name": "Pathetique of Pateticheskaya",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "For every 100 ATK Odette has over 1,000, her Stellar Glimmer DMG is additionally increased by 1.5% of the original DMG. She can deal up to 30% more additional DMG in this way.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-passive-2.png"
+    },
+    {
+      "name": "Stellar Jubilee: Dance of Aurore",
+      "unlock": "Unlocked Automatically",
+      "description": "Odette will enter the Radiance: Stellar-Conduct state when she is inside a {LINK#N11330003}Polestar Field{/LINK}, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
+      "unlock": "Constellation Lv. 1",
+      "description": "After unleashing the special Elemental Skill {LINK#N11500002}Adagio: Coda at Dawn's Tolling{/LINK}, at the dance duet's end Odette will deal an additional instance of Cryo AoE DMG to nearby opponents that is considered:\nRadiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;\nRadiance: Stellar Swirl: Stellar Swirl reaction DMG at 450% of Odette's ATK.\n\nAdditionally, the Ascension Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the {LINK#N11500001}Solo Dance Double{/LINK} is summoned, Odette also gains 2 stacks of {LINK#N11500003}Marvelous Splendor{/LINK}. When Odette is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-1.png"
+    },
+    {
+      "name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
+      "unlock": "Constellation Lv. 2",
+      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of {LINK#N11500003}Marvelous Splendor{/LINK} active also increases the character's ATK by 7%.\nAdditionally, if Odette is in the {LINK#N11500004}Radiance: Stellar Glimmer{/LINK} state when there is a {LINK#N11500001}Solo Dance Double{/LINK} on the field, opponents near the Dance Double will also have their corresponding Elemental RES lowered by 20%.\n·Radiance: Stellar-Conduct: Cryo and Electro.\n·Radiance: Stellar Swirl: Cryo and Anemo.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-2.png"
+    },
+    {
+      "name": "\"I'll Chase the Shouting Wind Along, Climbing Alone As I Go\"",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of {LINK#S11502}Adagio: Phantom Night Dancers{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-3.png"
+    },
+    {
+      "name": "\"Up, Up the Long, Delirious, Burning Blue\"",
+      "unlock": "Constellation Lv. 4",
+      "description": "The Elemental Burst Presto: Bluebird Finale is enhanced as follows: when Odette obtains Snow Swan's Dream, Stellar Glimmer reaction DMG dealt by other nearby party members is increased by 50% of Snow Swan Dream's effects.\n\nAdditionally, when a party member deals Stellar Glimmer reaction DMG to an opponent, Odette will also join in with a coordinated attack, dealing an instance of AoE Cryo DMG. This effect, which can trigger once every 3.5s, will be considered:\n·Radiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 66% of Odette's ATK.\n·Radiance: Stellar Swirl: Stellar Swirl reaction DMG at 99% of Odette's ATK.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-4.png"
+    },
+    {
+      "name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of {LINK#S11505}Presto: Bluebird Finale{/LINK}  by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-5.png"
+    },
+    {
+      "name": "\"Put Out My Hand, and Touched the Face of the Divine\"",
+      "unlock": "Constellation Lv. 6",
+      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When Odette grants {LINK#N11500003}Marvelous Splendor{/LINK} to all nearby party members, her own Marvelous Splendor stacks will no longer decrease.\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents {LINK#N11190007}elevated{/LINK} by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-6.png"
+    }
+  ],
+  "vision_key": "CRYO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/portrait.png"
+  }
+}

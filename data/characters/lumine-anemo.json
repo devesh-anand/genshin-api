@@ -1,0 +1,114 @@
+{
+  "name": "Traveler",
+  "title": "",
+  "vision": "Anemo",
+  "weapon": "Sword",
+  "nation": "Mainactor",
+  "affiliation": "-",
+  "rarity": 5,
+  "constellation": "Viatrix",
+  "birthday": "0000-00-00",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "skillTalents": [
+    {
+      "name": "Foreign Ironwind",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/talent-1.png"
+    },
+    {
+      "name": "Palm Vortex",
+      "unlock": "Elemental Skill",
+      "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\nHold\nDMG and AoE will gradually increase.\n\nElemental Absorption\nIf the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\nYou discussed the way to grasp the formless wind with Paimon.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/talent-skill.png"
+    },
+    {
+      "name": "Gust Surge",
+      "unlock": "Elemental Burst",
+      "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.\n\nElemental Absorption\nIf the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\nYou and Paimon studied the flapping of a butterfly's wings.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Slitting Wind",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/talent-passive-1.png"
+    },
+    {
+      "name": "Second Wind",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "Palm Vortex kills regenerate 2% HP for 5s.\nThis effect can only occur once every 5s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/talent-passive-2.png"
+    },
+    {
+      "name": "Foreign Windwrath",
+      "unlock": "Unlocked Automatically",
+      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}buffs{/LINK}.\n\nAdditionally, when Pyro, Hydro, Cryo, or Electro attacks from nearby party members hit opponents, Traveler will receive 1 stack of Blade of the Dawn Breeze. Each Elemental Type can grant 1 Blade of the Dawn Breeze stack. After obtaining at least 2 stacks of Blade of the Dawn Breeze, performing a Charged Attack will consume all stacks of Blade of the Dawn Breeze and transform into the special Charged Attack: Whirlwind.\n\nCharged Attack: Whirlwind\n· Each Charged Attack hit deals increased Anemo DMG. Increase in DMG is equal to 60% of Traveler's ATK.\n· Every time a Blade of the Dawn Breeze of a certain elemental type is consumed, a Blade Wind matching this elemental type will also be summoned, dealing elemental DMG equal to 50% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· Charged Attack: Whirlwind can be triggered up to once every 15s.\n· For the duration of Charged Attack: Whirlwind, no Blade of the Dawn Breeze will be obtained.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Raging Vortex",
+      "unlock": "Constellation Lv. 1",
+      "description": "Palm Vortex pulls in opponents and objects within a 5m radius.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation-1.png"
+    },
+    {
+      "name": "Uprising Whirlwind",
+      "unlock": "Constellation Lv. 2",
+      "description": "Increases Energy Recharge by 16%.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation-2.png"
+    },
+    {
+      "name": "Sweeping Gust",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Gust Surge by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation-3.png"
+    },
+    {
+      "name": "Cherishing Breezes",
+      "unlock": "Constellation Lv. 4",
+      "description": "Reduces DMG taken while casting Palm Vortex by 10%.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation-4.png"
+    },
+    {
+      "name": "Vortex Stellaris",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Palm Vortex by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation-5.png"
+    },
+    {
+      "name": "Intertwined Winds",
+      "unlock": "Constellation Lv. 6",
+      "description": "Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.\nIf an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-anemo/portrait.png"
+  }
+}

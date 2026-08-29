@@ -1,0 +1,114 @@
+{
+  "name": "Gaming",
+  "title": "Leonine Vanguard",
+  "vision": "Pyro",
+  "weapon": "Claymore",
+  "nation": "Liyue",
+  "affiliation": "Sword and Strongbox Secure Transport Agency",
+  "rarity": 4,
+  "constellation": "Leo Expergiscens",
+  "birthday": "0000-12-22",
+  "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
+  "skillTalents": [
+    {
+      "name": "Stellar Rend",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/talent-1.png"
+    },
+    {
+      "name": "Bestial Ascent",
+      "unlock": "Elemental Skill",
+      "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.\nAfter Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.\n\nPlunging Attack: Charmed Cloudstrider\nThe DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.\nCharmed Cloudstrider DMG is considered Plunging Attack DMG.\n\n\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/talent-skill.png"
+    },
+    {
+      "name": "Suanni's Gilded Dance",
+      "unlock": "Elemental Burst",
+      "description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG.\nAfter bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.\nWhile Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.\nEach Gaming can only have 1 Man Chai on the field simultaneously.\nThis effect will be canceled once Gaming leaves the field.\n\n\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Dance of Amity",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "After Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/talent-passive-1.png"
+    },
+    {
+      "name": "Air of Prosperity",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/talent-passive-2.png"
+    },
+    {
+      "name": "The Striding Beast",
+      "unlock": "Unlocked Automatically",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Bringer of Blessing",
+      "unlock": "Constellation Lv. 1",
+      "description": "When the Suanni Man Chai from Suanni's Gilded Dance meets back up with Gaming, it will heal 15% of Gaming's HP.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation-1.png"
+    },
+    {
+      "name": "Plum Blossoms Underfoot",
+      "unlock": "Constellation Lv. 2",
+      "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation-2.png"
+    },
+    {
+      "name": "Awakening Spirit",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Bestial Ascent by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation-3.png"
+    },
+    {
+      "name": "Soar Across Mountains",
+      "unlock": "Constellation Lv. 4",
+      "description": "When Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation-4.png"
+    },
+    {
+      "name": "Evil-Daunting Roar",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Suanni's Gilded Dance by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation-5.png"
+    },
+    {
+      "name": "To Tame All Beasts",
+      "unlock": "Constellation Lv. 6",
+      "description": "Bestial Ascent's Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation-6.png"
+    }
+  ],
+  "vision_key": "PYRO",
+  "weapon_type": "CLAYMORE",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gaming/portrait.png"
+  }
+}

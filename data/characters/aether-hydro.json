@@ -1,0 +1,114 @@
+{
+  "name": "Traveler",
+  "title": "",
+  "vision": "Hydro",
+  "weapon": "Sword",
+  "nation": "Mainactor",
+  "affiliation": "-",
+  "rarity": 5,
+  "constellation": "Viator",
+  "birthday": "0000-00-00",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "skillTalents": [
+    {
+      "name": "Foreign Stream",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/talent-1.png"
+    },
+    {
+      "name": "Aquacrest Saber",
+      "unlock": "Elemental Skill",
+      "description": "Unleashes a torrent that can cleanse the world.\n\nPress\nSends a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.\n\nHold\nEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing Hydro DMG to opponents they hit.\nWhen the skill ends, it will send a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.\nSuffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.\n\nArkhe: Pneuma\nAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned Hydro DMG.\n\nYou studied the ripples in the water with Paimon.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/talent-skill.png"
+    },
+    {
+      "name": "Rising Waters",
+      "unlock": "Elemental Burst",
+      "description": "Unleashes a slow-moving floating bubble that deals continuous Hydro DMG to nearby opponents.\n\nYou studied the ebb and flow of the tides with Paimon.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Spotless Waters",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "After the Dewdrop fired by the Hold Mode of the Aquacrest Saber hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.\n1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/talent-passive-1.png"
+    },
+    {
+      "name": "Clear Waters",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "If HP has been consumed via Suffusion while using the Hold Mode Aquacrest Saber, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.\nThe maximum DMG Bonus that can be gained this way is 5,000.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/talent-passive-2.png"
+    },
+    {
+      "name": "Foreign Aqualis",
+      "unlock": "Unlocked Automatically",
+      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}buffs{/LINK}.\n\nAdditionally, when nearby party members' current HP increases or decreases by 5%, Traveler will receive 1 stack of Blade of Many Waters. You can gain 1 stack of Blade of Many Waters this way once every 4s, max 3 stacks. After obtaining 3 stacks of Blade of Many Waters, performing a Charged Attack will consume all stacks of Blade of Many Waters and transform into the special Charged Attack: Tidebound.\n\nCharged Attack: Tidebound\n· Each Charged Attack hit deals increased Hydro DMG. Increase in DMG is equal to 150% of Traveler's ATK,\n· When Traveler's HP is no less than 50%, 10% of Traveler's Max HP will be consumed to increase DMG inflicted by each Charged Attack hit by 100% of Traveler's ATK.\n· When Traveler's HP is lower than 50%, one instance of healing equal to 25% of Traveler's Max HP will be restored upon hitting an enemy.\n· Charged Attack: Tidebound can be triggered up to once every 15s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Swelling Lake",
+      "unlock": "Constellation Lv. 1",
+      "description": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler.\nYou must first unlock the Ascension Talent \"Spotless Waters.\"",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation-1.png"
+    },
+    {
+      "name": "Trickling Purity",
+      "unlock": "Constellation Lv. 2",
+      "description": "The Movement SPD of Rising Waters' bubble will be decreased by 30%, and its duration increased by 3s.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation-2.png"
+    },
+    {
+      "name": "Turbulent Ripples",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Aquacrest Saber by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation-3.png"
+    },
+    {
+      "name": "Pouring Descent",
+      "unlock": "Constellation Lv. 4",
+      "description": "When using Aquacrest Saber, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb Hydro DMG with 250% effectiveness. It will persist until the Traveler finishes using the skill.\nOnce every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation-4.png"
+    },
+    {
+      "name": "Churning Whirlpool",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Rising Waters by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation-5.png"
+    },
+    {
+      "name": "Tides of Justice",
+      "unlock": "Constellation Lv. 6",
+      "description": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to a nearby party member with the lowest remaining HP percentage based on 6% of said member's Max HP.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation-6.png"
+    }
+  ],
+  "vision_key": "HYDRO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-hydro/portrait.png"
+  }
+}

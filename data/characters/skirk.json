@@ -1,0 +1,114 @@
+{
+  "name": "Skirk",
+  "title": "Void Star",
+  "vision": "Cryo",
+  "weapon": "Sword",
+  "nation": "Omni_scourge",
+  "affiliation": "Cosmic Calamity",
+  "rarity": 5,
+  "constellation": "Crystallina",
+  "birthday": "0000-11-05",
+  "description": "A visitor who once appeared in an Abyssal rift and the Primordial Sea, this solitary warrior mentored Tartaglia in the martial arts.",
+  "skillTalents": [
+    {
+      "name": "Havoc: Sunder",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 consecutive attacks.\n\nCharged Attack\nConsumes a certain amount of Stamina to hurl a spinning crystal spear, dealing DMG to opponents ahead.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/talent-1.png"
+    },
+    {
+      "name": "Havoc: Warp",
+      "unlock": "Elemental Skill",
+      "description": "Imitates the combat style of \"The Foul.\" Produces different effects depending on whether you Tap or Hold.\n\nTap\nSkirk gains 45 {LINK#N11130005}Serpent's Subtlety{/LINK} and switches to {LINK#N11130006}Seven-Phase Flash{/LINK} mode.\n\nHold\nSkirk gains 45 Serpent's Subtlety and will continuously move at high speed. Her interruption resistance is increased in this state.\nDuring this time, Skirk can control her movement direction and move atop water. She can also use this Skill again to end rapid movement prematurely.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/talent-skill.png"
+    },
+    {
+      "name": "Havoc: Ruin",
+      "unlock": "Elemental Burst",
+      "description": "Skirk's Elemental Burst is not reliant on Elemental Energy but instead on {LINK#N11130005}Serpent's Subtlety{/LINK}.\nWhen Skirk has at least 50 Serpent's Subtlety, she can expend all her Serpent's Subtlety to unleash her Elemental Burst, ripping the space before her apart and using rapid consecutive slashes that deal AoE Cryo DMG. At the same time, the DMG dealt by an instance of this Elemental Burst will be increased by every point of Serpent's Subtlety over 50 when it is unleashed. Up to 12 points can be counted for this purpose.\n\nWhen Skirk is in {LINK#N11130006}Seven-Phase Flash{/LINK} mode, Havoc: Ruin will be replaced by Havoc: Extinction.\n\nHavoc: Extinction\nA special Elemental Burst that can be used even without consuming Serpent's Subtlety.\nAfter using it, Skirk will gain the \"All Shall Wither\" effect, which will last until Seven-Phase Flash ends. After unlocking the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK}, she can also absorb nearby Void Rifts.\nWhile \"All Shall Wither\" is active, every 0.1s, after Skirk's Normal Attack hits an opponent, that Normal Attack will deal increased DMG. If she absorbed any Void Rifts while using Havoc: Extinction, this Normal Attack's DMG will be further increased based on the number of Rifts absorbed.\nThis effect will be canceled when it has triggered 10 times.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Reason Beyond Reason",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When nearby party members trigger Frozen, Superconduct, Stellar-Conduct, Cryo Swirl, Stellar Swirl, or Cryo Crystallize reactions against opponents, a Void Rift will be created near this opponent. This effect can be triggered once every 2.5s. 3 Void Rifts created by Skirk herself can exist on the field at once.\n\nSkirk can use the following methods to absorb nearby Void Rifts:\n· When she hits an opponent with a Charged Attack in her {LINK#N11130006}Seven-Phase Flash{/LINK} mode.\n· When she uses the special Elemental Burst Havoc: Extinction while in Seven-Phase Flash mode.\n· When she Holds her Elemental Skill Havoc: Warp to engage in rapid movement.\n\nEach Rift absorbed will grant her 8 {LINK#N11130005}Serpent's Subtlety{/LINK} points.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/talent-passive-1.png"
+    },
+    {
+      "name": "Return to Oblivion",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When nearby Hydro party members' Hydro attacks hit opponents, or when nearby Cryo party members apart from Skirk hit opponents with Cryo attacks, Skirk will gain the \"Death's Crossing\" effect for 20s. Max 3 stacks, each stack's duration is counted independently.\nEach character can grant Skirk at most 1 \"Death's Crossing\" stack by this means.\nEach \"Death's Crossing\" stack increases the Normal Attack DMG dealt by Skirk in {LINK#N11130006}Seven-Phase Flash{/LINK} mode to 110%/120%/170% of its original DMG and the DMG dealt when using her Elemental Burst Havoc: Ruin to 105%/115%/160% of its original DMG.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/talent-passive-2.png"
+    },
+    {
+      "name": "Mutual Weapons Mentorship",
+      "unlock": "Unlocked Automatically",
+      "description": "When all party members are either Hydro or Cryo, and if there is at least 1 Hydro and 1 Cryo character, your own party members' Elemental Skill Level is increased by 1.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Far to Fall",
+      "unlock": "Constellation Lv. 1",
+      "description": "Enhances the effects of the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK}: Every Void Rift absorbed will summon a crystal blade to attack nearby opponents, dealing 500% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.\nYou must first unlock the Ascension Talent Reason Beyond Reason.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation-1.png"
+    },
+    {
+      "name": "Into the Abyss",
+      "unlock": "Constellation Lv. 2",
+      "description": "After unleashing her Elemental Skill Havoc: Warp, Skirk will gain 10 additional {LINK#N11130005}Serpent's Subtlety{/LINK} points.\nWhen using her Elemental Burst Havoc: Ruin, the DMG of this Elemental Burst instance will be increased by taking up to 10 more Serpent's Subtlety points into account.\nAdditionally, within 12.5s after Skirk unleashes the special Elemental Burst Havoc: Extinction while in her {LINK#N11130006}Seven-Phase Flash{/LINK} mode, her ATK is increased by 70%. This effect will be canceled when she leaves the Seven-Phase Flash mode.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation-2.png"
+    },
+    {
+      "name": "Serendipitous Sin",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of {LINK#S11145}Havoc: Ruin{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation-3.png"
+    },
+    {
+      "name": "Fractured Flow",
+      "unlock": "Constellation Lv. 4",
+      "description": "Enhances the effects of the Ascension Talent {LINK#N11130008}Return to Oblivion{/LINK}: Each Death's Crossing stack also increases Skirk's ATK by 10%/20%/40%.\nYou must first unlock the Ascension Talent Return to Oblivion.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation-4.png"
+    },
+    {
+      "name": "End of Wishes",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of {LINK#S11142}Havoc: Warp{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation-5.png"
+    },
+    {
+      "name": "To the Source",
+      "unlock": "Constellation Lv. 6",
+      "description": "Each Void Rift Skirk absorbs via the effects of the Ascension Talent {LINK#N11130007}Reason Beyond Reason{/LINK} will grant her 1 Havoc: Sever stack. She can consume such stacks to initiate coordinated attacks and decrease the DMG she takes while in {LINK#N11130006}Seven-Phase Flash{/LINK} mode. These stacks last for 15s, and each stack's duration is counted independently (max 3 stacks).\nYou must first unlock the Ascension Talent \"Reason Beyond Reason.\"\n\nHavoc: Sever\n· When Skirk uses the Elemental Burst Havoc: Ruin, she will consume all Havoc: Sever stacks to initiate a coordinated attack in which each Havoc: Sever stack will deal 750% of Skirk's ATK as Cryo DMG. This DMG is considered Elemental Burst DMG.\n· When she uses Normal Attacks while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed when her third or fifth sequenced attacks hit an opponent to launch 3 coordinated attacks. Each coordinated attack deals 180% of Skirk's ATK as Cryo DMG. This damage is considered Normal Attack DMG.\n· When Skirk takes DMG while in Seven-Phase Flash mode, 1 Havoc: Sever stack will be consumed to decrease this DMG instance by 80% and attack nearby opponents 3 times, with each attack dealing 180% of Skirk's ATK as Cryo DMG. This DMG is considered Charged Attack DMG.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation-6.png"
+    }
+  ],
+  "vision_key": "CRYO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/skirk/portrait.png"
+  }
+}

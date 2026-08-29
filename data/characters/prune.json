@@ -1,0 +1,114 @@
+{
+  "name": "Prune",
+  "title": "Childlike Dreams Cherished",
+  "vision": "Anemo",
+  "weapon": "Catalyst",
+  "nation": "Mondstadt",
+  "affiliation": "Mondstadt",
+  "rarity": 4,
+  "constellation": "Turris Venefica",
+  "birthday": "0000-11-20",
+  "description": "A diminutive Witch Hunter who has journeyed all the way from Nod-Krai with the singular purpose of rooting out a witch who, to hear her tell it, has committed every sin imaginable — including bullying little kids!",
+  "skillTalents": [
+    {
+      "name": "Badaboom! Hexbuster Hammer",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 3 attacks by swinging the Banehunter Oathhammer, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and performs an upward hammer swing, dealing Anemo DMG to opponents in front.\n\nPlunging Attack\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-1.png"
+    },
+    {
+      "name": "Ring-A-Ding-Ding! Hexhunter Chime",
+      "unlock": "Elemental Skill",
+      "description": "Determined to take down the \"evil\" witch and save her beloved Descartes, Prune unleashes the power of the wind! She strikes at the Witchlure Bell using her Banehunter Oathhammer, dealing Anemo DMG.\nIf Prune triggers a Swirl or Stellar Swirl reaction in the opponent with this attack, her Ring-A-Ding-Ding! Hexhunter Chime is changed to Clang Clang! Witch-tribution Comes! for the next 6s.\n\nClang Clang! Witch-tribution Comes!\nEnsconces the {LINK#N11320001}Banehunter Oathhammer{/LINK} in the element involved in the earlier Swirl or Stellar Swirl reaction. After tapping to unleash, Prune will launch a midair kick at the Banehunter Oathhammer, dealing DMG to opponents in front of her of the corresponding elemental type.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-skill.png"
+    },
+    {
+      "name": "The Bell Tolls! The Hunt Is On!",
+      "unlock": "Elemental Burst",
+      "description": "Prune gently swings the Witchlure Bell, dealing Anemo DMG to nearby opponents. After this, the Bell will enter the Hunter-Seeker mode.\n\nWitchlure Bell: Hunter-Seeker\nIn this mode, the Witchlure Bell will follow the current active character, attacking surrounding opponents at intervals and dealing AoE Anemo DMG. This DMG is considered Elemental Burst DMG.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Verdict and Punishment",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a {LINK#N11320001}Banehunter Oathhammer{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl or Stellar Swirl. This DMG is considered Elemental Burst DMG.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-1.png"
+    },
+    {
+      "name": "Tolling Synchronicity",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "After Prune hits an opponent with the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-2.png"
+    },
+    {
+      "name": "Tinker-Tink, Clank, and Bang!",
+      "unlock": "Unlocked Automatically",
+      "description": "Has a 10% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is the same as the resulting material.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "With a Vow to Rescue, the Journey Begins",
+      "unlock": "Constellation Lv. 1",
+      "description": "After the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, Prune will regain 2 Energy. This effect can occur once every 1.8s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation-1.png"
+    },
+    {
+      "name": "Useful for Cleaning Messy Baggage, Elemental Powers Are Indeed",
+      "unlock": "Constellation Lv. 2",
+      "description": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, when the Witchlure Bell is in Hunter-Seeker mode, Prune gains the Hunt the Witch effect: Prune's ATK increases by 10%, and when the Witchlure Bell and the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, it further increases her ATK by 5%. Prune's ATK can be increased by up to 40% in this way.\nThe original instance of the above effect will be removed if \"The Bell Tolls! The Hunt Is On!\" is used again during this time.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation-2.png"
+    },
+    {
+      "name": "The Caravan Exits the Mountain Pass, the Scenery Once More Changed",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation-3.png"
+    },
+    {
+      "name": "Looking Back Following the Wind, One's Shadow Still Halved",
+      "unlock": "Constellation Lv. 4",
+      "description": "After the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion hits an opponent, it will ricochet and land on a nearby opponent, dealing 80% ATK as DMG of the corresponding Elemental Type.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation-4.png"
+    },
+    {
+      "name": "100 Defeats? No Problem, Tomorrow, We Go Again",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of {LINK#S11322}Ring-A-Ding-Ding! Hexhunter Chime{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation-5.png"
+    },
+    {
+      "name": "And That's the Story! Share It With Your Friends!",
+      "unlock": "Constellation Lv. 6",
+      "description": "The duration of the Witchlure Bell's Hunter-Seeker mode from the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK} is extended by 4s.\nAdditionally, after party members affected by Tolling Rally trigger any Elemental Reaction, they will cause Prune and the other current active character(s) affected by Tolling Rally to gain 350 ATK for 5s.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/portrait.png"
+  }
+}

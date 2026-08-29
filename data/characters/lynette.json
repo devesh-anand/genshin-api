@@ -1,0 +1,114 @@
+{
+  "name": "Lynette",
+  "title": "Elegance in the Shadows",
+  "vision": "Anemo",
+  "weapon": "Sword",
+  "nation": "Fontaine",
+  "affiliation": "Hotel Bouffes d'ete",
+  "rarity": 4,
+  "constellation": "Felis Alba",
+  "birthday": "0000-02-02",
+  "description": "A magic assistant of few words, her emotions are as inscrutable as any cat's.",
+  "skillTalents": [
+    {
+      "name": "Rapid Ritesword",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/talent-1.png"
+    },
+    {
+      "name": "Enigmatic Feint",
+      "unlock": "Elemental Skill",
+      "description": "#Flicks her mantle and executes an Enigma Thrust, dealing Anemo DMG.\nWhen the Enigma Thrust hits an opponent, it will restore Lynette's HP based on her Max HP, and in the 4s afterward, she will lose a certain amount of HP per second.\nBased on whether you {LAYOUT_MOBILE#tap}{LAYOUT_PC#press}{LAYOUT_PS#press} or hold this ability, she will use Enigma Thrust differently.\n\n{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}\nShe swiftly uses an Enigma Thrust.\n\nHold\nLynette will enter a high-speed Pilfering Shadow state and apply Shadowsign to a nearby opponent. You can control her movement direction during this state, and you can end it prematurely by using this skill again.\nWhen this high-speed state ends, Lynette will unleash her Enigma Thrust. If there is an opponent with Shadowsign applied to them nearby, Lynette will approach them in a flash before using Enigma Thrust.\n\nA maximum of 1 opponent can have Shadowsign at any one time. When this opponent gets too far from Lynette, the Shadowsign will be canceled.\n\nArkhe: Ousia\nAt specific intervals, Lynette will unleash a Surging Blade when she uses Enigma Thrust, dealing Ousia-aligned Anemo DMG.\n\n\"Now then, turn your eyes to the stage and continue to enjoy the performance. When I next appear, I'll be where you least expect.\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/talent-skill.png"
+    },
+    {
+      "name": "Magic Trick: Astonishing Shift",
+      "unlock": "Elemental Burst",
+      "description": "Lynette raises her mantle high, dealing AoE Anemo DMG, using skillful sleight of hand to make a giant Bogglecat Box appear!\n\nBogglecat Box\n·Taunts nearby opponents, attracting their attacks.\n·Deals Anemo DMG to nearby opponents at intervals.\n·When the Bogglecat Box comes into contact with Hydro/Pyro/Cryo/Electro, it will gain the corresponding element and additionally fire Vivid Shots that will deal DMG from that element at intervals.\nElemental Absorption of this kind will only occur once during this ability's duration.\n\n\"Look this way, and look closely. This is a time for miracles, just for us.\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Sophisticated Synergy",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "Within 10s after using Magic Trick: Astonishing Shift, when there are 1/2/3/4 Elemental Types in the party, all party members' ATK will be increased by 8%/12%/16%/20% respectively.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/talent-passive-1.png"
+    },
+    {
+      "name": "Props Positively Prepped",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "After the Bogglecat Box summoned by Magic Trick: Astonishing Shift performs Elemental Conversion, Lynette's Elemental Burst will deal 15% more DMG. This effect will persist until the Bogglecat Box's duration ends.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/talent-passive-2.png"
+    },
+    {
+      "name": "Loci-Based Mnemonics",
+      "unlock": "Unlocked Automatically",
+      "description": "Shows the location of nearby Recovery Orbs on the minimap. The Aquatic Stamina and HP gained from touching Orbs will be increased by 25%.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "A Cold Blade Like a Shadow",
+      "unlock": "Constellation Lv. 1",
+      "description": "When Enigmatic Feint's Enigma Thrust hits an opponent with Shadowsign, a vortex will be created at that opponent's position that will pull nearby opponents in.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation-1.png"
+    },
+    {
+      "name": "Endless Mysteries",
+      "unlock": "Constellation Lv. 2",
+      "description": "Whenever the Bogglecat Box summoned by Magic Trick: Astonishing Shift fires a Vivid Shot, it will fire an extra Vivid Shot.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation-2.png"
+    },
+    {
+      "name": "Cognition-Inverting Gaze",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Magic Trick: Astonishing Shift by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation-3.png"
+    },
+    {
+      "name": "Tacit Coordination",
+      "unlock": "Constellation Lv. 4",
+      "description": "Increases Enigmatic Feint's charges by 1.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation-4.png"
+    },
+    {
+      "name": "Obscuring Ambiguity",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Enigmatic Feint by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation-5.png"
+    },
+    {
+      "name": "Watchful Eye",
+      "unlock": "Constellation Lv. 6",
+      "description": "When Lynette uses Enigmatic Feint's Enigma Thrust, she will gain an Anemo Infusion and 20% Anemo DMG Bonus for 6s.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lynette/portrait.png"
+  }
+}

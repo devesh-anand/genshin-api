@@ -1,0 +1,114 @@
+{
+  "name": "Chiori",
+  "title": "The Thundering Seamstress",
+  "vision": "Geo",
+  "weapon": "Sword",
+  "nation": "Inazuma",
+  "affiliation": "Court of Fontaine",
+  "rarity": 5,
+  "constellation": "Cisoria",
+  "birthday": "0000-08-17",
+  "description": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+  "skillTalents": [
+    {
+      "name": "Weaving Blade",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/talent-1.png"
+    },
+    {
+      "name": "Fluttering Hasode",
+      "unlock": "Elemental Skill",
+      "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing AoE Geo DMG to nearby opponents based on her ATK and DEF.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the dash direction.\n\nTamoto\n· Will slash at nearby opponents at intervals, dealing AoE Geo DMG based on Chiori's ATK and DEF.\n· While active, if there are nearby Geo Construct(s) or Geo Construct(s) are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.\n\n\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/talent-skill.png"
+    },
+    {
+      "name": "Hiyoku: Twin Blades",
+      "unlock": "Elemental Burst",
+      "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing AoE Geo DMG based on her ATK and DEF.\n\n\"Master one principle, and the path to all others shall open to you.\"",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Tailor-Made",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "#Gain different effects depending on the next action you take within a short duration after using Fluttering Hasode's upward sweep. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} the Elemental Skill, you will trigger the Tapestry effect. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} your Normal Attack, the Tailoring effect will be triggered instead.\n\nTapestry\n· Switches to the next character in your roster.\n· Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as AoE Geo DMG at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\n· \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\n\nTailoring\n· Chiori gains Geo infusion for 5s.\n\nWhen on the field, if Chiori does not either {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/talent-passive-1.png"
+    },
+    {
+      "name": "The Finishing Touch",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When a nearby party member creates a Geo Construct, Chiori will gain 20% Geo DMG Bonus for 20s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/talent-passive-2.png"
+    },
+    {
+      "name": "Brocaded Collar's Beauteous Silhouette",
+      "unlock": "Unlocked Automatically",
+      "description": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.\nThis effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Six Paths of Sage Silkcraft",
+      "unlock": "Constellation Lv. 1",
+      "description": "The AoE of the automaton doll \"Tamoto\" summoned by Fluttering Hasode is increased by 50%.\nAdditionally, if there is a Geo party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:\n· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.\n· Triggers the Ascension Talent \"The Finishing Touch.\" You must first unlock the Ascension Talent \"The Finishing Touch.\"",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation-1.png"
+    },
+    {
+      "name": "In Five Colors Dyed",
+      "unlock": "Constellation Lv. 2",
+      "description": "For 10s after using Hiyoku: Twin Blades, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing AoE Geo DMG equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.\nKinu will leave the field after 1 attack or after lasting 3s.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation-2.png"
+    },
+    {
+      "name": "Four Brocade Embellishments",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Fluttering Hasode by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation-3.png"
+    },
+    {
+      "name": "A Tailor's Three Courtesies",
+      "unlock": "Constellation Lv. 4",
+      "description": "For 8s after triggering either follow-up effect of the Ascension Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.\nYou must first unlock the Ascension Talent \"Tailor-Made.\"",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation-4.png"
+    },
+    {
+      "name": "Two Silken Plumules",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Hiyoku: Twin Blades by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation-5.png"
+    },
+    {
+      "name": "Sole Principle Pursuit",
+      "unlock": "Constellation Lv. 6",
+      "description": "After triggering a follow-up effect of the Ascension Talent \"Tailor-Made,\" Chiori's own Fluttering Hasode's CD is decreased by 12s. You must first unlock the Ascension Talent \"Tailor-Made.\".\nIn addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation-6.png"
+    }
+  ],
+  "vision_key": "GEO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chiori/portrait.png"
+  }
+}
