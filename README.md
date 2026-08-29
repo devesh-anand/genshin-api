@@ -1,47 +1,191 @@
-# Unofficial Genshin-api
+# Unofficial Genshin Impact API
 
-For contribution guide, refer to [Contribution guidelines](./CONTRIBUTING.md).
+Open-source REST API for Genshin Impact character data, including stats, talents, constellations, and images.
 
-## Characters:
+**Base URL:** `https://genshin-impact.up.railway.app`
+
+For contribution guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+---
+
+## Rate Limiting
+
+100 requests per minute per IP. Exceeding the limit returns `429` with:
+```json
+{ "error": "Too many requests. Please try again in a minute." }
+```
+
+---
+
+## Characters
+
+All endpoints accept both `/character` and `/characters`.
+
+### `GET /characters`
+
+Returns a list of all character slugs.
+
+**Query parameters** (all optional, combinable):
+
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `element` | Filter by element | `pyro`, `hydro`, `dendro`, … |
+| `weapon` | Filter by weapon type | `sword`, `claymore`, `catalyst`, `bow`, `polearm` |
+| `nation` | Filter by nation | `mondstadt`, `liyue`, `inazuma`, `sumeru`, `fontaine`, `natlan`, `snezhnaya`, `nodkrai` |
+| `rarity` | Filter by rarity | `4` or `5` |
+| `details` | Return summary objects instead of slugs | `true` |
+
+**Examples:**
+```
+GET /characters
+GET /characters?element=pyro
+GET /characters?element=hydro&weapon=catalyst
+GET /characters?nation=fontaine&rarity=5
+GET /characters?element=dendro&details=true
+```
+
+**Default response** (slugs only):
+```json
+{
+  "characters": ["albedo", "alhaitham", "amber", "..."]
+}
+```
+
+**With `?details=true`:**
+```json
+{
+  "characters": [
+    {
+      "key": "nahida",
+      "name": "Nahida",
+      "title": "Little Witch of El Elysium",
+      "vision": "Dendro",
+      "weapon": "Catalyst",
+      "nation": "Sumeru",
+      "rarity": 5,
+      "img": { "card": "...", "icon": "...", "portrait": "...", "..." }
+    }
+  ]
+}
+```
+
+---
+
+### `GET /characters/elements`
+
+Returns all elements present in the roster.
+
+```json
+{ "elements": ["Anemo", "Cryo", "Dendro", "Electro", "Geo", "Hydro", "Pyro"] }
+```
+
+---
+
+### `GET /characters/nations`
+
+Returns all nations present in the roster.
+
+```json
+{
+  "nations": ["Fontaine", "Inazuma", "Liyue", "Mondstadt", "Natlan", "Nodkrai", "Outlander", "Snezhnaya", "Sumeru", "Unknown"]
+}
+```
+
+---
+
+### `GET /characters/:name`
+
+Returns full details for a single character. `:name` is the character's slug (lowercase, hyphenated).
 
 ```
-/character
-/character/:name
-/character/weapon/:weapontype
-/character/element/:element
-/character/imglist
-/character/imglist/:element
+GET /characters/nahida
+GET /characters/raiden-shogun
+GET /characters/aether-pyro
 ```
 
-### /character (or /characters)
+**Response:**
+```json
+{
+  "name": "Nahida",
+  "title": "Little Witch of El Elysium",
+  "vision": "Dendro",
+  "weapon": "Catalyst",
+  "nation": "Sumeru",
+  "affiliation": "The Sanctuary of Surasthana",
+  "rarity": 5,
+  "constellation": "Sapientia Oromasdis",
+  "birthday": "0000-10-27",
+  "description": "...",
+  "skillTalents": [...],
+  "passiveTalents": [...],
+  "constellations": [...],
+  "vision_key": "DENDRO",
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://...",
+    "constellation": "https://...",
+    "banner": "https://...",
+    "icon": "https://...",
+    "icon-big": "https://...",
+    "portrait": "https://..."
+  }
+}
+```
 
-Gives a list of all characters.
+Returns `404` if the character is not found.
 
-### /character/:name
+---
 
-> :name is name of character.
+### `GET /characters/element/:element` *(legacy)*
 
-Gives all the details and associated images of the character in `:name`.  
-_example: [xiao](https://genshin-impact.up.railway.app/character/xiao)_
+Returns slugs filtered by element. Prefer `GET /characters?element=` instead.
 
-### /character/weapon/:weapontype
+```
+GET /characters/element/pyro
+```
 
-> :weapontype is the type of weapon in game: sword, polearm, claymore, catalyst
+---
 
-Gives list of all character of that specific weapon type.
+### `GET /characters/weapon/:weapon` *(legacy)*
 
-### /character/element/:element
+Returns slugs filtered by weapon type. Prefer `GET /characters?weapon=` instead.
 
-> :element is one of the elements in game: pyro, cryo, hydro, electro, geo, anemo, dendro
+```
+GET /characters/weapon/catalyst
+```
 
-Gives list of all characters of that element.
+---
 
-### /character/imglist/:element
+### `GET /characters/imglist` *(legacy)*
 
-> :element is optional, just call /character/imglist to get all characters.
+Returns summary objects (key, name, element, img) for all characters. Prefer `GET /characters?details=true` instead.
 
-Gives name, key (eg: For Raiden Shogun, "raiden" is key), img and element.
+### `GET /characters/imglist/:element` *(legacy)*
 
-## Weapons:
+Same as above, filtered by element.
 
-Work In Progress
+---
+
+## Weapons
+
+Work in progress.
+
+---
+
+## Local Development
+
+```bash
+git clone https://github.com/devesh-anand/genshin-api.git
+cd genshin-api
+npm install
+```
+
+Create a `.env` file:
+```
+PORT=5000
+```
+
+```bash
+nodemon        # start dev server at http://localhost:5000
+npm test       # run tests
+```
