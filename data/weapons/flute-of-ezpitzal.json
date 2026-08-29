@@ -1,0 +1,25 @@
+{
+  "id": 11431,
+  "name": "Flute of Ezpitzal",
+  "description": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\"",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "DEF%",
+  "sub_stat_key": "FIGHT_PROP_DEFENSE_PERCENT",
+  "base_atk": 41.1,
+  "passive_name": "Smoke-and-Mirror Mystery",
+  "passive_desc": "Using an Elemental Skill increases DEF by 16% for 15s.",
+  "passive_upgrades": [
+    "Using an Elemental Skill increases DEF by 16% for 15s.",
+    "Using an Elemental Skill increases DEF by 20% for 15s.",
+    "Using an Elemental Skill increases DEF by 24% for 15s.",
+    "Using an Elemental Skill increases DEF by 28% for 15s.",
+    "Using an Elemental Skill increases DEF by 32% for 15s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flute-of-ezpitzal/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flute-of-ezpitzal/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flute-of-ezpitzal/full.png"
+  }
+}

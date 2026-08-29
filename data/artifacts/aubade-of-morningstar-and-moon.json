@@ -1,0 +1,36 @@
+{
+  "id": 15043,
+  "name": "Aubade of Morningstar and Moon",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Increases Elemental Mastery by 80.",
+    "5pc": "When the equipping character is off-field, Lunar Reaction DMG is increased by 20%. When the party's Moonsign Level is at least Ascendant Gleam, Lunar Reaction DMG will be further increased by 40%. This effect will disappear after the equipping character is active for 3s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Moonlit Offering's Opulent Dream",
+      "description": "A meticulously carved floral ornament meant to highlight the resplendent beauty of the goddesses of the heavenly moons, crafted in ancient times by artisans who sculpted statues of them.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/aubade-of-morningstar-and-moon/flower.png"
+    },
+    "plume": {
+      "name": "Moonlit Offering's Parting Light",
+      "description": "A quill that, in ancient times, granted boundless inspiration to priests who penned prayers to the heavenly moons.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/aubade-of-morningstar-and-moon/plume.png"
+    },
+    "sands": {
+      "name": "Moonlit Offering's Final Hour",
+      "description": "An hourglass meant to commemorate the final hour, prepared by sages who, in ancient times, sought truth from the heavenly moons.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/aubade-of-morningstar-and-moon/sands.png"
+    },
+    "goblet": {
+      "name": "Moonlit Offering's Libation",
+      "description": "A wine cup lost in the final revelry of an ancient rite, in which believers once offered sacrifices to the heavenly moons.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/aubade-of-morningstar-and-moon/goblet.png"
+    },
+    "circlet": {
+      "name": "Moonlit Offering's Silver Crown",
+      "description": "A silver circlet set aside at the final syllable of a hymn, worn by poets who, in ancient times, sang in praise of the heavenly moons.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/aubade-of-morningstar-and-moon/circlet.png"
+    }
+  }
+}

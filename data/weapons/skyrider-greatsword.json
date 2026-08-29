@@ -1,0 +1,25 @@
+{
+  "id": 12306,
+  "name": "Skyrider Greatsword",
+  "description": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time.",
+  "rarity": 3,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "Physical DMG Bonus",
+  "sub_stat_key": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+  "base_atk": 38.7,
+  "passive_name": "Courage",
+  "passive_desc": "On hit, Normal or Charged Attacks increase ATK by 6% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+  "passive_upgrades": [
+    "On hit, Normal or Charged Attacks increase ATK by 6% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+    "On hit, Normal or Charged Attacks increase ATK by 7% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+    "On hit, Normal or Charged Attacks increase ATK by 8% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+    "On hit, Normal or Charged Attacks increase ATK by 9% for 6s. Max 4 stacks. Can occur once every 0.5s.",
+    "On hit, Normal or Charged Attacks increase ATK by 10% for 6s. Max 4 stacks. Can occur once every 0.5s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyrider-greatsword/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyrider-greatsword/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyrider-greatsword/full.png"
+  }
+}

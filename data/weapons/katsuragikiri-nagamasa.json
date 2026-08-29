@@ -1,0 +1,25 @@
+{
+  "id": 12414,
+  "name": "Katsuragikiri Nagamasa",
+  "description": "A blade that was once made in Tatarasuna. Heavy and tough.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 42.4,
+  "passive_name": "Samurai Conduct",
+  "passive_desc": "Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+  "passive_upgrades": [
+    "Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+    "Increases Elemental Skill DMG by 7.5%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3.5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+    "Increases Elemental Skill DMG by 9%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 4 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+    "Increases Elemental Skill DMG by 10.5%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 4.5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field.",
+    "Increases Elemental Skill DMG by 12%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 5 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/katsuragikiri-nagamasa/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/katsuragikiri-nagamasa/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/katsuragikiri-nagamasa/full.png"
+  }
+}

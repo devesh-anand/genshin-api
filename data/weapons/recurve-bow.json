@@ -1,0 +1,25 @@
+{
+  "id": 15303,
+  "name": "Recurve Bow",
+  "description": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer.",
+  "rarity": 3,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 37.6,
+  "passive_name": "Cull the Weak",
+  "passive_desc": "Defeating an opponent restores 8% HP.",
+  "passive_upgrades": [
+    "Defeating an opponent restores 8% HP.",
+    "Defeating an opponent restores 10% HP.",
+    "Defeating an opponent restores 12% HP.",
+    "Defeating an opponent restores 14% HP.",
+    "Defeating an opponent restores 16% HP."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/recurve-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/recurve-bow/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/recurve-bow/full.png"
+  }
+}

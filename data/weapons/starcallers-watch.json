@@ -1,0 +1,26 @@
+{
+  "id": 14517,
+  "name": "Starcaller's Watch",
+  "description": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 44.3,
+  "passive_name": "Offering Unto Wind and Sun",
+  "passive_desc": "Increases Elemental Mastery by 100. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 28% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+  "passive_upgrades": [
+    "Increases Elemental Mastery by 100. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 28% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "Increases Elemental Mastery by 125. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 35% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "Increases Elemental Mastery by 150. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 42% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "Increases Elemental Mastery by 175. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 49% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s.",
+    "Increases Elemental Mastery by 200. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 56% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/full.png"
+  }
+}

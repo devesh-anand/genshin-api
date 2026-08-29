@@ -1,0 +1,26 @@
+{
+  "id": 11505,
+  "name": "Primordial Jade Cutter",
+  "description": "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.",
+  "rarity": 5,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 44.3,
+  "passive_name": "Protector's Virtue",
+  "passive_desc": "HP increased by 20%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP.",
+  "passive_upgrades": [
+    "HP increased by 20%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP.",
+    "HP increased by 25%. Additionally, provides an ATK Bonus based on 1.5% of the wielder's Max HP.",
+    "HP increased by 30%. Additionally, provides an ATK Bonus based on 1.8% of the wielder's Max HP.",
+    "HP increased by 35%. Additionally, provides an ATK Bonus based on 2.1% of the wielder's Max HP.",
+    "HP increased by 40%. Additionally, provides an ATK Bonus based on 2.4% of the wielder's Max HP."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/full.png"
+  }
+}

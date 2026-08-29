@@ -1,0 +1,25 @@
+{
+  "id": 14509,
+  "name": "Kagura's Verity",
+  "description": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 45.9,
+  "passive_name": "Kagura Dance of the Sacred Sakura",
+  "passive_desc": "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 12% as well as their Stellar-Conduct DMG by 12% for 24s. Max 3 stacks. This character will gain a 12% All Elemental DMG Bonus when they possess 3 stacks.",
+  "passive_upgrades": [
+    "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 12% as well as their Stellar-Conduct DMG by 12% for 24s. Max 3 stacks. This character will gain a 12% All Elemental DMG Bonus when they possess 3 stacks.",
+    "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 15% as well as their Stellar-Conduct DMG by 15% for 24s. Max 3 stacks. This character will gain a 15% All Elemental DMG Bonus when they possess 3 stacks.",
+    "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 18% as well as their Stellar-Conduct DMG by 18% for 24s. Max 3 stacks. This character will gain a 18% All Elemental DMG Bonus when they possess 3 stacks.",
+    "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 21% as well as their Stellar-Conduct DMG by 21% for 24s. Max 3 stacks. This character will gain a 21% All Elemental DMG Bonus when they possess 3 stacks.",
+    "Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 24% as well as their Stellar-Conduct DMG by 24% for 24s. Max 3 stacks. This character will gain a 24% All Elemental DMG Bonus when they possess 3 stacks."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kaguras-verity/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kaguras-verity/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kaguras-verity/wish.png"
+  }
+}

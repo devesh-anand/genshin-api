@@ -6,8 +6,9 @@ import bodyParser from "body-parser";
 import errorHandle from "./middlewares/errorHandle.js";
 import rateLimiter from "./middlewares/rateLimiter.js";
 import characterRoutes from "./routes/character/characterRoutes.js";
-import miscRoutes from "./routes/misc/miscRoutes.js";
 import weaponRoutes from "./routes/weapons/weaponRoutes.js";
+import artifactRoutes from "./routes/artifacts/artifactRoutes.js";
+import miscRoutes from "./routes/misc/miscRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -24,6 +25,7 @@ app.get("/", (req, res) => {
 app.use(["/character", "/characters"], characterRoutes);
 
 app.use(["/weapon", "/weapons"], weaponRoutes);
+app.use(["/artifact", "/artifacts"], artifactRoutes);
 
 app.use("/others", miscRoutes);
 

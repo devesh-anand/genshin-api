@@ -1,0 +1,36 @@
+{
+  "id": 15032,
+  "name": "Golden Troupe",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Increases Elemental Skill DMG by 20%.",
+    "5pc": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Golden Song's Variation",
+      "description": "A flower constructed out of clam, mother-of-pearl, and gold leaf. It blooms proudly.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/golden-troupe/flower.png"
+    },
+    "plume": {
+      "name": "Golden Bird's Shedding",
+      "description": "A gold feather made using silver and gold filigree. A crystal-clear sapphire is mounted atop it.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/golden-troupe/plume.png"
+    },
+    "sands": {
+      "name": "Golden Era's Prelude",
+      "description": "This lovely sundial is inlaid with silver and gold. It seems that time has stopped flowing atop its dial plate.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/golden-troupe/sands.png"
+    },
+    "goblet": {
+      "name": "Golden Night's Bustle",
+      "description": "An ancient silver urn that was once filled with fine wine as red as rubies. Now, it contains nothing but bitter seawater.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/golden-troupe/goblet.png"
+    },
+    "circlet": {
+      "name": "Golden Troupe's Reward",
+      "description": "An ancient crown that resembles a stage prop more than it does some suzerain's headgear.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/golden-troupe/circlet.png"
+    }
+  }
+}

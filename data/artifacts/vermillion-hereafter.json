@@ -1,0 +1,36 @@
+{
+  "id": 15023,
+  "name": "Vermillion Hereafter",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This further increase can occur this way a maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Flowering Life",
+      "description": "An ancient memento. It still looks as alive as the being that preserved it several centuries ago.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vermillion-hereafter/flower.png"
+    },
+    "plume": {
+      "name": "Feather of Nascent Light",
+      "description": "A dimly lustrous pinion steeped in strong memories.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vermillion-hereafter/plume.png"
+    },
+    "sands": {
+      "name": "Solar Relic",
+      "description": "An ancient timepiece with a mighty solid look. Its luster is produced by sand crystal.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vermillion-hereafter/sands.png"
+    },
+    "goblet": {
+      "name": "Moment of the Pact",
+      "description": "An old cup made of sand crystal. Its luster is somehow undimmed by age.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vermillion-hereafter/goblet.png"
+    },
+    "circlet": {
+      "name": "Thundering Poise",
+      "description": "This mask is said to have been made by the mountain people for a Yaksha. It is of simple make, but its surface still shines brightly nonetheless.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vermillion-hereafter/circlet.png"
+    }
+  }
+}

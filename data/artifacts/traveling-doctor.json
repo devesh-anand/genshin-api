@@ -1,0 +1,37 @@
+{
+  "id": 10013,
+  "name": "Traveling Doctor",
+  "rarity": 4,
+  "bonus": {
+    "1pc": "Increases incoming healing by 20%.",
+    "2pc": "Using Elemental Burst restores 20% HP.",
+    "3pc": null
+  },
+  "pieces": {
+    "flower": {
+      "name": "Traveling Doctor's Silver Lotus",
+      "description": "A precious medicinal ingredient that has lost all medicinal value after years in storage.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/traveling-doctor/flower.png"
+    },
+    "plume": {
+      "name": "Traveling Doctor's Owl Feather",
+      "description": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/traveling-doctor/plume.png"
+    },
+    "sands": {
+      "name": "Traveling Doctor's Pocket Watch",
+      "description": "A precise instrument used for keeping time. For a doctor, every second counts.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/traveling-doctor/sands.png"
+    },
+    "goblet": {
+      "name": "Traveling Doctor's Medicine Pot",
+      "description": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/traveling-doctor/goblet.png"
+    },
+    "circlet": {
+      "name": "Traveling Doctor's Handkerchief",
+      "description": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/traveling-doctor/circlet.png"
+    }
+  }
+}

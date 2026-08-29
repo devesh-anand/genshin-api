@@ -1,0 +1,26 @@
+{
+  "id": 15410,
+  "name": "Alley Hunter",
+  "description": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 43.7,
+  "passive_name": "Oppidan Ambush",
+  "passive_desc": "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2% every second up to a max of 20%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4% per second until it reaches 0%.",
+  "passive_upgrades": [
+    "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2% every second up to a max of 20%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4% per second until it reaches 0%.",
+    "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2.5% every second up to a max of 25%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 5% per second until it reaches 0%.",
+    "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 3% every second up to a max of 30%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 6% per second until it reaches 0%.",
+    "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 3.5% every second up to a max of 35%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 7% per second until it reaches 0%.",
+    "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 4% every second up to a max of 40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 8% per second until it reaches 0%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/full.png"
+  }
+}

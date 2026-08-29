@@ -1,0 +1,26 @@
+{
+  "id": 12305,
+  "name": "Debate Club",
+  "description": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal.",
+  "rarity": 3,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 38.7,
+  "passive_name": "Blunt Conclusion",
+  "passive_desc": "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+  "passive_upgrades": [
+    "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 75% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 90% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 105% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s.",
+    "After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 120% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/debate-club/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/debate-club/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/debate-club/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/debate-club/full.png"
+  }
+}

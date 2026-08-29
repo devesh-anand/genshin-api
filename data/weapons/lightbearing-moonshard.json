@@ -1,0 +1,26 @@
+{
+  "id": 11519,
+  "name": "Lightbearing Moonshard",
+  "description": "A legendary sword, said to be forged from the glimmering moonlight gathered in a well by an adeptus hidden among clear springs. Its true form is revealed only at the meeting of dusk and dawn.",
+  "rarity": 5,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 44.3,
+  "passive_name": "Legacy of Lang-Gan",
+  "passive_desc": "Increases DEF by 20%. DMG inflicted by Lunar-Crystallize reactions increases by 64% for 5s after the equipping character uses an Elemental Skill.",
+  "passive_upgrades": [
+    "Increases DEF by 20%. DMG inflicted by Lunar-Crystallize reactions increases by 64% for 5s after the equipping character uses an Elemental Skill.",
+    "Increases DEF by 25%. DMG inflicted by Lunar-Crystallize reactions increases by 80% for 5s after the equipping character uses an Elemental Skill.",
+    "Increases DEF by 30%. DMG inflicted by Lunar-Crystallize reactions increases by 96% for 5s after the equipping character uses an Elemental Skill.",
+    "Increases DEF by 35%. DMG inflicted by Lunar-Crystallize reactions increases by 112% for 5s after the equipping character uses an Elemental Skill.",
+    "Increases DEF by 40%. DMG inflicted by Lunar-Crystallize reactions increases by 128% for 5s after the equipping character uses an Elemental Skill."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lightbearing-moonshard/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lightbearing-moonshard/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lightbearing-moonshard/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lightbearing-moonshard/full.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 10007,
+  "name": "Instructor",
+  "rarity": 5,
+  "bonus": {
+    "3pc": "Increases Elemental Mastery by 80.",
+    "4pc": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Instructor's Brooch",
+      "description": "Whenever the instructor wore this brooch, it meant there would be no training sessions that day.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/instructor/flower.png"
+    },
+    "plume": {
+      "name": "Instructor's Feather Accessory",
+      "description": "Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/instructor/plume.png"
+    },
+    "sands": {
+      "name": "Instructor's Pocket Watch",
+      "description": "A stopwatch used not for general timekeeping but to measure the duration of a training session.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/instructor/sands.png"
+    },
+    "goblet": {
+      "name": "Instructor's Tea Cup",
+      "description": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/instructor/goblet.png"
+    },
+    "circlet": {
+      "name": "Instructor's Cap",
+      "description": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/instructor/circlet.png"
+    }
+  }
+}

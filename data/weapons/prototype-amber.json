@@ -1,0 +1,25 @@
+{
+  "id": 14406,
+  "name": "Prototype Amber",
+  "description": "A dully gilded catalyst secretly guarded in the Blackcliff Forge. It seems to glow with the very light from the sky.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Gilding",
+  "passive_desc": "Using an Elemental Burst regenerates 4 Energy every 2s for 6s. All party members will regenerate 4% HP every 2s for this duration.",
+  "passive_upgrades": [
+    "Using an Elemental Burst regenerates 4 Energy every 2s for 6s. All party members will regenerate 4% HP every 2s for this duration.",
+    "Using an Elemental Burst regenerates 4.5 Energy every 2s for 6s. All party members will regenerate 4.5% HP every 2s for this duration.",
+    "Using an Elemental Burst regenerates 5 Energy every 2s for 6s. All party members will regenerate 5% HP every 2s for this duration.",
+    "Using an Elemental Burst regenerates 5.5 Energy every 2s for 6s. All party members will regenerate 5.5% HP every 2s for this duration.",
+    "Using an Elemental Burst regenerates 6 Energy every 2s for 6s. All party members will regenerate 6% HP every 2s for this duration."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-amber/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-amber/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-amber/full.png"
+  }
+}

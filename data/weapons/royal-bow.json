@@ -1,0 +1,25 @@
+{
+  "id": 15404,
+  "name": "Royal Bow",
+  "description": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Focus",
+  "passive_desc": "Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
+  "passive_upgrades": [
+    "Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "Upon damaging an opponent, increases CRIT Rate by 10%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "Upon damaging an opponent, increases CRIT Rate by 12%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "Upon damaging an opponent, increases CRIT Rate by 14%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/royal-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/royal-bow/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/royal-bow/full.png"
+  }
+}

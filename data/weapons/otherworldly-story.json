@@ -1,0 +1,25 @@
+{
+  "id": 14303,
+  "name": "Otherworldly Story",
+  "description": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy.",
+  "rarity": 3,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 38.7,
+  "passive_name": "Energy Shower",
+  "passive_desc": "Picking up an Elemental Energy Orb/Particle recovers 1% HP.",
+  "passive_upgrades": [
+    "Picking up an Elemental Energy Orb/Particle recovers 1% HP.",
+    "Each Elemental Orb or Particle collected restores 1.25% HP.",
+    "Each Elemental Orb or Particle collected restores 1.5% HP.",
+    "Each Elemental Orb or Particle collected restores 1.75% HP.",
+    "Each Elemental Orb or Particle collected restores 2% HP."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/otherworldly-story/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/otherworldly-story/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/otherworldly-story/full.png"
+  }
+}

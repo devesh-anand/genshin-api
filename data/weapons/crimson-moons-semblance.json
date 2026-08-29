@@ -1,0 +1,26 @@
+{
+  "id": 13512,
+  "name": "Crimson Moon's Semblance",
+  "description": "A keen-edged weapon, luster dazzling as the crimson moon. It is said that an ancient dynasty once regarded it as a ritual object that could bridge two worlds, but none still remember the beliefs and ceremonies of that bygone age.",
+  "rarity": 5,
+  "type": "Polearm",
+  "type_key": "Polearm",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 47.5,
+  "passive_name": "Ashen Sun's Shadow",
+  "passive_desc": "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 12% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 24% DMG Bonus.",
+  "passive_upgrades": [
+    "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 12% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 24% DMG Bonus.",
+    "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 16% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 32% DMG Bonus.",
+    "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 20% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 40% DMG Bonus.",
+    "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 24% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 48% DMG Bonus.",
+    "Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 28% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 56% DMG Bonus."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/full.png"
+  }
+}

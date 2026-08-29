@@ -1,0 +1,26 @@
+{
+  "id": 11301,
+  "name": "Cool Steel",
+  "description": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master.",
+  "rarity": 3,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 38.7,
+  "passive_name": "Bane of Water and Ice",
+  "passive_desc": "Increases DMG against opponents affected by Hydro or Cryo by 12%.",
+  "passive_upgrades": [
+    "Increases DMG against opponents affected by Hydro or Cryo by 12%.",
+    "Increases DMG against opponents affected by Hydro or Cryo by 15%.",
+    "Increases DMG against opponents affected by Hydro or Cryo by 18%.",
+    "Increases DMG against opponents affected by Hydro or Cryo by 21%.",
+    "Increases DMG against opponents affected by Hydro or Cryo by 24%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cool-steel/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cool-steel/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cool-steel/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cool-steel/full.png"
+  }
+}

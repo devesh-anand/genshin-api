@@ -1,0 +1,26 @@
+{
+  "id": 15405,
+  "name": "Rust",
+  "description": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Rapid Firing",
+  "passive_desc": "Increases Normal Attack DMG by 40% but decreases Charged Attack DMG by 10%.",
+  "passive_upgrades": [
+    "Increases Normal Attack DMG by 40% but decreases Charged Attack DMG by 10%.",
+    "Increases Normal Attack DMG by 50% but decreases Charged Attack DMG by 10%.",
+    "Increases Normal Attack DMG by 60% but decreases Charged Attack DMG by 10%.",
+    "Increases Normal Attack DMG by 70% but decreases Charged Attack DMG by 10%.",
+    "Increases Normal Attack DMG by 80% but decreases Charged Attack DMG by 10%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rust/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rust/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rust/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rust/full.png"
+  }
+}

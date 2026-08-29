@@ -1,0 +1,36 @@
+{
+  "id": 15044,
+  "name": "A Day Carved From Rising Winds",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "After a Normal Attack, Charged Attack, Elemental Skill, or Elemental Burst hits an opponent, gain the Blessing of Pastoral Winds effect for 6s: ATK is increased by 25%. If the equipping character has completed Witch's Homework, Blessing of Pastoral Winds will be upgraded to Resolve of Pastoral Winds, which additionally increases the CRIT Rate of the equipping character by 20%. This effect can be triggered even when the character is off-field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Windborne Flower's Spruchdichtung",
+      "description": "An azure crystal bloom that never withers, said to have once belonged, in ages past, to a wandering girl who invoked the thousand winds and countless flowers.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/a-day-carved-from-rising-winds/flower.png"
+    },
+    "plume": {
+      "name": "Dawn's Brilliant Oath",
+      "description": "A feather accessory of azure, clear as the dawn, said to have once belonged to a guard who cast aside his name in ages past.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/a-day-carved-from-rising-winds/plume.png"
+    },
+    "sands": {
+      "name": "A Note in Spring's Leich",
+      "description": "An hourglass filled with azure sand. For reasons unknown, no matter how it is turned, the grains within it refuse to stir.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/a-day-carved-from-rising-winds/sands.png"
+    },
+    "goblet": {
+      "name": "Heldenepos's Unspoken Tale",
+      "description": "An ancient goblet, its azure surface weathered by time. It is rumored to have belonged to an unnamed bard in ages past.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/a-day-carved-from-rising-winds/goblet.png"
+    },
+    "circlet": {
+      "name": "Minnesang of Love and Lament",
+      "description": "A luxurious hair accessory adorned with jade and azure crystals, said to have once been a token bestowed by the Lord of Storm upon a favored recipient in ages past.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/a-day-carved-from-rising-winds/circlet.png"
+    }
+  }
+}

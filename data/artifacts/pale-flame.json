@@ -1,0 +1,36 @@
+{
+  "id": 15018,
+  "name": "Pale Flame",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Physical DMG is increased by 25%.",
+    "5pc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Stainless Bloom",
+      "description": "A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/pale-flame/flower.png"
+    },
+    "plume": {
+      "name": "Wise Doctor's Pinion",
+      "description": "An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/pale-flame/plume.png"
+    },
+    "sands": {
+      "name": "Moment of Cessation",
+      "description": "A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/pale-flame/sands.png"
+    },
+    "goblet": {
+      "name": "Surpassing Cup",
+      "description": "An intricately-made cup. Its appearance betrays nothing of its age to an observer.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/pale-flame/goblet.png"
+    },
+    "circlet": {
+      "name": "Mocking Mask",
+      "description": "A mask that covers the face, hiding one's expression from others.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/pale-flame/circlet.png"
+    }
+  }
+}

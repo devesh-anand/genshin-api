@@ -1,0 +1,26 @@
+{
+  "id": 12402,
+  "name": "The Bell",
+  "description": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Rebellious Guardian",
+  "passive_desc": "Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG.",
+  "passive_upgrades": [
+    "Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG.",
+    "Taking DMG generates a shield which absorbs DMG up to 23% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 15% increased DMG.",
+    "Taking DMG generates a shield which absorbs DMG up to 26% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 18% increased DMG.",
+    "Taking DMG generates a shield which absorbs DMG up to 29% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 21% increased DMG.",
+    "Taking DMG generates a shield which absorbs DMG up to 32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 24% increased DMG."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/full.png"
+  }
+}

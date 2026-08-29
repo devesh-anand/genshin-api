@@ -1,0 +1,36 @@
+{
+  "id": 15019,
+  "name": "Shimenawa's Reminiscence",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Entangling Bloom",
+      "description": "A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/shimenawas-reminiscence/flower.png"
+    },
+    "plume": {
+      "name": "Shaft of Remembrance",
+      "description": "A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/shimenawas-reminiscence/plume.png"
+    },
+    "sands": {
+      "name": "Morning Dew's Moment",
+      "description": "A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/shimenawas-reminiscence/sands.png"
+    },
+    "goblet": {
+      "name": "Hopeful Heart",
+      "description": "A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/shimenawas-reminiscence/goblet.png"
+    },
+    "circlet": {
+      "name": "Capricious Visage",
+      "description": "A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/shimenawas-reminiscence/circlet.png"
+    }
+  }
+}

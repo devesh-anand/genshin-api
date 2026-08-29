@@ -1,0 +1,26 @@
+{
+  "id": 15430,
+  "name": "Flower-Wreathed Feathers",
+  "description": "A longbow that burns like a flame. The feathers that adorn it are said to have come from the ancient tyrant Ngoubou.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Inflorescence Unattainable",
+  "passive_desc": "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 6% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+  "passive_upgrades": [
+    "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 6% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+    "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 7.5% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+    "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 9% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+    "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 10.5% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode.",
+    "Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 12% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flower-wreathed-feathers/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flower-wreathed-feathers/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flower-wreathed-feathers/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flower-wreathed-feathers/full.png"
+  }
+}

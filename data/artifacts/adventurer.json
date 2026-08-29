@@ -1,0 +1,37 @@
+{
+  "id": 10010,
+  "name": "Adventurer",
+  "rarity": 4,
+  "bonus": {
+    "1pc": "Max HP increased by 1,000.",
+    "2pc": "Opening a chest regenerates 30% Max HP over 5s.",
+    "3pc": null
+  },
+  "pieces": {
+    "flower": {
+      "name": "Adventurer's Flower",
+      "description": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/adventurer/flower.png"
+    },
+    "plume": {
+      "name": "Adventurer's Tail Feather",
+      "description": "The feather of an exotic bird rarely seen on this continent.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/adventurer/plume.png"
+    },
+    "sands": {
+      "name": "Adventurer's Pocket Watch",
+      "description": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/adventurer/sands.png"
+    },
+    "goblet": {
+      "name": "Adventurer's Golden Goblet",
+      "description": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/adventurer/goblet.png"
+    },
+    "circlet": {
+      "name": "Adventurer's Bandana",
+      "description": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/adventurer/circlet.png"
+    }
+  }
+}

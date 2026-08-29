@@ -1,0 +1,36 @@
+{
+  "id": 15048,
+  "name": "Heart of the Furnace",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "Increases the equipping character's ATK by 12% for 12s when they trigger a Stellar Glimmer reaction or deal Stellar Glimmer reaction DMG. Also increases Stellar Glimmer reaction DMG dealt by all nearby party members by 50%. The above effects can trigger even when the equipping character is not on the field, and he DMG bonus from multiple Artifact Sets with the same name do not stack."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Foundryman's Conjecture",
+      "description": "He knew that, unlike the temperature at the heart of the furnace, just how warm or cold a human heart is towards another cannot be clearly measured in degrees.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-the-furnace/flower.png"
+    },
+    "plume": {
+      "name": "Foundryman's Observation",
+      "description": "He knew that, unlike the colors at the heart of the furnace, the outcome of various worldly affairs could not be predicted simply through close observation.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-the-furnace/plume.png"
+    },
+    "sands": {
+      "name": "Foundryman's Calculus",
+      "description": "He knew that, unlike the heat at the heart of the furnace, the workings of power could not be controlled by the simple pull of a lever or the press of a button.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-the-furnace/sands.png"
+    },
+    "goblet": {
+      "name": "Foundryman's Magnanimity",
+      "description": "He knew that, unlike the flame at the heart of the furnace, which would continue burning indefinitely so long as it is supplied with fuel, friendship was far more fleeting.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-the-furnace/goblet.png"
+    },
+    "circlet": {
+      "name": "Foundryman's Legacy",
+      "description": "He knew that, unlike the flame at the heart of the furnace, the resolve to pursue a dream could never be simply passed on to those to come after.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-the-furnace/circlet.png"
+    }
+  }
+}

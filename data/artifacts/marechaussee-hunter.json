@@ -1,0 +1,36 @@
+{
+  "id": 15031,
+  "name": "Marechaussee Hunter",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Normal and Charged Attack DMG +15%",
+    "5pc": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Hunter's Brooch",
+      "description": "An ancient emblem that was once awarded to those who had made exceptional contributions in battle.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/marechaussee-hunter/flower.png"
+    },
+    "plume": {
+      "name": "Masterpiece's Overture",
+      "description": "A portable tool used to adjust the torque on some old-school clockwork machine. It has since lost its practical value.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/marechaussee-hunter/plume.png"
+    },
+    "sands": {
+      "name": "Moment of Judgment",
+      "description": "A standard pocket watch. Its accuracy is not particularly high.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/marechaussee-hunter/sands.png"
+    },
+    "goblet": {
+      "name": "Forgotten Vessel",
+      "description": "A portable metal vessel containing strong wine. Can be stuffed into the pocket of an outer coat for ease of access and use.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/marechaussee-hunter/goblet.png"
+    },
+    "circlet": {
+      "name": "Veteran's Visage",
+      "description": "An old mask that can, to some extent, stand in for a face marred by wounds. Its design can vary based on the wounded areas and the user's gender.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/marechaussee-hunter/circlet.png"
+    }
+  }
+}

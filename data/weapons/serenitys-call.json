@@ -1,0 +1,24 @@
+{
+  "id": 11433,
+  "name": "Serenity's Call",
+  "description": "A longsword forged from metal that makes a mournful sound when swung.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 41.1,
+  "passive_name": "Solemn Silence",
+  "passive_desc": "Upon causing an Elemental Reaction, increases Max HP by 16% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 16%. This effect can be triggered even if the equipping character is off-field.",
+  "passive_upgrades": [
+    "Upon causing an Elemental Reaction, increases Max HP by 16% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 16%. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Max HP by 20% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 20%. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Max HP by 24% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 24%. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Max HP by 28% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 28%. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Max HP by 32% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 32%. This effect can be triggered even if the equipping character is off-field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serenitys-call/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serenitys-call/icon-awaken.png"
+  }
+}

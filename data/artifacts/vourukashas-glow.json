@@ -1,0 +1,36 @@
+{
+  "id": 15030,
+  "name": "Vourukasha's Glow",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "HP +20%",
+    "5pc": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Stamen of Khvarena's Origin",
+      "description": "An insignia in the shape of a lovely little flower that was once worn by pilgrims in times long bygone.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/flower.png"
+    },
+    "plume": {
+      "name": "Vibrant Pinion",
+      "description": "An exquisite feather-shaped decoration on which the vivid hues of verdant leaves and fragrant flowers shimmer.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/plume.png"
+    },
+    "sands": {
+      "name": "Ancient Abscission",
+      "description": "An ancient timepiece upon which the light of Khvarena gleams. It is filled with a pure liquid that appears alive.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/sands.png"
+    },
+    "goblet": {
+      "name": "Feast of Boundless Joy",
+      "description": "An opulent wine goblet that was once filled with nectar and honeydew, but is empty today.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/goblet.png"
+    },
+    "circlet": {
+      "name": "Heart of Khvarena's Brilliance",
+      "description": "Intricate and vibrant earrings upon which the luster of a hundred flowers seems to flow.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/circlet.png"
+    }
+  }
+}

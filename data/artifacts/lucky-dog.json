@@ -1,0 +1,37 @@
+{
+  "id": 10011,
+  "name": "Lucky Dog",
+  "rarity": 4,
+  "bonus": {
+    "1pc": "DEF increased by 100.",
+    "2pc": "Picking up Mora restores 300 HP.",
+    "3pc": null
+  },
+  "pieces": {
+    "flower": {
+      "name": "Lucky Dog's Clover",
+      "description": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lucky-dog/flower.png"
+    },
+    "plume": {
+      "name": "Lucky Dog's Eagle Feather",
+      "description": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lucky-dog/plume.png"
+    },
+    "sands": {
+      "name": "Lucky Dog's Hourglass",
+      "description": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lucky-dog/sands.png"
+    },
+    "goblet": {
+      "name": "Lucky Dog's Goblet",
+      "description": "An exquisite metallic vessel that was once used to knock out a thief.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lucky-dog/goblet.png"
+    },
+    "circlet": {
+      "name": "Lucky Dog's Silver Circlet",
+      "description": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lucky-dog/circlet.png"
+    }
+  }
+}

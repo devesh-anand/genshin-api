@@ -1,0 +1,25 @@
+{
+  "id": 14432,
+  "name": "Etherlight Spindlelute",
+  "description": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 42.4,
+  "passive_name": "Last Singer",
+  "passive_desc": "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100.",
+  "passive_upgrades": [
+    "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100.",
+    "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 125.",
+    "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 150.",
+    "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 175.",
+    "For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 200."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/etherlight-spindlelute/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/etherlight-spindlelute/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/etherlight-spindlelute/full.png"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": 11413,
+  "name": "Festering Desire",
+  "description": "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 42.4,
+  "passive_name": "Undying Admiration",
+  "passive_desc": "Increases Elemental Skill DMG by 16% and Elemental Skill CRIT Rate by 6%.",
+  "passive_upgrades": [
+    "Increases Elemental Skill DMG by 16% and Elemental Skill CRIT Rate by 6%.",
+    "Increases Elemental Skill DMG by 20% and Elemental Skill CRIT Rate by 7.5%.",
+    "Increases Elemental Skill DMG by 24% and Elemental Skill CRIT Rate by 9%.",
+    "Increases Elemental Skill DMG by 28% and Elemental Skill CRIT Rate by 10.5%.",
+    "Increases Elemental Skill DMG by 32% and Elemental Skill CRIT Rate by 12%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/festering-desire/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/festering-desire/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/festering-desire/full.png"
+  }
+}

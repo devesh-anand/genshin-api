@@ -1,0 +1,25 @@
+{
+  "id": 12425,
+  "name": "Tidal Shadow",
+  "description": "An exquisitely-crafted, standard-model sword forged for the high-ranking officers and flagship captains of Fontaine's old navy.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "White Cruising Wave",
+  "passive_desc": "After the wielder is healed, ATK will be increased by 24% for 8s. This can be triggered even when the character is not on the field.",
+  "passive_upgrades": [
+    "After the wielder is healed, ATK will be increased by 24% for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, ATK will be increased by 30% for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, ATK will be increased by 36% for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, ATK will be increased by 42% for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, ATK will be increased by 48% for 8s. This can be triggered even when the character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tidal-shadow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tidal-shadow/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tidal-shadow/full.png"
+  }
+}

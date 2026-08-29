@@ -1,0 +1,25 @@
+{
+  "id": 11426,
+  "name": "Fleuve Cendre Ferryman",
+  "description": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous — or infamous, depending — in some circles.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 42.4,
+  "passive_name": "Ironbone",
+  "passive_desc": "Increases Elemental Skill CRIT Rate by 8%. Additionally, increases Energy Recharge by 16% for 5s after using an Elemental Skill.",
+  "passive_upgrades": [
+    "Increases Elemental Skill CRIT Rate by 8%. Additionally, increases Energy Recharge by 16% for 5s after using an Elemental Skill.",
+    "Increases Elemental Skill CRIT Rate by 10%. Additionally, increases Energy Recharge by 20% for 5s after using an Elemental Skill.",
+    "Increases Elemental Skill CRIT Rate by 12%. Additionally, increases Energy Recharge by 24% for 5s after using an Elemental Skill.",
+    "Increases Elemental Skill CRIT Rate by 14%. Additionally, increases Energy Recharge by 28% for 5s after using an Elemental Skill.",
+    "Increases Elemental Skill CRIT Rate by 16%. Additionally, increases Energy Recharge by 32% for 5s after using an Elemental Skill."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fleuve-cendre-ferryman/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fleuve-cendre-ferryman/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fleuve-cendre-ferryman/full.png"
+  }
+}

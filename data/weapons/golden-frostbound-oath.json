@@ -1,0 +1,26 @@
+{
+  "id": 15516,
+  "name": "Golden Frostbound Oath",
+  "description": "A longbow carved from ancient whitewood, once, in ages past, wielded by the Jack Frost King of the northern lands.",
+  "rarity": 5,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 44.3,
+  "passive_name": "Dawn's Salutation Returned",
+  "passive_desc": "Increase DEF by 16%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 40%, Lunar-Crystallize Reaction DMG increases by 40%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 20% and Lunar-Crystallize Reaction DMG increases by 20%. This effect can be triggered even when the equipping character is off-field.",
+  "passive_upgrades": [
+    "Increase DEF by 16%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 40%, Lunar-Crystallize Reaction DMG increases by 40%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 20% and Lunar-Crystallize Reaction DMG increases by 20%. This effect can be triggered even when the equipping character is off-field.",
+    "Increase DEF by 20%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 50%, Lunar-Crystallize Reaction DMG increases by 50%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 25% and Lunar-Crystallize Reaction DMG increases by 25%. This effect can be triggered even when the equipping character is off-field.",
+    "Increase DEF by 24%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 60%, Lunar-Crystallize Reaction DMG increases by 60%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 30% and Lunar-Crystallize Reaction DMG increases by 30%. This effect can be triggered even when the equipping character is off-field.",
+    "Increase DEF by 28%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 70%, Lunar-Crystallize Reaction DMG increases by 70%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 35% and Lunar-Crystallize Reaction DMG increases by 35%. This effect can be triggered even when the equipping character is off-field.",
+    "Increase DEF by 32%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 80%, Lunar-Crystallize Reaction DMG increases by 80%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 40% and Lunar-Crystallize Reaction DMG increases by 40%. This effect can be triggered even when the equipping character is off-field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/full.png"
+  }
+}

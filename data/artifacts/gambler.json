@@ -1,0 +1,36 @@
+{
+  "id": 10008,
+  "name": "Gambler",
+  "rarity": 5,
+  "bonus": {
+    "3pc": "Increases Elemental Skill DMG by 20%.",
+    "4pc": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Gambler's Brooch",
+      "description": "A big, luxurious flower that can hide loaded dice.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gambler/flower.png"
+    },
+    "plume": {
+      "name": "Gambler's Feather Accessory",
+      "description": "The tail feather of a large bird. Perfect for discretely concealing a trump card.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gambler/plume.png"
+    },
+    "sands": {
+      "name": "Gambler's Pocket Watch",
+      "description": "A shattered pocket watch that once took a lethal hit for its owner.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gambler/sands.png"
+    },
+    "goblet": {
+      "name": "Gambler's Dice Cup",
+      "description": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gambler/goblet.png"
+    },
+    "circlet": {
+      "name": "Gambler's Earrings",
+      "description": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gambler/circlet.png"
+    }
+  }
+}

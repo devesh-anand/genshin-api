@@ -1,6 +1,6 @@
 # Unofficial Genshin Impact API
 
-Open-source REST API for Genshin Impact character data, including stats, talents, constellations, and images.
+Open-source REST API for Genshin Impact character, weapon, and artifact data — including stats, talents, constellations, and images.
 
 **Base URL:** `https://genshin-impact.up.railway.app`
 
@@ -46,9 +46,7 @@ GET /characters?element=dendro&details=true
 
 **Default response** (slugs only):
 ```json
-{
-  "characters": ["albedo", "alhaitham", "amber", "..."]
-}
+{ "characters": ["albedo", "alhaitham", "amber", "..."] }
 ```
 
 **With `?details=true`:**
@@ -78,8 +76,6 @@ Returns all elements present in the roster.
 ```json
 { "elements": ["Anemo", "Cryo", "Dendro", "Electro", "Geo", "Hydro", "Pyro"] }
 ```
-
----
 
 ### `GET /characters/nations`
 
@@ -136,39 +132,180 @@ Returns `404` if the character is not found.
 
 ---
 
-### `GET /characters/element/:element` *(legacy)*
+### Legacy endpoints
 
-Returns slugs filtered by element. Prefer `GET /characters?element=` instead.
-
-```
-GET /characters/element/pyro
-```
-
----
-
-### `GET /characters/weapon/:weapon` *(legacy)*
-
-Returns slugs filtered by weapon type. Prefer `GET /characters?weapon=` instead.
-
-```
-GET /characters/weapon/catalyst
-```
-
----
-
-### `GET /characters/imglist` *(legacy)*
-
-Returns summary objects (key, name, element, img) for all characters. Prefer `GET /characters?details=true` instead.
-
-### `GET /characters/imglist/:element` *(legacy)*
-
-Same as above, filtered by element.
+| Endpoint | Prefer instead |
+|----------|---------------|
+| `GET /characters/element/:element` | `GET /characters?element=` |
+| `GET /characters/weapon/:weapon` | `GET /characters?weapon=` |
+| `GET /characters/imglist` | `GET /characters?details=true` |
+| `GET /characters/imglist/:element` | `GET /characters?element=&details=true` |
 
 ---
 
 ## Weapons
 
-Work in progress.
+All endpoints accept both `/weapon` and `/weapons`.
+
+### `GET /weapons`
+
+Returns a list of all weapon slugs.
+
+**Query parameters** (all optional, combinable):
+
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `type` | Filter by weapon type | `sword`, `claymore`, `polearm`, `catalyst`, `bow` |
+| `rarity` | Filter by rarity | `1`–`5` |
+| `details` | Return summary objects instead of slugs | `true` |
+
+**Examples:**
+```
+GET /weapons
+GET /weapons?type=catalyst&rarity=5
+GET /weapons?rarity=4&details=true
+```
+
+**With `?details=true`:**
+```json
+{
+  "weapons": [
+    {
+      "key": "staff-of-homa",
+      "name": "Staff of Homa",
+      "rarity": 5,
+      "type": "Polearm",
+      "sub_stat": "CRIT DMG",
+      "passive_name": "Reckless Cinnabar",
+      "img": { "icon": "...", "icon-awaken": "...", "wish": "...", "full": "..." }
+    }
+  ]
+}
+```
+
+---
+
+### `GET /weapons/types`
+
+Returns all weapon types.
+
+```json
+{ "types": ["Bow", "Catalyst", "Claymore", "Polearm", "Sword"] }
+```
+
+---
+
+### `GET /weapons/:name`
+
+Returns full details for a single weapon. `:name` is the weapon's slug.
+
+```
+GET /weapons/staff-of-homa
+GET /weapons/primordial-jade-cutter
+```
+
+**Response:**
+```json
+{
+  "id": 13501,
+  "name": "Staff of Homa",
+  "description": "...",
+  "rarity": 5,
+  "type": "Polearm",
+  "type_key": "WEAPON_POLE",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 45.9,
+  "passive_name": "Reckless Cinnabar",
+  "passive_desc": "HP increased by 20%...",
+  "passive_upgrades": ["R1 text", "R2 text", "R3 text", "R4 text", "R5 text"],
+  "img": {
+    "icon": "https://...",
+    "icon-awaken": "https://...",
+    "wish": "https://...",
+    "full": "https://..."
+  }
+}
+```
+
+> **Image notes:** `icon` is the 256×256 inventory icon. `icon-awaken` is the refined/ascended variant. `wish` is a transparent-background cutout (512×1024). `full` is the high-res 3D render (~600×900). Not all weapons have `wish` and `full` (unreleased weapons may only have `icon`).
+
+Returns `404` if the weapon is not found.
+
+---
+
+## Artifacts
+
+All endpoints accept both `/artifact` and `/artifacts`.
+
+### `GET /artifacts`
+
+Returns a list of all artifact set slugs.
+
+**Query parameters** (all optional):
+
+| Parameter | Description | Example |
+|-----------|-------------|---------|
+| `rarity` | Filter by max rarity | `4` or `5` |
+| `details` | Return summary objects instead of slugs | `true` |
+
+**Examples:**
+```
+GET /artifacts
+GET /artifacts?rarity=5
+GET /artifacts?details=true
+```
+
+**With `?details=true`:**
+```json
+{
+  "artifacts": [
+    {
+      "key": "emblem-of-severed-fate",
+      "name": "Emblem of Severed Fate",
+      "rarity": 5,
+      "bonus": {
+        "2pc": "Energy Recharge +20%.",
+        "4pc": "Increases Elemental Burst DMG by 25% of Energy Recharge..."
+      },
+      "img": "https://..."
+    }
+  ]
+}
+```
+
+---
+
+### `GET /artifacts/:name`
+
+Returns full details for a single artifact set. `:name` is the set's slug.
+
+```
+GET /artifacts/emblem-of-severed-fate
+GET /artifacts/pale-flame
+```
+
+**Response:**
+```json
+{
+  "id": 15021,
+  "name": "Emblem of Severed Fate",
+  "rarity": 5,
+  "bonus": {
+    "2pc": "Energy Recharge +20%.",
+    "4pc": "Increases Elemental Burst DMG by 25% of Energy Recharge..."
+  },
+  "pieces": {
+    "flower":  { "name": "...", "description": "...", "img": "https://..." },
+    "plume":   { "name": "...", "description": "...", "img": "https://..." },
+    "sands":   { "name": "...", "description": "...", "img": "https://..." },
+    "goblet":  { "name": "...", "description": "...", "img": "https://..." },
+    "circlet": { "name": "...", "description": "...", "img": "https://..." }
+  }
+}
+```
+
+Returns `404` if the artifact set is not found.
 
 ---
 

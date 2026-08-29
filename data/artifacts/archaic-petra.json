@@ -1,0 +1,36 @@
+{
+  "id": 15014,
+  "name": "Archaic Petra",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Gain a 15% Geo DMG Bonus.",
+    "5pc": "Upon obtaining an Elemental Shard created through Crystallize or triggering a Lunar-Crystallize reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Flower of Creviced Cliff",
+      "description": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/flower.png"
+    },
+    "plume": {
+      "name": "Feather of Jagged Peaks",
+      "description": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/plume.png"
+    },
+    "sands": {
+      "name": "Sundial of Enduring Jade",
+      "description": "A sundial carved from a single, large piece of jade. Its lined with a pattern that silently records the passage of time.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/sands.png"
+    },
+    "goblet": {
+      "name": "Goblet of Chiseled Crag",
+      "description": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/goblet.png"
+    },
+    "circlet": {
+      "name": "Mask of Solitude Basalt",
+      "description": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/circlet.png"
+    }
+  }
+}

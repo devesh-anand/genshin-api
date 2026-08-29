@@ -1,0 +1,25 @@
+{
+  "id": 14427,
+  "name": "Ash-Graven Drinking Horn",
+  "description": "A ritual vessel passed down amongst the Meztli. They say that this was once a treasure much-valued, yet never used, by the hero \"Giant\" Tupac.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Tupac's Grip",
+  "passive_desc": "When an attack hits an opponent, deal AoE DMG equal to 40% of Max HP at the target location. This effect can be triggered once every 15s.",
+  "passive_upgrades": [
+    "When an attack hits an opponent, deal AoE DMG equal to 40% of Max HP at the target location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 50% of Max HP at the target's location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 60% of Max HP at the target's location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 70% of Max HP at the target's location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 80% of Max HP at the target's location. This effect can be triggered once every 15s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ash-graven-drinking-horn/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ash-graven-drinking-horn/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ash-graven-drinking-horn/full.png"
+  }
+}

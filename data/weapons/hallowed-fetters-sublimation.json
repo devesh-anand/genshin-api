@@ -1,0 +1,19 @@
+{
+  "id": 340002,
+  "name": "Hallowed Fetters - Sublimation",
+  "description": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": null,
+  "sub_stat_key": "NONE",
+  "base_atk": null,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hallowed-fetters-sublimation/icon.png",
+    "icon-awaken": null,
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hallowed-fetters-sublimation/wish.png"
+  }
+}

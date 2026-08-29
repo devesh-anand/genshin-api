@@ -1,0 +1,25 @@
+{
+  "id": 12412,
+  "name": "Luxurious Sea-Lord",
+  "description": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 41.1,
+  "passive_name": "Oceanic Victory",
+  "passive_desc": "Increases Elemental Burst DMG by 12%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100% ATK as AoE DMG. This effect can occur once every 15s.",
+  "passive_upgrades": [
+    "Increases Elemental Burst DMG by 12%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100% ATK as AoE DMG. This effect can occur once every 15s.",
+    "Increases Elemental Burst DMG by 15%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 125% ATK as AoE DMG. This effect can occur once every 15s.",
+    "Increases Elemental Burst DMG by 18%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 150% ATK as AoE DMG. This effect can occur once every 15s.",
+    "Increases Elemental Burst DMG by 21%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 175% ATK as AoE DMG. This effect can occur once every 15s.",
+    "Increases Elemental Burst DMG by 24%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 200% ATK as AoE DMG. This effect can occur once every 15s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/luxurious-sea-lord/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/luxurious-sea-lord/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/luxurious-sea-lord/full.png"
+  }
+}

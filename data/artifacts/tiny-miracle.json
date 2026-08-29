@@ -1,0 +1,36 @@
+{
+  "id": 10004,
+  "name": "Tiny Miracle",
+  "rarity": 5,
+  "bonus": {
+    "3pc": "All Elemental RES increased by 20%.",
+    "4pc": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Tiny Miracle's Flower",
+      "description": "A flower that grew from a rock, breaking through the stone as it strove to reach the light.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tiny-miracle/flower.png"
+    },
+    "plume": {
+      "name": "Tiny Miracle's Feather",
+      "description": "A feather from a bird of prey that flies almost too fast for the human eye to detect.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tiny-miracle/plume.png"
+    },
+    "sands": {
+      "name": "Tiny Miracle's Hourglass",
+      "description": "Just an ordinary, everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tiny-miracle/sands.png"
+    },
+    "goblet": {
+      "name": "Tiny Miracle's Goblet",
+      "description": "A cup commonly used for fortune-telling. It can also hold water, of course.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tiny-miracle/goblet.png"
+    },
+    "circlet": {
+      "name": "Tiny Miracle's Earrings",
+      "description": "A cheap accessory that is actually made from ancient meteoric ore.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tiny-miracle/circlet.png"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": 14415,
+  "name": "Oathsworn Eye",
+  "description": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 43.7,
+  "passive_name": "People of the Faltering Light",
+  "passive_desc": "Increases Energy Recharge by 24% for 10s after using an Elemental Skill.",
+  "passive_upgrades": [
+    "Increases Energy Recharge by 24% for 10s after using an Elemental Skill.",
+    "Increases Energy Recharge by 30% for 10s after using an Elemental Skill.",
+    "Increases Energy Recharge by 36% for 10s after using an Elemental Skill.",
+    "Increases Energy Recharge by 42% for 10s after using an Elemental Skill.",
+    "Increases Energy Recharge by 48% for 10s after using an Elemental Skill."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/oathsworn-eye/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/oathsworn-eye/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/oathsworn-eye/full.png"
+  }
+}

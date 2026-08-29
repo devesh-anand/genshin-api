@@ -1,0 +1,26 @@
+{
+  "id": 11410,
+  "name": "The Alley Flash",
+  "description": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 45.1,
+  "passive_name": "Itinerant Hero",
+  "passive_desc": "Increases DMG dealt by the character equipping this weapon by 12%. Taking DMG disables this effect for 5s.",
+  "passive_upgrades": [
+    "Increases DMG dealt by the character equipping this weapon by 12%. Taking DMG disables this effect for 5s.",
+    "Increases DMG dealt by the character equipping this weapon by 15%. Taking DMG disables this effect for 5s.",
+    "Increases DMG dealt by the character equipping this weapon by 18%. Taking DMG disables this effect for 5s.",
+    "Increases DMG dealt by the character equipping this weapon by 21%. Taking DMG disables this effect for 5s.",
+    "Increases DMG dealt by the character equipping this weapon by 24%. Taking DMG disables this effect for 5s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-alley-flash/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-alley-flash/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-alley-flash/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-alley-flash/full.png"
+  }
+}

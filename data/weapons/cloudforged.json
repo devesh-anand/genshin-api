@@ -1,0 +1,25 @@
+{
+  "id": 15426,
+  "name": "Cloudforged",
+  "description": "A prototype for a standard-issue weapon the Yuheng commissioned from Blackcliff Forge after having analyzed the ancient mechanisms that protected the adeptal abode upon Tianheng.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 42.4,
+  "passive_name": "Crag-Chiseled Forge",
+  "passive_desc": "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 40 for 18s. Max 2 stacks.",
+  "passive_upgrades": [
+    "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 40 for 18s. Max 2 stacks.",
+    "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 50 for 18s. Max 2 stacks.",
+    "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 60 for 18s. Max 2 stacks.",
+    "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 70 for 18s. Max 2 stacks.",
+    "After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 80 for 18s. Max 2 stacks."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cloudforged/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cloudforged/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cloudforged/full.png"
+  }
+}

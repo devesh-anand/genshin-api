@@ -1,0 +1,26 @@
+{
+  "id": 15301,
+  "name": "Raven Bow",
+  "description": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target.",
+  "rarity": 3,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 39.9,
+  "passive_name": "Bane of Flame and Water",
+  "passive_desc": "Increases DMG against opponents affected by Hydro or Pyro by 12%.",
+  "passive_upgrades": [
+    "Increases DMG against opponents affected by Hydro or Pyro by 12%.",
+    "Increases DMG against opponents affected by Hydro or Pyro by 15%.",
+    "Increases DMG against opponents affected by Hydro or Pyro by 18%.",
+    "Increases DMG against opponents affected by Hydro or Pyro by 21%.",
+    "Increases DMG against opponents affected by Hydro or Pyro by 24%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/raven-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/raven-bow/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/raven-bow/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/raven-bow/full.png"
+  }
+}

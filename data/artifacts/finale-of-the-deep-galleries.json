@@ -1,0 +1,36 @@
+{
+  "id": 15040,
+  "name": "Finale of the Deep Galleries",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Cryo DMG Bonus +15%",
+    "5pc": "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Deep Gallery's Echoing Song",
+      "description": "An icy flower fashioned from northland jade. Over the course of its long life, its petals have crumbled to dust.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/finale-of-the-deep-galleries/flower.png"
+    },
+    "plume": {
+      "name": "Deep Gallery's Distant Pact",
+      "description": "A feathered accessory fashioned from northland jade that shimmers with an otherworldly glow.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/finale-of-the-deep-galleries/plume.png"
+    },
+    "sands": {
+      "name": "Deep Gallery's Moment of Oblivion",
+      "description": "A pocket watch fashioned from northland jade. Its hands are forever frozen in the moment of its destruction.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/finale-of-the-deep-galleries/sands.png"
+    },
+    "goblet": {
+      "name": "Deep Gallery's Bestowed Banquet",
+      "description": "A cup fashioned from northland jade. They say that the people of an ancient civilization once used it as a ceremonial vessel to make offerings to the heavens.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/finale-of-the-deep-galleries/goblet.png"
+    },
+    "circlet": {
+      "name": "Deep Gallery's Lost Crown",
+      "description": "A helmet steeped in obsession, just like the mind of its previous owner. Its jade ornamentation seems to come from an age more ancient still.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/finale-of-the-deep-galleries/circlet.png"
+    }
+  }
+}

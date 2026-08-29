@@ -1,0 +1,25 @@
+{
+  "id": 15305,
+  "name": "Messenger",
+  "description": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+  "rarity": 3,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 39.9,
+  "passive_name": "Archer's Message",
+  "passive_desc": "Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+  "passive_upgrades": [
+    "Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "Charged Attack hits on weak points deal an additional 125% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "Charged Attack hits on weak points deal an additional 150% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "Charged Attack hits on weak points deal an additional 175% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "Charged Attack hits on weak points deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/messenger/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/messenger/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/messenger/full.png"
+  }
+}

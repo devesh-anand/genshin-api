@@ -1,0 +1,36 @@
+{
+  "id": 15029,
+  "name": "Nymph's Dream",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Hydro DMG Bonus +15%",
+    "5pc": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Odyssean Flower",
+      "description": "The story must end, and even fresh flowers will wither. But the flower within one's dreams will always remain in full and fragrant bloom.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/nymphs-dream/flower.png"
+    },
+    "plume": {
+      "name": "Wicked Mage's Plumule",
+      "description": "This was once a decorative feather in someone's hat. Being dark green, it is quite eye-catching indeed.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/nymphs-dream/plume.png"
+    },
+    "sands": {
+      "name": "Nymph's Constancy",
+      "description": "A pocket watch that has long stopped working. It seems to have borne witness to many a passing year as its hands spun in vain.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/nymphs-dream/sands.png"
+    },
+    "goblet": {
+      "name": "Heroes' Tea Party",
+      "description": "A lovely teacup. Perhaps it was once used by people enjoying a leisurely afternoon together.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/nymphs-dream/goblet.png"
+    },
+    "circlet": {
+      "name": "Fell Dragon's Monocle",
+      "description": "An exquisitely-made monocle. Ancient anecdotes say that one might be able to see the future through it.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/nymphs-dream/circlet.png"
+    }
+  }
+}

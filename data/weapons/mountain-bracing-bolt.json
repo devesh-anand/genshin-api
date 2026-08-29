@@ -1,0 +1,26 @@
+{
+  "id": 13430,
+  "name": "Mountain-Bracing Bolt",
+  "description": "This polearm was once jointly forged by the craftsmen in the mines as a sacrifice to the spirits of the mountains.",
+  "rarity": 4,
+  "type": "Polearm",
+  "type_key": "Polearm",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 43.7,
+  "passive_name": "Hope Beyond the Peaks",
+  "passive_desc": "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 12%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 12% for 8s.",
+  "passive_upgrades": [
+    "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 12%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 12% for 8s.",
+    "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 15%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 15% for 8s.",
+    "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 18%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 18% for 8s.",
+    "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 21%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 21% for 8s.",
+    "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 24%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 24% for 8s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/full.png"
+  }
+}

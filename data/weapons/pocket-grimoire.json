@@ -1,0 +1,19 @@
+{
+  "id": 14201,
+  "name": "Pocket Grimoire",
+  "description": "A carefully compiled notebook featuring the essentials needed to pass a magic exam.",
+  "rarity": 2,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": null,
+  "sub_stat_key": "None",
+  "base_atk": 32.9,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/pocket-grimoire/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/pocket-grimoire/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/pocket-grimoire/full.png"
+  }
+}

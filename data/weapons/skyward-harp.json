@@ -1,0 +1,26 @@
+{
+  "id": 15501,
+  "name": "Skyward Harp",
+  "description": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+  "rarity": 5,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 47.5,
+  "passive_name": "Echoing Ballad",
+  "passive_desc": "Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s.",
+  "passive_upgrades": [
+    "Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s.",
+    "Increases CRIT DMG by 25%. Hits have a 70% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 3.5s.",
+    "Increases CRIT DMG by 30%. Hits have a 80% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 3s.",
+    "Increases CRIT DMG by 35%. Hits have a 90% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 2.5s.",
+    "Increases CRIT DMG by 40%. Hits have a 100% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 2s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-harp/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-harp/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-harp/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-harp/full.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 15047,
+  "name": "Scarlet Proof",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Honor to Your Devotion",
+      "description": "A bright red flower ornament that symbolizes blazing glory.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scarlet-proof/flower.png"
+    },
+    "plume": {
+      "name": "Glory to Your Legacy",
+      "description": "A bright red quill pen, granted to the youngest blood.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scarlet-proof/plume.png"
+    },
+    "sands": {
+      "name": "Time Gifted Unto You",
+      "description": "A bright red pocket watch marking the time allotted for a conversation.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scarlet-proof/sands.png"
+    },
+    "goblet": {
+      "name": "Chalice of Your Blood and Sorrow",
+      "description": "A bright red wine bottle. May you never learn what's been in it.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scarlet-proof/goblet.png"
+    },
+    "circlet": {
+      "name": "Testament to Your Faith",
+      "description": "A bright red helmet. Hopefully it has, once upon a time, protected someone.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scarlet-proof/circlet.png"
+    }
+  }
+}

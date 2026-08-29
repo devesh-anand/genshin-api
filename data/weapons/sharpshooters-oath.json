@@ -1,0 +1,26 @@
+{
+  "id": 15302,
+  "name": "Sharpshooter's Oath",
+  "description": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting.",
+  "rarity": 3,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 38.7,
+  "passive_name": "Precise",
+  "passive_desc": "Increases DMG against weak spots by 24%.",
+  "passive_upgrades": [
+    "Increases DMG against weak spots by 24%.",
+    "Increases DMG against weak spots by 30%.",
+    "Increases DMG against weak spots by 36%.",
+    "Increases DMG against weak spots by 42%.",
+    "Increases DMG against weak spots by 48%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sharpshooters-oath/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sharpshooters-oath/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sharpshooters-oath/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sharpshooters-oath/full.png"
+  }
+}

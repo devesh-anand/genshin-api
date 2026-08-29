@@ -1,0 +1,25 @@
+{
+  "id": 15407,
+  "name": "Compound Bow",
+  "description": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "Physical DMG Bonus",
+  "sub_stat_key": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+  "base_atk": 41.1,
+  "passive_name": "Infusion Arrow",
+  "passive_desc": "Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+  "passive_upgrades": [
+    "Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+    "Normal Attack and Charged Attack hits increase ATK by 5% and Normal ATK SPD by 1.5% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+    "Normal Attack and Charged Attack hits increase ATK by 6% and Normal ATK SPD by 1.8% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+    "Normal Attack and Charged Attack hits increase ATK by 7% and Normal ATK SPD by 2.1% for 6s. Max 4 stacks. Can only occur once every 0.3s.",
+    "Normal Attack and Charged Attack hits increase ATK by 8% and Normal ATK SPD by 2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/compound-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/compound-bow/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/compound-bow/full.png"
+  }
+}

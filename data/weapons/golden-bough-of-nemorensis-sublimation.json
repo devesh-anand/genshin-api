@@ -1,0 +1,19 @@
+{
+  "id": 310004,
+  "name": "Golden Bough of Nemorensis - Sublimation",
+  "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Arcadia, granting them the right to lead the holy city before it was entombed by death.",
+  "rarity": 5,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": null,
+  "sub_stat_key": "NONE",
+  "base_atk": null,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-bough-of-nemorensis-sublimation/icon.png",
+    "icon-awaken": null,
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-bough-of-nemorensis-sublimation/wish.png"
+  }
+}

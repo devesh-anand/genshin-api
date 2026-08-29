@@ -1,0 +1,26 @@
+{
+  "id": 15304,
+  "name": "Slingshot",
+  "description": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+  "rarity": 3,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 37.6,
+  "passive_name": "Slingshot",
+  "passive_desc": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%.",
+  "passive_upgrades": [
+    "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%.",
+    "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 42%. Otherwise, decreases DMG by 10%.",
+    "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 48%. Otherwise, decreases DMG by 10%.",
+    "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 54%. Otherwise, decreases DMG by 10%.",
+    "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 60%. Otherwise, decreases DMG by 10%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/full.png"
+  }
+}

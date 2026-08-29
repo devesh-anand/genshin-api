@@ -1,0 +1,19 @@
+{
+  "id": 11101,
+  "name": "Dull Blade",
+  "description": "Youthful dreams and the thrill of adventure. If this isn't enough, then make it up with valiance.",
+  "rarity": 1,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": null,
+  "sub_stat_key": "None",
+  "base_atk": 23.2,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dull-blade/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dull-blade/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dull-blade/full.png"
+  }
+}

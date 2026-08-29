@@ -1,0 +1,25 @@
+{
+  "id": 14512,
+  "name": "Tulaytullah's Remembrance",
+  "description": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 47.5,
+  "passive_name": "Bygone Azure Teardrop",
+  "passive_desc": "Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+  "passive_upgrades": [
+    "Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+    "Normal Attack SPD is increased by 12.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 12%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 60%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+    "Normal Attack SPD is increased by 15%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 7.2% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 14.4%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 72%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+    "Normal Attack SPD is increased by 17.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 8.4% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 16.8%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 84%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+    "Normal Attack SPD is increased by 20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tulaytullahs-remembrance/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tulaytullahs-remembrance/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tulaytullahs-remembrance/wish.png"
+  }
+}

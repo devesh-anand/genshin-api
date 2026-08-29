@@ -1,0 +1,36 @@
+{
+  "id": 15008,
+  "name": "Bloodstained Chivalry",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Physical DMG +25%",
+    "5pc": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Bloodstained Flower of Iron",
+      "description": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/bloodstained-chivalry/flower.png"
+    },
+    "plume": {
+      "name": "Bloodstained Black Plume",
+      "description": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/bloodstained-chivalry/plume.png"
+    },
+    "sands": {
+      "name": "Bloodstained Final Hour",
+      "description": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/bloodstained-chivalry/sands.png"
+    },
+    "goblet": {
+      "name": "Bloodstained Chevalier's Goblet",
+      "description": "The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/bloodstained-chivalry/goblet.png"
+    },
+    "circlet": {
+      "name": "Bloodstained Iron Mask",
+      "description": "The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/bloodstained-chivalry/circlet.png"
+    }
+  }
+}

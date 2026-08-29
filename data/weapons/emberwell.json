@@ -1,0 +1,24 @@
+{
+  "id": 11436,
+  "name": "Emberwell",
+  "description": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 42.4,
+  "passive_name": "Starfire Upon the Snowplains",
+  "passive_desc": "Triggering an Elemental Reaction increases the equipping character's ATK by 16% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+  "passive_upgrades": [
+    "Triggering an Elemental Reaction increases the equipping character's ATK by 16% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's ATK by 20% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 20% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's ATK by 24% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 24% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's ATK by 28% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 28% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's ATK by 32% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 32% for 12s. The aforementioned effects can trigger even when the character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/emberwell/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/emberwell/icon-awaken.png"
+  }
+}

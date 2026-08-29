@@ -1,0 +1,16 @@
+{
+  "id": 15010,
+  "name": "Prayers for Destiny",
+  "rarity": 5,
+  "bonus": {
+    "3pc": "Affected by Hydro for 40% less time.",
+    "4pc": null
+  },
+  "pieces": {
+    "circlet": {
+      "name": "Tiara of Torrents",
+      "description": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/prayers-for-destiny/circlet.png"
+    }
+  }
+}

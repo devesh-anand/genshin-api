@@ -1,0 +1,25 @@
+{
+  "id": 13403,
+  "name": "Crescent Pike",
+  "description": "An exotic weapon with an extremely long blade on the top and a crescent blade at the bottom. It found its way into Liyue through foreign traders. With practice, it can deal heavy damage.",
+  "rarity": 4,
+  "type": "Polearm",
+  "type_key": "Polearm",
+  "sub_stat": "Physical DMG Bonus",
+  "sub_stat_key": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+  "base_atk": 43.7,
+  "passive_name": "Infusion Needle",
+  "passive_desc": "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 5s.",
+  "passive_upgrades": [
+    "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 5s.",
+    "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 25% of ATK for 5s.",
+    "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 30% of ATK for 5s.",
+    "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 35% of ATK for 5s.",
+    "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 40% of ATK for 5s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/full.png"
+  }
+}

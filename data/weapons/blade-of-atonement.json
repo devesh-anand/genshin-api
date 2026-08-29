@@ -1,0 +1,24 @@
+{
+  "id": 12436,
+  "name": "Blade of Atonement",
+  "description": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 43.7,
+  "passive_name": "Repentance and Redemption",
+  "passive_desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 64 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+  "passive_upgrades": [
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 64 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 80 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 20% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 96 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 24% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 112 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 28% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 128 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 32% for 12s. The aforementioned effects can trigger even when the character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blade-of-atonement/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blade-of-atonement/icon-awaken.png"
+  }
+}

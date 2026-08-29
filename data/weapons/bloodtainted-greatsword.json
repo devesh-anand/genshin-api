@@ -1,0 +1,26 @@
+{
+  "id": 12302,
+  "name": "Bloodtainted Greatsword",
+  "description": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however.",
+  "rarity": 3,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 37.6,
+  "passive_name": "Bane of Fire and Thunder",
+  "passive_desc": "Increases DMG dealt against opponents affected by Pyro or Electro by 12%.",
+  "passive_upgrades": [
+    "Increases DMG dealt against opponents affected by Pyro or Electro by 12%.",
+    "Increases DMG dealt against opponents affected by Pyro or Electro by 15%.",
+    "Increases DMG dealt against opponents affected by Pyro or Electro by 18%.",
+    "Increases DMG dealt against opponents affected by Pyro or Electro by 21%.",
+    "Increases DMG against opponents affected by Pyro or Electro by 24%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/bloodtainted-greatsword/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/bloodtainted-greatsword/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/bloodtainted-greatsword/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/bloodtainted-greatsword/full.png"
+  }
+}

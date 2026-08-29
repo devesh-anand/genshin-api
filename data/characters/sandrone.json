@@ -1,0 +1,114 @@
+{
+  "name": "Sandrone",
+  "title": "Mirrored Analysis",
+  "vision": "Cryo",
+  "weapon": "Claymore",
+  "nation": "Snezhnaya_star",
+  "affiliation": "Fatui",
+  "rarity": 5,
+  "constellation": "Narcissorolegium",
+  "birthday": "0000-01-13",
+  "description": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+  "skillTalents": [
+    {
+      "name": "Formule Phenomenale: Self-Evident Proposition",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\n\nCharged Attack\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"Fagio,\" and switches it to {LINK#N11330001}Decoding{/LINK} mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing AoE Cryo DMG.\n{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}: The condensed beams will instead deal AoE Cryo DMG that is considered the corresponding Stellar Glimmer reaction DMG.\nWhile in Decoding mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} will continuously increase. Firing condensed beams will also further increase its Decoding Power.\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to Power Overdrive mode, in which it fires at opponents with longer intervals, dealing Cryo DMG. It will be unable to switch to Decoding mode at this time.\nWhen not in Decoding mode, Fagio's Decoding Power gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\nFagio exits Power Overdrive mode when its Decoding Power has decreased to under 50.\n\nPlunging Attack\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/talent-1.png"
+    },
+    {
+      "name": "Formule Phenomenale: Differential Analysis",
+      "unlock": "Elemental Skill",
+      "description": "With her impeccable, ladylike poise, Sandrone boards the Tea Party Tactical Assault Hovermech and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\n\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing Cryo DMG.\n{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}: The second Prism Shot will instead deal Cryo DMG that is considered the corresponding Stellar Glimmer reaction DMG.\n\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing {LINK#N11330002}Decoding Power{/LINK} to swiftly decrease.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/talent-skill.png"
+    },
+    {
+      "name": "Formule Phenomenale: Q.E.D.",
+      "unlock": "Elemental Burst",
+      "description": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing AoE Cryo DMG.\n{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}: The Convective Inhibition Ray instead deals AoE Cryo DMG that is considered the corresponding Stellar Glimmer reaction DMG.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Eternal Speculation Engine",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "{LINK#N11500004}Radiance: Stellar Glimmer{/LINK}: When using the Elemental Skill {LINK#S11332}Formule Phenomenale: Differential Analysis{/LINK}, if Fagio's {LINK#N11330002}Decoding Power{/LINK} is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\nAdditionally, for every 10 points of Decoding Power Fagio loses, it gains 1 stack of Refined Tactics for 60s (max 10 stacks). When Sandrone uses the Elemental Burst {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} while in the Radiance: Stellar Glimmer state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) × 10% of its original DMG.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/talent-passive-1.png"
+    },
+    {
+      "name": "A Lady's Code of Conduct",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "Increases Sandrone's Elemental Mastery based on her ATK. Every 100 ATK will increase her Elemental Mastery by 8. The maximum increase she can gain this way is 160.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/talent-passive-2.png"
+    },
+    {
+      "name": "Stellar Jubilee: Light of Rationalisme",
+      "unlock": "Unlocked Automatically",
+      "description": "Sandrone will enter the Radiance: Stellar-Conduct state when she is inside a {LINK#N11330003}Polestar Field{/LINK}, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of the aforementioned reaction is also increased by 0.7% for every 100 points of Sandrone's ATK. A maximum increase of 14% can be obtained in this way.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Morrow After the Golden Dusk",
+      "unlock": "Constellation Lv. 1",
+      "description": "When in {LINK#N11330001}Decoding{/LINK} mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} increases at a 50% lower rate, and all party members deal 30% increased Stellar Glimmer reaction DMG.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-1.png"
+    },
+    {
+      "name": "An Heiress Gazed Into the Looking-Glass",
+      "unlock": "Constellation Lv. 2",
+      "description": "Radiance: Stellar Glimmer: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this {LINK#N11330001}Decoding{/LINK} mode period will be further increased by 20%. Max 3 stacks.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-2.png"
+    },
+    {
+      "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of {LINK#S11331}Formule Phenomenale: Self-Evident Proposition{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-3.png"
+    },
+    {
+      "name": "In Knowledge Lies the World's True Ground",
+      "unlock": "Constellation Lv. 4",
+      "description": "When Sandrone deals Stellar-Conduct or Stellar Swirl DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals Cryo DMG at 125% or 187.5% of her ATK, respectively. This DMG is considered the corresponding Stellar Glimmer reaction DMG, and the effect can occur once every 4s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-4.png"
+    },
+    {
+      "name": "Of All Beside, She Takes No Part",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-5.png"
+    },
+    {
+      "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
+      "unlock": "Constellation Lv. 6",
+      "description": "When Fagio fires a condensed beam for the third time while in {LINK#N11330001}Decoding{/LINK} mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\nRadiance: Stellar Glimmer: The Condensed Cluster Beam attack deals 4 additional instances of AoE Cryo DMG. The DMG dealt with this attack, which is considered the corresponding Stellar Glimmer reaction DMG, is equal to:\nRadiance: Stellar-Conduct: 80% of Sandrone's ATK.\nRadiance: Stellar Swirl: 120% of Sandrone's ATK.\nAdditionally, all Stellar Glimmer reaction DMG dealt by Sandrone is {LINK#N11190007}elevated{/LINK} by 20%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-6.png"
+    }
+  ],
+  "vision_key": "CRYO",
+  "weapon_type": "CLAYMORE",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/portrait.png"
+  }
+}

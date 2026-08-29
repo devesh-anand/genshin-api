@@ -1,0 +1,19 @@
+{
+  "id": 12101,
+  "name": "Waster Greatsword",
+  "description": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower.",
+  "rarity": 1,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": null,
+  "sub_stat_key": "None",
+  "base_atk": 23.2,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waster-greatsword/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waster-greatsword/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waster-greatsword/full.png"
+  }
+}

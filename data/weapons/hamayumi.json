@@ -1,0 +1,25 @@
+{
+  "id": 15414,
+  "name": "Hamayumi",
+  "description": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 41.1,
+  "passive_name": "Full Draw",
+  "passive_desc": "Increases Normal Attack DMG by 16% and Charged Attack DMG by 12%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+  "passive_upgrades": [
+    "Increases Normal Attack DMG by 16% and Charged Attack DMG by 12%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+    "Increases Normal Attack DMG by 20% and Charged Attack DMG by 15%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+    "Increases Normal Attack DMG by 24% and Charged Attack DMG by 18%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+    "Increases Normal Attack DMG by 28% and Charged Attack DMG by 21%. When the equipping character's Energy reaches 100%, this effect is increased by 100%.",
+    "Increases Normal Attack DMG by 32% and Charged Attack DMG by 24%. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hamayumi/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hamayumi/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hamayumi/full.png"
+  }
+}

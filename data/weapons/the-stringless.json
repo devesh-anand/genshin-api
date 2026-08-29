@@ -1,0 +1,26 @@
+{
+  "id": 15402,
+  "name": "The Stringless",
+  "description": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 42.4,
+  "passive_name": "Arrowless Song",
+  "passive_desc": "Increases Elemental Skill and Elemental Burst DMG by 24%.",
+  "passive_upgrades": [
+    "Increases Elemental Skill and Elemental Burst DMG by 24%.",
+    "Increases Elemental Skill and Elemental Burst DMG by 30%.",
+    "Increases Elemental Skill and Elemental Burst DMG by 36%.",
+    "Increases Elemental Skill and Elemental Burst DMG by 42%.",
+    "Increases Elemental Skill and Elemental Burst DMG by 48%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-stringless/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-stringless/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-stringless/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-stringless/full.png"
+  }
+}

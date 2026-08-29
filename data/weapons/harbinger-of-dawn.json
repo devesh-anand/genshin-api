@@ -1,0 +1,26 @@
+{
+  "id": 11302,
+  "name": "Harbinger of Dawn",
+  "description": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off.",
+  "rarity": 3,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 38.7,
+  "passive_name": "Vigorous",
+  "passive_desc": "When HP is above 90%, increases CRIT Rate by 14%.",
+  "passive_upgrades": [
+    "When HP is above 90%, increases CRIT Rate by 14%.",
+    "When HP is above 90%, increases CRIT Rate by 17.5%.",
+    "When HP is above 90%, increases CRIT Rate by 21%.",
+    "When HP is above 90%, increases CRIT Rate by 24.5%.",
+    "When HP is above 90%, increases CRIT Rate by 28%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/harbinger-of-dawn/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/harbinger-of-dawn/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/harbinger-of-dawn/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/harbinger-of-dawn/full.png"
+  }
+}

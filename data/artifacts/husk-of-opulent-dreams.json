@@ -1,0 +1,36 @@
+{
+  "id": 15021,
+  "name": "Husk of Opulent Dreams",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "DEF +30%",
+    "5pc": "A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Bloom Times",
+      "description": "A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/husk-of-opulent-dreams/flower.png"
+    },
+    "plume": {
+      "name": "Plume of Luxury",
+      "description": "A feather-shaped token that was brought forth from a secluded hall. The compassion of its creator led to it being left within that mansion along with a certain slumbering form.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/husk-of-opulent-dreams/plume.png"
+    },
+    "sands": {
+      "name": "Song of Life",
+      "description": "As far as Inazuma is concerned, this is some small object from overseas. The heart of this mechanism has been removed, and its hands no longer turn.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/husk-of-opulent-dreams/sands.png"
+    },
+    "goblet": {
+      "name": "Calabash of Awakening",
+      "description": "A gourd that has been adorned with powdered gold and black paint. Its original color can no longer be discerned, but its main use seems to be as a performance prop.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/husk-of-opulent-dreams/goblet.png"
+    },
+    "circlet": {
+      "name": "Skeletal Hat",
+      "description": "A hat that once shielded a wanderer from sun and rain. It eventually became a convenient tool with which faces might be hidden and expressions obscured.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/husk-of-opulent-dreams/circlet.png"
+    }
+  }
+}

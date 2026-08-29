@@ -1,0 +1,24 @@
+{
+  "id": 15434,
+  "name": "Rainbow Serpent's Rain Bow",
+  "description": "An ancient ceremonial weapon passed down by the Masters of the Night-Wind. This dark bow is forever wreathed in an unshakable chill.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 42.4,
+  "passive_name": "Astral Whispers Beyond the Sacred Throne",
+  "passive_desc": "ATK is increased by 28% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+  "passive_upgrades": [
+    "ATK is increased by 28% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+    "ATK is increased by 35% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+    "ATK is increased by 42% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+    "ATK is increased by 49% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field.",
+    "ATK is increased by 56% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rainbow-serpents-rain-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rainbow-serpents-rain-bow/icon-awaken.png"
+  }
+}

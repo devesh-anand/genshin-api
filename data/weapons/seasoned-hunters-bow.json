@@ -1,0 +1,19 @@
+{
+  "id": 15201,
+  "name": "Seasoned Hunter's Bow",
+  "description": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm.",
+  "rarity": 2,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": null,
+  "sub_stat_key": "None",
+  "base_atk": 32.9,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/seasoned-hunters-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/seasoned-hunters-bow/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/seasoned-hunters-bow/full.png"
+  }
+}

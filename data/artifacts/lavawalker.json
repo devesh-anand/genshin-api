@@ -1,0 +1,36 @@
+{
+  "id": 14003,
+  "name": "Lavawalker",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Pyro RES increased by 40%.",
+    "5pc": "Increases DMG against opponents affected by Pyro by 35%."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Lavawalker's Resolution",
+      "description": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lavawalker/flower.png"
+    },
+    "plume": {
+      "name": "Lavawalker's Salvation",
+      "description": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lavawalker/plume.png"
+    },
+    "sands": {
+      "name": "Lavawalker's Torment",
+      "description": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lavawalker/sands.png"
+    },
+    "goblet": {
+      "name": "Lavawalker's Epiphany",
+      "description": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lavawalker/goblet.png"
+    },
+    "circlet": {
+      "name": "Lavawalker's Wisdom",
+      "description": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/lavawalker/circlet.png"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": 350004,
+  "name": "Yayu - Sublimation",
+  "description": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longbow upon the high priest of Lang-Gan, granting them the right to lead the civilization before it plunged into the abyss.",
+  "rarity": 5,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": null,
+  "sub_stat_key": "NONE",
+  "base_atk": null,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": null,
+    "icon-awaken": null,
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/yayu-sublimation/wish.png"
+  }
+}

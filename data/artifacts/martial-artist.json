@@ -1,0 +1,36 @@
+{
+  "id": 10006,
+  "name": "Martial Artist",
+  "rarity": 5,
+  "bonus": {
+    "3pc": "Normal and Charged Attack DMG +15%",
+    "4pc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Martial Artist's Red Flower",
+      "description": "This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/martial-artist/flower.png"
+    },
+    "plume": {
+      "name": "Martial Artist's Feather Accessory",
+      "description": "A common bird feather. Experts use it to practice strength control, while rookies use it to make fans.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/martial-artist/plume.png"
+    },
+    "sands": {
+      "name": "Martial Artist's Water Hourglass",
+      "description": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/martial-artist/sands.png"
+    },
+    "goblet": {
+      "name": "Martial Artist's Wine Cup",
+      "description": "A rather exquisite wine cup used in pre-combat rituals.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/martial-artist/goblet.png"
+    },
+    "circlet": {
+      "name": "Martial Artist's Bandana",
+      "description": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/martial-artist/circlet.png"
+    }
+  }
+}

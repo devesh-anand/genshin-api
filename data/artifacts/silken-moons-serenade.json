@@ -1,0 +1,36 @@
+{
+  "id": 15042,
+  "name": "Silken Moon's Serenade",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Energy Recharge +20%.",
+    "5pc": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Crystal Tear of the Wanderer",
+      "description": "An immaculate flower whose beauty is said to have been preserved for eternity by the icy wind.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/silken-moons-serenade/flower.png"
+    },
+    "plume": {
+      "name": "Pristine Plume of the Blessed",
+      "description": "An immaculate feathered accessory said to have been forged by the first Moonchanter herself.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/silken-moons-serenade/plume.png"
+    },
+    "sands": {
+      "name": "Frost Devotee's Delirium",
+      "description": "An immaculate timepiece that long ago ceased turning, along with the delusions of its former owner.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/silken-moons-serenade/sands.png"
+    },
+    "goblet": {
+      "name": "Joyous Glory of the Pure",
+      "description": "An immaculate silver cup said to have been used in the bygone rituals of the Frostmoon Scions. Their modern rites have no need for such a vessel.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/silken-moons-serenade/goblet.png"
+    },
+    "circlet": {
+      "name": "Holy Crown of the Believer",
+      "description": "An immaculate adornment created in imitation of the envoy of the grove's antlers.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/silken-moons-serenade/circlet.png"
+    }
+  }
+}

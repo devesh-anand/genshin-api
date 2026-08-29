@@ -1,0 +1,36 @@
+{
+  "id": 15007,
+  "name": "Noblesse Oblige",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Elemental Burst DMG +20%",
+    "5pc": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Royal Flora",
+      "description": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/noblesse-oblige/flower.png"
+    },
+    "plume": {
+      "name": "Royal Plume",
+      "description": "A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/noblesse-oblige/plume.png"
+    },
+    "sands": {
+      "name": "Royal Pocket Watch",
+      "description": "A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/noblesse-oblige/sands.png"
+    },
+    "goblet": {
+      "name": "Royal Silver Urn",
+      "description": "An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/noblesse-oblige/goblet.png"
+    },
+    "circlet": {
+      "name": "Royal Masque",
+      "description": "A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/noblesse-oblige/circlet.png"
+    }
+  }
+}

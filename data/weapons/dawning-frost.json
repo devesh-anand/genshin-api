@@ -1,0 +1,25 @@
+{
+  "id": 14434,
+  "name": "Dawning Frost",
+  "description": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 42.4,
+  "passive_name": "Nocturnal Dreams",
+  "passive_desc": "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 48.",
+  "passive_upgrades": [
+    "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 48.",
+    "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 90. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 60.",
+    "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 108. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 72.",
+    "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 126. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 84.",
+    "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 144. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 96."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dawning-frost/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dawning-frost/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dawning-frost/wish.png"
+  }
+}

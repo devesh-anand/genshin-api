@@ -1,0 +1,36 @@
+{
+  "id": 15038,
+  "name": "Obsidian Codex",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%.",
+    "5pc": "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Reckoning of the Xenogenic",
+      "description": "A flower meticulously carved from black crystal. It emits a mysterious light at night.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/obsidian-codex/flower.png"
+    },
+    "plume": {
+      "name": "Root of the Spirit-Marrow",
+      "description": "A feathered accessory made in imitation of an ancient dragon's wing. Perhaps it was once a memento of some forgotten history.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/obsidian-codex/plume.png"
+    },
+    "sands": {
+      "name": "Myths of the Night Realm",
+      "description": "A mysterious ritual element that is neither a timepiece nor a compass. Nowadays, no one has any idea what it is used for.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/obsidian-codex/sands.png"
+    },
+    "goblet": {
+      "name": "Pre-Banquet of the Contenders",
+      "description": "A vessel that seems to have been made by twisting and forming stone in a seemingly whimsical fashion. But it is an open question as to who possesses such strength...",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/obsidian-codex/goblet.png"
+    },
+    "circlet": {
+      "name": "Crown of the Saints",
+      "description": "A crown made of obsidian that in ancient times was used in coronation ceremonies by noble tribal kings.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/obsidian-codex/circlet.png"
+    }
+  }
+}

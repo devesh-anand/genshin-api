@@ -1,0 +1,36 @@
+{
+  "id": 15003,
+  "name": "Wanderer's Troupe",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Increases Elemental Mastery by 80.",
+    "5pc": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Troupe's Dawnlight",
+      "description": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/wanderers-troupe/flower.png"
+    },
+    "plume": {
+      "name": "Bard's Arrow Feather",
+      "description": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/wanderers-troupe/plume.png"
+    },
+    "sands": {
+      "name": "Concert's Final Hour",
+      "description": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/wanderers-troupe/sands.png"
+    },
+    "goblet": {
+      "name": "Wanderer's String-Kettle",
+      "description": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which play a wondrous tune as the water flows out.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/wanderers-troupe/goblet.png"
+    },
+    "circlet": {
+      "name": "Conductor's Top Hat",
+      "description": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/wanderers-troupe/circlet.png"
+    }
+  }
+}

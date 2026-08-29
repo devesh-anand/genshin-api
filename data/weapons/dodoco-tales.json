@@ -1,0 +1,25 @@
+{
+  "id": 14413,
+  "name": "Dodoco Tales",
+  "description": "A children's book filled with childish short stories at which one cannot help but laugh.\\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 41.1,
+  "passive_name": "Dodoventure!",
+  "passive_desc": "Normal Attack hits on opponents increase Charged Attack DMG by 16% for 6s. Charged Attack hits on opponents increase ATK by 8% for 6s.",
+  "passive_upgrades": [
+    "Normal Attack hits on opponents increase Charged Attack DMG by 16% for 6s. Charged Attack hits on opponents increase ATK by 8% for 6s.",
+    "Normal Attack hits on opponents increase Charged Attack DMG by 20% for 6s. Charged Attack hits on opponents increase ATK by 10% for 6s.",
+    "Normal Attack hits on opponents increase Charged Attack DMG by 24% for 6s. Charged Attack hits on opponents increase ATK by 12% for 6s.",
+    "Normal Attack hits on opponents increase Charged Attack DMG by 28% for 6s. Charged Attack hits on opponents increase ATK by 14% for 6s.",
+    "Normal Attack hits on opponents increase Charged Attack DMG by 32% for 6s. Charged Attack hits on opponents increase ATK by 16% for 6s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dodoco-tales/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dodoco-tales/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dodoco-tales/full.png"
+  }
+}

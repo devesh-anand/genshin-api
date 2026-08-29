@@ -1,0 +1,25 @@
+{
+  "id": 15409,
+  "name": "The Viridescent Hunt",
+  "description": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 42.4,
+  "passive_name": "Verdant Wind",
+  "passive_desc": "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s.",
+  "passive_upgrades": [
+    "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s.",
+    "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 50% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 13s.",
+    "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 60% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 12s.",
+    "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 70% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 11s.",
+    "Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 80% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 10s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-viridescent-hunt/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-viridescent-hunt/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-viridescent-hunt/full.png"
+  }
+}

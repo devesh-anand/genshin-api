@@ -1,0 +1,114 @@
+{
+  "name": "Varka",
+  "title": "Knight of Boreas",
+  "vision": "Anemo",
+  "weapon": "Claymore",
+  "nation": "Mondstadt",
+  "affiliation": "Knights of Favonius",
+  "rarity": 5,
+  "constellation": "Lupus Majoris",
+  "birthday": "0000-02-17",
+  "description": "Grand Master of the Knights of Favonius. Knight of Boreas, protector of Mondstadt.",
+  "skillTalents": [
+    {
+      "name": "Favonius Bladework: Dancing Radiance",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nImitating an ancient knightly war-dance, Varka wields dual claymores to perform up to 5 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to charge forward and perform an especially powerful dual blade slash toward the front.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/talent-1.png"
+    },
+    {
+      "name": "Windbound Execution",
+      "unlock": "Elemental Skill",
+      "description": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\n\nTap\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to {LINK#N11280001}Sturm und Drang{/LINK} mode.\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, {LINK#N11280002}Four Winds' Ascension{/LINK}, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\n\nHold\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/talent-skill.png"
+    },
+    {
+      "name": "Northwind Avatar",
+      "unlock": "Elemental Burst",
+      "description": "In the name of the mightiest Knight of Boreas, unleash a powerful double slash attack toward the front, dealing 2 instances of Anemo DMG.\nIf there are Pyro, Hydro, Electro or Cryo characters in the party, the first slash will be converted to deal corresponding Elemental DMG according to the aforementioned priority order of Elemental Types.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Dawn Wind's March",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When there are Pyro, Hydro, Electro or Cryo characters in the party, according to the aforementioned priority order of Elemental Types, every 1,000 points of Varka's ATK will grant Varka a 10% Anemo DMG Bonus and corresponding Elemental DMG Bonus (among the aforementioned Elemental Types, only one element can gain bonus DMG this way). Up to 25% bonus DMG can be gained this way. \n\nAdditionally, if there are at least 2 Anemo characters, or at least 2 characters of the same Element among Pyro, Hydro, Electro or Cryo in the party, the Normal Attacks, Charged Attacks, Special Charged Attack Azure Devour and the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK} that Varka deals or unleashes while in the {LINK#N11280001}Sturm und Drang{/LINK} mode will deal 140% of their original DMG. If there are at least 2 Anemo characters and at least 2 other characters of the same element among Pyro, Hydro, Electro or Cryo present in the party at the same time, the aforementioned effect will be increased to 220%.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/talent-passive-1.png"
+    },
+    {
+      "name": "Wind's Vanguard",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When nearby party members trigger a Swirl or Stellar Swirl reaction, Varka gains 1 stack of Azure Fang's Oath, increasing the DMG dealt by his Normal Attacks, Charged Attacks, special Charged Attack Azure Devour and special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK} by 7.5% for 8s. Max 4 stacks. Each character can grant Varka with 1 stack of Azure Fang's Oath every second this way.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/talent-passive-2.png"
+    },
+    {
+      "name": "Homebound Wind's Paean",
+      "unlock": "Unlocked Automatically",
+      "description": "For every party member from Mondstadt, the Hold version of Varka's Elemental Skill Windbound Execution's CD is decreased by 5%.\nThis effect does not trigger in Domains, Trounce Domains, or the Spiral Abyss.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "\"Come, Friend, Let Us Dance Beneath the Moon's Soft Glow\"",
+      "unlock": "Constellation Lv. 1",
+      "description": "When Varka switches to {LINK#N11280001}Sturm und Drang{/LINK}, he will obtain an additional use of the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}.\nAdditionally, after switching to Sturm und Drang, Varka will gain the Lyrical Libation effect: When unleashing the special Elemental Skill Four Winds' Ascension, or when performing the special Charged Attack Azure Devour, Varka will consume this effect to deal 200% of the original DMG dealt by Four Winds' Ascension or Azure Devour.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation-1.png"
+    },
+    {
+      "name": "\"When Dawn Breaks, Our Journey Shall Take Flight\"",
+      "unlock": "Constellation Lv. 2",
+      "description": "When unleashing the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}, or when performing the special Charged Attack Azure Devour, Varka will perform an additional strike, dealing AoE Anemo DMG equal to 800% of Varka's ATK.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation-2.png"
+    },
+    {
+      "name": "\"O Friend, Quaff Not the Bitter Wine That Brings Tears of Woe\"",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases Elemental Skill {LINK#S11282}Windbound Execution{/LINK} Level by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation-3.png"
+    },
+    {
+      "name": "\"For None May Take From Us Our Freedom of Song\"",
+      "unlock": "Constellation Lv. 4",
+      "description": "When Varka triggers a Swirl or Stellar Swirl reaction, based on the Elemental Types involved in the reaction, all nearby party members gain a 20% Anemo DMG Bonus and the corresponding Elemental DMG Bonus for 10s.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation-4.png"
+    },
+    {
+      "name": "\"Fill High the Cup With Fine Wine, for Tyrants Come and Go\"",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases Elemental Burst {LINK#S11285}Northwind Avatar{/LINK} Level by 3.\n Maximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation-5.png"
+    },
+    {
+      "name": "\"Beloved Mondstadt, Steadfast You Shall Shine\"",
+      "unlock": "Constellation Lv. 6",
+      "description": "{LINK#N11280001}Sturm und Drang{/LINK} is enhanced:\n· For a short time after unleashing the special Elemental Skill {LINK#N11280002}Four Winds' Ascension{/LINK}, Tapping on Varka's Elemental Skill or Holding his Normal Attack will not expend any uses of Four Winds' Ascension, and will perform one additional instance of the special Charged Attack, Azure Devour.\n· For a short time after performing the special Charged Attack Azure Devour, tap on Varka's Elemental Skill to unleash an additional instance of Four Winds' Ascension without expending any uses of Four Winds' Ascension.\nWhen triggering an additional special Charged Attack, Azure Devour, or unleashing an additional special Elemental Skill, Four Winds' Ascension, in this manner, the above effect cannot be triggered.\n\nAdditionally, the Azure Fang's Oath effect in Ascension Talent {LINK#P1282201}Wind's Vanguard{/LINK} is enhanced: Every stack of Azure Fang's Oath will increase Varka's CRIT DMG by 20%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "CLAYMORE",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/varka/portrait.png"
+  }
+}

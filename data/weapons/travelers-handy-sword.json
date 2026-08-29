@@ -1,0 +1,25 @@
+{
+  "id": 11303,
+  "name": "Traveler's Handy Sword",
+  "description": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath.",
+  "rarity": 3,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "DEF%",
+  "sub_stat_key": "FIGHT_PROP_DEFENSE_PERCENT",
+  "base_atk": 39.9,
+  "passive_name": "Journey",
+  "passive_desc": "Each Elemental Orb or Particle collected restores 1% HP.",
+  "passive_upgrades": [
+    "Each Elemental Orb or Particle collected restores 1% HP.",
+    "Each Elemental Orb or Particle collected restores 1.25% HP.",
+    "Each Elemental Orb or Particle collected restores 1.5% HP.",
+    "Each Elemental Orb or Particle collected restores 1.75% HP.",
+    "Each Elemental Orb or Particle collected restores 2% HP."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/travelers-handy-sword/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/travelers-handy-sword/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/travelers-handy-sword/full.png"
+  }
+}

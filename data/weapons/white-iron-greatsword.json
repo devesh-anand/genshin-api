@@ -1,0 +1,25 @@
+{
+  "id": 12303,
+  "name": "White Iron Greatsword",
+  "description": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder.",
+  "rarity": 3,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "DEF%",
+  "sub_stat_key": "FIGHT_PROP_DEFENSE_PERCENT",
+  "base_atk": 38.7,
+  "passive_name": "Cull the Weak",
+  "passive_desc": "Defeating an opponent restores 8% HP.",
+  "passive_upgrades": [
+    "Defeating an opponent restores 8% HP.",
+    "Defeating an opponent restores 10% HP.",
+    "Defeating an opponent restores 12% HP.",
+    "Defeating an opponent restores 14% HP.",
+    "Defeating an opponent restores 16% HP."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/white-iron-greatsword/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/white-iron-greatsword/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/white-iron-greatsword/full.png"
+  }
+}

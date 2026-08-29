@@ -1,0 +1,25 @@
+{
+  "id": 13424,
+  "name": "Ballad of the Fjords",
+  "description": "A polearm used by those seeking to catch fish in the tundra. It lets none escape.",
+  "rarity": 4,
+  "type": "Polearm",
+  "type_key": "Polearm",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 42.4,
+  "passive_name": "Tales of the Tundra",
+  "passive_desc": "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 120.",
+  "passive_upgrades": [
+    "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 120.",
+    "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 150.",
+    "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 180.",
+    "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 210.",
+    "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 240."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-fjords/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-fjords/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-fjords/full.png"
+  }
+}

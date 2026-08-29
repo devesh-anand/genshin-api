@@ -1,0 +1,24 @@
+{
+  "id": 14433,
+  "name": "Blackmarrow Lantern",
+  "description": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 41.1,
+  "passive_name": "Token of Covenant",
+  "passive_desc": "Bloom DMG is increased by 48%, and Lunar-Bloom DMG is increased by 12%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%.",
+  "passive_upgrades": [
+    "Bloom DMG is increased by 48%, and Lunar-Bloom DMG is increased by 12%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%.",
+    "Bloom DMG is increased by 60%, and Lunar-Bloom DMG is increased by 15%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 15%.",
+    "Bloom DMG is increased by 72%, and Lunar-Bloom DMG is increased by 18%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 18%.",
+    "Bloom DMG is increased by 84%, and Lunar-Bloom DMG is increased by 21%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 21%.",
+    "Bloom DMG is increased by 96%, and Lunar-Bloom DMG is increased by 24%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 24%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blackmarrow-lantern/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blackmarrow-lantern/icon-awaken.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 15028,
+  "name": "Flower of Paradise Lost",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Increases Elemental Mastery by 80.",
+    "5pc": "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Ay-Khanoum's Myriad",
+      "description": "An amethyst bloom that has been beautifully sculpted in the image of an ancient, extinct flower.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/flower-of-paradise-lost/flower.png"
+    },
+    "plume": {
+      "name": "Wilting Feast",
+      "description": "A feather left behind by a long-extinct bird species. It was inlaid with gold and gems by the ancient adherents of the Goddess of Flowers.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/flower-of-paradise-lost/plume.png"
+    },
+    "sands": {
+      "name": "A Moment Congealed",
+      "description": "These sands no longer move no matter how you tilt the hourglass, now and forever defying the drift of time itself.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/flower-of-paradise-lost/sands.png"
+    },
+    "goblet": {
+      "name": "Secret-Keeper's Magic Bottle",
+      "description": "A small bottle made of purple crystal. An emerald cap keeps it tightly sealed.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/flower-of-paradise-lost/goblet.png"
+    },
+    "circlet": {
+      "name": "Amethyst Crown",
+      "description": "A crown inlaid with amethyst and emerald. It seems to have been the headgear worn by ancient priests of the Goddess of Flowers.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/flower-of-paradise-lost/circlet.png"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": 12405,
+  "name": "Rainslasher",
+  "description": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 42.4,
+  "passive_name": "Bane of Storm and Tide",
+  "passive_desc": "Increases DMG against opponents affected by Hydro or Electro by 20%.",
+  "passive_upgrades": [
+    "Increases DMG against opponents affected by Hydro or Electro by 20%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 24%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 28%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 32%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 36%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rainslasher/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rainslasher/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rainslasher/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rainslasher/full.png"
+  }
+}

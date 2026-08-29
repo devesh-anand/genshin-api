@@ -1,0 +1,26 @@
+{
+  "id": 12430,
+  "name": "Fruitful Hook",
+  "description": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help — all for the sake of obtaining Flamegranates unmatched throughout Natlan.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 43.7,
+  "passive_name": "The Weight of Falling Branches",
+  "passive_desc": "Increase Plunging Attack CRIT Rate by 16%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 16% for 10s.",
+  "passive_upgrades": [
+    "Increase Plunging Attack CRIT Rate by 16%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 16% for 10s.",
+    "Increase Plunging Attack CRIT Rate by 20%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 20% for 10s.",
+    "Increase Plunging Attack CRIT Rate by 24%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 24% for 10s.",
+    "Increase Plunging Attack CRIT Rate by 28%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 28% for 10s.",
+    "Increase Plunging Attack CRIT Rate by 32%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 32% for 10s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/full.png"
+  }
+}

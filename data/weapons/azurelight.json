@@ -1,0 +1,26 @@
+{
+  "id": 11517,
+  "name": "Azurelight",
+  "description": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue.",
+  "rarity": 5,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 47.5,
+  "passive_name": "Whitehill's Bestowal",
+  "passive_desc": "Within 12s after an Elemental Skill is used, ATK is increased by 24%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24%, and CRIT DMG will be increased by 40%.",
+  "passive_upgrades": [
+    "Within 12s after an Elemental Skill is used, ATK is increased by 24%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24%, and CRIT DMG will be increased by 40%.",
+    "Within 12s after an Elemental Skill is used, ATK is increased by 30%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 30%, and CRIT DMG will be increased by 50%.",
+    "Within 12s after an Elemental Skill is used, ATK is increased by 36%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 36%, and CRIT DMG will be increased by 60%.",
+    "Within 12s after an Elemental Skill is used, ATK is increased by 42%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 42%, and CRIT DMG will be increased by 70%.",
+    "Within 12s after an Elemental Skill is used, ATK is increased by 48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 48%, and CRIT DMG will be increased by 80%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/full.png"
+  }
+}

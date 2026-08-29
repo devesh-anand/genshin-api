@@ -1,0 +1,36 @@
+{
+  "id": 15036,
+  "name": "Unfinished Reverie",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Dark Fruit of Bright Flowers",
+      "description": "A flower carved from grey stone covered with gold foil. Legends say that during a war, it was used to differentiate friend from foe.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/unfinished-reverie/flower.png"
+    },
+    "plume": {
+      "name": "Faded Emerald Tail",
+      "description": "A tail feather ornament whose luster has long faded. The patterns on it are said to have been etched by the hand of a skilled artisan from long ago.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/unfinished-reverie/plume.png"
+    },
+    "sands": {
+      "name": "Moment of Attainment",
+      "description": "A sundial used by an ancient kingdom to tell time. Tiny marks have been left at a certain scale that can only be seen through careful observation.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/unfinished-reverie/sands.png"
+    },
+    "goblet": {
+      "name": "The Wine-Flask Over Which the Plan Was Hatched",
+      "description": "A three-legged cup. Once, many heroes were gathered around the bonfire, raising their cups high in toast and drinking their fill while discussing their wishes and ambitions.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/unfinished-reverie/goblet.png"
+    },
+    "circlet": {
+      "name": "Crownless Crown",
+      "description": "A golden crown decorated with turquoise and emerald feathers, it has never been used in a coronation, living alone atop a velvet cushion.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/unfinished-reverie/circlet.png"
+    }
+  }
+}

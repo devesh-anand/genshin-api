@@ -1,0 +1,25 @@
+{
+  "id": 14305,
+  "name": "Twin Nephrite",
+  "description": "A jade pendant formed by piecing together two jade stones.",
+  "rarity": 3,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 39.9,
+  "passive_name": "Guerilla Tactics",
+  "passive_desc": "Defeating an opponent increases Movement SPD and ATK by 12% for 15s.",
+  "passive_upgrades": [
+    "Defeating an opponent increases Movement SPD and ATK by 12% for 15s.",
+    "Defeating an opponent increases Movement SPD and ATK by 14% for 15s.",
+    "Defeating an opponent increases Movement SPD and ATK by 16% for 15s.",
+    "Defeating an opponent increases Movement SPD and ATK by 18% for 15s.",
+    "Defeating an opponent increases Movement SPD and ATK by 20% for 15s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/twin-nephrite/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/twin-nephrite/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/twin-nephrite/full.png"
+  }
+}

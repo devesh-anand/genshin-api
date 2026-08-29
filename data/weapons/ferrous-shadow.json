@@ -1,0 +1,26 @@
+{
+  "id": 12301,
+  "name": "Ferrous Shadow",
+  "description": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat.",
+  "rarity": 3,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 38.7,
+  "passive_name": "Unbending",
+  "passive_desc": "When HP falls below 70%, increases Charged Attack DMG by 30% and Charged Attacks become harder to interrupt.",
+  "passive_upgrades": [
+    "When HP falls below 70%, increases Charged Attack DMG by 30% and Charged Attacks become harder to interrupt.",
+    "When HP falls below 75%, increases Charged Attack DMG by 35% and Charged Attacks become harder to interrupt.",
+    "When HP falls below 80%, increases Charged Attack DMG by 40% and Charged Attacks become harder to interrupt.",
+    "When HP falls below 85%, increases Charged Attack DMG by 45% and Charged Attacks become harder to interrupt.",
+    "When HP falls below 90%, increases Charged Attack DMG by 50% and Charged Attacks become harder to interrupt."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/full.png"
+  }
+}

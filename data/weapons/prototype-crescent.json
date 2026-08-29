@@ -1,0 +1,25 @@
+{
+  "id": 15406,
+  "name": "Prototype Crescent",
+  "description": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Unreturning",
+  "passive_desc": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s.",
+  "passive_upgrades": [
+    "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s.",
+    "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 45% for 10s.",
+    "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 54% for 10s.",
+    "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 63% for 10s.",
+    "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 72% for 10s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-crescent/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-crescent/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-crescent/full.png"
+  }
+}

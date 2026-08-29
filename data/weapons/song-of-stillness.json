@@ -1,0 +1,25 @@
+{
+  "id": 15425,
+  "name": "Song of Stillness",
+  "description": "A strange longbow that resembles a sea creature. Its string makes no sound at all.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Benthic Pulse",
+  "passive_desc": "After the wielder is healed, they will deal 16% more DMG for 8s. This can be triggered even when the character is not on the field.",
+  "passive_upgrades": [
+    "After the wielder is healed, they will deal 16% more DMG for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, they will deal 20% more DMG for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, they will deal 24% more DMG for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, they will deal 28% more DMG for 8s. This can be triggered even when the character is not on the field.",
+    "After the wielder is healed, they will deal 32% more DMG for 8s. This can be triggered even when the character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/song-of-stillness/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/song-of-stillness/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/song-of-stillness/full.png"
+  }
+}

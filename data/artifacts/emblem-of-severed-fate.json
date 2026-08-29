@@ -1,0 +1,36 @@
+{
+  "id": 15020,
+  "name": "Emblem of Severed Fate",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Energy Recharge +20%",
+    "5pc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Magnificent Tsuba",
+      "description": "Legends hold that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/emblem-of-severed-fate/flower.png"
+    },
+    "plume": {
+      "name": "Sundered Feather",
+      "description": "This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/emblem-of-severed-fate/plume.png"
+    },
+    "sands": {
+      "name": "Storm Cage",
+      "description": "An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/emblem-of-severed-fate/sands.png"
+    },
+    "goblet": {
+      "name": "Scarlet Vessel",
+      "description": "An intricately-designed wine vessel that a world-famous martial artist once drank from.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/emblem-of-severed-fate/goblet.png"
+    },
+    "circlet": {
+      "name": "Ornate Kabuto",
+      "description": "A sturdy and hard helmet worn as armor by a noble samurai.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/emblem-of-severed-fate/circlet.png"
+    }
+  }
+}

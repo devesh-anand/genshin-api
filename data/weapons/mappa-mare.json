@@ -1,0 +1,25 @@
+{
+  "id": 14407,
+  "name": "Mappa Mare",
+  "description": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 43.7,
+  "passive_name": "Infusion Scroll",
+  "passive_desc": "Triggering an Elemental reaction grants a 8% Elemental DMG Bonus for 10s. Max 2 stacks.",
+  "passive_upgrades": [
+    "Triggering an Elemental reaction grants a 8% Elemental DMG Bonus for 10s. Max 2 stacks.",
+    "Triggering an Elemental reaction grants a 10% Elemental DMG Bonus for 10s. Max 2 stacks.",
+    "Triggering an Elemental reaction grants a 12% Elemental DMG Bonus for 10s. Max 2 stacks.",
+    "Triggering an Elemental reaction grants a 14% Elemental DMG Bonus for 10s. Max 2 stacks.",
+    "Triggering an Elemental reaction grants a 16% Elemental DMG Bonus for 10s. Max 2 stacks."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mappa-mare/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mappa-mare/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mappa-mare/full.png"
+  }
+}

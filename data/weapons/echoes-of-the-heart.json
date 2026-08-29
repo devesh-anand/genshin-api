@@ -1,0 +1,24 @@
+{
+  "id": 14436,
+  "name": "Echoes of the Heart",
+  "description": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 43.7,
+  "passive_name": "Echo of a Vow",
+  "passive_desc": "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 60 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+  "passive_upgrades": [
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 60 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 75 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 20% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 90 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 24% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 105 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 28% for 12s. The aforementioned effects can trigger even when the character is not on the field.",
+    "Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 120 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 32% for 12s. The aforementioned effects can trigger even when the character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/echoes-of-the-heart/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/echoes-of-the-heart/icon-awaken.png"
+  }
+}

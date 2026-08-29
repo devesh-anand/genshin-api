@@ -1,0 +1,36 @@
+{
+  "id": 15017,
+  "name": "Tenacity of the Millelith",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "HP +20%",
+    "5pc": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Flower of Accolades",
+      "description": "A flower made from gold leaf. It represents the glories and honors attained by its wearer.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tenacity-of-the-millelith/flower.png"
+    },
+    "plume": {
+      "name": "Ceremonial War-Plume",
+      "description": "A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tenacity-of-the-millelith/plume.png"
+    },
+    "sands": {
+      "name": "Orichalceous Time-Dial",
+      "description": "A simple device for telling time. This was once standard-issue for the Millelith during times of war.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tenacity-of-the-millelith/sands.png"
+    },
+    "goblet": {
+      "name": "Noble's Pledging Vessel",
+      "description": "A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tenacity-of-the-millelith/goblet.png"
+    },
+    "circlet": {
+      "name": "General's Ancient Helm",
+      "description": "A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/tenacity-of-the-millelith/circlet.png"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": 14424,
+  "name": "Sacrificial Jade",
+  "description": "An ancient jade pendant that gleams like clear water. It seems to have been used in ancient ceremonies.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT Rate",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL",
+  "base_atk": 41.1,
+  "passive_name": "Jade Circulation",
+  "passive_desc": "When not on the field for more than 5s, Max HP will be increased by 32% and Elemental Mastery will be increased by 40. These effects will be canceled after the wielder has been on the field for 10s.",
+  "passive_upgrades": [
+    "When not on the field for more than 5s, Max HP will be increased by 32% and Elemental Mastery will be increased by 40. These effects will be canceled after the wielder has been on the field for 10s.",
+    "When not on the field for more than 5s, Max HP will be increased by 40% and Elemental Mastery will be increased by 50. These effects will be canceled after the wielder has been on the field for 10s.",
+    "When not on the field for more than 5s, Max HP will be increased by 48% and Elemental Mastery will be increased by 60. These effects will be canceled after the wielder has been on the field for 10s.",
+    "When not on the field for more than 5s, Max HP will be increased by 56% and Elemental Mastery will be increased by 70. These effects will be canceled after the wielder has been on the field for 10s.",
+    "When not on the field for more than 5s, Max HP will be increased by 64% and Elemental Mastery will be increased by 80. These effects will be canceled after the wielder has been on the field for 10s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificial-jade/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificial-jade/icon-awaken.png"
+  }
+}

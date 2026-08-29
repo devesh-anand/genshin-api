@@ -1,0 +1,36 @@
+{
+  "id": 15046,
+  "name": "Disenchantment in Deep Shadow",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "ATK +18%.",
+    "5pc": "Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%. When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Iridescence That Ceased Amidst Glory",
+      "description": "It was a flower made of silk, gifted to her by a friend whose hands were as cold as ice.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/disenchantment-in-deep-shadow/flower.png"
+    },
+    "plume": {
+      "name": "Sharpness That Ceased Upon Wondrous Creation",
+      "description": "It was a feathered quill given to her followers, once used to pen the most absurd of dreams.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/disenchantment-in-deep-shadow/plume.png"
+    },
+    "sands": {
+      "name": "Moment That Ceased Upon Waking From Grand Dreams",
+      "description": "It was a fleeting moment she gave a certain silent alchemist to remind him of every item on his schedule.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/disenchantment-in-deep-shadow/sands.png"
+    },
+    "goblet": {
+      "name": "Ovations That Ceased Upon Festivity",
+      "description": "It was a goblet of wine she had accepted in celebration from the hands of a colleague.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/disenchantment-in-deep-shadow/goblet.png"
+    },
+    "circlet": {
+      "name": "Pendulum That Ceased Amidst a Great Fall",
+      "description": "It was a delicate trinket awarded to her in praise by the hand of her only master.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/disenchantment-in-deep-shadow/circlet.png"
+    }
+  }
+}

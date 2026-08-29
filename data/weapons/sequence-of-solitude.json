@@ -1,0 +1,25 @@
+{
+  "id": 15432,
+  "name": "Sequence of Solitude",
+  "description": "A mechanical longbow purpose-built for long shots and silent kills. Its twang is swallowed up amidst the night, the note lengthy and cold.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Silent Trigger",
+  "passive_desc": "When an attack hits an opponent, deal AoE DMG equal to 40% of Max HP at the target location. This effect can be triggered once every 15s.",
+  "passive_upgrades": [
+    "When an attack hits an opponent, deal AoE DMG equal to 40% of Max HP at the target location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 50% of Max HP at the target's location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 60% of Max HP at the target's location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 70% of Max HP at the target's location. This effect can be triggered once every 15s.",
+    "When an attack hits an opponent, deal AoE DMG equal to 80% of Max HP at the target's location. This effect can be triggered once every 15s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sequence-of-solitude/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sequence-of-solitude/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sequence-of-solitude/full.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": 14004,
+  "name": "Maiden Beloved",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Character Healing Effectiveness +15%",
+    "5pc": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Maiden's Distant Love",
+      "description": "A fragrant flower that will bloom for all eternity and never wither.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/maiden-beloved/flower.png"
+    },
+    "plume": {
+      "name": "Maiden's Heart-stricken Infatuation",
+      "description": "A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/maiden-beloved/plume.png"
+    },
+    "sands": {
+      "name": "Maiden's Passing Youth",
+      "description": "The hands of time will never come to an end, but the same cannot not be said for those cherished years of the young maiden's life when she was doted upon.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/maiden-beloved/sands.png"
+    },
+    "goblet": {
+      "name": "Maiden's Fleeting Leisure",
+      "description": "A vessel made with sweet black tea in mind rather than bitter liquor.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/maiden-beloved/goblet.png"
+    },
+    "circlet": {
+      "name": "Maiden's Fading Beauty",
+      "description": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/maiden-beloved/circlet.png"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": 15431,
+  "name": "Chain Breaker",
+  "description": "A jade-adorned longbow. The gentle winds always seem to swirl gently about its string. Legends claim that this weapon was made in a far more ancient era by a dragon artisan.",
+  "rarity": 4,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 43.7,
+  "passive_name": "Flower-Feather Song",
+  "passive_desc": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery.",
+  "passive_upgrades": [
+    "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery.",
+    "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 30 Elemental Mastery.",
+    "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 7.2% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 36 Elemental Mastery.",
+    "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 8.4% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 42 Elemental Mastery.",
+    "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 9.6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 48 Elemental Mastery."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/chain-breaker/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/chain-breaker/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/chain-breaker/full.png"
+  }
+}

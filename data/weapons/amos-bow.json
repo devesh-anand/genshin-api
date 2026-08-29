@@ -1,0 +1,26 @@
+{
+  "id": 15502,
+  "name": "Amos' Bow",
+  "description": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
+  "rarity": 5,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 45.9,
+  "passive_name": "Strong-Willed",
+  "passive_desc": "Increases Normal and Charged Attack DMG by 12%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air for up to 5 times.",
+  "passive_upgrades": [
+    "Increases Normal and Charged Attack DMG by 12%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air for up to 5 times.",
+    "Increases Normal and Charged Attack DMG by 15%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 10% every 0.1s the arrow is in the air for up to 5 times.",
+    "Increases Normal and Charged Attack DMG by 18%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 12% every 0.1s the arrow is in the air for up to 5 times.",
+    "Increases Normal and Charged Attack DMG by 21%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 14% every 0.1s the arrow is in the air for up to 5 times.",
+    "Increases Normal and Charged Attack DMG by 24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 16% every 0.1s the arrow is in the air for up to 5 times."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/full.png"
+  }
+}

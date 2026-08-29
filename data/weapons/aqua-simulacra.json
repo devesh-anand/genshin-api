@@ -1,0 +1,26 @@
+{
+  "id": 15508,
+  "name": "Aqua Simulacra",
+  "description": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
+  "rarity": 5,
+  "type": "Bow",
+  "type_key": "Bow",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 44.3,
+  "passive_name": "The Cleansing Form",
+  "passive_desc": "HP is increased by 16%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%. This will take effect whether the character is on-field or not.",
+  "passive_upgrades": [
+    "HP is increased by 16%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%. This will take effect whether the character is on-field or not.",
+    "HP is increased by 20%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 25%. This will take effect whether the character is on-field or not.",
+    "HP is increased by 24%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 30%. This will take effect whether the character is on-field or not.",
+    "HP is increased by 28%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 35%. This will take effect whether the character is on-field or not.",
+    "HP is increased by 32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 40%. This will take effect whether the character is on-field or not."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/full.png"
+  }
+}

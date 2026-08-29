@@ -1,0 +1,36 @@
+{
+  "id": 15015,
+  "name": "Retracing Bolide",
+  "rarity": 5,
+  "bonus": {
+    "4pc": "Increases Shield Strength by 35%.",
+    "5pc": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+  },
+  "pieces": {
+    "flower": {
+      "name": "Summer Night's Bloom",
+      "description": "A man-made flower in eternal bloom. Who knows if there truly is life in there?",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/retracing-bolide/flower.png"
+    },
+    "plume": {
+      "name": "Summer Night's Finale",
+      "description": "A well-crafted wooden dart. It will only stop once it has reached its destination.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/retracing-bolide/plume.png"
+    },
+    "sands": {
+      "name": "Summer Night's Moment",
+      "description": "A pocketwatch that has stopped at a certain point in time.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/retracing-bolide/sands.png"
+    },
+    "goblet": {
+      "name": "Summer Night's Waterballoon",
+      "description": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/retracing-bolide/goblet.png"
+    },
+    "circlet": {
+      "name": "Summer Night's Mask",
+      "description": "A popular mask cast in the image of a deity, as described in the legends.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/retracing-bolide/circlet.png"
+    }
+  }
+}

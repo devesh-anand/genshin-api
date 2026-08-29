@@ -1,0 +1,19 @@
+{
+  "id": 330001,
+  "name": "Shattered Moon",
+  "description": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land.",
+  "rarity": 4,
+  "type": "Polearm",
+  "type_key": "Polearm",
+  "sub_stat": null,
+  "sub_stat_key": "NONE",
+  "base_atk": null,
+  "passive_name": null,
+  "passive_desc": null,
+  "passive_upgrades": null,
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/shattered-moon/icon.png",
+    "icon-awaken": null,
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/shattered-moon/wish.png"
+  }
+}

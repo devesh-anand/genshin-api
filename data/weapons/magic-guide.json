@@ -1,0 +1,26 @@
+{
+  "id": 14301,
+  "name": "Magic Guide",
+  "description": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments.",
+  "rarity": 3,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "Elemental Mastery",
+  "sub_stat_key": "FIGHT_PROP_ELEMENT_MASTERY",
+  "base_atk": 37.6,
+  "passive_name": "Bane of Storm and Tide",
+  "passive_desc": "Increases DMG against opponents affected by Hydro or Electro by 12%.",
+  "passive_upgrades": [
+    "Increases DMG against opponents affected by Hydro or Electro by 12%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 15%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 18%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 21%.",
+    "Increases DMG against opponents affected by Hydro or Electro by 24%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/full.png"
+  }
+}

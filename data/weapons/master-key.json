@@ -1,0 +1,25 @@
+{
+  "id": 12433,
+  "name": "Master Key",
+  "description": "A heavy greatsword with a razor-sharp blade. Power is a key that can open almost any lock.",
+  "rarity": 4,
+  "type": "Claymore",
+  "type_key": "Claymore",
+  "sub_stat": "Energy Recharge",
+  "sub_stat_key": "FIGHT_PROP_CHARGE_EFFICIENCY",
+  "base_atk": 41.1,
+  "passive_name": "Fall Into Place",
+  "passive_desc": "Upon causing an Elemental Reaction, increases Elemental Mastery by 60 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60. This effect can be triggered even if the equipping character is off-field.",
+  "passive_upgrades": [
+    "Upon causing an Elemental Reaction, increases Elemental Mastery by 60 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Elemental Mastery by 75 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 75. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Elemental Mastery by 90 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 90. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Elemental Mastery by 105 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 105. This effect can be triggered even if the equipping character is off-field.",
+    "Upon causing an Elemental Reaction, increases Elemental Mastery by 120 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 120. This effect can be triggered even if the equipping character is off-field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/master-key/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/master-key/icon-awaken.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/master-key/full.png"
+  }
+}

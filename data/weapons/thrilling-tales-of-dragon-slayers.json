@@ -1,0 +1,26 @@
+{
+  "id": 14302,
+  "name": "Thrilling Tales of Dragon Slayers",
+  "description": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure.",
+  "rarity": 3,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 38.7,
+  "passive_name": "Heritage",
+  "passive_desc": "When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s.",
+  "passive_upgrades": [
+    "When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s.",
+    "When switching characters, the new character taking the field has their ATK increased by 30% for 10s. This effect can only occur once every 20s.",
+    "When switching characters, the new character taking the field has their ATK increased by 36% for 10s. This effect can only occur once every 20s.",
+    "When switching characters, the new character taking the field has their ATK increased by 42% for 10s. This effect can only occur once every 20s.",
+    "When switching characters, the new character taking the field has their ATK increased by 48% for 10s. This effect can only occur once every 20s."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/icon-awaken.png",
+    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/wish.png",
+    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/full.png"
+  }
+}
