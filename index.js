@@ -8,6 +8,7 @@ import rateLimiter from "./middlewares/rateLimiter.js";
 import characterRoutes from "./routes/character/characterRoutes.js";
 import weaponRoutes from "./routes/weapons/weaponRoutes.js";
 import artifactRoutes from "./routes/artifacts/artifactRoutes.js";
+import healthRoutes from "./routes/health/healthRoutes.js";
 import miscRoutes from "./routes/misc/miscRoutes.js";
 
 const app = express();
@@ -27,6 +28,7 @@ app.use(["/character", "/characters"], characterRoutes);
 app.use(["/weapon", "/weapons"], weaponRoutes);
 app.use(["/artifact", "/artifacts"], artifactRoutes);
 
+app.use("/health", healthRoutes);
 app.use("/others", miscRoutes);
 
 app.use(errorHandle);

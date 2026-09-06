@@ -1,19 +1,16 @@
-import path from 'path';
-import { createDataStore } from '../../lib/dataStore.js';
+import { artifactStore, queryArtifacts } from './artifactStore.js';
+import { sortResults } from '../../lib/sort.js';
 
-const store = createDataStore(path.join(path.resolve(), 'data/artifacts'));
-
-function queryArtifacts({ rarity } = {}) {
-   return store.query((a) => {
-      if (rarity && a.rarity !== Number(rarity)) return false;
-      return true;
-   });
-}
+const SORT_FIELDS = {
+   name:   'name',
+   rarity: 'rarity',
+};
 
 export const artifacts = async (req, res, next) => {
    try {
-      const { rarity, details } = req.query;
-      const results = await queryArtifacts({ rarity });
+      const { rarity, details, sort, order } = req.query;
+      let results = await queryArtifacts({ rarity });
+      results = sortResults(results, SORT_FIELDS[sort] ?? null, order);
 
       if (details === 'true') {
          return res.send({ artifacts: results.map(({ slug, data }) => ({
@@ -32,7 +29,7 @@ export const artifacts = async (req, res, next) => {
 
 export const artifactByName = async (req, res) => {
    try {
-      const data = await store.getOne(req.params.name);
+      const data = await artifactStore.getOne(req.params.name);
       if (!data) return res.status(404).send({ error: 'Artifact set not found.' });
       res.send(data);
    } catch (e) {

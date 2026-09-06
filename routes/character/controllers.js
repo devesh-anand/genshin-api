@@ -1,4 +1,14 @@
 import { characterStore, queryCharacters } from './characterStore.js';
+import { sortResults } from '../../lib/sort.js';
+
+// ?sort= values → data field names
+const SORT_FIELDS = {
+   name:    'name',
+   rarity:  'rarity',
+   element: 'vision',
+   nation:  'nation',
+   weapon:  'weapon',
+};
 
 // Summary shape returned when ?details=true
 function toSummary({ slug, data }) {
@@ -16,8 +26,9 @@ function toSummary({ slug, data }) {
 
 export const characters = async (req, res, next) => {
    try {
-      const { element, weapon, nation, rarity, details } = req.query;
-      const results = await queryCharacters({ element, weapon, nation, rarity });
+      const { element, weapon, nation, rarity, details, sort, order } = req.query;
+      let results = await queryCharacters({ element, weapon, nation, rarity });
+      results = sortResults(results, SORT_FIELDS[sort] ?? null, order);
 
       if (details === 'true') {
          return res.send({ characters: results.map(toSummary) });

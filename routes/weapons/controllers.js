@@ -1,20 +1,17 @@
-import path from 'path';
-import { createDataStore } from '../../lib/dataStore.js';
+import { weaponStore, queryWeapons } from './weaponStore.js';
+import { sortResults } from '../../lib/sort.js';
 
-const store = createDataStore(path.join(path.resolve(), 'data/weapons'));
-
-function queryWeapons({ type, rarity } = {}) {
-   return store.query((w) => {
-      if (type   && w.type?.toLowerCase()  !== type.toLowerCase())  return false;
-      if (rarity && w.rarity              !== Number(rarity))        return false;
-      return true;
-   });
-}
+const SORT_FIELDS = {
+   name:   'name',
+   rarity: 'rarity',
+   type:   'type',
+};
 
 export const weapons = async (req, res, next) => {
    try {
-      const { type, rarity, details } = req.query;
-      const results = await queryWeapons({ type, rarity });
+      const { type, rarity, details, sort, order } = req.query;
+      let results = await queryWeapons({ type, rarity });
+      results = sortResults(results, SORT_FIELDS[sort] ?? null, order);
 
       if (details === 'true') {
          return res.send({ weapons: results.map(({ slug, data }) => ({
@@ -35,7 +32,7 @@ export const weapons = async (req, res, next) => {
 
 export const weaponByName = async (req, res) => {
    try {
-      const data = await store.getOne(req.params.name);
+      const data = await weaponStore.getOne(req.params.name);
       if (!data) return res.status(404).send({ error: 'Weapon not found.' });
       res.send(data);
    } catch (e) {
@@ -45,6 +42,6 @@ export const weaponByName = async (req, res) => {
 
 export const weaponTypes = async (req, res, next) => {
    try {
-      res.send({ types: await store.getDistinct('type') });
+      res.send({ types: await weaponStore.getDistinct('type') });
    } catch (e) { next(e); }
 };

@@ -34,6 +34,8 @@ Returns a list of all character slugs.
 | `nation` | Filter by nation | `mondstadt`, `liyue`, `inazuma`, `sumeru`, `fontaine`, `natlan`, `snezhnaya`, `nodkrai` |
 | `rarity` | Filter by rarity | `4` or `5` |
 | `details` | Return summary objects instead of slugs | `true` |
+| `sort` | Sort results | `name`, `rarity`, `element`, `nation`, `weapon` |
+| `order` | Sort direction (default `asc`) | `asc`, `desc` |
 
 **Examples:**
 ```
@@ -42,6 +44,8 @@ GET /characters?element=pyro
 GET /characters?element=hydro&weapon=catalyst
 GET /characters?nation=fontaine&rarity=5
 GET /characters?element=dendro&details=true
+GET /characters?sort=rarity&order=desc
+GET /characters?element=pyro&sort=name
 ```
 
 **Default response** (slugs only):
@@ -158,12 +162,16 @@ Returns a list of all weapon slugs.
 | `type` | Filter by weapon type | `sword`, `claymore`, `polearm`, `catalyst`, `bow` |
 | `rarity` | Filter by rarity | `1`–`5` |
 | `details` | Return summary objects instead of slugs | `true` |
+| `sort` | Sort results | `name`, `rarity`, `type` |
+| `order` | Sort direction (default `asc`) | `asc`, `desc` |
 
 **Examples:**
 ```
 GET /weapons
 GET /weapons?type=catalyst&rarity=5
 GET /weapons?rarity=4&details=true
+GET /weapons?sort=rarity&order=desc
+GET /weapons?type=sword&sort=name
 ```
 
 **With `?details=true`:**
@@ -248,12 +256,16 @@ Returns a list of all artifact set slugs.
 |-----------|-------------|---------|
 | `rarity` | Filter by max rarity | `4` or `5` |
 | `details` | Return summary objects instead of slugs | `true` |
+| `sort` | Sort results | `name`, `rarity` |
+| `order` | Sort direction (default `asc`) | `asc`, `desc` |
 
 **Examples:**
 ```
 GET /artifacts
 GET /artifacts?rarity=5
 GET /artifacts?details=true
+GET /artifacts?sort=name
+GET /artifacts?rarity=5&sort=rarity&order=desc
 ```
 
 **With `?details=true`:**
@@ -306,6 +318,26 @@ GET /artifacts/pale-flame
 ```
 
 Returns `404` if the artifact set is not found.
+
+---
+
+## Health
+
+### `GET /health`
+
+Returns server status, uptime, and total counts for each resource.
+
+```json
+{
+  "status": "ok",
+  "uptime": 3421,
+  "counts": {
+    "characters": 102,
+    "weapons": 270,
+    "artifacts": 63
+  }
+}
+```
 
 ---
 
