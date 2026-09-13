@@ -1,0 +1,15 @@
+{
+  "id": 25131001,
+  "name": "Volkodlak Lobber",
+  "description": "A relatively large and powerfully built type of Volkodlak found among the many that roam Snezhnaya.\nWith the strength of beasts and humanoid bodies, their powerful upper bodies allow them to throw with greater force and precision. Volkodlak may not excel at shaping Prime Ice or wielding elemental power, but among the many fae lineages, few can match their command over physical strength.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone",
+    "accreted-fragment",
+    "accreted-mass",
+    "accreted-growth"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/volkodlak-lobber/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 112100,
+  "name": "Still-Smoldering Hilt",
+  "description": "A stone hilt obtained from an ancient statue.\nOnly the recentness of its separation from its owner may explain the as-yet unextinguished flame within.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "praetorian-golem"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "flute-of-ezpitzal",
+      "forged-by-the-golden-melody",
+      "cloudforged",
+      "crimson-moons-semblance",
+      "lumidouce-elegy"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/still-smoldering-hilt/icon.png"
+}

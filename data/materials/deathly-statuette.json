@@ -1,0 +1,27 @@
+{
+  "id": 112019,
+  "name": "Deathly Statuette",
+  "description": "A one-eyed carving that emanates an ominous energy, with no indication of what it's made of.\nAs you gaze upon this idol, you can almost hear a strange, comforting whisper...\n\"See, my child. All that lies under the throne of heaven shall be destroyed by upheaval. The eternal peace of the pitch-dark void shall embrace us all.\"",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "abyss-herald-wicked-torrents",
+    "abyss-lector-fathomless-flames",
+    "abyss-lector-violet-lightning",
+    "shadowy-husk-standard-bearer",
+    "shadowy-husk-line-breaker",
+    "shadowy-husk-defender",
+    "black-serpent-knight-windcutter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "kagotsurube-isshin",
+      "missive-windspear",
+      "fruit-of-fulfillment",
+      "haran-geppaku-futsu",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/deathly-statuette/icon.png"
+}

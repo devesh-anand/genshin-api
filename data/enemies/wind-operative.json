@@ -1,0 +1,12 @@
+{
+  "id": 23060201,
+  "name": "Wind Operative",
+  "description": "An elite agent among the Fatui.\n\"Operatives\" have no ordinary military rank among the Fatui. Based on their orders and the content of their missions, they can work in concert with other soldiers, work alone, or in tandem with the \"tacks\" hidden and scattered across the world. They spy, conduct counter-espionage, protect, assassinate, and conduct other tasks. In order to effectively carry out missions of a more special nature, \"Operatives\" also need to master all kinds of other skills and even various arts and talents.",
+  "type": "Fatui",
+  "drops": [
+    "old-operatives-pocket-watch",
+    "operatives-standard-pocket-watch",
+    "operatives-constancy"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/wind-operative/icon.png"
+}

@@ -11,6 +11,8 @@ import weaponRoutes from "./routes/weapons/weaponRoutes.js";
 import artifactRoutes from "./routes/artifacts/artifactRoutes.js";
 import healthRoutes from "./routes/health/healthRoutes.js";
 import searchRoutes from "./routes/search/searchRoutes.js";
+import materialRoutes from "./routes/materials/materialRoutes.js";
+import enemyRoutes from "./routes/enemies/enemyRoutes.js";
 import miscRoutes from "./routes/misc/miscRoutes.js";
 
 const app = express();
@@ -31,6 +33,8 @@ app.use(["/character", "/characters"], characterRoutes);
 app.use(["/weapon", "/weapons"], weaponRoutes);
 app.use(["/artifact", "/artifacts"], artifactRoutes);
 
+app.use(["/material", "/materials"], materialRoutes);
+app.use(["/enemy", "/enemies"], enemyRoutes);
 app.use("/health", healthRoutes);
 app.use("/search", searchRoutes);
 app.use("/others", miscRoutes);

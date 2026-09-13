@@ -1,0 +1,12 @@
+{
+  "id": 25501301,
+  "name": "Winged Warrior: Feathershedder",
+  "description": "A warrior from the clifftops, and a tribal guardian that patrols the steep mountain ridges.\nProud sword wielders whose blade strokes are as sweeping as a Qucusaur's outstretched wingspan. Blood sprays forth like scattered feathers from the wounds they inflict.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/winged-warrior-feathershedder/icon.png"
+}

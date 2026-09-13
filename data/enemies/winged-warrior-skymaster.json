@@ -1,0 +1,12 @@
+{
+  "id": 25504201,
+  "name": "Winged Warrior: Skymaster",
+  "description": "A warrior from the clifftops, and a tribal guardian that patrols the steep mountain ridges.\nBy observing and emulating the claw strikes of airborne Saurians, these warriors have grasped the essence of harnessing their own power. Their kicks, delivered from up high, should not be underestimated.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/winged-warrior-skymaster/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 20010901,
+  "name": "Large Cryo Slime",
+  "description": "A monster created through the coagulation of Cryo in the natural environment.\nThese slimes can use the abundant Cryo energies within themselves to freeze the moisture in the atmosphere and form a protective shell around themselves. They can also utilize a similar principle to freeze the water around them. On some level, this can be considered to be the freest species of slime, as it can cross oceans and seas with ease.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-cryo-slime/icon.png"
+}

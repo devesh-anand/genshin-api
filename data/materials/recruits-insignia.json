@@ -1,0 +1,51 @@
+{
+  "id": 112032,
+  "name": "Recruit's Insignia",
+  "description": "An insignia to identify the recruits. Makes one wonder about what the ones joining the Fatui's war machine were thinking.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "fatui-skirmisher-pyroslinger-bracer",
+    "fatui-skirmisher-hydrogunner-legionnaire",
+    "fatui-skirmisher-anemoboxer-vanguard",
+    "fatui-skirmisher-electrohammer-vanguard",
+    "fatui-skirmisher-cryogunner-legionnaire",
+    "fatui-skirmisher-geochanter-bracer",
+    "fatui-pyro-agent",
+    "fatui-electro-cicin-mage",
+    "fatui-cryo-cicin-mage"
+  ],
+  "used_by": {
+    "characters": [
+      "diluc",
+      "ningguang",
+      "tartaglia",
+      "rosaria",
+      "yelan",
+      "mika",
+      "lyney",
+      "arlecchino"
+    ],
+    "weapons": [
+      "skyrider-sword",
+      "white-tassel",
+      "twin-nephrite",
+      "prototype-rancour",
+      "festering-desire",
+      "favonius-greatsword",
+      "blackcliff-slasher",
+      "blackcliff-pole",
+      "royal-spear",
+      "dragonspine-spear",
+      "moonpiercer",
+      "royal-grimoire",
+      "compound-bow",
+      "cloudforged",
+      "jade-vista",
+      "gest-of-the-mighty-wolf",
+      "primordial-jade-winged-spear",
+      "elegy-for-the-end"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/recruits-insignia/icon.png"
+}

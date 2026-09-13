@@ -1,0 +1,18 @@
+{
+  "id": 113029,
+  "name": "Storm Beads",
+  "description": "Crackling Electro pearls left behind by the Thunder Manifestation.\nIt is said that Thunder Manifestations will only descend upon lands where powerful hatred dwells. The singers say that it is the unbearable disappointments and sufferings of life that drive them to forever wander the broken earth, unleashing sky-searing lightning as they go.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "thunder-manifestation"
+  ],
+  "used_by": {
+    "characters": [
+      "raiden-shogun",
+      "kujou-sara"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/storm-beads/icon.png"
+}

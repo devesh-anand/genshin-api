@@ -1,0 +1,12 @@
+{
+  "id": 24020401,
+  "name": "Ruin Scout",
+  "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea.",
+  "type": "Automatron",
+  "drops": [
+    "chaos-gear",
+    "chaos-axis",
+    "chaos-oculus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ruin-scout/icon.png"
+}

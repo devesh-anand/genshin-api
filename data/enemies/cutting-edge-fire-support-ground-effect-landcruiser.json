@@ -1,0 +1,12 @@
+{
+  "id": 23085301,
+  "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+  "description": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\nAfter being equipped with high-efficiency jet engines, this Ground Effect Landcruiser has gained the ability to carry multiple armaments, allowing it to deliver this sizable firepower anywhere on the battlefield in a timely fashion. As such, the combat doctrine co-authored by the Fatui and the Royal Military Academy states that they are to be organized as a \"Quick Reaction Force\" in large-scale battles, meant to guard against enemy breakthroughs or counterattacks, and to press the advantage if the battle is going favorably. Of course, all such Landcruisers have the ability to operate independently, and on long tours of duty, they can form the core of a small squad and thus maximize the firepower of various Fatui unit types...",
+  "type": "Fatui",
+  "drops": [
+    "broken-drive-shaft",
+    "reinforced-drive-shaft",
+    "precision-drive-shaft"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cutting-edge-fire-support-ground-effect-landcruiser/icon.png"
+}

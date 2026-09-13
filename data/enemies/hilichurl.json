@@ -1,0 +1,12 @@
+{
+  "id": 21010101,
+  "name": "Hilichurl",
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nThey look very similar to humanity but seem to have lost both their intellect and spirituality. Their presence on the continent has been recorded for over a thousand years, and yet they have neither history nor civilization.\nSince the pitch-black calamity from five hundred years ago, they have begun to spread in large numbers across the land. They are not very strong, and they lack organization, but they nonetheless bring sizable trouble to humans every once in a while.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hilichurl/icon.png"
+}

@@ -1,0 +1,23 @@
+{
+  "id": 114031,
+  "name": "Narukami's Affection",
+  "description": "Weapon Ascension Material.\nAll demons who wander in the wilderness or live amongst mortals will be attracted by the sight of the Almighty Narukami Ogosho, represented by the Electro Mitsudomoe. Though their lives may be longer than any creature, they will at last come to their end. If those with limited lifespans hanker after eternity, then they can only pray that \"Eternity\" remembers them. And she did indeed answer their prayers, remembering them all, friend and foe alike, in her heart. No matter whether it was the demon owls who resided amidst the fog and ripped through the skies, the bake-danuki who dared to trespass her imperial gardens, or that female oni, lovely as the moon and mighty in battle, yet who would eventually come to blows with her... Whether it was the tengu who soared on dark wings or the Kitsune Saiguu who once walked by her side, but who eventually disappeared forever...\nThese countless tales have come to rest within her heart, and someday, they will surely shine again in the eternal paradise of her dreams.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "toukabou-shigure",
+      "katsuragikiri-nagamasa",
+      "hamayumi",
+      "predator",
+      "mouuns-moon",
+      "haran-geppaku-futsu",
+      "redhorn-stonethresher",
+      "sunny-morning-sleep-in",
+      "thundering-pulse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/narukamis-affection/icon.png"
+}

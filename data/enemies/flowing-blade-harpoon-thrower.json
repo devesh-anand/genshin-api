@@ -1,0 +1,12 @@
+{
+  "id": 25505201,
+  "name": "Flowing Blade Harpoon-Thrower",
+  "description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nUnderestimate the incredible skills these brave harpoon-wielding warriors have gained through hunting and fishing at your peril. It is said that in the past, tribespeople would use these skills to hunt massive sea beasts with fins and scales as tough as iron.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/flowing-blade-harpoon-thrower/icon.png"
+}

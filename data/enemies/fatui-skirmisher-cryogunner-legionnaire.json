@@ -1,0 +1,12 @@
+{
+  "id": 23010101,
+  "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+  "description": "A soldier encased within a Fatui war machine.\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost.\nThough this may confer elemental power beyond the ken of ordinary humans, that power may yet come at a price...",
+  "type": "Fatui",
+  "drops": [
+    "recruits-insignia",
+    "sergeants-insignia",
+    "lieutenants-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fatui-skirmisher-cryogunner-legionnaire/icon.png"
+}

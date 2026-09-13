@@ -1,0 +1,49 @@
+{
+  "id": 112013,
+  "name": "Weathered Arrowhead",
+  "description": "An old arrowhead coated in blood. The arrowhead has long since lost its sharpness and thus its use as a weapon.\nHowever, it represents the pride of a hunter and acts as both an amulet and a medal.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "hilichurl-shooter",
+    "pyro-hilichurl-shooter",
+    "electro-hilichurl-shooter",
+    "cryo-hilichurl-shooter"
+  ],
+  "used_by": {
+    "characters": [
+      "amber",
+      "fischl",
+      "diona",
+      "collei",
+      "dahlia",
+      "lohen",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "cool-steel",
+      "bloodtainted-greatsword",
+      "black-tassel",
+      "raven-bow",
+      "favonius-sword",
+      "blackcliff-longsword",
+      "sacrificial-greatsword",
+      "lithic-blade",
+      "lithic-spear",
+      "prototype-amber",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "hamayumi",
+      "predator",
+      "kings-squire",
+      "song-of-stillness",
+      "snare-hook",
+      "aquila-favonia",
+      "skyward-atlas",
+      "skyward-harp",
+      "thundering-pulse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/weathered-arrowhead/icon.png"
+}

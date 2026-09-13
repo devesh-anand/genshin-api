@@ -1,0 +1,33 @@
+{
+  "id": 112063,
+  "name": "Dormant Fungal Nucleus",
+  "description": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nThere was once a protracted debate among Amurta researchers on whether the Fungi should be categorized as plants or animals. In the end, they reached an agreement and closed the case for good — the Fungi shall be its own category, neither plant nor animal.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "floating-hydro-fungus",
+    "floating-anemo-fungus",
+    "floating-dendro-fungus",
+    "whirling-pyro-fungus",
+    "whirling-electro-fungus",
+    "whirling-cryo-fungus",
+    "stretchy-pyro-fungus",
+    "stretchy-anemo-fungus",
+    "stretchy-geo-fungus",
+    "grounded-hydroshroom",
+    "winged-dendroshroom",
+    "winged-cryoshroom",
+    "grounded-geoshroom"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "wandering-evenstar",
+      "kings-squire",
+      "end-of-the-line",
+      "tulaytullahs-remembrance",
+      "hunters-path"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dormant-fungal-nucleus/icon.png"
+}

@@ -1,0 +1,20 @@
+{
+  "id": 112095,
+  "name": "Feathery Fin",
+  "description": "A fin fragment taken from a defeated Xuanwen Beast's back.\nEven though Xuanwen Beasts can't fly over long distances, these feather-like fins enable them to swiftly pursue their prey.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "xuanwen-beast"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dialogues-of-the-desert-sages",
+      "chain-breaker",
+      "cranes-echoing-call",
+      "silvershower-heartstrings"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/feathery-fin/icon.png"
+}

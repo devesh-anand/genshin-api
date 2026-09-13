@@ -1,0 +1,59 @@
+{
+  "id": 112105,
+  "name": "Warrior's Metal Whistle",
+  "description": "The symbol of a Natlan tribal warrior.\nA metal whistle that is given to individuals who have been officially recognized as tribal warriors. It is used to communicate and alert others to danger by those that patrol the tribe's vicinity. This is a duty that falls upon the warriors of the tribe.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "forged-sand-interrogator",
+    "forged-sand-shieldbreaker",
+    "forged-sand-javelineer",
+    "swiftstep-seeker",
+    "swiftstep-storm-scout",
+    "swiftstep-armed-courier",
+    "flowing-blade-skirmisher",
+    "flowing-blade-grease-saw",
+    "flowing-blade-harpoon-thrower",
+    "winged-warrior-feathershedder",
+    "winged-warrior-skymaster",
+    "spiritspeaker-warrior-determinator",
+    "spiritspeaker-warrior-psychokinetic",
+    "spiritspeaker-warrior-contemplator",
+    "tepetlisaurus-warrior-shard-striker",
+    "tepetlisaurus-warrior-rockbreaker-blade",
+    "yumkasaurus-warrior-whirling-leaves",
+    "yumkasaurus-warrior-flowing-skyfire",
+    "koholasaurus-warrior-waveshuttler",
+    "koholasaurus-warrior-reefsplitter",
+    "qucusaurus-warrior-heartstar-hammer",
+    "iktomisaurus-warrior-icy-tidebearer",
+    "iktomisaurus-warrior-cryocrystal-cannon"
+  ],
+  "used_by": {
+    "characters": [
+      "kachina",
+      "mualani",
+      "xilonen",
+      "mavuika",
+      "iansan",
+      "ineffa",
+      "manekin",
+      "manekina",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "sturdy-bone",
+      "calamity-of-eshu",
+      "heretics-molten-blade",
+      "earth-shaker",
+      "footprint-of-the-rainbow",
+      "flower-wreathed-feathers",
+      "azurelight",
+      "fang-of-the-mountain-king",
+      "starcallers-watch",
+      "astral-vultures-crimson-plumage"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/warriors-metal-whistle/icon.png"
+}

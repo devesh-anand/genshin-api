@@ -1,0 +1,32 @@
+{
+  "id": 112029,
+  "name": "Hunter's Sacrificial Knife",
+  "description": "A sharp alloy weapon. Though its owner has been lost, it still reflects a disturbingly cold light.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "fatui-pyro-agent"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dark-iron-sword",
+      "white-tassel",
+      "emerald-orb",
+      "slingshot",
+      "lions-roar",
+      "blackcliff-longsword",
+      "whiteblind",
+      "lithic-blade",
+      "crescent-pike",
+      "solar-pearl",
+      "blackcliff-agate",
+      "rust",
+      "blackcliff-warbow",
+      "fading-twilight",
+      "summit-shaper",
+      "primordial-jade-winged-spear"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/hunters-sacrificial-knife/icon.png"
+}

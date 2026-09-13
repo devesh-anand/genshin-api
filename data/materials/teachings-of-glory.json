@@ -1,0 +1,13 @@
+{
+  "id": 104371,
+  "name": "Teachings of Glory",
+  "description": "Talent Level-Up Material.\nGlory is the sacred faith of the frozen realm.\nIt is a spark buried deep beneath the frozen soil; if one can but trace its true form, they shall grant themselves the courage to stand against the biting cold.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-glory/icon.png"
+}

@@ -1,0 +1,32 @@
+{
+  "id": 114024,
+  "name": "Chunk of Aerosiderite",
+  "description": "Weapon Ascension Material.\nWhen Khaenri'ah was destroyed, a great sinner created endless monsters with dark, alien blood flowing through their veins. They rampaged across the land, destroying all in their paths. They were mutated lifeforms, and the mutations were caused by powers from beyond this world. The black serpentine dragon Durin that attacked Mondstadt was one such mutated being.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "skyrider-sword",
+      "skyrider-greatsword",
+      "black-tassel",
+      "iron-sting",
+      "prototype-archaic",
+      "serpent-spine",
+      "luxurious-sea-lord",
+      "prototype-starglitter",
+      "lithic-spear",
+      "mappa-mare",
+      "compound-bow",
+      "fading-twilight",
+      "cloudforged",
+      "jade-vista",
+      "lightbearing-moonshard",
+      "vortex-vanquisher",
+      "staff-of-homa",
+      "memory-of-dust"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chunk-of-aerosiderite/icon.png"
+}

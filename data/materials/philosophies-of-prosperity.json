@@ -1,0 +1,23 @@
+{
+  "id": 104312,
+  "name": "Philosophies of Prosperity",
+  "description": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is Liyue's past, present, and future. This prosperity is unmatched and unobtainable by any other nations — it all belongs to Liyue and its inhabitants.",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xiao",
+      "ningguang",
+      "qiqi",
+      "keqing",
+      "yelan",
+      "shenhe",
+      "gaming",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-prosperity/icon.png"
+}

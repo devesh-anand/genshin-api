@@ -1,0 +1,8 @@
+{
+  "id": 26060101,
+  "name": "Electro Cicin",
+  "description": "Little creatures that can ever so slightly manipulate Electro.\nThey and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances.",
+  "type": "Beast",
+  "drops": [],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/electro-cicin/icon.png"
+}

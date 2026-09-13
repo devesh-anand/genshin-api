@@ -1,0 +1,12 @@
+{
+  "id": 25210101,
+  "name": "Eremite Axe Vanguard",
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese ax-wielding ladies often wade into the slaughter without fear, creating openings for their comrades to capitalize on.\nThey will sometimes sit by the fireside in their sand-swept homeland and play songs that were lost in that golden sea.",
+  "type": "Human Faction",
+  "drops": [
+    "faded-red-satin",
+    "trimmed-red-silk",
+    "rich-red-brocade"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/eremite-axe-vanguard/icon.png"
+}

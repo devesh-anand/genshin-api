@@ -1,0 +1,20 @@
+{
+  "id": 113032,
+  "name": "Mudra of the Malefic General",
+  "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here symbolizes the concept that \"one sees and one does.\"\nEven now that \"she\" has become a calamitous deity, she can still utilize such transcendent gestures, her sword flashing forth as swiftly as her eyes may see.\nAnd yet, as the countless disasters ground on for far too long, the baleful general's shell had to embrace a new spring.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "magatsu-mitake-narukami-no-mikoto"
+  ],
+  "used_by": {
+    "characters": [
+      "kamisato-ayato",
+      "cyno",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mudra-of-the-malefic-general/icon.png"
+}

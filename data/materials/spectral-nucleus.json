@@ -1,0 +1,37 @@
+{
+  "id": 112055,
+  "name": "Spectral Nucleus",
+  "description": "A complete energy core that can sometimes be found after defeating Specters.\nThere is a debate among those who just have to divide the world into winners and losers: what floats better — a Specter or an Anemo Slime?",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "hydro-specter",
+    "anemo-specter",
+    "dendro-specter",
+    "geo-specter"
+  ],
+  "used_by": {
+    "characters": [
+      "sangonomiya-kokomi",
+      "gorou",
+      "kirara",
+      "aloy",
+      "kuki-shinobu",
+      "chiori"
+    ],
+    "weapons": [
+      "kagotsurube-isshin",
+      "mailed-flower",
+      "the-catch",
+      "dialogues-of-the-desert-sages",
+      "oathsworn-eye",
+      "mouuns-moon",
+      "everlasting-moonglow",
+      "kaguras-verity",
+      "sunny-morning-sleep-in",
+      "polar-star",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spectral-nucleus/icon.png"
+}

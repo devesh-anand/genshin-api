@@ -1,0 +1,19 @@
+{
+  "id": 113019,
+  "name": "Gilded Scale",
+  "description": "Scaled armor that grows naturally over mystical stone, tough and silent, and filled with the strength of the dragon king.\nAcross the years as countless generations returned to the mulch of the earth, gold and obsidian embedded themselves into flesh and blood forged from bedrock before spreading and turning into scales.\nSearing agony, wordless cries... perhaps they will all vanish when the grudges that spawned them, too, finally come to an end.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "azhdaha"
+  ],
+  "used_by": {
+    "characters": [
+      "kaedehara-kazuha",
+      "sayu",
+      "yelan"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/gilded-scale/icon.png"
+}

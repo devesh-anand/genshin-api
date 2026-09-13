@@ -1,0 +1,41 @@
+{
+  "id": 112045,
+  "name": "Kageuchi Handguard",
+  "description": "A handguard mounted upon a sword of some distinction.\nInazuma has a long tradition of sword-making. When making swords, smiths will often make several different weapons at once, before choosing from among them the \"shinuchi,\" or the best weapon, while the others are known as \"kageuchi.\"",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "nobushi-jintouban",
+    "nobushi-hitsukeban",
+    "nobushi-kikouban",
+    "kairagi-fiery-might",
+    "kairagi-dancing-thunder"
+  ],
+  "used_by": {
+    "characters": [
+      "kamisato-ayaka",
+      "raiden-shogun",
+      "yae-miko",
+      "kamisato-ayato",
+      "wanderer",
+      "yumemizuki-mizuki",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "amenoma-kageuchi",
+      "toukabou-shigure",
+      "finale-of-the-deep",
+      "katsuragikiri-nagamasa",
+      "akuoumaru",
+      "wavebreakers-fin",
+      "tamayuratei-no-ohanashi",
+      "mistsplitter-reforged",
+      "haran-geppaku-futsu",
+      "uraku-misugiri",
+      "redhorn-stonethresher",
+      "engulfing-lightning"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/kageuchi-handguard/icon.png"
+}

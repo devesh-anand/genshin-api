@@ -1,0 +1,16 @@
+{
+  "id": 113063,
+  "name": "The Cornerstone of Stars and Flames",
+  "description": "\"Heroes ignite the sacred flame, illuminating the world, yet eventually they shall rest, nestled among the stars.\"\n\"They left behind a stone, a weaving. With these as our foundation, we have erected an everlasting civilization.\"",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/the-cornerstone-of-stars-and-flames/icon.png"
+}

@@ -1,6 +1,8 @@
 import { characterStore } from '../character/characterStore.js';
 import { weaponStore } from '../weapons/weaponStore.js';
 import { artifactStore } from '../artifacts/artifactStore.js';
+import { materialStore } from '../materials/materialStore.js';
+import { enemyStore } from '../enemies/enemyStore.js';
 
 export const search = async (req, res, next) => {
    try {
@@ -12,10 +14,12 @@ export const search = async (req, res, next) => {
       const term = q.trim().toLowerCase();
       const match = (data) => data.name?.toLowerCase().includes(term);
 
-      const [chars, weapons, artifacts] = await Promise.all([
+      const [chars, weapons, artifacts, materials, enemies] = await Promise.all([
          characterStore.query(match),
          weaponStore.query(match),
          artifactStore.query(match),
+         materialStore.query(match),
+         enemyStore.query(match),
       ]);
 
       res.set('Cache-Control', 'public, max-age=300');
@@ -42,6 +46,19 @@ export const search = async (req, res, next) => {
                name: data.name,
                rarity: data.rarity,
                img: data.pieces?.flower?.img ?? null,
+            })),
+            materials: materials.map(({ slug, data }) => ({
+               key: slug,
+               name: data.name,
+               rarity: data.rarity,
+               category: data.category,
+               img: data.img,
+            })),
+            enemies: enemies.map(({ slug, data }) => ({
+               key: slug,
+               name: data.name,
+               type: data.type,
+               img: data.img,
             })),
          },
       });

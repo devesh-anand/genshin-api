@@ -1,0 +1,18 @@
+{
+  "id": 112139,
+  "name": "Hooked Beak of the Deep Shadow",
+  "description": "The remains of a fisher from beyond this world, left after its body dissolved.\nA birdlike, hook-shaped beak used by predators from beyond this world to store the biomass they seize.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "fisher-of-hidden-depths"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "gest-of-the-mighty-wolf",
+      "nocturnes-curtain-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/hooked-beak-of-the-deep-shadow/icon.png"
+}

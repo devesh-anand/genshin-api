@@ -1,0 +1,12 @@
+{
+  "id": 26151101,
+  "name": "Hunter's Ray",
+  "description": "A stingray that can release blades of water.\nAmong the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it. Of course, those that have a deeper understanding of natural philosophy would discount such groundless speculation.",
+  "type": "Beast",
+  "drops": [
+    "transoceanic-pearl",
+    "transoceanic-chunk",
+    "xenochromatic-crystal"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hunters-ray/icon.png"
+}

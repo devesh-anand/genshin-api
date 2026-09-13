@@ -1,0 +1,12 @@
+{
+  "id": 22010201,
+  "name": "Cryo Abyss Mage",
+  "description": "Abyss creatures that call upon Cryo in battle.\nThough they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective Ward has been broken, they are at your mercy.",
+  "type": "Abyss",
+  "drops": [
+    "dead-ley-line-branch",
+    "dead-ley-line-leaves",
+    "ley-line-sprout"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-abyss-mage/icon.png"
+}

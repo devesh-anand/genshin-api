@@ -1,0 +1,18 @@
+{
+  "id": 26140101,
+  "name": "Legatus Golem",
+  "description": "A centaur-shaped golem forged of marble and brass. Under the hard stone exterior flows Ichor blood. Towering as one who commands a legion, it is ready to trample any foe that might transgress against its honor.\nThe now sunken civilization believed that war was as music, an art of rhythms to be followed. Therefore, one who marshals a legion must be like a conductor, whose shield and sword are like the strings and bow of a violin, performing a blazing melody like the raging flames upon the merciless battlefield.\n\"War is a necessary evil on the path to all-encompassing peace.\" Thus spake a Harmost, one who once led the golem legions to conquest over the entire high sea.",
+  "type": "Beast",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "prithiva-topaz-sliver",
+    "prithiva-topaz-fragment",
+    "prithiva-topaz-chunk",
+    "prithiva-topaz-gemstone",
+    "fragment-of-a-golden-melody"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/legatus-golem/icon.png"
+}

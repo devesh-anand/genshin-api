@@ -1,0 +1,12 @@
+{
+  "id": 22080101,
+  "name": "Black Serpent Knight: Windcutter",
+  "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\nThe Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed.",
+  "type": "Abyss",
+  "drops": [
+    "gloomy-statuette",
+    "dark-statuette",
+    "deathly-statuette"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/black-serpent-knight-windcutter/icon.png"
+}

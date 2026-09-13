@@ -1,0 +1,14 @@
+{
+  "id": 26020101,
+  "name": "Cryo Regisvine",
+  "description": "A monster formed from a vine that was imbued with the essence of biting frost within the ley lines.\nSome studies suggest that plants are like the organs of the world, harmonizing the turbulent elemental energies of the ley lines. Concrete examples of this phenomena are Mist Flowers, Whopperflowers, and the like, which brim over with elemental energy.\nIn certain circumstances, certain plants will turn into creatures of monstrous size and intent — such as the Cryo Regisvines — in the course of many years.",
+  "type": "Beast",
+  "drops": [
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "hoarfrost-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-regisvine/icon.png"
+}

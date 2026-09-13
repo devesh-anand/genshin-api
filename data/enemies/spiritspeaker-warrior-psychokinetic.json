@@ -1,0 +1,12 @@
+{
+  "id": 25502301,
+  "name": "Spiritspeaker Warrior: Psychokinetic",
+  "description": "A warrior from the Night-Wind, and a tribal guardian that patrols the misty canyons.\nIt is said that their body paint is an art that evolved from the practice of Phlogiston Engraving, and that it takes long years of training to fully master the power contained within.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/spiritspeaker-warrior-psychokinetic/icon.png"
+}

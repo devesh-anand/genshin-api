@@ -1,0 +1,33 @@
+{
+  "id": 112064,
+  "name": "Robust Fungal Nucleus",
+  "description": "Body tissue left behind by a Fungus that has been exposed to intense elemental stimulation.\nIt is generally believed that the Fungi evolved into more mobile forms to better disperse their spores.\nA poet once depicted a shared dream of the Fungi in which their spores covered every inch of the mountains and oceans. The world had never been more tranquil. Then the Fungi turned into fish, birds, beasts, men, and gods, relying on rainfall, land, and their own kind who had returned to the earth.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "floating-hydro-fungus",
+    "floating-anemo-fungus",
+    "floating-dendro-fungus",
+    "whirling-pyro-fungus",
+    "whirling-electro-fungus",
+    "whirling-cryo-fungus",
+    "stretchy-pyro-fungus",
+    "stretchy-anemo-fungus",
+    "stretchy-geo-fungus",
+    "grounded-hydroshroom",
+    "winged-dendroshroom",
+    "winged-cryoshroom",
+    "grounded-geoshroom"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "wandering-evenstar",
+      "kings-squire",
+      "end-of-the-line",
+      "tulaytullahs-remembrance",
+      "hunters-path"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/robust-fungal-nucleus/icon.png"
+}

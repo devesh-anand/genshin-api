@@ -1,0 +1,19 @@
+{
+  "id": 114073,
+  "name": "Artful Device Fragment",
+  "description": "Weapon Ascension Material.\nAn intricate device once known as the \"Seven Tools of the Great Thief.\" Rumors claim it was created by the legendary thief, Reed Miller.\nJust as the first Treasure Hoarders came from all walks of life, this combination of tools meant for different purposes was designed to break down artificial boundaries, regardless of whether they were chains or borders.\nIt should be noted that there are more than seven tools, its just that people are accustomed to using seven to describe anything numerous. Perhaps it is for the same reason that the world is believed to have only seven forms of order.",
+  "rarity": 2,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "serenitys-call",
+      "blackmarrow-lantern",
+      "dawning-frost",
+      "nightweavers-looking-glass",
+      "angelos-heptades"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/artful-device-fragment/icon.png"
+}

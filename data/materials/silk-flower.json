@@ -1,0 +1,16 @@
+{
+  "id": 100029,
+  "name": "Silk Flower",
+  "description": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xingqiu",
+      "hu-tao"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silk-flower/icon.png"
+}

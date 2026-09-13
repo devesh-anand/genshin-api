@@ -1,0 +1,18 @@
+{
+  "id": 114088,
+  "name": "Triumph of the Pale Star Army",
+  "description": "Weapon Ascension Material.\n\"All hail the Tsar, Protector of all fae, Heir to the Pale Star, sovereign born of sacred blood!\"\n\"Praise be, for the entire tundra now stands as one beneath the brilliance of the Polestar!\"\n\"Praise be, for His Majesty has slain the false king and embraced all fae. Such is his benevolence, such is his mercy!\"",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "emberwell",
+      "blade-of-atonement",
+      "echoes-of-the-heart",
+      "covenant-of-frost-and-snow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/triumph-of-the-pale-star-army/icon.png"
+}

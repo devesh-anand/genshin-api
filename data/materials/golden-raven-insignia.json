@@ -1,0 +1,55 @@
+{
+  "id": 112037,
+  "name": "Golden Raven Insignia",
+  "description": "A raven insignia that symbolizes the pride and the guiding principle of the Treasure Hoarders. Whether it's hidden amidst the vastness of the land or in the depths of the seas, as long as there are treasures to be hunted down, the spirit of Treasure Hoarders, who will stop at nothing to acquire them, will never die.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "treasure-hoarders-scout",
+    "treasure-hoarders-pyro-potioneer",
+    "treasure-hoarders-hydro-potioneer",
+    "treasure-hoarders-electro-potioneer",
+    "treasure-hoarders-cryo-potioneer",
+    "treasure-hoarders-handyman",
+    "treasure-hoarders-marksman",
+    "treasure-hoarders-gravedigger",
+    "treasure-hoarders-seaman",
+    "treasure-hoarders-pugilist",
+    "treasure-hoarders-crusher"
+  ],
+  "used_by": {
+    "characters": [
+      "kaeya",
+      "beidou",
+      "bennett",
+      "xinyan",
+      "kaedehara-kazuha",
+      "yanfei",
+      "thoma",
+      "shikanoin-heizou",
+      "prune"
+    ],
+    "weapons": [
+      "fillet-blade",
+      "skyrider-greatsword",
+      "emerald-orb",
+      "messenger",
+      "lions-roar",
+      "sword-of-descension",
+      "whiteblind",
+      "makhaira-aquamarine",
+      "crescent-pike",
+      "kitain-cross-spear",
+      "sacrificial-fragments",
+      "wine-and-song",
+      "ballad-of-the-boundless-blue",
+      "prototype-crescent",
+      "mitternachts-waltz",
+      "primordial-jade-cutter",
+      "the-unforged",
+      "vortex-vanquisher",
+      "the-daybreak-chronicles"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/golden-raven-insignia/icon.png"
+}

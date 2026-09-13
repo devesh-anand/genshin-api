@@ -1,0 +1,21 @@
+{
+  "id": 112099,
+  "name": "Splintered Hilt",
+  "description": "A stone hilt obtained from an ancient statue.\nThe chips and grooves speak to the brutal battles its owner once weathered.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "praetorian-golem"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "flute-of-ezpitzal",
+      "forged-by-the-golden-melody",
+      "cloudforged",
+      "crimson-moons-semblance",
+      "lumidouce-elegy"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/splintered-hilt/icon.png"
+}

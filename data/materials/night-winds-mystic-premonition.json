@@ -1,0 +1,22 @@
+{
+  "id": 114070,
+  "name": "Night-Wind's Mystic Premonition",
+  "description": "Weapon Ascension Material.\nAncient psychics believed that the Wayob, as formless entities of consciousness, were beings stripped of externality and thus the closest thing to the essence of the spirit.\nThe process of polishing rough stones until all texture had been removed, turning them into mirrors of pure light, was also seen as a ritual for removing the surface representations of worldly phenomena. Perhaps the reflections that these psychics saw upon the smooth surface of the mirrors were projections of their own spirits...",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "fruitful-hook",
+      "ash-graven-drinking-horn",
+      "chain-breaker",
+      "flower-wreathed-feathers",
+      "rainbow-serpents-rain-bow",
+      "peak-patrol-song",
+      "azurelight",
+      "astral-vultures-crimson-plumage"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/night-winds-mystic-premonition/icon.png"
+}

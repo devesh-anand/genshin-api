@@ -1,0 +1,15 @@
+{
+  "id": 23020101,
+  "name": "Fatui Pyro Agent",
+  "description": "A Fatui secret agent.\nThe duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature.\nThey also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath.",
+  "type": "Fatui",
+  "drops": [
+    "hunters-sacrificial-knife",
+    "agents-sacrificial-knife",
+    "inspectors-sacrificial-knife",
+    "recruits-insignia",
+    "sergeants-insignia",
+    "lieutenants-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fatui-pyro-agent/icon.png"
+}

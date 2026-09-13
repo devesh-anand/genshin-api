@@ -1,0 +1,20 @@
+{
+  "id": 112097,
+  "name": "Chasmlight Fin",
+  "description": "An elegant fin taken from a defeated Xuanwen Beast's back.\nThe faint light it reflects contains traces of adeptal energy. In the still of the night, even the most violent beasts briefly sink into a peaceful slumber, reminiscing on times when dreams belonged not only to humans.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "xuanwen-beast"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dialogues-of-the-desert-sages",
+      "chain-breaker",
+      "cranes-echoing-call",
+      "silvershower-heartstrings"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chasmlight-fin/icon.png"
+}

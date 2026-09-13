@@ -1,0 +1,12 @@
+{
+  "id": 25501401,
+  "name": "Spiritspeaker Warrior: Determinator",
+  "description": "A warrior from the Night-Wind, and a tribal guardian that patrols the misty canyons.\nTo a certain degree, they can draw upon the power of their body paint to wield their weapons with their willpower.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/spiritspeaker-warrior-determinator/icon.png"
+}

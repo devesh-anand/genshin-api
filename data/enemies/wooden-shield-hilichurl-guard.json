@@ -1,0 +1,12 @@
+{
+  "id": 21010301,
+  "name": "Wooden Shield Hilichurl Guard",
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurl warriors who have wooden shields. These shields are not only sturdy defensive tools but also treasured items within the tribe. According to many reports, hilichurls will often charge at travelers making camp to cook and will snatch their pot lids after chasing them away.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/wooden-shield-hilichurl-guard/icon.png"
+}

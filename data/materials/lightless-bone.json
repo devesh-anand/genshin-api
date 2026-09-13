@@ -1,0 +1,23 @@
+{
+  "id": 112131,
+  "name": "Lightless Bone",
+  "description": "A dull piece of bone taken from the exterior of a glowing beast.\nIt is a fragment from the exoskeleton of a monster infused with the ancient power of the moon. Along with the vanished light, it has also lost the secrets once hidden within.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "radiant-antelope",
+    "radiant-bladehorn",
+    "radiant-lunapod"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "moonweavers-dawn",
+      "master-key",
+      "etherlight-spindlelute",
+      "disaster-and-remorse",
+      "reliquary-of-truth"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/lightless-bone/icon.png"
+}

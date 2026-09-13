@@ -1,0 +1,12 @@
+{
+  "id": 26050601,
+  "name": "Primordial Bathysmal Vishap",
+  "description": "A vishap that dwells deep beneath the oceans.\nThey were once the dominant race in the depths — and indeed, dragons were the overlords of the whole world in an even earlier age. But their former Seven Sovereigns were defeated by a power from the heavens, withering one by one.",
+  "type": "Beast",
+  "drops": [
+    "fragile-bone-shard",
+    "sturdy-bone-shard",
+    "fossilized-bone-shard"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/primordial-bathysmal-vishap/icon.png"
+}

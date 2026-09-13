@@ -1,0 +1,29 @@
+{
+  "id": 29010101,
+  "name": "Stormterror",
+  "description": "One of The Four Winds of Mondstadt: Dvalin, the Dragon of the East.\nWith the passage of long years and amid boundless darkness, even the purest gem will become dulled by dust, and even the noble dragon might be corrupted and cankered by hatred.\nBut never forget that dust can be wiped away, and the power of doubt and poison can be shattered.\n\n<i>\"Fly freely in the sky.</i>\n<i>\"Just like you did in those days when we met, when I walked upon this land and sang the songs of the wind,</i>\n<i>\"And you soared on high, looking down on the world from above.</i>\n<i>\"Today, the sky is no longer swept by wind and snow. The green grass grows all over the earth, and it is beautiful.</i>\n<i>\"If you too could walk the earth and listen to the songs of shepherds and the scattered sound of wind chimes in the distance, if you could have tasted wine as sweet as honey, you would understand.</i>\n<i>\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.</i>\n<i>\"Then you would know that this sky and this earth are both things worth fighting for.\"</i>",
+  "type": "Boss",
+  "drops": [
+    "northlander-sword-billet",
+    "northlander-bow-billet",
+    "northlander-claymore-billet",
+    "northlander-catalyst-billet",
+    "northlander-polearm-billet",
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "dvalins-plume",
+    "dvalins-claw",
+    "dvalins-sigh"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/stormterror/icon.png"
+}

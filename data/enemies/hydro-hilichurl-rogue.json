@@ -1,0 +1,12 @@
+{
+  "id": 21040201,
+  "name": "Hydro Hilichurl Rogue",
+  "description": "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.\nThey may also lend their aid to other hilichurls or hilichurl tribes for various reasons and go their separate ways afterward. They seem to possess a higher level of intelligence than commonplace hilichurls.",
+  "type": "Hilichurl",
+  "drops": [
+    "a-flower-yet-to-bloom",
+    "treasured-flower",
+    "wanderers-blooming-flower"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-hilichurl-rogue/icon.png"
+}

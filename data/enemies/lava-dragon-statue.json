@@ -1,0 +1,14 @@
+{
+  "id": 26270301,
+  "name": "Lava Dragon Statue",
+  "description": "A monster that can continuously generate heat to sustain its activities.\nLegends say these monsters with lava at their cores are the products of a distinct line of research to the Source Mechanisms that followed them — research into whether the primal flame could be used to create a new race based on humans. This research undoubtedly failed, for once the reaver arrived with their throne from beyond the skies, all that the primal flame could birth were hollow shells whose nominal lifeforce granted them no more consciousness than a stone.",
+  "type": "Beast",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "sparkless-statue-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/lava-dragon-statue/icon.png"
+}

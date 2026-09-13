@@ -1,0 +1,19 @@
+{
+  "id": 113041,
+  "name": "Puppet Strings",
+  "description": "Tubes that were inserted into the mechanical puppet's back. The colors that flow within them are sometimes dull, and at others, vibrant. The contrast is so great as to be fearful.\nThey provided power to the mechanical puppet, and at the same time served as its strings, controlling it and binding it.\nOnce the support of these tubes is lost, the puppet becomes as weak as a newborn infant, barely able to even move.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "shouki-no-kami-the-prodigal"
+  ],
+  "used_by": {
+    "characters": [
+      "nahida",
+      "faruzan",
+      "dehya"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/puppet-strings/icon.png"
+}

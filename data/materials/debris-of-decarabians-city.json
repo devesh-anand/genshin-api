@@ -1,0 +1,38 @@
+{
+  "id": 114002,
+  "name": "Debris of Decarabian's City",
+  "description": "Weapon Ascension Material.\nDecarabian, the God of Storms, was content with the capital city he had raised, and accepted the worship of the people from atop his tower. But he knew not that the people did not bow to him out of respect or adoration.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dull-blade",
+      "apprentices-notes",
+      "silver-sword",
+      "pocket-grimoire",
+      "cool-steel",
+      "ferrous-shadow",
+      "magic-guide",
+      "raven-bow",
+      "favonius-sword",
+      "royal-longsword",
+      "the-alley-flash",
+      "cinnabar-spindle",
+      "wolf-fang",
+      "the-bell",
+      "snow-tombed-starsilver",
+      "favonius-codex",
+      "royal-grimoire",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "mitternachts-waltz",
+      "aquila-favonia",
+      "athame-artis",
+      "song-of-broken-pines",
+      "disaster-and-remorse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/debris-of-decarabians-city/icon.png"
+}

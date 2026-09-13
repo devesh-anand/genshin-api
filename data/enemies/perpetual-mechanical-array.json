@@ -1,0 +1,18 @@
+{
+  "id": 24021101,
+  "name": "Perpetual Mechanical Array",
+  "description": "A strange, alien machine.\nThey say that it is a war machine left behind by a nation that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks.\nThis machine, comprised of cubic shapes, is on some level very much like the elemental hypostases.",
+  "type": "Automatron",
+  "drops": [
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "prithiva-topaz-sliver",
+    "prithiva-topaz-fragment",
+    "prithiva-topaz-chunk",
+    "prithiva-topaz-gemstone",
+    "perpetual-heart"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/perpetual-mechanical-array/icon.png"
+}

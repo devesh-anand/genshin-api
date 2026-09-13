@@ -1,0 +1,14 @@
+{
+  "id": 20040401,
+  "name": "Hydro Hypostasis",
+  "description": "Code Name: He. A high-purity Hydro entity.\nHypostases have strong rejection properties, and will mercilessly expel any that test them.\nIts rejection behavior even extends to natural elements.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "dew-of-repudiation"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-hypostasis/icon.png"
+}

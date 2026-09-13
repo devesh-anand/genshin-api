@@ -1,0 +1,12 @@
+{
+  "id": 26300201,
+  "name": "Radiant Bladehorn",
+  "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nIt is said that in the ancient past, when these borderlands were still shrouded by the pitch-dark shadow, only the charging of the giant rhinos could return the power that makes all things turn... And this was all that was asked of them in return for the moonlight shining down its blessings.",
+  "type": "Beast",
+  "drops": [
+    "lightless-bone",
+    "glowing-remains",
+    "radiant-exoskeleton"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/radiant-bladehorn/icon.png"
+}

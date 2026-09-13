@@ -1,0 +1,21 @@
+{
+  "id": 29091001,
+  "name": "The Knave",
+  "description": "The Knave, Fourth of the Fatui Harbingers.",
+  "type": "Boss",
+  "drops": [
+    "midlander-sword-billet",
+    "midlander-bow-billet",
+    "midlander-claymore-billet",
+    "midlander-catalyst-billet",
+    "midlander-polearm-billet",
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "fading-candle",
+    "silken-feather",
+    "denial-and-judgment"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/the-knave/icon.png"
+}

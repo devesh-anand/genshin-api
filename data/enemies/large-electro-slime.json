@@ -1,0 +1,12 @@
+{
+  "id": 20010601,
+  "name": "Large Electro Slime",
+  "description": "A monster created by the coalescing of Electro dispersed throughout nature.\nDue to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time. At present, some have attempted to harness this energy to aid in production activities. Perhaps some new science will be born from this...?",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-electro-slime/icon.png"
+}

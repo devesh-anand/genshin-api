@@ -1,0 +1,12 @@
+{
+  "id": 26154201,
+  "name": "Hat Jellyfish",
+  "description": "An aquatic creature that hunts by firing watery projectiles.\nAlthough it looks like a hat, it actually eats from its underside, so attempting to wear it is strongly disadvised. In the words of someone who once did this: \"That wasn't very clever, was it?\"",
+  "type": "Beast",
+  "drops": [
+    "transoceanic-pearl",
+    "transoceanic-chunk",
+    "xenochromatic-crystal"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hat-jellyfish/icon.png"
+}

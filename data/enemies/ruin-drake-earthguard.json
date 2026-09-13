@@ -1,0 +1,12 @@
+{
+  "id": 24030201,
+  "name": "Ruin Drake: Earthguard",
+  "description": "A horrifying dragon-shaped machine.\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\nFrom this ability, one can glimpse the scale of the ambition that the civilization that made these machines must have once held...",
+  "type": "Automatron",
+  "drops": [
+    "chaos-storage",
+    "chaos-module",
+    "chaos-bolt"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ruin-drake-earthguard/icon.png"
+}

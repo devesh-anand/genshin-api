@@ -1,0 +1,14 @@
+{
+  "id": 20040301,
+  "name": "Geo Hypostasis",
+  "description": "Code name: Gimel. A high-purity Geo entity.\nElemental hypostases are ultra-compact structures with a high mass.\nConcentrated elemental energy forms a solid shell around the core of the hypostasis, leaving only the core reactive to elemental stimuli.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "prithiva-topaz-sliver",
+    "prithiva-topaz-fragment",
+    "prithiva-topaz-chunk",
+    "prithiva-topaz-gemstone",
+    "basalt-pillar"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/geo-hypostasis/icon.png"
+}

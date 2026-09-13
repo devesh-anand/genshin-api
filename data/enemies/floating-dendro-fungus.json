@@ -1,0 +1,15 @@
+{
+  "id": 26090201,
+  "name": "Floating Dendro Fungus",
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nA researcher once said that these are some species of Dendro Specter. After this view was criticized, he changed his tack, claiming that this was just a literary turn of phrase.",
+  "type": "Beast",
+  "drops": [
+    "fungal-spores",
+    "luminescent-pollen",
+    "crystalline-cyst-dust",
+    "inactivated-fungal-nucleus",
+    "dormant-fungal-nucleus",
+    "robust-fungal-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/floating-dendro-fungus/icon.png"
+}

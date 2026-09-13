@@ -1,0 +1,44 @@
+{
+  "id": 112015,
+  "name": "Black Bronze Horn",
+  "description": "A metallic monster horn that can only be obtained from especially strong hilichurls, since blowing on the horn takes real strength.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "wooden-shieldwall-mitachurl",
+    "rock-shieldwall-mitachurl",
+    "ice-shieldwall-mitachurl",
+    "blazing-axe-mitachurl",
+    "frostarm-lawachurl",
+    "stonehide-lawachurl"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dull-blade",
+      "apprentices-notes",
+      "silver-sword",
+      "pocket-grimoire",
+      "cool-steel",
+      "ferrous-shadow",
+      "magic-guide",
+      "raven-bow",
+      "favonius-sword",
+      "royal-longsword",
+      "festering-desire",
+      "the-alley-flash",
+      "the-bell",
+      "snow-tombed-starsilver",
+      "favonius-codex",
+      "royal-grimoire",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "mitternachts-waltz",
+      "aquila-favonia",
+      "song-of-broken-pines",
+      "elegy-for-the-end",
+      "the-daybreak-chronicles"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/black-bronze-horn/icon.png"
+}

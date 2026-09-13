@@ -1,0 +1,12 @@
+{
+  "id": 24068301,
+  "name": "Underwater Survey Mek",
+  "description": "A clockwork meka designed for underwater surveying.\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
+  "type": "Automatron",
+  "drops": [
+    "meshing-gear",
+    "mechanical-spur-gear",
+    "artificed-dynamic-gear"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/underwater-survey-mek/icon.png"
+}

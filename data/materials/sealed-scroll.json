@@ -1,0 +1,53 @@
+{
+  "id": 112009,
+  "name": "Sealed Scroll",
+  "description": "An old scroll lacking in detail and clarity. By following the images on it, some magical creatures can recreate a small part of its magic.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "hydro-samachurl",
+    "anemo-samachurl",
+    "electro-samachurl",
+    "dendro-samachurl",
+    "cryo-samachurl",
+    "geo-samachurl"
+  ],
+  "used_by": {
+    "characters": [
+      "barbara",
+      "klee",
+      "qiqi",
+      "albedo",
+      "yoimiya",
+      "cyno",
+      "layla",
+      "xianyun",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "beginners-protector",
+      "iron-point",
+      "travelers-handy-sword",
+      "thrilling-tales-of-dragon-slayers",
+      "recurve-bow",
+      "sacrificial-sword",
+      "the-alley-flash",
+      "rainslasher",
+      "dragons-bane",
+      "favonius-codex",
+      "blackcliff-agate",
+      "hakushin-ring",
+      "sacrificial-jade",
+      "royal-bow",
+      "fading-twilight",
+      "freedom-sworn",
+      "wolfs-gravestone",
+      "skyward-spine",
+      "cranes-echoing-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sealed-scroll/icon.png"
+}

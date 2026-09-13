@@ -1,0 +1,19 @@
+{
+  "id": 113018,
+  "name": "Bloodjade Branch",
+  "description": "Nurtured by the might of the dragon king, these bone branches glitter with strange, unique colors.\nHatred coursed through the natural streams and kissed the cold moonlight, and from them were these crystalline branches born and grown...\nEven though they were severed in battle, these branches steeped in dragon blood rustle as if eternally ill-at-ease.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "azhdaha"
+  ],
+  "used_by": {
+    "characters": [
+      "kamisato-ayaka",
+      "yanfei",
+      "dori"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/bloodjade-branch/icon.png"
+}

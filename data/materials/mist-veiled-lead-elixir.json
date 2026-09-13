@@ -1,0 +1,32 @@
+{
+  "id": 114017,
+  "name": "Mist Veiled Lead Elixir",
+  "description": "Weapon Ascension Material.\nJueyun Karst is the realm of the mighty and illuminated adepti. But other than the ability to control the elements of the world, Jueyun Karst is also home to three other untold secrets: Alchemy, Sigils, and Sub-Space Creation.",
+  "rarity": 2,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "fillet-blade",
+      "debate-club",
+      "halberd",
+      "twin-nephrite",
+      "messenger",
+      "prototype-rancour",
+      "rainslasher",
+      "blackcliff-slasher",
+      "dragons-bane",
+      "blackcliff-pole",
+      "royal-spear",
+      "prototype-amber",
+      "eye-of-perception",
+      "prototype-crescent",
+      "primordial-jade-cutter",
+      "the-unforged",
+      "calamity-queller",
+      "cranes-echoing-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mist-veiled-lead-elixir/icon.png"
+}

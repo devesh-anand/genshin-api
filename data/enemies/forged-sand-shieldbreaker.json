@@ -1,0 +1,12 @@
+{
+  "id": 25504101,
+  "name": "Forged Sand Shieldbreaker",
+  "description": "A valiant warrior of the canyon, and a tribal guardian that patrols the crystal mountains and rivers.\nTribal warriors wielding massive warhammers with both hands, they are the vanguard that is the first to breach the enemy's defensive lines. For the Children of Echoes, who delight in gemstones and all manner of crafted ornaments, hammers are often the first tool to be touched by the tribe's warriors as children.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/forged-sand-shieldbreaker/icon.png"
+}

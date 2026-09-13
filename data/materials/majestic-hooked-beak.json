@@ -1,0 +1,18 @@
+{
+  "id": 113036,
+  "name": "Majestic Hooked Beak",
+  "description": "An elongated bill that you found after defeating the Jadeplume Terrorshroom.\nResearchers still consider it a miracle even now that some soft Fungi have evolved these rock-hard hooked beaks. This magnificent king amongst Fungi has been leisurely pacing on the finish line of evolution. Now and then, it emits a long call to all the living beings in the rainforest: Even the most helpless and timid creature may one day become the monarch of the woods.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "jadeplume-terrorshroom"
+  ],
+  "used_by": {
+    "characters": [
+      "collei",
+      "tighnari"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/majestic-hooked-beak/icon.png"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 112024,
+  "name": "Chaos Circuit",
+  "description": "Comes from ancient defunct relic structures. Was once a logic circuit responsible for movement functions. Sadly, no one is able to make sense of how it worked.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "ruin-guard",
+    "ruin-hunter",
+    "ruin-grader"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "beginners-protector",
+      "iron-point",
+      "travelers-handy-sword",
+      "white-iron-greatsword",
+      "otherworldly-story",
+      "recurve-bow",
+      "sacrificial-sword",
+      "cinnabar-spindle",
+      "wolf-fang",
+      "favonius-greatsword",
+      "royal-greatsword",
+      "favonius-lance",
+      "sacrificial-fragments",
+      "frostbearer",
+      "favonius-warbow",
+      "royal-bow",
+      "alley-hunter",
+      "freedom-sworn",
+      "wolfs-gravestone",
+      "skyward-spine",
+      "lost-prayer-to-the-sacred-winds",
+      "amos-bow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chaos-circuit/icon.png"
+}

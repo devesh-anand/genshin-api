@@ -1,0 +1,16 @@
+{
+  "id": 100027,
+  "name": "Jueyun Chili",
+  "description": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xiangling",
+      "yaoyao"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/jueyun-chili/icon.png"
+}

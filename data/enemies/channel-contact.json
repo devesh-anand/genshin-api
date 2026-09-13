@@ -1,0 +1,15 @@
+{
+  "id": 25132801,
+  "name": "Channel Contact",
+  "description": "A cunning Volkodlak that disguises its hand cannon as a tree trunk.\nSkilled at disguising the weapons and cargo they carry, they are often entrusted with transporting goods or relaying intelligence.\nThe hand cannon they carry was likely something they made in their spare time. At times, they also use it to fire signal rounds disguised as fireworks.\nDon't be fooled by their appearance. These fae are far more shrewd and cunning than they seem.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone",
+    "accreted-fragment",
+    "accreted-mass",
+    "accreted-growth"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/channel-contact/icon.png"
+}

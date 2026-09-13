@@ -1,0 +1,32 @@
+{
+  "id": 114015,
+  "name": "Relic from Guyun",
+  "description": "Weapon Ascension Material.\nThe stone spear has a glimmering core formed by the power of the defeated gods. Their hatred is not directed at Morax, however, for they have lost themselves a long time ago and are incapable of holding personal grudges.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dark-iron-sword",
+      "white-tassel",
+      "emerald-orb",
+      "slingshot",
+      "lions-roar",
+      "blackcliff-longsword",
+      "whiteblind",
+      "lithic-blade",
+      "crescent-pike",
+      "solar-pearl",
+      "blackcliff-agate",
+      "sacrificial-jade",
+      "rust",
+      "blackcliff-warbow",
+      "summit-shaper",
+      "primordial-jade-winged-spear",
+      "jadefalls-splendor",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/relic-from-guyun/icon.png"
+}

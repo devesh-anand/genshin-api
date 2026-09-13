@@ -1,0 +1,12 @@
+{
+  "id": 21011301,
+  "name": "Cryo Hilichurl Grenadier",
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurls have discovered the use of Cryo Slimes in effectively keeping food fresh. Hilichurls have surprising amounts of wisdom in the practical use of Slimes, whether it be the use of Pyro and Cryo Slimes to make Exploding Barrels, or the use of Anemo Slimes in vehicles... Perhaps this is their way of adapting to their hard lot in life.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-hilichurl-grenadier/icon.png"
+}

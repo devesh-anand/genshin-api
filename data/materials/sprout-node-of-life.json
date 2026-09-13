@@ -1,0 +1,21 @@
+{
+  "id": 112156,
+  "name": "Sprout Node of Life",
+  "description": "A branch dropped by a Leshy before it returned to silence.\nA branch bearing a fair number of crystals. It feels heavy in the hand, and traces of vitality can still be felt within it even after it has broken away from the Leshy's body.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "juvenile-tree-segment",
+    "rugged-elder-leshy"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "blade-of-atonement",
+      "song-of-the-vigil",
+      "covenant-of-frost-and-snow",
+      "whitelake-frostfeather"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sprout-node-of-life/icon.png"
+}

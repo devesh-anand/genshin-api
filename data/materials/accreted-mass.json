@@ -1,0 +1,28 @@
+{
+  "id": 112153,
+  "name": "Accreted Mass",
+  "description": "An accretion formed by powerful Volkodlak.\nAn accretion that has clung to an internal organ or bone for a long time. Once removed, such accretions are regarded as symbols of power and carefully preserved by the creature's descendants.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "volkodlak-raider",
+    "volkodlak-sharpshooter",
+    "volkodlak-lobber",
+    "volkodlak-basher",
+    "leomastiff-guard",
+    "long-eared-striker",
+    "channel-contact",
+    "fanged-zealot",
+    "voywolf-hunter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "emberwell",
+      "frostbreath",
+      "echoes-of-the-heart",
+      "exaiphanes-blade"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/accreted-mass/icon.png"
+}

@@ -1,0 +1,25 @@
+{
+  "id": 112089,
+  "name": "Rift Core",
+  "description": "A shard left by Breacher Primus.\nIt bears no resemblance to any other known form of life in the world.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "large-shatterstone-breacher-primus",
+    "shatterstone-breacher-primus",
+    "large-overgrown-breacher-primus",
+    "overgrown-breacher-primus"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "tidal-shadow",
+      "portable-power-saw",
+      "rightful-reward",
+      "flowing-purity",
+      "verdict",
+      "tome-of-the-eternal-flow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/rift-core/icon.png"
+}

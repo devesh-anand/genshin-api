@@ -1,0 +1,40 @@
+{
+  "id": 112022,
+  "name": "Ley Line Sprout",
+  "description": "It is said that there was a great tree whose roots once spread out to every corner of the world, and this branch is said to be part of it. It is almost if it was never broken off and taken far away, for its vitality is such that it still sprouts new leaves even now.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "pyro-abyss-mage",
+    "hydro-abyss-mage",
+    "cryo-abyss-mage",
+    "abyss-herald-wicked-torrents",
+    "abyss-lector-fathomless-flames",
+    "abyss-lector-violet-lightning"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "harbinger-of-dawn",
+      "bloodtainted-greatsword",
+      "thrilling-tales-of-dragon-slayers",
+      "sharpshooters-oath",
+      "the-flute",
+      "the-black-sword",
+      "sword-of-descension",
+      "sacrificial-greatsword",
+      "deathmatch",
+      "the-widsith",
+      "wine-and-song",
+      "dodoco-tales",
+      "sacrificial-bow",
+      "windblume-ode",
+      "skyward-blade",
+      "skyward-pride",
+      "staff-of-homa",
+      "skyward-atlas",
+      "skyward-harp"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ley-line-sprout/icon.png"
+}

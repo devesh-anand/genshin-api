@@ -1,0 +1,12 @@
+{
+  "id": 25502101,
+  "name": "Swiftstep Storm Scout",
+  "description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nIt is said that these sword-wielding tribal warriors stand under trees and cut every leaf that falls over the course of a day in order to hone their fighting skills. But just as leaves fall silently, so are the slashes of these swift couriers soundless.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/swiftstep-storm-scout/icon.png"
+}

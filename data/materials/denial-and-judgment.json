@@ -1,0 +1,19 @@
+{
+  "id": 113062,
+  "name": "Denial and Judgment",
+  "description": "An earring that you picked up in the ruins after completing the duel against The Knave.\nThe red symbol upon it resembles the image in her eyes, a declaration and a rejection alike.\nThe orphaned live lives filled with suffering from childhood — this she sees and keeps in her heart.\nAs fate casts an examining eye on humanity, so too will humans cast judgment upon fate.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "the-knave"
+  ],
+  "used_by": {
+    "characters": [
+      "kinich",
+      "citlali",
+      "iansan"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/denial-and-judgment/icon.png"
+}

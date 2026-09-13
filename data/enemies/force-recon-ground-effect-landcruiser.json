@@ -1,0 +1,12 @@
+{
+  "id": 23080501,
+  "name": "Force Recon Ground Effect Landcruiser",
+  "description": "An autonomous machine that applies the principles of naval combat to land battles, a literal \"armed ship that cruises on land.\"\nThe ground effect Landcruiser is able to \"fly\" a certain distance above ground by maintaining lift and generating pressure differentials through firing high-speed jet sprays at the surface, allowing it to more economically achieve combat cruising speed, avoid mines and traps, and perform highly effective assaults. However, costs and limits on operation time mean that mass-produced models carry limited payloads. As such, they are currently limited to Force Recon roles...",
+  "type": "Fatui",
+  "drops": [
+    "broken-drive-shaft",
+    "reinforced-drive-shaft",
+    "precision-drive-shaft"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/force-recon-ground-effect-landcruiser/icon.png"
+}

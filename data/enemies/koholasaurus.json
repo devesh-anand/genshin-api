@@ -1,0 +1,12 @@
+{
+  "id": 26210201,
+  "name": "Koholasaurus",
+  "description": "A Saurian with thick, strong flippers and a long tail that can swim in water and liquid phlogiston.\nAccording to legend, more ancient dragons were even more able to adapt to their environments, and when the largest dragon in the ocean of the age floated on the surface, it could even be mistaken for an island. It is said that today's Koholasaurus are the descendants of that great sea dragon, and in their broad backs the colossal forms of those ancient sea beasts may yet be glimpsed.",
+  "type": "Beast",
+  "drops": [
+    "juvenile-fang",
+    "seasoned-fang",
+    "tyrants-fang"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/koholasaurus/icon.png"
+}

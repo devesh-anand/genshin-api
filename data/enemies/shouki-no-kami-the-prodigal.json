@@ -1,0 +1,29 @@
+{
+  "id": 29070101,
+  "name": "Shouki no Kami, the Prodigal",
+  "description": "Shouki no Kami, as an artificial divinity created using all the might of Sumeru's Six Darshans, has power that rivals that of true gods.\nBut those of this world who call such a being a \"false deity\" misunderstand the true meaning of the word.\nShouki no Kami now understands countless things and shoulders unassailable might, and may be said to surpass mortals.\nIf gods must love mortals,\nthen Shouki no Kami, who grants failure in equal measure to humanity, loves them also.\nIf gods must watch over humanity,\n...\n...\nthen Shouki no Kami, who has borne witness to infinite love, hatred, partings, grudges, and maddening anger — thus does he watch over mortals.\n\n<i>\"Too much happiness you have had!\"</i>\n<i>\"It has made you foolish. Arrogant. Horrifying in your greed.\"</i>\n<i>\"Let this era end!\"</i>\n<i>\"Let the new god announce the defeat of the old.\"</i>\n<i>\"Foolish mortal... There is yet time for you to kneel.\"</i>",
+  "type": "Boss",
+  "drops": [
+    "midlander-sword-billet",
+    "midlander-bow-billet",
+    "midlander-claymore-billet",
+    "midlander-catalyst-billet",
+    "midlander-polearm-billet",
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "puppet-strings",
+    "mirror-of-mushin",
+    "dakas-bell"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/shouki-no-kami-the-prodigal/icon.png"
+}

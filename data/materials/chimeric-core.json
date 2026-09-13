@@ -1,0 +1,27 @@
+{
+  "id": 112149,
+  "name": "Chimeric Core",
+  "description": "The internal core harvested from aberrant man-made monsters.\nThis is the most fundamental core grown within a man-made monster. Yet, simple as it may be, it contains the primordial design for the growth of all man-made creations.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "chimeric-armored-beast",
+    "chimeric-burrowbeast",
+    "chimeric-winged-elephant",
+    "chimeric-horned-bear"
+  ],
+  "used_by": {
+    "characters": [
+      "alyosha",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "blade-of-atonement",
+      "frostbreath",
+      "covenant-of-frost-and-snow",
+      "whitelake-frostfeather"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chimeric-core/icon.png"
+}

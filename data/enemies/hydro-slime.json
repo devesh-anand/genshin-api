@@ -1,0 +1,12 @@
+{
+  "id": 20011001,
+  "name": "Hydro Slime",
+  "description": "A small monster created by the sedimentation of Hydro dispersed throughout nature.\nLegend has it that some people would use Hydro Slimes as an emergency water source, packing them in preparation for travels through dry regions or deep domains. But due to the high concentration of Hydro within these slimes, direct ingestion is, in fact, harmful to the human body.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-slime/icon.png"
+}

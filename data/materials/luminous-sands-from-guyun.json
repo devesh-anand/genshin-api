@@ -1,0 +1,32 @@
+{
+  "id": 114013,
+  "name": "Luminous Sands from Guyun",
+  "description": "Weapon Ascension Material.\nThe stone pillars that tower amid Guyun Stone Forest were once the stone spears Morax used to defeat his enemies. Over time, the gods' substance has seeped into the pillars that pin them down, lending them divine power. The pillars sometimes shed fragments of hatred and curses.",
+  "rarity": 2,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dark-iron-sword",
+      "white-tassel",
+      "emerald-orb",
+      "slingshot",
+      "lions-roar",
+      "blackcliff-longsword",
+      "whiteblind",
+      "lithic-blade",
+      "crescent-pike",
+      "solar-pearl",
+      "blackcliff-agate",
+      "sacrificial-jade",
+      "rust",
+      "blackcliff-warbow",
+      "summit-shaper",
+      "primordial-jade-winged-spear",
+      "jadefalls-splendor",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/luminous-sands-from-guyun/icon.png"
+}

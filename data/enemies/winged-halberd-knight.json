@@ -1,0 +1,12 @@
+{
+  "id": 25130101,
+  "name": "Winged Halberd-Knight",
+  "description": "A winged Vila capable of flight.\nRecords show that in the century after the Tsaritsa ascended the throne, the Vila went through many turbulent periods. Among them were fae who launched small-scale rebellions out of dissatisfaction with the Tsaritsa's policies toward the fae nobility.\nThe rebellions were soon suppressed, but the fact that their leaders were descendants of the old Vila nobility once led to a major split within the Vila people.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/winged-halberd-knight/icon.png"
+}

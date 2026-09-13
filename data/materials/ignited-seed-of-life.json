@@ -1,0 +1,22 @@
+{
+  "id": 112111,
+  "name": "Ignited Seed of Life",
+  "description": "A condensed pile of burning matter obtained from the body of a defeated Avatar of Lava.\nIt emits a slight heat.\nAttempting to stop a stone pile of this size from incessantly burning away would be a hard task indeed. It is said that this is some primordial form of life.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "eroding-avatar-of-lava",
+    "fluid-avatar-of-lava"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "earth-shaker",
+      "mountain-bracing-bolt",
+      "flower-wreathed-feathers",
+      "fang-of-the-mountain-king",
+      "sunny-morning-sleep-in"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ignited-seed-of-life/icon.png"
+}

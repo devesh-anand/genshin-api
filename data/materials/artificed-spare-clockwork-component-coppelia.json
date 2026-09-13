@@ -1,0 +1,18 @@
+{
+  "id": 113049,
+  "name": "Artificed Spare Clockwork Component — Coppelia",
+  "description": "An artificed spare clockwork component belonging to Coppelia. It powers this artificed dancer.\nAccording to its creator's design, the story of the artificed dancer with delicate joints ends at a merry moment. Coppelia will send whoever attempts to disturb that moment to a chapter of misfortune with her superb combat skills.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "icewind-suite"
+  ],
+  "used_by": {
+    "characters": [
+      "lynette",
+      "chiori"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/artificed-spare-clockwork-component-coppelia/icon.png"
+}

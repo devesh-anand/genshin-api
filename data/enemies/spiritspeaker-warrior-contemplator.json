@@ -1,0 +1,12 @@
+{
+  "id": 25503201,
+  "name": "Spiritspeaker Warrior: Contemplator",
+  "description": "A warrior from the Night-Wind, and a tribal guardian that patrols the misty canyons.\nOnly sentries whose strength has been tested are permitted to daub themselves with such body paint, infused as it is with mysterious powers. This also signifies that these warriors have reached a new phase in their mental training.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/spiritspeaker-warrior-contemplator/icon.png"
+}

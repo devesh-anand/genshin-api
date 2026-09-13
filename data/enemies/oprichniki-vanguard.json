@@ -1,0 +1,12 @@
+{
+  "id": 23074101,
+  "name": "Oprichniki Vanguard",
+  "description": "A soldier of the Fatui Oprichniki, equipped with engineering tools and highly adept in close-range combat.\nTo meet the demands of battlefield operations, the Fatui Oprichniki established vanguard units, tasked with clearing the path of obstacles for advancing forces. As for exactly what counts as an obstacle, that hardly matters. Be it an impassable ravine or a formidable foe standing in their way, they will remove it without hesitation — whatever it takes to ensure the banner of the Pale Star marches on.",
+  "type": "Fatui",
+  "drops": [
+    "tattered-warrant",
+    "immaculate-warrant",
+    "frost-etched-warrant"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/oprichniki-vanguard/icon.png"
+}

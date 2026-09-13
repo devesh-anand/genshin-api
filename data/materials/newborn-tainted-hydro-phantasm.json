@@ -1,0 +1,24 @@
+{
+  "id": 112088,
+  "name": "Newborn Tainted Hydro Phantasm",
+  "description": "A new life form that arose from the dispersed Tainted Hydro Phantasm. It is trapped inside a bottle.\nThe life contained within the waters is formless, and formless life is born of water and gains water's shape.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "tainted-water-splitting-phantasm",
+    "tainted-water-spouting-phantasm"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "finale-of-the-deep",
+      "fleuve-cendre-ferryman",
+      "song-of-stillness",
+      "range-gauge",
+      "splendor-of-tranquil-waters",
+      "symphonist-of-scents",
+      "the-first-great-magic"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/newborn-tainted-hydro-phantasm/icon.png"
+}

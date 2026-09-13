@@ -1,0 +1,15 @@
+{
+  "id": 21020301,
+  "name": "Rock Shieldwall Mitachurl",
+  "description": "A muscular hilichurl that uses a rock as a shield.\nFighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger.\nAll young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, fight more battles, and wield those (almost) impregnable giant rock shields.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask",
+    "heavy-horn",
+    "black-bronze-horn",
+    "black-crystal-horn"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/rock-shieldwall-mitachurl/icon.png"
+}

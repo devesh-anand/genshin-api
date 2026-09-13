@@ -1,0 +1,16 @@
+{
+  "id": 101269,
+  "name": "Pine Amber",
+  "description": "A gem formed from the resin of the towering ancient trees that once blanketed Nod-Krai. Over ages, the resin hardened into crystalline amber, now shining with vivid, radiant hues.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "illuga",
+      "nicole"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/pine-amber/icon.png"
+}

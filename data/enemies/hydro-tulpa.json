@@ -1,0 +1,14 @@
+{
+  "id": 20051201,
+  "name": "Hydro Tulpa",
+  "description": "A humanoid monster formed from the agglomeration of water.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "water-that-failed-to-transcend"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-tulpa/icon.png"
+}

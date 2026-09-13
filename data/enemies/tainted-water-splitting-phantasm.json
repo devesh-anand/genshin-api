@@ -1,0 +1,12 @@
+{
+  "id": 20051001,
+  "name": "Tainted Water-Splitting Phantasm",
+  "description": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\nThe elemental spirits that appeared after the calamity lack the elegance and beauty of the Oceanids, and thus have been called \"tainted.\" Though the toxins dissolved in the water have long since been diluted and cleansed, unless there are still containers of pure water somewhere, Fontaine's waters will never again naturally birth Oceanids.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "drop-of-tainted-water",
+    "scoop-of-tainted-water",
+    "newborn-tainted-hydro-phantasm"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/tainted-water-splitting-phantasm/icon.png"
+}

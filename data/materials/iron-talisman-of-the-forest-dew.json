@@ -1,0 +1,22 @@
+{
+  "id": 114038,
+  "name": "Iron Talisman of the Forest Dew",
+  "description": "Weapon Ascension Material.\nLater, the Lord of Verdure taught people the mystery of the forging of black iron. The innocent mortals thus grasped the knowledge of using fire to forge blades.\nThe Lord of Verdure took pleasure in their knowledge — Lethal as fire and blades were to her, they made ordinary people powerful.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "sapwood-blade",
+      "xiphos-moonlight",
+      "forest-regalia",
+      "dialogues-of-the-desert-sages",
+      "clash-of-kings",
+      "ibis-piercer",
+      "key-of-khaj-nisut",
+      "light-of-foliar-incision"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/iron-talisman-of-the-forest-dew/icon.png"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 114064,
+  "name": "Blazing Sacrificial Heart's Splendor",
+  "description": "Weapon Ascension Material.\n\"If you wish to possess all that the world has to offer, you must first offer all you have to the world.\"\nAfter the Sacred Lord of the ineffable city forbade the people from praying to the Night Kingdom, the spiritual bonds that had once been established fell into ruin.\nThe scarlet-eyed youth, guided through numerous trials, now faced his final test: to emulate the first human to ascend and confront his own demise by offering up his heart with a golden dagger.\nSelf-sacrifice was seen as an honor reserved for the victor — and thus, without even a moment's hesitation, he sliced open his chest with the gleaming blade.\nIn the end, his sacrifice received the response it deserved, and he was able to return from the kingdom where water flows as rays of light to set out upon a grand new endeavor.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "flute-of-ezpitzal",
+      "sturdy-bone",
+      "heretics-molten-blade",
+      "earth-shaker",
+      "waveriding-whirl",
+      "a-thousand-blazing-suns",
+      "fractured-halo",
+      "surfs-up"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/blazing-sacrificial-hearts-splendor/icon.png"
+}

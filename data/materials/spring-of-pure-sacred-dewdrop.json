@@ -1,0 +1,22 @@
+{
+  "id": 114055,
+  "name": "Spring of Pure Sacred Dewdrop",
+  "description": "Weapon Ascension Material.\nThis is a relic from a time when the Lochknights still roamed — the knights said, there were still loyal spirits in the mountain springs and valleys where none tread, guarding those pure, unpolluted springs...\nHowever, the creator of artificial Ichor couldn't tolerate any discord in his great symphony. It is said that wherever the Harmost Boethius went, the natural nectar was buried, the aqueducts of the empire were built, and the spirits born of pure water vanished without a trace...",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "finale-of-the-deep",
+      "the-dockhands-assistant",
+      "forged-by-the-golden-melody",
+      "flowing-purity",
+      "splendor-of-tranquil-waters",
+      "symphonist-of-scents",
+      "tome-of-the-eternal-flow",
+      "silvershower-heartstrings"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spring-of-pure-sacred-dewdrop/icon.png"
+}

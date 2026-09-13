@@ -1,0 +1,16 @@
+{
+  "id": 101215,
+  "name": "Nilotpala Lotus",
+  "description": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "tighnari",
+      "layla"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/nilotpala-lotus/icon.png"
+}

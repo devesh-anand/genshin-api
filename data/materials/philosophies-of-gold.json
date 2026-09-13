@@ -1,0 +1,24 @@
+{
+  "id": 104318,
+  "name": "Philosophies of Gold",
+  "description": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold is the wealth of Liyue, but Liyue's true wealth is the hearts of its people that shine like gold.",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "beidou",
+      "xingqiu",
+      "zhongli",
+      "xinyan",
+      "yanfei",
+      "baizhu",
+      "xianyun",
+      "zibai",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-gold/icon.png"
+}

@@ -1,0 +1,15 @@
+{
+  "id": 101276,
+  "name": "Flockingweed",
+  "description": "A peculiar plant once suspected to be a hybrid of plant and animal, though it was later proven to be nothing more than an ordinary plant covered in a coat of animal-like fuzz.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "alyosha"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/flockingweed/icon.png"
+}

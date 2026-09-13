@@ -1,0 +1,15 @@
+{
+  "id": 101223,
+  "name": "Mourning Flower",
+  "description": "Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kaveh"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mourning-flower/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 104346,
+  "name": "Philosophies of Order",
+  "description": "Talent Level-Up Material.\nThe shield of the Nation of Water is order.\nAll law in Fontaine ultimately serves to maintain a stable order. Equity and justice come from order, and serve order. Like the still, ripple-less surface of the waters of Fontaine, order is the cornerstone of Fontaine's existence.",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "lynette",
+      "wriothesley",
+      "chevreuse",
+      "arlecchino",
+      "emilie",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-order/icon.png"
+}

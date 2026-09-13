@@ -1,0 +1,18 @@
+{
+  "id": 113072,
+  "name": "Sparkless Statue Core",
+  "description": "A core pulled from the blazing remains of the Lava Dragon Statue. \nIt is said that the entity known as the Lava Dragon Statue is a special existence born from the limitless accumulation of Phlogiston. Originally, it was believed that pure energy would produce a being with human-like intelligence. However, this attempt ultimately failed. Unlike in ancient times, it seems that pure energy can no longer naturally give rise to complex, intelligent, and controllable organisms capable of growth.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "lava-dragon-statue"
+  ],
+  "used_by": {
+    "characters": [
+      "varesa",
+      "ifa"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sparkless-statue-core/icon.png"
+}

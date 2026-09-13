@@ -1,0 +1,18 @@
+{
+  "id": 113022,
+  "name": "Marionette Core",
+  "description": "This core can power the inorganic Maguu Kenki and cause it to wield a blade like a living being.\nFlesh decays, and with it decay all martial arts mastery and all poignant memories.\nPerhaps only by converting one's four limbs and body into sturdy mechanical parts, and by at last sacrificing one's very own heart for a sophisticated mechanical one, can one transcend the impermanence of the fleshly form...",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "maguu-kenki"
+  ],
+  "used_by": {
+    "characters": [
+      "kaedehara-kazuha",
+      "sayu"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/marionette-core/icon.png"
+}

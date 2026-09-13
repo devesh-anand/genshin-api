@@ -1,0 +1,14 @@
+{
+  "id": 20040701,
+  "name": "Dendro Hypostasis",
+  "description": "Code Name: Zayin. A high-purity Dendro entity.\nAccording to the deductions of some researchers, Elemental Hypostases have the knowledge required to \"learn,\" which is how they use \"mimesis\" to initiate attacks. However, the ability to incorporate information to create change also opens one to the risk of information contamination. As this creature learns and changes, the purpose of its birth — no matter how academically unquantifiable it may still be — may yet become so distorted as to be rendered irrelevant.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "nagadus-emerald-sliver",
+    "nagadus-emerald-fragment",
+    "nagadus-emerald-chunk",
+    "nagadus-emerald-gemstone",
+    "quelled-creeper"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/dendro-hypostasis/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 23085101,
+  "name": "Cutting Edge All-Purpose Storm Landcruiser",
+  "description": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\nThe all-purpose storm combat package combines multi-barrel automatic guns with close-quarter rotating blades, allowing this Landcruiser to battle opponents at any range, while heavy howitzers on both arms allow it to obliterate cover and deny defenders the benefit of their fortifications. According to combat doctrine co-authored by the Fatui and the Royal Military Academy, these Landcruisers must be supported by all nearby units when they attack, speedily punching a hole in enemy lines, which will allow for follow-up attacks in depth that will then cause the enemy defenses to collapse completely.",
+  "type": "Fatui",
+  "drops": [
+    "broken-drive-shaft",
+    "reinforced-drive-shaft",
+    "precision-drive-shaft"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cutting-edge-all-purpose-storm-landcruiser/icon.png"
+}

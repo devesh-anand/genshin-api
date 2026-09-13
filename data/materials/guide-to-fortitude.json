@@ -1,0 +1,17 @@
+{
+  "id": 104369,
+  "name": "Guide to Fortitude",
+  "description": "Talent Level-Up Material.\nFortitude is the defining character of the frozen realm.\nIt brings forth the will to grow. Though shattered by the bitter cold, a fragile seed can still harness this will to break through the frozen earth, pushing forth fresh sprouts to life across a landscape blanketed in wind and snow.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "alyosha",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-fortitude/icon.png"
+}

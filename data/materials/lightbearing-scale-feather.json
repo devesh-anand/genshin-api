@@ -1,0 +1,18 @@
+{
+  "id": 113078,
+  "name": "Lightbearing Scale-Feather",
+  "description": "The scaly wings shed by a defeated Radiant Moonfly.\nIn many local folk tales, those who enter the forbidden ground are frequently bewitched by these wings and never seen again. Some say this is because the moon, whose illusory magic these butterfly-shaped monsters have harnessed, is prone to inducing madness, while others take it as a warning of the inconstancy and danger of ancient power...",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "radiant-moonfly"
+  ],
+  "used_by": {
+    "characters": [
+      "lauma",
+      "jahoda"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/lightbearing-scale-feather/icon.png"
+}

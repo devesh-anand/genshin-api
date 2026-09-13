@@ -1,0 +1,12 @@
+{
+  "id": 23010501,
+  "name": "Fatui Skirmisher - Anemoboxer Vanguard",
+  "description": "A skirmisher armed with the ability to manipulate Anemo and heal their comrades.\nThey departed from their motherland and did so for its sake. They left their family, yet gained allies to stick through thick and thin with.\n—Perhaps such thoughts are what get them through the unscrupulous work that their missions entail.",
+  "type": "Fatui",
+  "drops": [
+    "recruits-insignia",
+    "sergeants-insignia",
+    "lieutenants-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fatui-skirmisher-anemoboxer-vanguard/icon.png"
+}

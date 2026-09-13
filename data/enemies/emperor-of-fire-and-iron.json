@@ -1,0 +1,14 @@
+{
+  "id": 26160302,
+  "name": "Emperor of Fire and Iron",
+  "description": "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer, and the subject of many a tale among sailors.\nAn Armored Crab that avoids predation, and can keep hunting and eating, will continue to grow, continually seeking out suitable shells to become its new armor. But eventually, it became simply too gargantuan. Before the first diluvian period, a massive Armored Crab once attacked a ship, and was finally forced back into the depths by Basil Elton, who had not yet been reinstated as a naval commander.\nImagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone. Of course, in such a world, there naturally would be no one to call it, half-jokingly and half in awe, the \"Emperor of Fire and Iron.\"",
+  "type": "Beast",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "emperors-resolution"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/emperor-of-fire-and-iron/icon.png"
+}

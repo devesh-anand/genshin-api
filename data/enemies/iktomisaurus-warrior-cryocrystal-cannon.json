@@ -1,0 +1,12 @@
+{
+  "id": 25511001,
+  "name": "Iktomisaurus Warrior: Cryocrystal Cannon",
+  "description": "A powerful warrior from the Night-Wind, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nWithout exception, it is said that tribal warriors who win the acknowledgment of the Iktomisaurs must possess extraordinarily keen senses and formidable mental strength. They can even use their power to make slight alterations to the trajectory of the projectiles that they fire from their cannons.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/iktomisaurus-warrior-cryocrystal-cannon/icon.png"
+}

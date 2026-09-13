@@ -1,0 +1,18 @@
+{
+  "id": 113081,
+  "name": "Mask of the Virtuous Doctor",
+  "description": "A mask found in the heretical testing grounds after defeating the false god that usurped the moon.\nMedicine is meant to cure the ailments of the flesh, yet mortal physicians turn a blind eye to the true causes of death. In the hands of a wise healer, the frail human body escapes the bounds of birth, aging, sickness, and death, revealing strength that defies common sense.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "the-doctor"
+  ],
+  "used_by": {
+    "characters": [
+      "columbina",
+      "prune"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mask-of-the-virtuous-doctor/icon.png"
+}

@@ -1,0 +1,52 @@
+{
+  "id": 112080,
+  "name": "Transoceanic Pearl",
+  "description": "A small crystal obtained from a defeated Fontemer Aberrant.\nFontemer Aberrants arise from Fontaine's sea. They are believed to be a unique life form born from the mysterious energy in the water.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "blubberbeast",
+    "hunters-ray",
+    "hunters-ray",
+    "armored-crab",
+    "armored-crab",
+    "sternshield-crab",
+    "hat-jellyfish",
+    "hat-jellyfish",
+    "bubbly-seahorse",
+    "bubbly-seahorse",
+    "bubbly-seahorse",
+    "bubbler-seahorse",
+    "ball-octopus",
+    "ball-octopus",
+    "angelic-sea-hare",
+    "angelic-sea-hare",
+    "cherubic-sea-hare"
+  ],
+  "used_by": {
+    "characters": [
+      "freminet",
+      "neuvillette",
+      "navia",
+      "sigewinne",
+      "clorinde",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "fleuve-cendre-ferryman",
+      "the-dockhands-assistant",
+      "sword-of-narzissenkreuz",
+      "flame-forged-insight",
+      "forged-by-the-golden-melody",
+      "flowing-purity",
+      "range-gauge",
+      "splendor-of-tranquil-waters",
+      "symphonist-of-scents",
+      "cashflow-supervision",
+      "the-first-great-magic",
+      "silvershower-heartstrings"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/transoceanic-pearl/icon.png"
+}

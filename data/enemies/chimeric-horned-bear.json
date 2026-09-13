@@ -1,0 +1,12 @@
+{
+  "id": 26310401,
+  "name": "Chimeric Horned Bear",
+  "description": "A product of bio-alchemy, a man-made monster with an exceptionally unusual formation.\nA man-made monster not formed according to its creator's design, but through the spontaneous assembly of life segments. As a result, it came to possess certain wondrous traits, including the ability to freely wield elemental power.\nEven if life is broken down until almost nothing remains but segments, could some will or power still guide them to grow according to a mysterious plan?\nPerhaps no one knows the answer to that by now.",
+  "type": "Beast",
+  "drops": [
+    "chimeric-core",
+    "symbiotic-chimeric-nucleus",
+    "prime-chimeric-nexus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/chimeric-horned-bear/icon.png"
+}

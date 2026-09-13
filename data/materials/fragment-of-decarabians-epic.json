@@ -1,0 +1,38 @@
+{
+  "id": 114003,
+  "name": "Fragment of Decarabian's Epic",
+  "description": "Weapon Ascension Material.\nAndrius once declared war upon Decarabian, but failed to even scratch the capital of the Lord of the Tower. If it were not for the song of freedom that shattered the city in an instant, Decarabian's dream would have gone on forever.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dull-blade",
+      "apprentices-notes",
+      "silver-sword",
+      "pocket-grimoire",
+      "cool-steel",
+      "ferrous-shadow",
+      "magic-guide",
+      "raven-bow",
+      "favonius-sword",
+      "royal-longsword",
+      "the-alley-flash",
+      "cinnabar-spindle",
+      "wolf-fang",
+      "the-bell",
+      "snow-tombed-starsilver",
+      "favonius-codex",
+      "royal-grimoire",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "mitternachts-waltz",
+      "aquila-favonia",
+      "athame-artis",
+      "song-of-broken-pines",
+      "disaster-and-remorse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/fragment-of-decarabians-epic/icon.png"
+}

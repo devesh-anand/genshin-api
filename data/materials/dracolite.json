@@ -1,0 +1,15 @@
+{
+  "id": 101255,
+  "name": "Dracolite",
+  "description": "Formed gradually in areas rich in Phlogiston, these red, scale-like crystals are blazing-hot to the touch.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "iansan"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dracolite/icon.png"
+}

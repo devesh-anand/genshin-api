@@ -1,0 +1,12 @@
+{
+  "id": 23050101,
+  "name": "Mirror Maiden",
+  "description": "A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.\nThe Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, nor what kind of obsession might be reflected in them...",
+  "type": "Fatui",
+  "drops": [
+    "dismal-prism",
+    "crystal-prism",
+    "polarizing-prism"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/mirror-maiden/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 24020201,
+  "name": "Ruin Destroyer",
+  "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine.",
+  "type": "Automatron",
+  "drops": [
+    "chaos-gear",
+    "chaos-axis",
+    "chaos-oculus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ruin-destroyer/icon.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 114089,
+  "name": "Measured Pour of the Cellared Spiritual Nectar",
+  "description": "Weapon Ascension Material.\nThe radiance that once gleamed like the aurora in the northernmost sky was extinguished when it met the gaze from high above.\nThe calamity of bitter cold and black crystal nearly destroyed the foundations upon which all life endured.\nOnly the fae, unafraid of the cold, were able to emerge from the ice and snow to rule over the deserted realm.",
+  "rarity": 2,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "frostbreath",
+      "whitelake-frostfeather"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/measured-pour-of-the-cellared-spiritual-nectar/icon.png"
+}

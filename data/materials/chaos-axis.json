@@ -1,0 +1,26 @@
+{
+  "id": 112048,
+  "name": "Chaos Axis",
+  "description": "Comes from a now-inactive ancient Ruin machine.\nEven the great techniques and unknown power of this device must come to nothing should the machine that contained them ever fail to maintain structural integrity.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "ruin-cruiser",
+    "ruin-destroyer",
+    "ruin-defender",
+    "ruin-scout"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "amenoma-kageuchi",
+      "katsuragikiri-nagamasa",
+      "kitain-cross-spear",
+      "the-catch",
+      "mistsplitter-reforged",
+      "uraku-misugiri",
+      "engulfing-lightning"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chaos-axis/icon.png"
+}

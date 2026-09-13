@@ -1,0 +1,12 @@
+{
+  "id": 22010301,
+  "name": "Hydro Abyss Mage",
+  "description": "Abyss creatures that utilize Hydro energy in battle.\nStories circulate among adventurers that Abyss Mages are at the lowest rung of the Abyss Order's hierarchy and that they roam the various lands to scheme fell deeds of destruction. Though they also often make fun of these Abyss Mages, saying that the most harm they can do is to cause rheumatism or a common cold, their power is not to be underestimated.",
+  "type": "Abyss",
+  "drops": [
+    "dead-ley-line-branch",
+    "dead-ley-line-leaves",
+    "ley-line-sprout"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-abyss-mage/icon.png"
+}

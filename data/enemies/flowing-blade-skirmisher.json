@@ -1,0 +1,12 @@
+{
+  "id": 25500101,
+  "name": "Flowing Blade Skirmisher",
+  "description": "A warrior from the source of the springs, and a tribal guardian that patrols the waters and shores.\nIn lieu of weapons, these tribal warriors have mastered the techniques of raw, physical combat. Their seemingly ordinary fists and feet contain the power equal to the crashing waves.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/flowing-blade-skirmisher/icon.png"
+}

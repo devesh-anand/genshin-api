@@ -1,0 +1,12 @@
+{
+  "id": 24110101,
+  "name": "Domain Keeper",
+  "description": "A shadow construct born from the overflow of the mighty primordial being, it is a guardian who watches over the Pillar Hall of the heavens.\nThough entrusted with \"eyes\" as a guardian of the Pillar Hall of Space, these entities can do nothing but extol the \"Ideal Forms\" of the noumenal world. With no way to behold the complexities of the phenomenal world, they are thus not counted among the kindred of angels. Whether this inherent contradiction is a product of their creator's rational design, or if the master they serve ultimately failed to grasp the intent of that primordial being, is a truth that remains beyond our reach.",
+  "type": "Automatron",
+  "drops": [
+    "faded-flaming-hilt",
+    "fractured-flaming-hilt",
+    "jeweled-flaming-hilt"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/domain-keeper/icon.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 104358,
+  "name": "Philosophies of Moonlight",
+  "description": "Talent Level-Up material.\n\"Moonlight\" is the blessing of the land beneath the moon.\nPraying to the new moon for guidance and fortune is a rite passed down from the days of the first people. Tonight's moonlight seems no different from any other night, yet where is the new moon that people once looked to?",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "lauma",
+      "columbina"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-moonlight/icon.png"
+}

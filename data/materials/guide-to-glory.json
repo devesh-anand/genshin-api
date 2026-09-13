@@ -1,0 +1,16 @@
+{
+  "id": 104372,
+  "name": "Guide to Glory",
+  "description": "Talent Level-Up Material.\nGlory is the sacred faith of the frozen realm.\nIt is an ember flickering in the deep night, a beacon upon which all who trek across the snowfields fix their gaze. Just as they are certain the blizzards will wane and the dawn will break, they are certain that the path they tread remains the true one.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-glory/icon.png"
+}

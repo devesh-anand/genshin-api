@@ -1,0 +1,12 @@
+{
+  "id": 25100101,
+  "name": "Kairagi: Dancing Thunder",
+  "description": "Samurai who have fallen into banditry.\nThey possess highly advanced martial art skills but found no use for them for various reasons. Out of desperation, they have fallen onto the path of evil. They use paper seals, created from a Kamuna art that has been lost for centuries, to infuse their blades with the power of lightning.",
+  "type": "Human Faction",
+  "drops": [
+    "old-handguard",
+    "kageuchi-handguard",
+    "famed-handguard"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/kairagi-dancing-thunder/icon.png"
+}

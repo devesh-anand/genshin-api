@@ -1,0 +1,22 @@
+{
+  "id": 114054,
+  "name": "Sublimation of Pure Sacred Dewdrop",
+  "description": "Weapon Ascension Material.\n\"Life that came from the primordial sea is inevitably fated to return to it.\" Thus spoke the Harmost Boethius. \"But there are infinite possibilities for humans to transcend, and even the waters of the primordial sea cannot completely dissolve them...\"\nThe arrogant usurper once attempted to mix insoluble Ichor with pure water, to contain wisdom and memories, allowing his subjects and servants to discard their physical bodies, and obtain independent, eternal lives.\nBut the pain of severing soul and body cannot be endured by any ordinary life, and the usurper's order tore apart and shattered souls...\nThe Ichor was dyed black by the crying and howling of so many souls, and it lost its harmony and wisdom, leaving only chaos and madness.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "finale-of-the-deep",
+      "the-dockhands-assistant",
+      "forged-by-the-golden-melody",
+      "flowing-purity",
+      "splendor-of-tranquil-waters",
+      "symphonist-of-scents",
+      "tome-of-the-eternal-flow",
+      "silvershower-heartstrings"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sublimation-of-pure-sacred-dewdrop/icon.png"
+}

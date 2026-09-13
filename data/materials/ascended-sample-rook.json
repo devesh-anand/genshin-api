@@ -1,0 +1,17 @@
+{
+  "id": 113074,
+  "name": "Ascended Sample: Rook",
+  "description": "A rare sample resulting from the alchemical activation of a substance.\nThe name of this piece derives from the word for the \"Chariot\" in the ancient language of Sumeru. In divination, the Chariot card is depicted with two heavenly steeds — one black and one white — symbolizing the alchemical principle of balancing opposing properties.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "ifa",
+      "nefer",
+      "varka"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ascended-sample-rook/icon.png"
+}

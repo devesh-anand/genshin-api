@@ -1,0 +1,15 @@
+{
+  "id": 23030101,
+  "name": "Fatui Electro Cicin Mage",
+  "description": "A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries.\nSimilarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey.",
+  "type": "Fatui",
+  "drops": [
+    "mist-grass-pollen",
+    "mist-grass",
+    "mist-grass-wick",
+    "recruits-insignia",
+    "sergeants-insignia",
+    "lieutenants-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fatui-electro-cicin-mage/icon.png"
+}

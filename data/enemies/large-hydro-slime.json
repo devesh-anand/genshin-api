@@ -1,0 +1,12 @@
+{
+  "id": 20011101,
+  "name": "Large Hydro Slime",
+  "description": "A monster created by the sedimentation of Hydro dispersed throughout nature.\nA larger and more powerful Hydro Slime that can create bubbles to entrap its enemies. It is said that they can grow to truly staggering sizes if given an energy-rich environment. Eyewitnesses have supposedly seen Hydro Slimes as large as a small mound in Wolvendom.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-hydro-slime/icon.png"
+}

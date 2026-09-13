@@ -1,0 +1,17 @@
+{
+  "id": 100056,
+  "name": "Calla Lily",
+  "description": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kaeya",
+      "diona",
+      "dahlia"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/calla-lily/icon.png"
+}

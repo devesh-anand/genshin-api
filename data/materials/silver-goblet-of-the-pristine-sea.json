@@ -1,0 +1,22 @@
+{
+  "id": 114059,
+  "name": "Silver Goblet of the Pristine Sea",
+  "description": "Weapon Ascension Material.\nIn the years when the golden shroud covered the land, pure spring water had to be hidden away in concealed mountain streams, and the Lochknights were born in these sanctuaries.\nThe knights swear by armor of silver, to protect the spirits born from pure water, to protect their fellows who also keep faith in the one true font, resisting the omnipresent golden power that blotted out the sky and outshone the sun.\nBut that is an ancient legend... Not long after the empire collapsed and sank, the knights who resisted the usurper shed their armor, and their stories were hidden in a tangled web of stories and ballads.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "tidal-shadow",
+      "portable-power-saw",
+      "ultimate-overlords-mega-magic-sword",
+      "ballad-of-the-fjords",
+      "rightful-reward",
+      "crimson-moons-semblance",
+      "lumidouce-elegy",
+      "cashflow-supervision"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silver-goblet-of-the-pristine-sea/icon.png"
+}

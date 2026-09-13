@@ -1,0 +1,22 @@
+{
+  "id": 114040,
+  "name": "Golden Talisman of the Forest Dew",
+  "description": "Weapon Ascension Material.\n\"Mortals hold dear three things only: the spring water that embraces the moonlight, verdant life, and ageless youth...\"\nThe nature of \"wisdom\" is not domination over all minds or scheming to gain all the benefit. Instead, it is about empowering even ordinary beings to one day overcome their imposed constraints.\nThough the roar of the tiger is no longer heard in the forest and the resilient guardians would seclude themselves within the dreams of children... On the night when every secret golden seal is lifted and all dreams glow like amber in the moonlight, perhaps she and her beloved people will eventually win genuine freedom.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "sapwood-blade",
+      "xiphos-moonlight",
+      "forest-regalia",
+      "dialogues-of-the-desert-sages",
+      "clash-of-kings",
+      "ibis-piercer",
+      "key-of-khaj-nisut",
+      "light-of-foliar-incision"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/golden-talisman-of-the-forest-dew/icon.png"
+}

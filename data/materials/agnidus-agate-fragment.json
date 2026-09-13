@@ -1,0 +1,52 @@
+{
+  "id": 104112,
+  "name": "Agnidus Agate Fragment",
+  "description": "Character Ascension material.\n\"A pilgrimage for a wish; a battle to earn a name...\"",
+  "rarity": 3,
+  "category": "ascension-gem",
+  "dropped_by": [
+    "pyro-hypostasis",
+    "iniquitous-baptist",
+    "tenebrous-papilla-type-i",
+    "super-heavy-landrover-mechanized-fortress",
+    "algorithm-of-semi-intransient-matrix-of-overseer-network",
+    "pyro-regisvine",
+    "primo-geovishap",
+    "emperor-of-fire-and-iron",
+    "legatus-golem",
+    "goldflame-qucusaur-tyrant",
+    "lava-dragon-statue",
+    "radiant-moonfly",
+    "immortal-construct",
+    "lupus-boreas-dominator-of-wolves",
+    "azhdaha",
+    "la-signora",
+    "the-knave",
+    "lord-of-eroded-primal-fire",
+    "il-dottore"
+  ],
+  "used_by": {
+    "characters": [
+      "diluc",
+      "amber",
+      "xiangling",
+      "klee",
+      "bennett",
+      "xinyan",
+      "hu-tao",
+      "yanfei",
+      "yoimiya",
+      "thoma",
+      "dehya",
+      "lyney",
+      "chevreuse",
+      "gaming",
+      "arlecchino",
+      "mavuika",
+      "durin",
+      "nicole"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/agnidus-agate-fragment/icon.png"
+}

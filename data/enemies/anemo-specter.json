@@ -1,0 +1,12 @@
+{
+  "id": 20060301,
+  "name": "Anemo Specter",
+  "description": "A monster birthed from a high concentration of Anemo that can float in the air.\nAs reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "spectral-husk",
+    "spectral-heart",
+    "spectral-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/anemo-specter/icon.png"
+}

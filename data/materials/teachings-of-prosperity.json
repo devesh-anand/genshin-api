@@ -1,0 +1,23 @@
+{
+  "id": 104310,
+  "name": "Teachings of Prosperity",
+  "description": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is the blessing of Liyue, it is the foundation of the great city built by the gods and the people of Liyue, and it is the source of the peace and safety of the land.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xiao",
+      "ningguang",
+      "qiqi",
+      "keqing",
+      "yelan",
+      "shenhe",
+      "gaming",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-prosperity/icon.png"
+}

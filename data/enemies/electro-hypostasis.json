@@ -1,0 +1,14 @@
+{
+  "id": 20040101,
+  "name": "Electro Hypostasis",
+  "description": "Code name: Aleph. A high-purity Electro entity.\nElemental hypostases are the highest forms of elemental structures, usually formed either at a location bursting with elemental energy or at a clogged ley line.\nElemental hypostases have developed various attacks based on their elemental attributes.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "lightning-prism"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/electro-hypostasis/icon.png"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 114005,
+  "name": "Boreal Wolf's Milk Tooth",
+  "description": "Weapon Ascension Material.\nAndrius' wolf pack is its blessed honor guard, and even the milk teeth of a wolf cub possess great potential.\nIn the past, the gods had the responsibility to love all people. Andrius was therefore quite unusual in that he became leader of the wolves, while only welcoming abandoned babies and wanderers when it came to humans.",
+  "rarity": 2,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "waster-greatsword",
+      "hunters-bow",
+      "old-mercs-pal",
+      "seasoned-hunters-bow",
+      "harbinger-of-dawn",
+      "bloodtainted-greatsword",
+      "thrilling-tales-of-dragon-slayers",
+      "sharpshooters-oath",
+      "the-flute",
+      "the-black-sword",
+      "sword-of-descension",
+      "sacrificial-greatsword",
+      "deathmatch",
+      "dragonspine-spear",
+      "missive-windspear",
+      "the-widsith",
+      "wine-and-song",
+      "dodoco-tales",
+      "ballad-of-the-boundless-blue",
+      "sacrificial-bow",
+      "skyward-blade",
+      "skyward-pride",
+      "gest-of-the-mighty-wolf",
+      "skyward-atlas",
+      "skyward-harp",
+      "elegy-for-the-end"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/boreal-wolfs-milk-tooth/icon.png"
+}

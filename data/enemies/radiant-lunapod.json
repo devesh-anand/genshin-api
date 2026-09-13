@@ -1,0 +1,12 @@
+{
+  "id": 26300301,
+  "name": "Radiant Lunapod",
+  "description": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\nLegend has it that when the waves of calamity rolled over the land, even those animals who dwelled in the Forsaken Sea were not spared. Those who could not accept the moonlight into themselves vanished like foam, whether great sea serpents who could send waves skyward, or single-eyed monsters who once plotted to consume all things.",
+  "type": "Beast",
+  "drops": [
+    "lightless-bone",
+    "glowing-remains",
+    "radiant-exoskeleton"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/radiant-lunapod/icon.png"
+}

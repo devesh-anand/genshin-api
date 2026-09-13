@@ -1,0 +1,18 @@
+{
+  "id": 104362,
+  "name": "Teachings of Vagrancy",
+  "description": "Talent Level-Up material.\n\"Vagrancy\" is the living of the land beneath the moon.\nEnjoy a moment's respite, then depart before the sky turns black. Dawn is not the end, but the beginning of another journey.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "flins",
+      "jahoda",
+      "linnea",
+      "sandrone"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-vagrancy/icon.png"
+}

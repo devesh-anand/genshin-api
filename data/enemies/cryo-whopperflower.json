@@ -1,0 +1,12 @@
+{
+  "id": 26010101,
+  "name": "Cryo Whopperflower",
+  "description": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
+  "type": "Beast",
+  "drops": [
+    "whopperflower-nectar",
+    "shimmering-nectar",
+    "energy-nectar"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-whopperflower/icon.png"
+}

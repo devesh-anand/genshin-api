@@ -1,0 +1,44 @@
+{
+  "id": 112021,
+  "name": "Dead Ley Line Leaves",
+  "description": "A twig from deep within the earth. Though it is far from where it once lay, its leaves still pulsate with energy.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "pyro-abyss-mage",
+    "hydro-abyss-mage",
+    "cryo-abyss-mage",
+    "abyss-herald-wicked-torrents",
+    "abyss-lector-fathomless-flames",
+    "abyss-lector-violet-lightning"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "waster-greatsword",
+      "hunters-bow",
+      "old-mercs-pal",
+      "seasoned-hunters-bow",
+      "harbinger-of-dawn",
+      "bloodtainted-greatsword",
+      "thrilling-tales-of-dragon-slayers",
+      "sharpshooters-oath",
+      "the-flute",
+      "the-black-sword",
+      "sword-of-descension",
+      "sacrificial-greatsword",
+      "deathmatch",
+      "the-widsith",
+      "wine-and-song",
+      "dodoco-tales",
+      "sacrificial-bow",
+      "windblume-ode",
+      "skyward-blade",
+      "skyward-pride",
+      "staff-of-homa",
+      "skyward-atlas",
+      "skyward-harp"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dead-ley-line-leaves/icon.png"
+}

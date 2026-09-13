@@ -1,0 +1,37 @@
+{
+  "id": 112053,
+  "name": "Spectral Husk",
+  "description": "An energy core that allows the Specters to float. It contains a small amount of elemental energy.\nMost of the rest has already dispersed.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "hydro-specter",
+    "anemo-specter",
+    "dendro-specter",
+    "geo-specter"
+  ],
+  "used_by": {
+    "characters": [
+      "sangonomiya-kokomi",
+      "gorou",
+      "kirara",
+      "aloy",
+      "kuki-shinobu",
+      "chiori"
+    ],
+    "weapons": [
+      "kagotsurube-isshin",
+      "mailed-flower",
+      "the-catch",
+      "dialogues-of-the-desert-sages",
+      "oathsworn-eye",
+      "mouuns-moon",
+      "everlasting-moonglow",
+      "kaguras-verity",
+      "sunny-morning-sleep-in",
+      "polar-star",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spectral-husk/icon.png"
+}

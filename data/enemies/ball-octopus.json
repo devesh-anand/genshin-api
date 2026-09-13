@@ -1,0 +1,12 @@
+{
+  "id": 26156201,
+  "name": "Ball Octopus",
+  "description": "An aquatic creature that hunts by firing watery projectiles.\nThe ability to fire water bombs is of course not uncommon among Fontemer Aberrants. But for your average careless diver, most of whom are tourists, a high-pressure water current of this kind can pose a significant threat. The thickness of diving equipment is therefore necessary for two reasons — firstly, to resist the pressure of the water itself, but secondly, to protect against the attacks of Fontemer Aberrants.",
+  "type": "Beast",
+  "drops": [
+    "transoceanic-pearl",
+    "transoceanic-chunk",
+    "xenochromatic-crystal"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ball-octopus/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 20060701,
+  "name": "Dendro Specter",
+  "description": "A monster born from high-density Dendro energy that can float in the air.\nA researcher from Vahumana once did research into the ecological peculiarities of Dendro Specters, finding them to be quite similar to the legendary \"Aranara.\" His conclusion was that the Aranara were actually Dendro Specters. This researcher would become a little-known writer of fairy tales.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "spectral-husk",
+    "spectral-heart",
+    "spectral-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/dendro-specter/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 26220201,
+  "name": "Yumkasaurus",
+  "description": "A Saurian with powerful hind legs and a fluffy tail, capable of spitting Flamegranate pectin hidden in their cheek pouches out, wrapping around distant objects.\nAccording to legend, the original Yumkasaurs were not at all like today, but much smaller, so small that they were difficult even to see. They could roam freely with the wind, cling to the bodies of the massive dragons, or gather in groups to move about like clouds. However, in order to maintain their form after their abilities degenerated, they had no choice but to assume their current shape.",
+  "type": "Beast",
+  "drops": [
+    "juvenile-fang",
+    "seasoned-fang",
+    "tyrants-fang"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/yumkasaurus/icon.png"
+}

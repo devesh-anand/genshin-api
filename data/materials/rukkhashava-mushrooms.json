@@ -1,0 +1,16 @@
+{
+  "id": 101213,
+  "name": "Rukkhashava Mushrooms",
+  "description": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "collei",
+      "wanderer"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/rukkhashava-mushrooms/icon.png"
+}

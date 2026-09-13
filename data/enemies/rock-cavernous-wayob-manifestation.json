@@ -1,0 +1,12 @@
+{
+  "id": 26260101,
+  "name": "Rock-Cavernous Wayob Manifestation",
+  "description": "The Children of Echoes believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nThe people of Natlan believe that the Wayob dwell in the kingdom of the Lord of the Night, and have no fixed form, instead attaching themselves to anything in order to provide guidance to lost tribespeople. Wayob manifestations are particularly special, and the figure revealed through the totems often has an important purpose.\nThe Children of Echoes believe that their Wayob has the power to shape mountains and valleys, and can control the echoes created when rock meets stone.",
+  "type": "Beast",
+  "drops": [
+    "shard-of-a-shattered-will",
+    "locus-of-a-clear-will",
+    "sigil-of-a-striding-will"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/rock-cavernous-wayob-manifestation/icon.png"
+}

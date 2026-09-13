@@ -1,0 +1,27 @@
+{
+  "id": 104308,
+  "name": "Guide to Ballad",
+  "description": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the will to encourage. In the dark days, the gales in the streets and alleyways whisper words of fury, like the battle drums, like the low rumbling before the storm.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "lisa",
+      "kaeya",
+      "venti",
+      "fischl",
+      "albedo",
+      "rosaria",
+      "mika",
+      "dahlia",
+      "durin",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-ballad/icon.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 112124,
+  "name": "Precision Drive Shaft",
+  "description": "The drive shaft of a Landcruiser refined by the Design Bureau.\nOn the blueprints drawn by the engineers of the north, this unassuming part was once the flawless embodiment of glory and technological advancement, its small metal body encapsulating the wisdom of countless generations. Now it lies in the cold dirt, waiting to be recycled once more.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "close-combat-storm-landcruiser",
+    "close-combat-scout-landcruiser",
+    "force-recon-storm-landcruiser",
+    "force-recon-scout-landcruiser",
+    "force-recon-ground-effect-landcruiser",
+    "cutting-edge-all-purpose-storm-landcruiser",
+    "cutting-edge-all-purpose-scout-landcruiser",
+    "cutting-edge-fire-support-ground-effect-landcruiser"
+  ],
+  "used_by": {
+    "characters": [
+      "flins",
+      "aino",
+      "jahoda",
+      "illuga",
+      "varka",
+      "sandrone"
+    ],
+    "weapons": [
+      "moonweavers-dawn",
+      "master-key",
+      "prospectors-shovel",
+      "sacrificers-staff",
+      "athame-artis",
+      "lightbearing-moonshard",
+      "nightweavers-looking-glass",
+      "angelos-heptades"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/precision-drive-shaft/icon.png"
+}

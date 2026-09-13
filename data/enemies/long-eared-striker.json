@@ -1,0 +1,15 @@
+{
+  "id": 25132701,
+  "name": "Long-Eared Striker",
+  "description": "A Volkodlak that usually conceals its slender body beneath a cloak and moves in secrecy.\nIt is said that long ago, the artisans of the Golden City, who held the authority of creation, fashioned bodies for fae for many different purposes. This type of Volkodlak was originally created to test the limits of reproductive capability.\nYet after the calamity that reduced that golden realm to ruins, the long-eared clan survived to the present day thanks to their great numbers.\nNow, they are masters of their own bodies. Agile enough to move deftly even across snow, they have become a threat that those crossing the snowy plains must handle with care.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone",
+    "accreted-fragment",
+    "accreted-mass",
+    "accreted-growth"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/long-eared-striker/icon.png"
+}

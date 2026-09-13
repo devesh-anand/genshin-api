@@ -1,0 +1,12 @@
+{
+  "id": 25510101,
+  "name": "Tepetlisaurus Warrior: Shard Striker",
+  "description": "A powerful warrior from the canyon, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can strike with the power of a rockfall. Even among the Children of Echoes, who live and breathe rock and crystal, Saurian-Crowned Warriors are masters who understand rock and stone better than any. It is said they can even divine the purity and grain of the interior of raw ore merely by looking at the rough exterior.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/tepetlisaurus-warrior-shard-striker/icon.png"
+}

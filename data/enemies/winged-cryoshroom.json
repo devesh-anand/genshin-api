@@ -1,0 +1,15 @@
+{
+  "id": 26120201,
+  "name": "Winged Cryoshroom",
+  "description": "A mimetic life form made out of spores that has extreme adaptability.\nGoing well past mere appearances, this being even imitates the habits of birds. When it flies about, it will scatter icy flowers in its wake. These crystal cores, too, are spores.\nThis creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match.",
+  "type": "Beast",
+  "drops": [
+    "fungal-spores",
+    "luminescent-pollen",
+    "crystalline-cyst-dust",
+    "inactivated-fungal-nucleus",
+    "dormant-fungal-nucleus",
+    "robust-fungal-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/winged-cryoshroom/icon.png"
+}

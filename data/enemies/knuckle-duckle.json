@@ -1,0 +1,14 @@
+{
+  "id": 24100101,
+  "name": "Knuckle Duckle",
+  "description": "A kuuvahki mechanism of peculiar make, made from scrap metal and mechanical bearings, that bears a partial resemblance — as per its creator's proclivities, apparently — to a \"duck.\"\nIts output and resistance to damage are comparable to the Fatui's most cutting-edge warfighting weaponry... But even so, it remains simply a toy duck that can punch its opponents very, very hard. A creator's preferences will always do much to determine a creation's appearance, as clay lacks the authority to question its creator's choice of molds. The world beneath the moon has long been sculpted into a form that people take for granted, but in the eyes of its original inhabitants, that form must surely be like a peculiar duck, shaped by its creator's bizarre predilections.\nOf course, the blue-haired maid would never say any such thing to the mistress of the Krumkake Craftshop — after all, ducks are adorable, especially compared to the world's present aspect.",
+  "type": "Automatron",
+  "drops": [
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "precision-kuuvahki-stamping-die"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/knuckle-duckle/icon.png"
+}

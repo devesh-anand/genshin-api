@@ -1,0 +1,36 @@
+{
+  "id": 112028,
+  "name": "Mist Grass Wick",
+  "description": "A rare bundle of Mist Grass that gives off a faint glow. Those who carry it invite both the Cicins and misfortune.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "fatui-electro-cicin-mage",
+    "fatui-cryo-cicin-mage"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "fillet-blade",
+      "debate-club",
+      "halberd",
+      "twin-nephrite",
+      "messenger",
+      "prototype-rancour",
+      "rainslasher",
+      "blackcliff-slasher",
+      "dragons-bane",
+      "blackcliff-pole",
+      "royal-spear",
+      "dragonspine-spear",
+      "prototype-amber",
+      "eye-of-perception",
+      "sacrificial-jade",
+      "prototype-crescent",
+      "primordial-jade-cutter",
+      "the-unforged",
+      "calamity-queller"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mist-grass-wick/icon.png"
+}

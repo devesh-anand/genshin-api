@@ -1,0 +1,21 @@
+{
+  "id": 114042,
+  "name": "Oasis Garden's Kindness",
+  "description": "Weapon Ascension Material.\nIn the literature buried deep beneath the yellow sands, the Lord of Flowers was the Mistress of Dreams.\nShe bestowed dreams upon the exiled, the manic, and the foolish. In those dreams, they were presented with their dearest delights. Burdened by the brutality of reality, they were fascinated by the charm of the Lord of Flowers and captivated by her beauty and care.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "talking-stick",
+      "moonpiercer",
+      "fruit-of-fulfillment",
+      "wandering-evenstar",
+      "staff-of-the-scarlet-sands",
+      "a-thousand-floating-dreams",
+      "reliquary-of-truth"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/oasis-gardens-kindness/icon.png"
+}

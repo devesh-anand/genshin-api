@@ -1,0 +1,12 @@
+{
+  "id": 24030101,
+  "name": "Ruin Drake: Skywatch",
+  "description": "A horrifying dragon-shaped machine.\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\nHow, you wonder, did a civilization that could make such frightening machines of war collapse?",
+  "type": "Automatron",
+  "drops": [
+    "chaos-storage",
+    "chaos-module",
+    "chaos-bolt"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ruin-drake-skywatch/icon.png"
+}

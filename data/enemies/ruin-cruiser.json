@@ -1,0 +1,12 @@
+{
+  "id": 24020101,
+  "name": "Ruin Cruiser",
+  "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals.\nLegend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their forms have greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seems to have come from honeybee colonies, rendering it able to change forms and to attack from different directions.",
+  "type": "Automatron",
+  "drops": [
+    "chaos-gear",
+    "chaos-axis",
+    "chaos-oculus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ruin-cruiser/icon.png"
+}

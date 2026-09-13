@@ -1,0 +1,18 @@
+{
+  "id": 113050,
+  "name": "Artificed Spare Clockwork Component — Coppelius",
+  "description": "An artificed spare clockwork component belonging to Coppelius. It powers this artificed dancer.\nThe artificed dancer whirls to a platinum tune, performing an unending waltz of icewind. Coppelius's dance will not stop. He will continue whirling till the bell tolls.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "icewind-suite"
+  ],
+  "used_by": {
+    "characters": [
+      "freminet",
+      "navia"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/artificed-spare-clockwork-component-coppelius/icon.png"
+}

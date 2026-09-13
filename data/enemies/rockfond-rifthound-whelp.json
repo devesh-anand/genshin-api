@@ -1,0 +1,12 @@
+{
+  "id": 22040101,
+  "name": "Rockfond Rifthound Whelp",
+  "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nThey follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.",
+  "type": "Abyss",
+  "drops": [
+    "concealed-claw",
+    "concealed-unguis",
+    "concealed-talon"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/rockfond-rifthound-whelp/icon.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 101253,
+  "name": "Withering Purpurbloom",
+  "description": "A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "chasca",
+      "mavuika"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/withering-purpurbloom/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 25070101,
+  "name": "Treasure Hoarders: Crusher",
+  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThis person was originally a miner — one who, even with the allowance they were provided with after the closure of the Chasm, ended up with the Treasure Hoarders for various reasons.",
+  "type": "Human Faction",
+  "drops": [
+    "treasure-hoarder-insignia",
+    "silver-raven-insignia",
+    "golden-raven-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/treasure-hoarders-crusher/icon.png"
+}

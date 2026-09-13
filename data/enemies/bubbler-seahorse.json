@@ -1,0 +1,12 @@
+{
+  "id": 26160301,
+  "name": "Bubbler Seahorse",
+  "description": "The adult form of a male Bubbly Seahorse. It is extremely aggressive.\nSome people even claim to have encountered the king among the seahorses. It is said that they are proud beings with four long limbs.",
+  "type": "Beast",
+  "drops": [
+    "transoceanic-pearl",
+    "transoceanic-chunk",
+    "xenochromatic-crystal"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/bubbler-seahorse/icon.png"
+}

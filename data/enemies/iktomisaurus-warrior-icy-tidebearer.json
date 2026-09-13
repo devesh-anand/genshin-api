@@ -1,0 +1,12 @@
+{
+  "id": 25510901,
+  "name": "Iktomisaurus Warrior: Icy Tidebearer",
+  "description": "A powerful warrior from the Night-Wind, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nTribal warriors from the Masters of the Night-Wind do not typically excel when it comes to conventional strength. Their ability to manipulate weapons with ease comes instead from years of mental training. Thus, compared to combat prowess in itself, warriors from the Masters of the Night-Wind place greater value on the gift of \"Spiritspeaking.\" Drawing upon the power of special graffiti and willpower alone, it is said that the most exceptional of Spiritspeakers can lift boulders as tall as people.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/iktomisaurus-warrior-icy-tidebearer/icon.png"
+}

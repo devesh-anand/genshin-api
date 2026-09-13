@@ -1,0 +1,18 @@
+{
+  "id": 112138,
+  "name": "Aberrant Core of the Deep Shadow",
+  "description": "The remains of a fisher from beyond this world, left after its body dissolved.\nA core whose functions have fully shut down, and its structure resembles no organ of any creature found on this earth.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "fisher-of-hidden-depths"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "gest-of-the-mighty-wolf",
+      "nocturnes-curtain-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/aberrant-core-of-the-deep-shadow/icon.png"
+}

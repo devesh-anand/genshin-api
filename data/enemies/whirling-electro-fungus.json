@@ -1,0 +1,15 @@
+{
+  "id": 26090401,
+  "name": "Whirling Electro Fungus",
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nResearch has shown that this sort of fungal beast's internal electric current will change periodically. If further developed, perhaps this study may give rise to a wide range of uses...",
+  "type": "Beast",
+  "drops": [
+    "fungal-spores",
+    "luminescent-pollen",
+    "crystalline-cyst-dust",
+    "inactivated-fungal-nucleus",
+    "dormant-fungal-nucleus",
+    "robust-fungal-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/whirling-electro-fungus/icon.png"
+}

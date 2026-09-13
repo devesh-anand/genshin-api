@@ -1,0 +1,12 @@
+{
+  "id": 20060101,
+  "name": "Hydro Specter",
+  "description": "A monster birthed from a high concentration of Hydro that can float in the air.\nOn moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "spectral-husk",
+    "spectral-heart",
+    "spectral-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-specter/icon.png"
+}

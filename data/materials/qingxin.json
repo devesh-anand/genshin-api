@@ -1,0 +1,17 @@
+{
+  "id": 100031,
+  "name": "Qingxin",
+  "description": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xiao",
+      "ganyu",
+      "shenhe"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/qingxin/icon.png"
+}

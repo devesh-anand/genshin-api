@@ -1,0 +1,21 @@
+{
+  "id": 113006,
+  "name": "Tail of Boreas",
+  "description": "A handful of tail scales from the Great Wolf King of the North.\nEven without his physical body and beyond death, Boreas still possesses extraordinary powers. He took a form comprised of ice and wind to embrace a new challenge, but even such a form could not house all of his power. The ice scales that fell during the battle still retain some of their spiritual energy.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "lupus-boreas-dominator-of-wolves"
+  ],
+  "used_by": {
+    "characters": [
+      "venti",
+      "xingqiu",
+      "qiqi",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/tail-of-boreas/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 112119,
+  "name": "Cold-Cracked Shellshard",
+  "description": "A chunk of shell carved from a Furnace Shell Mountain Weasel's back after its defeat.\nWhere it once blazed brightly, this piece has long since gone cold. The fire-like luster it once held is no more.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "furnace-shell-mountain-weasel"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "heretics-molten-blade",
+      "flame-forged-insight",
+      "sequence-of-solitude",
+      "fractured-halo",
+      "vivid-notions"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/cold-cracked-shellshard/icon.png"
+}

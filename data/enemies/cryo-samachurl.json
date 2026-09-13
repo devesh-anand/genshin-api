@@ -1,0 +1,15 @@
+{
+  "id": 21030501,
+  "name": "Cryo Samachurl",
+  "description": "A wizened, mumbling hilichurl, one that calls upon the bite of Cryo.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask",
+    "divining-scroll",
+    "sealed-scroll",
+    "forbidden-curse-scroll"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-samachurl/icon.png"
+}

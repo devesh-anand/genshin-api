@@ -1,0 +1,46 @@
+{
+  "id": 104123,
+  "name": "Varunada Lazurite Chunk",
+  "description": "Character Ascension material.\n\"My ideals have no stains.\nI must correct you. People here bear no sins in the eyes of the gods...\"",
+  "rarity": 4,
+  "category": "ascension-gem",
+  "dropped_by": [
+    "hydro-hypostasis",
+    "oceanid",
+    "hydro-tulpa",
+    "frostnight-herra",
+    "iniquitous-baptist",
+    "aeonblight-drake",
+    "secret-source-automaton-overseer-device",
+    "primo-geovishap",
+    "solitary-suanni",
+    "stormterror",
+    "childe",
+    "azhdaha",
+    "shouki-no-kami-the-prodigal",
+    "all-devouring-narwhal",
+    "the-doctor"
+  ],
+  "used_by": {
+    "characters": [
+      "barbara",
+      "xingqiu",
+      "tartaglia",
+      "mona",
+      "sangonomiya-kokomi",
+      "yelan",
+      "kamisato-ayato",
+      "nilou",
+      "candace",
+      "neuvillette",
+      "furina",
+      "sigewinne",
+      "mualani",
+      "dahlia",
+      "aino",
+      "columbina"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/varunada-lazurite-chunk/icon.png"
+}

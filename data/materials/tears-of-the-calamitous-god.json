@@ -1,0 +1,20 @@
+{
+  "id": 113033,
+  "name": "Tears of the Calamitous God",
+  "description": "A puppet joint obtained from the Plane of Euthymia. The gesture here is in the shape of the baleful Eye of Stormy Judgment.\nSince they are able to bring down curse and catastrophe alike with a mere gaze, it might seem natural to blame life's misfortunes on calamitous deities. However, if you think about it a little harder, if your will is strong enough, and if your convictions are firm enough...\nThe catastrophes go on for too long. Even a baleful gaze must wash itself with tears.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "magatsu-mitake-narukami-no-mikoto"
+  ],
+  "used_by": {
+    "characters": [
+      "kuki-shinobu",
+      "collei",
+      "nilou",
+      "candace"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/tears-of-the-calamitous-god/icon.png"
+}

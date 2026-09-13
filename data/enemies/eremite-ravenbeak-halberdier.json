@@ -1,0 +1,12 @@
+{
+  "id": 25210301,
+  "name": "Eremite Ravenbeak Halberdier",
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThese warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the deity of the desert would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands.",
+  "type": "Human Faction",
+  "drops": [
+    "faded-red-satin",
+    "trimmed-red-silk",
+    "rich-red-brocade"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/eremite-ravenbeak-halberdier/icon.png"
+}

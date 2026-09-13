@@ -1,0 +1,15 @@
+{
+  "id": 22030201,
+  "name": "Abyss Lector: Fathomless Flames",
+  "description": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order.\nThe surface people have a slightly distorted understanding of what their name means, calling them \"Lectors,\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power.",
+  "type": "Abyss",
+  "drops": [
+    "gloomy-statuette",
+    "dark-statuette",
+    "deathly-statuette",
+    "dead-ley-line-branch",
+    "dead-ley-line-leaves",
+    "ley-line-sprout"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/abyss-lector-fathomless-flames/icon.png"
+}

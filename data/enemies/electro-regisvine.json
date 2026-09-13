@@ -1,0 +1,14 @@
+{
+  "id": 26020301,
+  "name": "Electro Regisvine",
+  "description": "A huge vine that has morphed into a monster through the conduction of high-voltage currents through the Ley Lines.\nElectricity surges constantly from its canopy like the unending rage of the earth itself.\nKshahrewar researchers once submitted that a complex circuit matrix might be set up around this creature to carry electrical energy to the city for use there. This plan was stridently opposed by scholars from Spantamad, who sacrificed 10 Shroomboars to drive home the point about the dangers of utilizing electricity.",
+  "type": "Beast",
+  "drops": [
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "thunderclap-fruitcore"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/electro-regisvine/icon.png"
+}

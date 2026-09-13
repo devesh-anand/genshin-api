@@ -1,0 +1,12 @@
+{
+  "id": 23010601,
+  "name": "Fatui Skirmisher - Pyroslinger Bracer",
+  "description": "A Fatui soldier who wields a flaming gun.\nSkirmisher weapons can control the elements to a certain extent, and their combat tactics utilize elemental reactions.\nTheir ordnance and knowledge of squad-based combat thus constitute no small threat in battle.",
+  "type": "Fatui",
+  "drops": [
+    "recruits-insignia",
+    "sergeants-insignia",
+    "lieutenants-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fatui-skirmisher-pyroslinger-bracer/icon.png"
+}

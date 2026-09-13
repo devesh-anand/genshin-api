@@ -1,0 +1,12 @@
+{
+  "id": 23060101,
+  "name": "Frost Operative",
+  "description": "An elite agent among the Fatui.\nSelected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field. They are the most outstanding soldiers among the Fatui, with extraordinary skill and unswerving loyalty.",
+  "type": "Fatui",
+  "drops": [
+    "old-operatives-pocket-watch",
+    "operatives-standard-pocket-watch",
+    "operatives-constancy"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/frost-operative/icon.png"
+}

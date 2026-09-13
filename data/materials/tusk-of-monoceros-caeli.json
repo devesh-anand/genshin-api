@@ -1,0 +1,19 @@
+{
+  "id": 113013,
+  "name": "Tusk of Monoceros Caeli",
+  "description": "The horn of a whale that you obtained from defeating Childe, who had unleashed the might of his Delusion.\nIt is said that the shape of one's constellation determines one's character. The image of a whale cruising across the celestial heights represents a solipsism that seeks to crush and devour all in its path.\nEmbracing this aspect of himself, Childe gleefully summoned one such beast before throwing himself into battle against you.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "childe"
+  ],
+  "used_by": {
+    "characters": [
+      "zhongli",
+      "albedo",
+      "xinyan"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/tusk-of-monoceros-caeli/icon.png"
+}

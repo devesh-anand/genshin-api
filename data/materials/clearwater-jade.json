@@ -1,0 +1,16 @@
+{
+  "id": 101241,
+  "name": "Clearwater Jade",
+  "description": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xianyun",
+      "lan-yan"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/clearwater-jade/icon.png"
+}

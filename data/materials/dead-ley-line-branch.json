@@ -1,0 +1,44 @@
+{
+  "id": 112020,
+  "name": "Dead Ley Line Branch",
+  "description": "Fragile branches from deep within the earth. Even after years of aging, from beneath it's mottled surface you can see that its power is not yet entirely lost.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "pyro-abyss-mage",
+    "hydro-abyss-mage",
+    "cryo-abyss-mage",
+    "abyss-herald-wicked-torrents",
+    "abyss-lector-fathomless-flames",
+    "abyss-lector-violet-lightning"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "waster-greatsword",
+      "hunters-bow",
+      "old-mercs-pal",
+      "seasoned-hunters-bow",
+      "harbinger-of-dawn",
+      "bloodtainted-greatsword",
+      "thrilling-tales-of-dragon-slayers",
+      "sharpshooters-oath",
+      "the-flute",
+      "the-black-sword",
+      "sword-of-descension",
+      "sacrificial-greatsword",
+      "deathmatch",
+      "the-widsith",
+      "wine-and-song",
+      "dodoco-tales",
+      "sacrificial-bow",
+      "windblume-ode",
+      "skyward-blade",
+      "skyward-pride",
+      "staff-of-homa",
+      "skyward-atlas",
+      "skyward-harp"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dead-ley-line-branch/icon.png"
+}

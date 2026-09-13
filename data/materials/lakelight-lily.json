@@ -1,0 +1,16 @@
+{
+  "id": 101238,
+  "name": "Lakelight Lily",
+  "description": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "furina",
+      "emilie"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/lakelight-lily/icon.png"
+}

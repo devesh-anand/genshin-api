@@ -1,0 +1,12 @@
+{
+  "id": 22110401,
+  "name": "Overgrown Breacher Primus",
+  "description": "A strange life form that mostly appears in Elynas.\nIn Fontaine, the earliest recorded observations of a Breacher Primus appeared shortly after the cataclysm. Records from the time show instances of Breacher Primuses both attacking and protecting humans.",
+  "type": "Abyss",
+  "drops": [
+    "rift-core",
+    "foreign-synapse",
+    "alien-life-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/overgrown-breacher-primus/icon.png"
+}

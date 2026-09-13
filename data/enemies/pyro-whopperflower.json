@@ -1,0 +1,12 @@
+{
+  "id": 26010201,
+  "name": "Pyro Whopperflower",
+  "description": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
+  "type": "Beast",
+  "drops": [
+    "whopperflower-nectar",
+    "shimmering-nectar",
+    "energy-nectar"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/pyro-whopperflower/icon.png"
+}

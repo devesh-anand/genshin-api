@@ -1,0 +1,18 @@
+{
+  "id": 104363,
+  "name": "Guide to Vagrancy",
+  "description": "Talent Level-Up material.\n\"Vagrancy\" is the living of the land beneath the moon.\nTo live is to wander, for none of us can settle in this world. What is remembered is not the moment of arrival, but the footprints that we leave along the way.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "flins",
+      "jahoda",
+      "linnea",
+      "sandrone"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-vagrancy/icon.png"
+}

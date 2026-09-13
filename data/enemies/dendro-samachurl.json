@@ -1,0 +1,15 @@
+{
+  "id": 21030201,
+  "name": "Dendro Samachurl",
+  "description": "A wizened, mumbling hilichurl, one that awakens the might of Dendro.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask",
+    "divining-scroll",
+    "sealed-scroll",
+    "forbidden-curse-scroll"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/dendro-samachurl/icon.png"
+}

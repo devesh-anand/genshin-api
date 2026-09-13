@@ -1,0 +1,19 @@
+{
+  "id": 104335,
+  "name": "Teachings of Praxis",
+  "description": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes stem from an unwavering will. All wisdom is manifested through the unyielding pursuit of goodness. Where goodness is not practiced, ingenuity and eloquence wither.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "collei",
+      "nilou",
+      "wanderer",
+      "dehya",
+      "sethos"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-praxis/icon.png"
+}

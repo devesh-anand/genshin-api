@@ -1,0 +1,12 @@
+{
+  "id": 25310301,
+  "name": "Eremite Daythunder",
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nA true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+  "type": "Human Faction",
+  "drops": [
+    "faded-red-satin",
+    "trimmed-red-silk",
+    "rich-red-brocade"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/eremite-daythunder/icon.png"
+}

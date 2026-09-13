@@ -1,0 +1,15 @@
+{
+  "id": 21020101,
+  "name": "Wooden Shieldwall Mitachurl",
+  "description": "A muscular hilichurl who has been forged in countless fights.\nThey know how to use Dendro Slimes to create tough shields which they wield in combat.\nWith their powerful muscles, glossy fur, and sturdy, reliable silhouettes, they help the hilichurls withstand the pitiless assaults of adventurers, and they hold a rather exalted rank amongst the tribes.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask",
+    "heavy-horn",
+    "black-bronze-horn",
+    "black-crystal-horn"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/wooden-shieldwall-mitachurl/icon.png"
+}

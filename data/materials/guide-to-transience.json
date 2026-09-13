@@ -1,0 +1,22 @@
+{
+  "id": 104321,
+  "name": "Guide to Transience",
+  "description": "Talent Level-Up material.\nTransience is the dream of the nation of thunder.\nWe find the greatest joys in mortal life in transient dreams, for is life itself not like the shadow of the thunder? Pursue your dreams into the clouds if you wish, and enjoy the unexpected silence of the dim lamp-lit nights.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "yoimiya",
+      "thoma",
+      "sangonomiya-kokomi",
+      "shikanoin-heizou",
+      "kirara",
+      "yumemizuki-mizuki",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-transience/icon.png"
+}

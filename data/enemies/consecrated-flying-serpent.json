@@ -1,0 +1,12 @@
+{
+  "id": 26100501,
+  "name": "Consecrated Flying Serpent",
+  "description": "A reptile that has mutated after feeding from greater lifeforms.\nThough now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a certain type of smelting material from Inazuma.",
+  "type": "Beast",
+  "drops": [
+    "desiccated-shell",
+    "sturdy-shell",
+    "marked-shell"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/consecrated-flying-serpent/icon.png"
+}

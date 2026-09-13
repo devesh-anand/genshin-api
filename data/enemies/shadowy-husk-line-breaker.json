@@ -1,0 +1,12 @@
+{
+  "id": 22070201,
+  "name": "Shadowy Husk: Line Breaker",
+  "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it no longer has any \"intelligence\" that it may still be called \"human.\"\nYet the desire to destroy the foe and plunge into battle to defend others is etched into this empty suit of armor, even if no one remains to tell it where the enemy is or who or what exactly must be defended.",
+  "type": "Abyss",
+  "drops": [
+    "gloomy-statuette",
+    "dark-statuette",
+    "deathly-statuette"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/shadowy-husk-line-breaker/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 20011501,
+  "name": "Large Geo Slime",
+  "description": "Monsters created through the buildup of Geo within the earth.\nThey can harden the energy within their bodies into a carapace of stone that protects them and prevents damage. The legend of a \"Golden Geo Slime King\" once circulated among the Treasure Hoarders. They believed that since gemstones and ores have Geo energy in them, Geo Slimes, which also contain Geo energy, may also be a type of gemstone or ore.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-geo-slime/icon.png"
+}

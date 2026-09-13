@@ -1,0 +1,14 @@
+{
+  "id": 26230301,
+  "name": "Goldflame Qucusaur Tyrant",
+  "description": "A Qucusaurus whose body has attained a supernatural form due to enduring forces that the bodies of modern Saurians cannot control.\nLegends say that when the giant Qucusaur who now often dwells in the mountain fog was young, he also once followed the heroes who saved Natlan in their adventures. It is said that one of those heroes once agreed to make the pilgrimage with him together to the volcano, to save his mind back from the brink of insanity that the increasing violent power in his blood was forcing him towards. However, judging from his current title of \"Tyrant,\" that story did not have a happy ending.",
+  "type": "Beast",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "mark-of-the-binding-blessing"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/goldflame-qucusaur-tyrant/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 24040301,
+  "name": "Primal Construct: Prospector",
+  "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThe master of the sands once took to studying taboo knowledge in an effort to create a dream paradise, and these machines may or may not have been the fruits of that research.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
+  "type": "Automatron",
+  "drops": [
+    "damaged-prism",
+    "turbid-prism",
+    "radiant-prism"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/primal-construct-prospector/icon.png"
+}

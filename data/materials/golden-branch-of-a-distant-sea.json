@@ -1,0 +1,21 @@
+{
+  "id": 114028,
+  "name": "Golden Branch of a Distant Sea",
+  "description": "Weapon Ascension Material.\nThe meaning that lies behind the name \"Watatsumi\" is simply the unrequited hopes that the abandoned people who dwelt in the deep sea pinned upon the serpent god that led them.\nAnd it was also because the serpent god now had people who worshiped it that it stayed in the world it should have long fled, breaking off the coral branches that adorned its body, treading upon land where it should not have, and facing a foe it could never hope to match — till at last, its divine form was sundered along with the mountains, its ichor turned into plasma, and its will and power became a curse that could never be extinguished: Tatarigami.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "amenoma-kageuchi",
+      "akuoumaru",
+      "hakushin-ring",
+      "oathsworn-eye",
+      "mistsplitter-reforged",
+      "uraku-misugiri",
+      "everlasting-moonglow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/golden-branch-of-a-distant-sea/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 22070301,
+  "name": "Shadowy Husk: Defender",
+  "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it is now nothing but a husk that only bears memories of battle.\nAll shall decay in the end, and this is all that is left of the Black Serpent Knights amidst the merciless march of their sins, curses, and time itself.",
+  "type": "Abyss",
+  "drops": [
+    "gloomy-statuette",
+    "dark-statuette",
+    "deathly-statuette"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/shadowy-husk-defender/icon.png"
+}

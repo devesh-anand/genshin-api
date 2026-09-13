@@ -1,0 +1,23 @@
+{
+  "id": 112108,
+  "name": "Locus of a Clear Will",
+  "description": "A jade idol that houses a Wayob Manifestation.\nYou can roughly make out the form of an idol figurine. It has a greater capacity for channeling the Wayob's will and power.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "rock-cavernous-wayob-manifestation",
+    "flow-inverted-wayob-manifestation",
+    "foliar-swift-wayob-manifestation"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "sturdy-bone",
+      "ring-of-yaxche",
+      "waveriding-whirl",
+      "surfs-up",
+      "starcallers-watch"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/locus-of-a-clear-will/icon.png"
+}

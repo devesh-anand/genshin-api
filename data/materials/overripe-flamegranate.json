@@ -1,0 +1,18 @@
+{
+  "id": 113065,
+  "name": "Overripe Flamegranate",
+  "description": "A strange Flamegranate obtained after defeating the Gluttonous Yumkasaur Mountain King.\nNormally, Flamegranates that keep growing once they have already ripened simply fall into the mud and rot. But Flamegranates that have fallen from the Mountain King's mane, perhaps owing to the unique internal temperature conditions, exhibit a rarely-seen \"Overripe\" state. Flamegranates in this state are stable, phlogiston-packed, brightly colored, and possess a rich and highly distinctive flavor.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "gluttonous-yumkasaur-mountain-king"
+  ],
+  "used_by": {
+    "characters": [
+      "kachina",
+      "kinich"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/overripe-flamegranate/icon.png"
+}

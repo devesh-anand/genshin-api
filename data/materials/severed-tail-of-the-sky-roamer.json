@@ -1,0 +1,17 @@
+{
+  "id": 113091,
+  "name": "Severed Tail of the Sky-Roamer",
+  "description": "The tail feather of a powerful chimeric monster.\nPerhaps even a created monster ought to seek out its own destiny, lest it be cast into suffering by another's hand. With such thoughts in mind, the one who made these monsters was fond of giving his creations wings. Yet there are many winged creatures in this world, and only a small few ever truly learn to fly. Perhaps that, too, is what they call providence.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "chimeric-winged-lion"
+  ],
+  "used_by": {
+    "characters": [
+      "alyosha"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/severed-tail-of-the-sky-roamer/icon.png"
+}

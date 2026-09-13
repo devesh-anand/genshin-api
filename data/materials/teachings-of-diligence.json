@@ -1,0 +1,22 @@
+{
+  "id": 104313,
+  "name": "Teachings of Diligence",
+  "description": "Talent Level-Up material.\nIndustriousness is the foundation of the land of Geo.\nDiligence is having the bravery and the strength to conquer mountains and seas and to pursue gold and prosperity through honest, hard work.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xiangling",
+      "chongyun",
+      "ganyu",
+      "hu-tao",
+      "kaedehara-kazuha",
+      "yun-jin",
+      "yaoyao",
+      "lan-yan"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-diligence/icon.png"
+}

@@ -1,0 +1,8 @@
+{
+  "id": 20060601,
+  "name": "Pyro Specter",
+  "description": "A monster born from highly-concentrated Pyro elements that can float in the air.\nThere was once an Akademiya student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet.",
+  "type": "Elemental Lifeform",
+  "drops": [],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/pyro-specter/icon.png"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 112066,
+  "name": "Trimmed Red Silk",
+  "description": "A piece of red silk trimmed with simple decorations.\nA seasoned warrior can detect weaknesses from their foe's eyes and thus take advantage. The Eremites have long since lost a master to serve, and now they have no one to trust but themselves. Word has it that they are more than convinced that all things betray, even their own eyes.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "eremite-axe-vanguard",
+    "eremite-crossbow",
+    "eremite-ravenbeak-halberdier",
+    "eremite-linebreaker",
+    "eremite-sword-dancer",
+    "eremite-desert-clearwater",
+    "eremite-sunfrost",
+    "eremite-daythunder",
+    "eremite-stone-enchanter"
+  ],
+  "used_by": {
+    "characters": [
+      "dori",
+      "candace",
+      "faruzan",
+      "alhaitham",
+      "dehya",
+      "sethos"
+    ],
+    "weapons": [
+      "sapwood-blade",
+      "xiphos-moonlight",
+      "forest-regalia",
+      "clash-of-kings",
+      "ibis-piercer",
+      "key-of-khaj-nisut",
+      "light-of-foliar-incision",
+      "beacon-of-the-reed-sea",
+      "hunters-path"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/trimmed-red-silk/icon.png"
+}

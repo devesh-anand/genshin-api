@@ -1,0 +1,20 @@
+{
+  "id": 113042,
+  "name": "Mirror of Mushin",
+  "description": "The mirror that was set in Shouki no Kami's chest to separate him from the outside world. The mitsudomoe symbol is emblazoned on it as a deliberate show of status and might.\nThis symbol, however, is no show of obeisance to the master of lightning, but is instead a blade pointed at the existing powers that be in this world. Nor is the mirror a means to shut out the looks of judgment from onlooking people, but is rather a bulwark against this base and sullied world. Within this great temple shall punishment be meted out and ignorance be cleansed.\nDreams shall be overturned, desires shall be cut away, and karma shall be reset.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "shouki-no-kami-the-prodigal"
+  ],
+  "used_by": {
+    "characters": [
+      "layla",
+      "alhaitham",
+      "mika",
+      "xilonen"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mirror-of-mushin/icon.png"
+}

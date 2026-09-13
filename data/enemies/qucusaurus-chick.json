@@ -1,0 +1,12 @@
+{
+  "id": 26230101,
+  "name": "Qucusaurus Chick",
+  "description": "A young Qucusaur with a light, agile body.\nIts neck and wings have yet to fully develop, and it still has a long way to go before it can wield gaseous phlogiston. There are stories of older Qucusaurs pushing younglings off cliffs to encourage them to fly. While the truth of such tales is uncertain, as long as it keeps practicing day and night, there can be no doubt that the soft-feathered fledgling will eventually grow strong and resilient.",
+  "type": "Beast",
+  "drops": [
+    "juvenile-fang",
+    "seasoned-fang",
+    "tyrants-fang"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/qucusaurus-chick/icon.png"
+}

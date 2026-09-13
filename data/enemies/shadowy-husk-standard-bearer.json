@@ -1,0 +1,12 @@
+{
+  "id": 22070101,
+  "name": "Shadowy Husk: Standard Bearer",
+  "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it has now lost any awareness of memory.\nBut even so, it holds the banner of the royal house aloft into battle. Though it has forgotten its comrades or any royal blessing they might have been given, it will never lay this banner down.",
+  "type": "Abyss",
+  "drops": [
+    "gloomy-statuette",
+    "dark-statuette",
+    "deathly-statuette"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/shadowy-husk-standard-bearer/icon.png"
+}

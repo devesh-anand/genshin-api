@@ -1,0 +1,12 @@
+{
+  "id": 24010301,
+  "name": "Ruin Grader",
+  "description": "An ancient humanoid war machine.\nTheir form is similar to that of Ruin Guards, but is more distorted and more powerful. Energy cores have been installed in both its legs, as though to power its overly heavy form.",
+  "type": "Automatron",
+  "drops": [
+    "chaos-device",
+    "chaos-circuit",
+    "chaos-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ruin-grader/icon.png"
+}

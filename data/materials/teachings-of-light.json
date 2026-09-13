@@ -1,0 +1,19 @@
+{
+  "id": 104326,
+  "name": "Teachings of Light",
+  "description": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThe ruler who claims to have perceived all forever aims to hoard celestial glory. But this vision that cannot be shared only leads people to long for it more fiercely, like moths diving into the flame.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "raiden-shogun",
+      "sayu",
+      "gorou",
+      "yae-miko",
+      "chiori"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-light/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 20011201,
+  "name": "Pyro Slime",
+  "description": "A small monster created by the sedimentation of Pyro dispersed throughout nature.\nIts intelligence is very basic, but its uses are just as broad — well, for hilichurls, that is.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/pyro-slime/icon.png"
+}

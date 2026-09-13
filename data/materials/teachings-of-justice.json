@@ -1,0 +1,19 @@
+{
+  "id": 104341,
+  "name": "Teachings of Justice",
+  "description": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Without the guidance of justice, all law is reduced to meaningless words, to be tampered with and slaughtered at a whim.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "freminet",
+      "charlotte",
+      "furina",
+      "clorinde",
+      "escoffier"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-justice/icon.png"
+}

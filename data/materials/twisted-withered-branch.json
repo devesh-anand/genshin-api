@@ -1,0 +1,17 @@
+{
+  "id": 113088,
+  "name": "Twisted Withered Branch",
+  "description": "A withered branch recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nA twisted bough grown from a giant tree meant to remain buried deep beneath the earth. Even cut off from its source, it still holds a strange and malevolent power.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "il-dottore"
+  ],
+  "used_by": {
+    "characters": [
+      "odette"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/twisted-withered-branch/icon.png"
+}

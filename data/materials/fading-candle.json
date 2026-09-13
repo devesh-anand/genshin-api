@@ -1,0 +1,19 @@
+{
+  "id": 113060,
+  "name": "Fading Candle",
+  "description": "A candle that you picked up in the ruins after completing the duel against The Knave.\nLegends passed down claim that when the candle's flame flickers in the hands of sinners, the light may become shadows, making footsteps faint and masking fatal intent.\nYou cannot tell what material this is made of, and it weeps no wax after burning, releasing only black ash that scatters into the wind, drifting towards the distant unknown.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "the-knave"
+  ],
+  "used_by": {
+    "characters": [
+      "arlecchino",
+      "kachina",
+      "yumemizuki-mizuki"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/fading-candle/icon.png"
+}

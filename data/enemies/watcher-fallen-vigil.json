@@ -1,0 +1,14 @@
+{
+  "id": 24111101,
+  "name": "Watcher: Fallen Vigil",
+  "description": "A shadow construct born from the overflow of the mighty primordial being, a Watcher who once dwelt in the highest heavens, yet was cast down into the mortal realm for daring to open its eye.\nA Watcher was meant only to stand in silent vigil within the Pillar Hall of the World. Any inquiry that transgressed the ordained order was deemed an unforgivable sin, tantamount to seeking the world's annihilation.\nAs sovereign of the world's watchtower, it wielded the authority bestowed by its creator — the power to correct all matters of \"innovation\" and \"evolution.\" After enduring countless aeons of nescience, it finally chose to open that eye, defying the will of its creator, beholding both the falsehoods and the truths of the world.\nThe Watcher does not know why its master departed. Only the eternal punishment remains, trapped within a stagnant interstice of time...",
+  "type": "Automatron",
+  "drops": [
+    "prithiva-topaz-sliver",
+    "prithiva-topaz-fragment",
+    "prithiva-topaz-chunk",
+    "prithiva-topaz-gemstone",
+    "plume-of-the-fallen-watcher"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/watcher-fallen-vigil/icon.png"
+}

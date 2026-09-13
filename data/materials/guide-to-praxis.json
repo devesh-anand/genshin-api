@@ -1,0 +1,21 @@
+{
+  "id": 104336,
+  "name": "Guide to Praxis",
+  "description": "Talent Level-Up material.\nPraxes are the roots of the nation of wisdom.\nPraxes validate words of honesty. Though one speaks and acts out of goodwill, one has not yet obtained wisdom. Wisdom, born from action, is a signet pressed upon honest words.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "collei",
+      "nilou",
+      "wanderer",
+      "dehya",
+      "sethos",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-praxis/icon.png"
+}

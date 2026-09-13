@@ -1,0 +1,15 @@
+{
+  "id": 104368,
+  "name": "Teachings of Fortitude",
+  "description": "Talent Level-Up Material.\nFortitude is the defining character of the frozen realm.\nIt stems from a raw yearning for survival. Even if scattered far from fertile soil, a fragile seed can rely on this desperate longing to drive its roots deep beneath the frozen tundra.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "alyosha"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-fortitude/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 26050701,
+  "name": "Rimebiter Bathysmal Vishap",
+  "description": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Cryo element.\nThe coming of humans sparked a conflict and a resultant evolution within the Bathysmal Vishaps, just as ants might divide up labor and biological characteristics, thus appearing in different forms. These vishaps are stronger than their ordinary kin.",
+  "type": "Beast",
+  "drops": [
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "dragonheirs-false-fin",
+    "fragile-bone-shard",
+    "sturdy-bone-shard",
+    "fossilized-bone-shard"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/rimebiter-bathysmal-vishap/icon.png"
+}

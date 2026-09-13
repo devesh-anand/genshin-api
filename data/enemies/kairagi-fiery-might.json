@@ -1,0 +1,12 @@
+{
+  "id": 25100201,
+  "name": "Kairagi: Fiery Might",
+  "description": "Samurai who have fallen into banditry.\nThey practiced martial arts since they were young, but lost the opportunity to serve the people due to certain reasons and turned from the righteous path. Their blade's edges are not cold like ordinary steel, but instead burn with a bitter flame. They seem to have used paper seals, created from a lost Kamuna art, to set their blades afire.",
+  "type": "Human Faction",
+  "drops": [
+    "old-handguard",
+    "kageuchi-handguard",
+    "famed-handguard"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/kairagi-fiery-might/icon.png"
+}

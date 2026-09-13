@@ -1,0 +1,19 @@
+{
+  "id": 113003,
+  "name": "Dvalin's Plume",
+  "description": "A feather from the tail of the Dragon of the East.\nAs a dragon's feather it has experienced more than a thousand years' worth of winds. One senses within it a yearning for freedom so strong that it could whip up a light breeze to rescue it from its current confines. Its former owner's recognition of you is what makes it content to stay in your hands.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "stormterror"
+  ],
+  "used_by": {
+    "characters": [
+      "jean",
+      "diluc",
+      "bennett"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dvalins-plume/icon.png"
+}

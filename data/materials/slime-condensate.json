@@ -1,0 +1,62 @@
+{
+  "id": 112002,
+  "name": "Slime Condensate",
+  "description": "A thick coating found on slimes. Most commonly seen material in elemental workshops.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "pyro-slime",
+    "large-pyro-slime",
+    "hydro-slime",
+    "large-hydro-slime",
+    "anemo-slime",
+    "large-anemo-slime",
+    "electro-slime",
+    "large-electro-slime",
+    "mutant-electro-slime",
+    "dendro-slime",
+    "large-dendro-slime",
+    "cryo-slime",
+    "large-cryo-slime",
+    "geo-slime",
+    "large-geo-slime"
+  ],
+  "used_by": {
+    "characters": [
+      "lisa",
+      "venti",
+      "xiangling",
+      "xiao",
+      "zhongli",
+      "arataki-itto",
+      "yaoyao",
+      "gaming",
+      "columbina"
+    ],
+    "weapons": [
+      "waster-greatsword",
+      "old-mercs-pal",
+      "harbinger-of-dawn",
+      "white-iron-greatsword",
+      "magic-guide",
+      "sharpshooters-oath",
+      "the-flute",
+      "the-black-sword",
+      "royal-greatsword",
+      "snow-tombed-starsilver",
+      "luxurious-sea-lord",
+      "talking-stick",
+      "favonius-lance",
+      "missive-windspear",
+      "mappa-mare",
+      "sacrificial-bow",
+      "alley-hunter",
+      "skyward-blade",
+      "skyward-pride",
+      "staff-of-homa",
+      "lost-prayer-to-the-sacred-winds",
+      "amos-bow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/slime-condensate/icon.png"
+}

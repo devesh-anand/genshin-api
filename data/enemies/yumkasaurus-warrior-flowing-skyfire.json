@@ -1,0 +1,12 @@
+{
+  "id": 25510401,
+  "name": "Yumkasaurus Warrior: Flowing Skyfire",
+  "description": "A powerful warrior from the Canopy, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\nA warrior who can use a grappling hook to extend their attack range. Following intricate mechanical tinkering, the handcannon they wield can be fired using said grappling hook. For the Saurian-Crowned warriors of the Scions of the Canopy, refining one's skills and thought is more important than training the spirit and will.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/yumkasaurus-warrior-flowing-skyfire/icon.png"
+}

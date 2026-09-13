@@ -1,0 +1,28 @@
+{
+  "id": 112154,
+  "name": "Accreted Growth",
+  "description": "An accretion formed by powerful Volkodlak.\nAn accretion that has fully fused with an organ or bone. One could even say it's a newly grown bone or organ at the nodes of the Volkodlak's power circulation. Only long-lived Volkodlaks who have ceaselessly honed their strength can form such growths within their bodies.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "volkodlak-raider",
+    "volkodlak-sharpshooter",
+    "volkodlak-lobber",
+    "volkodlak-basher",
+    "leomastiff-guard",
+    "long-eared-striker",
+    "channel-contact",
+    "fanged-zealot",
+    "voywolf-hunter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "emberwell",
+      "frostbreath",
+      "echoes-of-the-heart",
+      "exaiphanes-blade"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/accreted-growth/icon.png"
+}

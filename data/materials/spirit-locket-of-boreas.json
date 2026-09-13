@@ -1,0 +1,20 @@
+{
+  "id": 113008,
+  "name": "Spirit Locket of Boreas",
+  "description": "A bit of the Great Wolf King of the North's power drawn from its soul.\nThis land was once a realm of freezing-cold blizzards and ice storms filled with razor-sharp ice shards, all at the command of Boreas. In his final moments, he finally realized the chilling north wind could only extinguish life, not nurture it. Therefore, Boreas let his powers freely flow into the land to protect it and its inhabitants.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "lupus-boreas-dominator-of-wolves"
+  ],
+  "used_by": {
+    "characters": [
+      "kaeya",
+      "ningguang",
+      "fischl",
+      "sucrose"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spirit-locket-of-boreas/icon.png"
+}

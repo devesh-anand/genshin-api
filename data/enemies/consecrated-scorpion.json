@@ -1,0 +1,12 @@
+{
+  "id": 26100401,
+  "name": "Consecrated Scorpion",
+  "description": "An arthropod that has mutated after feeding from greater lifeforms.\nLifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge.",
+  "type": "Beast",
+  "drops": [
+    "desiccated-shell",
+    "sturdy-shell",
+    "marked-shell"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/consecrated-scorpion/icon.png"
+}

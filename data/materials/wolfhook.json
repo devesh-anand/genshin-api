@@ -1,0 +1,17 @@
+{
+  "id": 100021,
+  "name": "Wolfhook",
+  "description": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "razor",
+      "mika",
+      "varka"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/wolfhook/icon.png"
+}

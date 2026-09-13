@@ -1,0 +1,18 @@
+{
+  "id": 113086,
+  "name": "Plume of the Fallen Watcher",
+  "description": "A fallen feather gathered from a corner of the mortal realm after defeating a Fallen Watcher.\nCompared to the true divine envoys, these feathered watchers bear a closer resemblance to the \"angels\" of common lore. Perhaps this is because their own creator failed to grasp the divine design of the Winged One above, and can only clumsily imitate the shadow cast by that ideal.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "watcher-fallen-vigil"
+  ],
+  "used_by": {
+    "characters": [
+      "linnea",
+      "sandrone"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/plume-of-the-fallen-watcher/icon.png"
+}

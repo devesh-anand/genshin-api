@@ -1,0 +1,25 @@
+{
+  "id": 29050101,
+  "name": "La Signora",
+  "description": "Signora, the Eighth of the Fatui Harbingers.\nUnlike other Fatui who use the authority granted by Delusions, her Delusion is meant to shackle a flame that will devour everything. As opposed to a weapon used to kill, it might be more fitting to consider this a tool of imprisonment.\nAnd it was the embers of that flame, which had accumulated over many long years, that would break through the frosty seal of the Delusion and apply a warped rouge upon her.\n\nThe crimson dawn was reflected in her pupils, and at last, she unfolded her flaming wings and flew towards the light.\n<i>\"But that light is not the dawn, dear Rosalyne. That is a sea of flame that will consume everything.\"</i>\nA voice spoke to her amidst the light.\n\nYet it mattered not, for she knew in her heart that the flames had devoured her long ago.",
+  "type": "Boss",
+  "drops": [
+    "northlander-sword-billet",
+    "northlander-bow-billet",
+    "northlander-claymore-billet",
+    "northlander-catalyst-billet",
+    "northlander-polearm-billet",
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "molten-moment",
+    "hellfire-butterfly",
+    "ashen-heart"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/la-signora/icon.png"
+}

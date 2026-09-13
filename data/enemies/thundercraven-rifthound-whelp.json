@@ -1,0 +1,12 @@
+{
+  "id": 22040201,
+  "name": "Thundercraven Rifthound Whelp",
+  "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\nIn times long gone, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.",
+  "type": "Abyss",
+  "drops": [
+    "concealed-claw",
+    "concealed-unguis",
+    "concealed-talon"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/thundercraven-rifthound-whelp/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 112155,
+  "name": "Hollow Root of Life",
+  "description": "A branch dropped by a Leshy before it returned to silence.\nWith only a few crystals grown upon it, this branch holds little power and gives off a faint glow.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "juvenile-tree-segment",
+    "rugged-elder-leshy"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "blade-of-atonement",
+      "song-of-the-vigil",
+      "covenant-of-frost-and-snow",
+      "whitelake-frostfeather"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/hollow-root-of-life/icon.png"
+}

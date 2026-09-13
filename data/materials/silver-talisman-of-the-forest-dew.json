@@ -1,0 +1,22 @@
+{
+  "id": 114039,
+  "name": "Silver Talisman of the Forest Dew",
+  "description": "Weapon Ascension Material.\nIn the myriad lore of the forest, the one in the striped cape that resembled blazing flames was the Greater Lord of the Labyrinths and the Owner of the Moon-Mirrored Spring.\nWhen he bowed his head and struck up a friendship with the Lord of Verdure, the tokens of their friendship were the gems that glimmered like water and silver that gleamed like the moonlight.\nTo repay such a gesture, the Lord of Verdure promised to keep secrets for the Greater Lord of the Labyrinths and safeguard the intricate and beautiful dreams of the rainforest.\nNo one could have foretold that the magnificent mansion of secrets and dreams would later fade away amidst the shroud of the dark flame of oblivion, after which its ash returned to the soil and became nutrients for the virgin rainforests.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "sapwood-blade",
+      "xiphos-moonlight",
+      "forest-regalia",
+      "dialogues-of-the-desert-sages",
+      "clash-of-kings",
+      "ibis-piercer",
+      "key-of-khaj-nisut",
+      "light-of-foliar-incision"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silver-talisman-of-the-forest-dew/icon.png"
+}

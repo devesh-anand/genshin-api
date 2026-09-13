@@ -1,0 +1,23 @@
+{
+  "id": 114032,
+  "name": "Narukami's Valor",
+  "description": "Weapon Ascension Material.\nThe treasure of the lord of thunder is her majesty, and that majesty is embodied in her valor and wrath. Her wrath comes from the love that persists in her heart, and her valor supports that anger. Thus, whomsoever should block the path towards eternity or lay a finger on Inazuma's people shall become her foe.\nThey say that there were four great spirits, three divine foxes, and two great swords — but that the symbol of Her Excellency, the Almighty Narukami Ogosho, could only be a single strike, unsurpassed and brilliant as a meteor.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "toukabou-shigure",
+      "katsuragikiri-nagamasa",
+      "hamayumi",
+      "predator",
+      "mouuns-moon",
+      "haran-geppaku-futsu",
+      "redhorn-stonethresher",
+      "sunny-morning-sleep-in",
+      "thundering-pulse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/narukamis-valor/icon.png"
+}

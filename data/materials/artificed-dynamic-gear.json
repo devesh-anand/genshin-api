@@ -1,0 +1,44 @@
+{
+  "id": 112085,
+  "name": "Artificed Dynamic Gear",
+  "description": "Clockwork meka gear.\nPrecision processing and advancement of material science are the keys to clockwork meka development in Fontaine. With the help of advanced equipment, any engineer is capable of making a meka that outshines \"Lord-Artificer\" Alain Guillotin's creation.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "recon-log-mek",
+    "arithmetic-enhancer-mek",
+    "underwater-survey-mek",
+    "geological-survey-mek",
+    "underwater-patrol-mek",
+    "nimble-harvester-mek",
+    "area-alert-mek",
+    "assault-specialist-mek",
+    "suppression-specialist-mek",
+    "annihilation-specialist-mek",
+    "construction-specialist-mek"
+  ],
+  "used_by": {
+    "characters": [
+      "lynette",
+      "wriothesley",
+      "charlotte",
+      "chevreuse",
+      "emilie",
+      "escoffier",
+      "skirk"
+    ],
+    "weapons": [
+      "tidal-shadow",
+      "portable-power-saw",
+      "ultimate-overlords-mega-magic-sword",
+      "rightful-reward",
+      "prospectors-drill",
+      "sequence-of-solitude",
+      "absolution",
+      "verdict",
+      "crimson-moons-semblance",
+      "tome-of-the-eternal-flow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/artificed-dynamic-gear/icon.png"
+}

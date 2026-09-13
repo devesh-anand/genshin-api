@@ -1,0 +1,12 @@
+{
+  "id": 23010401,
+  "name": "Fatui Skirmisher - Geochanter Bracer",
+  "description": "A skirmisher with the ability to generate a Geo Ward and defend their allies.\nUnlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might.\nTo complete their tasks and reduce losses in men and material, their tactics are thus more reliant on teamwork.",
+  "type": "Fatui",
+  "drops": [
+    "recruits-insignia",
+    "sergeants-insignia",
+    "lieutenants-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fatui-skirmisher-geochanter-bracer/icon.png"
+}

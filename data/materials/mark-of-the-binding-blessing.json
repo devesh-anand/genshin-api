@@ -1,0 +1,18 @@
+{
+  "id": 113064,
+  "name": "Mark of the Binding Blessing",
+  "description": "A horn fragment obtained after defeating the Goldflame Qucusaur Tyrant.\nA strange mark known as the \"Flamelord's Blessing\" extends out across its surface. Saurians that bear this mark are said to wield an ancient power of terrible potency. Yet given their slighter statures, this power is too great a burden for the Saurians of the present day to bear. As such, it has been the cause of much calamity, and many tragedies have stemmed from the uncontrollable power it has unleashed.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "goldflame-qucusaur-tyrant"
+  ],
+  "used_by": {
+    "characters": [
+      "mualani",
+      "ororon"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mark-of-the-binding-blessing/icon.png"
+}

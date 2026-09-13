@@ -1,0 +1,16 @@
+{
+  "id": 101249,
+  "name": "Quenepa Berry",
+  "description": "Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kachina",
+      "citlali"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/quenepa-berry/icon.png"
+}

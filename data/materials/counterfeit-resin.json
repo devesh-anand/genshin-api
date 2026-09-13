@@ -1,0 +1,17 @@
+{
+  "id": 113087,
+  "name": "Counterfeit Resin",
+  "description": "A resin recovered from the shattered depths of the Ley Lines after the defeat of the heretic hidden within Irminsul.\nOnce a crystal meant to bear the many beautiful memories that make up this world, it is now filled instead with delusions and malice that do not belong here.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "il-dottore"
+  ],
+  "used_by": {
+    "characters": [
+      "nicole"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/counterfeit-resin/icon.png"
+}

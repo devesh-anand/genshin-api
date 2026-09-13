@@ -1,0 +1,12 @@
+{
+  "id": 20010301,
+  "name": "Anemo Slime",
+  "description": "A small monster created by the coalescing of Anemo dispersed throughout nature.\nIt is able to float in the air to a certain degree due to the power of Anemo.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/anemo-slime/icon.png"
+}

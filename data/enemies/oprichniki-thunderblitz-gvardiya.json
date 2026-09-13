@@ -1,0 +1,12 @@
+{
+  "id": 23079301,
+  "name": "Oprichniki Thunderblitz Gvardiya",
+  "description": "An elite officer of the Fatui Oprichniki who specializes in using twin guns in combat.\nUnlike their Skirmisher cousins, Oprichniki officers almost all hail from the Snezhnayan Royal Military Academy, whether due to the privilege of noble birth or the rare talent to escape a common background. After all, neither is truly different from the other within the Tsaritsa's beneficent, loving ideals. Traditionally, only fae could become elite Gvardiya, but today, this glorious role and title has been given to Oprichniki officers — a more equal division for the construction of a new world.",
+  "type": "Fatui",
+  "drops": [
+    "tattered-warrant",
+    "immaculate-warrant",
+    "frost-etched-warrant"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/oprichniki-thunderblitz-gvardiya/icon.png"
+}

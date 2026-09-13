@@ -1,0 +1,12 @@
+{
+  "id": 26050801,
+  "name": "Bolteater Bathysmal Vishap",
+  "description": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Electro element.\nFollowing the fading of the Seven Sovereigns' power, a new generation of Sovereigns is presently being born. But now that the Bathysmal Vishaps have evolved in this manner, they have lost their purity. As such, the Dragon of Water will no longer be born from among their ranks. Prophecy holds that the new Dragon of Water will definitely descend in the form of a human.",
+  "type": "Beast",
+  "drops": [
+    "fragile-bone-shard",
+    "sturdy-bone-shard",
+    "fossilized-bone-shard"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/bolteater-bathysmal-vishap/icon.png"
+}

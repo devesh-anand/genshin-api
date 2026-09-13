@@ -1,0 +1,12 @@
+{
+  "id": 24060401,
+  "name": "Geological Survey Mek",
+  "description": "A clockwork meka designed for surveying underground resources and certain minerals.\nDue to the fact that the desired metal type can be set, this device has proven very popular among Treasure Hoarders and Adventurers alike.",
+  "type": "Automatron",
+  "drops": [
+    "meshing-gear",
+    "mechanical-spur-gear",
+    "artificed-dynamic-gear"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/geological-survey-mek/icon.png"
+}

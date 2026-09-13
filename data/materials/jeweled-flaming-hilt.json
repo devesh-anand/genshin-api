@@ -1,0 +1,18 @@
+{
+  "id": 112142,
+  "name": "Jeweled Flaming Hilt",
+  "description": "The hilt remains of a flaming sword once wielded by a Domain Keeper.\n A sword of blazing fire was once the symbol of admonition. Empowered by the authority of \"Space,\" it proclaimed the absolute and infallible will of the divine.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "domain-keeper"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "angelos-heptades",
+      "golden-frostbound-oath"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/jeweled-flaming-hilt/icon.png"
+}

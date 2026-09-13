@@ -1,0 +1,15 @@
+{
+  "id": 101248,
+  "name": "Brilliant Chrysanthemum",
+  "description": "A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xilonen"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/brilliant-chrysanthemum/icon.png"
+}

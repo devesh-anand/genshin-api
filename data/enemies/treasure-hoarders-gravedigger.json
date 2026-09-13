@@ -1,0 +1,12 @@
+{
+  "id": 25030201,
+  "name": "Treasure Hoarders: Gravedigger",
+  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n<i>\"They say that we stand on the shoulders of giants. That means digging up the accumulated wealth of our forebears, taking them with us, and... uh, returning them to the economic cycle! What a noble endeavor, am I right?\"</i>\n—A certain Treasure Hoarder Gravedigger, while delving deep into a ruin.",
+  "type": "Human Faction",
+  "drops": [
+    "treasure-hoarder-insignia",
+    "silver-raven-insignia",
+    "golden-raven-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/treasure-hoarders-gravedigger/icon.png"
+}

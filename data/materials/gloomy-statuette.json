@@ -1,0 +1,27 @@
+{
+  "id": 112017,
+  "name": "Gloomy Statuette",
+  "description": "An idol made in the likeness of some unknown person.\nEven though this carving has seen many years pass, it still has not been damaged in any way. It seems that its previous owner must have cherished it like some holy icon.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "abyss-herald-wicked-torrents",
+    "abyss-lector-fathomless-flames",
+    "abyss-lector-violet-lightning",
+    "shadowy-husk-standard-bearer",
+    "shadowy-husk-line-breaker",
+    "shadowy-husk-defender",
+    "black-serpent-knight-windcutter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "kagotsurube-isshin",
+      "missive-windspear",
+      "fruit-of-fulfillment",
+      "haran-geppaku-futsu",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/gloomy-statuette/icon.png"
+}

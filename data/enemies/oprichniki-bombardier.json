@@ -1,0 +1,12 @@
+{
+  "id": 23078101,
+  "name": "Oprichniki Bombardier",
+  "description": "A soldier of the Fatui Oprichniki, equipped with a specialized hover pack and explosive charges, and tasked with performing breaching operations.\nAs troops with immense breakthrough potential, bombardiers are often sent to the most dire of battlefields, making them the troops who gain meritorious promotions most quickly. It is said that Oprichniki officers overwhelmingly come from the ranks of the bombardiers.",
+  "type": "Fatui",
+  "drops": [
+    "tattered-warrant",
+    "immaculate-warrant",
+    "frost-etched-warrant"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/oprichniki-bombardier/icon.png"
+}

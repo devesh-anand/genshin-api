@@ -1,0 +1,23 @@
+{
+  "id": 112093,
+  "name": "Operative's Standard Pocket Watch",
+  "description": "A standard-issue pocket watch given to Fatui Operatives.\nThe head of the watch is not well-designed, as the outer casing has way too many sharp angles, which can cause excessive wear and tear on clothes. As such, there will always be those who will stuff this watch into a more practical, less distinctive casing for use.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "wind-operative",
+    "frost-operative"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "the-dockhands-assistant",
+      "sword-of-narzissenkreuz",
+      "ultimate-overlords-mega-magic-sword",
+      "prospectors-drill",
+      "absolution",
+      "cashflow-supervision"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/operatives-standard-pocket-watch/icon.png"
+}

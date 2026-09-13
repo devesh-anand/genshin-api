@@ -1,0 +1,41 @@
+{
+  "id": 112044,
+  "name": "Old Handguard",
+  "description": "A battle-worn handguard that was once mounted on an Inazuman blade.\nFor those adept in the art of the sword, the tsuba is a defense from the edge of an opponent's blade. For beginners, it is a defense made for their own right hand, to protect it from itself.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "nobushi-jintouban",
+    "nobushi-hitsukeban",
+    "nobushi-kikouban",
+    "kairagi-fiery-might",
+    "kairagi-dancing-thunder"
+  ],
+  "used_by": {
+    "characters": [
+      "kamisato-ayaka",
+      "raiden-shogun",
+      "yae-miko",
+      "kamisato-ayato",
+      "wanderer",
+      "yumemizuki-mizuki",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "amenoma-kageuchi",
+      "toukabou-shigure",
+      "finale-of-the-deep",
+      "katsuragikiri-nagamasa",
+      "akuoumaru",
+      "wavebreakers-fin",
+      "tamayuratei-no-ohanashi",
+      "mistsplitter-reforged",
+      "haran-geppaku-futsu",
+      "uraku-misugiri",
+      "redhorn-stonethresher",
+      "engulfing-lightning"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/old-handguard/icon.png"
+}

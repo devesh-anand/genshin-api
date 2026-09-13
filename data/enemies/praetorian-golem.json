@@ -1,0 +1,12 @@
+{
+  "id": 26140201,
+  "name": "Praetorian Golem",
+  "description": "A moving statue shaped like a warrior who will swing their sword at all who dare trespass upon the area under their guardianship. It is unclear if it is a soul or magic that powers them.\nThey say that legions of golems once conquered the nations that called the high sea home, and this might have been amongst their number. The great towers and palaces that now sleep beneath the waves once bore witness to the fate of those who stand in the path of the wheel of fate.",
+  "type": "Beast",
+  "drops": [
+    "ruined-hilt",
+    "splintered-hilt",
+    "still-smoldering-hilt"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/praetorian-golem/icon.png"
+}

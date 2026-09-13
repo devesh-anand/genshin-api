@@ -1,0 +1,18 @@
+{
+  "id": 25090101,
+  "name": "Maguu Kenki",
+  "description": "A disciplined mechanical swordsman.\nDoesn't seem to have the ability nor will to speak, but instead only seeks to communicate with crossed swords.\nIt is said that this machine was made using the memories of the first-generation master of a certain sword school. However, it malfunctioned, lost control, and was ultimately discarded.\nSome sing that the machine's spirit still lingers in the place where its fate was ended. They also say that the vicious mask that serves as its guard was inspired by a famous oni from that era.",
+  "type": "Automatron",
+  "drops": [
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "marionette-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/maguu-kenki/icon.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 114091,
+  "name": "Exhilaration of the Cellared Spiritual Nectar",
+  "description": "Weapon Ascension Material.\nLegend has it that long ago, countless casks of fine wine were poured into a frozen lake.\nSome say the wine was intended as wartime provisions, which had to be destroyed after some mishap. Others say a certain Grand Duke of the Domovoy had lost a bet to the ruler of the Water Imps.\nOnly when unquenchable azure hellflame spread across the lake, and the foes below writhed in choking waves, did they come to understand:\nIn the hands of the people well versed in the turning of the world, water itself could burn, and even the sweetest nectar could prove deadlier than poison.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "frostbreath",
+      "whitelake-frostfeather"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/exhilaration-of-the-cellared-spiritual-nectar/icon.png"
+}

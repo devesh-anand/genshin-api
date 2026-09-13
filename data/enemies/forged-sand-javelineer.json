@@ -1,0 +1,12 @@
+{
+  "id": 25505101,
+  "name": "Forged Sand Javelineer",
+  "description": "A valiant warrior of the canyon, and a tribal guardian that patrols the crystal mountains and rivers.\nIn an era when the ridges were shattered and the tribes needed to rebuild, the warriors used javelins as markers to determine the locations on both sides of the canyon from which passages should be dug. That meant that each javelin had to be sunk deep into the rock.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/forged-sand-javelineer/icon.png"
+}

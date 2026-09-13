@@ -1,0 +1,32 @@
+{
+  "id": 114020,
+  "name": "Mist Veiled Primo Elixir",
+  "description": "Weapon Ascension Material.\nAn elixir of the highest quality. It embodies a state of intertwining order and chaos, and is said to mirror how the world was when it was first created. Of course, a certain someone knows that this was not the case.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "fillet-blade",
+      "debate-club",
+      "halberd",
+      "twin-nephrite",
+      "messenger",
+      "prototype-rancour",
+      "rainslasher",
+      "blackcliff-slasher",
+      "dragons-bane",
+      "blackcliff-pole",
+      "royal-spear",
+      "prototype-amber",
+      "eye-of-perception",
+      "prototype-crescent",
+      "primordial-jade-cutter",
+      "the-unforged",
+      "calamity-queller",
+      "cranes-echoing-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mist-veiled-primo-elixir/icon.png"
+}

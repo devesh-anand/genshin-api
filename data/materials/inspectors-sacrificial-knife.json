@@ -1,0 +1,32 @@
+{
+  "id": 112031,
+  "name": "Inspector's Sacrificial Knife",
+  "description": "In the hands of its lord, this fierce weapon has handled many \"debts.\" No one has eyes in the back of their heads, and this weapon and its related techniques are designed around that weakness.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "fatui-pyro-agent"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dark-iron-sword",
+      "white-tassel",
+      "emerald-orb",
+      "slingshot",
+      "lions-roar",
+      "blackcliff-longsword",
+      "whiteblind",
+      "lithic-blade",
+      "crescent-pike",
+      "solar-pearl",
+      "blackcliff-agate",
+      "rust",
+      "blackcliff-warbow",
+      "fading-twilight",
+      "summit-shaper",
+      "primordial-jade-winged-spear"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/inspectors-sacrificial-knife/icon.png"
+}

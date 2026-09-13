@@ -1,0 +1,15 @@
+{
+  "id": 101209,
+  "name": "Fluorescent Fungus",
+  "description": "A mushroom that glows like a night-light. Some curious power lies hidden within it.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "thoma"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/fluorescent-fungus/icon.png"
+}

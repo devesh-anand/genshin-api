@@ -1,0 +1,18 @@
+{
+  "id": 104361,
+  "name": "Philosophies of Elysium",
+  "description": "Talent Level-Up material.\n\"Elysium\" is the dream of the land beneath the moon.\nSeldom do we share the same dreams of paradise. For those who wish not to settle for the present, there is no greater paradise than Nod-Krai. Yet for all the rest, the truth is quite the opposite.",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "aino",
+      "nefer",
+      "illuga",
+      "nicole"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-elysium/icon.png"
+}

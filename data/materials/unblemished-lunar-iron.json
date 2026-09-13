@@ -1,0 +1,17 @@
+{
+  "id": 112145,
+  "name": "Unblemished Lunar Iron",
+  "description": "A core taken from within a defeated ancient machine that had wandered the lunar surface. It seems unlike the metals commonly found in Teyvat.\nIt was untouched by earthly impurity, eternal and free from the seven calamities and eight sufferings, and it once longed to sing out into the endless void. Yet when every calculation reached its end, all that remained in the lunar palace was useless, cold iron.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "precursors-secret-source-matrix-of-overseer-network"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "a-teaspoon-of-transcendence"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/unblemished-lunar-iron/icon.png"
+}

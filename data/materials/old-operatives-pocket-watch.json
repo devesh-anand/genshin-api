@@ -1,0 +1,23 @@
+{
+  "id": 112092,
+  "name": "Old Operative's Pocket Watch",
+  "description": "A standard-issue pocket watch given to Fatui Operatives.\nThe erosion and oxidation on the casing serve as a loyal record of its owners' days spent as an instrument, enforcing the Fatui's will.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "wind-operative",
+    "frost-operative"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "the-dockhands-assistant",
+      "sword-of-narzissenkreuz",
+      "ultimate-overlords-mega-magic-sword",
+      "prospectors-drill",
+      "absolution",
+      "cashflow-supervision"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/old-operatives-pocket-watch/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 23085201,
+  "name": "Cutting Edge All-Purpose Scout Landcruiser",
+  "description": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\nThe all-purpose scout combat package is designed for both long- and short-range combat, and not only leads scout Landcruiser squads, but also provides close support for All-Purpose Storm Landcruisers during high-intensity battles, such as crossing specialized anti-Landcruiser trenches, or destroying enemy strongpoints. This Landcruiser type can also keep up with the tip of the spear as it breaks through in depth, before swinging out to the wings and swiftly attacking key targets in the enemy's rear lines.",
+  "type": "Fatui",
+  "drops": [
+    "broken-drive-shaft",
+    "reinforced-drive-shaft",
+    "precision-drive-shaft"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cutting-edge-all-purpose-scout-landcruiser/icon.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": 100034,
+  "name": "Violetgrass",
+  "description": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "qiqi",
+      "xinyan",
+      "baizhu"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/violetgrass/icon.png"
+}

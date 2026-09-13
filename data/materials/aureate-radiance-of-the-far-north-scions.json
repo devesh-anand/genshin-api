@@ -1,0 +1,19 @@
+{
+  "id": 114084,
+  "name": "Aureate Radiance of the Far-North Scions",
+  "description": "Weapon Ascension Material.\nWith the unblessed birth of the prophesied son, a millennia-long plan ushered in a bleak twilight.\nA scheme born of cunning was shattered by foolish betrayal. The youth who was supposed to be king took the maid who was supposed to serve him and stole the secret treasure that was supposed to be his, only to reject the crowns that fate had ordained for him.\nIn time, the king who was destined to rule Elysium went down in history as an unpardonable thief, and by the time the true new moon shone upon the land, the far north's final wish of golden grandeur had already been buried by a priestess, who had never believed in any god, in the empty grave of her king.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "moonweavers-dawn",
+      "master-key",
+      "etherlight-spindlelute",
+      "a-teaspoon-of-transcendence",
+      "nocturnes-curtain-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/aureate-radiance-of-the-far-north-scions/icon.png"
+}

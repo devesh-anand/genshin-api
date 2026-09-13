@@ -1,0 +1,13 @@
+{
+  "id": 101270,
+  "name": "Teardrop of the Moon",
+  "description": "A clear, radiant azure crystal that holds an exceptionally pure form of kuuvahki. It possesses a near-perfect affinity with all types of elemental energy.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teardrop-of-the-moon/icon.png"
+}

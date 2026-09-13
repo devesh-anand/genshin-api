@@ -1,0 +1,36 @@
+{
+  "id": 112146,
+  "name": "Ethereal Glimmershard",
+  "description": "The remains of a Snezhnayan fae left behind after battle.\nThese shards once coated the creature's body like crystalline scales. Upon falling away, they stripped themselves of all colors, shifting into something akin to the dusty dross of a moth's wings.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "volkodlak-raider",
+    "volkodlak-sharpshooter",
+    "volkodlak-lobber",
+    "volkodlak-basher",
+    "leomastiff-guard",
+    "long-eared-striker",
+    "channel-contact",
+    "fanged-zealot",
+    "voywolf-hunter",
+    "glaciomancer",
+    "glacial-warden",
+    "winged-halberd-knight",
+    "winged-soarer-knight",
+    "juvenile-tree-segment",
+    "rugged-elder-leshy"
+  ],
+  "used_by": {
+    "characters": [
+      "odette"
+    ],
+    "weapons": [
+      "emberwell",
+      "song-of-the-vigil",
+      "echoes-of-the-heart",
+      "exaiphanes-blade"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ethereal-glimmershard/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 25010701,
+  "name": "Treasure Hoarders: Handyman",
+  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nThese members do physical work and are lower on the pecking order. They are often laughed at for their physique — but when the gang comes under attack, they get a chance to show their unexpectedly high strength and agility.",
+  "type": "Human Faction",
+  "drops": [
+    "treasure-hoarder-insignia",
+    "silver-raven-insignia",
+    "golden-raven-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/treasure-hoarders-handyman/icon.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 101203,
+  "name": "Crystal Marrow",
+  "description": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "sayu",
+      "aloy"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/crystal-marrow/icon.png"
+}

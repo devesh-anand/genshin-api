@@ -1,0 +1,12 @@
+{
+  "id": 20011401,
+  "name": "Geo Slime",
+  "description": "Small monsters created through the buildup of Geo within the earth.\nGenerally speaking, the crust of the earth is filled with Geo energy. Geo Slimes that are formed this way have a similarly \"down-to-earth\" sort of feeling.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/geo-slime/icon.png"
+}

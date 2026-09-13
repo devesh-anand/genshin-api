@@ -1,0 +1,17 @@
+{
+  "id": 113073,
+  "name": "Ascended Sample: Knight",
+  "description": "A rare sample resulting from the alchemical activation of a substance.\nIn the esoteric codices, the bronze knight knows not whether its mission is to conquer or to protect. Since its alchemical elevation, it has merely been seeking to discover its purpose. The age of bronze was an age of heroes.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "skirk",
+      "jahoda",
+      "lohen"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ascended-sample-knight/icon.png"
+}

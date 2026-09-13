@@ -1,0 +1,12 @@
+{
+  "id": 26260201,
+  "name": "Flow-Inverted Wayob Manifestation",
+  "description": "The People of the Springs believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\nThe so-called \"Wayob\" is the belief that gradually formed primarily from the tribes and obsidian totems after the people of Natlan began communicating with the kingdom of the Lord of the Night. A \"Wayob\" is a consciousness of collective thought, and the home of the ancestors' souls.\nThe People of the Springs believe their Wayob has the power to control the tides and waves, and can control the changes of flowing and still, dead waters alike.",
+  "type": "Beast",
+  "drops": [
+    "shard-of-a-shattered-will",
+    "locus-of-a-clear-will",
+    "sigil-of-a-striding-will"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/flow-inverted-wayob-manifestation/icon.png"
+}

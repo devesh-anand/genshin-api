@@ -1,0 +1,18 @@
+{
+  "id": 113052,
+  "name": "\"Tourbillon Device\"",
+  "description": "The core component of the Experimental Field Generator.\nA precision-machined mechanical component that counteracts the effects of gravity via high-speed rotation. The revolution speed is so fast that it is almost impossible to capture with the naked eye.\nThroughout its long history, the Fontaine Research Institute of Kinetic Energy Engineering has always warred against a flood that once washed countless lives away, and may yet cover the earth and sky one day far in the future, searching for a means to survive.\nArkhium, with its immense energetic potential and power to shatter the shackles of the earth, was once considered the key to the gate of salvation.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "experimental-field-generator"
+  ],
+  "used_by": {
+    "characters": [
+      "wriothesley",
+      "charlotte"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/tourbillon-device/icon.png"
+}

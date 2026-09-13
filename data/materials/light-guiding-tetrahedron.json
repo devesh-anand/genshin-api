@@ -1,0 +1,19 @@
+{
+  "id": 113039,
+  "name": "Light Guiding Tetrahedron",
+  "description": "A core component obtained via defeating a mysterious ruin machine.\nTo this day, these ancient devices have not forgotten the dreams of their masters or their own duties: to build a thousand palaces, to administrate three thousand machines, to sow ten thousand flowers that shall never bloom again, and to recreate a paradise now buried beneath the desert sands for the sake of all who live in this world.\nThough the lord of the desert no longer lives, and those dreams have long been corrupted by sinful whispers, and though all the magical pillars have been broken and have collapsed, the great beast once favored by the king hides still within the great searing storm.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "algorithm-of-semi-intransient-matrix-of-overseer-network"
+  ],
+  "used_by": {
+    "characters": [
+      "candace",
+      "faruzan",
+      "dehya"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/light-guiding-tetrahedron/icon.png"
+}

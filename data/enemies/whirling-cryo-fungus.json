@@ -1,0 +1,15 @@
+{
+  "id": 26090501,
+  "name": "Whirling Cryo Fungus",
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nPutting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat.",
+  "type": "Beast",
+  "drops": [
+    "fungal-spores",
+    "luminescent-pollen",
+    "crystalline-cyst-dust",
+    "inactivated-fungal-nucleus",
+    "dormant-fungal-nucleus",
+    "robust-fungal-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/whirling-cryo-fungus/icon.png"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 104302,
+  "name": "Guide to Freedom",
+  "description": "Talent Level-Up material.\nFreedom is the spirit of the land of the wind.\nThe freedom of travel is one of such. It is the freedom to traverse the land freely without being obstructed.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "barbara",
+      "amber",
+      "klee",
+      "tartaglia",
+      "diona",
+      "sucrose",
+      "aloy",
+      "varka",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-freedom/icon.png"
+}

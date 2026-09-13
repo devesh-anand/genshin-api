@@ -1,0 +1,40 @@
+{
+  "id": 112065,
+  "name": "Faded Red Satin",
+  "description": "A piece of red satin used to cover the eyes. The fabric is slightly torn.\nMany Eremites tend to cover their eyes with textiles, but the original intention of this practice has long been lost to the sands of time.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "eremite-axe-vanguard",
+    "eremite-crossbow",
+    "eremite-ravenbeak-halberdier",
+    "eremite-linebreaker",
+    "eremite-sword-dancer",
+    "eremite-desert-clearwater",
+    "eremite-sunfrost",
+    "eremite-daythunder",
+    "eremite-stone-enchanter"
+  ],
+  "used_by": {
+    "characters": [
+      "dori",
+      "candace",
+      "faruzan",
+      "alhaitham",
+      "dehya",
+      "sethos"
+    ],
+    "weapons": [
+      "sapwood-blade",
+      "xiphos-moonlight",
+      "forest-regalia",
+      "clash-of-kings",
+      "ibis-piercer",
+      "key-of-khaj-nisut",
+      "light-of-foliar-incision",
+      "beacon-of-the-reed-sea",
+      "hunters-path"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/faded-red-satin/icon.png"
+}

@@ -1,0 +1,14 @@
+{
+  "id": 26302101,
+  "name": "Radiant Moongecko",
+  "description": "An ancient monster drawn to moonlight, this gecko dwells deep within layers of rock.\nThe gradual accumulation of kuuvahki has crystallized its body into segments as precise as mechanical components. These parts can harden and form stone spikes used to repel intruders.\nSome scholars believe this unusual lizard's ancestors once roamed the surface. Over the ages, sweeping changes in the world drove them underground, where they have since lived in darkness for countless generations. Though their memory of true moonlight has faded, instinct remains. On nights of the full moon, they are compelled to gnaw on rock and soil suffused with lunar radiance to preserve their bloodline.",
+  "type": "Beast",
+  "drops": [
+    "prithiva-topaz-sliver",
+    "prithiva-topaz-fragment",
+    "prithiva-topaz-chunk",
+    "prithiva-topaz-gemstone",
+    "prismatic-severed-tail"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/radiant-moongecko/icon.png"
+}

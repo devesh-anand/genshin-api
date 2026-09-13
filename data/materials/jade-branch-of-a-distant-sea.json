@@ -1,0 +1,21 @@
+{
+  "id": 114027,
+  "name": "Jade Branch of a Distant Sea",
+  "description": "Weapon Ascension Material.\nFleeing into the Dark Sea, the god that had lost everything met the abandoned people who had nothing within the ocean depths. Thus it elected to remain and become their \"Orobashi no Mikoto,\" their \"Watatsumi Omikami.\"\nIt is said that the great snake god once broke off all the coral branches on its body to give light to the children who were curled up in the darkness. They also say that it used these coral branches to create a huge ladder to allow those children to once again reach the surface and see the light of day.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "amenoma-kageuchi",
+      "akuoumaru",
+      "hakushin-ring",
+      "oathsworn-eye",
+      "mistsplitter-reforged",
+      "uraku-misugiri",
+      "everlasting-moonglow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/jade-branch-of-a-distant-sea/icon.png"
+}

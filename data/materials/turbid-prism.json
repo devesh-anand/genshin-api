@@ -1,0 +1,23 @@
+{
+  "id": 112072,
+  "name": "Turbid Prism",
+  "description": "An old component obtained from defeating a Primal Construct.\nIt is said that these machines are different from those ruin machines that come from deep within the desert, for they were not made as heralds of destruction or conquest.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "primal-construct-repulsor",
+    "primal-construct-reshaper",
+    "primal-construct-prospector"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "xiphos-moonlight",
+      "toukabou-shigure",
+      "clash-of-kings",
+      "key-of-khaj-nisut",
+      "a-thousand-floating-dreams"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/turbid-prism/icon.png"
+}

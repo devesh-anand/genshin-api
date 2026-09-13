@@ -1,0 +1,12 @@
+{
+  "id": 22140101,
+  "name": "Fisher of Hidden Depths",
+  "description": "An Abyssal creature that slips through rifts in the hidden depths, crossing over from beyond this world.\nLong ago, an ancient philosopher described humans as \"featherless bipeds,\" using that simple phrase to distinguish mankind from animals and assert human superiority. In some sense, these deathless wanderers of the silent cosmic void, scaled instead of feathered, and using their hooked beaks to draw in biomass from world to world, might actually also match that same simplistic definition of \"human.\"",
+  "type": "Abyss",
+  "drops": [
+    "fractured-eye-of-the-deep-shadow",
+    "aberrant-core-of-the-deep-shadow",
+    "hooked-beak-of-the-deep-shadow"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/fisher-of-hidden-depths/icon.png"
+}

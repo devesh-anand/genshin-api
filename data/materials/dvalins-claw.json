@@ -1,0 +1,20 @@
+{
+  "id": 113004,
+  "name": "Dvalin's Claw",
+  "description": "A claw from the Dragon of the East.\nIt once contained the shadow dragon Durin's vile poison, having torn through the latter's flesh in battle. Thanks to your purification and healing, it is no longer toxic.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "stormterror"
+  ],
+  "used_by": {
+    "characters": [
+      "lisa",
+      "razor",
+      "xiangling",
+      "noelle"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dvalins-claw/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 23076101,
+  "name": "Oprichniki Medic",
+  "description": "A soldier of the Fatui Oprichniki, equipped with a staff-like device and tasked with providing emergency medical support to their comrades in arms.\nIn truth, these medics have largely only taken crash-course training, and as such, their healing abilities are limited. In practice, they tend to adopt more efficient methods of supporting their allies — mixing in with the different units and charging at the enemy lines.",
+  "type": "Fatui",
+  "drops": [
+    "tattered-warrant",
+    "immaculate-warrant",
+    "frost-etched-warrant"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/oprichniki-medic/icon.png"
+}

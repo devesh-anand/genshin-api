@@ -1,0 +1,30 @@
+{
+  "id": 100024,
+  "name": "Windwheel Aster",
+  "description": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\"",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "bennett",
+      "sucrose",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/windwheel-aster/icon.png"
+}

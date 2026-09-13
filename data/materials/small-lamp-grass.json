@@ -1,0 +1,17 @@
+{
+  "id": 100055,
+  "name": "Small Lamp Grass",
+  "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "diluc",
+      "amber",
+      "fischl"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/small-lamp-grass/icon.png"
+}

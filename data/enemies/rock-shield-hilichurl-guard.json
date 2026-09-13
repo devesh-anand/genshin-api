@@ -1,0 +1,12 @@
+{
+  "id": 21011201,
+  "name": "Rock Shield Hilichurl Guard",
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHardy hilichurls who have congregated in a region where Geo energies are abundant. Their impregnable shields have layers of rocky growths on them.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/rock-shield-hilichurl-guard/icon.png"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 104309,
+  "name": "Philosophies of Ballad",
+  "description": "Talent Level-Up material.\nPoetry is the soul of the land of the wind.\nPoetry is the manifestations of the desire to spread the word. Though nothing is eternal, though nothing will be the same, the wind's poetry will still spread beyond the skies, the land, the seas to every corner of the world.",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "lisa",
+      "kaeya",
+      "venti",
+      "fischl",
+      "albedo",
+      "rosaria",
+      "mika",
+      "dahlia",
+      "durin",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-ballad/icon.png"
+}

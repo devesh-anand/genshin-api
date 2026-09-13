@@ -1,0 +1,12 @@
+{
+  "id": 25410101,
+  "name": "Eremite Stone Enchanter",
+  "description": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.\nIn ancient days, these heavily-equipped warriors were the domain of the personal, trusted guards of the Lord of the Blazing Sun. It is perhaps on this account that they gleam like the golden sun itself to this day.\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
+  "type": "Human Faction",
+  "drops": [
+    "faded-red-satin",
+    "trimmed-red-silk",
+    "rich-red-brocade"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/eremite-stone-enchanter/icon.png"
+}

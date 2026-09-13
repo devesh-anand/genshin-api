@@ -1,0 +1,12 @@
+{
+  "id": 20010101,
+  "name": "Dendro Slime",
+  "description": "A slime that has undergone ecological changes due to abundant Dendro in its environment.\nIt has also taken on the weaknesses of the Dendro element, and will burn intensely the moment it meets a bright flame.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/dendro-slime/icon.png"
+}

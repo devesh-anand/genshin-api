@@ -1,0 +1,12 @@
+{
+  "id": 21040101,
+  "name": "Anemo Hilichurl Rogue",
+  "description": "Hilichurl wanderers who do not belong to any hilichurl tribe. It almost seems as if they are searching for the fated genesis of their kind, seeking to uncover some bygone splendor that once belonged to their people.\nIf these monsters capable of only crude language and bereft of missing history could record their own epics and legends, the hilichurl wanderers would be the heroes in said tales.",
+  "type": "Hilichurl",
+  "drops": [
+    "a-flower-yet-to-bloom",
+    "treasured-flower",
+    "wanderers-blooming-flower"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/anemo-hilichurl-rogue/icon.png"
+}

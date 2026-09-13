@@ -1,0 +1,19 @@
+{
+  "id": 113061,
+  "name": "Silken Feather",
+  "description": "A crystal that you picked up in the ruins after completing the duel against The Knave.\nThe already-cooled blood and fire still maintain the shape of a feather, that is framed with solidified sleek black threads.\nBefore their thoughts have matured, young children are reliant on the meticulous care of their parents, just as fledglings need the aegis of an adult wing.\nIt is to fulfill such wishes that \"Father\" wove dangerous spider-silk into a facsimile of feathers, that she might grant her family some warmth.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "the-knave"
+  ],
+  "used_by": {
+    "characters": [
+      "emilie",
+      "chasca",
+      "aino"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silken-feather/icon.png"
+}

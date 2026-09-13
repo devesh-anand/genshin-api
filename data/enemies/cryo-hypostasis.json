@@ -1,0 +1,14 @@
+{
+  "id": 20040501,
+  "name": "Cryo Hypostasis",
+  "description": "Code name: Daleth. A high-purity Cryo entity.\nResearch suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "crystalline-bloom"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-hypostasis/icon.png"
+}

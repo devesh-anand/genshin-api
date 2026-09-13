@@ -1,0 +1,14 @@
+{
+  "id": 20050101,
+  "name": "Oceanid",
+  "description": "A life-form created from condensed Hydro elements of incredible purity. Often attached to bodies of water.\nIt is said that as water bodies become purer, the Hydro elements within grow more abundant, causing the Oceanids to grow more powerful. It is also said by some that Oceanids were once sea creatures from a home far away who carried the fragments of a long-dead god to the many corners of this world. Perhaps they did this so that the love their god held for this world could be spread through the waters to all the land...",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "cleansing-heart"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/oceanid/icon.png"
+}

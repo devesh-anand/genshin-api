@@ -1,0 +1,12 @@
+{
+  "id": 26160101,
+  "name": "Sternshield Crab",
+  "description": "A crab that makes its home in borrowed shells.\nArmored Crabs are constantly searching for shells that fit their bodies as they grow. A storybook that told the tale of the trials of an Armored Crab searching for a suitable shell was extremely popular in Fontaine for a time. Though the story is filled with childlike wonder, the reaction after proved that, like many fairytales, it touched adults even more deeply.",
+  "type": "Beast",
+  "drops": [
+    "transoceanic-pearl",
+    "transoceanic-chunk",
+    "xenochromatic-crystal"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/sternshield-crab/icon.png"
+}

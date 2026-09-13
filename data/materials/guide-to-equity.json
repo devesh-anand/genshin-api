@@ -1,0 +1,20 @@
+{
+  "id": 104339,
+  "name": "Guide to Equity",
+  "description": "Talent Level-Up Material.\nThe shore of the Nation of Water is equity.\nEquity is the foundation upon which Fontaine was founded. Equity forms the standard of the law. If law loses the essence of equity, it will become a chessboard played for profit.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "lyney",
+      "neuvillette",
+      "navia",
+      "sigewinne",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-equity/icon.png"
+}

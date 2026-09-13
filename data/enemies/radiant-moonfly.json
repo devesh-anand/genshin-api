@@ -1,0 +1,18 @@
+{
+  "id": 26301101,
+  "name": "Radiant Moonfly",
+  "description": "The moon's ancient power has seeped into these illusory wings, and the butterfly-shaped monster now dances lightly in the moonlight.\nThe principles of evolution state that after the wild yet primeval power was tamed by the heavenly ruler, such a monster should not be able to maintain its shape, becoming smaller and weaker over time. However, the moon's blessing has allowed it to glide through this world while remaining in its prime, displaying the remnants of an older world, when the ancient moon once illuminated the land.",
+  "type": "Beast",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "nagadus-emerald-sliver",
+    "nagadus-emerald-fragment",
+    "nagadus-emerald-chunk",
+    "nagadus-emerald-gemstone",
+    "lightbearing-scale-feather"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/radiant-moonfly/icon.png"
+}

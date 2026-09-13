@@ -1,0 +1,21 @@
+{
+  "id": 29091101,
+  "name": "Lord of Eroded Primal Fire",
+  "description": "A fell dragon, congealed from the power of pitch-black darkness.",
+  "type": "Boss",
+  "drops": [
+    "borderland-sword-billet",
+    "borderland-bow-billet",
+    "borderland-claymore-billet",
+    "borderland-catalyst-billet",
+    "borderland-polearm-billet",
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "eroded-horn",
+    "eroded-sunfire",
+    "eroded-scale-feather"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/lord-of-eroded-primal-fire/icon.png"
+}

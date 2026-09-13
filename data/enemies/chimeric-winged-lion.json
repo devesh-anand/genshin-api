@@ -1,0 +1,18 @@
+{
+  "id": 26310501,
+  "name": "Chimeric Winged Lion",
+  "description": "A product of bio-alchemy, one of the man-made monsters that was abandoned.\nTo bring a certain great wish to fruition, an alchemist created numerous primordial bodies known as \"Prototypes\" through a technique that must never be retold.\nOf these, only one successfully grew into the perfect creation he had planned. The others, though close to perfection, ultimately failed, and were carelessly remade into two-headed monsters.\nThough regarded as failures, these special two-headed monsters still possess tremendous power. Among chimeras, there is nothing that can stand against them.",
+  "type": "Beast",
+  "drops": [
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "severed-tail-of-the-sky-roamer"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/chimeric-winged-lion/icon.png"
+}

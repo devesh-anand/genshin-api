@@ -1,0 +1,16 @@
+{
+  "id": 101257,
+  "name": "Portable Bearing",
+  "description": "A portable bearing of a type that was mass-produced after the Fatui moved into Nod-Krai. Excessively worn units are discarded like obsolete personnel.\nA few of them have a vestige of kuuvahki left inside. As they are difficult to imitate, they are occasionally used as currency by merchants in Nasha Town.\nIt's said that people tried to forge these bearings for that reason, but went bankrupt in the end because the cost of forging them was higher than their market value.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "aino",
+      "jahoda"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/portable-bearing/icon.png"
+}

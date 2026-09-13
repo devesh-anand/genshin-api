@@ -1,0 +1,19 @@
+{
+  "id": 104332,
+  "name": "Teachings of Ingenuity",
+  "description": "Talent Level-Up material.\nIngenuity is the leaf-veins of the nation of wisdom.\nIngenuity springs forth from benevolent consideration. They say that \"a poisonous tree bears no kind fruit.\" Similarly, ingenious nascent ideas are always born from determined and benign minds, for only they are worthy bearers of wisdom.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "dori",
+      "nahida",
+      "layla",
+      "alhaitham",
+      "kaveh"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-ingenuity/icon.png"
+}

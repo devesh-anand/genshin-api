@@ -1,0 +1,12 @@
+{
+  "id": 25060101,
+  "name": "Treasure Hoarders: Pugilist",
+  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nPassionate about battle and muscles, they are quite picky about food and will often boast of the benefits of having a fine musculature, leading to some dissatisfaction from their fellow Treasure Hoarders.",
+  "type": "Human Faction",
+  "drops": [
+    "treasure-hoarder-insignia",
+    "silver-raven-insignia",
+    "golden-raven-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/treasure-hoarders-pugilist/icon.png"
+}

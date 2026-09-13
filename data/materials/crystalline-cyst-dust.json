@@ -1,0 +1,45 @@
+{
+  "id": 112061,
+  "name": "Crystalline Cyst Dust",
+  "description": "A huge lump of spore powder collected from a structurally complete spore cyst. Put it in an appropriate environment, and the area might be filled with a thriving aggregation of Floating Fungi later...",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "floating-hydro-fungus",
+    "floating-anemo-fungus",
+    "floating-dendro-fungus",
+    "whirling-pyro-fungus",
+    "whirling-electro-fungus",
+    "whirling-cryo-fungus",
+    "stretchy-pyro-fungus",
+    "stretchy-anemo-fungus",
+    "stretchy-geo-fungus",
+    "grounded-hydroshroom",
+    "winged-dendroshroom",
+    "winged-cryoshroom",
+    "grounded-geoshroom"
+  ],
+  "used_by": {
+    "characters": [
+      "tighnari",
+      "nilou",
+      "nahida",
+      "kaveh",
+      "baizhu",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "fruit-of-fulfillment",
+      "wandering-evenstar",
+      "end-of-the-line",
+      "scion-of-the-blazing-sun",
+      "staff-of-the-scarlet-sands",
+      "a-thousand-floating-dreams",
+      "tulaytullahs-remembrance",
+      "jadefalls-splendor",
+      "reliquary-of-truth"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/crystalline-cyst-dust/icon.png"
+}

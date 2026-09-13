@@ -1,0 +1,12 @@
+{
+  "id": 25010201,
+  "name": "Treasure Hoarders: Scout",
+  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\nTheirs is the legwork and the tailing of targets. They usually wind up in criminal circles due to poverty or lack of education, but they don't seem to have gotten any richer after choosing a life of crime...",
+  "type": "Human Faction",
+  "drops": [
+    "treasure-hoarder-insignia",
+    "silver-raven-insignia",
+    "golden-raven-insignia"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/treasure-hoarders-scout/icon.png"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 112046,
+  "name": "Famed Handguard",
+  "description": "An intricately-made handguard that was mounted upon a famed weapon.\nSome believe that swords have souls and lives of their own, and thus deserve their own names. Those who love their blades will be acknowledged by them in turn. But those who see their swords as friends or even lovers should be warned that this relationship is built on death and bloodshed. The passions of those who dance with their blade amid crimson showers must surely be cooled someday by fickle steel.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "nobushi-jintouban",
+    "nobushi-hitsukeban",
+    "nobushi-kikouban",
+    "kairagi-fiery-might",
+    "kairagi-dancing-thunder"
+  ],
+  "used_by": {
+    "characters": [
+      "kamisato-ayaka",
+      "raiden-shogun",
+      "yae-miko",
+      "kamisato-ayato",
+      "wanderer",
+      "yumemizuki-mizuki",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "amenoma-kageuchi",
+      "toukabou-shigure",
+      "finale-of-the-deep",
+      "katsuragikiri-nagamasa",
+      "akuoumaru",
+      "wavebreakers-fin",
+      "tamayuratei-no-ohanashi",
+      "mistsplitter-reforged",
+      "haran-geppaku-futsu",
+      "uraku-misugiri",
+      "redhorn-stonethresher",
+      "engulfing-lightning"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/famed-handguard/icon.png"
+}

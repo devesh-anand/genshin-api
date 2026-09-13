@@ -1,0 +1,12 @@
+{
+  "id": 20010401,
+  "name": "Large Anemo Slime",
+  "description": "A monster created by the coalescing of Anemo dispersed throughout nature.\nOwing to being comprised of a greater concentration of Anemo, their flotation abilities are stronger than that of Anemo Slimes. The hilichurls living out in the wilds have made use of this special characteristic, creating special vehicles that use Large Anemo Slimes as a form of locomotion to transport goods from unknown sources.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-anemo-slime/icon.png"
+}

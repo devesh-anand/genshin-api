@@ -1,0 +1,32 @@
+{
+  "id": 114016,
+  "name": "Divine Body from Guyun",
+  "description": "Weapon Ascension Material.\nThat which lurks within and animates this relic are the divine remains of lamenting gods. They are unrealized ideals, designs for a prosperous humanity that could never be. They may now lie deep within stone and sea, but they will not go quietly into the night.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dark-iron-sword",
+      "white-tassel",
+      "emerald-orb",
+      "slingshot",
+      "lions-roar",
+      "blackcliff-longsword",
+      "whiteblind",
+      "lithic-blade",
+      "crescent-pike",
+      "solar-pearl",
+      "blackcliff-agate",
+      "sacrificial-jade",
+      "rust",
+      "blackcliff-warbow",
+      "summit-shaper",
+      "primordial-jade-winged-spear",
+      "jadefalls-splendor",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/divine-body-from-guyun/icon.png"
+}

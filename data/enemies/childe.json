@@ -1,0 +1,29 @@
+{
+  "id": 29030101,
+  "name": "Childe",
+  "description": "\"Childe\" Tartaglia, Eleventh of the Fatui Harbingers.\nHe draws power from the ominous Delusion he possesses and fights using martial arts that he learned in a land of darkness.\n\nHe is a pure warrior with an insatiable lust for battle.\nEach bloody conflict, each life-and-death struggle is a delightful trial to him.\nPeople say that the young Childe is famed throughout the land for his battle prowess.\nBut he has never taken big talk of this kind to heart.\n\nAfter all...\n<i>\"You shall ever be the eye of the storm,</i>\n<i>\"And the clashing of steel shall ever accompany you.</i>\n<i>\"The pitch-black memory of stepping into uttermost darkness,</i>\n<i>\"Shall, at last, become the strength by which you will overturn this world.\"</i>",
+  "type": "Boss",
+  "drops": [
+    "northlander-sword-billet",
+    "northlander-bow-billet",
+    "northlander-claymore-billet",
+    "northlander-catalyst-billet",
+    "northlander-polearm-billet",
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "tusk-of-monoceros-caeli",
+    "shard-of-a-foul-legacy",
+    "shadow-of-the-warrior"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/childe/icon.png"
+}

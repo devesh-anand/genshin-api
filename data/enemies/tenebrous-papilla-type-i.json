@@ -1,0 +1,22 @@
+{
+  "id": 22120101,
+  "name": "Tenebrous Papilla: Type I",
+  "description": "Abyssal creatures with plant-like forms that have descended from a deep, dark, unfathomable, contorted otherworld.\nThese twisted monstrosities are capable of infiltrating deep down into the bowels of the earth, extracting memories to imitate and manipulate. Through this process of distorting the past's memories into more abstruse and sordid forms, they gradually draw closer to Irminsul's core, threatening to undermine its very existence.\nSome say that these aberrations work constantly to corrupt the many colors of light, leaving only pitch-black information in their stead. Such a hypothesis seems to be confirmed by the branches they extend outward, as if to pierce the void itself...",
+  "type": "Abyss",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "ensnaring-gaze"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/tenebrous-papilla-type-i/icon.png"
+}

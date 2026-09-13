@@ -1,0 +1,42 @@
+{
+  "id": 112101,
+  "name": "Juvenile Fang",
+  "description": "A tooth that fell from a Natlan Saurian.\nIt looks like it belonged to a juvenile creature. If there was a way to determine the age of its previous owner, perhaps it would show that they had not yet roamed the world for long.",
+  "rarity": 1,
+  "category": "common-drop",
+  "dropped_by": [
+    "tepetlisaur-whelp",
+    "tepetlisaurus",
+    "koholasaur-whelp",
+    "koholasaurus",
+    "yumkasaur-whelp",
+    "yumkasaurus",
+    "qucusaurus-chick",
+    "qucusaurus",
+    "iktomisaurus-chick",
+    "iktomisaurus"
+  ],
+  "used_by": {
+    "characters": [
+      "kinich",
+      "chasca",
+      "ororon",
+      "citlali",
+      "varesa",
+      "ifa"
+    ],
+    "weapons": [
+      "flute-of-ezpitzal",
+      "fruitful-hook",
+      "ash-graven-drinking-horn",
+      "waveriding-whirl",
+      "chain-breaker",
+      "peak-patrol-song",
+      "a-thousand-blazing-suns",
+      "fractured-halo",
+      "surfs-up",
+      "vivid-notions"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/juvenile-fang/icon.png"
+}

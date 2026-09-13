@@ -1,0 +1,18 @@
+{
+  "id": 23090101,
+  "name": "Super-Heavy Landrover: Mechanized Fortress",
+  "description": "Referred to internally as the \"Type Drzislav,\" this super heavy-class mechanism was jointly developed by the Armory Palace and the Kuuvahki Experimental Design Bureau.\nThis giant all-terrain vehicle was originally designed for civilian use, particularly heavy transport, as evidenced by its equipped drills and cutters. However, later production models were militarized with heavy weapons mounted on them.\nAfter all, in this mortal world beneath the moon, even the most perfect and divine designs may stray from their original intent, let alone machines born of mortal hands, crafted from humble intentions and flawed from the very beginning.",
+  "type": "Fatui",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "cyclic-military-kuuvahki-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/super-heavy-landrover-mechanized-fortress/icon.png"
+}

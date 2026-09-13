@@ -1,0 +1,19 @@
+{
+  "id": 104323,
+  "name": "Teachings of Elegance",
+  "description": "Talent Level-Up material.\nElegance is the form of the nation of thunder.\nElegance brooks no flattery, and the elegant are ever noble. They are like the sea eagles who soar on high to contend with the resounding storms. They will not cater to philistine vulgarity, as one would not cast a flower crown into the mud, staining its dignity.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kamisato-ayaka",
+      "kujou-sara",
+      "arataki-itto",
+      "kuki-shinobu",
+      "kamisato-ayato"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-elegance/icon.png"
+}

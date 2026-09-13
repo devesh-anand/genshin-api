@@ -1,0 +1,20 @@
+{
+  "id": 113054,
+  "name": "Lightless Silk String",
+  "description": "A slender strand that somehow ended up entangled on your weapon while fighting the All-Devouring Narwhal.\nIn ancient Fontaine, some thought that Fortuna, which ruled the world, was woven from countless fibers, like the strings of a harp. Strings that resonate with the majestic music would bring happiness to all, while discord would destroy the fabric of the universe.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "all-devouring-narwhal"
+  ],
+  "used_by": {
+    "characters": [
+      "charlotte",
+      "navia",
+      "chiori",
+      "ororon"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/lightless-silk-string/icon.png"
+}

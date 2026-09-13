@@ -1,0 +1,12 @@
+{
+  "id": 25130201,
+  "name": "Winged Soarer Knight",
+  "description": "A winged Vila capable of flight.\nIt's said that the Vila were among the fae clans that followed the Belyi Tsar from the very beginning of his campaign to unify the frozen lands. Their ability to take brief flight gives them exceptional mobility, allowing them to scout enemy formations and carry out long-distance raids with ease.\nMost members of the Druzhna, the personal guard founded during the Belyi Tsar reign, were Vila.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/winged-soarer-knight/icon.png"
+}

@@ -1,0 +1,26 @@
+{
+  "id": 112047,
+  "name": "Chaos Gear",
+  "description": "Comes from a now-inactive ancient Ruin machine.\nThis is the energy source of that biomimetic mechanism.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "ruin-cruiser",
+    "ruin-destroyer",
+    "ruin-defender",
+    "ruin-scout"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "amenoma-kageuchi",
+      "katsuragikiri-nagamasa",
+      "kitain-cross-spear",
+      "the-catch",
+      "mistsplitter-reforged",
+      "uraku-misugiri",
+      "engulfing-lightning"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chaos-gear/icon.png"
+}

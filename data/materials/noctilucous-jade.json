@@ -1,0 +1,16 @@
+{
+  "id": 100028,
+  "name": "Noctilucous Jade",
+  "description": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "beidou",
+      "yanfei"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/noctilucous-jade/icon.png"
+}

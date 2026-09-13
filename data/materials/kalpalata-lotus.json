@@ -1,0 +1,16 @@
+{
+  "id": 101217,
+  "name": "Kalpalata Lotus",
+  "description": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "dori",
+      "nahida"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/kalpalata-lotus/icon.png"
+}

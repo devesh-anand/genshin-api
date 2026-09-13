@@ -1,0 +1,19 @@
+{
+  "id": 113035,
+  "name": "Runic Fang",
+  "description": "A \"fang\" with which the mysterious, snakelike machine of old dug into mountains' depths. There are many ominous runes carved on it.\nIt is said that giant serpents lurk in the dark fissures deep beneath the ground. Burning with eternal resentment and malice toward the world above, they throw themselves into digging great tunnels, yet none know what their malicious purposes are...",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "ruin-serpent"
+  ],
+  "used_by": {
+    "characters": [
+      "shikanoin-heizou",
+      "yelan",
+      "kuki-shinobu"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/runic-fang/icon.png"
+}

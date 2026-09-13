@@ -1,0 +1,21 @@
+{
+  "id": 104327,
+  "name": "Guide to Light",
+  "description": "Talent Level-Up material.\nLight is the yearning of the land of thunder.\nThough the sun rays themselves should be blocked by layers upon layers of clouds, there are still those in the thunder god's land who dream of piercing that wrathful sea of lightning to pursue the glory of the divine, fearing not that they shall be cruelly struck down.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "raiden-shogun",
+      "sayu",
+      "gorou",
+      "yae-miko",
+      "chiori",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-light/icon.png"
+}

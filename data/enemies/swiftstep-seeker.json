@@ -1,0 +1,12 @@
+{
+  "id": 25501201,
+  "name": "Swiftstep Seeker",
+  "description": "A warrior from the Canopy, and a tribal guardian that patrols the forest valleys and mountain streams.\nUnlike the warriors of other tribes, these warriors, ever swinging around the mountains using their grappling hooks, are always considering how to defeat their opponents with unexpected attacks.",
+  "type": "Human Faction",
+  "drops": [
+    "sentrys-wooden-whistle",
+    "warriors-metal-whistle",
+    "saurian-crowned-warriors-golden-whistle"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/swiftstep-seeker/icon.png"
+}

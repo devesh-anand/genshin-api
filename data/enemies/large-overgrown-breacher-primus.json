@@ -1,0 +1,12 @@
+{
+  "id": 22110301,
+  "name": "Large Overgrown Breacher Primus",
+  "description": "A strange life form that mostly appears in Elynas.\nThe nature of a Breacher Primus defies known categories: they are not animals, plants, Shroom-Kin, nor Elementals. The debate among scholars of Sumeru never formally reached a consensus on just what it is, until it was finally banned as a research topic. The reason is that based on the current system of knowledge, this problem is like \"the definitions prescribed by language and the true nature of things,\" and it is impossible to have a meaningful, final answer.",
+  "type": "Abyss",
+  "drops": [
+    "rift-core",
+    "foreign-synapse",
+    "alien-life-core"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-overgrown-breacher-primus/icon.png"
+}

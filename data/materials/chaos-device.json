@@ -1,0 +1,40 @@
+{
+  "id": 112023,
+  "name": "Chaos Device",
+  "description": "Comes from ancient defunct relic structures. A part that once held the structure together. Its aesthetically-pleasing engineering is quite exquisite.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "ruin-guard",
+    "ruin-hunter",
+    "ruin-grader"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "beginners-protector",
+      "iron-point",
+      "travelers-handy-sword",
+      "white-iron-greatsword",
+      "otherworldly-story",
+      "recurve-bow",
+      "sacrificial-sword",
+      "cinnabar-spindle",
+      "wolf-fang",
+      "favonius-greatsword",
+      "royal-greatsword",
+      "favonius-lance",
+      "sacrificial-fragments",
+      "frostbearer",
+      "favonius-warbow",
+      "royal-bow",
+      "alley-hunter",
+      "freedom-sworn",
+      "wolfs-gravestone",
+      "skyward-spine",
+      "lost-prayer-to-the-sacred-winds",
+      "amos-bow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chaos-device/icon.png"
+}

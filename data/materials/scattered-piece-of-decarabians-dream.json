@@ -1,0 +1,34 @@
+{
+  "id": 114004,
+  "name": "Scattered Piece of Decarabian's Dream",
+  "description": "Weapon Ascension Material.\nThe people did not bow to Decarabian out of respect or adoration, but because the harsh winds had laid them low. This was the shattered dream and ambition of the Anemo Archon before the rise of Barbatos.\nHe tried so hard to make his dream come true, and so the fragments of that dream are still mighty.",
+  "rarity": 5,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "cool-steel",
+      "ferrous-shadow",
+      "magic-guide",
+      "raven-bow",
+      "favonius-sword",
+      "royal-longsword",
+      "the-alley-flash",
+      "cinnabar-spindle",
+      "wolf-fang",
+      "the-bell",
+      "snow-tombed-starsilver",
+      "favonius-codex",
+      "royal-grimoire",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "mitternachts-waltz",
+      "aquila-favonia",
+      "athame-artis",
+      "song-of-broken-pines",
+      "disaster-and-remorse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/scattered-piece-of-decarabians-dream/icon.png"
+}

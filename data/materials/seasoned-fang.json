@@ -1,0 +1,42 @@
+{
+  "id": 112102,
+  "name": "Seasoned Fang",
+  "description": "A sturdy tooth that fell from a Natlan Saurian.\nWear and tear bear witness to the experiences and battles of its previous owner. Among the many Saurians of Natlan, one with such a tooth must have been considered a formidable warrior indeed.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "tepetlisaur-whelp",
+    "tepetlisaurus",
+    "koholasaur-whelp",
+    "koholasaurus",
+    "yumkasaur-whelp",
+    "yumkasaurus",
+    "qucusaurus-chick",
+    "qucusaurus",
+    "iktomisaurus-chick",
+    "iktomisaurus"
+  ],
+  "used_by": {
+    "characters": [
+      "kinich",
+      "chasca",
+      "ororon",
+      "citlali",
+      "varesa",
+      "ifa"
+    ],
+    "weapons": [
+      "flute-of-ezpitzal",
+      "fruitful-hook",
+      "ash-graven-drinking-horn",
+      "waveriding-whirl",
+      "chain-breaker",
+      "peak-patrol-song",
+      "a-thousand-blazing-suns",
+      "fractured-halo",
+      "surfs-up",
+      "vivid-notions"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/seasoned-fang/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 21011401,
+  "name": "Ice Shield Hilichurl Guard",
+  "description": "The primitive wandering inhabitants of Teyvat's wildernesses.\nHilichurls display a strong sense of adaptability to their surroundings. In icy environments, they come up with ways and means to fashion this hard ice into shields to protect themselves.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/ice-shield-hilichurl-guard/icon.png"
+}

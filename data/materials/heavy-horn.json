@@ -1,0 +1,44 @@
+{
+  "id": 112014,
+  "name": "Heavy Horn",
+  "description": "A crude horn used by hilichurls to warn each other. Given the damage to the horn, it won't be warning anyone any time soon.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "wooden-shieldwall-mitachurl",
+    "rock-shieldwall-mitachurl",
+    "ice-shieldwall-mitachurl",
+    "blazing-axe-mitachurl",
+    "frostarm-lawachurl",
+    "stonehide-lawachurl"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dull-blade",
+      "apprentices-notes",
+      "silver-sword",
+      "pocket-grimoire",
+      "cool-steel",
+      "ferrous-shadow",
+      "magic-guide",
+      "raven-bow",
+      "favonius-sword",
+      "royal-longsword",
+      "festering-desire",
+      "the-alley-flash",
+      "the-bell",
+      "snow-tombed-starsilver",
+      "favonius-codex",
+      "royal-grimoire",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "mitternachts-waltz",
+      "aquila-favonia",
+      "song-of-broken-pines",
+      "elegy-for-the-end",
+      "the-daybreak-chronicles"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/heavy-horn/icon.png"
+}

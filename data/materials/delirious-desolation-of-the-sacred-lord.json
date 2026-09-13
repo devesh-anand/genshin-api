@@ -1,0 +1,22 @@
+{
+  "id": 114066,
+  "name": "Delirious Desolation of the Sacred Lord",
+  "description": "Weapon Ascension Material.\nDuring the war with the dragons, that mastermind of all the tribes — the same one who had hidden his face behind a mask — deciphered the golden patterns on the non-human ruins for the warriors. The knowledge with which he did so is now long lost.\nIt was from their enemies that he learned the language and thought patterns required to do this. For him, wielding these skills against them was perhaps a deeply satisfying act of revenge.\nYet his unconcealed hatred for them was a recurring cause of great concern among his fellow heroes.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "calamity-of-eshu",
+      "flame-forged-insight",
+      "footprint-of-the-rainbow",
+      "mountain-bracing-bolt",
+      "ring-of-yaxche",
+      "fang-of-the-mountain-king",
+      "starcallers-watch",
+      "vivid-notions"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/delirious-desolation-of-the-sacred-lord/icon.png"
+}

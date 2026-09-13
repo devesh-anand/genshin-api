@@ -1,0 +1,28 @@
+{
+  "id": 112152,
+  "name": "Accreted Fragment",
+  "description": "An accretion formed by powerful Volkodlak.\nAn accretion that has only just begun to attach to an internal organ or bone. As the Volkodlak's power grows, it may eventually cover an entire region of the body, or a whole organ.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "volkodlak-raider",
+    "volkodlak-sharpshooter",
+    "volkodlak-lobber",
+    "volkodlak-basher",
+    "leomastiff-guard",
+    "long-eared-striker",
+    "channel-contact",
+    "fanged-zealot",
+    "voywolf-hunter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "emberwell",
+      "frostbreath",
+      "echoes-of-the-heart",
+      "exaiphanes-blade"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/accreted-fragment/icon.png"
+}

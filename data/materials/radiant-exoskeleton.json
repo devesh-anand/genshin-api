@@ -1,0 +1,23 @@
+{
+  "id": 112133,
+  "name": "Radiant Exoskeleton",
+  "description": "A giant piece of bone that glows coldly, taken from the exterior of a glowing beast.\nThese beasts blessed by the ancient power of the moon are able to manipulate their exoskeletons through the light that has soaked into their marrow over long years. Even though their bones float apart from their bodies, they can still command them at will like any other physical part.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "radiant-antelope",
+    "radiant-bladehorn",
+    "radiant-lunapod"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "moonweavers-dawn",
+      "master-key",
+      "etherlight-spindlelute",
+      "disaster-and-remorse",
+      "reliquary-of-truth"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/radiant-exoskeleton/icon.png"
+}

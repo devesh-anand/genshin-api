@@ -1,0 +1,21 @@
+{
+  "id": 112116,
+  "name": "Refractive Bud",
+  "description": "A leaf bud dropped by the monster known as the Tenebrous Mimiflora after being vanquished.\nIt is said that when this creature emerged from the Black Tide, the first things it grew were these tender buds capable of deflecting elemental power.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "tenebrous-mimiflora"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "calamity-of-eshu",
+      "tamayuratei-no-ohanashi",
+      "rainbow-serpents-rain-bow",
+      "azurelight",
+      "astral-vultures-crimson-plumage"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/refractive-bud/icon.png"
+}

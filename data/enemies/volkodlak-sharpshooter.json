@@ -1,0 +1,15 @@
+{
+  "id": 25131601,
+  "name": "Volkodlak Sharpshooter",
+  "description": "A relatively small and agile type of Volkodlak found among the many that roam Snezhnaya.\nThey possess senses keener than those of humans. Whether in their perception of wind speed or their vision under certain conditions, these traits give them unique advantages, allowing them to achieve far greater accuracy than ordinary people when firing bows, crossbows, or cannons from long range.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone",
+    "accreted-fragment",
+    "accreted-mass",
+    "accreted-growth"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/volkodlak-sharpshooter/icon.png"
+}

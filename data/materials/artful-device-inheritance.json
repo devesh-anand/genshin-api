@@ -1,0 +1,19 @@
+{
+  "id": 114075,
+  "name": "Artful Device Inheritance",
+  "description": "Weapon Ascension Material.\nWord on the street is that the legendary thief, Reed Miller, has been sentenced to death several times, yet he's always managed to escape at the last minute with the help of his friends — and his tools.\nIn some versions of these stories, several of his followers willingly died in his place for their revered King of Elysium. Naturally, these versions can't compete with the more popular drunken stories full of romance and bliss. Since there has never been a shackle that could restrain the legendary thief, it is only natural to assume that no ending could do the same.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "serenitys-call",
+      "blackmarrow-lantern",
+      "dawning-frost",
+      "nightweavers-looking-glass",
+      "angelos-heptades"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/artful-device-inheritance/icon.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": 24030301,
+  "name": "Aeonblight Drake",
+  "description": "This dragon-shaped combat machine is a being that inspires fear, much like the lord who once ruled these vast lands.\nIt is said that the now-destroyed realm once sought forbidden knowledge and attempted to create perpetual-motion machines that could match or even surpass primordial lifeforms. This mysterious, tireless mechanical monstrosity seems to be proof that they did indeed reach heights that mortals should never have attained.",
+  "type": "Automatron",
+  "drops": [
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "perpetual-caliber"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/aeonblight-drake/icon.png"
+}

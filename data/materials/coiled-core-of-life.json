@@ -1,0 +1,21 @@
+{
+  "id": 112157,
+  "name": "Coiled Core of Life",
+  "description": "A branch dropped by a Leshy before it returned to silence.\nA branch with a fully formed crystal core. It contains vitality that will not easily fade. If buried in the soil, it would likely grow into a new Leshy before long.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "juvenile-tree-segment",
+    "rugged-elder-leshy"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "blade-of-atonement",
+      "song-of-the-vigil",
+      "covenant-of-frost-and-snow",
+      "whitelake-frostfeather"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/coiled-core-of-life/icon.png"
+}

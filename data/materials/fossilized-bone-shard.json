@@ -1,0 +1,35 @@
+{
+  "id": 112043,
+  "name": "Fossilized Bone Shard",
+  "description": "A fossilized bone fragment sometimes found after defeating Geovishaps.\nGeovishaps all dream of growing into great dragons one day. They see these fossils as dragon bones and greatly cherish them, perhaps because they too hope to attain the dragons' longevity and power.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "geovishap-hatchling",
+    "geovishap",
+    "primordial-bathysmal-vishap",
+    "rimebiter-bathysmal-vishap",
+    "bolteater-bathysmal-vishap"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "skyrider-sword",
+      "skyrider-greatsword",
+      "black-tassel",
+      "iron-sting",
+      "prototype-archaic",
+      "serpent-spine",
+      "luxurious-sea-lord",
+      "prototype-starglitter",
+      "lithic-spear",
+      "mappa-mare",
+      "ballad-of-the-boundless-blue",
+      "compound-bow",
+      "jade-vista",
+      "vortex-vanquisher",
+      "memory-of-dust"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/fossilized-bone-shard/icon.png"
+}

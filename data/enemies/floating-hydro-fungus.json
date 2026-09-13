@@ -1,0 +1,15 @@
+{
+  "id": 26090101,
+  "name": "Floating Hydro Fungus",
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nIt is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source...",
+  "type": "Beast",
+  "drops": [
+    "fungal-spores",
+    "luminescent-pollen",
+    "crystalline-cyst-dust",
+    "inactivated-fungal-nucleus",
+    "dormant-fungal-nucleus",
+    "robust-fungal-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/floating-hydro-fungus/icon.png"
+}

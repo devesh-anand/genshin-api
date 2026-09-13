@@ -1,0 +1,14 @@
+{
+  "id": 25140101,
+  "name": "Immortal Construct",
+  "description": "A byproduct created by the alchemist Koshchei during his creation of the individual known as the Firebird.\nPerhaps this was the gloomy alchemist's habit: whenever one experimental subject from a batch succeeded, all the others would be abandoned or disposed of as he pleased.\nThis derivative creation should have fused with some form of power and reached completion. Now, however, it can only wander endlessly through the mountain gorges as an incomplete, mindless beast.",
+  "type": "Beast",
+  "drops": [
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "unscorched-blossom-branch"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/immortal-construct/icon.png"
+}

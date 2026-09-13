@@ -1,0 +1,12 @@
+{
+  "id": 23072101,
+  "name": "Oprichniki Support Trooper",
+  "description": "A soldier of the Fatui Oprichniki, equipped with a heavy shield and tasked to fight at the very front to protect their comrades.\nMany understand that in the long war between Snezhnaya and the dark calamity, only the side that holds out with greater resolution can outlast the other and emerge victorious. The ultimate resolution of the Oprichniki is, undoubtedly, the shield that protects their forces — so long as this shield does not fall, there is always hope for victory.",
+  "type": "Fatui",
+  "drops": [
+    "tattered-warrant",
+    "immaculate-warrant",
+    "frost-etched-warrant"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/oprichniki-support-trooper/icon.png"
+}

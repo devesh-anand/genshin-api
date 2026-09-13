@@ -1,0 +1,22 @@
+{
+  "id": 112074,
+  "name": "Desiccated Shell",
+  "description": "The ruined shell of a Consecrated Beast.\nA tangible effigy to the grand calamity that devoured the lands of yore, usually only discovered in places few dare tread.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "consecrated-red-vulture",
+    "consecrated-scorpion",
+    "consecrated-flying-serpent"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "mailed-flower",
+      "talking-stick",
+      "light-of-foliar-incision",
+      "beacon-of-the-reed-sea"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/desiccated-shell/icon.png"
+}

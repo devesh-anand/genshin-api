@@ -1,0 +1,29 @@
+{
+  "id": 29020101,
+  "name": "Lupus Boreas, Dominator of Wolves",
+  "description": "The noblest and greatest of souls, who watches over the lupical of Wolvendom.\nWhen the wolfpack is imperiled, it will emerge in the form of a wolf and show forth its fangs and claws.\n\nThe wolves of Wolvendom are frightening phantoms to the people of Mondstadt:\nA blurred shape flashing through the forest, a chilling howl in the indeterminate distance, the creeping sense of eyes constantly nailed to their backs...\nHumans rarely have the opportunity to lock their eyes with a wolf, for this is the law Lupus Boreas laid down for its race.",
+  "type": "Boss",
+  "drops": [
+    "northlander-sword-billet",
+    "northlander-bow-billet",
+    "northlander-claymore-billet",
+    "northlander-catalyst-billet",
+    "northlander-polearm-billet",
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "prithiva-topaz-sliver",
+    "prithiva-topaz-fragment",
+    "prithiva-topaz-chunk",
+    "prithiva-topaz-gemstone",
+    "tail-of-boreas",
+    "ring-of-boreas",
+    "spirit-locket-of-boreas"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/lupus-boreas-dominator-of-wolves/icon.png"
+}

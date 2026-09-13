@@ -1,0 +1,15 @@
+{
+  "id": 101224,
+  "name": "Trishiraite",
+  "description": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "sethos"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/trishiraite/icon.png"
+}

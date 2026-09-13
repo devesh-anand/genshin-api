@@ -1,0 +1,38 @@
+{
+  "id": 112025,
+  "name": "Chaos Core",
+  "description": "Comes from ancient defunct relic structures. The core that once drove a mechanical beast. Should you come to understand its workings and reproduce it, you could perhaps change the world.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "ruin-guard",
+    "ruin-hunter",
+    "ruin-grader"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "travelers-handy-sword",
+      "white-iron-greatsword",
+      "otherworldly-story",
+      "recurve-bow",
+      "sacrificial-sword",
+      "cinnabar-spindle",
+      "wolf-fang",
+      "favonius-greatsword",
+      "royal-greatsword",
+      "favonius-lance",
+      "sacrificial-fragments",
+      "frostbearer",
+      "favonius-warbow",
+      "royal-bow",
+      "alley-hunter",
+      "freedom-sworn",
+      "wolfs-gravestone",
+      "skyward-spine",
+      "lost-prayer-to-the-sacred-winds",
+      "amos-bow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chaos-core/icon.png"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 112010,
+  "name": "Forbidden Curse Scroll",
+  "description": "A scroll inscribed with ancient images. It is said that few can decipher its meaning, and the few scholars that have all went mad.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "hydro-samachurl",
+    "anemo-samachurl",
+    "electro-samachurl",
+    "dendro-samachurl",
+    "cryo-samachurl",
+    "geo-samachurl"
+  ],
+  "used_by": {
+    "characters": [
+      "barbara",
+      "klee",
+      "qiqi",
+      "albedo",
+      "yoimiya",
+      "cyno",
+      "layla",
+      "xianyun",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "travelers-handy-sword",
+      "thrilling-tales-of-dragon-slayers",
+      "recurve-bow",
+      "sacrificial-sword",
+      "the-alley-flash",
+      "rainslasher",
+      "dragons-bane",
+      "favonius-codex",
+      "blackcliff-agate",
+      "hakushin-ring",
+      "sacrificial-jade",
+      "royal-bow",
+      "fading-twilight",
+      "freedom-sworn",
+      "wolfs-gravestone",
+      "skyward-spine",
+      "cranes-echoing-call"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/forbidden-curse-scroll/icon.png"
+}

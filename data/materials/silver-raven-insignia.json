@@ -1,0 +1,57 @@
+{
+  "id": 112036,
+  "name": "Silver Raven Insignia",
+  "description": "A raven insignia used by members of the Treasure Hoarders to identify each other. The Treasure Hoarders ask for no resume. Anyone who has an insatiable desire for treasure and is backed up by an equal amount of courage can become a worthy member.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "treasure-hoarders-scout",
+    "treasure-hoarders-pyro-potioneer",
+    "treasure-hoarders-hydro-potioneer",
+    "treasure-hoarders-electro-potioneer",
+    "treasure-hoarders-cryo-potioneer",
+    "treasure-hoarders-handyman",
+    "treasure-hoarders-marksman",
+    "treasure-hoarders-gravedigger",
+    "treasure-hoarders-seaman",
+    "treasure-hoarders-pugilist",
+    "treasure-hoarders-crusher"
+  ],
+  "used_by": {
+    "characters": [
+      "kaeya",
+      "beidou",
+      "bennett",
+      "xinyan",
+      "kaedehara-kazuha",
+      "yanfei",
+      "thoma",
+      "shikanoin-heizou",
+      "prune"
+    ],
+    "weapons": [
+      "hunters-bow",
+      "seasoned-hunters-bow",
+      "fillet-blade",
+      "skyrider-greatsword",
+      "emerald-orb",
+      "messenger",
+      "lions-roar",
+      "sword-of-descension",
+      "whiteblind",
+      "makhaira-aquamarine",
+      "crescent-pike",
+      "kitain-cross-spear",
+      "sacrificial-fragments",
+      "wine-and-song",
+      "ballad-of-the-boundless-blue",
+      "prototype-crescent",
+      "mitternachts-waltz",
+      "primordial-jade-cutter",
+      "the-unforged",
+      "vortex-vanquisher",
+      "the-daybreak-chronicles"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silver-raven-insignia/icon.png"
+}

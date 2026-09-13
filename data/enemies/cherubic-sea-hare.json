@@ -1,0 +1,12 @@
+{
+  "id": 26160201,
+  "name": "Cherubic Sea Hare",
+  "description": "The adult form of an Angelic Sea Hare. The \"wings\" on its back are actually fat used for storing elemental energy.\nThis type of sea creature spends its whole life eating and conserving energy far beyond its actual requirements. Perhaps if the oceans dry out some day, they will be able to continue to survive — or simply become an important source of nutrition for other creatures...",
+  "type": "Beast",
+  "drops": [
+    "transoceanic-pearl",
+    "transoceanic-chunk",
+    "xenochromatic-crystal"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cherubic-sea-hare/icon.png"
+}

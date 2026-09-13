@@ -1,0 +1,15 @@
+{
+  "id": 21020201,
+  "name": "Blazing Axe Mitachurl",
+  "description": "Muscular hilichurls who wield large two-handed axes.\nAttacks with large strikes, and will use Pyro Slimes to infuse their axes with Pyro. They are very lethal.\nUsually, repeatedly quenching a weapon the way a Blazing Axe Mitachurl does will decrease the hardness of the metal and cause the axe-head's edge to chip more easily. But such is the strength of the mitachurls that even should the edge disappear altogether, they can still use their axes as hammers.",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask",
+    "heavy-horn",
+    "black-bronze-horn",
+    "black-crystal-horn"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/blazing-axe-mitachurl/icon.png"
+}

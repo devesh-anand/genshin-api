@@ -1,0 +1,29 @@
+{
+  "id": 29150101,
+  "name": "Il Dottore",
+  "description": "To push his heretical experiments to their end, Dottore has severed the constraints of his corporeal form. Now, he has merged as one with the Irminsul that threads through all of Teyvat.\nThis world inherently predates any natural order.\nUntil it cast its gaze, the origin and terminus of all matter were indeterminate.\nYet the weak, seeking to escape the crushing weight of freedom, would rather bow before the throne of \"Certainty.\"\nOnly those with the resolve to pierce the veil of mundane perception may earn the right to forge a \"new world.\"\nThat is the domain of \"Possibility\" — a perpetual and magnificent experiment that shall never reach its end.\nIt's time to enliven this stagnant, unchanging reality...\n\"How can you be certain that I am not capable of perfecting it?\"",
+  "type": "Boss",
+  "drops": [
+    "midlander-sword-billet",
+    "midlander-bow-billet",
+    "midlander-claymore-billet",
+    "midlander-catalyst-billet",
+    "midlander-polearm-billet",
+    "agnidus-agate-sliver",
+    "agnidus-agate-fragment",
+    "agnidus-agate-chunk",
+    "agnidus-agate-gemstone",
+    "vajrada-amethyst-sliver",
+    "vajrada-amethyst-fragment",
+    "vajrada-amethyst-chunk",
+    "vajrada-amethyst-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "counterfeit-resin",
+    "twisted-withered-branch",
+    "profaned-sprout"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/il-dottore/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 112120,
+  "name": "Warm Back-Shell",
+  "description": "A portion of shell removed from a Furnace Shell Mountain Weasel's back after its defeat.\nFurnace Shell Mountain Weasels accumulate Phlogiston in their shells from feeding to be used in emergencies. The sight of them blazing fiery trails over the Sacred Mountain has not been seen since ancient times.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "furnace-shell-mountain-weasel"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "heretics-molten-blade",
+      "flame-forged-insight",
+      "sequence-of-solitude",
+      "fractured-halo",
+      "vivid-notions"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/warm-back-shell/icon.png"
+}

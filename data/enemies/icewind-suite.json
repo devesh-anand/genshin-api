@@ -1,0 +1,19 @@
+{
+  "id": 24070301,
+  "name": "Icewind Suite",
+  "description": "Artificed Dancers developed by the Fontaine Research Institute.\nBossuet originally intended for Artificed Dancers to be works of art that transcended the era of mechanical reproduction. But after Bossuet was forced to resign, the project was taken over by Maillardet, who had his own unique understanding of what he wanted to achieve. As a result, while their features were perfected during the course of its development, the Artificed Dancers gradually strayed from Bossuet's original vision.",
+  "type": "Automatron",
+  "drops": [
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "artificed-spare-clockwork-component-coppelia",
+    "artificed-spare-clockwork-component-coppelius"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/icewind-suite/icon.png"
+}

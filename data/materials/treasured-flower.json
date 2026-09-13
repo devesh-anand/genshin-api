@@ -1,0 +1,21 @@
+{
+  "id": 112078,
+  "name": "Treasured Flower",
+  "description": "A wild flower that a Hilichurl Rogue treasured, bereft of any special qualities.\nFlowers can be used as gifts or offerings to express one's feelings in many cultures.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "hydro-hilichurl-rogue",
+    "anemo-hilichurl-rogue"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "ballad-of-the-fjords",
+      "ibis-piercer",
+      "scion-of-the-blazing-sun",
+      "jadefalls-splendor"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/treasured-flower/icon.png"
+}

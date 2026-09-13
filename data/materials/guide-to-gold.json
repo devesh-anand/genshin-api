@@ -1,0 +1,24 @@
+{
+  "id": 104317,
+  "name": "Guide to Gold",
+  "description": "Talent Level-Up material.\nGold is the symbol of the land of Geo.\nGold symbolizes conversion. This is the unspoken understanding between Liyue's mountains, land, city, and people. In Liyue, industriousness is converted into gold, and gold into prosperity.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "beidou",
+      "xingqiu",
+      "zhongli",
+      "xinyan",
+      "yanfei",
+      "baizhu",
+      "xianyun",
+      "zibai",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-gold/icon.png"
+}

@@ -1,0 +1,21 @@
+{
+  "id": 112121,
+  "name": "Blazing Prismshell",
+  "description": "A whole piece of radiant shell liberated from a Furnace Shell Mountain Weasel's back after its defeat.\nIt is said that the more Phlogiston a Furnace Shell Mountain Weasel has stored in its back, the higher its status in the pack. The reasoning for this phenomenon may be quite simple: More dominant Furnace Shell Mountain Weasels likely have less need to call on their Phlogiston reserves than their less prominent peers.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "furnace-shell-mountain-weasel"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "heretics-molten-blade",
+      "flame-forged-insight",
+      "sequence-of-solitude",
+      "fractured-halo",
+      "vivid-notions"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/blazing-prismshell/icon.png"
+}

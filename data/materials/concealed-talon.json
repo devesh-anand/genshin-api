@@ -1,0 +1,25 @@
+{
+  "id": 112058,
+  "name": "Concealed Talon",
+  "description": "A sharp nail left behind by one of the Riftwolves.\nAll the marvels in the world must pale before \"Cretaceus,\" the greatest work of them all.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "rockfond-rifthound-whelp",
+    "thundercraven-rifthound-whelp",
+    "rockfond-rifthound",
+    "thundercraven-rifthound"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "akuoumaru",
+      "wavebreakers-fin",
+      "oathsworn-eye",
+      "redhorn-stonethresher",
+      "kaguras-verity",
+      "polar-star"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/concealed-talon/icon.png"
+}

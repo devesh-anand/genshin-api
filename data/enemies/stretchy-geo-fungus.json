@@ -1,0 +1,15 @@
+{
+  "id": 26090901,
+  "name": "Stretchy Geo Fungus",
+  "description": "A spore organism of some intelligence. It possesses extreme adaptability.\nThese shrooms' caps have hard outer layers derived from concretions of Geo energy. Its bodily structure is also quite likely to be denser than others of its kind so as to withstand the heavy weight of its cap.",
+  "type": "Beast",
+  "drops": [
+    "fungal-spores",
+    "luminescent-pollen",
+    "crystalline-cyst-dust",
+    "inactivated-fungal-nucleus",
+    "dormant-fungal-nucleus",
+    "robust-fungal-nucleus"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/stretchy-geo-fungus/icon.png"
+}

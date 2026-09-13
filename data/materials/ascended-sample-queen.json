@@ -1,0 +1,18 @@
+{
+  "id": 113075,
+  "name": "Ascended Sample: Queen",
+  "description": "A rare sample resulting from the alchemical activation of a substance.\nThe \"Queen\" was once known as the \"Minister,\" but as the rules of the game evolved, it grew to become the most powerful piece and a representation of the authority of the family behind the throne — a true symbol of gilded royalty.\nPerhaps the promotion of an ordinary foot soldier shares some similarities with the transmutation of matter, yet even should they manage to turn to gold, the most a pawn might hope for is to be represented by an upturned rook.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "flins",
+      "zibai",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ascended-sample-queen/icon.png"
+}

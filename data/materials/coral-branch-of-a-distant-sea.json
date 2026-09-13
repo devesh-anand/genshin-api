@@ -1,0 +1,21 @@
+{
+  "id": 114025,
+  "name": "Coral Branch of a Distant Sea",
+  "description": "Weapon Ascension Material.\nWatatsumi Island is the furthest from Narukami Island in the Inazuman island chain, and its name means \"the god of the oceans\" in the island's ancient tongue. Legend has it that when the great serpent first arose within the abyssal nation of ever-night, its fluorescent body was covered in myriad-colored coral.",
+  "rarity": 2,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "amenoma-kageuchi",
+      "akuoumaru",
+      "hakushin-ring",
+      "oathsworn-eye",
+      "mistsplitter-reforged",
+      "uraku-misugiri",
+      "everlasting-moonglow"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/coral-branch-of-a-distant-sea/icon.png"
+}

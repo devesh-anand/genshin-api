@@ -1,0 +1,22 @@
+{
+  "id": 114062,
+  "name": "Blazing Sacrificial Heart's Hesitance",
+  "description": "Weapon Ascension Material.\nAfter the original civilizations crumbled like shattered jade — and those envoys from the skies above, under whose guidance the earthly civilizations had thrived, were devoured by the awakened dragons — humanity plunged into savagery, losing the ability to perceive the world anew.\nThus did they revert to their most primal beliefs, convinced of the inherent mystery of the earth that nurtured all things. This marked the dawn of the era where hunted prey began to be offered as sacrifices.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "flute-of-ezpitzal",
+      "sturdy-bone",
+      "heretics-molten-blade",
+      "earth-shaker",
+      "waveriding-whirl",
+      "a-thousand-blazing-suns",
+      "fractured-halo",
+      "surfs-up"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/blazing-sacrificial-hearts-hesitance/icon.png"
+}

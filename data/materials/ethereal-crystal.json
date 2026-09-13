@@ -1,0 +1,36 @@
+{
+  "id": 112147,
+  "name": "Ethereal Crystal",
+  "description": "The remains of a Snezhnayan fae left behind after battle.\nA shattered fragment of the crystalline scales that once grew upon the fae's body. Though it is now a mere empty shell, one can still sense the echo of the unique power that once dwelt within.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "volkodlak-raider",
+    "volkodlak-sharpshooter",
+    "volkodlak-lobber",
+    "volkodlak-basher",
+    "leomastiff-guard",
+    "long-eared-striker",
+    "channel-contact",
+    "fanged-zealot",
+    "voywolf-hunter",
+    "glaciomancer",
+    "glacial-warden",
+    "winged-halberd-knight",
+    "winged-soarer-knight",
+    "juvenile-tree-segment",
+    "rugged-elder-leshy"
+  ],
+  "used_by": {
+    "characters": [
+      "odette"
+    ],
+    "weapons": [
+      "emberwell",
+      "song-of-the-vigil",
+      "echoes-of-the-heart",
+      "exaiphanes-blade"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ethereal-crystal/icon.png"
+}

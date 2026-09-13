@@ -1,0 +1,32 @@
+{
+  "id": 112030,
+  "name": "Agent's Sacrificial Knife",
+  "description": "An oddly-shaped weapon made with superior Snezhnayan technology that once belonged to a senior agent. Proper training is required for using this strange weapon.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "fatui-pyro-agent"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "dark-iron-sword",
+      "white-tassel",
+      "emerald-orb",
+      "slingshot",
+      "lions-roar",
+      "blackcliff-longsword",
+      "whiteblind",
+      "lithic-blade",
+      "crescent-pike",
+      "solar-pearl",
+      "blackcliff-agate",
+      "rust",
+      "blackcliff-warbow",
+      "fading-twilight",
+      "summit-shaper",
+      "primordial-jade-winged-spear"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/agents-sacrificial-knife/icon.png"
+}

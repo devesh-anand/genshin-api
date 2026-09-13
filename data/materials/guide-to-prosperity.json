@@ -1,0 +1,23 @@
+{
+  "id": 104311,
+  "name": "Guide to Prosperity",
+  "description": "Talent Level-Up material.\nProsperity is the people's pursuit in the land of Geo.\nProsperity is the promise made by Liyue to its children: To repay the hard-working laborers with enough gold to brighten up this land.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "xiao",
+      "ningguang",
+      "qiqi",
+      "keqing",
+      "yelan",
+      "shenhe",
+      "gaming",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-prosperity/icon.png"
+}

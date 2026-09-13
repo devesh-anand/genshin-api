@@ -1,0 +1,32 @@
+{
+  "id": 104133,
+  "name": "Nagadus Emerald Chunk",
+  "description": "Character Ascension material.\n\"I had a very, very long dream...\"\n\"In it, people were holding hands, dancing in a circle, be they sages or fools, dancers or warriors, puppets or statues of gods...\"",
+  "rarity": 4,
+  "category": "ascension-gem",
+  "dropped_by": [
+    "dendro-hypostasis",
+    "jadeplume-terrorshroom",
+    "gluttonous-yumkasaur-mountain-king",
+    "radiant-moonfly",
+    "guardian-of-apeps-oasis"
+  ],
+  "used_by": {
+    "characters": [
+      "kirara",
+      "collei",
+      "tighnari",
+      "nahida",
+      "yaoyao",
+      "alhaitham",
+      "kaveh",
+      "baizhu",
+      "emilie",
+      "kinich",
+      "lauma",
+      "nefer"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/nagadus-emerald-chunk/icon.png"
+}

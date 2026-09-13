@@ -1,0 +1,12 @@
+{
+  "id": 25135001,
+  "name": "Glaciomancer",
+  "description": "A Snegovik born of love amid the snow and ice.\nFemale Snegovik are known as Snegurochka, and most are born as mages capable of freely wielding the power of ice and snow. It's said that when Snegovik were first created, their souls were incomplete, and only by falling in love with humans could they make themselves whole.\nYet once a Snegovik has attained wholeness, does it still need love? Perhaps not.\nMaybe this is why so many stories of love between Snegovik and human end in tragedy.",
+  "type": "Beast",
+  "drops": [
+    "ethereal-glimmershard",
+    "ethereal-crystal",
+    "ethereal-crystalscale-stone"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/glaciomancer/icon.png"
+}

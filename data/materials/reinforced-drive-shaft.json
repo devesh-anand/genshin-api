@@ -1,0 +1,38 @@
+{
+  "id": 112123,
+  "name": "Reinforced Drive Shaft",
+  "description": "The reinforced drive shaft of a Landcruiser.\nIt took countless reports of destruction to bring about this insignificant improvement. In a sense, the administrative system of the Royal Armory Palace is several times more complex than the machinery it builds. After all, even the most advanced Landcruisers don't take months or even years to build.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "close-combat-storm-landcruiser",
+    "close-combat-scout-landcruiser",
+    "force-recon-storm-landcruiser",
+    "force-recon-scout-landcruiser",
+    "force-recon-ground-effect-landcruiser",
+    "cutting-edge-all-purpose-storm-landcruiser",
+    "cutting-edge-all-purpose-scout-landcruiser",
+    "cutting-edge-fire-support-ground-effect-landcruiser"
+  ],
+  "used_by": {
+    "characters": [
+      "flins",
+      "aino",
+      "jahoda",
+      "illuga",
+      "varka",
+      "sandrone"
+    ],
+    "weapons": [
+      "moonweavers-dawn",
+      "master-key",
+      "prospectors-shovel",
+      "sacrificers-staff",
+      "athame-artis",
+      "lightbearing-moonshard",
+      "nightweavers-looking-glass",
+      "angelos-heptades"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/reinforced-drive-shaft/icon.png"
+}

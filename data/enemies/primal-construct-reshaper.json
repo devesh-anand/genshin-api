@@ -1,0 +1,12 @@
+{
+  "id": 24040201,
+  "name": "Primal Construct: Reshaper",
+  "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\nThe lord of the blazing sun who once ruled this desert once promised his people a utopia on the other side of existence, though it ultimately turned out to be a mirage made of folly.\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
+  "type": "Automatron",
+  "drops": [
+    "damaged-prism",
+    "turbid-prism",
+    "radiant-prism"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/primal-construct-reshaper/icon.png"
+}

@@ -1,0 +1,12 @@
+{
+  "id": 25210401,
+  "name": "Eremite Linebreaker",
+  "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\nThis warrior wields a unique fist blade and joined the Eremites to seek out stronger foes. Rather than the pay, these warriors fight more to attain greater martial might.",
+  "type": "Human Faction",
+  "drops": [
+    "faded-red-satin",
+    "trimmed-red-silk",
+    "rich-red-brocade"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/eremite-linebreaker/icon.png"
+}

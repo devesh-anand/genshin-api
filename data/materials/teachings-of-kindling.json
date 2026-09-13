@@ -1,0 +1,18 @@
+{
+  "id": 104350,
+  "name": "Teachings of Kindling",
+  "description": "Talent Level-Up material.\nOffering up kindling is the established rule of the Nation of Pyro.\nFor something gained, something must be given. If you wish to obtain something, you must first pay the corresponding price, just like the offerings that should be made as kindling in the process of incineration.",
+  "rarity": 2,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kinich",
+      "xilonen",
+      "ororon",
+      "citlali"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/teachings-of-kindling/icon.png"
+}

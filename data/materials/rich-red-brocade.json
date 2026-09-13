@@ -1,0 +1,40 @@
+{
+  "id": 112067,
+  "name": "Rich Red Brocade",
+  "description": "A piece of red brocade woven with golden thread.\nThose born in the gilded desert under the sun occasionally sing a song, of which the meaning has been forgotten. They would praise the scorching sun that illuminates the earth as equally as ever and bewail the afterglow at the end of the dusk. Some unfamiliar words recur at the end of the song, which are said to be the names of ancient gods. Legend has it that when the King of the Desert was still alive, his people chose to cover their eyes as they dared not look upon him, whose brilliance was beyond that of the sun.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "eremite-axe-vanguard",
+    "eremite-crossbow",
+    "eremite-ravenbeak-halberdier",
+    "eremite-linebreaker",
+    "eremite-sword-dancer",
+    "eremite-desert-clearwater",
+    "eremite-sunfrost",
+    "eremite-daythunder",
+    "eremite-stone-enchanter"
+  ],
+  "used_by": {
+    "characters": [
+      "dori",
+      "candace",
+      "faruzan",
+      "alhaitham",
+      "dehya",
+      "sethos"
+    ],
+    "weapons": [
+      "sapwood-blade",
+      "xiphos-moonlight",
+      "forest-regalia",
+      "clash-of-kings",
+      "ibis-piercer",
+      "key-of-khaj-nisut",
+      "light-of-foliar-incision",
+      "beacon-of-the-reed-sea",
+      "hunters-path"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/rich-red-brocade/icon.png"
+}

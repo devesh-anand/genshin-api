@@ -1,0 +1,20 @@
+{
+  "id": 104331,
+  "name": "Philosophies of Admonition",
+  "description": "Talent Level-Up material.\nAdmonition is the branches of the nation of wisdom.\nAdmonition is completed by good deeds. What is done confers real meaning upon what is said. When one's mind, words, and deeds are aligned, their nourishment shall guarantee the fruition of wisdom's tree.",
+  "rarity": 4,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "tighnari",
+      "cyno",
+      "candace",
+      "faruzan",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-admonition/icon.png"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 114010,
+  "name": "Chains of the Dandelion Gladiator",
+  "description": "Weapon Ascension Material.\nThe chains that once bound the great hero Vennessa. In truth, all gladiators would have worn chains in that era, and Vennessa was but one of many.",
+  "rarity": 3,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "beginners-protector",
+      "iron-point",
+      "travelers-handy-sword",
+      "white-iron-greatsword",
+      "otherworldly-story",
+      "recurve-bow",
+      "sacrificial-sword",
+      "festering-desire",
+      "favonius-greatsword",
+      "royal-greatsword",
+      "mailed-flower",
+      "favonius-lance",
+      "sacrificial-fragments",
+      "frostbearer",
+      "favonius-warbow",
+      "royal-bow",
+      "alley-hunter",
+      "windblume-ode",
+      "freedom-sworn",
+      "wolfs-gravestone",
+      "skyward-spine",
+      "lost-prayer-to-the-sacred-winds",
+      "amos-bow",
+      "the-daybreak-chronicles"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chains-of-the-dandelion-gladiator/icon.png"
+}

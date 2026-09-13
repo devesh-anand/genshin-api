@@ -1,0 +1,21 @@
+{
+  "id": 114047,
+  "name": "Dream of Scorching Might",
+  "description": "Weapon Ascension Material.\nSilver moonlight and clear springs once completed the scenery of the oases. But as the Lord of Flowers faded in the darkening sandstorm, so was the worriless golden paradise submerged by death.\nIn the poetry of the Eremite Tribe, the moon cast its silver light on the crimson mantle, causing Al-Ahmar, the Mourning King, to be driven to madness.\nIn a melancholic desert ballad, driven by the haunting nostalgia, the lonely king created an ever-youthful dreamland in the center of the desert, where undisturbed water sprang up and perpetual dusk remained.",
+  "rarity": 4,
+  "category": "weapon-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "makhaira-aquamarine",
+      "kings-squire",
+      "end-of-the-line",
+      "scion-of-the-blazing-sun",
+      "beacon-of-the-reed-sea",
+      "tulaytullahs-remembrance",
+      "hunters-path"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dream-of-scorching-might/icon.png"
+}

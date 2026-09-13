@@ -1,0 +1,23 @@
+{
+  "id": 113005,
+  "name": "Dvalin's Sigh",
+  "description": "A bit of power taken from the whirlwinds evoked by the Dragon of the East.\nBeautiful and transparent, both trade winds and tornadoes will work in his name. The winds move as his companion, his voice, and his freedom.\nHis enemies are the thousands who stand against the wind.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "stormterror"
+  ],
+  "used_by": {
+    "characters": [
+      "amber",
+      "beidou",
+      "chongyun",
+      "traveler",
+      "traveler",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dvalins-sigh/icon.png"
+}

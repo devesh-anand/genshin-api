@@ -1,0 +1,12 @@
+{
+  "id": 23080201,
+  "name": "Close Combat Scout Landcruiser",
+  "description": "An autonomous machine that applies the principles of naval combat to land battles, a literal \"armed ship that cruises on land.\"\nThese walking Landcruisers with bipedal structures are often used as \"scouts,\" for they are able to quickly traverse rough terrain and reach key positions to seize the initiative for their allies. Their close-combat-oriented rotating blades allow them to deal fatal damage to their foes and shred shrubbery and obstacles to open the way, allowing units to operate with ease even amidst thick vegetation.",
+  "type": "Fatui",
+  "drops": [
+    "broken-drive-shaft",
+    "reinforced-drive-shaft",
+    "precision-drive-shaft"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/close-combat-scout-landcruiser/icon.png"
+}

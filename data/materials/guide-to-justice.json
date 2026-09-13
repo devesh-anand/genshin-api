@@ -1,0 +1,21 @@
+{
+  "id": 104342,
+  "name": "Guide to Justice",
+  "description": "Talent Level-Up Material.\nThe sword of the Nation of Water is justice.\nThe law of Fontaine walks with the sword of justice in hand. Justice must be blind, and those who wield the sword of justice must not be led astray by their own interests or affairs.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "freminet",
+      "charlotte",
+      "furina",
+      "clorinde",
+      "escoffier",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-justice/icon.png"
+}

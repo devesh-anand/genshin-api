@@ -1,0 +1,12 @@
+{
+  "id": 20010801,
+  "name": "Cryo Slime",
+  "description": "A small monster created through the coagulation of Cryo in the natural environment.\nCompetitors once spread malicious rumors that the Dawn Winery used Cryo Slimes to control the temperature of their wine cellar and preserve the quality of their alcohol.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/cryo-slime/icon.png"
+}

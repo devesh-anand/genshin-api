@@ -1,0 +1,40 @@
+{
+  "id": 104173,
+  "name": "Prithiva Topaz Chunk",
+  "description": "Character Ascension material.\n\"The currencies that flow through this land are my flesh and blood.\nFor thus did I become the guarantor of the people's hard work, wisdom, and future.\"",
+  "rarity": 4,
+  "category": "ascension-gem",
+  "dropped_by": [
+    "geo-hypostasis",
+    "golden-wolflord",
+    "ruin-serpent",
+    "perpetual-mechanical-array",
+    "experimental-field-generator",
+    "watcher-fallen-vigil",
+    "primo-geovishap",
+    "legatus-golem",
+    "radiant-moongecko",
+    "lupus-boreas-dominator-of-wolves",
+    "azhdaha"
+  ],
+  "used_by": {
+    "characters": [
+      "ningguang",
+      "zhongli",
+      "noelle",
+      "albedo",
+      "gorou",
+      "arataki-itto",
+      "yun-jin",
+      "navia",
+      "chiori",
+      "kachina",
+      "xilonen",
+      "zibai",
+      "illuga",
+      "linnea"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/prithiva-topaz-chunk/icon.png"
+}

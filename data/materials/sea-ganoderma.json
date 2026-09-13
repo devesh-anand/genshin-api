@@ -1,0 +1,17 @@
+{
+  "id": 101206,
+  "name": "Sea Ganoderma",
+  "description": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kaedehara-kazuha",
+      "yae-miko",
+      "yumemizuki-mizuki"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sea-ganoderma/icon.png"
+}

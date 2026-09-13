@@ -1,0 +1,17 @@
+{
+  "id": 113082,
+  "name": "Madman's Restraint",
+  "description": "A band found in the heretical testing grounds after defeating the false god that usurped the moon.\nHumanity defines civilization by driving out madness. Yet believing that all things, whether they exist or not, can be contained within reason may itself be another form of lunacy. The madman sees through reason's cunning, and in his world, all things are permitted.",
+  "rarity": 5,
+  "category": "weekly-boss-drop",
+  "dropped_by": [
+    "the-doctor"
+  ],
+  "used_by": {
+    "characters": [
+      "sandrone"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/madmans-restraint/icon.png"
+}

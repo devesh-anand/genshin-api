@@ -1,0 +1,23 @@
+{
+  "id": 104354,
+  "name": "Guide to Conflict",
+  "description": "Talent Level-Up material.\nConflict is considered reason in the Nation of Pyro.\nConflicts can always be resolved by greater powers. This fact means that they can always be managed, as opposed to developing into something uncontrollable. Conflict is also a kind of limitation, preventing people from endless shirking of responsibilities without weighing the costs. It demands that participants settle their scores decisively and efficiently.",
+  "rarity": 3,
+  "category": "talent-book",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "kachina",
+      "chasca",
+      "varesa",
+      "ifa",
+      "ineffa",
+      "manekin",
+      "manekina",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-conflict/icon.png"
+}

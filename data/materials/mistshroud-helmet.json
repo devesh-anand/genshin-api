@@ -1,0 +1,22 @@
+{
+  "id": 112136,
+  "name": "Mistshroud Helmet",
+  "description": "A helmet found in the mists of the Wild Hunt.\nPerhaps because the sullying presence from beyond this world has fed from the memories of the Ley Lines, its shape appears oddly similar to the relics of a lost kingdom.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "wilderness-exile",
+    "wilderness-hunter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "prospectors-shovel",
+      "sacrificers-staff",
+      "snare-hook",
+      "lightbearing-moonshard",
+      "bloodsoaked-ruins"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mistshroud-helmet/icon.png"
+}

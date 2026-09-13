@@ -1,0 +1,12 @@
+{
+  "id": 20011301,
+  "name": "Large Pyro Slime",
+  "description": "A monster created by the sedimentation of Pyro dispersed throughout nature.\nThough its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "slime-condensate",
+    "slime-secretions",
+    "slime-concentrate"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/large-pyro-slime/icon.png"
+}

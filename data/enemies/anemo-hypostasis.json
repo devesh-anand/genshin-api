@@ -1,0 +1,14 @@
+{
+  "id": 20040201,
+  "name": "Anemo Hypostasis",
+  "description": "Code name: Beth. A high-purity Anemo entity.\nElemental hypostases are life forms which have completely abandoned their former appearance and biological structure, making them able to reach the highest level of elemental purity.\nResearch into hypostases is mainly led by scholars of Sumeru Akademiya, but due to the level of danger that they pose, little of substance is known about hypostases beyond their scientific name and code name.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "vayuda-turquoise-sliver",
+    "vayuda-turquoise-fragment",
+    "vayuda-turquoise-chunk",
+    "vayuda-turquoise-gemstone",
+    "hurricane-seed"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/anemo-hypostasis/icon.png"
+}

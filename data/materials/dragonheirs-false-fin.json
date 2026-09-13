@@ -1,0 +1,18 @@
+{
+  "id": 113031,
+  "name": "Dragonheir's False Fin",
+  "description": "A piece of biological tissue that you found after defeating the Bathysmal Vishaps.\nAlthough it looks like a fin of some kind, it does not actually have any function at all.\nThe people of Byakuyakoku once investigated the Bathysmal Vishaps quite deeply. Their most distinctive feature was the ability to choose what traits it wished to pass on to its offspring. Because of their great hatred for man-made light sources, these vishaps will lose any visual acuity by the time they reach maturity. At the same time, they have also evolved a certain degree of elemental polymorphism for combat purposes.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "rimebiter-bathysmal-vishap"
+  ],
+  "used_by": {
+    "characters": [
+      "yae-miko",
+      "shenhe"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dragonheirs-false-fin/icon.png"
+}

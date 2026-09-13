@@ -1,0 +1,52 @@
+{
+  "id": 112081,
+  "name": "Transoceanic Chunk",
+  "description": "A crystal obtained from a defeated Fontemer Aberrant.\nIt gives off a somewhat mysterious energy.\nAlthough many legends speak of great life forms residing in remote seas beyond human reach, ordinary oceans can hardly compare to the vibrant seas of Fontaine.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "blubberbeast",
+    "hunters-ray",
+    "hunters-ray",
+    "armored-crab",
+    "armored-crab",
+    "sternshield-crab",
+    "hat-jellyfish",
+    "hat-jellyfish",
+    "bubbly-seahorse",
+    "bubbly-seahorse",
+    "bubbly-seahorse",
+    "bubbler-seahorse",
+    "ball-octopus",
+    "ball-octopus",
+    "angelic-sea-hare",
+    "angelic-sea-hare",
+    "cherubic-sea-hare"
+  ],
+  "used_by": {
+    "characters": [
+      "freminet",
+      "neuvillette",
+      "navia",
+      "sigewinne",
+      "clorinde",
+      "traveler",
+      "traveler"
+    ],
+    "weapons": [
+      "fleuve-cendre-ferryman",
+      "the-dockhands-assistant",
+      "sword-of-narzissenkreuz",
+      "flame-forged-insight",
+      "forged-by-the-golden-melody",
+      "flowing-purity",
+      "range-gauge",
+      "splendor-of-tranquil-waters",
+      "symphonist-of-scents",
+      "cashflow-supervision",
+      "the-first-great-magic",
+      "silvershower-heartstrings"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/transoceanic-chunk/icon.png"
+}

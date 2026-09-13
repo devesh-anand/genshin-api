@@ -1,0 +1,18 @@
+{
+  "id": 113057,
+  "name": "Water That Failed To Transcend",
+  "description": "The only remnants of Hydro Tulpas after their parts are dispersed.\nThis substance is very similar to the crystals extracted from the bodies of Fontemer Aberrants, but they contain a lot of tiny impurities, like the bubbles in glass crafted by clumsy craftsmen.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "hydro-tulpa"
+  ],
+  "used_by": {
+    "characters": [
+      "furina",
+      "sigewinne"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/water-that-failed-to-transcend/icon.png"
+}

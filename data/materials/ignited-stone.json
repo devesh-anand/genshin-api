@@ -1,0 +1,22 @@
+{
+  "id": 112110,
+  "name": "Ignited Stone",
+  "description": "A shard obtained from the body of a defeated Avatar of Lava.\nThough it has been shattered to a great extent, on the inside, it still continues to burn. Perhaps this is a testament to the extraordinary vitality of phlogiston.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "eroding-avatar-of-lava",
+    "fluid-avatar-of-lava"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "earth-shaker",
+      "mountain-bracing-bolt",
+      "flower-wreathed-feathers",
+      "fang-of-the-mountain-king",
+      "sunny-morning-sleep-in"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ignited-stone/icon.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 101207,
+  "name": "Sango Pearl",
+  "description": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "sangonomiya-kokomi",
+      "gorou"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sango-pearl/icon.png"
+}

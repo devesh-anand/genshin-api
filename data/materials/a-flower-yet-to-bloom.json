@@ -1,0 +1,21 @@
+{
+  "id": 112077,
+  "name": "A Flower Yet to Bloom",
+  "description": "A wild flower that a Hilichurl Rogue treasured. It was plucked before it could bloom.\nThe hilichurl takes nothing with it in its sojourn across the wilderness save this flower.",
+  "rarity": 2,
+  "category": "common-drop",
+  "dropped_by": [
+    "hydro-hilichurl-rogue",
+    "anemo-hilichurl-rogue"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "ballad-of-the-fjords",
+      "ibis-piercer",
+      "scion-of-the-blazing-sun",
+      "jadefalls-splendor"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/a-flower-yet-to-bloom/icon.png"
+}

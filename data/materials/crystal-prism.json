@@ -1,0 +1,22 @@
+{
+  "id": 112051,
+  "name": "Crystal Prism",
+  "description": "A prism that can bend light.\nIllusory images can be made using such prisms, giving such devices — in a manner of speaking — the power to sway human hearts.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "mirror-maiden"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "hakushin-ring",
+      "hamayumi",
+      "predator",
+      "mouuns-moon",
+      "everlasting-moonglow",
+      "thundering-pulse"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/crystal-prism/icon.png"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 112018,
+  "name": "Dark Statuette",
+  "description": "An idol made in the likeness of some unknown, one-eyed person.\nYou can feel a strange warmth emanating from within as you hold onto it, like the shoulder of a dear friend. Perhaps this icon can indeed give people who understand its significance the courage to carry on.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "abyss-herald-wicked-torrents",
+    "abyss-lector-fathomless-flames",
+    "abyss-lector-violet-lightning",
+    "shadowy-husk-standard-bearer",
+    "shadowy-husk-line-breaker",
+    "shadowy-husk-defender",
+    "black-serpent-knight-windcutter"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "kagotsurube-isshin",
+      "missive-windspear",
+      "fruit-of-fulfillment",
+      "haran-geppaku-futsu",
+      "aqua-simulacra"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dark-statuette/icon.png"
+}

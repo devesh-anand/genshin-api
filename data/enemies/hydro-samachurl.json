@@ -1,0 +1,15 @@
+{
+  "id": 21030101,
+  "name": "Hydro Samachurl",
+  "description": "A wizened, mumbling hilichurl, one that chants of the power of Hydro.\nHilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. What sort of life would lead to such simple creatures being able to summon water and rains?",
+  "type": "Hilichurl",
+  "drops": [
+    "damaged-mask",
+    "stained-mask",
+    "ominous-mask",
+    "divining-scroll",
+    "sealed-scroll",
+    "forbidden-curse-scroll"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/hydro-samachurl/icon.png"
+}
