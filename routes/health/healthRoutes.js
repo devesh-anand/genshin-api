@@ -13,6 +13,7 @@ router.get('/', async (req, res, next) => {
          weaponStore.getAll(),
          artifactStore.getAll(),
       ]);
+      res.set('Cache-Control', 'no-store');
       res.send({
          status: 'ok',
          uptime: Math.floor((Date.now() - startTime) / 1000),

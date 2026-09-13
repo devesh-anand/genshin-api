@@ -8,6 +8,12 @@ For contribution guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ---
 
+## Caching
+
+All `GET` endpoints set `Cache-Control: public, max-age=3600` (1 hour) by default. Clients and CDNs may cache responses for up to an hour. The `/health` endpoint is always fresh (`no-store`). The `/search` endpoint caches for 5 minutes.
+
+---
+
 ## Rate Limiting
 
 100 requests per minute per IP. Exceeding the limit returns `429` with:
@@ -318,6 +324,41 @@ GET /artifacts/pale-flame
 ```
 
 Returns `404` if the artifact set is not found.
+
+---
+
+## Search
+
+### `GET /search?q=`
+
+Searches across characters, weapons, and artifacts by name. Requires at least 2 characters.
+
+```
+GET /search?q=nahida
+GET /search?q=jade
+GET /search?q=emblem
+```
+
+**Response:**
+```json
+{
+  "query": "jade",
+  "results": {
+    "characters": [
+      { "key": "yae-miko", "name": "Yae Miko", "vision": "Electro", "weapon": "Catalyst", "rarity": 5, "img": "https://..." }
+    ],
+    "weapons": [
+      { "key": "primordial-jade-cutter", "name": "Primordial Jade Cutter", "type": "Sword", "rarity": 5, "img": "https://..." },
+      { "key": "primordial-jade-winged-spear", "name": "Primordial Jade Winged-Spear", "type": "Polearm", "rarity": 5, "img": "https://..." }
+    ],
+    "artifacts": [
+      { "key": "jade-vista", "name": "Jade Vista", "rarity": 4, "img": "https://..." }
+    ]
+  }
+}
+```
+
+Returns `400` if query is shorter than 2 characters.
 
 ---
 
