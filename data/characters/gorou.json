@@ -30,7 +30,7 @@
       "unlock": "Elemental burst",
       "description": "Displaying his valor as a general, Gorou deals AoE Geo DMG and creates a field known as General's Glory to embolden his comrades.\nGeneral's Glory\nThis field has the following properties:\n- Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of Geo characters in the party. Also moves together with your active character.\n- Generates 1 Crystal Collapse every 1.5s that deals AoE Geo DMG to 1 opponent within the skill's AoE.\n- Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\nIf Gorou falls, the effects of General's Glory will be cleared.",
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gorou/talent-burst.png" 
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gorou/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -108,5 +108,587 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gorou/icon.png",
     "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gorou/icon-big.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gorou/portrait.png"
- }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sango-pearl",
+          "quantity": 3
+        },
+        {
+          "slug": "prithiva-topaz-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "spectral-husk",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "sango-pearl",
+          "quantity": 10
+        },
+        {
+          "slug": "prithiva-topaz-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "spectral-husk",
+          "quantity": 15
+        },
+        {
+          "slug": "perpetual-heart",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "sango-pearl",
+          "quantity": 20
+        },
+        {
+          "slug": "prithiva-topaz-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "spectral-heart",
+          "quantity": 12
+        },
+        {
+          "slug": "perpetual-heart",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "sango-pearl",
+          "quantity": 30
+        },
+        {
+          "slug": "prithiva-topaz-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "spectral-heart",
+          "quantity": 18
+        },
+        {
+          "slug": "perpetual-heart",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "sango-pearl",
+          "quantity": 45
+        },
+        {
+          "slug": "prithiva-topaz-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "spectral-nucleus",
+          "quantity": 12
+        },
+        {
+          "slug": "perpetual-heart",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "sango-pearl",
+          "quantity": 60
+        },
+        {
+          "slug": "prithiva-topaz-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "spectral-nucleus",
+          "quantity": 24
+        },
+        {
+          "slug": "perpetual-heart",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-light",
+            "quantity": 3
+          },
+          {
+            "slug": "spectral-husk",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 2
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 4
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 6
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 9
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 4
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 4
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 6
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 6
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 12
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 9
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 16
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 12
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-light",
+            "quantity": 3
+          },
+          {
+            "slug": "spectral-husk",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 2
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 4
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 6
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 9
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 4
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 4
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 6
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 6
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 12
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 9
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 16
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 12
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-light",
+            "quantity": 3
+          },
+          {
+            "slug": "spectral-husk",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 2
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 4
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 6
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-light",
+            "quantity": 9
+          },
+          {
+            "slug": "spectral-heart",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 4
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 4
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 6
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 6
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 12
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 9
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-light",
+            "quantity": 16
+          },
+          {
+            "slug": "spectral-nucleus",
+            "quantity": 12
+          },
+          {
+            "slug": "molten-moment",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
 }

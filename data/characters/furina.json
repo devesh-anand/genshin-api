@@ -110,5 +110,587 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/furina/icon.png",
     "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/furina/icon-big.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/furina/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "lakelight-lily",
+          "quantity": 3
+        },
+        {
+          "slug": "varunada-lazurite-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "whopperflower-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "lakelight-lily",
+          "quantity": 10
+        },
+        {
+          "slug": "varunada-lazurite-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "whopperflower-nectar",
+          "quantity": 15
+        },
+        {
+          "slug": "water-that-failed-to-transcend",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "lakelight-lily",
+          "quantity": 20
+        },
+        {
+          "slug": "varunada-lazurite-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "shimmering-nectar",
+          "quantity": 12
+        },
+        {
+          "slug": "water-that-failed-to-transcend",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "lakelight-lily",
+          "quantity": 30
+        },
+        {
+          "slug": "varunada-lazurite-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "shimmering-nectar",
+          "quantity": 18
+        },
+        {
+          "slug": "water-that-failed-to-transcend",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "lakelight-lily",
+          "quantity": 45
+        },
+        {
+          "slug": "varunada-lazurite-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "energy-nectar",
+          "quantity": 12
+        },
+        {
+          "slug": "water-that-failed-to-transcend",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "lakelight-lily",
+          "quantity": 60
+        },
+        {
+          "slug": "varunada-lazurite-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "energy-nectar",
+          "quantity": 24
+        },
+        {
+          "slug": "water-that-failed-to-transcend",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-justice",
+            "quantity": 3
+          },
+          {
+            "slug": "whopperflower-nectar",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 2
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 4
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 6
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 9
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 4
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 4
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 6
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 6
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 12
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 9
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 16
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 12
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-justice",
+            "quantity": 3
+          },
+          {
+            "slug": "whopperflower-nectar",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 2
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 4
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 6
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 9
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 4
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 4
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 6
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 6
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 12
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 9
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 16
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 12
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-justice",
+            "quantity": 3
+          },
+          {
+            "slug": "whopperflower-nectar",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 2
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 4
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 6
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 9
+          },
+          {
+            "slug": "shimmering-nectar",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 4
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 4
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 6
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 6
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 12
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 9
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 16
+          },
+          {
+            "slug": "energy-nectar",
+            "quantity": 12
+          },
+          {
+            "slug": "lightless-mass",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
   }
 }

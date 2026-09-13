@@ -1,155 +1,716 @@
 {
-    "name": "Traveler",
-    "vision": "Dendro",
-    "weapon": "Sword",
-    "nation": "Outlander",
-    "affiliation": "Not affilated to any Nation",
-    "rarity": 4,
-    "constellation": "Viator/Viatrix",
-    "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
-    "skillTalents": [
+  "name": "Traveler",
+  "vision": "Dendro",
+  "weapon": "Sword",
+  "nation": "Outlander",
+  "affiliation": "Not affilated to any Nation",
+  "rarity": 4,
+  "constellation": "Viator/Viatrix",
+  "description": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+  "skillTalents": [
+    {
+      "name": "Foreign Fieldcleaver",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 5 rapid strikes.\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
+        {
+          "name": "1-Hit DMG",
+          "value": "44.5%"
+        },
+        {
+          "name": "2-Hit DMG",
+          "value": "43.4%"
+        },
+        {
+          "name": "3-Hit DMG",
+          "value": "53.0%"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "58.3%"
+        },
+        {
+          "name": "5-Hit DMG",
+          "value": "70.8%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "Male: 55.9% + 72.2%\nFemale: 55.9% + 60.7%"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "20"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9%"
+        },
+        {
+          "name": "Low / High Plunge DMG",
+          "value": "128% / 160%"
+        }
+      ],
+      "type": "NORMAL_ATTACK"
+    },
+    {
+      "name": "Razorgrass Blade",
+      "unlock": "Elemental Skill",
+      "description": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.",
+      "upgrades": [
+        {
+          "name": "Skill DMG",
+          "value": "230%"
+        },
+        {
+          "name": "CD",
+          "value": "8.0s"
+        }
+      ],
+      "type": "ELEMENTAL_SKILL"
+    },
+    {
+      "name": "Surgent Manifestation",
+      "unlock": "Elemental Burst",
+      "description": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous Dendro DMG to opponents within its AoE.\nLotuslight Transfiguration\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:\nHydro: the Lamp's AoE and the AoE of its atacks are increased.\nElectro: the Lamp's ATK SPD is increased.\nPyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.\n\n\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n Only one Lamp created by the Traveler can exist at any one time.",
+      "upgrades": [
+        {
+          "name": "Lea Lotus Lamp Attack DMG",
+          "value": "80.2%"
+        },
+        {
+          "name": "Explosion DMG",
+          "value": "400.8%"
+        },
+        {
+          "name": "Lea Lotus Lamp Duration",
+          "value": "12.0s"
+        },
+        {
+          "name": "CD",
+          "value": "20.0s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "80"
+        }
+      ],
+      "type": "ELEMENTAL_BURST"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Verdant Luxury",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by Surgent Manifestation by 0.1%.",
+      "level": 1
+    },
+    {
+      "name": "Verdant Overgrowth",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Parasitic Creeper",
+      "unlock": "Constellation Lv. 1",
+      "description": "After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler.",
+      "level": 1
+    },
+    {
+      "name": "Green Resilience",
+      "unlock": "Constellation Lv. 2",
+      "description": "Lea Lotus Lamp's duration is increased by 3s.",
+      "level": 2
+    },
+    {
+      "name": "Whirling Weeds",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Razorgrass Blade by 3.\nMaximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "name": "Treacle Grass",
+      "unlock": "Constellation Lv. 4",
+      "description": "After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent \"Verdant Overgrowth.\"\nYou must have unlocked this Passive Talent first.",
+      "level": 4
+    },
+    {
+      "name": "Viridian Transience",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Surgent Manifestation by 3.\nMaximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "name": "Withering Aggregation",
+      "unlock": "Constellation Lv. 6",
+      "description": "The Dendro DMG Bonus of the character under the effect of Overflowing Lotuslight as created by the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.",
+      "level": 6
+    }
+  ],
+  "vision_key": "DENDRO",
+  "weapon_type": "SWORD",
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 3
+        },
+        {
+          "slug": "brilliant-diamond-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "damaged-mask",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 10
+        },
+        {
+          "slug": "brilliant-diamond-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "damaged-mask",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 20
+        },
+        {
+          "slug": "brilliant-diamond-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "stained-mask",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 30
+        },
+        {
+          "slug": "brilliant-diamond-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "stained-mask",
+          "quantity": 18
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 45
+        },
+        {
+          "slug": "brilliant-diamond-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "ominous-mask",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 60
+        },
+        {
+          "slug": "brilliant-diamond-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "ominous-mask",
+          "quantity": 24
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
       {
-        "name": "Foreign Fieldcleaver",
-        "unlock": "Normal Attack",
-        "description": "Normal Attack\nPerforms up to 5 rapid strikes.\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-        "upgrades": [
+        "level": 2,
+        "mora": 12500,
+        "materials": [
           {
-            "name": "1-Hit DMG",
-            "value": "44.5%"
+            "slug": "teachings-of-admonition",
+            "quantity": 3
           },
           {
-            "name": "2-Hit DMG",
-            "value": "43.4%"
-          },
-          {
-            "name": "3-Hit DMG",
-            "value": "53.0%"
-          },
-          {
-            "name": "4-Hit DMG",
-            "value": "58.3%"
-          },
-          {
-            "name": "5-Hit DMG",
-            "value": "70.8%"
-          },
-          {
-            "name": "Charged Attack DMG",
-            "value": "Male: 55.9% + 72.2%\nFemale: 55.9% + 60.7%"
-          },
-          {
-            "name": "Charged Attack Stamina Cost",
-            "value": "20"
-          },
-          {
-            "name": "Plunge DMG",
-            "value": "63.9%"
-          },
-          {
-            "name": "Low / High Plunge DMG",
-            "value": "128% / 160%"
+            "slug": "fungal-spores",
+            "quantity": 6
           }
-        ],
-        "type": "NORMAL_ATTACK"
+        ]
       },
       {
-        "name": "Razorgrass Blade",
-        "unlock": "Elemental Skill",
-        "description": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.",
-        "upgrades": [
+        "level": 3,
+        "mora": 17500,
+        "materials": [
           {
-            "name": "Skill DMG",
-            "value": "230%"
+            "slug": "guide-to-ingenuity",
+            "quantity": 2
           },
           {
-            "name": "CD",
-            "value": "8.0s"
+            "slug": "luminescent-pollen",
+            "quantity": 3
           }
-        ],
-        "type": "ELEMENTAL_SKILL"
+        ]
       },
       {
-        "name": "Surgent Manifestation",
-        "unlock": "Elemental Burst",
-        "description": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous Dendro DMG to opponents within its AoE.\nLotuslight Transfiguration\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:\nHydro: the Lamp's AoE and the AoE of its atacks are increased.\nElectro: the Lamp's ATK SPD is increased.\nPyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.\n\n\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n Only one Lamp created by the Traveler can exist at any one time.",
-        "upgrades": [
+        "level": 4,
+        "mora": 25000,
+        "materials": [
           {
-            "name": "Lea Lotus Lamp Attack DMG",
-            "value": "80.2%"
+            "slug": "guide-to-praxis",
+            "quantity": 4
           },
           {
-            "name": "Explosion DMG",
-            "value": "400.8%"
-          },
-          {
-            "name": "Lea Lotus Lamp Duration",
-            "value": "12.0s"
-          },
-          {
-            "name": "CD",
-            "value": "20.0s"
-          },
-          {
-            "name": "Energy Cost",
-            "value": "80"
+            "slug": "luminescent-pollen",
+            "quantity": 4
           }
-        ],
-        "type": "ELEMENTAL_BURST"
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-ingenuity",
+            "quantity": 9
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-praxis",
+            "quantity": 4
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 4
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 6
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-ingenuity",
+            "quantity": 12
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 9
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-praxis",
+            "quantity": 16
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 12
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 2
+          }
+        ]
       }
     ],
-    "passiveTalents": [
+    "elemental_skill": [
       {
-        "name": "Verdant Luxury",
-        "unlock": "Unlocked at Ascension 1",
-        "description": "Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by Surgent Manifestation by 0.1%.",
-        "level": 1
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-admonition",
+            "quantity": 3
+          },
+          {
+            "slug": "fungal-spores",
+            "quantity": 6
+          }
+        ]
       },
       {
-        "name": "Verdant Overgrowth",
-        "unlock": "Unlocked at Ascension 4",
-        "description": "Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
-        "level": 4
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-ingenuity",
+            "quantity": 2
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-praxis",
+            "quantity": 4
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-ingenuity",
+            "quantity": 9
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-praxis",
+            "quantity": 4
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 4
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 6
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-ingenuity",
+            "quantity": 12
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 9
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-praxis",
+            "quantity": 16
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 12
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 2
+          }
+        ]
       }
     ],
-    "constellations": [
+    "elemental_burst": [
       {
-        "name": "Parasitic Creeper",
-        "unlock": "Constellation Lv. 1",
-        "description": "After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler.",
-        "level": 1
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-admonition",
+            "quantity": 3
+          },
+          {
+            "slug": "fungal-spores",
+            "quantity": 6
+          }
+        ]
       },
       {
-        "name": "Green Resilience",
-        "unlock": "Constellation Lv. 2",
-        "description": "Lea Lotus Lamp's duration is increased by 3s.",
-        "level": 2
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-ingenuity",
+            "quantity": 2
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 3
+          }
+        ]
       },
       {
-        "name": "Whirling Weeds",
-        "unlock": "Constellation Lv. 3",
-        "description": "Increases the Level of Razorgrass Blade by 3.\nMaximum upgrade level is 15.",
-        "level": 3
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-praxis",
+            "quantity": 4
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 4
+          }
+        ]
       },
       {
-        "name": "Treacle Grass",
-        "unlock": "Constellation Lv. 4",
-        "description": "After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent \"Verdant Overgrowth.\"\nYou must have unlocked this Passive Talent first.",
-        "level": 4
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 6
+          }
+        ]
       },
       {
-        "name": "Viridian Transience",
-        "unlock": "Constellation Lv. 5",
-        "description": "Increases the Level of Surgent Manifestation by 3.\nMaximum upgrade level is 15.",
-        "level": 5
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-ingenuity",
+            "quantity": 9
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 9
+          }
+        ]
       },
       {
-        "name": "Withering Aggregation",
-        "unlock": "Constellation Lv. 6",
-        "description": "The Dendro DMG Bonus of the character under the effect of Overflowing Lotuslight as created by the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.",
-        "level": 6
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-praxis",
+            "quantity": 4
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 4
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 6
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-ingenuity",
+            "quantity": 12
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 9
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-praxis",
+            "quantity": 16
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 12
+          },
+          {
+            "slug": "mudra-of-the-malefic-general",
+            "quantity": 2
+          }
+        ]
       }
-    ],
-    "vision_key": "DENDRO",
-    "weapon_type": "SWORD"
+    ]
   }
-  
+}

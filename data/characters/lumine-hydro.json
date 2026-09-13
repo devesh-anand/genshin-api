@@ -110,5 +110,567 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-hydro/icon.png",
     "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-hydro/icon-big.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-hydro/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 3
+        },
+        {
+          "slug": "brilliant-diamond-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "damaged-mask",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 10
+        },
+        {
+          "slug": "brilliant-diamond-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "damaged-mask",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 20
+        },
+        {
+          "slug": "brilliant-diamond-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "stained-mask",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 30
+        },
+        {
+          "slug": "brilliant-diamond-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "stained-mask",
+          "quantity": 18
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 45
+        },
+        {
+          "slug": "brilliant-diamond-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "ominous-mask",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "windwheel-aster",
+          "quantity": 60
+        },
+        {
+          "slug": "brilliant-diamond-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "ominous-mask",
+          "quantity": 24
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-equity",
+            "quantity": 3
+          },
+          {
+            "slug": "transoceanic-pearl",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 2
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-order",
+            "quantity": 4
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-equity",
+            "quantity": 6
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 9
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-order",
+            "quantity": 4
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 4
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-equity",
+            "quantity": 6
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 6
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 12
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 9
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-order",
+            "quantity": 16
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 12
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-equity",
+            "quantity": 3
+          },
+          {
+            "slug": "transoceanic-pearl",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 2
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-order",
+            "quantity": 4
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-equity",
+            "quantity": 6
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 9
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-order",
+            "quantity": 4
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 4
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-equity",
+            "quantity": 6
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 6
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 12
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 9
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-order",
+            "quantity": 16
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 12
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-equity",
+            "quantity": 3
+          },
+          {
+            "slug": "transoceanic-pearl",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 2
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-order",
+            "quantity": 4
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-equity",
+            "quantity": 6
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-justice",
+            "quantity": 9
+          },
+          {
+            "slug": "transoceanic-chunk",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-order",
+            "quantity": 4
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 4
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-equity",
+            "quantity": 6
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 6
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-justice",
+            "quantity": 12
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 9
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-order",
+            "quantity": 16
+          },
+          {
+            "slug": "xenochromatic-crystal",
+            "quantity": 12
+          },
+          {
+            "slug": "worldspan-fern",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
   }
 }

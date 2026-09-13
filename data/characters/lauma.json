@@ -110,5 +110,587 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/icon.png",
     "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/icon-big.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "moonfall-silver",
+          "quantity": 3
+        },
+        {
+          "slug": "nagadus-emerald-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "tattered-warrant",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "moonfall-silver",
+          "quantity": 10
+        },
+        {
+          "slug": "nagadus-emerald-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "tattered-warrant",
+          "quantity": 15
+        },
+        {
+          "slug": "lightbearing-scale-feather",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "moonfall-silver",
+          "quantity": 20
+        },
+        {
+          "slug": "nagadus-emerald-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "immaculate-warrant",
+          "quantity": 12
+        },
+        {
+          "slug": "lightbearing-scale-feather",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "moonfall-silver",
+          "quantity": 30
+        },
+        {
+          "slug": "nagadus-emerald-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "immaculate-warrant",
+          "quantity": 18
+        },
+        {
+          "slug": "lightbearing-scale-feather",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "moonfall-silver",
+          "quantity": 45
+        },
+        {
+          "slug": "nagadus-emerald-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "frost-etched-warrant",
+          "quantity": 12
+        },
+        {
+          "slug": "lightbearing-scale-feather",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "moonfall-silver",
+          "quantity": 60
+        },
+        {
+          "slug": "nagadus-emerald-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "frost-etched-warrant",
+          "quantity": 24
+        },
+        {
+          "slug": "lightbearing-scale-feather",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-moonlight",
+            "quantity": 3
+          },
+          {
+            "slug": "tattered-warrant",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 2
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 4
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 6
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 9
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 4
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 4
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 6
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 6
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 12
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 9
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 16
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 12
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-moonlight",
+            "quantity": 3
+          },
+          {
+            "slug": "tattered-warrant",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 2
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 4
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 6
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 9
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 4
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 4
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 6
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 6
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 12
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 9
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 16
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 12
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-moonlight",
+            "quantity": 3
+          },
+          {
+            "slug": "tattered-warrant",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 2
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 4
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 6
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-moonlight",
+            "quantity": 9
+          },
+          {
+            "slug": "immaculate-warrant",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 4
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 4
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 6
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 6
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 12
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 9
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-moonlight",
+            "quantity": 16
+          },
+          {
+            "slug": "frost-etched-warrant",
+            "quantity": 12
+          },
+          {
+            "slug": "eroded-scale-feather",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
   }
 }

@@ -185,5 +185,587 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/icon.png",
     "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/icon-big.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "nilotpala-lotus",
+          "quantity": 3
+        },
+        {
+          "slug": "nagadus-emerald-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "fungal-spores",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "nilotpala-lotus",
+          "quantity": 10
+        },
+        {
+          "slug": "nagadus-emerald-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "fungal-spores",
+          "quantity": 15
+        },
+        {
+          "slug": "majestic-hooked-beak",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "nilotpala-lotus",
+          "quantity": 20
+        },
+        {
+          "slug": "nagadus-emerald-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "luminescent-pollen",
+          "quantity": 12
+        },
+        {
+          "slug": "majestic-hooked-beak",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "nilotpala-lotus",
+          "quantity": 30
+        },
+        {
+          "slug": "nagadus-emerald-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "luminescent-pollen",
+          "quantity": 18
+        },
+        {
+          "slug": "majestic-hooked-beak",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "nilotpala-lotus",
+          "quantity": 45
+        },
+        {
+          "slug": "nagadus-emerald-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "crystalline-cyst-dust",
+          "quantity": 12
+        },
+        {
+          "slug": "majestic-hooked-beak",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "nilotpala-lotus",
+          "quantity": 60
+        },
+        {
+          "slug": "nagadus-emerald-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "crystalline-cyst-dust",
+          "quantity": 24
+        },
+        {
+          "slug": "majestic-hooked-beak",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-admonition",
+            "quantity": 3
+          },
+          {
+            "slug": "fungal-spores",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 2
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 4
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 9
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 4
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 4
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 6
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 12
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 9
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 16
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 12
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-admonition",
+            "quantity": 3
+          },
+          {
+            "slug": "fungal-spores",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 2
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 4
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 9
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 4
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 4
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 6
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 12
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 9
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 16
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 12
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-admonition",
+            "quantity": 3
+          },
+          {
+            "slug": "fungal-spores",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 2
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 4
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-admonition",
+            "quantity": 9
+          },
+          {
+            "slug": "luminescent-pollen",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 4
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 4
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 6
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 6
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 12
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 9
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-admonition",
+            "quantity": 16
+          },
+          {
+            "slug": "crystalline-cyst-dust",
+            "quantity": 12
+          },
+          {
+            "slug": "the-meaning-of-aeons",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
   }
 }

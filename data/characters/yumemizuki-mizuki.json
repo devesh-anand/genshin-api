@@ -110,5 +110,587 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yumemizuki-mizuki/icon.png",
     "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yumemizuki-mizuki/icon-big.png",
     "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yumemizuki-mizuki/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sea-ganoderma",
+          "quantity": 3
+        },
+        {
+          "slug": "vayuda-turquoise-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "old-handguard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "sea-ganoderma",
+          "quantity": 10
+        },
+        {
+          "slug": "vayuda-turquoise-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "old-handguard",
+          "quantity": 15
+        },
+        {
+          "slug": "talisman-of-the-enigmatic-land",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "sea-ganoderma",
+          "quantity": 20
+        },
+        {
+          "slug": "vayuda-turquoise-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "kageuchi-handguard",
+          "quantity": 12
+        },
+        {
+          "slug": "talisman-of-the-enigmatic-land",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "sea-ganoderma",
+          "quantity": 30
+        },
+        {
+          "slug": "vayuda-turquoise-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "kageuchi-handguard",
+          "quantity": 18
+        },
+        {
+          "slug": "talisman-of-the-enigmatic-land",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "sea-ganoderma",
+          "quantity": 45
+        },
+        {
+          "slug": "vayuda-turquoise-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "famed-handguard",
+          "quantity": 12
+        },
+        {
+          "slug": "talisman-of-the-enigmatic-land",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "sea-ganoderma",
+          "quantity": 60
+        },
+        {
+          "slug": "vayuda-turquoise-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "famed-handguard",
+          "quantity": 24
+        },
+        {
+          "slug": "talisman-of-the-enigmatic-land",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-transience",
+            "quantity": 3
+          },
+          {
+            "slug": "old-handguard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 2
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 9
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 4
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 6
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 12
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 9
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 16
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 12
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-transience",
+            "quantity": 3
+          },
+          {
+            "slug": "old-handguard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 2
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 9
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 4
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 6
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 12
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 9
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 16
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 12
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-transience",
+            "quantity": 3
+          },
+          {
+            "slug": "old-handguard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 2
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 9
+          },
+          {
+            "slug": "kageuchi-handguard",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 4
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 6
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 12
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 9
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 16
+          },
+          {
+            "slug": "famed-handguard",
+            "quantity": 12
+          },
+          {
+            "slug": "fading-candle",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
   }
 }

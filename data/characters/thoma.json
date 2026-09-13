@@ -1,191 +1,775 @@
 {
-    "name": "Thoma",
-    "title": "Protector From Afar",
-    "vision": "Pyro",
-    "weapon": "Polearm",
-    "nation": "Mondstadt",
-    "affiliation": "Yashiro Commission Kamisato Clan",
-    "rarity": 4,
-    "constellation": "Rubeum Scutum",
-    "birthday": "0000-01-09",
-    "description": "The housekeeper of the Yashiro Commission's Kamisato Clan, and a well-known \"fixer\" in Inazuma.\nFriendly and approachable, Thoma fits in with the crowd easily wherever he is.\nAt first glance, he seems to be a very easygoing person, but he is in fact very responsible. He has an extraordinarily serious side, be it in his work or his interpersonal communications.",
-    "skillTalents": [
+  "name": "Thoma",
+  "title": "Protector From Afar",
+  "vision": "Pyro",
+  "weapon": "Polearm",
+  "nation": "Mondstadt",
+  "affiliation": "Yashiro Commission Kamisato Clan",
+  "rarity": 4,
+  "constellation": "Rubeum Scutum",
+  "birthday": "0000-01-09",
+  "description": "The housekeeper of the Yashiro Commission's Kamisato Clan, and a well-known \"fixer\" in Inazuma.\nFriendly and approachable, Thoma fits in with the crowd easily wherever he is.\nAt first glance, he seems to be a very easygoing person, but he is in fact very responsible. He has an extraordinarily serious side, be it in his work or his interpersonal communications.",
+  "skillTalents": [
+    {
+      "name": "Swiftshatter Spear",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to four consecutive spear strikes.\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "upgrades": [
         {
-            "name": "Swiftshatter Spear",
-            "unlock": "Normal Attack",
-            "description": "Normal Attack\nPerforms up to four consecutive spear strikes.\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-            "upgrades": [
-                {
-                    "name": "1-Hit DMG",
-                    "value": "44.4%"},
-                {
-                    "name": "2-Hit DMG",
-                    "value": "43.6%"
-                },
-                {
-                    "name": "3-Hit DMG",
-                    "value": "26.8%×2"
-                },
-                {
-                    "name": "4-Hit DMG",
-                    "value": "67.4%"
-                },
-                {
-                    "name": "Charged Attack DMG",
-                    "value": "112.7%"
-                },
-                {
-                    "name": "Charged Attack Stamina Cost",
-                    "value": "25"
-                },
-                {
-                    "name": "Plunge DMG",
-                    "value": "63.9%"
-                },
-                {
-                    "name": "Low / High Plunge DMG",
-                    "value": "127.8% / 159.7%"
-                }
-            ],
-            "type": "NORMAL_ATTACK",
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-na.png"
+          "name": "1-Hit DMG",
+          "value": "44.4%"
         },
         {
-            "name": "Blazing Blessing",
-            "unlock": "Elemental Skill",
-            "description": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals AoE Pyro DMG, while also summoning a defensive Blazing Barrier.\nAt the moment of casting, Thoma's Elemental Skill applies Pyro to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n- Absorbs Pyro DMG 250% more effectively.\n- When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\nThe maximum DMG Absoprtion of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.",
-            "upgrades": [
-                {
-                    "name": "Skill DMG",
-                    "value": "146.4%"
-                },
-                {
-                    "name": "Shield DMG Absorption",
-                    "value": "7.2% max hp + 693"
-                },
-                {
-                    "name": "Shield Duration",
-                    "value": "8s"
-                },
-                {
-                    "name": "CD", "value": "15s"
-                }
-            ],
-            "type": "ELEMENTAL_SKILL",
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-skill.png"
+          "name": "2-Hit DMG",
+          "value": "43.6%"
         },
         {
-            "name": "Crimson Ooyoroi",
-            "unlock": "Elemental Burst",
-            "description": "Thoma spins his polearm, slicing at his foes with roaring flames that deal AoE Pyro DMG and weave themselves into a Scorching Ooyoroi.\nScorching Ooyoroi\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing AoE Pyro DMG and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n- Absorbs Pyro DMG 250% more effectively.\n- When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.",
-            "upgrades": [
-                {
-                    "name": "Skill DMG",
-                    "value": "88%"
-                },
-                {
-                    "name": "Fiery Collapse DMG",
-                    "value": "58%"
-                },
-                {
-                    "name": "Shield DMG Absorption",
-                    "value": "1.14% max hp + 110"
-                },
-                {
-                    "name": "Shield Duration",
-                    "value": "8s"
-                },
-                {
-                    "name": "Scorching Ooyoroi Duration",
-                    "value": "15s"
-                },
-                {
-                    "name": "CD",
-                    "value": "20s"
-                },
-                {
-                    "name": "Energy Cost",
-                    "value": "80"
-                }
-            ],
-            "type": "ELEMENTAL_BURST",
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-burst.png"
+          "name": "3-Hit DMG",
+          "value": "26.8%×2"
+        },
+        {
+          "name": "4-Hit DMG",
+          "value": "67.4%"
+        },
+        {
+          "name": "Charged Attack DMG",
+          "value": "112.7%"
+        },
+        {
+          "name": "Charged Attack Stamina Cost",
+          "value": "25"
+        },
+        {
+          "name": "Plunge DMG",
+          "value": "63.9%"
+        },
+        {
+          "name": "Low / High Plunge DMG",
+          "value": "127.8% / 159.7%"
         }
-    ],
-    "passiveTalents": [
+      ],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-na.png"
+    },
+    {
+      "name": "Blazing Blessing",
+      "unlock": "Elemental Skill",
+      "description": "Thoma vaults forward with his polearm and delivers a flame-filled flying kick that deals AoE Pyro DMG, while also summoning a defensive Blazing Barrier.\nAt the moment of casting, Thoma's Elemental Skill applies Pyro to himself.\nThe DMG Absorption of the Blazing Barrier scales off Thoma's Max HP.\nThe Blazing Barrier has the following traits:\n- Absorbs Pyro DMG 250% more effectively.\n- When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\nThe maximum DMG Absoprtion of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.",
+      "upgrades": [
         {
-            "name": "Imbricated Armor",
-            "unlock": "Unlocked at Ascension 1",
-            "description": "When your current active character obtains or refreshes a Blazing Barrier, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3 seconds. Max 5 stacks.",
-            "level": 1,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-1.png"
+          "name": "Skill DMG",
+          "value": "146.4%"
         },
         {
-            "name": "Flaming Assault",
-            "unlock": "Unlocked at Ascension 4",
-            "description": "DMG dealt by Crimson Ooyoroi's Fiery Collapse is increased by 2.2% of Thoma's Max HP. ",
-            "level": 4,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-2.png"
+          "name": "Shield DMG Absorption",
+          "value": "7.2% max hp + 693"
         },
         {
-            "name": "Snap and Swing",
-            "unlock": "Unlocked Automatically",
-            "description": "When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-0.png"
+          "name": "Shield Duration",
+          "value": "8s"
+        },
+        {
+          "name": "CD",
+          "value": "15s"
         }
-    ],
-    "constellations": [
+      ],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-skill.png"
+    },
+    {
+      "name": "Crimson Ooyoroi",
+      "unlock": "Elemental Burst",
+      "description": "Thoma spins his polearm, slicing at his foes with roaring flames that deal AoE Pyro DMG and weave themselves into a Scorching Ooyoroi.\nScorching Ooyoroi\nWhile Scorching Ooyoroi is in effect, the active character's Normal Attacks will trigger Fiery Collapse, dealing AoE Pyro DMG and summoning a Blazing Barrier.\nFiery Collapse can be triggered once every 1s.\nExcept for the amount of DMG they can absorb, the Blazing Barriers created in this way are identical to those created by Thoma's Elemental Skill, Blazing Blessing:\n- Absorbs Pyro DMG 250% more effectively.\n- When a new Blazing Barrier is obtained, the remaining DMG Absorption of an existing Blazing Barrier will stack and its duration will be refreshed.\nThe maximum DMG Absorption of the Blazing Barrier will not exceed a certain percentage of Thoma's Max HP.\nIf Thoma falls, the effects of Scorching Ooyoroi will be cleared.",
+      "upgrades": [
         {
-            "name": "A Comrade's Duty",
-            "unlock": "Constellation Lv. 1",
-            "description": "When a character protected by Thoma's own Blazing Barrier (Thoma excluded) is attacked, Thoma's own Blazing Blessing CD is decreased by 3s, while his own Crimson Ooyoroi's CD is decreased by 3s.\nThis effect can be triggered once every 20s.",
-            "level": 1,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-1.png"
+          "name": "Skill DMG",
+          "value": "88%"
         },
         {
-            "name": "A Subordinate's Skills",
-            "unlock": "Constellation Lv. 2",
-            "description": "Crimson Ooyoroi's duration is increased by 3s. ",
-            "level": 2,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-2.png"
+          "name": "Fiery Collapse DMG",
+          "value": "58%"
         },
         {
-            "name": "Fortified Resolve",
-            "unlock": "Constellation Lv. 3",
-            "description": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15. ",
-            "level": 3,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-3.png"
+          "name": "Shield DMG Absorption",
+          "value": "1.14% max hp + 110"
         },
         {
-            "name": "Long-Term Planning",
-            "unlock": "Constellation Lv. 4",
-            "description": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma. ",
-            "level": 4,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-4.png"
+          "name": "Shield Duration",
+          "value": "8s"
         },
         {
-            "name": "Raging Wildfire",
-            "unlock": "Constellation Lv. 5",
-            "description": "Increases the Level of Crimson Ooyoroi by 3.\nMaximum upgrade level is 15.",
-            "level": 5,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-5.png"
+          "name": "Scorching Ooyoroi Duration",
+          "value": "15s"
         },
         {
-            "name": "Burning Heart",
-            "unlock": "Constellation Lv. 6",
-            "description": "When a Blazing Barrier is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
-            "level": 6,
-            "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-6.png"
+          "name": "CD",
+          "value": "20s"
+        },
+        {
+          "name": "Energy Cost",
+          "value": "80"
         }
+      ],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Imbricated Armor",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When your current active character obtains or refreshes a Blazing Barrier, this character's Shield Strength will increase by 5% for 6s.\nThis effect can be triggered once every 0.3 seconds. Max 5 stacks.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-1.png"
+    },
+    {
+      "name": "Flaming Assault",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "DMG dealt by Crimson Ooyoroi's Fiery Collapse is increased by 2.2% of Thoma's Max HP. ",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-2.png"
+    },
+    {
+      "name": "Snap and Swing",
+      "unlock": "Unlocked Automatically",
+      "description": "When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scoring a double catch.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "A Comrade's Duty",
+      "unlock": "Constellation Lv. 1",
+      "description": "When a character protected by Thoma's own Blazing Barrier (Thoma excluded) is attacked, Thoma's own Blazing Blessing CD is decreased by 3s, while his own Crimson Ooyoroi's CD is decreased by 3s.\nThis effect can be triggered once every 20s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-1.png"
+    },
+    {
+      "name": "A Subordinate's Skills",
+      "unlock": "Constellation Lv. 2",
+      "description": "Crimson Ooyoroi's duration is increased by 3s. ",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-2.png"
+    },
+    {
+      "name": "Fortified Resolve",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15. ",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-3.png"
+    },
+    {
+      "name": "Long-Term Planning",
+      "unlock": "Constellation Lv. 4",
+      "description": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma. ",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-4.png"
+    },
+    {
+      "name": "Raging Wildfire",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Crimson Ooyoroi by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-5.png"
+    },
+    {
+      "name": "Burning Heart",
+      "unlock": "Constellation Lv. 6",
+      "description": "When a Blazing Barrier is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-6.png"
+    }
+  ],
+  "vision_key": "PYRO",
+  "weapon_type": "POLEARM",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/portrait.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "fluorescent-fungus",
+          "quantity": 3
+        },
+        {
+          "slug": "agnidus-agate-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "fluorescent-fungus",
+          "quantity": 10
+        },
+        {
+          "slug": "agnidus-agate-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 15
+        },
+        {
+          "slug": "smoldering-pearl",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "fluorescent-fungus",
+          "quantity": 20
+        },
+        {
+          "slug": "agnidus-agate-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "smoldering-pearl",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "fluorescent-fungus",
+          "quantity": 30
+        },
+        {
+          "slug": "agnidus-agate-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 18
+        },
+        {
+          "slug": "smoldering-pearl",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "fluorescent-fungus",
+          "quantity": 45
+        },
+        {
+          "slug": "agnidus-agate-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "smoldering-pearl",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "fluorescent-fungus",
+          "quantity": 60
+        },
+        {
+          "slug": "agnidus-agate-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 24
+        },
+        {
+          "slug": "smoldering-pearl",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-transience",
+            "quantity": 3
+          },
+          {
+            "slug": "treasure-hoarder-insignia",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 2
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 9
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 4
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 6
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 12
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 9
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 16
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 12
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 2
+          }
+        ]
+      }
     ],
-    "vision_key": "PYRO",
-    "weapon_type": "POLEARM",
-    "img": {
-      "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/card.png",
-      "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation.png",
-      "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/portrait.png",
-      "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/icon.png",
-      "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/icon-big.png",
-      "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/portrait.png"
-   }
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-transience",
+            "quantity": 3
+          },
+          {
+            "slug": "treasure-hoarder-insignia",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 2
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 9
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 4
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 6
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 12
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 9
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 16
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 12
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-transience",
+            "quantity": 3
+          },
+          {
+            "slug": "treasure-hoarder-insignia",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 2
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-transience",
+            "quantity": 9
+          },
+          {
+            "slug": "silver-raven-insignia",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 4
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 4
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 6
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 6
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 12
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 9
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-transience",
+            "quantity": 16
+          },
+          {
+            "slug": "golden-raven-insignia",
+            "quantity": 12
+          },
+          {
+            "slug": "hellfire-butterfly",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
 }
