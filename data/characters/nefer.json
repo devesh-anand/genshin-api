@@ -67,42 +67,42 @@
     {
       "name": "Planning Breeds Success",
       "unlock": "Constellation Lv. 1",
-      "description": "The Base DMG for Lunar-Bloom reactions caused by Nefer's {LINK#N11220002}Phantasm Performance{/LINK} is increased by 60% of her Elemental Mastery. This effect is also boosted by {LINK#N11220003}Veil of Falsehood{/LINK}.",
+      "description": "The Base DMG for Lunar-Bloom reactions caused by Nefer's Phantasm Performance is increased by 60% of her Elemental Mastery. This effect is also boosted by Veil of Falsehood.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nefer/constellation-1.png"
     },
     {
       "name": "Observation Feeds Strategy",
       "unlock": "Constellation Lv. 2",
-      "description": "Enhances the effects of the Ascension Talent {LINK#P1222101}A Wager of Moonlight{/LINK}: Extends {LINK#N11220003}Veil of Falsehood{/LINK}'s duration by 5s, and increases its stack limit to 5, as well as causing {LINK#N11220002}Phantasm Performance{/LINK} to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill {LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK}, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.\nYou must first unlock the Ascension Talent \"A Wager of Moonlight.\"",
+      "description": "Enhances the effects of the Ascension Talent A Wager of Moonlight: Extends Veil of Falsehood's duration by 5s, and increases its stack limit to 5, as well as causing Phantasm Performance to deal up to 140% of its original DMG. When Nefer unleashes her Elemental Skill Senet Strategy: Dance of a Thousand Nights, she will instantly gain 2 stacks of Veil of Falsehood. Additionally, when Veil of Falsehood reaches 5 stacks, or when the fifth stack's duration is refreshed, Nefer's Elemental Mastery will be increased by 200 for 8s instead.\nYou must first unlock the Ascension Talent \"A Wager of Moonlight.\"",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nefer/constellation-2.png"
     },
     {
       "name": "Deceit Cloaks the Truth",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11222}Senet Strategy: Dance of a Thousand Nights{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Senet Strategy: Dance of a Thousand Nights by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nefer/constellation-3.png"
     },
     {
       "name": "Delusion Ensnares Reason",
       "unlock": "Constellation Lv. 4",
-      "description": "When Nefer is on the field and in the {LINK#N11220001}Shadow Dance{/LINK} state, you will gain Verdant Dew 25% faster.\nAdditionally, while Nefer is in the Shadow Dance state, nearby opponents will have their Dendro RES decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s.",
+      "description": "When Nefer is on the field and in the Shadow Dance state, you will gain Verdant Dew 25% faster.\nAdditionally, while Nefer is in the Shadow Dance state, nearby opponents will have their Dendro RES decreased by 20%. When Nefer exits the Shadow Dance state or after she strays a certain distance away from the opponents, this effect will be removed after 4.5s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nefer/constellation-4.png"
     },
     {
       "name": "Opportunity Hides in the Margins",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11225}Sacred Vow: True Eye's Phantasm{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Sacred Vow: True Eye's Phantasm by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nefer/constellation-5.png"
     },
     {
       "name": "Victory Flows from the Turning of Tides",
       "unlock": "Constellation Lv. 6",
-      "description": "When Nefer unleashes {LINK#N11220002}Phantasm Performance{/LINK}, the second stage of DMG dealt by herself will be converted to deal AoE Dendro DMG equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of AoE Dendro DMG equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.\n\nMoonsign: Ascendant Gleam\nNefer's Lunar-Bloom DMG is {LINK#N11190007}elevated{/LINK} by 15%.",
+      "description": "When Nefer unleashes Phantasm Performance, the second stage of DMG dealt by herself will be converted to deal AoE Dendro DMG equal to 85% of her Elemental Mastery. Additionally, when the attacks from Phantasm Performance end, an extra instance of AoE Dendro DMG equal to 120% of Nefer's Elemental Mastery will be dealt. All of the aforementioned DMG is considered Lunar-Bloom DMG dealt by Phantasm Performance.\n\nMoonsign: Ascendant Gleam\nNefer's Lunar-Bloom DMG is elevated by 15%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nefer/constellation-6.png"
     }

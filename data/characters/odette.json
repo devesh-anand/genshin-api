@@ -67,21 +67,21 @@
     {
       "name": "\"On This Danceless Morn, She Gazes at Her Reflection\"",
       "unlock": "Constellation Lv. 1",
-      "description": "After unleashing the special Elemental Skill {LINK#N11500002}Adagio: Coda at Dawn's Tolling{/LINK}, at the dance duet's end Odette will deal an additional instance of Cryo AoE DMG to nearby opponents that is considered:\nRadiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;\nRadiance: Stellar Swirl: Stellar Swirl reaction DMG at 450% of Odette's ATK.\n\nAdditionally, the Ascension Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the {LINK#N11500001}Solo Dance Double{/LINK} is summoned, Odette also gains 2 stacks of {LINK#N11500003}Marvelous Splendor{/LINK}. When Odette is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second.",
+      "description": "After unleashing the special Elemental Skill Adagio: Coda at Dawn's Tolling, at the dance duet's end Odette will deal an additional instance of Cryo AoE DMG to nearby opponents that is considered:\nRadiance: Stellar-Conduct or when not in a Radiance state: Stellar-Conduct reaction DMG at 300% of Odette's ATK;\nRadiance: Stellar Swirl: Stellar Swirl reaction DMG at 450% of Odette's ATK.\n\nAdditionally, the Ascension Talent \"Spring Rite of the Chosen One\" is also enhanced: now, when the Solo Dance Double is summoned, Odette also gains 2 stacks of Marvelous Splendor. When Odette is off-field, the rate at which Marvelous Splendor is removed is sped up to 2 stacks per second.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-1.png"
     },
     {
       "name": "\"I Must See the Snow Swan's Unseen Dream for Myself, She Thought\"",
       "unlock": "Constellation Lv. 2",
-      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of {LINK#N11500003}Marvelous Splendor{/LINK} active also increases the character's ATK by 7%.\nAdditionally, if Odette is in the {LINK#N11500004}Radiance: Stellar Glimmer{/LINK} state when there is a {LINK#N11500001}Solo Dance Double{/LINK} on the field, opponents near the Dance Double will also have their corresponding Elemental RES lowered by 20%.\n·Radiance: Stellar-Conduct: Cryo and Electro.\n·Radiance: Stellar Swirl: Cryo and Anemo.",
+      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: every stack of Marvelous Splendor active also increases the character's ATK by 7%.\nAdditionally, if Odette is in the Radiance: Stellar Glimmer state when there is a Solo Dance Double on the field, opponents near the Dance Double will also have their corresponding Elemental RES lowered by 20%.\n·Radiance: Stellar-Conduct: Cryo and Electro.\n·Radiance: Stellar Swirl: Cryo and Anemo.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-2.png"
     },
     {
       "name": "\"I'll Chase the Shouting Wind Along, Climbing Alone As I Go\"",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11502}Adagio: Phantom Night Dancers{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Adagio: Phantom Night Dancers by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-3.png"
     },
@@ -95,14 +95,14 @@
     {
       "name": "\"Oh! I Have Slipped the Surly Bonds of Earth\"",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11505}Presto: Bluebird Finale{/LINK}  by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Presto: Bluebird Finale  by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-5.png"
     },
     {
       "name": "\"Put Out My Hand, and Touched the Face of the Divine\"",
       "unlock": "Constellation Lv. 6",
-      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When Odette grants {LINK#N11500003}Marvelous Splendor{/LINK} to all nearby party members, her own Marvelous Splendor stacks will no longer decrease.\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents {LINK#N11190007}elevated{/LINK} by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.",
+      "description": "The Ascension Talent \"Spring Rite of the Chosen One\" is enhanced as follows: When Odette grants Marvelous Splendor to all nearby party members, her own Marvelous Splendor stacks will no longer decrease.\nAdditionally, characters affected by Marvelous Splendor have their Stellar Glimmer reaction DMG dealt to opponents elevated by 25%, and Stellar Glimmer reaction DMG dealt by Odette is elevated by an additional 20%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/constellation-6.png"
     }

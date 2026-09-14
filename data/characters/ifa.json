@@ -67,42 +67,42 @@
     {
       "name": "Vitiferous Elixir's Concoction",
       "unlock": "Constellation Lv. 1",
-      "description": "When {LINK#N11130001}Supporting Fire{/LINK} hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s.",
+      "description": "When Supporting Fire hits an opponent, it will restore 6 Energy for Ifa. One such Energy restoration can be triggered once every 8s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-1.png"
     },
     {
       "name": "Guiding Spirit of Ballistic Prayer",
       "unlock": "Constellation Lv. 2",
-      "description": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional {LINK#N11130002}Rescue Essentials{/LINK} points.\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\nYou must first unlock the Ascension Talent {LINK#P1132101}Field Medic's Vision{/LINK}.",
+      "description": "When Ifa is in the Nightsoul's Blessing state, every Nightsoul point the party has above a total of 60 will grant Ifa 4 additional Rescue Essentials points.\nAdditionally, Ifa's Rescue Essentials limit is increased by 50.\nYou must first unlock the Ascension Talent Field Medic's Vision.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-2.png"
     },
     {
       "name": "Rebuttal in Negotiations With the Night",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11132}Airborne Disease Prevention{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Airborne Disease Prevention by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-3.png"
     },
     {
       "name": "Decayed Vessel's Permutation",
       "unlock": "Constellation Lv. 4",
-      "description": "The restraining wind current created by the Elemental Burst {LINK#S11135}Compound Sedation Field{/LINK} has its duration extended to 3s.\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field.",
+      "description": "The restraining wind current created by the Elemental Burst Compound Sedation Field has its duration extended to 3s.\nAdditionally, Ifa gains 100 Elemental Mastery for 15s after using his Elemental Burst Compound Sedation Field.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-4.png"
     },
     {
       "name": "Vow of Universal Coexistence",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11135}Compound Sedation Field{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Compound Sedation Field by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-5.png"
     },
     {
       "name": "Oath on a Feathered Knot",
       "unlock": "Constellation Lv. 6",
-      "description": "When Ifa uses the Hold version of his {LINK#N11130001}Supporting Fire{/LINK}, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state.",
+      "description": "When Ifa uses the Hold version of his Supporting Fire, there is a 50% chance that he will fire an additional Tonicshot that deals 120% of Ifa's ATK as Anemo DMG. This DMG is considered Normal Attack DMG.\nAdditionally, when he is not in combat, Ifa will consume 20% less Nightsoul points and Phlogiston in his Nightsoul's Blessing state.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ifa/constellation-6.png"
     }

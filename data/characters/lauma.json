@@ -67,42 +67,42 @@
     {
       "name": "\"O Lips, Weave Me Songs and Psalms\"",
       "unlock": "Constellation Lv. 1",
-      "description": "After Lauma uses her Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK} or her Elemental Burst {LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}, she will gain Threads of Life for 20s.\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s.",
+      "description": "After Lauma uses her Elemental Skill Runo: Dawnless Rest of Karsikko or her Elemental Burst Runo: All Hearts Become the Beating Moon, she will gain Threads of Life for 20s.\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/constellation-1.png"
     },
     {
       "name": "\"Twine Warnings and Tales From the North\"",
       "unlock": "Constellation Lv. 2",
-      "description": "The Elemental Burst {LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK} is enhanced:\n· {LINK#N11190003}Pale Hymn{/LINK} effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is increased by 40%.",
+      "description": "The Elemental Burst Runo: All Hearts Become the Beating Moon is enhanced:\n· Pale Hymn effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is increased by 40%.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/constellation-2.png"
     },
     {
       "name": "\"Seek Not to Tread the Sly Fox's Path\"",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Runo: All Hearts Become the Beating Moon by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/constellation-3.png"
     },
     {
       "name": "\"Nor Yearn for the Great Bear's Might\"",
       "unlock": "Constellation Lv. 4",
-      "description": "When attacks from the {LINK#N11190001}Frostgrove Sanctuary{/LINK} summoned by her Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK} hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
+      "description": "When attacks from the Frostgrove Sanctuary summoned by her Elemental Skill Runo: Dawnless Rest of Karsikko hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/constellation-4.png"
     },
     {
       "name": "\"If Truth May Be Subject to Witness\"",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Runo: Dawnless Rest of Karsikko by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/constellation-5.png"
     },
     {
       "name": "\"I Offer Blood and Tears to the Moonlight\"",
       "unlock": "Constellation Lv. 6",
-      "description": "When the {LINK#N11190001}Frostgrove Sanctuary{/LINK} attacks opponents, it will deal 1 additional instance of AoE Dendro DMG equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any {LINK#N11190003}Pale Hymn{/LINK} stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill {LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}, all Pale Hymn stacks gained in this manner will be removed.\n\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal Dendro DMG equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is {LINK#N11190007}elevated{/LINK} by 25%.",
+      "description": "When the Frostgrove Sanctuary attacks opponents, it will deal 1 additional instance of AoE Dendro DMG equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any Pale Hymn stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill Runo: Dawnless Rest of Karsikko, all Pale Hymn stacks gained in this manner will be removed.\n\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal Dendro DMG equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\n\nMoonsign: Ascendant Gleam: All nearby party members' Lunar-Bloom DMG is elevated by 25%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lauma/constellation-6.png"
     }

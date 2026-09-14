@@ -67,42 +67,42 @@
     {
       "name": "The Theory of Ash—Field Equilibrium",
       "unlock": "Constellation Lv. 1",
-      "description": "After Aino uses her Elemental Skill {LINK#S11212}Musecatcher{/LINK} or her Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK}, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
+      "description": "After Aino uses her Elemental Skill Musecatcher or her Elemental Burst Precision Hydronic Cooler, her Elemental Mastery will be increased by 80. The Elemental Mastery of other nearby active party members will be increased by 80 for 15s.\n\nThe Elemental Mastery-increasing effects of this Constellation do not stack.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/constellation-1.png"
     },
     {
       "name": "The Principle of Transference in Gear Differentials",
       "unlock": "Constellation Lv. 2",
-      "description": "If Aino is off-field while the Focused Hydronic Cooling Zone of her Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK} is active, when your active party member hits a nearby opponent with an attack, the Cool Your Jets Ducky will fire an additional water ball at that opponent, dealing AoE Hydro DMG equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s.",
+      "description": "If Aino is off-field while the Focused Hydronic Cooling Zone of her Elemental Burst Precision Hydronic Cooler is active, when your active party member hits a nearby opponent with an attack, the Cool Your Jets Ducky will fire an additional water ball at that opponent, dealing AoE Hydro DMG equal to 25% of Aino's ATK and 100% of her Elemental Mastery. This DMG is considered Elemental Burst DMG. This effect can be triggered once every 5s.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/constellation-2.png"
     },
     {
       "name": "Cake and the Art of Mechanism Repair",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11215}Precision Hydronic Cooler{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Precision Hydronic Cooler by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/constellation-3.png"
     },
     {
       "name": "Butter and Cats and the Law of Energy Supply",
       "unlock": "Constellation Lv. 4",
-      "description": "When the Elemental Skill {LINK#S11212}Musecatcher{/LINK} hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s.",
+      "description": "When the Elemental Skill Musecatcher hits an opponent, it will restore 10 Elemental Energy for Aino. Energy can be restored to her in this manner once every 10s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/constellation-4.png"
     },
     {
       "name": "Perpetual Turbine of Metal and Light",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11212}Musecatcher{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Musecatcher by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/constellation-5.png"
     },
     {
       "name": "The Burden of Creative Genius",
       "unlock": "Constellation Lv. 6",
-      "description": "For the next 15s after using the Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK}, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\nMoonsign: Ascendant Gleam: DMG from the aforementioned reactions will be further increased by 20%.",
+      "description": "For the next 15s after using the Elemental Burst Precision Hydronic Cooler, DMG from nearby active characters' Electro-Charged, Bloom, Lunar-Charged, Lunar-Bloom, and Lunar-Crystallize reactions is increased by 15%.\nMoonsign: Ascendant Gleam: DMG from the aforementioned reactions will be further increased by 20%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/constellation-6.png"
     }

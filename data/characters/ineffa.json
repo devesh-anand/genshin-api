@@ -74,14 +74,14 @@
     {
       "name": "Support Cleaning Module",
       "unlock": "Constellation Lv. 2",
-      "description": "After the Elemental Burst {LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK} hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take AoE Electro DMG equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\nAdditionally, when the Elemental Burst Supreme Instruction: Cyclonic Exterminator is unleashed, nearby party members will gain Optical Flow Shield Barriers.",
+      "description": "After the Elemental Burst Supreme Instruction: Cyclonic Exterminator hits opponents, it will inflict the Punishment Edict status on one of those hit opponents: After a brief delay, or when this opponent is defeated, nearby opponents will take AoE Electro DMG equal to 300% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.\nAdditionally, when the Elemental Burst Supreme Instruction: Cyclonic Exterminator is unleashed, nearby party members will gain Optical Flow Shield Barriers.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/constellation-2.png"
     },
     {
       "name": "Enhanced Emotion Emulator",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11162}Cleaning Mode: Carrier Frequency{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Cleaning Mode: Carrier Frequency by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/constellation-3.png"
     },
@@ -95,7 +95,7 @@
     {
       "name": "Mirror's Dream Transcension",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Supreme Instruction: Cyclonic Exterminator by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/constellation-5.png"
     },

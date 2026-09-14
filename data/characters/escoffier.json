@@ -61,42 +61,42 @@
     {
       "name": "Pre-Dinner Dance for Your Taste Buds",
       "unlock": "Constellation Lv. 1",
-      "description": "When 4 party members are Hydro or Cryo, all nearby party members will have their Cryo DMG CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill {LINK#S11122}Low-Temperature Cooking{/LINK} or Elemental Burst {LINK#S11125}Scoring Cuts{/LINK}.\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\"",
+      "description": "When 4 party members are Hydro or Cryo, all nearby party members will have their Cryo DMG CRIT DMG increased by 60% for 15s after Escoffier uses her Elemental Skill Low-Temperature Cooking or Elemental Burst Scoring Cuts.\nYou must first unlock the Ascension Talent \"Inspiration-Immersed Seasoning.\"",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/escoffier/constellation-1.png"
     },
     {
       "name": "Fresh, Fragrant Stew Is an Art",
       "unlock": "Constellation Lv. 2",
-      "description": "When Escoffier activates her Cooking Mek in its {LINK#N11120001}Cold Storage Mode{/LINK}, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal Cryo DMG with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\nIf you hit multiple opponents with a single instance of Cryo DMG, Cold Dish stacks will be consumed based on the number of opponents hit.",
+      "description": "When Escoffier activates her Cooking Mek in its Cold Storage Mode, she will gain the \"Freshly-Prepped Delicacy\" effect for 15s. During this time, Escoffier will gain 5 Cold Dish stacks. When nearby active characters apart from Escoffier deal Cryo DMG with a Normal, Charged, or Plunging Attack, or an Elemental Skill or Elemental Burst, they will expend 1 Cold Dish stack to increase their DMG dealt by 240% of Escoffier's ATK.\nIf you hit multiple opponents with a single instance of Cryo DMG, Cold Dish stacks will be consumed based on the number of opponents hit.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/escoffier/constellation-2.png"
     },
     {
       "name": "The Bakery Magic of Caramel Browning",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11122}Low-Temperature Cooking{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Low-Temperature Cooking by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/escoffier/constellation-3.png"
     },
     {
       "name": "Secret Rosemary Recipe",
       "unlock": "Constellation Lv. 4",
-      "description": "{LINK#P1122101}Rehab Diet{/LINK} lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through Rehab Diet. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one Rehab Diet's duration.\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\"",
+      "description": "Rehab Diet lasts 6 more seconds. While it is active, you have a chance of healing 100% extra HP and restoring 2 Energy to Escoffier when you trigger healing through Rehab Diet. This chance corresponds to Escoffier's CRIT Rate. You can trigger this effect 7 times during any one Rehab Diet's duration.\nYou must first unlock the Ascension Talent \"Better to Salivate Than Medicate.\"",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/escoffier/constellation-4.png"
     },
     {
       "name": "Symphony of a Thousand Sauces",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11125}Scoring Cuts{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Scoring Cuts by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/escoffier/constellation-5.png"
     },
     {
       "name": "Tea Parties Bursting With Color",
       "unlock": "Constellation Lv. 6",
-      "description": "{LINK#N11120001}Cooking Mek: Cold Storage Mode{/LINK} is enhanced:\n· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as AoE Cryo DMG. This DMG is considered Elemental Skill DMG.\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode.",
+      "description": "Cooking Mek: Cold Storage Mode is enhanced:\n· When your party's active character's Normal, Charged, or Plunging Attacks hit opponents, Cooking Mek: Cold Storage Mode will fire off another Special-Grade Frosty Parfait, dealing 500% of Escoffier's ATK as AoE Cryo DMG. This DMG is considered Elemental Skill DMG.\nThis effect can be triggered once every 0.5s, and this effect can be triggered 6 times within the duration of one Cooking Mek: Cold Storage Mode.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/escoffier/constellation-6.png"
     }

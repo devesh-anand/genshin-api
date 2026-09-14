@@ -74,35 +74,35 @@
     {
       "name": "Elk With Fanged Antlers",
       "unlock": "Constellation Lv. 2",
-      "description": "When Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}'s Haunted Night's Oriole-Song effect is active, for every 7 stacks of {LINK#N11270001}Nightingale's Song{/LINK} consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
+      "description": "When Elemental Burst Shadowless Reflection's Haunted Night's Oriole-Song effect is active, for every 7 stacks of Nightingale's Song consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-2.png"
     },
     {
       "name": "Earthshaking Maw",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Elemental Burst Shadowless Reflection by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-3.png"
     },
     {
       "name": "Solarhunting Wolf",
       "unlock": "Constellation Lv. 4",
-      "description": "When Elemental Burst {LINK#S11275}Shadowless Reflection{/LINK}'s Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
+      "description": "When Elemental Burst Shadowless Reflection's Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-4.png"
     },
     {
       "name": "Hurricane Steed",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of Elemental Skill {LINK#S11272}Dawnbearing Songbird{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Elemental Skill Dawnbearing Songbird by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-5.png"
     },
     {
       "name": "Nightmare Orioles",
       "unlock": "Constellation Lv. 6",
-      "description": "Enhances the Lightkeeper's Oath effect of the Ascension Talent {LINK#P1272101}Torchforger's Covenant{/LINK}: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam:\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\"",
+      "description": "Enhances the Lightkeeper's Oath effect of the Ascension Talent Torchforger's Covenant: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam:\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\"",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-6.png"
     }

@@ -67,42 +67,42 @@
     {
       "name": "One More Flask!",
       "unlock": "Constellation Lv. 1",
-      "description": "When a Fluffy Meowball fired by the {LINK#N11240001}Purr-loined Treasure Flask{/LINK} from the Elemental Skill Savvy Strategy: Splitting the Spoils hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents.",
+      "description": "When a Fluffy Meowball fired by the Purr-loined Treasure Flask from the Elemental Skill Savvy Strategy: Splitting the Spoils hits an enemy, there is a 50% chance for it to bounce, dealing the corresponding Elemental DMG to nearby opponents.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/constellation-1.png"
     },
     {
       "name": "Rogue's Quick Thinking",
       "unlock": "Constellation Lv. 2",
-      "description": "Moonsign: Ascendant Gleam: In the Ascension Talent {LINK#P1242101}\"Plan to Get Paid,\"{/LINK} Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\"",
+      "description": "Moonsign: Ascendant Gleam: In the Ascension Talent \"Plan to Get Paid,\" Jahoda can secretly track, in addition to the element with the highest number of characters, the element with the next highest number of characters among the remaining types. This allows up to two elemental effects to be active at once. You must first unlock the Ascension Talent \"Plan to Get Paid.\"",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/constellation-2.png"
     },
     {
       "name": "Desperate Gamble",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11245}Hidden Aces: Seven Tools of the Hunter{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Hidden Aces: Seven Tools of the Hunter by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/constellation-3.png"
     },
     {
       "name": "Wild Berry Amid the Dust",
       "unlock": "Constellation Lv. 4",
-      "description": "When a {LINK#N11240002}Purrsonal Coordinated Assistance Robot{/LINK} from the Elemental Burst Hidden Aces: Seven Tools of the Hunter undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy.",
+      "description": "When a Purrsonal Coordinated Assistance Robot from the Elemental Burst Hidden Aces: Seven Tools of the Hunter undergoes an Elemental Conversion, Jahoda will recover 4 Elemental Energy.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/constellation-4.png"
     },
     {
       "name": "The Greatest Treasure",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11242}Savvy Strategy: Splitting the Spoils{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Savvy Strategy: Splitting the Spoils by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/constellation-5.png"
     },
     {
       "name": "The Littlest Luck",
       "unlock": "Constellation Lv. 6",
-      "description": "Moonsign: Ascendant Gleam: After the {LINK#N11240001}Purr-loined Treasure Flask{/LINK} from the Elemental Skill Savvy Strategy: Splitting the Spoils is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s.",
+      "description": "Moonsign: Ascendant Gleam: After the Purr-loined Treasure Flask from the Elemental Skill Savvy Strategy: Splitting the Spoils is full, nearby Moonsign characters in your party have their CRIT Rate increased by 5% and CRIT DMG increased by 40% for 20s.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/constellation-6.png"
     }

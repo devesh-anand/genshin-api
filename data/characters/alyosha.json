@@ -74,7 +74,7 @@
     {
       "name": "Howl From Afar",
       "unlock": "Constellation Lv. 2",
-      "description": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\nAdditionally, each time {LINK#N11480002}Tugarin{/LINK} attacks the opponent, he will also apply the {LINK#N11480001}Hunter's Mark{/LINK} to a target. This effect does not activate existing Hunter's Marks.",
+      "description": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\nAdditionally, each time Tugarin attacks the opponent, he will also apply the Hunter's Mark to a target. This effect does not activate existing Hunter's Marks.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-2.png"
     },
@@ -88,7 +88,7 @@
     {
       "name": "Harvest the Spoils",
       "unlock": "Constellation Lv. 4",
-      "description": "When {LINK#N11480002}Tugarin{/LINK} attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
+      "description": "When Tugarin attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-4.png"
     },
@@ -102,7 +102,7 @@
     {
       "name": "Standard Reclaimed",
       "unlock": "Constellation Lv. 6",
-      "description": "The Hunter's Precision effect obtained from activating a {LINK#N11480001}Hunter's Mark{/LINK} can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100 if they are on the field.",
+      "description": "The Hunter's Precision effect obtained from activating a Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100 if they are on the field.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-6.png"
     }

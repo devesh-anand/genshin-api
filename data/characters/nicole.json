@@ -74,35 +74,35 @@
     {
       "name": "\"I Will Guide You and Show You the Path You Should Tread\"",
       "unlock": "Constellation Lv. 2",
-      "description": "Enhances the effects of the Elemental Skill {LINK#S11312}Revelation: Uncreated Light{/LINK}: {LINK#N11310001}Grace of Kenosis{/LINK} increases ATK by an additional 300 (which does not count toward this effect's ATK Bonus limit), while {LINK#N11310002}Guidance of Theosis{/LINK} decreases nearby opponents' Elemental RES based on the corresponding character's Elemental Type by 25%. This effect does not stack for the same Element.\nAdditionally, when Nicole unleashes her Elemental Skill Revelation: Uncreated Light, nearby active party members will also gain a Shield of Blazing Light.",
+      "description": "Enhances the effects of the Elemental Skill Revelation: Uncreated Light: Grace of Kenosis increases ATK by an additional 300 (which does not count toward this effect's ATK Bonus limit), while Guidance of Theosis decreases nearby opponents' Elemental RES based on the corresponding character's Elemental Type by 25%. This effect does not stack for the same Element.\nAdditionally, when Nicole unleashes her Elemental Skill Revelation: Uncreated Light, nearby active party members will also gain a Shield of Blazing Light.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/constellation-2.png"
     },
     {
       "name": "\"A Lamp by Your Side, A Light to Shine the Way\"",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11312}Revelation: Uncreated Light{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Revelation: Uncreated Light by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/constellation-3.png"
     },
     {
       "name": "\"Whether Left or Right, No Matter Which Way You Turn\"",
       "unlock": "Constellation Lv. 4",
-      "description": "When nearby party members have their {LINK#N11310001}Grace of Kenosis{/LINK} upgraded to {LINK#N11310002}Guidance of Theosis{/LINK}, Nicole also bestows upon them the Pathfinder's Blessing effect for 20s. Each character can gain this effect once every 16s.\nThe Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG of characters with Pathfinder's Blessing is increased by 70% of Nicole's ATK. This effect will be removed once it has taken effect 8 times or when its duration is over.\nWhen multiple opponents are hit at once, instances of Pathfinder's Blessing are consumed equal to the number of opponents hit. Each character's Pathfinder's Blessing is counted independently.",
+      "description": "When nearby party members have their Grace of Kenosis upgraded to Guidance of Theosis, Nicole also bestows upon them the Pathfinder's Blessing effect for 20s. Each character can gain this effect once every 16s.\nThe Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG of characters with Pathfinder's Blessing is increased by 70% of Nicole's ATK. This effect will be removed once it has taken effect 8 times or when its duration is over.\nWhen multiple opponents are hit at once, instances of Pathfinder's Blessing are consumed equal to the number of opponents hit. Each character's Pathfinder's Blessing is counted independently.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/constellation-4.png"
     },
     {
       "name": "\"You Will Hear My Voice Beside You\"",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11315}Revelation: Ladder of Divine Ascent{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Revelation: Ladder of Divine Ascent by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/constellation-5.png"
     },
     {
       "name": "\"This Is the Path, Walk It Without Delay\"",
       "unlock": "Constellation Lv. 6",
-      "description": "When Nicole's {LINK#N11310001}Grace of Kenosis{/LINK} is upgraded to {LINK#N11310002}Guidance of Theosis{/LINK}, all nearby party members' Grace of Kenosis will also be upgraded to Guidance of Theosis. Once upgraded, Guidance of Theosis will no longer revert to Grace of Kenosis.\nAdditionally, DMG dealt by characters with Guidance of Theosis will ignore 40% of opponents' DEF.",
+      "description": "When Nicole's Grace of Kenosis is upgraded to Guidance of Theosis, all nearby party members' Grace of Kenosis will also be upgraded to Guidance of Theosis. Once upgraded, Guidance of Theosis will no longer revert to Grace of Kenosis.\nAdditionally, DMG dealt by characters with Guidance of Theosis will ignore 40% of opponents' DEF.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/constellation-6.png"
     }

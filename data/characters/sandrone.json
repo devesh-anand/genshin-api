@@ -3,7 +3,7 @@
   "title": "Mirrored Analysis",
   "vision": "Cryo",
   "weapon": "Claymore",
-  "nation": "Snezhnaya_star",
+  "nation": "Snezhnaya",
   "affiliation": "Fatui",
   "rarity": 5,
   "constellation": "Narcissorolegium",
@@ -67,21 +67,21 @@
     {
       "name": "Morrow After the Golden Dusk",
       "unlock": "Constellation Lv. 1",
-      "description": "When in {LINK#N11330001}Decoding{/LINK} mode, Fagio's {LINK#N11330002}Decoding Power{/LINK} increases at a 50% lower rate, and all party members deal 30% increased Stellar Glimmer reaction DMG.",
+      "description": "When in Decoding mode, Fagio's Decoding Power increases at a 50% lower rate, and all party members deal 30% increased Stellar Glimmer reaction DMG.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-1.png"
     },
     {
       "name": "An Heiress Gazed Into the Looking-Glass",
       "unlock": "Constellation Lv. 2",
-      "description": "Radiance: Stellar Glimmer: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this {LINK#N11330001}Decoding{/LINK} mode period will be further increased by 20%. Max 3 stacks.",
+      "description": "Radiance: Stellar Glimmer: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this Decoding mode period will be further increased by 20%. Max 3 stacks.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-2.png"
     },
     {
       "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11331}Formule Phenomenale: Self-Evident Proposition{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Formule Phenomenale: Self-Evident Proposition by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-3.png"
     },
@@ -95,14 +95,14 @@
     {
       "name": "Of All Beside, She Takes No Part",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11335}Formule Phenomenale: Q.E.D.{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Formule Phenomenale: Q.E.D. by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-5.png"
     },
     {
       "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
       "unlock": "Constellation Lv. 6",
-      "description": "When Fagio fires a condensed beam for the third time while in {LINK#N11330001}Decoding{/LINK} mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\nRadiance: Stellar Glimmer: The Condensed Cluster Beam attack deals 4 additional instances of AoE Cryo DMG. The DMG dealt with this attack, which is considered the corresponding Stellar Glimmer reaction DMG, is equal to:\nRadiance: Stellar-Conduct: 80% of Sandrone's ATK.\nRadiance: Stellar Swirl: 120% of Sandrone's ATK.\nAdditionally, all Stellar Glimmer reaction DMG dealt by Sandrone is {LINK#N11190007}elevated{/LINK} by 20%.",
+      "description": "When Fagio fires a condensed beam for the third time while in Decoding mode, the beam becomes a more powerful Condensed Cluster Beam that fires continuously. This beam will deal up to 4 additional instances of AoE Cryo DMG at 100% of Sandrone's ATK on top of any subsequent original beam fired.\nRadiance: Stellar Glimmer: The Condensed Cluster Beam attack deals 4 additional instances of AoE Cryo DMG. The DMG dealt with this attack, which is considered the corresponding Stellar Glimmer reaction DMG, is equal to:\nRadiance: Stellar-Conduct: 80% of Sandrone's ATK.\nRadiance: Stellar Swirl: 120% of Sandrone's ATK.\nAdditionally, all Stellar Glimmer reaction DMG dealt by Sandrone is elevated by 20%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sandrone/constellation-6.png"
     }

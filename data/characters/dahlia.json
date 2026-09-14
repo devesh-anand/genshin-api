@@ -61,42 +61,42 @@
     {
       "name": "Infallible Procession",
       "unlock": "Constellation Lv. 1",
-      "description": "Each time Dahlia gains 1 of his Elemental Burst {LINK#S11155}Radiant Psalter{/LINK}'s Benison stacks, he will regain 2.5 Elemental Energy.",
+      "description": "Each time Dahlia gains 1 of his Elemental Burst Radiant Psalter's Benison stacks, he will regain 2.5 Elemental Energy.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/constellation-1.png"
     },
     {
       "name": "Revelation of Mercy",
       "unlock": "Constellation Lv. 2",
-      "description": "After Dahlia consumes his Elemental Burst {LINK#S11155}Radiant Psalter{/LINK}'s Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s.",
+      "description": "After Dahlia consumes his Elemental Burst Radiant Psalter's Benison stacks to summon a Shield of Sacred Favor, the character protected by said Shield will gain 25% increased Shield Strength for 12s.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/constellation-2.png"
     },
     {
       "name": "Windblume Offertory",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11155}Radiant Psalter{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Radiant Psalter by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/constellation-3.png"
     },
     {
       "name": "Collect of the Assembly",
       "unlock": "Constellation Lv. 4",
-      "description": "The Favonian Favor from Dahlia's Elemental Burst {LINK#S11155}Radiant Psalter{/LINK} lasts 3 more seconds.",
+      "description": "The Favonian Favor from Dahlia's Elemental Burst Radiant Psalter lasts 3 more seconds.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/constellation-4.png"
     },
     {
       "name": "Let It Be Subtly So",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11152}Immersive Ordinance{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Immersive Ordinance by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/constellation-5.png"
     },
     {
       "name": "You Shall Go Out With Joy",
       "unlock": "Constellation Lv. 6",
-      "description": "The current active character affected by the Elemental Burst {LINK#S11155}Radiant Psalter{/LINK}'s Favonian Favor has their ATK SPD increased by 10%.\nAdditionally, when an active character affected by Favonian Favor falls, immediately:\n· Revive them.\n· Restore their HP to 100%.\nThis effect can trigger once every 15 minutes.",
+      "description": "The current active character affected by the Elemental Burst Radiant Psalter's Favonian Favor has their ATK SPD increased by 10%.\nAdditionally, when an active character affected by Favonian Favor falls, immediately:\n· Revive them.\n· Restore their HP to 100%.\nThis effect can trigger once every 15 minutes.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/constellation-6.png"
     }

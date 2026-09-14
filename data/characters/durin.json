@@ -81,21 +81,21 @@
     {
       "name": "Flame Mirror's Revelation",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of {LINK#S11235}Principle of Purity: As the Light Shifts{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Principle of Purity: As the Light Shifts by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/durin/constellation-3.png"
     },
     {
       "name": "Emanare's Source",
       "unlock": "Constellation Lv. 4",
-      "description": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation {LINK#T1231}Adamah's Redemption{/LINK}, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed.",
+      "description": "Durin's Elemental Burst DMG is increased by 40%. Additionally, when effects that consume Cycle of Enlightenment stacks are triggered as part of the Constellation Adamah's Redemption, there is a 30% chance that no Cycle of Enlightenment stacks will be consumed.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/durin/constellation-4.png"
     },
     {
       "name": "Scouring Flame's Sundering",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of {LINK#S11232}Binary Form: Convergence and Division{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of Binary Form: Convergence and Division by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/durin/constellation-5.png"
     },

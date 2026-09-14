@@ -74,35 +74,35 @@
     {
       "name": "Frostfall Reverberation",
       "unlock": "Constellation Lv. 2",
-      "description": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an ice crystal fired by the Elemental Skill {LINK#S10127}Ice Fog Piercer{/LINK}.\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
+      "description": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an ice crystal fired by the Elemental Skill Ice Fog Piercer.\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-2.png"
     },
     {
       "name": "Glacial Shard",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of the Elemental Burst {LINK#S10128}Frostbound Javelin{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Burst Frostbound Javelin by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-3.png"
     },
     {
       "name": "Enduring Ice",
       "unlock": "Constellation Lv. 4",
-      "description": "The duration of the Frostpierce Star created by the Elemental Skill {LINK#S10127}Ice Fog Piercer{/LINK} is increased by 25%.",
+      "description": "The duration of the Frostpierce Star created by the Elemental Skill Ice Fog Piercer is increased by 25%.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-4.png"
     },
     {
       "name": "Bittercold Fog",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of the Elemental Skill {LINK#S10127}Ice Fog Piercer{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Skill Ice Fog Piercer by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-5.png"
     },
     {
       "name": "Brumal Grimfrost",
       "unlock": "Constellation Lv. 6",
-      "description": "Every stack of {LINK#N10050002}Frostglow{/LINK} consumed when using the Elemental Burst {LINK#S10128}Frostbound Javelin{/LINK} increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
+      "description": "Every stack of Frostglow consumed when using the Elemental Burst Frostbound Javelin increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-6.png"
     }

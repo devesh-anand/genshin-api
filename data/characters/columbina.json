@@ -67,42 +67,42 @@
     {
       "name": "Radiance Over Blossoms and Peaks",
       "unlock": "Constellation Lv. 1",
-      "description": "Unleashing her Elemental Skill Eternal Tides will immediately trigger an effect equivalent to the effect of {LINK#N11250001}Gravity Interference{/LINK}. This effect can be triggered once every 15s.\nMoonsign: Ascendant Gleam\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: Your current active character will recover 6 Energy.\n· Lunar-Bloom: Your active character's interruption resistance will be increased for 8s.\n· Lunar-Crystallize: Summons a Rainsea Shield. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb Hydro DMG with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%.",
+      "description": "Unleashing her Elemental Skill Eternal Tides will immediately trigger an effect equivalent to the effect of Gravity Interference. This effect can be triggered once every 15s.\nMoonsign: Ascendant Gleam\nWhen Gravity Interference is triggered, if the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: Your current active character will recover 6 Energy.\n· Lunar-Bloom: Your active character's interruption resistance will be increased for 8s.\n· Lunar-Crystallize: Summons a Rainsea Shield. The Rainsea Shield's DMG absorption is based on 12% of Columbina's Max HP, and it will absorb Hydro DMG with 250% effectiveness for 8s.\n\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/columbina/constellation-1.png"
     },
     {
       "name": "Not in Lone Splendor",
       "unlock": "Constellation Lv. 2",
-      "description": "Rate of accumulating {LINK#N11250001}Gravity{/LINK} increases by 34%. \nWhen Gravity Interference is triggered, Columbina will receive the Lunar Brilliance effect, which increases her Max HP by 40% for 8s.\nMoonsign: Ascendant Gleam:\nWhen Lunar Brilliance is active, if, during the current trigger of Gravity Interference, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· Lunar-Bloom: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· Lunar-Crystallize: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 7%.",
+      "description": "Rate of accumulating Gravity increases by 34%. \nWhen Gravity Interference is triggered, Columbina will receive the Lunar Brilliance effect, which increases her Max HP by 40% for 8s.\nMoonsign: Ascendant Gleam:\nWhen Lunar Brilliance is active, if, during the current trigger of Gravity Interference, the Lunar reaction type that has accumulated the most Gravity for Columbina is:\n· Lunar-Charged: ATK of your current active character increases. Increase in ATK is equal to 1% of Columbina's Max HP.\n· Lunar-Bloom: Elemental Mastery of your current active character increases. Increase in Elemental Mastery is equal to 0.35% of Columbina's Max HP.\n· Lunar-Crystallize: DEF of your current active character increases. Increase in DEF is equal to 1% of Columbina's Max HP.\n\nAll nearby party members' Lunar Reaction DMG is elevated by 7%.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/columbina/constellation-2.png"
     },
     {
       "name": "Dreamlike Glow Across Tranquil Waters",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of Elemental Skill {LINK#S11252}Eternal Tides{/LINK} by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%.",
+      "description": "Increases the Level of Elemental Skill Eternal Tides by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/columbina/constellation-3.png"
     },
     {
       "name": "Cloudveiled Ridges in Floral Mists",
       "unlock": "Constellation Lv. 4",
-      "description": "When {LINK#N11250001}Gravity Interference{/LINK} is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most Gravity for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%.",
+      "description": "When Gravity Interference is triggered, 4 Elemental Energy will be restored to Columbina;\nAdditionally, if the Lunar reaction type that accumulates the most Gravity for Columbina is Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize, the Lunar Reaction DMG dealt by this instance of Gravity Interference is increased by 12.5%/2.5%/12.5% of Columbina's Max HP respectively. This effect can be triggered at most once every 15s.\n\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/columbina/constellation-4.png"
     },
     {
       "name": "Silence Tending One Lone Song",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of Elemental Burst {LINK#S11255}Moonlit Melancholy{/LINK} by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 1.5%.",
+      "description": "Increases the Level of Elemental Burst Moonlit Melancholy by 3.\nMaximum upgrade level is 15.\n\nAll nearby party members' Lunar Reaction DMG is elevated by 1.5%.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/columbina/constellation-5.png"
     },
     {
       "name": "Through Darkness Led by Moonlight",
       "unlock": "Constellation Lv. 6",
-      "description": "For 8s after characters in the {LINK#N11250002}Lunar Domain{/LINK} trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is {LINK#N11190007}elevated{/LINK} by 7%.",
+      "description": "For 8s after characters in the Lunar Domain trigger a Lunar reaction, based on the elements involved in the reaction, the CRIT DMG of the corresponding Elemental DMG done by all party members is increased by 80%. The CRIT DMG-increasing effects for the same Elemental Type do not stack.\n\nAll nearby party members' Lunar Reaction DMG is elevated by 7%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/columbina/constellation-6.png"
     }
