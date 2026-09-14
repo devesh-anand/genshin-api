@@ -15,5 +15,83 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-sword/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-sword/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-sword/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "firm-arrowhead",
+          "quantity": 1
+        },
+        {
+          "slug": "heavy-horn",
+          "quantity": 1
+        },
+        {
+          "slug": "tile-of-decarabians-tower",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "firm-arrowhead",
+          "quantity": 4
+        },
+        {
+          "slug": "heavy-horn",
+          "quantity": 5
+        },
+        {
+          "slug": "debris-of-decarabians-city",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "sharp-arrowhead",
+          "quantity": 3
+        },
+        {
+          "slug": "black-bronze-horn",
+          "quantity": 3
+        },
+        {
+          "slug": "debris-of-decarabians-city",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "sharp-arrowhead",
+          "quantity": 4
+        },
+        {
+          "slug": "black-bronze-horn",
+          "quantity": 5
+        },
+        {
+          "slug": "fragment-of-decarabians-epic",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
 }

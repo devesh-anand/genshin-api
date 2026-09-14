@@ -20,5 +20,121 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/disaster-and-remorse/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/disaster-and-remorse/icon-awaken.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "whopperflower-nectar",
+          "quantity": 3
+        },
+        {
+          "slug": "lightless-bone",
+          "quantity": 5
+        },
+        {
+          "slug": "tile-of-decarabians-tower",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "whopperflower-nectar",
+          "quantity": 12
+        },
+        {
+          "slug": "lightless-bone",
+          "quantity": 18
+        },
+        {
+          "slug": "debris-of-decarabians-city",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "shimmering-nectar",
+          "quantity": 9
+        },
+        {
+          "slug": "glowing-remains",
+          "quantity": 9
+        },
+        {
+          "slug": "debris-of-decarabians-city",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "shimmering-nectar",
+          "quantity": 14
+        },
+        {
+          "slug": "glowing-remains",
+          "quantity": 18
+        },
+        {
+          "slug": "fragment-of-decarabians-epic",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "energy-nectar",
+          "quantity": 9
+        },
+        {
+          "slug": "radiant-exoskeleton",
+          "quantity": 14
+        },
+        {
+          "slug": "fragment-of-decarabians-epic",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "energy-nectar",
+          "quantity": 18
+        },
+        {
+          "slug": "radiant-exoskeleton",
+          "quantity": 27
+        },
+        {
+          "slug": "scattered-piece-of-decarabians-dream",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

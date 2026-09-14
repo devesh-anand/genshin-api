@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "sentrys-wooden-whistle",
+          "quantity": 3
+        },
+        {
+          "slug": "refractive-bud",
+          "quantity": 5
+        },
+        {
+          "slug": "night-winds-mystic-consideration",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sentrys-wooden-whistle",
+          "quantity": 12
+        },
+        {
+          "slug": "refractive-bud",
+          "quantity": 18
+        },
+        {
+          "slug": "night-winds-mystic-premonition",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "warriors-metal-whistle",
+          "quantity": 9
+        },
+        {
+          "slug": "bewildering-broadleaf",
+          "quantity": 9
+        },
+        {
+          "slug": "night-winds-mystic-premonition",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "warriors-metal-whistle",
+          "quantity": 14
+        },
+        {
+          "slug": "bewildering-broadleaf",
+          "quantity": 18
+        },
+        {
+          "slug": "night-winds-mystic-augury",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "saurian-crowned-warriors-golden-whistle",
+          "quantity": 9
+        },
+        {
+          "slug": "illusory-leafcoil",
+          "quantity": 14
+        },
+        {
+          "slug": "night-winds-mystic-augury",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "saurian-crowned-warriors-golden-whistle",
+          "quantity": 18
+        },
+        {
+          "slug": "illusory-leafcoil",
+          "quantity": 27
+        },
+        {
+          "slug": "night-winds-mystic-revelation",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

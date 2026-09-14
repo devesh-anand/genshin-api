@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sturdy-bone/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sturdy-bone/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sturdy-bone/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "sentrys-wooden-whistle",
+          "quantity": 2
+        },
+        {
+          "slug": "shard-of-a-shattered-will",
+          "quantity": 3
+        },
+        {
+          "slug": "blazing-sacrificial-hearts-terror",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "sentrys-wooden-whistle",
+          "quantity": 8
+        },
+        {
+          "slug": "shard-of-a-shattered-will",
+          "quantity": 12
+        },
+        {
+          "slug": "blazing-sacrificial-hearts-hesitance",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "warriors-metal-whistle",
+          "quantity": 6
+        },
+        {
+          "slug": "locus-of-a-clear-will",
+          "quantity": 6
+        },
+        {
+          "slug": "blazing-sacrificial-hearts-hesitance",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "warriors-metal-whistle",
+          "quantity": 9
+        },
+        {
+          "slug": "locus-of-a-clear-will",
+          "quantity": 12
+        },
+        {
+          "slug": "blazing-sacrificial-hearts-resolve",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "saurian-crowned-warriors-golden-whistle",
+          "quantity": 6
+        },
+        {
+          "slug": "sigil-of-a-striding-will",
+          "quantity": 9
+        },
+        {
+          "slug": "blazing-sacrificial-hearts-resolve",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "saurian-crowned-warriors-golden-whistle",
+          "quantity": 12
+        },
+        {
+          "slug": "sigil-of-a-striding-will",
+          "quantity": 18
+        },
+        {
+          "slug": "blazing-sacrificial-hearts-splendor",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

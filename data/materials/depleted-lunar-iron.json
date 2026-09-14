@@ -13,5 +13,9 @@
       "a-teaspoon-of-transcendence"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/depleted-lunar-iron/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/depleted-lunar-iron/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Lv. 40+ Precursor's Secret Source Matrix of Overseer Network"
+  }
 }

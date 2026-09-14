@@ -23,5 +23,14 @@
     ],
     "weapons": []
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-resistance/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/philosophies-of-resistance/icon.png",
+  "source": {
+    "type": "domain",
+    "name": "Domain of Mastery: Frozen Abyss",
+    "days": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ]
+  }
 }

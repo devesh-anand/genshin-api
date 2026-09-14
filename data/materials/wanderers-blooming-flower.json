@@ -17,5 +17,9 @@
       "jadefalls-splendor"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/wanderers-blooming-flower/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/wanderers-blooming-flower/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Lv. 60+ Hilichurl Rogues"
+  }
 }

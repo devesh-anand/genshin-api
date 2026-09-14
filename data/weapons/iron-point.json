@@ -15,5 +15,83 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/iron-point/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/iron-point/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/iron-point/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 1
+        },
+        {
+          "slug": "chaos-device",
+          "quantity": 1
+        },
+        {
+          "slug": "fetters-of-the-dandelion-gladiator",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 4
+        },
+        {
+          "slug": "chaos-device",
+          "quantity": 5
+        },
+        {
+          "slug": "chains-of-the-dandelion-gladiator",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 3
+        },
+        {
+          "slug": "chaos-circuit",
+          "quantity": 3
+        },
+        {
+          "slug": "chains-of-the-dandelion-gladiator",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 4
+        },
+        {
+          "slug": "chaos-circuit",
+          "quantity": 5
+        },
+        {
+          "slug": "shackles-of-the-dandelion-gladiator",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
 }

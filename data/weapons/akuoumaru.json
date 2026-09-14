@@ -21,5 +21,121 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/akuoumaru/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/akuoumaru/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/akuoumaru/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "old-handguard",
+          "quantity": 2
+        },
+        {
+          "slug": "concealed-claw",
+          "quantity": 3
+        },
+        {
+          "slug": "coral-branch-of-a-distant-sea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "old-handguard",
+          "quantity": 8
+        },
+        {
+          "slug": "concealed-claw",
+          "quantity": 12
+        },
+        {
+          "slug": "jeweled-branch-of-a-distant-sea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "kageuchi-handguard",
+          "quantity": 6
+        },
+        {
+          "slug": "concealed-unguis",
+          "quantity": 6
+        },
+        {
+          "slug": "jeweled-branch-of-a-distant-sea",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "kageuchi-handguard",
+          "quantity": 9
+        },
+        {
+          "slug": "concealed-unguis",
+          "quantity": 12
+        },
+        {
+          "slug": "jade-branch-of-a-distant-sea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "famed-handguard",
+          "quantity": 6
+        },
+        {
+          "slug": "concealed-talon",
+          "quantity": 9
+        },
+        {
+          "slug": "jade-branch-of-a-distant-sea",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "famed-handguard",
+          "quantity": 12
+        },
+        {
+          "slug": "concealed-talon",
+          "quantity": 18
+        },
+        {
+          "slug": "golden-branch-of-a-distant-sea",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

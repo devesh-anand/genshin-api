@@ -15,5 +15,6 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/shattered-moon/icon.png",
     "icon-awaken": null,
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/shattered-moon/wish.png"
-  }
+  },
+  "ascension_costs": []
 }

@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "sentrys-wooden-whistle",
+          "quantity": 3
+        },
+        {
+          "slug": "shard-of-a-shattered-will",
+          "quantity": 5
+        },
+        {
+          "slug": "delirious-decadence-of-the-sacred-lord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sentrys-wooden-whistle",
+          "quantity": 12
+        },
+        {
+          "slug": "shard-of-a-shattered-will",
+          "quantity": 18
+        },
+        {
+          "slug": "delirious-desolation-of-the-sacred-lord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "warriors-metal-whistle",
+          "quantity": 9
+        },
+        {
+          "slug": "locus-of-a-clear-will",
+          "quantity": 9
+        },
+        {
+          "slug": "delirious-desolation-of-the-sacred-lord",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "warriors-metal-whistle",
+          "quantity": 14
+        },
+        {
+          "slug": "locus-of-a-clear-will",
+          "quantity": 18
+        },
+        {
+          "slug": "delirious-demeanor-of-the-sacred-lord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "saurian-crowned-warriors-golden-whistle",
+          "quantity": 9
+        },
+        {
+          "slug": "sigil-of-a-striding-will",
+          "quantity": 14
+        },
+        {
+          "slug": "delirious-demeanor-of-the-sacred-lord",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "saurian-crowned-warriors-golden-whistle",
+          "quantity": 18
+        },
+        {
+          "slug": "sigil-of-a-striding-will",
+          "quantity": 27
+        },
+        {
+          "slug": "delirious-divinity-of-the-sacred-lord",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

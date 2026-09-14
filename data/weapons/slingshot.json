@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/slingshot/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "damaged-mask",
+          "quantity": 1
+        },
+        {
+          "slug": "hunters-sacrificial-knife",
+          "quantity": 2
+        },
+        {
+          "slug": "luminous-sands-from-guyun",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "damaged-mask",
+          "quantity": 5
+        },
+        {
+          "slug": "hunters-sacrificial-knife",
+          "quantity": 8
+        },
+        {
+          "slug": "lustrous-stone-from-guyun",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "stained-mask",
+          "quantity": 4
+        },
+        {
+          "slug": "agents-sacrificial-knife",
+          "quantity": 4
+        },
+        {
+          "slug": "lustrous-stone-from-guyun",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "stained-mask",
+          "quantity": 6
+        },
+        {
+          "slug": "agents-sacrificial-knife",
+          "quantity": 8
+        },
+        {
+          "slug": "relic-from-guyun",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 25000,
+      "materials": [
+        {
+          "slug": "ominous-mask",
+          "quantity": 4
+        },
+        {
+          "slug": "inspectors-sacrificial-knife",
+          "quantity": 6
+        },
+        {
+          "slug": "relic-from-guyun",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "ominous-mask",
+          "quantity": 8
+        },
+        {
+          "slug": "inspectors-sacrificial-knife",
+          "quantity": 12
+        },
+        {
+          "slug": "divine-body-from-guyun",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
 }

@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crimson-moons-semblance/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "meshing-gear",
+          "quantity": 3
+        },
+        {
+          "slug": "ruined-hilt",
+          "quantity": 5
+        },
+        {
+          "slug": "broken-goblet-of-the-pristine-sea",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "meshing-gear",
+          "quantity": 12
+        },
+        {
+          "slug": "ruined-hilt",
+          "quantity": 18
+        },
+        {
+          "slug": "wine-goblet-of-the-pristine-sea",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "mechanical-spur-gear",
+          "quantity": 9
+        },
+        {
+          "slug": "splintered-hilt",
+          "quantity": 9
+        },
+        {
+          "slug": "wine-goblet-of-the-pristine-sea",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "mechanical-spur-gear",
+          "quantity": 14
+        },
+        {
+          "slug": "splintered-hilt",
+          "quantity": 18
+        },
+        {
+          "slug": "silver-goblet-of-the-pristine-sea",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "artificed-dynamic-gear",
+          "quantity": 9
+        },
+        {
+          "slug": "still-smoldering-hilt",
+          "quantity": 14
+        },
+        {
+          "slug": "silver-goblet-of-the-pristine-sea",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "artificed-dynamic-gear",
+          "quantity": 18
+        },
+        {
+          "slug": "still-smoldering-hilt",
+          "quantity": 27
+        },
+        {
+          "slug": "golden-goblet-of-the-pristine-sea",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

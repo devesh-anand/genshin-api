@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-unforged/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-unforged/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-unforged/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "mist-grass-pollen",
+          "quantity": 5
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 3
+        },
+        {
+          "slug": "mist-veiled-lead-elixir",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "mist-grass-pollen",
+          "quantity": 18
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "mist-veiled-mercury-elixir",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "mist-grass",
+          "quantity": 9
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "mist-veiled-mercury-elixir",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "mist-grass",
+          "quantity": 18
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 14
+        },
+        {
+          "slug": "mist-veiled-gold-elixir",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "mist-grass-wick",
+          "quantity": 14
+        },
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "mist-veiled-gold-elixir",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "mist-grass-wick",
+          "quantity": 27
+        },
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 18
+        },
+        {
+          "slug": "mist-veiled-primo-elixir",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

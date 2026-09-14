@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-flute/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-flute/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-flute/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "slime-condensate",
+          "quantity": 2
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 3
+        },
+        {
+          "slug": "boreal-wolfs-milk-tooth",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "slime-condensate",
+          "quantity": 8
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 12
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "slime-secretions",
+          "quantity": 6
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 6
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "slime-secretions",
+          "quantity": 9
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 12
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "slime-concentrate",
+          "quantity": 6
+        },
+        {
+          "slug": "ley-line-sprout",
+          "quantity": 9
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "slime-concentrate",
+          "quantity": 12
+        },
+        {
+          "slug": "ley-line-sprout",
+          "quantity": 18
+        },
+        {
+          "slug": "boreal-wolfs-nostalgia",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

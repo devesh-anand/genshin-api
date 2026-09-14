@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "juvenile-fang",
+          "quantity": 2
+        },
+        {
+          "slug": "axis-of-the-secret-source",
+          "quantity": 3
+        },
+        {
+          "slug": "night-winds-mystic-consideration",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "juvenile-fang",
+          "quantity": 8
+        },
+        {
+          "slug": "axis-of-the-secret-source",
+          "quantity": 12
+        },
+        {
+          "slug": "night-winds-mystic-premonition",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "seasoned-fang",
+          "quantity": 6
+        },
+        {
+          "slug": "sheath-of-the-secret-source",
+          "quantity": 6
+        },
+        {
+          "slug": "night-winds-mystic-premonition",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "seasoned-fang",
+          "quantity": 9
+        },
+        {
+          "slug": "sheath-of-the-secret-source",
+          "quantity": 12
+        },
+        {
+          "slug": "night-winds-mystic-augury",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "tyrants-fang",
+          "quantity": 6
+        },
+        {
+          "slug": "heart-of-the-secret-source",
+          "quantity": 9
+        },
+        {
+          "slug": "night-winds-mystic-augury",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "tyrants-fang",
+          "quantity": 12
+        },
+        {
+          "slug": "heart-of-the-secret-source",
+          "quantity": 18
+        },
+        {
+          "slug": "night-winds-mystic-revelation",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

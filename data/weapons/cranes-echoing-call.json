@@ -21,5 +21,121 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cranes-echoing-call/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cranes-echoing-call/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cranes-echoing-call/wish.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 3
+        },
+        {
+          "slug": "feathery-fin",
+          "quantity": 5
+        },
+        {
+          "slug": "mist-veiled-lead-elixir",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 12
+        },
+        {
+          "slug": "feathery-fin",
+          "quantity": 18
+        },
+        {
+          "slug": "mist-veiled-mercury-elixir",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 9
+        },
+        {
+          "slug": "lunar-fin",
+          "quantity": 9
+        },
+        {
+          "slug": "mist-veiled-mercury-elixir",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 14
+        },
+        {
+          "slug": "lunar-fin",
+          "quantity": 18
+        },
+        {
+          "slug": "mist-veiled-gold-elixir",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "forbidden-curse-scroll",
+          "quantity": 9
+        },
+        {
+          "slug": "chasmlight-fin",
+          "quantity": 14
+        },
+        {
+          "slug": "mist-veiled-gold-elixir",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "forbidden-curse-scroll",
+          "quantity": 18
+        },
+        {
+          "slug": "chasmlight-fin",
+          "quantity": 27
+        },
+        {
+          "slug": "mist-veiled-primo-elixir",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mouuns-moon/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mouuns-moon/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mouuns-moon/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "dismal-prism",
+          "quantity": 3
+        },
+        {
+          "slug": "spectral-husk",
+          "quantity": 2
+        },
+        {
+          "slug": "narukamis-wisdom",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "dismal-prism",
+          "quantity": 12
+        },
+        {
+          "slug": "spectral-husk",
+          "quantity": 8
+        },
+        {
+          "slug": "narukamis-joy",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "crystal-prism",
+          "quantity": 6
+        },
+        {
+          "slug": "spectral-heart",
+          "quantity": 6
+        },
+        {
+          "slug": "narukamis-joy",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "crystal-prism",
+          "quantity": 12
+        },
+        {
+          "slug": "spectral-heart",
+          "quantity": 9
+        },
+        {
+          "slug": "narukamis-affection",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "polarizing-prism",
+          "quantity": 9
+        },
+        {
+          "slug": "spectral-nucleus",
+          "quantity": 6
+        },
+        {
+          "slug": "narukamis-affection",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "polarizing-prism",
+          "quantity": 18
+        },
+        {
+          "slug": "spectral-nucleus",
+          "quantity": 12
+        },
+        {
+          "slug": "narukamis-valor",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

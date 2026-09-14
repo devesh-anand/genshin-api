@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "firm-arrowhead",
+          "quantity": 3
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 5
+        },
+        {
+          "slug": "boreal-wolfs-milk-tooth",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "firm-arrowhead",
+          "quantity": 12
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 18
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "sharp-arrowhead",
+          "quantity": 9
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 9
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "sharp-arrowhead",
+          "quantity": 14
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 18
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "weathered-arrowhead",
+          "quantity": 9
+        },
+        {
+          "slug": "ley-line-sprout",
+          "quantity": 14
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "weathered-arrowhead",
+          "quantity": 18
+        },
+        {
+          "slug": "ley-line-sprout",
+          "quantity": 27
+        },
+        {
+          "slug": "boreal-wolfs-nostalgia",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

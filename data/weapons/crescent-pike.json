@@ -21,5 +21,121 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "hunters-sacrificial-knife",
+          "quantity": 3
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 2
+        },
+        {
+          "slug": "luminous-sands-from-guyun",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "hunters-sacrificial-knife",
+          "quantity": 12
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 8
+        },
+        {
+          "slug": "lustrous-stone-from-guyun",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "agents-sacrificial-knife",
+          "quantity": 6
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "lustrous-stone-from-guyun",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "agents-sacrificial-knife",
+          "quantity": 12
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "relic-from-guyun",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "inspectors-sacrificial-knife",
+          "quantity": 9
+        },
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "relic-from-guyun",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "inspectors-sacrificial-knife",
+          "quantity": 18
+        },
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "divine-body-from-guyun",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

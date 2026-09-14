@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thundering-pulse/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thundering-pulse/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thundering-pulse/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "firm-arrowhead",
+          "quantity": 3
+        },
+        {
+          "slug": "dismal-prism",
+          "quantity": 5
+        },
+        {
+          "slug": "narukamis-wisdom",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "firm-arrowhead",
+          "quantity": 12
+        },
+        {
+          "slug": "dismal-prism",
+          "quantity": 18
+        },
+        {
+          "slug": "narukamis-joy",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "sharp-arrowhead",
+          "quantity": 9
+        },
+        {
+          "slug": "crystal-prism",
+          "quantity": 9
+        },
+        {
+          "slug": "narukamis-joy",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "sharp-arrowhead",
+          "quantity": 14
+        },
+        {
+          "slug": "crystal-prism",
+          "quantity": 18
+        },
+        {
+          "slug": "narukamis-affection",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "weathered-arrowhead",
+          "quantity": 9
+        },
+        {
+          "slug": "polarizing-prism",
+          "quantity": 14
+        },
+        {
+          "slug": "narukamis-affection",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "weathered-arrowhead",
+          "quantity": 18
+        },
+        {
+          "slug": "polarizing-prism",
+          "quantity": 27
+        },
+        {
+          "slug": "narukamis-valor",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

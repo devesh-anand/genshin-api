@@ -18,5 +18,14 @@
       "silvershower-heartstrings"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sublimation-of-pure-sacred-dewdrop/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sublimation-of-pure-sacred-dewdrop/icon.png",
+  "source": {
+    "type": "domain",
+    "name": "Domain of Forgery: Artisanship",
+    "days": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ]
+  }
 }

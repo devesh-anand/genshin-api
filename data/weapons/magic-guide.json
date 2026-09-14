@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/magic-guide/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "slime-condensate",
+          "quantity": 1
+        },
+        {
+          "slug": "heavy-horn",
+          "quantity": 2
+        },
+        {
+          "slug": "tile-of-decarabians-tower",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "slime-condensate",
+          "quantity": 5
+        },
+        {
+          "slug": "heavy-horn",
+          "quantity": 8
+        },
+        {
+          "slug": "debris-of-decarabians-city",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "slime-secretions",
+          "quantity": 4
+        },
+        {
+          "slug": "black-bronze-horn",
+          "quantity": 4
+        },
+        {
+          "slug": "debris-of-decarabians-city",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "slime-secretions",
+          "quantity": 6
+        },
+        {
+          "slug": "black-bronze-horn",
+          "quantity": 8
+        },
+        {
+          "slug": "fragment-of-decarabians-epic",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 25000,
+      "materials": [
+        {
+          "slug": "slime-concentrate",
+          "quantity": 4
+        },
+        {
+          "slug": "black-crystal-horn",
+          "quantity": 6
+        },
+        {
+          "slug": "fragment-of-decarabians-epic",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "slime-concentrate",
+          "quantity": 8
+        },
+        {
+          "slug": "black-crystal-horn",
+          "quantity": 12
+        },
+        {
+          "slug": "scattered-piece-of-decarabians-dream",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
 }

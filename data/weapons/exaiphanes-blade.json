@@ -20,5 +20,121 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/exaiphanes-blade/icon.png",
     "icon-awaken": null
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 3
+        },
+        {
+          "slug": "accreted-fragment",
+          "quantity": 5
+        },
+        {
+          "slug": "the-frost-emperors-revival",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 12
+        },
+        {
+          "slug": "accreted-fragment",
+          "quantity": 18
+        },
+        {
+          "slug": "the-frost-emperors-ceremony",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 9
+        },
+        {
+          "slug": "accreted-mass",
+          "quantity": 9
+        },
+        {
+          "slug": "the-frost-emperors-ceremony",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 14
+        },
+        {
+          "slug": "accreted-mass",
+          "quantity": 18
+        },
+        {
+          "slug": "the-frost-emperors-lament",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 9
+        },
+        {
+          "slug": "accreted-growth",
+          "quantity": 14
+        },
+        {
+          "slug": "the-frost-emperors-lament",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 18
+        },
+        {
+          "slug": "accreted-growth",
+          "quantity": 27
+        },
+        {
+          "slug": "the-frost-emperors-farewell",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

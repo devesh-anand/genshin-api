@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "transoceanic-pearl",
+          "quantity": 3
+        },
+        {
+          "slug": "drop-of-tainted-water",
+          "quantity": 5
+        },
+        {
+          "slug": "fragment-of-an-ancient-chord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "transoceanic-pearl",
+          "quantity": 12
+        },
+        {
+          "slug": "drop-of-tainted-water",
+          "quantity": 18
+        },
+        {
+          "slug": "chapter-of-an-ancient-chord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "transoceanic-chunk",
+          "quantity": 9
+        },
+        {
+          "slug": "scoop-of-tainted-water",
+          "quantity": 9
+        },
+        {
+          "slug": "chapter-of-an-ancient-chord",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "transoceanic-chunk",
+          "quantity": 14
+        },
+        {
+          "slug": "scoop-of-tainted-water",
+          "quantity": 18
+        },
+        {
+          "slug": "movement-of-an-ancient-chord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "xenochromatic-crystal",
+          "quantity": 9
+        },
+        {
+          "slug": "newborn-tainted-hydro-phantasm",
+          "quantity": 14
+        },
+        {
+          "slug": "movement-of-an-ancient-chord",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "xenochromatic-crystal",
+          "quantity": 18
+        },
+        {
+          "slug": "newborn-tainted-hydro-phantasm",
+          "quantity": 27
+        },
+        {
+          "slug": "echo-of-an-ancient-chord",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

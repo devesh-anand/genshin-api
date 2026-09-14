@@ -55,5 +55,9 @@
       "astral-vultures-crimson-plumage"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sentrys-wooden-whistle/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sentrys-wooden-whistle/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Sauroform Tribal Warriors"
+  }
 }

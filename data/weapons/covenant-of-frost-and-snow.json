@@ -20,5 +20,121 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/covenant-of-frost-and-snow/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/covenant-of-frost-and-snow/icon-awaken.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 2
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 3
+        },
+        {
+          "slug": "rise-of-the-pale-star-army",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 8
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 12
+        },
+        {
+          "slug": "muster-of-the-pale-star-army",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 6
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 6
+        },
+        {
+          "slug": "muster-of-the-pale-star-army",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 9
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 12
+        },
+        {
+          "slug": "clarion-of-the-pale-star-army",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 6
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 9
+        },
+        {
+          "slug": "clarion-of-the-pale-star-army",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 12
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 18
+        },
+        {
+          "slug": "triumph-of-the-pale-star-army",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

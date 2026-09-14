@@ -33,5 +33,9 @@
       "aqua-simulacra"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spectral-heart/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spectral-heart/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Lv. 40+ Specters"
+  }
 }

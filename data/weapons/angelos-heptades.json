@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "broken-drive-shaft",
+          "quantity": 3
+        },
+        {
+          "slug": "faded-flaming-hilt",
+          "quantity": 5
+        },
+        {
+          "slug": "artful-device-fragment",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "broken-drive-shaft",
+          "quantity": 12
+        },
+        {
+          "slug": "faded-flaming-hilt",
+          "quantity": 18
+        },
+        {
+          "slug": "artful-device-replica",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "reinforced-drive-shaft",
+          "quantity": 9
+        },
+        {
+          "slug": "fractured-flaming-hilt",
+          "quantity": 9
+        },
+        {
+          "slug": "artful-device-replica",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "reinforced-drive-shaft",
+          "quantity": 14
+        },
+        {
+          "slug": "fractured-flaming-hilt",
+          "quantity": 18
+        },
+        {
+          "slug": "artful-device-inheritance",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "precision-drive-shaft",
+          "quantity": 9
+        },
+        {
+          "slug": "jeweled-flaming-hilt",
+          "quantity": 14
+        },
+        {
+          "slug": "artful-device-inheritance",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "precision-drive-shaft",
+          "quantity": 18
+        },
+        {
+          "slug": "jeweled-flaming-hilt",
+          "quantity": 27
+        },
+        {
+          "slug": "artful-device-wish",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

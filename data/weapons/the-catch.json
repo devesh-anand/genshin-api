@@ -20,5 +20,121 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-catch/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-catch/icon-awaken.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "chaos-gear",
+          "quantity": 3
+        },
+        {
+          "slug": "spectral-husk",
+          "quantity": 2
+        },
+        {
+          "slug": "mask-of-the-wicked-lieutenant",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "chaos-gear",
+          "quantity": 12
+        },
+        {
+          "slug": "spectral-husk",
+          "quantity": 8
+        },
+        {
+          "slug": "mask-of-the-tigers-bite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "chaos-axis",
+          "quantity": 6
+        },
+        {
+          "slug": "spectral-heart",
+          "quantity": 6
+        },
+        {
+          "slug": "mask-of-the-tigers-bite",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "chaos-axis",
+          "quantity": 12
+        },
+        {
+          "slug": "spectral-heart",
+          "quantity": 9
+        },
+        {
+          "slug": "mask-of-the-one-horned",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "chaos-oculus",
+          "quantity": 9
+        },
+        {
+          "slug": "spectral-nucleus",
+          "quantity": 6
+        },
+        {
+          "slug": "mask-of-the-one-horned",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "chaos-oculus",
+          "quantity": 18
+        },
+        {
+          "slug": "spectral-nucleus",
+          "quantity": 12
+        },
+        {
+          "slug": "mask-of-the-kijin",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

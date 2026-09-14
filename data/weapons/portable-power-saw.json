@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/portable-power-saw/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/portable-power-saw/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/portable-power-saw/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "meshing-gear",
+          "quantity": 2
+        },
+        {
+          "slug": "rift-core",
+          "quantity": 3
+        },
+        {
+          "slug": "broken-goblet-of-the-pristine-sea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "meshing-gear",
+          "quantity": 8
+        },
+        {
+          "slug": "rift-core",
+          "quantity": 12
+        },
+        {
+          "slug": "wine-goblet-of-the-pristine-sea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "mechanical-spur-gear",
+          "quantity": 6
+        },
+        {
+          "slug": "foreign-synapse",
+          "quantity": 6
+        },
+        {
+          "slug": "wine-goblet-of-the-pristine-sea",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "mechanical-spur-gear",
+          "quantity": 9
+        },
+        {
+          "slug": "foreign-synapse",
+          "quantity": 12
+        },
+        {
+          "slug": "silver-goblet-of-the-pristine-sea",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "artificed-dynamic-gear",
+          "quantity": 6
+        },
+        {
+          "slug": "alien-life-core",
+          "quantity": 9
+        },
+        {
+          "slug": "silver-goblet-of-the-pristine-sea",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "artificed-dynamic-gear",
+          "quantity": 12
+        },
+        {
+          "slug": "alien-life-core",
+          "quantity": 18
+        },
+        {
+          "slug": "golden-goblet-of-the-pristine-sea",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

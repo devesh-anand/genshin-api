@@ -19,5 +19,9 @@
       "reliquary-of-truth"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/glowing-remains/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/glowing-remains/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Lv. 40+ Radiant Beasts"
+  }
 }

@@ -16,5 +16,9 @@
     ],
     "weapons": []
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mudra-of-the-malefic-general/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mudra-of-the-malefic-general/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Lv. 70+ Guardian of Eternity Challenge Reward"
+  }
 }

@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vortex-vanquisher/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vortex-vanquisher/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vortex-vanquisher/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 3
+        },
+        {
+          "slug": "fragile-bone-shard",
+          "quantity": 5
+        },
+        {
+          "slug": "grain-of-aerosiderite",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "fragile-bone-shard",
+          "quantity": 18
+        },
+        {
+          "slug": "piece-of-aerosiderite",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "sturdy-bone-shard",
+          "quantity": 9
+        },
+        {
+          "slug": "piece-of-aerosiderite",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 14
+        },
+        {
+          "slug": "sturdy-bone-shard",
+          "quantity": 18
+        },
+        {
+          "slug": "bit-of-aerosiderite",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "fossilized-bone-shard",
+          "quantity": 14
+        },
+        {
+          "slug": "bit-of-aerosiderite",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 18
+        },
+        {
+          "slug": "fossilized-bone-shard",
+          "quantity": 27
+        },
+        {
+          "slug": "chunk-of-aerosiderite",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

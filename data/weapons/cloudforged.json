@@ -21,5 +21,121 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cloudforged/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cloudforged/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cloudforged/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "recruits-insignia",
+          "quantity": 2
+        },
+        {
+          "slug": "ruined-hilt",
+          "quantity": 3
+        },
+        {
+          "slug": "grain-of-aerosiderite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "recruits-insignia",
+          "quantity": 8
+        },
+        {
+          "slug": "ruined-hilt",
+          "quantity": 12
+        },
+        {
+          "slug": "piece-of-aerosiderite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sergeants-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "splintered-hilt",
+          "quantity": 6
+        },
+        {
+          "slug": "piece-of-aerosiderite",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "sergeants-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "splintered-hilt",
+          "quantity": 12
+        },
+        {
+          "slug": "bit-of-aerosiderite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "lieutenants-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "still-smoldering-hilt",
+          "quantity": 9
+        },
+        {
+          "slug": "bit-of-aerosiderite",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "lieutenants-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "still-smoldering-hilt",
+          "quantity": 18
+        },
+        {
+          "slug": "chunk-of-aerosiderite",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

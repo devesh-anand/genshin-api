@@ -19,5 +19,14 @@
       "thundering-pulse"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/narukamis-joy/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/narukamis-joy/icon.png",
+  "source": {
+    "type": "domain",
+    "name": "Domain of Forgery: Altar of Sands",
+    "days": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ]
+  }
 }

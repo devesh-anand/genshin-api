@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 1
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 2
+        },
+        {
+          "slug": "boreal-wolfs-milk-tooth",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 5
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 8
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 4
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 4
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 6
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 8
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 25000,
+      "materials": [
+        {
+          "slug": "forbidden-curse-scroll",
+          "quantity": 4
+        },
+        {
+          "slug": "ley-line-sprout",
+          "quantity": 6
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "forbidden-curse-scroll",
+          "quantity": 8
+        },
+        {
+          "slug": "ley-line-sprout",
+          "quantity": 12
+        },
+        {
+          "slug": "boreal-wolfs-nostalgia",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
 }

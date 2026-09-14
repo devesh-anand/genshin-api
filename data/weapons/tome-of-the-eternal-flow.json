@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "meshing-gear",
+          "quantity": 3
+        },
+        {
+          "slug": "rift-core",
+          "quantity": 5
+        },
+        {
+          "slug": "dross-of-pure-sacred-dewdrop",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "meshing-gear",
+          "quantity": 12
+        },
+        {
+          "slug": "rift-core",
+          "quantity": 18
+        },
+        {
+          "slug": "sublimation-of-pure-sacred-dewdrop",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "mechanical-spur-gear",
+          "quantity": 9
+        },
+        {
+          "slug": "foreign-synapse",
+          "quantity": 9
+        },
+        {
+          "slug": "sublimation-of-pure-sacred-dewdrop",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "mechanical-spur-gear",
+          "quantity": 14
+        },
+        {
+          "slug": "foreign-synapse",
+          "quantity": 18
+        },
+        {
+          "slug": "spring-of-pure-sacred-dewdrop",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "artificed-dynamic-gear",
+          "quantity": 9
+        },
+        {
+          "slug": "alien-life-core",
+          "quantity": 14
+        },
+        {
+          "slug": "spring-of-pure-sacred-dewdrop",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "artificed-dynamic-gear",
+          "quantity": 18
+        },
+        {
+          "slug": "alien-life-core",
+          "quantity": 27
+        },
+        {
+          "slug": "essence-of-pure-sacred-dewdrop",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

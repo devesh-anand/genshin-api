@@ -15,5 +15,82 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waster-greatsword/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waster-greatsword/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waster-greatsword/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "materials": [
+        {
+          "slug": "slime-condensate",
+          "quantity": 1
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 1
+        },
+        {
+          "slug": "boreal-wolfs-milk-tooth",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "slime-condensate",
+          "quantity": 2
+        },
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 4
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "slime-secretions",
+          "quantity": 2
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 2
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "slime-secretions",
+          "quantity": 3
+        },
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 4
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
 }

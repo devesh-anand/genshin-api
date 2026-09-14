@@ -20,5 +20,9 @@
       "the-first-great-magic"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/newborn-tainted-hydro-phantasm/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/newborn-tainted-hydro-phantasm/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Lv. 60+ Tainted Hydro Phantasms"
+  }
 }

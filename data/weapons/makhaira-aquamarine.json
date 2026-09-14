@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/makhaira-aquamarine/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/makhaira-aquamarine/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/makhaira-aquamarine/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 2
+        },
+        {
+          "slug": "chaos-storage",
+          "quantity": 3
+        },
+        {
+          "slug": "echo-of-scorching-might",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 8
+        },
+        {
+          "slug": "chaos-storage",
+          "quantity": 12
+        },
+        {
+          "slug": "remnant-glow-of-scorching-might",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "chaos-module",
+          "quantity": 6
+        },
+        {
+          "slug": "remnant-glow-of-scorching-might",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "chaos-module",
+          "quantity": 12
+        },
+        {
+          "slug": "dream-of-scorching-might",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "chaos-bolt",
+          "quantity": 9
+        },
+        {
+          "slug": "dream-of-scorching-might",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "golden-raven-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "chaos-bolt",
+          "quantity": 18
+        },
+        {
+          "slug": "olden-days-of-scorching-might",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

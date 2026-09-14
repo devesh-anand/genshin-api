@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "juvenile-fang",
+          "quantity": 3
+        },
+        {
+          "slug": "cold-cracked-shellshard",
+          "quantity": 5
+        },
+        {
+          "slug": "delirious-decadence-of-the-sacred-lord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "juvenile-fang",
+          "quantity": 12
+        },
+        {
+          "slug": "cold-cracked-shellshard",
+          "quantity": 18
+        },
+        {
+          "slug": "delirious-desolation-of-the-sacred-lord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "seasoned-fang",
+          "quantity": 9
+        },
+        {
+          "slug": "warm-back-shell",
+          "quantity": 9
+        },
+        {
+          "slug": "delirious-desolation-of-the-sacred-lord",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "seasoned-fang",
+          "quantity": 14
+        },
+        {
+          "slug": "warm-back-shell",
+          "quantity": 18
+        },
+        {
+          "slug": "delirious-demeanor-of-the-sacred-lord",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "tyrants-fang",
+          "quantity": 9
+        },
+        {
+          "slug": "blazing-prismshell",
+          "quantity": 14
+        },
+        {
+          "slug": "delirious-demeanor-of-the-sacred-lord",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "tyrants-fang",
+          "quantity": 18
+        },
+        {
+          "slug": "blazing-prismshell",
+          "quantity": 27
+        },
+        {
+          "slug": "delirious-divinity-of-the-sacred-lord",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

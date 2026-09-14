@@ -15,5 +15,83 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/seasoned-hunters-bow/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/seasoned-hunters-bow/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/seasoned-hunters-bow/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 1
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 1
+        },
+        {
+          "slug": "boreal-wolfs-milk-tooth",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "dead-ley-line-branch",
+          "quantity": 5
+        },
+        {
+          "slug": "treasure-hoarder-insignia",
+          "quantity": 4
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 3
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 3
+        },
+        {
+          "slug": "boreal-wolfs-cracked-tooth",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "dead-ley-line-leaves",
+          "quantity": 5
+        },
+        {
+          "slug": "silver-raven-insignia",
+          "quantity": 4
+        },
+        {
+          "slug": "boreal-wolfs-broken-fang",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
 }

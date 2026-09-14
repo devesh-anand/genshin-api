@@ -20,5 +20,121 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/frostbreath/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/frostbreath/icon-awaken.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 2
+        },
+        {
+          "slug": "accreted-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "measured-pour-of-the-cellared-spiritual-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 8
+        },
+        {
+          "slug": "accreted-fragment",
+          "quantity": 12
+        },
+        {
+          "slug": "intoxication-of-the-cellared-spiritual-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 6
+        },
+        {
+          "slug": "accreted-mass",
+          "quantity": 6
+        },
+        {
+          "slug": "intoxication-of-the-cellared-spiritual-nectar",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 9
+        },
+        {
+          "slug": "accreted-mass",
+          "quantity": 12
+        },
+        {
+          "slug": "exhilaration-of-the-cellared-spiritual-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 6
+        },
+        {
+          "slug": "accreted-growth",
+          "quantity": 9
+        },
+        {
+          "slug": "exhilaration-of-the-cellared-spiritual-nectar",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 12
+        },
+        {
+          "slug": "accreted-growth",
+          "quantity": 18
+        },
+        {
+          "slug": "revelry-of-the-cellared-spiritual-nectar",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

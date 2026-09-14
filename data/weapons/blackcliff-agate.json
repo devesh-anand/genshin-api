@@ -21,5 +21,121 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blackcliff-agate/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blackcliff-agate/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/blackcliff-agate/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 2
+        },
+        {
+          "slug": "hunters-sacrificial-knife",
+          "quantity": 3
+        },
+        {
+          "slug": "luminous-sands-from-guyun",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "divining-scroll",
+          "quantity": 8
+        },
+        {
+          "slug": "hunters-sacrificial-knife",
+          "quantity": 12
+        },
+        {
+          "slug": "lustrous-stone-from-guyun",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 6
+        },
+        {
+          "slug": "agents-sacrificial-knife",
+          "quantity": 6
+        },
+        {
+          "slug": "lustrous-stone-from-guyun",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "sealed-scroll",
+          "quantity": 9
+        },
+        {
+          "slug": "agents-sacrificial-knife",
+          "quantity": 12
+        },
+        {
+          "slug": "relic-from-guyun",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "forbidden-curse-scroll",
+          "quantity": 6
+        },
+        {
+          "slug": "inspectors-sacrificial-knife",
+          "quantity": 9
+        },
+        {
+          "slug": "relic-from-guyun",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "forbidden-curse-scroll",
+          "quantity": 12
+        },
+        {
+          "slug": "inspectors-sacrificial-knife",
+          "quantity": 18
+        },
+        {
+          "slug": "divine-body-from-guyun",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

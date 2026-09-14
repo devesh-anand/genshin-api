@@ -18,5 +18,14 @@
       "surfs-up"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/blazing-sacrificial-hearts-hesitance/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/blazing-sacrificial-hearts-hesitance/icon.png",
+  "source": {
+    "type": "domain",
+    "name": "Domain of Forgery: Scrying Shadows",
+    "days": [
+      "monday",
+      "thursday",
+      "sunday"
+    ]
+  }
 }

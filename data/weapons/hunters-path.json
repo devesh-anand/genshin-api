@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "inactivated-fungal-nucleus",
+          "quantity": 5
+        },
+        {
+          "slug": "faded-red-satin",
+          "quantity": 3
+        },
+        {
+          "slug": "echo-of-scorching-might",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "inactivated-fungal-nucleus",
+          "quantity": 18
+        },
+        {
+          "slug": "faded-red-satin",
+          "quantity": 12
+        },
+        {
+          "slug": "remnant-glow-of-scorching-might",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "dormant-fungal-nucleus",
+          "quantity": 9
+        },
+        {
+          "slug": "trimmed-red-silk",
+          "quantity": 9
+        },
+        {
+          "slug": "remnant-glow-of-scorching-might",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "dormant-fungal-nucleus",
+          "quantity": 18
+        },
+        {
+          "slug": "trimmed-red-silk",
+          "quantity": 14
+        },
+        {
+          "slug": "dream-of-scorching-might",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "robust-fungal-nucleus",
+          "quantity": 14
+        },
+        {
+          "slug": "rich-red-brocade",
+          "quantity": 9
+        },
+        {
+          "slug": "dream-of-scorching-might",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "robust-fungal-nucleus",
+          "quantity": 27
+        },
+        {
+          "slug": "rich-red-brocade",
+          "quantity": 18
+        },
+        {
+          "slug": "olden-days-of-scorching-might",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

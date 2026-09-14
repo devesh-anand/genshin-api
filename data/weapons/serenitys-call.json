@@ -20,5 +20,121 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serenitys-call/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serenitys-call/icon-awaken.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "tattered-warrant",
+          "quantity": 2
+        },
+        {
+          "slug": "frostnights-glimmer",
+          "quantity": 3
+        },
+        {
+          "slug": "artful-device-fragment",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "tattered-warrant",
+          "quantity": 8
+        },
+        {
+          "slug": "frostnights-glimmer",
+          "quantity": 12
+        },
+        {
+          "slug": "artful-device-replica",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "immaculate-warrant",
+          "quantity": 6
+        },
+        {
+          "slug": "frostnights-glow",
+          "quantity": 6
+        },
+        {
+          "slug": "artful-device-replica",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "immaculate-warrant",
+          "quantity": 9
+        },
+        {
+          "slug": "frostnights-glow",
+          "quantity": 12
+        },
+        {
+          "slug": "artful-device-inheritance",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "frost-etched-warrant",
+          "quantity": 6
+        },
+        {
+          "slug": "frostnights-glory",
+          "quantity": 9
+        },
+        {
+          "slug": "artful-device-inheritance",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "frost-etched-warrant",
+          "quantity": 12
+        },
+        {
+          "slug": "frostnights-glory",
+          "quantity": 18
+        },
+        {
+          "slug": "artful-device-wish",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
 }

@@ -16,5 +16,14 @@
     ],
     "weapons": []
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-kindling/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/guide-to-kindling/icon.png",
+  "source": {
+    "type": "domain",
+    "name": "Domain of Mastery: Myriad Illusions",
+    "days": [
+      "tuesday",
+      "friday",
+      "sunday"
+    ]
+  }
 }

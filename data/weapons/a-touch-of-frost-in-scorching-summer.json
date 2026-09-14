@@ -14,5 +14,6 @@
   "img": {
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-touch-of-frost-in-scorching-summer/icon.png",
     "icon-awaken": null
-  }
+  },
+  "ascension_costs": []
 }

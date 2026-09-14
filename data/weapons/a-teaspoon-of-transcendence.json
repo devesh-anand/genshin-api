@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-teaspoon-of-transcendence/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-teaspoon-of-transcendence/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-teaspoon-of-transcendence/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "tattered-warrant",
+          "quantity": 3
+        },
+        {
+          "slug": "fractured-lunar-iron",
+          "quantity": 5
+        },
+        {
+          "slug": "sundered-glory-of-the-far-north-scions",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "tattered-warrant",
+          "quantity": 12
+        },
+        {
+          "slug": "fractured-lunar-iron",
+          "quantity": 18
+        },
+        {
+          "slug": "unyielding-delusion-of-the-far-north-scions",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "immaculate-warrant",
+          "quantity": 9
+        },
+        {
+          "slug": "depleted-lunar-iron",
+          "quantity": 9
+        },
+        {
+          "slug": "unyielding-delusion-of-the-far-north-scions",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "immaculate-warrant",
+          "quantity": 14
+        },
+        {
+          "slug": "depleted-lunar-iron",
+          "quantity": 18
+        },
+        {
+          "slug": "oblation-of-the-far-north-scions",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "frost-etched-warrant",
+          "quantity": 9
+        },
+        {
+          "slug": "unblemished-lunar-iron",
+          "quantity": 14
+        },
+        {
+          "slug": "oblation-of-the-far-north-scions",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "frost-etched-warrant",
+          "quantity": 18
+        },
+        {
+          "slug": "unblemished-lunar-iron",
+          "quantity": 27
+        },
+        {
+          "slug": "aureate-radiance-of-the-far-north-scions",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

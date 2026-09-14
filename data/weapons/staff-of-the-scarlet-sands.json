@@ -22,5 +22,121 @@
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-the-scarlet-sands/icon-awaken.png",
     "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-the-scarlet-sands/wish.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-the-scarlet-sands/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "fungal-spores",
+          "quantity": 3
+        },
+        {
+          "slug": "chaos-storage",
+          "quantity": 5
+        },
+        {
+          "slug": "oasis-gardens-reminiscence",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "fungal-spores",
+          "quantity": 12
+        },
+        {
+          "slug": "chaos-storage",
+          "quantity": 18
+        },
+        {
+          "slug": "oasis-gardens-kindness",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "luminescent-pollen",
+          "quantity": 9
+        },
+        {
+          "slug": "chaos-module",
+          "quantity": 9
+        },
+        {
+          "slug": "oasis-gardens-kindness",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "luminescent-pollen",
+          "quantity": 14
+        },
+        {
+          "slug": "chaos-module",
+          "quantity": 18
+        },
+        {
+          "slug": "oasis-gardens-mourning",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "crystalline-cyst-dust",
+          "quantity": 9
+        },
+        {
+          "slug": "chaos-bolt",
+          "quantity": 14
+        },
+        {
+          "slug": "oasis-gardens-mourning",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "crystalline-cyst-dust",
+          "quantity": 18
+        },
+        {
+          "slug": "chaos-bolt",
+          "quantity": 27
+        },
+        {
+          "slug": "oasis-gardens-truth",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
 }

@@ -21,5 +21,121 @@
     "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/twin-nephrite/icon.png",
     "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/twin-nephrite/icon-awaken.png",
     "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/twin-nephrite/full.png"
-  }
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "mist-grass-pollen",
+          "quantity": 2
+        },
+        {
+          "slug": "recruits-insignia",
+          "quantity": 1
+        },
+        {
+          "slug": "mist-veiled-lead-elixir",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "mist-grass-pollen",
+          "quantity": 8
+        },
+        {
+          "slug": "recruits-insignia",
+          "quantity": 5
+        },
+        {
+          "slug": "mist-veiled-mercury-elixir",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "mist-grass",
+          "quantity": 4
+        },
+        {
+          "slug": "sergeants-insignia",
+          "quantity": 4
+        },
+        {
+          "slug": "mist-veiled-mercury-elixir",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "mist-grass",
+          "quantity": 8
+        },
+        {
+          "slug": "sergeants-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "mist-veiled-gold-elixir",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 25000,
+      "materials": [
+        {
+          "slug": "mist-grass-wick",
+          "quantity": 6
+        },
+        {
+          "slug": "lieutenants-insignia",
+          "quantity": 4
+        },
+        {
+          "slug": "mist-veiled-gold-elixir",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "mist-grass-wick",
+          "quantity": 12
+        },
+        {
+          "slug": "lieutenants-insignia",
+          "quantity": 8
+        },
+        {
+          "slug": "mist-veiled-primo-elixir",
+          "quantity": 3
+        }
+      ]
+    }
+  ]
 }
