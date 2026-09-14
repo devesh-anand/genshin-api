@@ -58,7 +58,7 @@
     {
       "name": "Adeptus Art: Herald of Frost",
       "unlock": "Elemental Skill",
-      "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to nearby enemies.\nHerald of Frost\n\nWhen Qiqi hits a target with her Normal or Charged Attacks, she regenerates HP for all party members and all nearby allied characters. Healing scales based on Qiqi's ATK.\nRegenerates HP for current character at regular intervals.\nFollows the character around, dealing Cryo DMG to enemies in its path.\n",
+      "description": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to nearby enemies.\nHerald of Frost\n\nWhen Qiqi hits a target with her Normal or Charged Attacks, she regenerates HP for all party members and all nearby allied characters. Healing scales based on Qiqi's ATK.\nRegenerates HP for current character at regular intervals.\nFollows the character around, dealing Cryo DMG to enemies in its path.",
       "upgrades": [
         {
           "name": "Skill DMG",
@@ -129,7 +129,7 @@
     {
       "name": "A Glimpse into Arcanum",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When Qiqi hits enemies with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+      "description": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-passive-2.png"
     },
@@ -138,6 +138,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Displays the location of nearby resources unique to Liyue on the mini-map.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-passive-0.png"
+    },
+    {
+      "name": "Seven Sacred Treasures",
+      "unlock": "Unlocked Automatically",
+      "description": "The cooldown of the Elemental Skill Adeptus Art: Herald of Frost is reduced to 15s.\nRadiance: Stellar Glimmer: While the Herald of Frost is on the field, Qiqi's own party members will have the DMG they deal via the corresponding reactions enhanced:\nRadiance: Stellar-Conduct: Superconduct and Stellar-Conduct reaction DMG is increased by 50%.\nRadiance: Stellar Swirl: Cryo Swirl and Stellar Swirl reaction DMG dealt is increased by 50%.\nAdditionally, Qiqi will also enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party character triggers a Stellar Swirl reaction.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/qiqi/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

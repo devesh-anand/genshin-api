@@ -21,7 +21,7 @@
     {
       "name": "Cleaning Mode: Carrier Frequency",
       "unlock": "Elemental Skill",
-      "description": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of AoE Electro DMG to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, {LINK#N11160001}Birgitta{/LINK}.\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb Electro DMG with 250% effectiveness.",
+      "description": "Ineffa engages her Enhanced Cleaning Module, dealing a single instance of AoE Electro DMG to nearby opponents, activating her Optical Flow Shield Barrier, and summoning the Multipurpose Smart Assistance Unit, Birgitta.\nThe Optical Flow Shield Barrier absorbs DMG based on Ineffa's ATK, and it will absorb Electro DMG with 250% effectiveness.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/talent-skill.png"
@@ -29,7 +29,7 @@
     {
       "name": "Supreme Instruction: Cyclonic Exterminator",
       "unlock": "Elemental Burst",
-      "description": "Through Multipurpose Smart Assistance Unit, {LINK#N11160001}Birgitta{/LINK}, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing AoE Electro DMG and allowing Birgitta to remain on the field.\n\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
+      "description": "Through Multipurpose Smart Assistance Unit, Birgitta, Ineffa can use Rocket Punches to quickly clean up opponents! Shoots Birgitta into the fray, dealing AoE Electro DMG and allowing Birgitta to remain on the field.\n\nIf Birgitta is already on the field, having been summoned by Ineffa, this Skill will re-summon Birgitta at the target's location and reset her duration.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/talent-burst.png"
@@ -39,14 +39,14 @@
     {
       "name": "Overclocking Circuit",
       "unlock": "Unlocked at Ascension 1",
-      "description": "If there are thunderclouds created by Lunar-Charged reactions nearby when {LINK#N11160001}Birgitta{/LINK} unleashes Discharge attacks, she will initiate an additional attack, dealing AoE Electro DMG equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
+      "description": "If there are thunderclouds created by Lunar-Charged reactions nearby when Birgitta unleashes Discharge attacks, she will initiate an additional attack, dealing AoE Electro DMG equal to 65% of Ineffa's ATK. This DMG is considered Lunar-Charged DMG.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/talent-passive-1.png"
     },
     {
       "name": "Panoramic Permutation Protocol",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When using the Elemental Burst {LINK#S11165}Supreme Instruction: Cyclonic Exterminator{/LINK}, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s.",
+      "description": "When using the Elemental Burst Supreme Instruction: Cyclonic Exterminator, all your party members will gain the Parameter Permutation effect: Increases Ineffa and your own active party member's Elemental Mastery by 6% of Ineffa's ATK for 20s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/talent-passive-2.png"
     },
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Ineffa has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Ineffa is in the party, the party's Moonsign will increase by 1 level.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/talent-passive-0.png"
+    },
+    {
+      "name": "Flavor Synthesis Unit",
+      "unlock": "Unlocked Automatically",
+      "description": "When Ineffa uses food, there is a 30% chance of gaining a seasoning ingredient.\n\nAdditionally, in Nod-Krai, it seems you'll be able to change Birgitta's appearance through certain means...",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ineffa/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

@@ -102,21 +102,21 @@
     {
       "name": "Cold-Blooded Strike",
       "unlock": "Unlocked at Ascension 1",
-      "description": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of ATK.",
+      "description": "Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-passive-1.png"
     },
     {
       "name": "Glacial Heart",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Enemies Frozen by Frostgnaw will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
+      "description": "Opponents Frozen by Frostgnaw will drop additional Elemental Particles.\nFrostgnaw may only produce a maximum of 2 additional Elemental Particles per use.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-passive-2.png"
     },
     {
       "name": "Hidden Strength",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party member's sprinting Stamina consumption by 20%.",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kaeya/talent-passive-0.png"
     }
   ],

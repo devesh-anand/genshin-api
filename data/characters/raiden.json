@@ -43,7 +43,7 @@
     {
       "name": "Enlightened One",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n0.6% greater Energy restoration from Musou Isshin\n0.4% Electro DMG Bonus",
+      "description": "Each 1% above 100% Energy Recharge that the Raiden Shogun possesses grants her:\n·0.6% greater Energy restoration from Musou Isshin\n·0.4% Electro DMG Bonus.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/raiden/talent-passive-2.png"
     },
@@ -52,6 +52,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/raiden/talent-passive-0.png"
+    },
+    {
+      "name": "",
+      "unlock": "Unlocked Automatically",
+      "description": "",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/raiden/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

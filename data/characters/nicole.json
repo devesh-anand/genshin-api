@@ -21,7 +21,7 @@
     {
       "name": "Revelation: Uncreated Light",
       "unlock": "Elemental Skill",
-      "description": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the {LINK#N11310001}Grace of Kenosis{/LINK}{LINK#N11310002}{/LINK} effect on nearby party members. This increases their ATK and deals AoE Pyro DMG, as well as creates a Shield of Blazing Light.\nThe Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb Pyro DMG at 250% effectiveness.",
+      "description": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the Grace of Kenosis effect on nearby party members. This increases their ATK and deals AoE Pyro DMG, as well as creates a Shield of Blazing Light.\nThe Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb Pyro DMG at 250% effectiveness.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/talent-skill.png"
@@ -39,14 +39,14 @@
     {
       "name": "Methexis",
       "unlock": "Unlocked at Ascension 1",
-      "description": "For 20s after unleashing the Elemental Skill {LINK#S11312}Revelation: Uncreated Light{/LINK}, Nicole will continuously \"observe\" the other current active party members. After the observed character has remained on the field for 3s, their {LINK#N11310001}Grace of Kenosis{/LINK} is upgraded to {LINK#N11310002}Guidance of Theosis{/LINK}, increasing their ATK by an additional 300. If the observed character is a Hexerei character, Grace of Kenosis is upgraded to Guidance of Theosis straight away.\nWhen characters other than Nicole who have Guidance of Theosis leave the field, their effect reverts to Grace of Kenosis.",
+      "description": "For 20s after unleashing the Elemental Skill Revelation: Uncreated Light, Nicole will continuously \"observe\" the other current active party members. After the observed character has remained on the field for 3s, their Grace of Kenosis is upgraded to Guidance of Theosis, increasing their ATK by an additional 300. If the observed character is a Hexerei character, Grace of Kenosis is upgraded to Guidance of Theosis straight away.\nWhen characters other than Nicole who have Guidance of Theosis leave the field, their effect reverts to Grace of Kenosis.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/talent-passive-1.png"
     },
     {
       "name": "Philokalia",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When Elemental DMG from nearby active party members hits an opponent, Nicole's own {LINK#N11310001}Grace of Kenosis{/LINK} effect is upgraded to {LINK#N11310002}Guidance of Theosis{/LINK} for 8s.",
+      "description": "When Elemental DMG from nearby active party members hits an opponent, Nicole's own Grace of Kenosis effect is upgraded to Guidance of Theosis for 8s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/talent-passive-2.png"
     },
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When you are in Teyvat and not in combat, Nicole's Charged Attack becomes \"Emissarial Guidance\" if you have already obtained the current region's Treasure Compass. Emissarial Guidance: Calls upon nearby Seelie to show the way, triggering an effect similar to the region's Treasure Compass.\nThis effect has a cooldown time of 5 seconds and does not work in Domains, Trounce Domains, and the Spiral Abyss.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Light in the Darkness",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: The Role of a Guide...?, Nicole becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nIncreases the DMG dealt by Hexerei characters' Arcane Projections by 300% of Nicole's ATK.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/nicole/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

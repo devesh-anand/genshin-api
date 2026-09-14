@@ -13,7 +13,7 @@
     {
       "name": "Skirmishing Spear",
       "unlock": "Normal Attack",
-      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes and applies the {LINK#N11480001}Hunter's Mark{/LINK} to the opponent hit by the final strike.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes and applies the Hunter's Mark to the opponent hit by the final strike.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-1.png"
@@ -21,7 +21,7 @@
     {
       "name": "Thunderbolt Strike",
       "unlock": "Elemental Skill",
-      "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the {LINK#N11480001}Hunter's Mark{/LINK} effect to the hit opponents.\n\nTapping\nFires at opponents in front of him, dealing AoE Electro DMG.\n\nHolding\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\n\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
+      "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the Hunter's Mark effect to the hit opponents.\n\nTapping\nFires at opponents in front of him, dealing AoE Electro DMG.\n\nHolding\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\n\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-skill.png"
@@ -39,7 +39,7 @@
     {
       "name": "Awakened by the Baying Hounds",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When {LINK#N11480002}Tugarin{/LINK} attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
+      "description": "When Tugarin attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-1.png"
     },
@@ -53,8 +53,14 @@
     {
       "name": "Into the Fray",
       "unlock": "Unlocked Automatically",
-      "description": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a {LINK#N11330003}Polestar Field{/LINK}.\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the {LINK#N11480001}Hunter's Mark{/LINK} is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%.",
+      "description": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the Hunter's Mark is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-0.png"
+    },
+    {
+      "name": "Treetop Watch",
+      "unlock": "Unlocked Automatically",
+      "description": "Displays the location of nearby resources unique to Snezhnaya on the mini-map.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

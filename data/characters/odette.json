@@ -21,7 +21,7 @@
     {
       "name": "Adagio: Phantom Night Dancers",
       "unlock": "Elemental Skill",
-      "description": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her {LINK#N11500001}Solo Dance Double{/LINK} to the field.\nIf a Dance Double summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.\n\nSolo Dance Double\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\nAdditionally, for 6s after unleashing the Elemental Skill Adagio: Phantom Night Dancers, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill {LINK#N11500002}Adagio: Coda at Dawn's Tolling{/LINK} instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
+      "description": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her Solo Dance Double to the field.\nIf a Dance Double summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.\n\nSolo Dance Double\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\nAdditionally, for 6s after unleashing the Elemental Skill Adagio: Phantom Night Dancers, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill Adagio: Coda at Dawn's Tolling instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-skill.png"
@@ -29,7 +29,7 @@
     {
       "name": "Presto: Bluebird Finale",
       "unlock": "Elemental Burst",
-      "description": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG, and summons her {LINK#N11500001}Solo Dance Double{/LINK}. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill {LINK#N11500002}Adagio: Coda at Dawn's Tolling{/LINK} instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
+      "description": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG, and summons her Solo Dance Double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill Adagio: Coda at Dawn's Tolling instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-burst.png"
@@ -39,7 +39,7 @@
     {
       "name": "Spring Rite of the Chosen One",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Odette summons her {LINK#N11500001}Solo Dance Double{/LINK}, she also obtains 4 stacks of {LINK#N11500003}Marvelous Splendor{/LINK}.",
+      "description": "When Odette summons her Solo Dance Double, she also obtains 4 stacks of Marvelous Splendor.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-passive-1.png"
     },
@@ -53,8 +53,14 @@
     {
       "name": "Stellar Jubilee: Dance of Aurore",
       "unlock": "Unlocked Automatically",
-      "description": "Odette will enter the Radiance: Stellar-Conduct state when she is inside a {LINK#N11330003}Polestar Field{/LINK}, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
+      "description": "Odette will enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.7% for every 100 points of Odette's ATK. A maximum increase of 14% can be obtained in this way.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-passive-0.png"
+    },
+    {
+      "name": "Echo of Winter Daydreams",
+      "unlock": "Unlocked Automatically",
+      "description": "Shows the locations of Snezhnaya's Local Specialties on the mini-map.\nPracticing dance in one's spare time might even trigger other effects...",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/odette/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

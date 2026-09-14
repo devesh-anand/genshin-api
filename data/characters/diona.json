@@ -87,7 +87,7 @@
     {
       "name": "Signature Mix",
       "unlock": "Elemental Burst",
-      "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\nDrunken Mist\n\nDeals continuous Cryo DMG to opponents within the AoE.\nContinuously regenerates the HP of characters within the AoE.\n",
+      "description": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\nDrunken Mist\n\nDeals continuous Cryo DMG to opponents within the AoE.\nContinuously regenerates the HP of characters within the AoE.",
       "upgrades": [
         {
           "name": "Skill DMG",
@@ -137,7 +137,13 @@
       "name": "Complimentary Bar Food",
       "unlock": "Unlocked Automatically",
       "description": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.",
-      "img": " https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-passive-0.png"
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-passive-0.png"
+    },
+    {
+      "name": "Choice Treasures",
+      "unlock": "Unlocked Automatically",
+      "description": "Within 20s after using the Elemental Skill Icy Paws, Diona will also fire off three Icy Paws when party members trigger Stellar-Conduct, Superconduct, Cryo Swirl, or Stellar Swirl reactions. Icy Paws fired this way cannot generate Elemental Particles, nor will they generate a shield upon hitting opponents. This effect can occur once every 3.5s.\nAdditionally, Diona will also enter the Radiance: Stellar-Conduct state when she is inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diona/talent-passive-extra-4.png"
     }
   ],
   "constellations": [

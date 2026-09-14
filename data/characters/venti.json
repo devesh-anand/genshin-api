@@ -125,15 +125,21 @@
     {
       "name": "Stormeye",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element.",
+      "description": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-passive-2.png"
     },
     {
       "name": "Windrider",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party member's gliding Stamina Consumption by 20%.",
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Temporal Wind's Eulogy",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of the Waking of Wind, Venti will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nWhile the Stormeye created by the Elemental Burst Wind's Grand Ode is active, for 4s after a nearby active character triggers a Swirl or Stellar Swirl reaction, that character's DMG is increased by 50%, and Venti's Stormeye deals 135% of its original DMG.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/venti/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

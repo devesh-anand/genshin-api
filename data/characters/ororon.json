@@ -55,6 +55,18 @@
       "unlock": "Unlocked Automatically",
       "description": "After the Elemental Skill Night's Sling's Spirit Orb hits an opponent, Ororon will gain the Aspect Sigil effect for 15s.\n\nAspect Sigil\nWhen a nearby active party member hits an opponent with Normal, Charged, or Plunging Attacks, that character will restore 3 Energy. If Ororon is off-field, Ororon will also restore 3 Energy. This effect can trigger once every 1s, and can trigger 3 times per duration.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ororon/talent-passive-0.png"
+    },
+    {
+      "name": "Night Realm's Gift: Flowing Fog, Spritely Shadows",
+      "unlock": "Unlocked Automatically",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, he can use Nightsoul Transmission: Ororon. When the active character is currently in the air, the following will trigger when switching to Ororon: Ororon will leap up high. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Ororon to enter the \"Spiritspeaker\" state, which will allow him to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Ororon to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Ororon will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Ororon can Hold his Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ororon/talent-passive-extra-3.png"
+    },
+    {
+      "name": "The Art of Skinchanging",
+      "unlock": "Unlocked Automatically",
+      "description": "Increases gliding SPD for your own party members by 15%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ororon/talent-passive-extra-4.png"
     }
   ],
   "constellations": [

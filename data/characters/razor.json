@@ -152,8 +152,14 @@
     {
       "name": "Wolvensprint",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party member's sprinting Stamina Consumption by 20%.",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Surge of Lightning",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of the Little Wolf Pack, Razor will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\nAdditionally, Razor's Elemental Burst Lightning Fang is enhanced: The Wolf Within's DMG dealt is increased by 70% of Razor's ATK.\n\nHexerei: Secret Rite\nWhile the Wolf Within summoned by Razor's Elemental Burst Lightning Fang is active, if the Electro Sigils from Razor's Elemental Skill Claw and Thunder overflow, the Wolf Within will call down a lightning strike on nearby enemies, dealing AoE Electro DMG equal to 150% of Razor's ATK and restoring 7 Energy to Razor. This effect can be triggered once every 1s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

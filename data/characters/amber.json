@@ -119,14 +119,14 @@
     {
       "name": "Precise Shot",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Aimed Shot hits on weak spots increase Base ATK by 15% for 10s.",
+      "description": "Aimed Shot hits on weak points increase ATK by 15% for 10s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/amber/talent-passive-2.png"
     },
     {
       "name": "Gliding Champion",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party members' gliding Stamina Consumption by 20%.\nThe greatest effect out of all Talents of the same type prevails.",
+      "description": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/amber/talent-passive-0.png"
     }
   ],

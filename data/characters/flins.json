@@ -21,7 +21,7 @@
     {
       "name": "Ancient Rite: Arcane Light",
       "unlock": "Elemental Skill",
-      "description": "Flins summons forth the ancient power concealed within his lamp and switches to his Manifest Flame form. This form has the following characteristics:\n· Flins's Normal and Charged Attacks deal Electro DMG that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\n· His interruption resistance is increased.\n· His Elemental Skill Ancient Rite: Arcane Light is replaced with the special Elemental Skill Northland Spearstorm.\n\nNorthland Spearstorm\nFlins summons a flurry of spears in front, dealing AoE Electro DMG and causing his Elemental Burst Ancient Ritual: Cometh the Night to be replaced with the special Elemental Burst {LINK#N11200001}Thunderous Symphony{/LINK} for the next 6s.\nThe base CD of Northland Spearstorm is 6s and will not be affected by other effects.",
+      "description": "Flins summons forth the ancient power concealed within his lamp and switches to his Manifest Flame form. This form has the following characteristics:\n· Flins's Normal and Charged Attacks deal Electro DMG that cannot be overridden by other Elemental infusions, and he is unable to perform Plunging Attacks.\n· His interruption resistance is increased.\n· His Elemental Skill Ancient Rite: Arcane Light is replaced with the special Elemental Skill Northland Spearstorm.\n\nNorthland Spearstorm\nFlins summons a flurry of spears in front, dealing AoE Electro DMG and causing his Elemental Burst Ancient Ritual: Cometh the Night to be replaced with the special Elemental Burst Thunderous Symphony for the next 6s.\nThe base CD of Northland Spearstorm is 6s and will not be affected by other effects.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/flins/talent-skill.png"
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When a party member triggers an Electro-Charged reaction, it will be converted into the Lunar-Charged reaction, with every 100 ATK that Flins has increasing Lunar-Charged's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Flins is in the party, the party's Moonsign will increase by 1 level.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/flins/talent-passive-0.png"
+    },
+    {
+      "name": "A Light in the Dark",
+      "unlock": "Unlocked Automatically",
+      "description": "Displays the location of nearby resources unique to Nod-Krai on the mini-map.\nAdditionally, Flins appears to be able to decipher the whispers of the Wild Hunt...",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/flins/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

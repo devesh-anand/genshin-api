@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "After her Nightsoul points are depleted, Kachina will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Kachina. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Kachina: Kachina will enter the Nightsoul's Blessing state and ride Turbo Twirly when taking the field while gaining 30 Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Kachina will consume 90% less Stamina when climbing while riding Turbo Twirly.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kachina/talent-passive-0.png"
+    },
+    {
+      "name": "Boon of Crystal Flame",
+      "unlock": "Unlocked Automatically",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, 20 Stamina will be restored when interacting with some harvestable items. Additionally, the location of nearby resources unique to Natlan will appear on your mini-map.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kachina/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

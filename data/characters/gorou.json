@@ -50,7 +50,7 @@
     {
       "name": "A Favor Repaid",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n- Inuzaka All-Round Defense: Skill DMG increased by 156% of DEF\n- Juuga: Forward Unto Victory: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+      "description": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\n· Inuzaka All-Round Defense: Skill DMG increased by 156% of DEF\n· Juuga: Forward Unto Victory: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/gorou/talent-passive-2.png"
     }

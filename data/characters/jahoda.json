@@ -21,7 +21,7 @@
     {
       "name": "Savvy Strategy: Splitting the Spoils",
       "unlock": "Elemental Skill",
-      "description": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by Pyro, Hydro, Electro, or Cryo, she will quietly convert her {LINK#N11240001}Purr-loined Treasure Flask{/LINK} to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the Purr-loined Treasure Flask and deals a single instance of Anemo DMG to nearby opponents. When the Purr-loined Treasure Flask is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of Anemo DMG.\nIf her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of Anemo DMG to nearby opponents.\n\nMoonsign: Ascendant Gleam: When the Purr-loined Treasure Flask becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires Fluffy Meowballs at nearby opponents, dealing DMG of the corresponding element stored in the Purr-loined Treasure Flask. When a Fluffy Meowball hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.\n\nThere are many ways to divide wealth in this world — but for Nod-Krai's treasure hunters — and hoarders — only one has ever proven sufficiently effective.",
+      "description": "Jahoda dashes toward her opponent, entering the Shadow Pursuit state upon contact. While in this state, Jahoda moves continuously and swiftly: If nearby opponents are affected by Pyro, Hydro, Electro, or Cryo, she will quietly convert her Purr-loined Treasure Flask to that element, gradually filling it. When the duration ends or the skill is used again, Jahoda drains the Purr-loined Treasure Flask and deals a single instance of Anemo DMG to nearby opponents. When the Purr-loined Treasure Flask is full, Jahoda immediately drains it, exiting the Shadow Pursuit state and dealing a more powerful instance of Anemo DMG.\nIf her dash fails to make contact with an opponent, Jahoda instead drops a Smoke Bomb at her location, dealing a single instance of Anemo DMG to nearby opponents.\n\nMoonsign: Ascendant Gleam: When the Purr-loined Treasure Flask becomes full, Jahoda will not immediately discharge it. Instead, for a short duration, she steadily consumes the stored element inside and periodically fires Fluffy Meowballs at nearby opponents, dealing DMG of the corresponding element stored in the Purr-loined Treasure Flask. When a Fluffy Meowball hits an opponent, Jahoda regenerates 2 Elemental Energy. This effect can be triggered once every 3.5s.\n\nThere are many ways to divide wealth in this world — but for Nod-Krai's treasure hunters — and hoarders — only one has ever proven sufficiently effective.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/talent-skill.png"
@@ -29,7 +29,7 @@
     {
       "name": "Hidden Aces: Seven Tools of the Hunter",
       "unlock": "Elemental Burst",
-      "description": "Time to reveal those pocket aces! Jahoda retrieves 2 {LINK#N11240002}Purrsonal Coordinated Assistance Robots{/LINK} and deals a single instance of Anemo DMG to nearby opponents.\n\n\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"",
+      "description": "Time to reveal those pocket aces! Jahoda retrieves 2 Purrsonal Coordinated Assistance Robots and deals a single instance of Anemo DMG to nearby opponents.\n\n\"Coordinated assistance? It means you 'assist' some Mora our way, and we handle the 'coordination.' Makes purrfect sense, don't you agree?\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/talent-burst.png"
@@ -39,14 +39,14 @@
     {
       "name": "Plan to Get Paid",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When your team has at least one Pyro, Hydro, Electro, or Cryo character, the {LINK#N11240002}Purrsonal Coordinated Assistance Robots{/LINK} from the Elemental Burst Hidden Aces: Seven Tools of the Hunter will be enhanced based on the number of characters of each corresponding element.\nJahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:\n· Pyro: Purrsonal Coordinated Assistance Robots deal 130% of their original DMG.\n· Hydro: Purrsonal Coordinated Assistance Robots heal for 120% of their original healing amount.\n· Electro: The number of Purrsonal Coordinated Assistance Robots increases by one.\n· Cryo: The attack interval of Purrsonal Coordinated Assistance Robots is reduced by 10%.\n\nIf there's a tie between elements, the order of priority that determines which enhancement takes effect is: Pyro, Hydro, Electro, then Cryo. Only one elemental effect can initially be triggered.",
+      "description": "When your team has at least one Pyro, Hydro, Electro, or Cryo character, the Purrsonal Coordinated Assistance Robots from the Elemental Burst Hidden Aces: Seven Tools of the Hunter will be enhanced based on the number of characters of each corresponding element.\nJahoda secretly keeps track of these characters. Among them, the element with the highest number of characters determines the enhancement effect:\n· Pyro: Purrsonal Coordinated Assistance Robots deal 130% of their original DMG.\n· Hydro: Purrsonal Coordinated Assistance Robots heal for 120% of their original healing amount.\n· Electro: The number of Purrsonal Coordinated Assistance Robots increases by one.\n· Cryo: The attack interval of Purrsonal Coordinated Assistance Robots is reduced by 10%.\n\nIf there's a tie between elements, the order of priority that determines which enhancement takes effect is: Pyro, Hydro, Electro, then Cryo. Only one elemental effect can initially be triggered.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/talent-passive-1.png"
     },
     {
       "name": "Sweet Berry Bounty",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When a {LINK#N11240002}Purrsonal Coordinated Assistance Robot{/LINK} from the Elemental Burst Hidden Aces: Seven Tools of the Hunter triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s.",
+      "description": "When a Purrsonal Coordinated Assistance Robot from the Elemental Burst Hidden Aces: Seven Tools of the Hunter triggers healing on an active team member, if that character's HP is above 70%, their Elemental Mastery will be increased by 100 for 6s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/talent-passive-2.png"
     },
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When Jahoda is in the party, the party's Moonsign will increase by 1 level.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/talent-passive-0.png"
+    },
+    {
+      "name": "Backstreet Guile",
+      "unlock": "Unlocked Automatically",
+      "description": "When dispatched on an expedition in Nod-Krai, time consumed is reduced by 25%.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jahoda/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

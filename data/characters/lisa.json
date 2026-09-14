@@ -118,14 +118,14 @@
     {
       "name": "Induced Aftershock",
       "unlock": "Unlocked at Ascension 1",
-      "description": "Hits by charged Attacks apply Violet Arc's Conductive status to enemies.",
+      "description": "Hits by Charged Attacks apply Violet Arc's Conductive status to opponents.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lisa/talent-passive-1.png"
     },
     {
       "name": "Static Electricity Field",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Enemies hit by Lightning Rose have their DEF decreased by 15% for 10s.",
+      "description": "Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lisa/talent-passive-2.png"
     },

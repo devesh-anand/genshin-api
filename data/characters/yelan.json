@@ -58,7 +58,7 @@
     {
       "name": "Lingering Lifeline",
       "unlock": "Elemental Skill",
-      "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path. When this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\nTap\nMoves a certain distance forward swiftly. \nHold\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased. During this time, Yelan can control this rapid movement and end it by using this Skill again. \n Additionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% change to reset her Breakthrough state.\n",
+      "description": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path. When this rapid movement ends, the Lifeline will explode, dealing Hydro DMG to the marked opponents based on Yelan's Max HP.\nTap\nMoves a certain distance forward swiftly. \nHold\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased. During this time, Yelan can control this rapid movement and end it by using this Skill again. \n Additionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% change to reset her Breakthrough state.",
       "upgrades": [
         {
           "name": "Skill DMG",
@@ -110,14 +110,14 @@
     {
       "name": "Turn Control",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%",
+      "description": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yelan/talent-passive-1.png"
     },
     {
       "name": "Adapt With Ease",
       "unlock": "Unlocked at Ascension 4",
-      "description": "So long as an \"Exquisite Throw,\" is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50% \nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+      "description": "So long as an Exquisite Throw is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yelan/talent-passive-2.png"
     },

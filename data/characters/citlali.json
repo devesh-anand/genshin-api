@@ -55,6 +55,18 @@
       "unlock": "Unlocked Automatically",
       "description": "During the Elemental Skill Dawnfrost Darkstar, Itzpapa's Frostfall Storm DMG is increased by 90% of Citlali's Elemental Mastery. During the Elemental Burst Edict of Entwined Splendor, Ice Storm DMG is increased by 1200% of Citlali's Elemental Mastery.\nIn addition, when nearby party members trigger Nightsoul Bursts, Citlali regains 4 Nightsoul points.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/citlali/talent-passive-0.png"
+    },
+    {
+      "name": "Night Realm's Gift: Smoke, Mirrors, and the Flowing Winds",
+      "unlock": "Unlocked Automatically",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, can use Nightsoul Transmission: Citlali. When the active character is currently high enough in the air, the following will trigger when switching to Citlali: Citlali will leap up high, and will deploy \"White Obsidian Tzitzimitl: Citlalin\" to float in the air. Nightsoul Transmission can be triggered once every 10s by your party.\n\nHolding Aiming Mode will cause Citlali to enter the \"Spiritspeaker\" state, which will allow her to interact with \"Nightspirit Graffiti\" and \"Nightspirit Sigils,\" extracting information and power from them. The rules for interacting with these objects follow the same rules as those governing Iktomisaurus interactions.\n\nAdditionally, holding the jump button will cause Citlali to consume 75 Stamina and leap. In areas within Natlan where Phlogiston mechanics are present, Citlali will prioritize consuming 5 Phlogiston to leap to a height higher still.\nWhen in the air, Citlali can Hold her Normal Attack to consume Phlogiston or Stamina and enter Aiming Mode and trigger Charged Attacks. When initiating Charged Attacks in mid-air, Citlali will prioritize consuming 20 Phlogiston.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/citlali/talent-passive-extra-3.png"
+    },
+    {
+      "name": "Songs of Profound Mystery",
+      "unlock": "Unlocked Automatically",
+      "description": "While in an area with Phlogiston Mechanics within Natlan, triggering \"Nightsoul Burst\" restores 20 Phlogiston.\nThis cannot take effect in Domains, Trounce Domains, or the Spiral Abyss.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/citlali/talent-passive-extra-4.png"
     }
   ],
   "constellations": [

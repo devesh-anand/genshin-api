@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When Wriothesley crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/wriothesley/talent-passive-0.png"
+    },
+    {
+      "name": "There Shall Be an Unveiling for Injustice",
+      "unlock": "Unlocked Automatically",
+      "description": "Radiance: Stellar-Conduct: The Ascension Talent \"There Shall Be a Plea for Justice\" is changed to the following:\nWhen Wriothesley's HP is less than 60%, he will obtain a \"Gracious Rebuke: Unveiling.\" This turns the Charged Attack of his Normal Attack: Forceful Fists of Frost into the enhanced Luster: Vaulting Fist, which will not consume Stamina and restores 30% Max HP to Wriothesley upon hit. Wriothesley can gain HP in this way once every 2s.\nAdditionally, the third and fifth strikes of Repelling Fist enhanced by Chilling Penalty will deal 60% and 80% of their original Cryo DMG respectively, while Luster: Vaulting Fist will deal 100% of its original AoE Cryo DMG. The aforementioned DMG is considered as Stellar-Conduct DMG, and Wriothesley deals 30% increased Stellar-Conduct DMG.\nAdditionally, when inside a Polestar Field, Wriothesley will enter the Radiance: Stellar-Conduct state.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/wriothesley/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

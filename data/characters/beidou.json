@@ -91,7 +91,7 @@
     {
       "name": "Stormbreaker",
       "unlock": "Elemental Burst",
-      "description": "Recalling her slaying of the great beast Haishan. Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself.\nThunderbeast's Target\n\nWhen Normal and Charged Attacks hit, they create a lightning discharge that can jump between enemies, dealing Electro DMG.\nIncreases the character's resistance to interruption, and decreases DMG taken.\n",
+      "description": "Recalling her slaying of the great beast Haishan. Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself.\nThunderbeast's Target\n\nWhen Normal and Charged Attacks hit, they create a lightning discharge that can jump between enemies, dealing Electro DMG.\nIncreases the character's resistance to interruption, and decreases DMG taken.",
       "upgrades": [
         {
           "name": "Skill DMG",
@@ -133,15 +133,21 @@
     {
       "name": "Lightning Storm",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus:\nDMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\nGreatly reduced delay before unleashing Charged Attacks.",
+      "description": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus: \n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n·Greatly reduced delay before unleashing Charged Attacks.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-2.png"
     },
     {
       "name": "Conqueror of Tides",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases all party member's swimming Stamina consumption by 20%.",
+      "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-0.png"
+    },
+    {
+      "name": "Polaris",
+      "unlock": "Unlocked Automatically",
+      "description": "When holding down on the Elemental Skill Tidecaller, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\nAdditionally, holding down to unleash Tidecaller and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\nAdditionally, when inside a Polestar Field, Beidou will enter the Radiance: Stellar-Conduct state.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

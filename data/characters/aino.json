@@ -39,7 +39,7 @@
     {
       "name": "Modular Efficiency Protocol",
       "unlock": "Unlocked at Ascension 1",
-      "description": "Aino will be granted the corresponding buff effects based on the party's Moonsign.\n\nMoonsign: Ascendant Gleam: Her Elemental Burst {LINK#S11215}Precision Hydronic Cooler{/LINK} is enhanced: The Cool Your Jets Ducky will fire water balls more frequently, and the water balls will deal AoE Hydro DMG over a larger area of effect.",
+      "description": "Aino will be granted the corresponding buff effects based on the party's Moonsign.\n\nMoonsign: Ascendant Gleam: Her Elemental Burst Precision Hydronic Cooler is enhanced: The Cool Your Jets Ducky will fire water balls more frequently, and the water balls will deal AoE Hydro DMG over a larger area of effect.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/talent-passive-1.png"
     },
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When Aino is in the party, the party's Moonsign will increase by 1 level.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/talent-passive-0.png"
+    },
+    {
+      "name": "Miniaturized Detection Sensor",
+      "unlock": "Unlocked Automatically",
+      "description": "Displays the location of nearby resources unique to Nod-Krai on the mini-map.\nAdditionally, Aino appears to be able to alter the Cool Your Jets Ducky's appearance in some way...",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aino/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

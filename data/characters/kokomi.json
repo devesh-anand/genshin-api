@@ -58,6 +58,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kokomi/talent-passive-misc.png"
+    },
+    {
+      "name": "Tamakushi Casket",
+      "unlock": "Unlocked Automatically",
+      "description": "If Sangonomiya Kokomi's own Bake-Kurage is on the field when she uses Nereid's Ascension, the Bake-Kurage's duration will be refreshed.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/kokomi/talent-passive-extra-4.png"
     }
   ],
   "constellations": [

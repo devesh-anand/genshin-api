@@ -36,21 +36,21 @@
     {
       "name": "Resonant Waves",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When the Jade Shield takes DMG, it will Fortify:\n\nFortified characters have 5% increased Shield Strength.\n\nCan stack up to 5 times, and lasts until the Jade Shield dissapears.",
+      "description": "When the Jade Shield takes DMG, it will Fortify:\n·Fortified characters have 5% increased Shield Strength.\nCan stack up to 5 times, and lasts until the Jade Shield disappears.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/zhongli/talent-passive-1.png"
     },
     {
       "name": "Dominance of Earth",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Zhongli deals bonus DMG based on his Max HP:\nNormal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\nDominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\nPlanet Befall's DMG is increased by 33% of Max HP.",
+      "description": "Zhongli deals bonus DMG based on his Max HP:\n·Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.\n·Dominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.\n·Planet Befall's DMG is increased by 33% of Max HP.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/zhongli/talent-passive-2.png"
     },
     {
       "name": "Arcanum of Crystal",
       "unlock": "Unlocked Automatically",
-      "description": "Refunds 15% of the ores used when crafting Polearm-type weapons.",
+      "description": "Refunds 15% of the ore used when crafting Polearm-type weapons.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/zhongli/talent-passive-0.png"
     }
   ],

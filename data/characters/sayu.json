@@ -36,14 +36,14 @@
     {
       "name": "Someone More Capable",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s.",
+      "description": "When Sayu triggers a Swirl or Stellar Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\nThis effect can be triggered once every 2s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sayu/talent-passive-1.png"
     },
     {
       "name": "No Work Today!",
       "unlock": "Unlocked at Ascension 4",
-      "description": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry gains the following effects:\nWhen healing a character, it will also heal characters near that healed character for 20% the amount of HP.\nIncreases the AoE of its attack against opponents.",
+      "description": "The Muji-Muji Daruma created by Yoohoo Art: Mujina Flurry gains the following effects:\n·When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\n·Increases the AoE of its attack against opponents.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sayu/talent-passive-2.png"
     },

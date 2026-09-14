@@ -83,7 +83,7 @@
     {
       "name": "Dandelion Breeze",
       "unlock": "Elemental Burst",
-      "description": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding enemies and causing Anemo DMG.\n\nAt the same time, she instantly regenerates a large amount of HP for nearby allied units and all party members. HP restored scale off Jean's ATK.\nDandelion Field\n\nContinuously regenerates HP for one ally and imbues them with the Anemo attribute.\nDeals Anemo DMG to enemies entering or exiting the field.\n",
+      "description": "Calling upon the wind's protection, Jean creates a swirling Dandelion Field, launching surrounding enemies and causing Anemo DMG.\n\nAt the same time, she instantly regenerates a large amount of HP for nearby allied units and all party members. HP restored scale off Jean's ATK.\nDandelion Field\n\nContinuously regenerates HP for one ally and imbues them with the Anemo attribute.\nDeals Anemo DMG to enemies entering or exiting the field.",
       "upgrades": [
         {
           "name": "Elemental Burst DMG",
@@ -118,7 +118,7 @@
     {
       "name": "Wind Companion",
       "unlock": "Unlocked at Ascension 1",
-      "description": "Hits by Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
+      "description": "On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/jean/talent-passive-1.png"
     },

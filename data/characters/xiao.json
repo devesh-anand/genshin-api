@@ -118,6 +118,24 @@
       "unlock": "Unlocked Automatically",
       "description": "Decreases all party member's falling DMG by 30%.\nThe greatest effect out of all Talents of the same type prevails.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-0.png"
+    },
+    {
+      "name": "Conqueror of Evil: Tamer of Demons",
+      "unlock": "Unlocked Automatically",
+      "description": "While under the effects of Bane of All Evil, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-extra-3.png"
+    },
+    {
+      "name": "Dissolution Eon: Heaven Fall",
+      "unlock": "Unlocked Automatically",
+      "description": "Using Lemniscatic Wind Cycling increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-extra-4.png"
+    },
+    {
+      "name": "Transcension: Gravity Defier",
+      "unlock": "Unlocked Automatically",
+      "description": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-extra-5.png"
     }
   ],
   "constellations": [

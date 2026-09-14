@@ -50,7 +50,7 @@
     {
       "name": "Spirit Communion Seal",
       "unlock": "Unlocked at Ascension 4",
-      "description": "After Shenhe uses Spring Spirit Summoning, she will grant all nearby party members the following effects:\n- Press: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n- Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
+      "description": "#After Shenhe uses Spring Spirit Summoning, she will grant all nearby party members the following effects:\n· {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}: Elemental Skill and Elemental Burst DMG increased by 15% for 10s.\n· Hold: Normal, Charged, and Plunging Attack DMG increased by 15% for 15s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/shenhe/talent-passive-2.png"
     }

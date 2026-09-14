@@ -113,14 +113,14 @@
     {
       "name": "Shadow Samaritan",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nRosaria's CRIT Rate Bonus gained this way cannot exceed 15%.",
+      "description": "Casting Rites of Termination increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-passive-2.png"
     },
     {
       "name": "Night Walk",
       "unlock": "Unlocked Automatically",
-      "description": "At night (18:00 - 6:00), increases the Movement SPD of your own party members by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the same effects.",
+      "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/rosaria/talent-passive-0.png"
     }
   ],

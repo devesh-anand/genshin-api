@@ -39,14 +39,14 @@
     {
       "name": "The Wind's Gentle Grace",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When characters affected by the Favonian Favor effect of the Elemental Burst {LINK#S11155}Radiant Psalter{/LINK} trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s.",
+      "description": "When characters affected by the Favonian Favor effect of the Elemental Burst Radiant Psalter trigger Frozen reactions on opponents, they will grant Dahlia 2 Benison stacks. This effect can trigger once every 8s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/talent-passive-1.png"
     },
     {
       "name": "Prayer of Well-Wrought Joy",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst {LINK#S11155}\"Radiant Psalter,\"{/LINK} their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%.",
+      "description": "When your active party member is affected by the Favonian Favor effect of the Elemental Burst \"Radiant Psalter,\" their ATK SPD will increase based on Dahlia's Max HP: Every 1,000 Max HP will cause an increase of 0.5%, up to a maximum of 20%.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/dahlia/talent-passive-2.png"
     },

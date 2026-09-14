@@ -102,22 +102,28 @@
     {
       "name": "Catalyst Conversion",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Sucrose triggers a Swirl effect, characters in the party with the matching element have their Elemental Mastery increased by 50 for 8s.",
+      "description": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-1.png"
     },
     {
       "name": "Mollis Favonius",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When Astable Anemohypostatis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hit an enemy, increases other party member's Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s.",
+      "description": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-2.png"
     },
     {
       "name": "Astable Invention",
       "unlock": "Unlocked Automatically",
-      "description": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product.",
+      "description": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Sevenfold Transmutation",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of Wonderland Flowers, Sucrose will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\n· After Sucrose creates a Small Wind Spirit, nearby party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 5.71428% for 15s.\n· After Sucrose creates a Large Wind Spirit, nearby Hexerei party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 7.14285% for 20s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

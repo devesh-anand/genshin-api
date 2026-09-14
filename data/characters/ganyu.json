@@ -133,14 +133,14 @@
     {
       "name": "Harmony between Heaven and Earth",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Celestial Shower grants a 20% Cryo DMG Bonus to active members in the AoE.",
+      "description": "Celestial Shower grants a 20% Cryo DMG Bonus to active party members in the AoE.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-passive-2.png"
     },
     {
       "name": "Preserved for the Hunt",
       "unlock": "Unlocked Automatically",
-      "description": "Refunds 15% of the ores used when crafting Bow-type weapons.",
+      "description": "Refunds 15% of the ore used when crafting Bow-type weapons.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ganyu/talent-passive-0.png"
     }
   ],

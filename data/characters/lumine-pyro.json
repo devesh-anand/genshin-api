@@ -53,7 +53,7 @@
     {
       "name": "Foreign Starfire",
       "unlock": "Unlocked Automatically",
-      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional {LINK#N10050001}buffs{/LINK}.\n\nAdditionally, when nearby party members trigger Nightsoul Burst, Traveler will receive 1 stack of Blade of the Sacred Flame, max 2 stacks. After obtaining 2 stacks of Blade of the Sacred Flame, performing a Charged Attack will consume all stacks of Blade of the Sacred Flame and transform into a special Charged Attack: Inferno.\n\nCharged Attack: Inferno\n· Each Charged Attack hit deals increased, Nightsoul-aligned Pyro DMG. Increase in DMG is equal to 200% of Traveler's ATK.\n· Charged Attack: Inferno can be triggered up to once every 15s.",
+      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional buffs.\n\nAdditionally, when nearby party members trigger Nightsoul Burst, Traveler will receive 1 stack of Blade of the Sacred Flame, max 2 stacks. After obtaining 2 stacks of Blade of the Sacred Flame, performing a Charged Attack will consume all stacks of Blade of the Sacred Flame and transform into a special Charged Attack: Inferno.\n\nCharged Attack: Inferno\n· Each Charged Attack hit deals increased, Nightsoul-aligned Pyro DMG. Increase in DMG is equal to 200% of Traveler's ATK.\n· Charged Attack: Inferno can be triggered up to once every 15s.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/lumine-pyro/talent-passive-0.png"
     }
   ],

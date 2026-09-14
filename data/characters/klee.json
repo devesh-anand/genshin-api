@@ -102,14 +102,14 @@
     {
       "name": "Pounding Surprise",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark. This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+      "description": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/klee/talent-passive-1.png"
     },
     {
       "name": "Sparkling Burst",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When a Charged Attack results in a CRIT, all party members gain 2 Elemental Energy.",
+      "description": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/klee/talent-passive-2.png"
     },
@@ -118,6 +118,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/klee/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Sparkborne Magic",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of Leaves That Spark, Klee will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nWhen Klee deals DMG with Normal Attacks, Elemental Skills, or Elemental Bursts, she gains 1 Boom Badge that lasts 20s. Each type of attack can grant at most 1 Boom Badge this way, and each badge has its own independent timer. While Klee has 1/2/3 Boom Badges, her special Charged Attack Boom-Boom Strike deals 115%/130%/150% of its original DMG.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/klee/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

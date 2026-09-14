@@ -124,7 +124,7 @@
     {
       "name": "Arataki Ichiban",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n - Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n - Increases his resistance to interruption.\nThese effects will be cleared once he stops performing consecutive slashes.",
+      "description": "When Arataki Itto uses consecutive Arataki Kesagiri, he obtains the following effects:\n· Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.\n· Increases his resistance to interruption.\n\nThese effects will be cleared once he stops performing consecutive slashes.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/itto/talent-passive-1.png"
     },

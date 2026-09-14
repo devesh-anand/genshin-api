@@ -21,7 +21,7 @@
     {
       "name": "Countermeasure: Lumi's Battle Cry!",
       "unlock": "Elemental Skill",
-      "description": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\nTap\nLumi strikes in a {LINK#N11300001}Super Power Form{/LINK}, attacking nearby enemies continuously, dealing AoE Geo DMG. If there are Moondrifts nearby, Lumi will also deal AoE Geo DMG to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\nContinuous Tapping\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her {LINK#N11300001}Ultimate Power Form{/LINK}, dealing an especially powerful instance of AoE Geo DMG that is considered Lunar-Crystallize Reaction DMG, switching to {LINK#N11300001}Standard Power Form{/LINK}.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\n\n\"You're up, Lumi!\"",
+      "description": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\nTap\nLumi strikes in a Super Power Form, attacking nearby enemies continuously, dealing AoE Geo DMG. If there are Moondrifts nearby, Lumi will also deal AoE Geo DMG to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\nContinuous Tapping\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her Ultimate Power Form, dealing an especially powerful instance of AoE Geo DMG that is considered Lunar-Crystallize Reaction DMG, switching to Standard Power Form.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\n\n\"You're up, Lumi!\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/linnea/talent-skill.png"
@@ -29,7 +29,7 @@
     {
       "name": "Memo: Survival Guide in Extreme Conditions",
       "unlock": "Elemental Burst",
-      "description": "Even master adventurers need proper rest! Linnea summons Lumi to strike in {LINK#N11300001}Super Power Form{/LINK}, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\n\n\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"",
+      "description": "Even master adventurers need proper rest! Linnea summons Lumi to strike in Super Power Form, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\n\n\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/linnea/talent-burst.png"
@@ -39,7 +39,7 @@
     {
       "name": "Field Observation Notes",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Lumi is present on the field, the Geo RES of opponents near Lumi will decrease by 15%.\n\nMoonsign: Ascendant Gleam: Linnea's Elemental Skill {LINK#S11302}Countermeasure: Lumi's Battle Cry!{/LINK} and Elemental Burst {LINK#S11305}Memo: Survival Guide in Extreme Conditions{/LINK} are enhanced. After summoning Lumi, the Geo RES of opponents near Lumi will be further decreased by 15%.",
+      "description": "When Lumi is present on the field, the Geo RES of opponents near Lumi will decrease by 15%.\n\nMoonsign: Ascendant Gleam: Linnea's Elemental Skill Countermeasure: Lumi's Battle Cry! and Elemental Burst Memo: Survival Guide in Extreme Conditions are enhanced. After summoning Lumi, the Geo RES of opponents near Lumi will be further decreased by 15%.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/linnea/talent-passive-1.png"
     },
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When a party member triggers a Hydro Crystallize reaction, it will be converted into the Lunar-Crystallize reaction, with every 100 DEF that Linnea has increasing Lunar-Crystallize's Base DMG by 0.7%, up to a maximum of 14%.\n\nAdditionally, when Linnea is in the party, the party's Moonsign will increase by 1 level.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/linnea/talent-passive-0.png"
+    },
+    {
+      "name": "Master Adventurer",
+      "unlock": "Unlocked Automatically",
+      "description": "When Linnea is not in combat, the charge time of her Aimed Shot is greatly decreased, and she will shoot an Ultra Convenient Quick Arrow instead. Different effects will occur depending on the targets hit:\n· Specific animals: Ultra Convenient Quick Arrow will be transformed into a special \"Net\" that can capture the essence and form of these animals, using them as a medium to manifest the animal's physical form again. The \"Net\" can only be used for a limited number of times each week. \n· Ore veins used in forging: Linnea will dispatch Lumi, who will quickly strike at the ore marked by the Ultra Convenient Quick Arrow, then collect the dislodged ore. If Lumi is not on the field, Linnea will summon her for a short duration to help obtain the ore.\n\nThe DMG dealt to opponents by Linnea's Ultra Convenient Quick Arrow is reduced to 20% of her original Charged Arrow. Additionally, after firing a certain number of Ultra Convenient Quick Arrows within a short period of time, Linnea needs to take a temporary break before she can continue using them.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/linnea/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

@@ -50,7 +50,7 @@
     {
       "name": "Land Survey",
       "unlock": "Unlocked Automatically",
-      "description": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%",
+      "description": "When dispatched on an expedition in Inazuma, time consumed is reduced by 25%.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sara/talent-passive-0.png"
     }
   ],

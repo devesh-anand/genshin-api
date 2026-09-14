@@ -106,6 +106,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Displays the location of nearby ore veins (Iron Ore, White Iron Ore, Crystal Ore, and Magical Crystal Ore) on the mini-map.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-passive-0.png"
+    },
+    {
+      "name": "Trove of Marvelous Treasures",
+      "unlock": "Unlocked Automatically",
+      "description": "Displays the location of nearby ore veins used in forging on the mini-map.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ningguang/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

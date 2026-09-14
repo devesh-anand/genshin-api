@@ -54,7 +54,7 @@
     {
       "name": "Reflection of Doom",
       "unlock": "Elemental Skill",
-      "description": "Creates an illusory Phantom of fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\n\nContinuously taunts nearby enemies, attracting their fire.\nContinuously deals Hydro DMG to nearby enemies.\nWhen its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\n\nHold\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\n",
+      "description": "Creates an illusory Phantom of fate from coalesced waterspouts.\n\nThe Phantom has the following special properties:\n\nContinuously taunts nearby enemies, attracting their fire.\nContinuously deals Hydro DMG to nearby enemies.\nWhen its duration expires, the Phantom explodes, dealing AoE Hydro DMG.\n\nHold\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\n\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.",
       "upgrades": [
         {
           "name": "DoT",
@@ -108,7 +108,7 @@
     {
       "name": "Illusory Torrent",
       "unlock": "Right Click",
-      "description": "Alternate Spirit\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\n\nApplies the Wet status to nearby enemies when she reappears.\n",
+      "description": "Alternate Spirit\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\n\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\n\nApplies the Wet status to nearby enemies when she reappears.",
       "upgrades": [
         {
           "name": "Activation Stamina Consumption",
@@ -142,6 +142,18 @@
       "unlock": "Unlocked Automatically",
       "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-0.png"
+    },
+    {
+      "name": "\"Come 'n' Get Me, Hag!\"",
+      "unlock": "Unlocked Automatically",
+      "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-extra-3.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Genesis of Starsigns",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of Untested Insight, Mona will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nWhen Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of Astral Glow of Mercury, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%.\nAdditionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's Omen duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-extra-4.png"
     }
   ],
   "constellations": [

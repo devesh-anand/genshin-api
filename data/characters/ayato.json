@@ -130,7 +130,7 @@
     {
       "name": "Kamisato Art: Mine Wo Matoishi Kiyotaki",
       "unlock": "Unlocked at Ascension 1",
-      "description": "Kamisato Art: Kyouka has the following properties:\nAfter it is used, Kamisato Ayato will gain 2 Namisen stacks.\nWhen the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
+      "description": "Kamisato Art: Kyouka has the following properties:\n·After it is used, Kamisato Ayato will gain 2 Namisen stacks.\n·When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-passive-1.png"
     },
@@ -144,7 +144,7 @@
     {
       "name": "Kamisato Art: Daily Cooking",
       "unlock": "Unlocked Automatically",
-      "description": "When Ayato cooks a dish perfectly, he has a 18% chance to receive an additional \"Suspicious\" dish of the same type.",
+      "description": "When Ayato cooks a dish perfectly, he has an 18% chance to receive an additional \"Suspicious\" dish of the same type.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-passive-0.png"
     }
   ],

@@ -177,14 +177,14 @@
     {
       "name": "Sword of Torrents",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, or if his Normal and Charged Attacks do CRIT DMG, they will apply the Riptide status effect on the hit enemy.",
+      "description": "When Tartaglia is in Foul Legacy: Raging Tide's Melee Stance, on dealing a CRIT hit, Normal and Charged Attacks apply the Riptide status effect to opponents.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-passive-2.png"
     },
     {
       "name": "Master of Weaponry",
       "unlock": "Unlocked Automatically",
-      "description": "Increases your own party member's Normal Attack Level by 1.",
+      "description": "Increases your own party members' Normal Attack Level by 1.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tartaglia/talent-passive-0.png"
     }
   ],

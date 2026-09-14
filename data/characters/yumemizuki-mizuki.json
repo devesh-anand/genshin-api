@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When Yumemizuki Mizuki is in the party, party members have a chance to recover 30% additional HP when using healing foods that do not have reviving properties. The trigger chance for this effect increases with the corresponding character's Friendship Level. (This effect will always trigger if the Traveler is the character consuming healing food.)",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yumemizuki-mizuki/talent-passive-0.png"
+    },
+    {
+      "name": "Vast Be the Dream",
+      "unlock": "Unlocked Automatically",
+      "description": "When Yumemizuki Mizuki triggers a Swirl or Stellar Swirl reaction while in the Dreamdrifter state, the next instance of periodic AoE Anemo DMG she deals to nearby enemies during that same state will be increased by 1,000% of her Elemental Mastery. The aforementioned effect can trigger once every 2.5s.\nRadiance: Stellar Swirl: When Yumemizuki Mizuki deals to an opponent the above enhanced AoE Anemo DMG, she will also deal an additional instance of Anemo DMG at 1,000% of her Elemental Mastery. This DMG is considered Stellar Swirl reaction DMG.\n\nAdditionally, while Yumemizuki Mizuki is in the Dreamdrifter state, the Elemental Mastery of nearby party characters is also increased by 10% of her Elemental Mastery.\nYumemizuki Mizuki will also enter the <Radiance: Stellar Swirl state for 8s when a nearby party member triggers a Stellar Swirl reaction.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yumemizuki-mizuki/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

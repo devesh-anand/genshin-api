@@ -126,6 +126,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Has a 25% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is that of the base material.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-passive-0.png"
+    },
+    {
+      "name": "Edict of Cleansing",
+      "unlock": "Unlocked Automatically",
+      "description": "Extends the duration of the Sesshou Sakura by 10s. When a nearby party member triggers a Superconduct or Stellar-Conduct reaction, the next instance of Sesshou Sakura lightning is enhanced as follows: DMG dealt is increased at 80% of Yae Miko's ATK. This effect can trigger once every 2.5s.\nRadiance: Stellar-Conduct: An enhanced Sesshou Sakura lightning bolt hit on an opponent will also cause an additional instance of Electro DMG at 200% of Yae Miko's ATK. This DMG is considered Stellar-Conduct DMG.\nAdditionally, when inside a Polestar Field, Yae Miko will enter the Radiance: Stellar-Conduct state.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/yae/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

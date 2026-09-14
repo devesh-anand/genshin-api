@@ -145,7 +145,7 @@
     {
       "name": "Authority Over the Nine Bows",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n- Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n- Duststalker Bolt DMG from his Passive Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.",
+      "description": "Cyno's DMG values will be increased based on his Elemental Mastery as follows:\n· Pactsworn Pathclearer's Normal Attack DMG is increased by 150% of his Elemental Mastery.\n· Duststalker Bolt DMG from his Ascension Talent Featherfall Judgment is increased by 250% of his Elemental Mastery.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-2.png"
     },
@@ -154,6 +154,18 @@
       "unlock": "Unlocked Automatically",
       "description": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-0.png"
+    },
+    {
+      "name": "The Gift of Silence",
+      "unlock": "Unlocked Automatically",
+      "description": "Gains 25% more rewards when dispatched on a Sumeru Expedition for 20 hours.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-extra-3.png"
+    },
+    {
+      "name": "A Star With Which to Start the Journey",
+      "unlock": "Unlocked Automatically",
+      "description": "If Cyno unleashes the Elemental Skill Secret Rite: Chasmic Soulfarer while not in the Pactsworn Pathclearer state, he will enter Pactsworn Pathclearer for 6s.\nAdditionally, when in a Polestar Field, Cyno will enter the Radiance: Stellar-Conduct state.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/cyno/talent-passive-extra-4.png"
     }
   ],
   "constellations": [

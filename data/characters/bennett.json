@@ -87,7 +87,7 @@
     {
       "name": "Fantastic Voyage",
       "unlock": "Elemental Burst",
-      "description": "Bennett leaps towards the enemy and performs a plunging attack, dealing Pyro DMG, creating an Inspiration Field.\nInspiration Field\n\nIf the health of a character in the circle is equal to or falls below 70%, their health will continuously regenerate. Regeneration scales based on Bennett's Max HP.\nIf the health of a character in the circle is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\nApplies the Pyro element to characters within the Field.\n",
+      "description": "Bennett leaps towards the enemy and performs a plunging attack, dealing Pyro DMG, creating an Inspiration Field.\nInspiration Field\n\nIf the health of a character in the circle is equal to or falls below 70%, their health will continuously regenerate. Regeneration scales based on Bennett's Max HP.\nIf the health of a character in the circle is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\nApplies the Pyro element to characters within the Field.",
       "upgrades": [
         {
           "name": "Skill DMG",
@@ -129,7 +129,7 @@
     {
       "name": "Fearnaught",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When inside the area created by Fantastic Voyage, Passion Overload takes on the following effects:\nCD is reduced by 50%.\nBennett will not be launched by the effects of Charge Level 2.",
+      "description": "Within the area created by Fantastic Voyage, Passion Overload takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/bennett/talent-passive-2.png"
     },

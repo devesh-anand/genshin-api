@@ -114,7 +114,7 @@
     {
       "name": "Paradoxical Practice",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When Shikanoin Heizou activates a Swirl reaction while on the field, he will gain 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 0.1s.",
+      "description": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 0.1s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-passive-1.png"
     },
@@ -128,7 +128,7 @@
     {
       "name": "Pre-Existing Guilt",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases sprinting Stamina consumption for your own party members by 20%. Not stackable with Passive Talents that provide the exact same effects.",
+      "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-passive-0.png"
     }
   ],

@@ -129,14 +129,14 @@
     {
       "name": "Celestial Dome of Sand",
       "unlock": "Unlocked at Ascension 4",
-      "description": "Characters affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide will deal 0.5% increased DMG to opponents every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
+      "description": "Characters affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-passive-2.png"
     },
     {
       "name": "To Dawn's First Light",
       "unlock": "Unlocked Automatically",
-      "description": "Decreases climbing Stamina consumption for your own party members by 20%. Not stackable with Passive Talents that provide the same effects.",
+      "description": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/candace/talent-passive-0.png"
     }
   ],

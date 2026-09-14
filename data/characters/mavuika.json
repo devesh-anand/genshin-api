@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "After Nightsoul points have been fully depleted, Mavuika will switch to using Phlogiston to maintain the All-Fire Armaments' Flamestrider form.\nWhile in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Mavuika can be used. When the current active character is sprinting, climbing, swimming, in movement modes caused by certain Talents, or at a certain height in the air, switching to Mavuika will trigger the following: Mavuika enters the Nightsoul's Blessing state and obtains 50% of her maximum Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mavuika/talent-passive-0.png"
+    },
+    {
+      "name": "Night-Shattering Radiance",
+      "unlock": "Unlocked Automatically",
+      "description": "The party's Nightsoul Transmission CD is decreased by 20%.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mavuika/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "After her Nightsoul points are fully depleted, Xilonen will switch to consuming Phlogiston to maintain her Nightsoul's Blessing.\nWhile in an area with Phlogiston Mechanics within Natlan, she can use Nightsoul Transmission: Xilonen. When the active character is currently sprinting, climbing, in a movement mode caused by certain Talents, or at a certain height in the air, the following will trigger when switching to Xilonen: Xilonen will enter the Nightsoul's Blessing state and gain 20 Nightsoul points. In this situation, Xilonen's Nightsoul points have a 4s time limit, after which her Nightsoul points will immediately expire. After she uses Yohual's Scratch within this time limit, her Nightsoul point time limit will be extended by 9s. Nightsoul Transmission can be triggered once every 10s by your own team.\n\nAdditionally, while in Natlan, Xilonen will not consume Stamina when climbing while in the Nightsoul's Blessing state.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xilonen/talent-passive-0.png"
+    },
+    {
+      "name": "Tour of Tepeilhuitl",
+      "unlock": "Unlocked Automatically",
+      "description": "Triggering Nightsoul Transmission restores 15 Phlogiston.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xilonen/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

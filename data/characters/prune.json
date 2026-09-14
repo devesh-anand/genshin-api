@@ -21,7 +21,7 @@
     {
       "name": "Ring-A-Ding-Ding! Hexhunter Chime",
       "unlock": "Elemental Skill",
-      "description": "Determined to take down the \"evil\" witch and save her beloved Descartes, Prune unleashes the power of the wind! She strikes at the Witchlure Bell using her Banehunter Oathhammer, dealing Anemo DMG.\nIf Prune triggers a Swirl or Stellar Swirl reaction in the opponent with this attack, her Ring-A-Ding-Ding! Hexhunter Chime is changed to Clang Clang! Witch-tribution Comes! for the next 6s.\n\nClang Clang! Witch-tribution Comes!\nEnsconces the {LINK#N11320001}Banehunter Oathhammer{/LINK} in the element involved in the earlier Swirl or Stellar Swirl reaction. After tapping to unleash, Prune will launch a midair kick at the Banehunter Oathhammer, dealing DMG to opponents in front of her of the corresponding elemental type.",
+      "description": "Determined to take down the \"evil\" witch and save her beloved Descartes, Prune unleashes the power of the wind! She strikes at the Witchlure Bell using her Banehunter Oathhammer, dealing Anemo DMG.\nIf Prune triggers a Swirl or Stellar Swirl reaction in the opponent with this attack, her Ring-A-Ding-Ding! Hexhunter Chime is changed to Clang Clang! Witch-tribution Comes! for the next 6s.\n\nClang Clang! Witch-tribution Comes!\nEnsconces the Banehunter Oathhammer in the element involved in the earlier Swirl or Stellar Swirl reaction. After tapping to unleash, Prune will launch a midair kick at the Banehunter Oathhammer, dealing DMG to opponents in front of her of the corresponding elemental type.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-skill.png"
@@ -39,14 +39,14 @@
     {
       "name": "Verdict and Punishment",
       "unlock": "Unlocked at Ascension 1",
-      "description": "During the Elemental Burst {LINK#S11325}The Bell Tolls! The Hunt Is On!{/LINK}, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a {LINK#N11320001}Banehunter Oathhammer{/LINK} that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl or Stellar Swirl. This DMG is considered Elemental Burst DMG.",
+      "description": "During the Elemental Burst The Bell Tolls! The Hunt Is On!, after the Witchlure Bell in Hunter-Seeker mode deals DMG to an opponent, if this DMG triggers Swirl or Stellar Swirl in an opponent, it will also summon a Banehunter Oathhammer that will deal 150% of Prune's ATK as DMG to them, with the DMG Type matching the Elemental Conversion from the Swirl or Stellar Swirl. This DMG is considered Elemental Burst DMG.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-1.png"
     },
     {
       "name": "Tolling Synchronicity",
       "unlock": "Unlocked at Ascension 4",
-      "description": "After Prune hits an opponent with the {LINK#N11320001}Banehunter Oathhammer{/LINK} that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max.",
+      "description": "After Prune hits an opponent with the Banehunter Oathhammer that has undergone Elemental Conversion, other nearby party members will gain the Tolling Rally effect for 5s: When Normal, Charged, or Plunging Attacks, or Elemental Skills and Bursts deal DMG to opponents, that attack's DMG will be increased based on the portion of Prune's ATK in excess of 2,000 when they become affected by the Tolling Rally effect. Every excess ATK point increases that instance of DMG by 0.025%, up to a total of 50% max.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-2.png"
     },
@@ -55,6 +55,12 @@
       "unlock": "Unlocked Automatically",
       "description": "Has a 10% chance to get 1 regional Character Talent Material (base material excluded) when crafting. The rarity is the same as the resulting material.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Witchseeker's Vow",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of What Is Contested, Prune becomes a Hexerei character. When the party includes at least 2 Hexerei characters, you gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nAfter a Hexerei character in the party affected by the Tolling Rally effect triggers an Elemental Reaction on an opponent, Prune's ATK is increased by 60% for 5s. If the Elemental Reaction triggered is a Swirl or Stellar Swirl reaction, the triggering character's ATK will additionally be increased by 30% for 5s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/prune/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

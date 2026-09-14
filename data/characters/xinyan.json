@@ -20,7 +20,7 @@
     {
       "name": "Sweeping Fervor",
       "unlock": "Elemental Skill",
-      "description": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby enemies, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of enemies hit.\n\nHitting 0-1 enemies grants Shield Level 1: Ad Lib.\nHitting 2 enemies grants Shield Level 2: Lead-In.\nHitting 3 or more enemies grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby enemies.\n\nThe shield has the following special properties:\n\nWhen unleashed, it infuses Xinyan with Pyro.\nIt has 250% DMG Absorption effectiveness against Pyro DMG.\n",
+      "description": "Xinyan brandishes her instrument, dealing Pyro DMG on nearby enemies, forming a shield made out of her audience's passion.\nThe shield's DMG Absorption scales based on Xinyan's DEF and on the number of enemies hit.\n\nHitting 0-1 enemies grants Shield Level 1: Ad Lib.\nHitting 2 enemies grants Shield Level 2: Lead-In.\nHitting 3 or more enemies grants Shield Level 3: Rave, which will also deal intermittent Pyro DMG to nearby enemies.\n\nThe shield has the following special properties:\n\nWhen unleashed, it infuses Xinyan with Pyro.\nIt has 250% DMG Absorption effectiveness against Pyro DMG.",
       "type": "ELEMENTAL_SKILL",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xinyan/talent-skill.png"
     },
@@ -36,7 +36,7 @@
     {
       "name": "\"The Show Goes On, Even Without an Audience...\"",
       "unlock": "Unlocked at Ascension 1",
-      "description": "Decreases the number of enemies Sweeping Fervor must hit to trigger each level of shielding.\n\nShield Level 2: Lead-In requirement reduced to 1 enemy hit.\nShield Level 3: Rave requirement reduced to 2 enemies hit or more.",
+      "description": "Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.\n·Shield Level 2: Lead-In requirement reduced to 1 opponent hit.\n·Shield Level 3: Rave requirement reduced to 2 opponents hit or more.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xinyan/talent-passive-1.png"
     },
@@ -50,7 +50,7 @@
     {
       "name": "A Rad Recipe",
       "unlock": "Unlocked Automatically",
-      "description": "When a Perfect Cooking is achieved on an DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
+      "description": "When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xinyan/talent-passive-0.png"
     }
   ],

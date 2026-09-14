@@ -83,7 +83,7 @@
     {
       "name": "Midnight Phantasmagoria",
       "unlock": "Elemental Burst",
-      "description": "Summons Oz to spread his twin swings of twilight and defend Fischl.\n\nHas the following properties during the ability's duration:\n\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby enemies with lightning, dealing Electro DMG to enemies she comes into contact with. Each enemy can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.\n",
+      "description": "Summons Oz to spread his twin swings of twilight and defend Fischl.\n\nHas the following properties during the ability's duration:\n\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby enemies with lightning, dealing Electro DMG to enemies she comes into contact with. Each enemy can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence.",
       "upgrades": [
         {
           "name": "Falling Thunder DMG",
@@ -113,7 +113,7 @@
     {
       "name": "Undone Be Thy Sinful Hex",
       "unlock": "Unlocked at Ascension 4",
-      "description": "If a character triggers an Electro-related Elemental Reaction when Oz is on the field, the enemy shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl's ATK.",
+      "description": "If your current active character triggers an Electro-related Elemental Reaction when Oz is on the field, the opponent shall be stricken with Thundering Retribution that deals Electro DMG equal to 80% of Fischl's ATK.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/fischl/talent-passive-2.png"
     },
@@ -122,6 +122,12 @@
       "unlock": "Unlocked Automatically",
       "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/fischl/talent-passive-0.png"
+    },
+    {
+      "name": "Witch's Eve Rite: Phantasmal Nocturne",
+      "unlock": "Unlocked Automatically",
+      "description": "After completing Witch's Homework: Of the Unexpected, Fischl will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nHark, Prince Nachtraben, Ozvaldo Hrafnavins, he who has witnessed the fall of countless worlds. Sing now the starry septet for your sovereign, for this is the moment of deepest sin, when the gathered souls at the end of causality shatter the darkness of fate.\nAdditionally, when Oz is on the field, party members will gain additional buff effects:\n· After a nearby party member triggers an Overloaded reaction, Fischl and other nearby active party members have their ATK increased by 22.5% for 10s.\n· After a nearby party member triggers an Electro-Charged or Lunar-Charged reaction, Fischl and other nearby active party members have their Elemental Mastery increased by 90 for 10s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/fischl/talent-passive-extra-3.png"
     }
   ],
   "constellations": [

@@ -125,14 +125,14 @@
     {
       "name": "Amatsumi Kunitsumi Sanctification",
       "unlock": "Unlocked at Ascension 1",
-      "description": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged attacks deal 30% increased DMG for 6s.",
+      "description": "After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-passive-1.png"
     },
     {
       "name": "Kanten Senmyou Blessing",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\nRestores 10 Stamina\nGains 18% Cryo DMG Bonus for 10s.",
+      "description": "When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects:\n·Restores 10 Stamina\n·Gains 18% Cryo DMG Bonus for 10s.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayaka/talent-passive-2.png"
     },

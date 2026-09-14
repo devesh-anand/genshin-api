@@ -109,6 +109,12 @@
       "unlock": "Unlocked at Ascension 4",
       "description": "Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.",
       "level": 4
+    },
+    {
+      "name": "Foreign Verdalume",
+      "unlock": "Unlocked Automatically",
+      "description": "Draw new strength from journeys past. For every element you have resonated with, you gain additional buffs. \n\nAdditionally, when Dendro Cores (including Bountiful Cores, Seeds of Deceit) appear nearby on the field, or when the party obtains Verdant Dew, Traveler will receive 1 stack of Blade of Verdant Viridis. These two methods can each grant the Traveler up to 1 stack of Blade of Verdant Viridis every 4s, max 3 stacks. After obtaining 3 stacks of Blade of Verdant Viridis, performing a Charged Attack will consume all stacks of Blade of Verdant Viridis and transform into the special Charged Attack: Verdessence.\n\nCharged Attack: Verdessence\n· Each Charged Attack hit deals increased Dendro DMG. The increase in DMG is equal to 80% of Traveler's ATK. Two Vinecores will also be created on the spot, which will explode after 4/8s respectively, inflicting Dendro DMG equal to 120% of Traveler's ATK. This DMG is considered Charged Attack DMG.\n· Charged Attack: Verdessence can be triggered up to once every 15s.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/traveler-dendro/talent-passive-extra-2.png"
     }
   ],
   "constellations": [
