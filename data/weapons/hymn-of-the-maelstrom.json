@@ -1,0 +1,140 @@
+{
+  "id": 14524,
+  "name": "Hymn of the Maelstrom",
+  "description": "An exquisite lamp crafted out of blue chalcedony which looks like a treasure right out of a fairy tale. It is said that a song of praise, forgotten by all, slumbers sealed inside this lamp.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "HP%",
+  "sub_stat_key": "FIGHT_PROP_HP_PERCENT",
+  "base_atk": 44.3,
+  "passive_name": "Rondo of Slumber",
+  "passive_desc": "Increases Healing Bonus by 4%.\\nWhen performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by 4% as well as increases the currently active party member's ATK by 0.4% for every 1,000 Max HP the equipping character has over 40,000. A maximum of 8% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
+  "passive_upgrades": [
+    "Increases Healing Bonus by 4%.\\nWhen performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by 4% as well as increases the currently active party member's ATK by 0.4% for every 1,000 Max HP the equipping character has over 40,000. A maximum of 8% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
+    "Increases Healing Bonus by 5%.\\nWhen performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by 5% as well as increases the currently active party member's ATK by 0.5% for every 1,000 Max HP the equipping character has over 40,000. A maximum of 10% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
+    "Increases Healing Bonus by 6%.\\nWhen performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by 6% as well as increases the currently active party member's ATK by 0.6% for every 1,000 Max HP the equipping character has over 40,000. A maximum of 12% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
+    "Increases Healing Bonus by 7%.\\nWhen performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by 7% as well as increases the currently active party member's ATK by 0.7% for every 1,000 Max HP the equipping character has over 40,000. A maximum of 14% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
+    "Increases Healing Bonus by 8%.\\nWhen performing healing, the equipping character gains the \"Vatsamonga's Vatic Vintage\" effect, which increases Max HP by 8% as well as increases the currently active party member's ATK by 0.8% for every 1,000 Max HP the equipping character has over 40,000. A maximum of 16% ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hymn-of-the-maelstrom/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hymn-of-the-maelstrom/icon-awaken.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 3
+        },
+        {
+          "slug": "accreted-fragment",
+          "quantity": 5
+        },
+        {
+          "slug": "measured-pour-of-the-cellared-spiritual-nectar",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 12
+        },
+        {
+          "slug": "accreted-fragment",
+          "quantity": 18
+        },
+        {
+          "slug": "intoxication-of-the-cellared-spiritual-nectar",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 9
+        },
+        {
+          "slug": "accreted-mass",
+          "quantity": 9
+        },
+        {
+          "slug": "intoxication-of-the-cellared-spiritual-nectar",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 14
+        },
+        {
+          "slug": "accreted-mass",
+          "quantity": 18
+        },
+        {
+          "slug": "exhilaration-of-the-cellared-spiritual-nectar",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 9
+        },
+        {
+          "slug": "accreted-growth",
+          "quantity": 14
+        },
+        {
+          "slug": "exhilaration-of-the-cellared-spiritual-nectar",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 18
+        },
+        {
+          "slug": "accreted-growth",
+          "quantity": 27
+        },
+        {
+          "slug": "revelry-of-the-cellared-spiritual-nectar",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
+}

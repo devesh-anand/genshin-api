@@ -1,0 +1,140 @@
+{
+  "id": 14437,
+  "name": "Winter's Heavy Heart",
+  "description": "A ceremonial artifact formed from the purest ice and snow. Legend has it that generations of Snegovik lords used it in coronation ceremonies until five hundred years ago.",
+  "rarity": 4,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 42.4,
+  "passive_name": "Secrets of Frost",
+  "passive_desc": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by 24 for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by 4.8%. Up to 4 Cryo or Electro characters can provide the above buffs.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a 20-point Elemental Mastery boost and deals 6% increased Stellar Glimmer reaction DMG.",
+  "passive_upgrades": [
+    "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by 24 for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by 4.8%. Up to 4 Cryo or Electro characters can provide the above buffs.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a 20-point Elemental Mastery boost and deals 6% increased Stellar Glimmer reaction DMG.",
+    "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by 30 for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by 6%. Up to 4 Cryo or Electro characters can provide the above buffs.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a 25-point Elemental Mastery boost and deals 7.5% increased Stellar Glimmer reaction DMG.",
+    "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by 36 for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by 7.2%. Up to 4 Cryo or Electro characters can provide the above buffs.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a 30-point Elemental Mastery boost and deals 9% increased Stellar Glimmer reaction DMG.",
+    "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by 42 for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by 8.4%. Up to 4 Cryo or Electro characters can provide the above buffs.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a 35-point Elemental Mastery boost and deals 10.5% increased Stellar Glimmer reaction DMG.",
+    "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by 48 for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by 9.6%. Up to 4 Cryo or Electro characters can provide the above buffs.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact is changed to: For every Cryo or Electro character present in the party, the equipping character gains a 40-point Elemental Mastery boost and deals 12% increased Stellar Glimmer reaction DMG."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/winters-heavy-heart/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/winters-heavy-heart/icon-awaken.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 2
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 3
+        },
+        {
+          "slug": "the-frost-emperors-revival",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 8
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 12
+        },
+        {
+          "slug": "the-frost-emperors-ceremony",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 6
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 6
+        },
+        {
+          "slug": "the-frost-emperors-ceremony",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 9
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 12
+        },
+        {
+          "slug": "the-frost-emperors-lament",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 6
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 9
+        },
+        {
+          "slug": "the-frost-emperors-lament",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 12
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 18
+        },
+        {
+          "slug": "the-frost-emperors-farewell",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+}

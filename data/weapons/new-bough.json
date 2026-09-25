@@ -1,0 +1,140 @@
+{
+  "id": 11437,
+  "name": "New Bough",
+  "description": "A sword made from sacred wood, said to have once turned the tide of battle.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 42.4,
+  "passive_name": "Wildgrowth",
+  "passive_desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by 4% and their Elemental Mastery by 20. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by 6% as well as Stellar Glimmer reaction DMG dealt by the equipping character by 8%.",
+  "passive_upgrades": [
+    "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by 4% and their Elemental Mastery by 20. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by 6% as well as Stellar Glimmer reaction DMG dealt by the equipping character by 8%.",
+    "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by 5% and their Elemental Mastery by 25. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by 7.5% as well as Stellar Glimmer reaction DMG dealt by the equipping character by 10%.",
+    "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by 6% and their Elemental Mastery by 30. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by 9% as well as Stellar Glimmer reaction DMG dealt by the equipping character by 12%.",
+    "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by 7% and their Elemental Mastery by 35. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by 10.5% as well as Stellar Glimmer reaction DMG dealt by the equipping character by 14%.",
+    "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by 8% and their Elemental Mastery by 40. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by 12% as well as Stellar Glimmer reaction DMG dealt by the equipping character by 16%."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/new-bough/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/new-bough/icon-awaken.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 2
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 3
+        },
+        {
+          "slug": "measured-pour-of-the-cellared-spiritual-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 8
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 12
+        },
+        {
+          "slug": "intoxication-of-the-cellared-spiritual-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 6
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 6
+        },
+        {
+          "slug": "intoxication-of-the-cellared-spiritual-nectar",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 9
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 12
+        },
+        {
+          "slug": "exhilaration-of-the-cellared-spiritual-nectar",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 6
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 9
+        },
+        {
+          "slug": "exhilaration-of-the-cellared-spiritual-nectar",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 12
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 18
+        },
+        {
+          "slug": "revelry-of-the-cellared-spiritual-nectar",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+}

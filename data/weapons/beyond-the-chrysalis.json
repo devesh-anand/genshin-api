@@ -1,0 +1,140 @@
+{
+  "id": 11522,
+  "name": "Beyond the Chrysalis",
+  "description": "A longsword brimming with light and color, and as weightless as a butterfly when brandished. It was once used by a certain individual to break bonds.",
+  "rarity": 5,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 47.5,
+  "passive_name": "Dance of Wings Unbound",
+  "passive_desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by 56% for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by 36% for 10s; and\\nWinds of Plenty: Regenerates 5 Elemental Energy for the equipping character. Up to 5 Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+  "passive_upgrades": [
+    "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by 56% for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by 36% for 10s; and\\nWinds of Plenty: Regenerates 5 Elemental Energy for the equipping character. Up to 5 Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+    "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by 72% for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by 45% for 10s; and\\nWinds of Plenty: Regenerates 5.5 Elemental Energy for the equipping character. Up to 5.5 Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+    "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by 88% for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by 54% for 10s; and\\nWinds of Plenty: Regenerates 6 Elemental Energy for the equipping character. Up to 6 Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+    "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by 104% for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by 63% for 10s; and\\nWinds of Plenty: Regenerates 6.5 Elemental Energy for the equipping character. Up to 6.5 Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
+    "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by 120% for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by 72% for 10s; and\\nWinds of Plenty: Regenerates 7 Elemental Energy for the equipping character. Up to 7 Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/beyond-the-chrysalis/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/beyond-the-chrysalis/icon-awaken.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 3
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 5
+        },
+        {
+          "slug": "rise-of-the-pale-star-army",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "chimeric-core",
+          "quantity": 12
+        },
+        {
+          "slug": "hollow-root-of-life",
+          "quantity": 18
+        },
+        {
+          "slug": "muster-of-the-pale-star-army",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 9
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 9
+        },
+        {
+          "slug": "muster-of-the-pale-star-army",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 14
+        },
+        {
+          "slug": "sprout-node-of-life",
+          "quantity": 18
+        },
+        {
+          "slug": "clarion-of-the-pale-star-army",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 9
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 14
+        },
+        {
+          "slug": "clarion-of-the-pale-star-army",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 18
+        },
+        {
+          "slug": "coiled-core-of-life",
+          "quantity": 27
+        },
+        {
+          "slug": "triumph-of-the-pale-star-army",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
+}

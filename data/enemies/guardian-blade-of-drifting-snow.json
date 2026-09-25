@@ -1,0 +1,14 @@
+{
+  "id": 25135202,
+  "name": "Guardian Blade of Drifting Snow",
+  "description": "An ancient Snegovik held in high esteem among her kin.\nShe once served the legendary Great Snegurochka, whose name was steeped in crimson infamy, and was entrusted with the solemn duty of protecting the Snegovik clan for the rest of her life. It is said that seven were given this charge, but she alone remains. Every succession of the Snegovik sovereign must therefore take place under her watchful eye.\nAfter the current Snegurochka princess ascended to power, she left the clan's manor in the mountains — perhaps because their ideals no longer aligned.",
+  "type": "Beast",
+  "drops": [
+    "shivada-jade-sliver",
+    "shivada-jade-fragment",
+    "shivada-jade-chunk",
+    "shivada-jade-gemstone",
+    "vagabonds-cracked-armor"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/guardian-blade-of-drifting-snow/icon.png"
+}

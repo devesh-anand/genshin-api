@@ -1,0 +1,696 @@
+{
+  "name": "Vodyanitsa",
+  "title": "Lingering Siren-Song",
+  "vision": "Hydro",
+  "weapon": "Catalyst",
+  "nation": "Snezhnaya",
+  "affiliation": "Korolevskiy Troupe",
+  "rarity": 5,
+  "constellation": "Piscicula Aurea",
+  "birthday": "0000-03-29",
+  "description": "Prima Donna of the Korolevskiy Troupe and a Water Imp who has parted from her kin.",
+  "skillTalents": [
+    {
+      "name": "Psyshkhwe Arietta",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nSings an ancient song of the Water Imps, unleashing up to 4 strikes. This deals Hydro DMG to the opponent.\n\nCharged Attack\nConsumes a certain amount of Stamina to hurl a water ball forward, dealing Hydro DMG.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals AoE Hydro DMG upon impact with the ground.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-1.png"
+    },
+    {
+      "name": "Rechitativ: Sonorous Dawn",
+      "unlock": "Elemental Skill",
+      "description": "Reveals her true Water Imp form, dealing AoE Hydro DMG and gaining the Song of Ages Past effect: While this effect is active, Vodyanitsa summons the ancient Horn of Spring's Call, periodically moving closer to an opponent in a swift movement to attack them, dealing Hydro DMG.\nThe above two types of attacks will also decrease the Hydro RES and Cryo RES of opponents hit. Additionally, while the Song of Ages Past effect is active, the party's active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-skill.png"
+    },
+    {
+      "name": "Koda: Sink With Thee",
+      "unlock": "Elemental Burst",
+      "description": "Leads a song of the Water Imps which lures its listeners to their doom. This deals AoE Hydro DMG to the opponent.\nWhen in the {LINK#S11402}Song of Ages Past{/LINK} state, DMG dealt is further increased.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "The Last Djeguako Songstress",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, any Stellar Vortex on the field will turn into a Wandering Vortex instead. While the {LINK#S11402}Song of Ages Past{/LINK} effect is active, nearby party members' Stellar Swirl reactions will generate Wandering Vortex instead.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' Anemo RES by 35% for 6s. \nAdditionally, nearby party members who enter the Radiance: Stellar Swirl state while Song of Ages Past is in effect will have the Radiance: Stellar Swirl state extended by 4s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-passive-1.png"
+    },
+    {
+      "name": "Dirge of the Fandyr",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, Vodyanitsa will also gain 25 stacks of {LINK#N11400001}Lead Vocal{/LINK} as well as 10 stacks of {LINK#N11400002}Chorus{/LINK}.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-passive-2.png"
+    },
+    {
+      "name": "Echoes Over the Frozen Lake",
+      "unlock": "Unlocked Automatically",
+      "description": "Holding the Elemental Skill outside of combat will cause Vodyanitsa to embody her true Water Imp form and swim for up to 10s at the cost of Stamina. Naturally, as a Water Imp, she can also move across the water's surface. Vodyanitsa will exit her Water Imp form when the Elemental Skill is used again, when the duration ends, or when all Stamina is depleted.\nAdditionally, while Vodyanitsa can swim faster, her Stamina consumption rate is also increased.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Waters in Full Splendor",
+      "unlock": "Constellation Lv. 1",
+      "description": "Each time Vodyanitsa triggers the healing effect of {LINK#S11402}Song of Ages Past{/LINK}, it also increases the ATK of all nearby party members by 0.8% of her Max HP for 5s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-1.png"
+    },
+    {
+      "name": "Echoes That Pierce the Snow",
+      "unlock": "Constellation Lv. 2",
+      "description": "When the Horn of Spring's Call from the Elemental Skill Rechitativ: Sonorous Dawn attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from Hydro DMG and Cryo DMG dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill Rechitativ: Sonorous Dawn is enhanced as follows: the duration of the {LINK#S11402}Song of Ages Past{/LINK} effect is extended by 9s.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-2.png"
+    },
+    {
+      "name": "Song Lingering on a Spring Morning",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of the Elemental Skill {LINK#S11402}Rechitativ: Sonorous Dawn{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-3.png"
+    },
+    {
+      "name": "Melancholic Voice Upon the Gentle Waters",
+      "unlock": "Constellation Lv. 4",
+      "description": "When Vodyanitsa triggers the healing effect of {LINK#S11402}Song of Ages Past{/LINK}, an additional effect will be triggered based on the healed character's HP.\n· If the character's HP is below 40%: The healing is increased by 50%; and\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-4.png"
+    },
+    {
+      "name": "Together, Down Into the Deep",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of the Elemental Burst {LINK#S11405}Koda: Sink With Thee{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-5.png"
+    },
+    {
+      "name": "Neverending Song of Revelry",
+      "unlock": "Constellation Lv. 6",
+      "description": "The Constellation Echoes That Pierce the Snow is enhanced: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the {LINK#S11402}Song of Ages Past{/LINK} effect is active, Stellar Swirl reaction DMG dealt by nearby party members is {LINK#N11190007}elevated{/LINK} by 25% while Hydro DMG and Cryo DMG dealt are increased by 60%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-6.png"
+    }
+  ],
+  "vision_key": "HYDRO",
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "frostfairy-flower",
+          "quantity": 3
+        },
+        {
+          "slug": "varunada-lazurite-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "chimeric-core",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "frostfairy-flower",
+          "quantity": 10
+        },
+        {
+          "slug": "varunada-lazurite-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "chimeric-core",
+          "quantity": 15
+        },
+        {
+          "slug": "unscorched-blossom-branch",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "frostfairy-flower",
+          "quantity": 20
+        },
+        {
+          "slug": "varunada-lazurite-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 12
+        },
+        {
+          "slug": "unscorched-blossom-branch",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "frostfairy-flower",
+          "quantity": 30
+        },
+        {
+          "slug": "varunada-lazurite-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 18
+        },
+        {
+          "slug": "unscorched-blossom-branch",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "frostfairy-flower",
+          "quantity": 45
+        },
+        {
+          "slug": "varunada-lazurite-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 12
+        },
+        {
+          "slug": "unscorched-blossom-branch",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "frostfairy-flower",
+          "quantity": 60
+        },
+        {
+          "slug": "varunada-lazurite-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 24
+        },
+        {
+          "slug": "unscorched-blossom-branch",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-fortitude",
+            "quantity": 3
+          },
+          {
+            "slug": "chimeric-core",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 2
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 4
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 6
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 9
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 4
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 4
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 6
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 6
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 12
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 9
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 16
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 12
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-fortitude",
+            "quantity": 3
+          },
+          {
+            "slug": "chimeric-core",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 2
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 4
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 6
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 9
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 4
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 4
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 6
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 6
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 12
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 9
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 16
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 12
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-fortitude",
+            "quantity": 3
+          },
+          {
+            "slug": "chimeric-core",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 2
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 4
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 6
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-fortitude",
+            "quantity": 9
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 4
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 4
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 6
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 6
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 12
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 9
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-fortitude",
+            "quantity": 16
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 12
+          },
+          {
+            "slug": "madmans-restraint",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
+}

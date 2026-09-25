@@ -1,0 +1,696 @@
+{
+  "name": "Vesna",
+  "title": "Snowy Banquet's Sharp Blade",
+  "vision": "Anemo",
+  "weapon": "Sword",
+  "nation": "Snezhnaya_star",
+  "affiliation": "Druzhna",
+  "rarity": 5,
+  "constellation": "Amentum Vernum",
+  "birthday": "0000-02-04",
+  "description": "Commander of the Druzhna and the Tsaritsa's keen blade.",
+  "skillTalents": [
+    {
+      "name": "Vila Blade Dance",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms up to 6 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to trample opponents in front of her.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along her path and dealing AoE DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-1.png"
+    },
+    {
+      "name": "The Art of Victory",
+      "unlock": "Elemental Skill",
+      "description": "Calls forth Spirit Blades passed down through generations of the Vila to deal AoE Anemo DMG, then switches to the {LINK#N11430001}Armed for Action{/LINK} mode and gains 2 stacks of {LINK#N11430002}Sword Essence{/LINK}.\n\nArmed for Action\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become Anemo DMG that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional Anemo DMG. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of Sword Essence.\nVesna can consume Sword Essence to unleash the special Elemental Skill {LINK#N11430003}Windborne Sword{/LINK}, which deals to the opponent Anemo DMG.\nEach use of the special Elemental Skill Windborne Sword in the same instance of Armed for Action will increase the level of Windborne Sword, beginning from Lv. 1 to Lv. 3 max, for more Anemo DMG. Using Windborne Sword at Lv. 2 and Lv. 3 will also summon {LINK#N11430004}Spirit Blades{/LINK} which deal Anemo DMG.\nVesna will exit the mode when its duration ends or when she has used Windborne Sword at the highest level 3 times. Exiting will clear all remaining Sword Essence she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\nRadiance: Stellar Swirl: DMG dealt with the Spirit Blades becomes Anemo DMG that is also considered Stellar Swirl reaction DMG.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-skill.png"
+    },
+    {
+      "name": "Elemental Burst",
+      "unlock": "Elemental Burst",
+      "description": "",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-passive-1.png"
+    },
+    {
+      "name": "For the Tsaritsa!",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "Summons multiple {LINK#N11430004}Spirit Blades{/LINK}, dealing AoE Anemo DMG. Also gains a stack of {LINK#N11430002}Sword Essence{/LINK}.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-passive-2.png"
+    },
+    {
+      "name": "Rite of Spring's Procession",
+      "unlock": "Unlocked Automatically",
+      "description": "After Vesna uses the special Elemental Skill {LINK#N11430003}Windborne Sword{/LINK} or the Elemental Burst {LINK#S11435}For the Tsaritsa!{/LINK}, she also gains 1 stack of Disciplinary Action which lasts 20s. Max 6 stacks, and the duration of each stack is independent of the others'.\nWhen she has Disciplinary Action stacks active, the {LINK#N11430004}Spirit Blades{/LINK} summoned by Vesna will deal DMG equal to (100% + 10% × Disciplinary Action stack count) of the original DMG instead. All active stacks of Disciplinary Action are cleared when Vesna uses the Elemental Skill The Art of Victory or when she leaves the field.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "Winter's Farewell Feast",
+      "unlock": "Constellation Lv. 1",
+      "description": "When in the {LINK#N11430001}Armed for Action{/LINK} mode, Vesna can unleash {LINK#N11430003}Windborne Sword{/LINK} at the highest level 4 times instead of 3. Also, each time she enters the Armed for Action mode, she will not consume {LINK#N11430002}Sword Essence{/LINK} the first time she uses Windborne Sword at the highest level.\nAdditionally, Vesna deals 20% increased Stellar Swirl reaction DMG when in the Armed for Action mode.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-1.png"
+    },
+    {
+      "name": "Kolo of Spring's Arrival",
+      "unlock": "Constellation Lv. 2",
+      "description": "The Ascension Talent {LINK#P1432101}Rite of Spring's Procession{/LINK} is enhanced: Vesna gains the maximum number of Disciplinary Action stacks when she enters {LINK#N11430001}Armed for Action{/LINK} mode. Vesna's ATK is increased by 40% when she has maximum Disciplinary Action stacks.\nYou must unlock the Ascension Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-2.png"
+    },
+    {
+      "name": "Winter's Last Offering",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of the Elemental Skill {LINK#S11432}The Art of Victory{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-3.png"
+    },
+    {
+      "name": "Glory to Our Forebears",
+      "unlock": "Constellation Lv. 4",
+      "description": "The Ascension Talent {LINK#P1432201}Truth Prevails{/LINK} is enhanced: Its ATK and Elemental Mastery bonuses increase to 3 times their original values.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-4.png"
+    },
+    {
+      "name": "The Nobleborn's Charge",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of the Elemental Burst {LINK#S11435}For the Tsaritsa!{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-5.png"
+    },
+    {
+      "name": "Unwavering Ardor",
+      "unlock": "Constellation Lv. 6",
+      "description": "Tapping on Normal Attack or Elemental Skill in the 5s after Vesna uses {LINK#N11430003}Windborne Sword{/LINK} at its highest level will unleash the secret Vila ability Windborne Sword: Transpose, dealing Anemo DMG at 150% of Vesna's ATK as well as summoning {LINK#N11430004}Spirit Blades{/LINK} which deal an additional instance of Anemo DMG at 200% of Vesna's ATK. If Vesna is in the {LINK#N11430001}Armed for Action{/LINK} mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is {LINK#N11190007}elevated{/LINK} by 20%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-6.png"
+    }
+  ],
+  "vision_key": "ANEMO",
+  "weapon_type": "SWORD",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "golden-fern",
+          "quantity": 3
+        },
+        {
+          "slug": "vayuda-turquoise-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "golden-fern",
+          "quantity": 10
+        },
+        {
+          "slug": "vayuda-turquoise-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 15
+        },
+        {
+          "slug": "unknown-113092",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "golden-fern",
+          "quantity": 20
+        },
+        {
+          "slug": "vayuda-turquoise-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 12
+        },
+        {
+          "slug": "unknown-113092",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "golden-fern",
+          "quantity": 30
+        },
+        {
+          "slug": "vayuda-turquoise-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 18
+        },
+        {
+          "slug": "unknown-113092",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "golden-fern",
+          "quantity": 45
+        },
+        {
+          "slug": "vayuda-turquoise-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 12
+        },
+        {
+          "slug": "unknown-113092",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "golden-fern",
+          "quantity": 60
+        },
+        {
+          "slug": "vayuda-turquoise-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 24
+        },
+        {
+          "slug": "unknown-113092",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-glory",
+            "quantity": 3
+          },
+          {
+            "slug": "ethereal-glimmershard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 2
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 4
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 6
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 9
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 4
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 4
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 6
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 6
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 12
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 9
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 16
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 12
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-glory",
+            "quantity": 3
+          },
+          {
+            "slug": "ethereal-glimmershard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 2
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 4
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 6
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 9
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 4
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 4
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 6
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 6
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 12
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 9
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 16
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 12
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-glory",
+            "quantity": 3
+          },
+          {
+            "slug": "ethereal-glimmershard",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 2
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 4
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 6
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-glory",
+            "quantity": 9
+          },
+          {
+            "slug": "ethereal-crystal",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 4
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 4
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 6
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 6
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 12
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 9
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-glory",
+            "quantity": 16
+          },
+          {
+            "slug": "ethereal-crystalscale-stone",
+            "quantity": 12
+          },
+          {
+            "slug": "profaned-sprout",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
+}

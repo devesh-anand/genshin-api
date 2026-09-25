@@ -1,0 +1,140 @@
+{
+  "id": 11438,
+  "name": "Silver Light",
+  "description": "A longsword left behind by Wind Reader, one of the Three Hermits of Guizang in Liyue. Legend has it that it was forged out of sacred silver descended from the heavens, and that it once cleaved flowing sea water into two.",
+  "rarity": 4,
+  "type": "Sword",
+  "type_key": "Sword",
+  "sub_stat": "ATK%",
+  "sub_stat_key": "FIGHT_PROP_ATTACK_PERCENT",
+  "base_atk": 42.4,
+  "passive_name": "Radiance on the Water",
+  "passive_desc": "Increases Elemental Mastery by 52 for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+  "passive_upgrades": [
+    "Increases Elemental Mastery by 52 for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+    "Increases Elemental Mastery by 65 for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+    "Increases Elemental Mastery by 78 for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+    "Increases Elemental Mastery by 91 for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
+    "Increases Elemental Mastery by 104 for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-light/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-light/icon-awaken.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 5000,
+      "materials": [
+        {
+          "slug": "recruits-insignia",
+          "quantity": 2
+        },
+        {
+          "slug": "fragile-bone-shard",
+          "quantity": 3
+        },
+        {
+          "slug": "grain-of-aerosiderite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 15000,
+      "materials": [
+        {
+          "slug": "recruits-insignia",
+          "quantity": 8
+        },
+        {
+          "slug": "fragile-bone-shard",
+          "quantity": 12
+        },
+        {
+          "slug": "piece-of-aerosiderite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "sergeants-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "sturdy-bone-shard",
+          "quantity": 6
+        },
+        {
+          "slug": "piece-of-aerosiderite",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "sergeants-insignia",
+          "quantity": 9
+        },
+        {
+          "slug": "sturdy-bone-shard",
+          "quantity": 12
+        },
+        {
+          "slug": "bit-of-aerosiderite",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 35000,
+      "materials": [
+        {
+          "slug": "lieutenants-insignia",
+          "quantity": 6
+        },
+        {
+          "slug": "fossilized-bone-shard",
+          "quantity": 9
+        },
+        {
+          "slug": "bit-of-aerosiderite",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "lieutenants-insignia",
+          "quantity": 12
+        },
+        {
+          "slug": "fossilized-bone-shard",
+          "quantity": 18
+        },
+        {
+          "slug": "chunk-of-aerosiderite",
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+}

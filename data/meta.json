@@ -1,0 +1,15 @@
+{
+  "last_synced": "2026-09-25T11:10:40.556Z",
+  "counts": {
+    "characters": 138,
+    "weapons": 276,
+    "materials": 509,
+    "enemies": 347
+  },
+  "last_run_results": {
+    "enemies": {
+      "added": 1,
+      "failed": 0
+    }
+  }
+}
