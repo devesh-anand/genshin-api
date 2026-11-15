@@ -1,7 +1,7 @@
 /** Materials — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { materialStore, queryMaterials } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
 
 export const SORT_FIELDS = {
    name:     'name',
@@ -41,4 +41,21 @@ export async function searchMaterials(term) {
 
 export async function countMaterials() {
    return (await materialStore.getAll()).length;
+}
+
+export const listMaterialRarities = () => materialStore.getDistinct('rarity');
+
+/** Brief shape for model-facing lists. */
+export function toBrief({ slug, data }) {
+   return { key: slug, name: data.name, category: data.category, rarity: data.rarity };
+}
+
+/** @throws {NotFoundError} with suggestions */
+export async function resolveMaterial(name) {
+   return resolveOrThrow(await materialStore.getAll(), name, 'material');
+}
+
+/** Full record (small): description, where it drops, what uses it, source. */
+export function describeMaterial({ slug, data }) {
+   return { key: slug, ...data };
 }

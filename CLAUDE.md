@@ -1,8 +1,8 @@
 # genshin-api
 
 Unofficial Genshin Impact data API (Express, Node ≥ 22, ES modules, plain JS).
-Public REST API today; an MCP server and user-facing features (material planner,
-team/DPS data, wish history with accounts) are planned — see `docs/mcp-plan.md`.
+Public REST API plus a local MCP server (`mcp/`, stdio). Planned: public `/mcp` over HTTP,
+material planner, team/DPS data, wish history with accounts — see `docs/mcp-plan.md`.
 
 ## Commands
 
@@ -13,6 +13,8 @@ npm start          # production start
 npm test           # node:test — must pass before every commit
 node --test features/characters/service.test.js   # a single file
 node scripts/sync.mjs [characters|weapons|materials|enemies]   # pull new game data (network)
+npm run mcp        # MCP server on stdio (what hosts spawn)
+npm run mcp:inspect   # MCP Inspector UI against the stdio server
 ```
 
 ## Layout
@@ -24,15 +26,23 @@ lib/                shared, feature-agnostic helpers
   dataStore.js        in-memory JSON store (getAll/getOne/query/getDistinct)
   paths.js            ROOT_DIR / DATA_DIR / dataDir() — never use process.cwd()
   nameResolver.js     loose name → slug ("hutao" → "hu-tao"), with suggestions
-  errors.js           AppError, ValidationError(400), UnauthorizedError(401), NotFoundError(404), UnavailableError(503)
+  errors.js           AppError, ValidationError(400), UnauthorizedError(401), NotFoundError(404, .suggestions)
   http.js             handle(), sendList(), sendOr404() for rest.js files
+  objects.js          omitKeys(), pick() — trim records for model-facing output
+  paginate.js         offset pagination for list tools
   sort.js
 features/<name>/    one folder per feature — everything about it lives here
   store.js            data access only (JSON today; a DB later for user data)
   service.js          ALL logic. Plain async functions. No req/res, no express, no MCP types.
   rest.js             Express router: parse req → call service → send. No logic.
-  mcp.js              (Phase 1) MCP tool definitions wrapping the service
+  mcp.js              tools() → MCP tool definitions wrapping the service. No logic.
   service.test.js     required for every feature
+mcp/                MCP server (transport-agnostic core + entry points)
+  registry.js         TOOLSETS — explicit list of every features/*/mcp.js
+  server.js           createMcpServer(): registers tools, maps errors, hides 'auth' tools without a user
+  schema.js           zod helpers: enumOf() (data-derived enums), rarityOf(), sectionsOf(), pageArgs
+  stdio.js            local entry point
+  server.test.js      MCP client tests: catalogue rules, calls, errors, registry, stdio smoke test
 middlewares/        cross-cutting Express middleware (rate limit, cache headers, errors)
 data/               game data JSON, written by scripts/ — don't hand-edit in feature PRs
 scripts/            data sync/populate scripts (run by .github/workflows/sync.yml weekly)
@@ -94,11 +104,17 @@ and the full add-new-characters process.
 2. `features/<name>/store.js` if it owns data.
 3. `features/<name>/service.test.js`.
 4. `features/<name>/rest.js` if it has HTTP endpoints → add to `ROUTES` in `app.js` → add a case to `app.test.js`.
-5. `features/<name>/mcp.js` if it should be an MCP tool (Phase 1+; see below).
+5. `features/<name>/mcp.js` if it should be MCP tools → add to `TOOLSETS` in `mcp/registry.js` →
+   add call cases to `mcp/server.test.js` (and the name to the "stable names" list).
 6. Document new endpoints in `README.md`.
 7. `npm test`.
 
-## MCP tools (once `mcp/` exists)
+## MCP tools
+
+A tool definition (from `tools()` in `features/<name>/mcp.js`):
+`{ name, title, description, inputSchema: { zod shape }, handler(args, { user }) → value, access?: 'public'|'auth' }`.
+The server JSON-encodes the return value and turns `lib/errors.js` errors into `isError` results.
+Tools are read-only by default (annotations); override with `annotations` only for tools that write.
 
 - Tool names are a public contract: never rename/remove; add optional params instead.
 - Descriptions are written for a model: say when to use it, what it returns, and valid values.
@@ -106,7 +122,10 @@ and the full add-new-characters process.
 - Return concise results by default; full records only when a `sections`/detail param asks.
 - Resolve names with the service's `find*()`; on no match return `isError` + suggestions.
 - Keep the total tool count ≲ 30 — extend existing tools before adding near-duplicates.
+- Paginate lists (`pageArgs` + `paginate()`); keep any single response well under ~6k tokens.
 - Personal-data tools (Phase 5) take the user from the auth context, never from an argument.
+- **Never write to stdout** in code the MCP server runs — stdout is the stdio protocol channel.
+  Use `console.error` for diagnostics.
 
 ## Gotchas
 

@@ -43,3 +43,32 @@ describe('characters service', () => {
       assert.ok((await svc.listNations()).includes('Sumeru'));
    });
 });
+
+describe('characters service: model-facing helpers', () => {
+   it('resolveCharacter returns the entry or throws NotFoundError with suggestions', async () => {
+      assert.equal((await svc.resolveCharacter('Hu Tao')).slug, 'hu-tao');
+      await assert.rejects(svc.resolveCharacter('nahidaa'), (e) => e.status === 404 && e.suggestions.includes('nahida'));
+   });
+
+   it('describeCharacter returns only the requested sections', async () => {
+      const entry = await svc.resolveCharacter('nahida');
+      assert.deepEqual(Object.keys(svc.describeCharacter(entry)).sort(),
+         ['affiliation', 'birthday', 'constellation', 'description', 'key', 'name', 'nation', 'rarity', 'title', 'vision', 'weapon']);
+      const costs = svc.describeCharacter(entry, ['talent_costs']);
+      assert.deepEqual(Object.keys(costs), ['key', 'talent_costs']);
+   });
+
+   it('every section works on every character', async () => {
+      const sections = Object.keys(svc.CHARACTER_SECTIONS);
+      for (const entry of await svc.listCharacters()) {
+         const d = svc.describeCharacter(entry, sections);
+         assert.equal(d.key, entry.slug);
+         assert.ok(!JSON.stringify(d.skillTalents ?? []).includes('"img"'), entry.slug);
+      }
+   });
+
+   it('toBrief has a stable shape', async () => {
+      const [entry] = await svc.listCharacters();
+      assert.deepEqual(Object.keys(svc.toBrief(entry)), ['key', 'name', 'element', 'weapon', 'nation', 'rarity']);
+   });
+});

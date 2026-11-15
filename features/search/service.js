@@ -11,22 +11,37 @@ import { searchEnemies } from '../enemies/service.js';
 
 export const MIN_QUERY_LENGTH = 2;
 
+const SEARCHERS = {
+   characters: searchCharacters,
+   weapons: searchWeapons,
+   artifacts: searchArtifacts,
+   materials: searchMaterials,
+   enemies: searchEnemies,
+};
+
+/** Entity types search can cover, in response order. */
+export const SEARCH_TYPES = Object.keys(SEARCHERS);
+
 /**
  * @param {string} q - raw query
- * @returns {Promise<{ query: string, results: { characters, weapons, artifacts, materials, enemies } }>}
- * @throws {ValidationError} when the query is missing or shorter than MIN_QUERY_LENGTH
+ * @param {{ types?: string[], limit?: number }} [opts]
+ *   types - limit to some entity types (default: all)
+ *   limit - max results per type (default: unlimited); when set, `totals` reports full counts
+ * @returns {Promise<{ query: string, results: Record<string, object[]>, totals?: Record<string, number> }>}
+ * @throws {ValidationError} when the query is missing/too short or a type is unknown
  */
-export async function searchAll(q) {
+export async function searchAll(q, { types = SEARCH_TYPES, limit } = {}) {
    const query = typeof q === 'string' ? q.trim() : '';
    if (query.length < MIN_QUERY_LENGTH) {
       throw new ValidationError(`Query must be at least ${MIN_QUERY_LENGTH} characters.`);
    }
-   const [characters, weapons, artifacts, materials, enemies] = await Promise.all([
-      searchCharacters(query),
-      searchWeapons(query),
-      searchArtifacts(query),
-      searchMaterials(query),
-      searchEnemies(query),
-   ]);
-   return { query, results: { characters, weapons, artifacts, materials, enemies } };
+   const unknown = types.filter((t) => !SEARCHERS[t]);
+   if (unknown.length) {
+      throw new ValidationError(`Unknown search type(s): ${unknown.join(', ')}. Valid: ${SEARCH_TYPES.join(', ')}.`);
+   }
+   const selected = SEARCH_TYPES.filter((t) => types.includes(t));
+   const found = await Promise.all(selected.map((t) => SEARCHERS[t](query)));
+   const results = Object.fromEntries(selected.map((t, i) => [t, limit ? found[i].slice(0, limit) : found[i]]));
+   if (!limit) return { query, results };
+   return { query, results, totals: Object.fromEntries(selected.map((t, i) => [t, found[i].length])) };
 }

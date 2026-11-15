@@ -37,3 +37,18 @@ describe('enemies service', () => {
       assert.deepEqual(Object.keys(svc.toSummary(entry)), ['key', 'name', 'type', 'img']);
    });
 });
+
+describe('enemies service: model-facing helpers', () => {
+   it('resolveEnemy finds entries by display name, or throws NotFoundError', async () => {
+      const [first] = await svc.listEnemies();
+      const resolved = await svc.resolveEnemy(first.data.name).catch((e) => e);
+      // Display names can be shared (→ ambiguous), so accept a match or a suggestion that includes it.
+      assert.ok(resolved.slug === first.slug || resolved.suggestions?.includes(first.slug), JSON.stringify(resolved));
+      await assert.rejects(svc.resolveEnemy('zzzzzzzzzz'), (e) => e.status === 404);
+   });
+
+   it('describeEnemy includes the key', async () => {
+      const [first] = await svc.listEnemies();
+      assert.equal(svc.describeEnemy(first).key, first.slug);
+   });
+});

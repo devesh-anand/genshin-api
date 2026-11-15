@@ -1,7 +1,7 @@
 /** Enemies — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { enemyStore, queryEnemies } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
 
 export const SORT_FIELDS = {
    name: 'name',
@@ -39,4 +39,19 @@ export async function searchEnemies(term) {
 
 export async function countEnemies() {
    return (await enemyStore.getAll()).length;
+}
+
+/** Brief shape for model-facing lists. */
+export function toBrief({ slug, data }) {
+   return { key: slug, name: data.name, type: data.type };
+}
+
+/** @throws {NotFoundError} with suggestions */
+export async function resolveEnemy(name) {
+   return resolveOrThrow(await enemyStore.getAll(), name, 'enemy');
+}
+
+/** Full record (small): description, type, drops. */
+export function describeEnemy({ slug, data }) {
+   return { key: slug, ...data };
 }

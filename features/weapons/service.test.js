@@ -37,3 +37,21 @@ describe('weapons service', () => {
       assert.deepEqual(Object.keys(svc.toSummary(entry)), ['key', 'name', 'rarity', 'type', 'sub_stat', 'passive_name', 'img']);
    });
 });
+
+describe('weapons service: model-facing helpers', () => {
+   it('resolveWeapon accepts loose names', async () => {
+      assert.equal((await svc.resolveWeapon('mistsplitter')).slug, 'mistsplitter-reforged');
+      await assert.rejects(svc.resolveWeapon('zzzzzzzz'), (e) => e.status === 404);
+   });
+
+   it('every section works on every weapon', async () => {
+      const sections = Object.keys(svc.WEAPON_SECTIONS);
+      for (const entry of await svc.listWeapons()) assert.equal(svc.describeWeapon(entry, sections).key, entry.slug);
+   });
+
+   it('default description is the overview only', async () => {
+      const d = svc.describeWeapon(await svc.resolveWeapon('mistsplitter'));
+      assert.ok(d.passive_desc);
+      assert.equal(d.ascension_costs, undefined);
+   });
+});
