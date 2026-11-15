@@ -128,6 +128,35 @@ describe('/mcp rate limiting', () => {
    });
 });
 
+describe('/mcp rate limiting behind Cloudflare', () => {
+   // Simulates the production path: X-Forwarded-For (trusted hop) is the Cloudflare edge,
+   // CF-Connecting-IP is the real client.
+   const CF_EDGE = '172.70.1.2';
+
+   it('gives each real client its own bucket via CF-Connecting-IP', async () => {
+      const { server, base } = await listen({ mcp: { onToolCall: null, rateLimit: { limit: 1 } } });
+      try {
+         const viaCf = (client) => rpc(base, INIT, { 'x-forwarded-for': CF_EDGE, 'cf-connecting-ip': client });
+         assert.equal((await viaCf('198.51.100.1')).status, 200);
+         assert.equal((await viaCf('198.51.100.1')).status, 429, 'same client is limited');
+         assert.equal((await viaCf('198.51.100.2')).status, 200, 'another client behind the same edge is not');
+      } finally {
+         server.close();
+      }
+   });
+
+   it('ignores CF-Connecting-IP when the request did not come from Cloudflare', async () => {
+      const { server, base } = await listen({ mcp: { onToolCall: null, rateLimit: { limit: 1 } } });
+      try {
+         const spoof = (fake) => rpc(base, INIT, { 'x-forwarded-for': '203.0.113.50', 'cf-connecting-ip': fake });
+         assert.equal((await spoof('198.51.100.1')).status, 200);
+         assert.equal((await spoof('198.51.100.2')).status, 429, 'rotating a fake header must not reset the limit');
+      } finally {
+         server.close();
+      }
+   });
+});
+
 describe('trust proxy setting', () => {
    it('defaults to one hop (Railway) and accepts overrides', () => {
       assert.equal(trustProxySetting(undefined), 1);
