@@ -107,7 +107,7 @@ Returns full details for a single character. `:name` is the character's slug (lo
 
 ```
 GET /characters/nahida
-GET /characters/raiden-shogun
+GET /characters/raiden
 GET /characters/aether-pyro
 ```
 
@@ -390,14 +390,9 @@ Returns server status, uptime, and total counts for each resource.
 git clone https://github.com/devesh-anand/genshin-api.git
 cd genshin-api
 npm install
+cp .env.example .env   # PORT=5000 by default
+npm run dev            # dev server at http://localhost:5000
+npm test               # run tests
 ```
 
-Create a `.env` file:
-```
-PORT=5000
-```
-
-```bash
-nodemon        # start dev server at http://localhost:5000
-npm test       # run tests
-```
+Code layout and conventions (one folder per feature under `features/`) are documented in [CLAUDE.md](./CLAUDE.md). The MCP server roadmap is in [docs/mcp-plan.md](./docs/mcp-plan.md).
