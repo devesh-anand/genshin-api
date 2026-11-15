@@ -55,6 +55,39 @@ app.test.js         HTTP integration tests + codebase convention checks
 7. **Paths come from `lib/paths.js`.** The process may be launched from any directory.
 8. Secrets only via env vars (see `.env.example`). Never commit `.env`.
 
+## Content rules (legal)
+
+This is an unofficial fan project. All game data and art belong to HoYoverse / COGNOSPHERE.
+Use is tolerated, not licensed, so:
+
+- **Never add unreleased, beta, or leaked content.** Only sync what is live in the current game
+  version. If yatta.moe or any source lists something not yet released, skip it. This is the main
+  thing HoYoverse enforces against.
+- **Keep the "unofficial / not affiliated with HoYoverse" disclaimer and source attribution**
+  (yatta.moe, Enka.Network, Fandom Wiki) in `README.md` and in the frontend footer
+  (`genshin/src/app/layout.tsx`, separate repo). Don't remove or weaken them.
+- **Never claim ownership of game content** (no "All rights reserved" over data or images), never
+  use HoYoverse logos, never imply official endorsement.
+- **Be a polite consumer of sources:** cache results, keep request rates low, send a descriptive
+  User-Agent to Enka and yatta, follow Enka's API rules.
+- **No paid access to HoYoverse data or art** without checking the legal risk with the user first.
+- **Never handle player credentials server-side** (wish-history authkeys, HoYoLAB cookies), and never
+  build anything that reads game memory, sniffs game traffic, or automates game input.
+
+## Data pipeline
+
+`scripts/` pulls game data from yatta.moe / Enka / the Fandom wiki, uploads images to the R2
+bucket `genshin-images` (public base `https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev`), and
+writes `data/`. **Read [`docs/data-pipeline.md`](docs/data-pipeline.md) before running or changing
+any script** — it has the character JSON format, the source for every image field, per-script usage,
+and the full add-new-characters process.
+
+- `node scripts/sync.mjs` handles a normal patch. It does not handle traveler variants — run
+  `node scripts/fix-traveler.mjs` when a new traveler element ships.
+- Scripts are `.mjs` ES modules and need R2 credentials (`R2_ID`, `AWS_ID`, `AWS_KEY`) in `.env`.
+  The API server itself needs none of them.
+- Cloudflare caches R2 images ~24h; append `?v=2` to check a freshly replaced image.
+
 ## Adding a feature (checklist)
 
 1. `features/<name>/service.js` — functions + JSDoc for inputs/outputs. Copy the shape of `features/weapons/`.
@@ -77,7 +110,8 @@ app.test.js         HTTP integration tests + codebase convention checks
 
 ## Gotchas
 
-- Slugs don't always match display names (`raiden` is "Raiden Shogun"; travelers exist as
-  `aether-<element>`, `lumine-<element>` and `traveler-<element>`). Use `find*()` for user/model input.
+- Slugs don't always match display names (`raiden` is "Raiden Shogun", `kuki-shinobu` is `kuki`
+  via `SLUG_OVERRIDES` in the scripts; travelers exist only as `aether-<element>` and
+  `lumine-<element>`). Use `find*()` for user/model input.
 - There is no image upload endpoint: images are uploaded to R2 by the sync/populate scripts only.
 - The rate limiter (100 req/min/IP) is skipped in tests via `createApp({ rateLimit: false })`.
