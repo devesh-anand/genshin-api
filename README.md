@@ -6,6 +6,8 @@ Open-source REST API for Genshin Impact character, weapon, and artifact data —
 
 For contribution guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+> **Disclaimer:** This is an unofficial fan project and is not affiliated with or endorsed by HoYoverse. Genshin Impact, its characters, artwork, and game content are trademarks and copyrights of HoYoverse / COGNOSPHERE. Data courtesy of [yatta.moe](https://gi.yatta.moe), [Enka.Network](https://enka.network), and the [Genshin Impact Fandom Wiki](https://genshin-impact.fandom.com). If you are a rights holder and want content removed, please [open an issue](https://github.com/devesh-anand/genshin-api/issues).
+
 ---
 
 ## Caching
