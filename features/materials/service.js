@@ -59,3 +59,9 @@ export async function resolveMaterial(name) {
 export function describeMaterial({ slug, data }) {
    return { key: slug, ...data };
 }
+
+/** Every tier of a crafting family (e.g. "philosophies-of-ingenuity-series"), lowest tier first. */
+export async function getMaterialFamily(family) {
+   const members = await materialStore.query((m) => m.family === family);
+   return members.sort((a, b) => (a.data.tier ?? 0) - (b.data.tier ?? 0));
+}

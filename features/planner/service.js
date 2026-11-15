@@ -15,8 +15,9 @@ import { z } from 'zod';
 import { ValidationError } from '../../lib/errors.js';
 import { resolveCharacter } from '../characters/service.js';
 import { resolveWeapon } from '../weapons/service.js';
-import { getMaterial } from '../materials/service.js';
+import { getMaterial, getMaterialFamily, resolveMaterial } from '../materials/service.js';
 import { getProgression } from './store.js';
+import { resolveFamily } from './inventory.js';
 
 export const TALENTS = ['normal_attack', 'elemental_skill', 'elemental_burst'];
 export const MAX_TARGETS = 20;
@@ -51,8 +52,16 @@ export const targetSchema = z.object({
       .describe('Characters only: talent ranges to level.'),
 });
 
+export const MAX_INVENTORY_ITEMS = 500;
+
+export const inventorySchema = z
+   .record(z.string().min(1), z.number().int().min(0).max(1_000_000))
+   .refine((o) => Object.keys(o).length <= MAX_INVENTORY_ITEMS, `At most ${MAX_INVENTORY_ITEMS} inventory entries.`)
+   .describe('Materials you already own: { "<material name or key>": quantity }. EXP items count by EXP value; lower tiers are crafted up.');
+
 export const planInputSchema = z.object({
    targets: z.array(targetSchema).min(1).max(MAX_TARGETS),
+   inventory: inventorySchema.optional(),
 });
 
 /** zod error → one readable ValidationError message. */
@@ -231,14 +240,74 @@ export function sortNeeds(lines) {
    );
 }
 
+/** Loose material names → slugs; unknown names are reported, not fatal. */
+async function normaliseInventory(inventory = {}) {
+   const owned = new Map();
+   const unknown = [];
+   for (const [name, quantity] of Object.entries(inventory)) {
+      try {
+         const { slug } = await resolveMaterial(name);
+         owned.set(slug, (owned.get(slug) ?? 0) + quantity);
+      } catch {
+         unknown.push(name);
+      }
+   }
+   return { owned, unknown };
+}
+
 /**
- * Plan materials for one or more targets.
- * @param {unknown} input - { targets: [...] } (validated here; see targetSchema)
- * @returns {Promise<{ targets, materials, mora, exp }>}
- * @throws {ValidationError|NotFoundError}
+ * EXP items are interchangeable by EXP value: owned items are spent (biggest first) and the
+ * remaining EXP is re-expressed as the fewest items to obtain.
  */
-export async function planMaterials(input) {
-   const { targets } = parseOrThrow(planInputSchema, input);
+function applyExpInventory(lines, owned, expItems, expNeeded) {
+   const mine = lines.filter((l) => expItems.some((e) => e.slug === l.key));
+   if (!mine.length) return;
+   const ownedExp = expItems.reduce((sum, e) => sum + (owned.get(e.slug) ?? 0) * e.exp, 0);
+   const stillNeed = expItemsFor(Math.max(0, expNeeded - ownedExp), expItems);
+   for (const l of mine) {
+      l.owned = owned.get(l.key) ?? 0;
+      l.missing = stillNeed.find((x) => x.slug === l.key)?.quantity ?? 0;
+   }
+}
+
+async function applyInventory(materials, owned, prog, exp) {
+   const byKey = new Map(materials.map((m) => [m.key, m]));
+   const crafting = [];
+
+   // Families: owned + craft up.
+   for (const family of new Set(materials.map((m) => m.family).filter(Boolean))) {
+      const members = await getMaterialFamily(family);
+      const tiers = members.map(({ slug, data }) => ({
+         key: slug,
+         tier: data.tier,
+         need: byKey.get(slug)?.quantity ?? 0,
+         owned: owned.get(slug) ?? 0,
+         craft: data.craft,
+      }));
+      resolveFamily(tiers).forEach((r, i) => {
+         const line = byKey.get(r.key);
+         if (line) Object.assign(line, { owned: tiers[i].owned, crafted: r.crafted, missing: r.missing });
+         if (r.crafts > 0) {
+            crafting.push({ key: r.key, quantity: r.crafts, from: tiers[i].craft.from, from_quantity: r.crafts * tiers[i].craft.quantity, mora: r.craft_mora });
+         }
+      });
+   }
+
+   // EXP items: by EXP value, per item set.
+   applyExpInventory(materials, owned, prog.exp_materials.character, exp.character);
+   applyExpInventory(materials, owned, prog.exp_materials.weapon, exp.weapon);
+
+   // Everything else: plain subtraction.
+   for (const m of materials) {
+      if (m.missing !== undefined) continue;
+      m.owned = owned.get(m.key) ?? 0;
+      m.missing = Math.max(0, m.quantity - m.owned);
+   }
+   return crafting;
+}
+
+async function runPlan(input) {
+   const { targets, inventory } = parseOrThrow(planInputSchema, input);
    for (const t of targets) {
       if (!t.level && !t.talents) throw new ValidationError(`${t.name}: give a level range and/or talents to plan.`);
    }
@@ -256,10 +325,97 @@ export async function planMaterials(input) {
    }
 
    const materials = sortNeeds(await Promise.all(tally.entries().map(([slug, q]) => describeNeed(slug, q))));
-   return {
+   const result = {
       targets: planned.map((p) => ({ ...p.summary, mora: p.mora.leveling + p.mora.ascension + p.mora.talents })),
       materials,
       mora: { ...mora, total: mora.leveling + mora.ascension + mora.talents },
       exp,
+   };
+
+   if (inventory) {
+      const { owned, unknown } = await normaliseInventory(inventory);
+      const crafting = await applyInventory(materials, owned, prog, exp);
+      const craftMora = crafting.reduce((s, c) => s + c.mora, 0);
+      result.crafting = crafting;
+      result.mora.crafting = craftMora;
+      result.mora.total += craftMora;
+      result.missing_count = materials.reduce((s, m) => s + m.missing, 0);
+      if (unknown.length) result.unknown_inventory = unknown;
+   }
+   return result;
+}
+
+/**
+ * Plan materials for one or more targets.
+ * @param {unknown} input - { targets: [...], inventory?: { name: qty } } (validated here)
+ * @returns {Promise<{ targets, materials, mora, exp, crafting?, missing_count?, unknown_inventory? }>}
+ *   With an inventory, each material line also has owned / crafted / missing.
+ * @throws {ValidationError|NotFoundError}
+ */
+export async function planMaterials(input) {
+   return runPlan(input);
+}
+
+// ── Farming schedule ──────────────────────────────────────────────────────────────────────
+
+export const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+
+export const farmingInputSchema = planInputSchema.extend({
+   day: z.enum(DAYS).optional().describe('Only show domains open on this day (server reset time). Default: the whole week.'),
+});
+
+const need = (m) => m.missing ?? m.quantity;
+const brief = (m) => ({ key: m.key, name: m.name, tier: m.tier, quantity: need(m) });
+
+/**
+ * Where and when to farm what a plan still needs (after inventory, if given).
+ * @param {unknown} input - planMaterials input + optional `day`
+ * @returns {Promise<{ domains, bosses, local_specialties, enemies, other, mora_needed }>}
+ */
+export async function getFarmingSchedule(input) {
+   const { day, ...planInput } = parseOrThrow(farmingInputSchema, input);
+   const plan = await runPlan(planInput);
+   const open = plan.materials.filter((m) => need(m) > 0);
+
+   const domains = new Map();
+   const bosses = [];
+   const regions = new Map();
+   const enemies = [];
+   const other = [];
+   for (const m of open) {
+      const src = m.source ?? {};
+      if (src.type === 'domain') {
+         const d = domains.get(src.name) ?? { domain: src.name, days: src.days ?? [], materials: [] };
+         d.materials.push(brief(m));
+         domains.set(src.name, d);
+      } else if (src.type === 'local-specialty') {
+         const r = regions.get(src.region) ?? { region: src.region, materials: [] };
+         r.materials.push(brief(m));
+         regions.set(src.region, r);
+      } else if (['boss-drop', 'weekly-boss-drop', 'ascension-gem'].includes(m.category)) {
+         bosses.push({ ...brief(m), category: m.category, dropped_by: m.dropped_by ?? [], how: src.description });
+      } else if (m.category === 'common-drop') {
+         enemies.push({ ...brief(m), dropped_by: m.dropped_by ?? [], how: src.description });
+      } else {
+         other.push({ ...brief(m), category: m.category, how: src.description });
+      }
+   }
+
+   let domainList = [...domains.values()];
+   if (day) domainList = domainList.filter((d) => d.days.includes(day));
+   const byDay = Object.fromEntries(
+      (day ? [day] : DAYS).map((d) => [d, [...domains.values()].filter((x) => x.days.includes(d)).map((x) => x.domain)])
+   );
+
+   return {
+      ...(day && { day }),
+      domains: domainList,
+      domains_by_day: byDay,
+      bosses,
+      local_specialties: [...regions.values()],
+      enemies,
+      other,
+      mora_needed: plan.mora.total,
+      ...(plan.unknown_inventory && { unknown_inventory: plan.unknown_inventory }),
    };
 }
