@@ -13,6 +13,7 @@ import materials from './features/materials/rest.js';
 import enemies from './features/enemies/rest.js';
 import search from './features/search/rest.js';
 import health from './features/health/rest.js';
+import planner from './features/planner/rest.js';
 
 /**
  * REST route registry — every feature's router is mounted here, explicitly.
@@ -27,6 +28,7 @@ export const ROUTES = [
    
    ['/search', search],
    ['/health', health],
+   ['/planner', planner],
 ];
 
 /**
