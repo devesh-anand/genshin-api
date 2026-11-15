@@ -76,6 +76,23 @@ describe('REST API', () => {
    });
 });
 
+describe('REST rate limiting', () => {
+   it('counts each client IP separately behind the proxy (trust proxy)', async () => {
+      const limited = createApp({ rateLimit: true }).listen(0);
+      await new Promise((r) => limited.once('listening', r));
+      const url = `http://127.0.0.1:${limited.address().port}/health`;
+      const as = (ip) => fetch(url, { headers: { 'x-forwarded-for': ip } });
+      try {
+         let res;
+         for (let i = 0; i < 101; i++) res = await as('198.51.100.1');
+         assert.equal(res.status, 429, 'client A should be limited after 100 requests');
+         assert.equal((await as('198.51.100.2')).status, 200, 'client B must not share A\'s bucket');
+      } finally {
+         limited.close();
+      }
+   });
+});
+
 describe('codebase conventions', () => {
    const featuresDir = path.join(ROOT_DIR, 'features');
    const features = fs.readdirSync(featuresDir).filter((f) => fs.statSync(path.join(featuresDir, f)).isDirectory());

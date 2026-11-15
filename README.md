@@ -386,28 +386,34 @@ Returns server status, uptime, and total counts for each resource.
 
 ## MCP server (for AI assistants)
 
-genshin-api ships a [Model Context Protocol](https://modelcontextprotocol.io) server, so assistants like
-Claude can look up characters, weapons, artifacts, materials and enemies directly. It currently runs
-locally over stdio (a public HTTP endpoint is planned).
+genshin-api is also a [Model Context Protocol](https://modelcontextprotocol.io) server, so AI assistants
+like Claude can look up characters, weapons, artifacts, materials and enemies directly.
+
+**Hosted endpoint:** `https://genshin-impact.up.railway.app/mcp` (Streamable HTTP, no sign-in needed)
 
 **Tools:** `search`, `list_characters`, `get_character`, `list_weapons`, `get_weapon`, `list_artifacts`,
 `get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`.
 
+**claude.ai / Claude apps:** Settings → Connectors → *Add custom connector* → paste the endpoint URL.
+
 **Claude Code:**
+```bash
+claude mcp add --transport http genshin https://genshin-impact.up.railway.app/mcp
+```
+
+**Other clients:** any MCP client that supports Streamable HTTP can use the URL above.
+
+**Run it locally instead (stdio):**
 ```bash
 claude mcp add genshin -- node /absolute/path/to/genshin-api/mcp/stdio.js
 ```
-
-**Claude Desktop** (`claude_desktop_config.json`):
+or in Claude Desktop's `claude_desktop_config.json`:
 ```json
-{
-  "mcpServers": {
-    "genshin": { "command": "node", "args": ["/absolute/path/to/genshin-api/mcp/stdio.js"] }
-  }
-}
+{ "mcpServers": { "genshin": { "command": "node", "args": ["/absolute/path/to/genshin-api/mcp/stdio.js"] } } }
 ```
 
-**Try it by hand:** `npm run mcp:inspect` opens the MCP Inspector.
+**Limits:** 300 MCP requests per minute per IP (`429` with a JSON-RPC error beyond that).
+`npm run mcp:inspect` opens the MCP Inspector against a local copy.
 
 ---
 
