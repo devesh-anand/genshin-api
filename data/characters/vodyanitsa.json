@@ -29,7 +29,7 @@
     {
       "name": "Koda: Sink With Thee",
       "unlock": "Elemental Burst",
-      "description": "Leads a song of the Water Imps which lures its listeners to their doom. This deals AoE Hydro DMG to the opponent.\nWhen in the {LINK#S11402}Song of Ages Past{/LINK} state, DMG dealt is further increased.",
+      "description": "Leads a song of the Water Imps which lures its listeners to their doom. This deals AoE Hydro DMG to the opponent.\nWhen in the Song of Ages Past state, DMG dealt is further increased.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-burst.png"
@@ -39,14 +39,14 @@
     {
       "name": "The Last Djeguako Songstress",
       "unlock": "Unlocked at Ascension 1",
-      "description": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, any Stellar Vortex on the field will turn into a Wandering Vortex instead. While the {LINK#S11402}Song of Ages Past{/LINK} effect is active, nearby party members' Stellar Swirl reactions will generate Wandering Vortex instead.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' Anemo RES by 35% for 6s. \nAdditionally, nearby party members who enter the Radiance: Stellar Swirl state while Song of Ages Past is in effect will have the Radiance: Stellar Swirl state extended by 4s.",
+      "description": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, any Stellar Vortex on the field will turn into a Wandering Vortex instead. While the Song of Ages Past effect is active, nearby party members' Stellar Swirl reactions will generate Wandering Vortex instead.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' Anemo RES by 35% for 6s. \nAdditionally, nearby party members who enter the Radiance: Stellar Swirl state while Song of Ages Past is in effect will have the Radiance: Stellar Swirl state extended by 4s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-passive-1.png"
     },
     {
       "name": "Dirge of the Fandyr",
       "unlock": "Unlocked at Ascension 4",
-      "description": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, Vodyanitsa will also gain 25 stacks of {LINK#N11400001}Lead Vocal{/LINK} as well as 10 stacks of {LINK#N11400002}Chorus{/LINK}.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
+      "description": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, Vodyanitsa will also gain 25 stacks of Lead Vocal as well as 10 stacks of Chorus.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/talent-passive-2.png"
     },
@@ -61,42 +61,42 @@
     {
       "name": "Waters in Full Splendor",
       "unlock": "Constellation Lv. 1",
-      "description": "Each time Vodyanitsa triggers the healing effect of {LINK#S11402}Song of Ages Past{/LINK}, it also increases the ATK of all nearby party members by 0.8% of her Max HP for 5s.",
+      "description": "Each time Vodyanitsa triggers the healing effect of Song of Ages Past, it also increases the ATK of all nearby party members by 0.8% of her Max HP for 5s.",
       "level": 1,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-1.png"
     },
     {
       "name": "Echoes That Pierce the Snow",
       "unlock": "Constellation Lv. 2",
-      "description": "When the Horn of Spring's Call from the Elemental Skill Rechitativ: Sonorous Dawn attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from Hydro DMG and Cryo DMG dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill Rechitativ: Sonorous Dawn is enhanced as follows: the duration of the {LINK#S11402}Song of Ages Past{/LINK} effect is extended by 9s.",
+      "description": "When the Horn of Spring's Call from the Elemental Skill Rechitativ: Sonorous Dawn attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from Hydro DMG and Cryo DMG dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill Rechitativ: Sonorous Dawn is enhanced as follows: the duration of the Song of Ages Past effect is extended by 9s.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-2.png"
     },
     {
       "name": "Song Lingering on a Spring Morning",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of the Elemental Skill {LINK#S11402}Rechitativ: Sonorous Dawn{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Skill Rechitativ: Sonorous Dawn by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-3.png"
     },
     {
       "name": "Melancholic Voice Upon the Gentle Waters",
       "unlock": "Constellation Lv. 4",
-      "description": "When Vodyanitsa triggers the healing effect of {LINK#S11402}Song of Ages Past{/LINK}, an additional effect will be triggered based on the healed character's HP.\n· If the character's HP is below 40%: The healing is increased by 50%; and\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
+      "description": "When Vodyanitsa triggers the healing effect of Song of Ages Past, an additional effect will be triggered based on the healed character's HP.\n· If the character's HP is below 40%: The healing is increased by 50%; and\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-4.png"
     },
     {
       "name": "Together, Down Into the Deep",
       "unlock": "Constellation Lv. 5",
-      "description": "Increases the Level of the Elemental Burst {LINK#S11405}Koda: Sink With Thee{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "description": "Increases the Level of the Elemental Burst Koda: Sink With Thee by 3.\nMaximum upgrade level is 15.",
       "level": 5,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-5.png"
     },
     {
       "name": "Neverending Song of Revelry",
       "unlock": "Constellation Lv. 6",
-      "description": "The Constellation Echoes That Pierce the Snow is enhanced: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the {LINK#S11402}Song of Ages Past{/LINK} effect is active, Stellar Swirl reaction DMG dealt by nearby party members is {LINK#N11190007}elevated{/LINK} by 25% while Hydro DMG and Cryo DMG dealt are increased by 60%.",
+      "description": "The Constellation Echoes That Pierce the Snow is enhanced: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the Song of Ages Past effect is active, Stellar Swirl reaction DMG dealt by nearby party members is elevated by 25% while Hydro DMG and Cryo DMG dealt are increased by 60%.",
       "level": 6,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vodyanitsa/constellation-6.png"
     }
