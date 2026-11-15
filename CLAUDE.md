@@ -25,7 +25,7 @@ index.js            loads .env, listens. Nothing else.
 lib/                shared, feature-agnostic helpers
   dataStore.js        in-memory JSON store (getAll/getOne/query/getDistinct)
   paths.js            ROOT_DIR / DATA_DIR / dataDir() — never use process.cwd()
-  nameResolver.js     loose name → slug ("hutao" → "hu-tao"), with suggestions
+  nameResolver.js     loose name → slug ("hutao" → "hu-tao"), corrects clear typos, else suggests
   errors.js           AppError, ValidationError(400), UnauthorizedError(401), NotFoundError(404, .suggestions)
   http.js             handle(), sendList(), sendOr404() for rest.js files
   objects.js          omitKeys(), pick() — trim records for model-facing output

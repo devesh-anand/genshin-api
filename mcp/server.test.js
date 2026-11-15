@@ -103,10 +103,14 @@ describe('MCP: tool calls', () => {
       assert.ok(!r.includes('"img"'));
    });
 
-   it('unknown or ambiguous names are tool errors with suggestions', async () => {
-      const typo = await call('get_character', { name: 'nahidaa' });
-      assert.equal(typo.isError, true);
-      assert.match(typo.text, /Did you mean: .*nahida/);
+   it('typos are corrected; unknown or ambiguous names are tool errors with suggestions', async () => {
+      const typo = await call('get_artifact', { name: 'emblem of severd fate' });
+      assert.equal(typo.isError, false, 'a clear typo should be auto-corrected');
+      assert.equal(typo.json.key, 'emblem-of-severed-fate');
+
+      const unsure = await call('get_character', { name: 'nahiidaa' });
+      assert.equal(unsure.isError, true);
+      assert.match(unsure.text, /Did you mean: .*nahida/);
 
       const ambiguous = await call('get_character', { name: 'aether' });
       assert.equal(ambiguous.isError, true);

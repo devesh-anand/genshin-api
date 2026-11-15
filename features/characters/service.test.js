@@ -47,7 +47,8 @@ describe('characters service', () => {
 describe('characters service: model-facing helpers', () => {
    it('resolveCharacter returns the entry or throws NotFoundError with suggestions', async () => {
       assert.equal((await svc.resolveCharacter('Hu Tao')).slug, 'hu-tao');
-      await assert.rejects(svc.resolveCharacter('nahidaa'), (e) => e.status === 404 && e.suggestions.includes('nahida'));
+      assert.equal((await svc.resolveCharacter('nahidaa')).slug, 'nahida'); // clear typo → corrected
+      await assert.rejects(svc.resolveCharacter('nahiidaa'), (e) => e.status === 404 && e.suggestions.includes('nahida'));
    });
 
    it('describeCharacter returns only the requested sections', async () => {
