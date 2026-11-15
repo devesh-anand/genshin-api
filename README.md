@@ -329,6 +329,65 @@ Returns `404` if the artifact set is not found.
 
 ---
 
+## Planner
+
+Material planner: what one or more characters/weapons need to reach target levels and talents,
+optionally after what you already own (lower tiers are crafted up automatically).
+
+### `POST /planner/plan`
+
+```json
+{
+  "targets": [
+    { "type": "character", "name": "Nahida",
+      "level": { "from": 1, "to": 90 },
+      "talents": { "normal_attack": { "from": 1, "to": 9 },
+                   "elemental_skill": { "from": 1, "to": 9 },
+                   "elemental_burst": { "from": 1, "to": 9 } } },
+    { "type": "weapon", "name": "A Thousand Floating Dreams", "level": { "from": 1, "to": 90 } }
+  ],
+  "inventory": { "Kalpalata Lotus": 100, "Teachings of Ingenuity": 30 }
+}
+```
+
+- `level`, `talents` and `inventory` are optional (give at least one of `level`/`talents` per target). Up to 20 targets.
+- Names are matched loosely (typos are fine). Weapons have no `talents`.
+- Cap levels (20, 40 … 80) are ambiguous: add `"from_ascended": true` if you've already ascended at your
+  current level, or `"to_ascended": true` to include the ascension at the target level.
+
+**Response** (for the request above, trimmed to one material):
+```json
+{
+  "targets": [
+    { "type": "character", "key": "nahida", "name": "Nahida", "level": { "from": 1, "to": 90, "ascensions": 6, "phase": { "from": 0, "to": 6 } },
+      "talents": { "normal_attack": { "from": 1, "to": 9 }, "elemental_skill": { "from": 1, "to": 9 }, "elemental_burst": { "from": 1, "to": 9 } },
+      "mora": 4950100 },
+    { "type": "weapon", "key": "a-thousand-floating-dreams", "name": "A Thousand Floating Dreams", "rarity": 5,
+      "level": { "from": 1, "to": 90, "ascensions": 6, "phase": { "from": 0, "to": 6 } }, "mora": 1131480 }
+  ],
+  "materials": [
+    { "key": "kalpalata-lotus", "name": "Kalpalata Lotus", "category": "local-specialty", "rarity": 1, "quantity": 168,
+      "source": { "type": "local-specialty", "region": "Sumeru" }, "owned": 100, "missing": 68 }
+  ],
+  "mora": { "leveling": 2579080, "ascension": 645000, "talents": 2857500, "crafting": 3850, "total": 6085430 },
+  "exp": { "character": 8362650, "weapon": 9064450 },
+  "crafting": [{ "key": "guide-to-ingenuity", "quantity": 7, "from": "teachings-of-ingenuity", "from_quantity": 21, "mora": 3850 }],
+  "missing_count": 2024
+}
+```
+Material lines also carry `family`/`tier` for craftable materials and `dropped_by` where known.
+`owned` / `crafted` / `missing`, `crafting` and `missing_count` appear only when an `inventory` is sent.
+
+### `POST /planner/farming`
+
+Same body as `/planner/plan`, plus optional `"day": "monday"` … `"sunday"`. Returns what's still needed
+grouped by where to farm it: `domains` (with open days), `domains_by_day`, `bosses`, `local_specialties`
+(by region), `enemies` (common drops), `other`, and `mora_needed`.
+
+Errors: `400` invalid input, `404` unknown character/weapon name (with suggestions in the message).
+
+---
+
 ## Search
 
 ### `GET /search?q=`
