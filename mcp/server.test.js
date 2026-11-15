@@ -54,6 +54,7 @@ describe('MCP: tool catalogue', () => {
       for (const n of [
          'search', 'list_characters', 'get_character', 'list_weapons', 'get_weapon', 'list_artifacts',
          'get_artifact', 'list_materials', 'get_material', 'list_enemies', 'get_enemy', 'get_game_info',
+         'plan_materials', 'get_farming_schedule',
       ]) assert.ok(names.includes(n), `tool ${n} disappeared`);
    });
 
@@ -149,6 +150,40 @@ describe('MCP: tool calls', () => {
 
    it('get_game_info includes the disclaimer', async () => {
       assert.match((await call('get_game_info')).json.disclaimer, /not affiliated with HoYoverse/);
+   });
+});
+
+describe('MCP: planner tools', () => {
+   const nahida = { type: 'character', name: 'nahida', level: { from: 1, to: 90 }, talents: { elemental_skill: { from: 1, to: 10 } } };
+
+   it('plan_materials returns totals without long enemy lists', async () => {
+      const r = await call('plan_materials', { targets: [nahida] });
+      assert.equal(r.isError, false, r.text);
+      assert.equal(r.json.mora.ascension, 420000);
+      assert.equal(r.json.mora.talents, 1652500);
+      assert.ok(r.json.materials.find((m) => m.key === 'kalpalata-lotus').quantity === 168);
+      assert.ok(!r.text.includes('"dropped_by"'));
+   });
+
+   it('plan_materials applies inventory with crafting', async () => {
+      const r = await call('plan_materials', { targets: [nahida], inventory: { 'teachings of ingenuity': 30 } });
+      assert.ok(r.json.crafting.some((c) => c.key === 'guide-to-ingenuity'));
+      assert.ok(r.json.materials.every((m) => typeof m.missing === 'number'));
+   });
+
+   it('get_farming_schedule filters by day', async () => {
+      const r = await call('get_farming_schedule', { targets: [nahida], day: 'tuesday' });
+      assert.equal(r.json.day, 'tuesday');
+      assert.ok(r.json.domains.every((d) => d.days.includes('tuesday')));
+   });
+
+   it('bad plans are readable tool errors', async () => {
+      const r = await call('plan_materials', { targets: [{ type: 'character', name: 'nahida', level: { from: 90, to: 1 } }] });
+      assert.equal(r.isError, true);
+      assert.match(r.text, /below current/);
+      const unknown = await call('plan_materials', { targets: [{ type: 'weapon', name: 'zzzzzzzzzz', level: { from: 1, to: 20 } }] });
+      assert.equal(unknown.isError, true);
+      assert.match(unknown.text, /No weapon matches/);
    });
 });
 

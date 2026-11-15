@@ -450,8 +450,11 @@ like Claude can look up characters, weapons, artifacts, materials and enemies di
 
 **Hosted endpoint:** `https://genshin-api.deve.sh/mcp` (Streamable HTTP, no sign-in needed)
 
-**Tools:** `search`, `list_characters`, `get_character`, `list_weapons`, `get_weapon`, `list_artifacts`,
-`get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`.
+**Tools:**
+- Lookup: `search`, `list_characters`, `get_character`, `list_weapons`, `get_weapon`, `list_artifacts`,
+  `get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`
+- Planner: `plan_materials` (everything a build needs, optionally after your inventory) and
+  `get_farming_schedule` (what to farm where, by weekday) — same engine as [`/planner`](#planner)
 
 **claude.ai / Claude apps:** Settings → Connectors → *Add custom connector* → paste the endpoint URL.
 

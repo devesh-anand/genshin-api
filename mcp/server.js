@@ -25,6 +25,8 @@ export const INSTRUCTIONS = `Genshin Impact game data: characters, weapons, arti
 - Not sure what something is? Call search first, then the matching get_* tool with a returned key.
 - get_character and get_weapon return only the sections you request — ask for just what the question needs.
 - Material keys in costs/drops can be passed to get_material.
+- For "what do I need to build X" use plan_materials (pass the player's inventory if known); for
+  "what should I farm today" use get_farming_schedule. Don't add up costs yourself.
 - Unofficial fan project, not affiliated with HoYoverse; game content belongs to HoYoverse / COGNOSPHERE.`;
 
 const DEFAULT_ANNOTATIONS = { readOnlyHint: true, idempotentHint: true, openWorldHint: false };
