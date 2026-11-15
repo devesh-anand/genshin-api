@@ -4,7 +4,10 @@
  */
 import { characterStore, queryCharacters } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, nameOrAliasIncludes } from '../../lib/nameResolver.js';
+import { CHARACTER_ALIASES } from './aliases.js';
+
+export { CHARACTER_ALIASES };
 import { omitKeys, pick } from '../../lib/objects.js';
 
 /** Public sort keys → data fields. */
@@ -56,14 +59,14 @@ export const getCharacter = (slug) => characterStore.getOne(slug);
 
 /** Loose name → { slug, suggestions } (see lib/nameResolver.js). */
 export async function findCharacter(name) {
-   return resolveName(await characterStore.getAll(), name);
+   return resolveName(await characterStore.getAll(), name, { aliases: CHARACTER_ALIASES });
 }
 
 export const listElements = () => characterStore.getDistinct('vision');
 export const listNations = () => characterStore.getDistinct('nation');
 
 export async function searchCharacters(term) {
-   return (await characterStore.query(nameIncludes(term))).map(toSearchResult);
+   return (await characterStore.query(nameOrAliasIncludes(term, CHARACTER_ALIASES))).map(toSearchResult);
 }
 
 export async function countCharacters() {
@@ -93,8 +96,9 @@ export function toBrief({ slug, data }) {
  * so model-facing callers should request only what they need.
  */
 export const CHARACTER_SECTIONS = {
-   overview: (d) => ({
+   overview: (d, slug) => ({
       ...pick(d, ['name', 'title', 'vision', 'weapon', 'nation', 'affiliation', 'rarity', 'constellation', 'birthday']),
+      ...(CHARACTER_ALIASES[slug] && { aliases: CHARACTER_ALIASES[slug] }),
       description: d.description,
    }),
    talents: (d) => ({
@@ -112,7 +116,7 @@ export const CHARACTER_SECTIONS = {
  * @returns {Promise<{slug: string, data: object}>}
  */
 export async function resolveCharacter(name) {
-   return resolveOrThrow(await characterStore.getAll(), name, 'character');
+   return resolveOrThrow(await characterStore.getAll(), name, 'character', { aliases: CHARACTER_ALIASES });
 }
 
 /**
@@ -121,5 +125,5 @@ export async function resolveCharacter(name) {
  * @param {Array<keyof CHARACTER_SECTIONS>} [sections] - defaults to ['overview']
  */
 export function describeCharacter({ slug, data }, sections = ['overview']) {
-   return Object.assign({ key: slug }, ...sections.map((s) => CHARACTER_SECTIONS[s](data)));
+   return Object.assign({ key: slug }, ...sections.map((s) => CHARACTER_SECTIONS[s](data, slug)));
 }

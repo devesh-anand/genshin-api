@@ -1,7 +1,10 @@
 /** Weapons — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { weaponStore, queryWeapons } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, nameOrAliasIncludes } from '../../lib/nameResolver.js';
+import { WEAPON_ALIASES } from './aliases.js';
+
+export { WEAPON_ALIASES };
 import { pick } from '../../lib/objects.js';
 
 export const SORT_FIELDS = {
@@ -40,13 +43,13 @@ export async function listWeapons({ type, rarity, sort, order } = {}) {
 export const getWeapon = (slug) => weaponStore.getOne(slug);
 
 export async function findWeapon(name) {
-   return resolveName(await weaponStore.getAll(), name);
+   return resolveName(await weaponStore.getAll(), name, { aliases: WEAPON_ALIASES });
 }
 
 export const listWeaponTypes = () => weaponStore.getDistinct('type');
 
 export async function searchWeapons(term) {
-   return (await weaponStore.query(nameIncludes(term))).map(toSearchResult);
+   return (await weaponStore.query(nameOrAliasIncludes(term, WEAPON_ALIASES))).map(toSearchResult);
 }
 
 export async function countWeapons() {
@@ -62,7 +65,10 @@ export function toBrief({ slug, data }) {
 
 /** Sections of a weapon record that callers can ask for. */
 export const WEAPON_SECTIONS = {
-   overview: (d) => pick(d, ['name', 'type', 'rarity', 'base_atk', 'sub_stat', 'passive_name', 'passive_desc', 'description']),
+   overview: (d, slug) => ({
+      ...pick(d, ['name', 'type', 'rarity', 'base_atk', 'sub_stat', 'passive_name', 'passive_desc', 'description']),
+      ...(WEAPON_ALIASES[slug] && { aliases: WEAPON_ALIASES[slug] }),
+   }),
    refinements: (d) => ({ passive_upgrades: d.passive_upgrades ?? [] }),
    ascension_costs: (d) => ({ ascension_costs: d.ascension_costs ?? [] }),
    images: (d) => ({ img: d.img ?? {} }),
@@ -70,10 +76,10 @@ export const WEAPON_SECTIONS = {
 
 /** @throws {NotFoundError} with suggestions */
 export async function resolveWeapon(name) {
-   return resolveOrThrow(await weaponStore.getAll(), name, 'weapon');
+   return resolveOrThrow(await weaponStore.getAll(), name, 'weapon', { aliases: WEAPON_ALIASES });
 }
 
 /** @param {Array<keyof WEAPON_SECTIONS>} [sections] - defaults to ['overview'] */
 export function describeWeapon({ slug, data }, sections = ['overview']) {
-   return Object.assign({ key: slug }, ...sections.map((s) => WEAPON_SECTIONS[s](data)));
+   return Object.assign({ key: slug }, ...sections.map((s) => WEAPON_SECTIONS[s](data, slug)));
 }

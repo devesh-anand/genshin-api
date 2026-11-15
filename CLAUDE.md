@@ -132,6 +132,10 @@ Tools are read-only by default (annotations); override with `annotations` only f
 
 ## Gotchas
 
+- Nicknames live in `features/{characters,weapons,artifacts}/aliases.js` (hand-curated, not synced):
+  slug → names players use ("tartaglia": ["Childe"], "PJWS", "EoSF"). `find*()`/`resolve*()` and search
+  use them; REST `/:name` stays exact. `lib/aliases.test.js` fails on a missing slug or an alias that
+  shadows another entry's name. Only shared aliases allowed: the Aether/Lumine traveler pairs.
 - Slugs don't always match display names (`raiden` is "Raiden Shogun", `kuki-shinobu` is `kuki`
   via `SLUG_OVERRIDES` in the scripts; travelers exist only as `aether-<element>` and
   `lumine-<element>`). Use `find*()` for user/model input.

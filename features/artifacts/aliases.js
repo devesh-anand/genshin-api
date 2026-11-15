@@ -1,0 +1,37 @@
+/**
+ * Community abbreviations → artifact set slugs. Hand-curated; see features/characters/aliases.js.
+ * Checked by service.test.js.
+ */
+export const ARTIFACT_ALIASES = {
+   'emblem-of-severed-fate': ['EoSF', 'Emblem'],
+   'viridescent-venerer': ['VV'],
+   'crimson-witch-of-flames': ['CW', 'CWoF'],
+   'noblesse-oblige': ['NO', 'Noblesse'],
+   'thundering-fury': ['TF'],
+   'blizzard-strayer': ['BS'],
+   'heart-of-depth': ['HoD'],
+   'gladiators-finale': ['Glad', 'Gladiator'],
+   'wanderers-troupe': ['WT'],
+   'shimenawas-reminiscence': ['Shime', 'Shimenawa'],
+   'tenacity-of-the-millelith': ['TotM', 'Millelith'],
+   'gilded-dreams': ['GD'],
+   'deepwood-memories': ['DM', 'Deepwood'],
+   'marechaussee-hunter': ['MH'],
+   'golden-troupe': ['GT'],
+   'pale-flame': ['PF'],
+   'husk-of-opulent-dreams': ['Husk'],
+   'ocean-hued-clam': ['OHC', 'Clam'],
+   'vermillion-hereafter': ['VH'],
+   'echoes-of-an-offering': ['Echoes'],
+   'flower-of-paradise-lost': ['FoPL'],
+   'nymphs-dream': ['Nymph'],
+   'vourukashas-glow': ['Vourukasha'],
+   'obsidian-codex': ['Obsidian'],
+   'scroll-of-the-hero-of-cinder-city': ['Scroll'],
+   'song-of-days-past': ['SoDP'],
+   'nighttime-whispers-in-the-echoing-woods': ['Nighttime Whispers', 'NWEW'],
+   'bloodstained-chivalry': ['BC', 'Bloodstained'],
+   'retracing-bolide': ['Bolide'],
+   'archaic-petra': ['Petra'],
+   'unfinished-reverie': ['Reverie'],
+};

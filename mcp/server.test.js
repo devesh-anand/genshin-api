@@ -153,6 +153,21 @@ describe('MCP: tool calls', () => {
    });
 });
 
+describe('MCP: nicknames', () => {
+   it('get_* tools accept community nicknames and abbreviations', async () => {
+      assert.equal((await call('get_character', { name: 'Childe' })).json.key, 'tartaglia');
+      assert.equal((await call('get_weapon', { name: 'PJWS' })).json.key, 'primordial-jade-winged-spear');
+      assert.equal((await call('get_artifact', { name: 'EoSF' })).json.key, 'emblem-of-severed-fate');
+      const plan = await call('plan_materials', { targets: [{ type: 'character', name: 'Ei', level: { from: 1, to: 20 } }] });
+      assert.equal(plan.json.targets[0].key, 'raiden');
+   });
+
+   it('search finds characters by nickname', async () => {
+      const r = await call('search', { query: 'childe', types: ['characters'] });
+      assert.ok(r.json.results.characters.some((c) => c.key === 'tartaglia'));
+   });
+});
+
 describe('MCP: planner tools', () => {
    const nahida = { type: 'character', name: 'nahida', level: { from: 1, to: 90 }, talents: { elemental_skill: { from: 1, to: 10 } } };
 
