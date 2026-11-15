@@ -26,9 +26,9 @@ so adding login later doesn't require restructuring.
 |---|---|---|
 | 0 | Feature-folder refactor, service layer, name resolver, tests + CI, CLAUDE.md | ✅ #15 |
 | 1 | MCP over stdio: core lookup tools; tested with MCP Inspector, Claude Code, Claude Desktop | ✅ #16, #17 |
-| 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | ✅ this PR |
-| 3 | Material planner (`plan_materials`) from `ascension_costs` / `talent_costs` + material sources | next |
-| 4 | Teams & DPS: ingest public community calc DBs (check licenses/attribution); likely Postgres | |
+| 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | ✅ #18, #19 |
+| 3 | Material planner: `plan_materials`, `get_farming_schedule` + `POST /planner/*`; inventory + crafting | ✅ #20–#23 |
+| 4 | Teams & DPS: ingest public community calc DBs (check licenses/attribution); likely Postgres | next |
 | 5 | Accounts + wish history (desktop sync app); OAuth 2.1 on `/mcp`; personal tools | |
 
 ### Phase 1 tools (shipped)
@@ -62,8 +62,3 @@ Largest default response is ~5.6k tokens (`list_artifacts` with bonuses); most a
   credentials or user state a malicious page could abuse. Revisit both in Phase 5.
 - Usage log line per tool call: `{"event":"mcp_tool_call","tool","ok","ms","error"?}` — no arguments, no IPs.
 
-## Known data gaps to resolve before Phase 3
-
-- Domain/weekday schedules for talent & weapon materials.
-- Boss sources for ascension/talent boss materials (check `dropped_by` coverage).
-- Character aliases/nicknames (e.g. "Childe" → `tartaglia`) for the name resolver.

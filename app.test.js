@@ -76,6 +76,46 @@ describe('REST API', () => {
    });
 });
 
+describe('REST planner', () => {
+   const post = (p, body) =>
+      fetch(base + p, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+   const nahida = { type: 'character', name: 'nahida', level: { from: 1, to: 90 } };
+
+   it('POST /planner/plan returns the plan', async () => {
+      const res = await post('/planner/plan', { targets: [nahida] });
+      assert.equal(res.status, 200);
+      const plan = await res.json();
+      assert.equal(plan.mora.ascension, 420000);
+      assert.ok(plan.materials.some((m) => m.key === 'kalpalata-lotus' && m.quantity === 168));
+   });
+
+   it('POST /planner/plan applies an inventory', async () => {
+      const plan = await (await post('/planner/plan', { targets: [nahida], inventory: { 'kalpalata lotus': 100 } })).json();
+      assert.equal(plan.materials.find((m) => m.key === 'kalpalata-lotus').missing, 68);
+   });
+
+   it('POST /planner/farming groups by source and day', async () => {
+      const res = await post('/planner/farming', { targets: [{ ...nahida, talents: { elemental_skill: { from: 1, to: 10 } } }], day: 'sunday' });
+      assert.equal(res.status, 200);
+      const f = await res.json();
+      assert.equal(f.day, 'sunday');
+      assert.ok(f.domains.length > 0);
+   });
+
+   it('invalid input is 400, unknown names are 404, GET is not allowed', async () => {
+      assert.equal((await post('/planner/plan', { targets: [] })).status, 400);
+      assert.equal((await post('/planner/plan', { targets: [{ type: 'character', name: 'nahida', level: { from: 90, to: 1 } }] })).status, 400);
+      const missing = await post('/planner/plan', { targets: [{ type: 'character', name: 'zzzzzzzz', level: { from: 1, to: 2 } }] });
+      assert.equal(missing.status, 404);
+      assert.match((await missing.json()).error, /No character matches/);
+      assert.equal((await fetch(base + '/planner/plan')).status, 404);
+   });
+
+   it('plans are not cached', async () => {
+      assert.equal((await post('/planner/plan', { targets: [nahida] })).headers.get('cache-control'), null);
+   });
+});
+
 describe('REST rate limiting', () => {
    it('counts each client IP separately behind the proxy (trust proxy)', async () => {
       const limited = createApp({ rateLimit: true }).listen(0);

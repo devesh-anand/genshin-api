@@ -2,7 +2,7 @@
 // If one fails after a data sync, the data changed — check the game before "fixing" the test.
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { planMaterials, phaseAt, expItemsFor, sortNeeds } from './service.js';
+import { planMaterials, getFarmingSchedule, phaseAt, expItemsFor, sortNeeds } from './service.js';
 import { ValidationError, NotFoundError } from '../../lib/errors.js';
 
 const qty = (plan) => Object.fromEntries(plan.materials.map((m) => [m.key, m.quantity]));
@@ -169,5 +169,83 @@ describe('planner helpers', () => {
          { key: 'spec', category: 'local-specialty' },
       ];
       assert.deepEqual(sortNeeds(lines).map((l) => l.key), ['spec', 'b1', 'b2', 'x']);
+   });
+});
+
+describe('planner: inventory', () => {
+   const skill = char('nahida', { talents: { elemental_skill: { from: 1, to: 10 } } });
+
+   it('subtracts owned items and crafts lower tiers up', async () => {
+      const plan = await planMaterials({
+         targets: [skill],
+         inventory: { 'teachings of ingenuity': 30, 'guide-to-ingenuity': 5, 'Puppet Strings': 2 },
+      });
+      const line = (k) => plan.materials.find((m) => m.key === k);
+      assert.equal(line('teachings-of-ingenuity').missing, 0);
+      assert.deepEqual([line('guide-to-ingenuity').crafted, line('guide-to-ingenuity').missing], [9, 7]); // 27 spare → 9
+      assert.equal(line('puppet-strings').missing, 4);
+      assert.equal(line('philosophies-of-ingenuity').missing, 38);
+      assert.deepEqual(plan.crafting.find((c) => c.key === 'guide-to-ingenuity'), {
+         key: 'guide-to-ingenuity', quantity: 9, from: 'teachings-of-ingenuity', from_quantity: 27, mora: 9 * 550,
+      });
+      assert.equal(plan.mora.total, plan.mora.talents + plan.mora.crafting);
+   });
+
+   it('an inventory covering everything leaves nothing missing', async () => {
+      const base = await planMaterials({ targets: [skill] });
+      const inventory = Object.fromEntries(base.materials.map((m) => [m.key, m.quantity]));
+      const plan = await planMaterials({ targets: [skill], inventory });
+      assert.equal(plan.missing_count, 0);
+      assert.equal(plan.mora.crafting, 0);
+   });
+
+   it('counts EXP items by EXP value', async () => {
+      const lvl = char('nahida', { level: { from: 1, to: 90 } });
+      // 1,600 Adventurer's Experience = 8,000,000 EXP of the 8,362,650 needed → 362,650 left
+      const plan = await planMaterials({ targets: [lvl], inventory: { "adventurer's experience": 1600 } });
+      const line = (k) => plan.materials.find((m) => m.key === k);
+      assert.equal(line('heros-wit').missing, 18);       // 360,000
+      assert.equal(line('wanderers-advice').missing, 3); // 2,650 → 3,000
+      assert.equal(line('heros-wit').owned, 0);
+   });
+
+   it('reports unknown inventory names instead of failing', async () => {
+      const plan = await planMaterials({ targets: [skill], inventory: { 'definitely not a material': 5 } });
+      assert.deepEqual(plan.unknown_inventory, ['definitely not a material']);
+   });
+
+   it('without an inventory, lines have no owned/missing fields', async () => {
+      const plan = await planMaterials({ targets: [skill] });
+      assert.ok(plan.materials.every((m) => m.missing === undefined));
+      assert.equal(plan.crafting, undefined);
+   });
+});
+
+describe('planner: farming schedule', () => {
+   const input = { targets: [char('nahida', { level: { from: 1, to: 90 }, talents: { elemental_skill: { from: 1, to: 10 } } })] };
+
+   it('groups what is needed by where it comes from', async () => {
+      const f = await getFarmingSchedule(input);
+      assert.ok(f.domains.some((d) => d.domain.includes('Mastery') && d.materials.some((m) => m.key === 'philosophies-of-ingenuity')));
+      assert.ok(f.local_specialties.some((r) => r.materials.some((m) => m.key === 'kalpalata-lotus')));
+      assert.ok(f.bosses.some((b) => b.key === 'quelled-creeper' && b.dropped_by.length));
+      assert.ok(f.enemies.some((e) => e.key === 'crystalline-cyst-dust'));
+      assert.ok(f.other.some((o) => o.key === 'heros-wit'));
+      assert.ok(f.mora_needed > 0);
+      assert.equal(Object.keys(f.domains_by_day).length, 7);
+   });
+
+   it('filters domains by day (Sunday has everything)', async () => {
+      const monday = await getFarmingSchedule({ ...input, day: 'monday' });
+      const sunday = await getFarmingSchedule({ ...input, day: 'sunday' });
+      assert.ok(monday.domains.every((d) => d.days.includes('monday')));
+      const week = await getFarmingSchedule(input);
+      assert.equal(sunday.domains.length, week.domains.length);
+      await assert.rejects(getFarmingSchedule({ ...input, day: 'funday' }), ValidationError);
+   });
+
+   it('leaves out what the inventory already covers', async () => {
+      const f = await getFarmingSchedule({ ...input, inventory: { 'kalpalata lotus': 168 } });
+      assert.ok(!f.local_specialties.some((r) => r.materials.some((m) => m.key === 'kalpalata-lotus')));
    });
 });
