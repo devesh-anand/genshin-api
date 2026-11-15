@@ -8,30 +8,30 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "dull-blade",
       "apprentices-notes",
-      "silver-sword",
-      "pocket-grimoire",
-      "cool-steel",
-      "ferrous-shadow",
-      "magic-guide",
-      "raven-bow",
-      "favonius-sword",
-      "royal-longsword",
-      "the-alley-flash",
-      "cinnabar-spindle",
-      "wolf-fang",
-      "the-bell",
-      "snow-tombed-starsilver",
-      "favonius-codex",
-      "royal-grimoire",
-      "the-stringless",
-      "the-viridescent-hunt",
-      "mitternachts-waltz",
       "aquila-favonia",
       "athame-artis",
+      "cinnabar-spindle",
+      "cool-steel",
+      "disaster-and-remorse",
+      "dull-blade",
+      "favonius-codex",
+      "favonius-sword",
+      "ferrous-shadow",
+      "magic-guide",
+      "mitternachts-waltz",
+      "pocket-grimoire",
+      "raven-bow",
+      "royal-grimoire",
+      "royal-longsword",
+      "silver-sword",
+      "snow-tombed-starsilver",
       "song-of-broken-pines",
-      "disaster-and-remorse"
+      "the-alley-flash",
+      "the-bell",
+      "the-stringless",
+      "the-viridescent-hunt",
+      "wolf-fang"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/debris-of-decarabians-city/icon.png",
@@ -43,5 +43,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "tile-of-decarabians-tower",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "scattered-piece-of-decarabians-dream-series",
+  "tier": 2
 }

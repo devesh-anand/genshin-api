@@ -7,12 +7,12 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "tighnari",
-      "cyno",
+      "aether-dendro",
       "candace",
+      "cyno",
       "faruzan",
-      "traveler",
-      "traveler"
+      "lumine-dendro",
+      "tighnari"
     ],
     "weapons": []
   },
@@ -25,5 +25,8 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-admonition-series",
+  "tier": 1
 }

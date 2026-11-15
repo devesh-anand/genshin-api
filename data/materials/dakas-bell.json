@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
+      "sethos",
       "wanderer",
-      "yaoyao",
-      "sethos"
+      "yaoyao"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

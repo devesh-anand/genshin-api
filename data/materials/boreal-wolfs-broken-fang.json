@@ -8,32 +8,32 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "waster-greatsword",
-      "hunters-bow",
-      "old-mercs-pal",
-      "seasoned-hunters-bow",
-      "harbinger-of-dawn",
-      "bloodtainted-greatsword",
-      "thrilling-tales-of-dragon-slayers",
-      "sharpshooters-oath",
-      "the-flute",
-      "the-black-sword",
-      "sword-of-descension",
-      "sacrificial-greatsword",
-      "deathmatch",
-      "dragonspine-spear",
-      "missive-windspear",
-      "the-widsith",
-      "wine-and-song",
-      "dodoco-tales",
       "ballad-of-the-boundless-blue",
-      "sacrificial-bow",
-      "skyward-blade",
-      "skyward-pride",
+      "bloodtainted-greatsword",
+      "deathmatch",
+      "dodoco-tales",
+      "dragonspine-spear",
+      "elegy-for-the-end",
       "gest-of-the-mighty-wolf",
+      "harbinger-of-dawn",
+      "hunters-bow",
+      "missive-windspear",
+      "old-mercs-pal",
+      "sacrificial-bow",
+      "sacrificial-greatsword",
+      "seasoned-hunters-bow",
+      "sharpshooters-oath",
       "skyward-atlas",
+      "skyward-blade",
       "skyward-harp",
-      "elegy-for-the-end"
+      "skyward-pride",
+      "sword-of-descension",
+      "the-black-sword",
+      "the-flute",
+      "the-widsith",
+      "thrilling-tales-of-dragon-slayers",
+      "waster-greatsword",
+      "wine-and-song"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/boreal-wolfs-broken-fang/icon.png",
@@ -45,5 +45,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "boreal-wolfs-cracked-tooth",
+    "quantity": 3,
+    "mora": 350
+  },
+  "family": "boreal-wolfs-nostalgia-series",
+  "tier": 3
 }

@@ -8,13 +8,13 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "makhaira-aquamarine",
-      "kings-squire",
-      "end-of-the-line",
-      "scion-of-the-blazing-sun",
       "beacon-of-the-reed-sea",
-      "tulaytullahs-remembrance",
-      "hunters-path"
+      "end-of-the-line",
+      "hunters-path",
+      "kings-squire",
+      "makhaira-aquamarine",
+      "scion-of-the-blazing-sun",
+      "tulaytullahs-remembrance"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/olden-days-of-scorching-might/icon.png",
@@ -26,5 +26,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "dream-of-scorching-might",
+    "quantity": 3,
+    "mora": 1075
+  },
+  "family": "olden-days-of-scorching-might-series",
+  "tier": 4
 }

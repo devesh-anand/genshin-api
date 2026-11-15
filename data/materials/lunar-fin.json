@@ -10,9 +10,9 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "dialogues-of-the-desert-sages",
       "chain-breaker",
       "cranes-echoing-call",
+      "dialogues-of-the-desert-sages",
       "silvershower-heartstrings"
     ]
   },
@@ -20,5 +20,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Xuanwen Beasts"
-  }
+  },
+  "craft": {
+    "from": "feathery-fin",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "chasmlight-fin-series",
+  "tier": 2
 }

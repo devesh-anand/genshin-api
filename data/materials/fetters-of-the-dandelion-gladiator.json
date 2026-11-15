@@ -8,30 +8,30 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "alley-hunter",
+      "amos-bow",
       "beginners-protector",
+      "favonius-greatsword",
+      "favonius-lance",
+      "favonius-warbow",
+      "festering-desire",
+      "freedom-sworn",
+      "frostbearer",
       "iron-point",
-      "travelers-handy-sword",
-      "white-iron-greatsword",
+      "lost-prayer-to-the-sacred-winds",
+      "mailed-flower",
       "otherworldly-story",
       "recurve-bow",
-      "sacrificial-sword",
-      "festering-desire",
-      "favonius-greatsword",
-      "royal-greatsword",
-      "mailed-flower",
-      "favonius-lance",
-      "sacrificial-fragments",
-      "frostbearer",
-      "favonius-warbow",
       "royal-bow",
-      "alley-hunter",
-      "windblume-ode",
-      "freedom-sworn",
-      "wolfs-gravestone",
+      "royal-greatsword",
+      "sacrificial-fragments",
+      "sacrificial-sword",
       "skyward-spine",
-      "lost-prayer-to-the-sacred-winds",
-      "amos-bow",
-      "the-daybreak-chronicles"
+      "the-daybreak-chronicles",
+      "travelers-handy-sword",
+      "white-iron-greatsword",
+      "windblume-ode",
+      "wolfs-gravestone"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/fetters-of-the-dandelion-gladiator/icon.png",
@@ -43,5 +43,8 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "dream-of-the-dandelion-gladiator-series",
+  "tier": 1
 }

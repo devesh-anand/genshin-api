@@ -5,22 +5,25 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
+    "consecrated-flying-serpent",
     "consecrated-red-vulture",
-    "consecrated-scorpion",
-    "consecrated-flying-serpent"
+    "consecrated-scorpion"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "mailed-flower",
-      "talking-stick",
+      "beacon-of-the-reed-sea",
       "light-of-foliar-incision",
-      "beacon-of-the-reed-sea"
+      "mailed-flower",
+      "talking-stick"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/desiccated-shell/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Consecrated Beasts"
-  }
+  },
+  "craft": null,
+  "family": "marked-shell-series",
+  "tier": 1
 }

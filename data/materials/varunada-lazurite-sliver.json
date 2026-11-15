@@ -5,40 +5,42 @@
   "rarity": 2,
   "category": "ascension-gem",
   "dropped_by": [
-    "hydro-hypostasis",
-    "oceanid",
-    "hydro-tulpa",
-    "frostnight-herra",
-    "iniquitous-baptist",
     "aeonblight-drake",
-    "secret-source-automaton-overseer-device",
+    "all-devouring-narwhal",
+    "azhdaha",
+    "childe",
+    "frostnight-herra",
+    "hydro-hypostasis",
+    "hydro-tulpa",
+    "iniquitous-baptist",
+    "oceanid",
     "primo-geovishap",
+    "secret-source-automaton-overseer-device",
+    "shouki-no-kami-the-prodigal",
     "solitary-suanni",
     "stormterror",
-    "childe",
-    "azhdaha",
-    "shouki-no-kami-the-prodigal",
-    "all-devouring-narwhal",
-    "the-doctor"
+    "the-doctor",
+    "wavebinder"
   ],
   "used_by": {
     "characters": [
-      "barbara",
-      "xingqiu",
-      "tartaglia",
-      "mona",
-      "sangonomiya-kokomi",
-      "yelan",
-      "kamisato-ayato",
-      "nilou",
-      "candace",
-      "neuvillette",
-      "furina",
-      "sigewinne",
-      "mualani",
-      "dahlia",
       "aino",
-      "columbina"
+      "ayato",
+      "barbara",
+      "candace",
+      "columbina",
+      "dahlia",
+      "furina",
+      "kokomi",
+      "mona",
+      "mualani",
+      "neuvillette",
+      "nilou",
+      "sigewinne",
+      "tartaglia",
+      "vodyanitsa",
+      "xingqiu",
+      "yelan"
     ],
     "weapons": []
   },
@@ -46,5 +48,8 @@
   "source": {
     "type": "boss",
     "description": "Purchase from the Souvenir Shop"
-  }
+  },
+  "craft": null,
+  "family": "varunada-lazurite-gemstone-series",
+  "tier": 1
 }

@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "mavuika",
       "escoffier",
-      "illuga"
+      "illuga",
+      "mavuika"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Lord of Eroded Primal Fire Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

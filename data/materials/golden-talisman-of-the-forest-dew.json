@@ -8,14 +8,14 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "sapwood-blade",
-      "xiphos-moonlight",
-      "forest-regalia",
-      "dialogues-of-the-desert-sages",
       "clash-of-kings",
+      "dialogues-of-the-desert-sages",
+      "forest-regalia",
       "ibis-piercer",
       "key-of-khaj-nisut",
-      "light-of-foliar-incision"
+      "light-of-foliar-incision",
+      "sapwood-blade",
+      "xiphos-moonlight"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/golden-talisman-of-the-forest-dew/icon.png",
@@ -27,5 +27,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "silver-talisman-of-the-forest-dew",
+    "quantity": 3,
+    "mora": 1075
+  },
+  "family": "golden-talisman-of-the-forest-dew-series",
+  "tier": 4
 }

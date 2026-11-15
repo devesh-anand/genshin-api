@@ -10,9 +10,9 @@
   "used_by": {
     "characters": [
       "lisa",
+      "noelle",
       "razor",
-      "xiangling",
-      "noelle"
+      "xiangling"
     ],
     "weapons": []
   },
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Stormterror Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

@@ -12,10 +12,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "moonweavers-dawn",
-      "master-key",
-      "etherlight-spindlelute",
       "disaster-and-remorse",
+      "etherlight-spindlelute",
+      "master-key",
+      "moonweavers-dawn",
       "reliquary-of-truth"
     ]
   },
@@ -23,5 +23,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Radiant Beasts"
-  }
+  },
+  "craft": null,
+  "family": "radiant-exoskeleton-series",
+  "tier": 1
 }

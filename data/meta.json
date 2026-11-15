@@ -1,26 +1,38 @@
 {
-  "last_synced": "2026-11-15T07:52:13.002Z",
+  "last_synced": "2026-11-15T18:40:00.878Z",
   "counts": {
-    "characters": 136,
-    "weapons": 277,
-    "materials": 515,
+    "characters": 138,
+    "weapons": 253,
+    "materials": 536,
     "enemies": 351
   },
   "last_run_results": {
-    "characters": {
-      "added": 2,
-      "failed": 0
-    },
-    "weapons": {
-      "added": 1,
-      "failed": 0
-    },
     "materials": {
-      "added": 6,
+      "added": 0,
+      "failed": 0
+    },
+    "material_details": {
+      "added": 0,
       "failed": 0
     },
     "enemies": {
-      "added": 4,
+      "added": 0,
+      "failed": 0
+    },
+    "characters": {
+      "added": 0,
+      "failed": 0
+    },
+    "weapons": {
+      "added": 0,
+      "failed": 0
+    },
+    "progression": {
+      "added": 0,
+      "failed": 0
+    },
+    "links": {
+      "added": 0,
       "failed": 0
     }
   }

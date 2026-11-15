@@ -9,7 +9,7 @@
   ],
   "used_by": {
     "characters": [
-      "kaedehara-kazuha",
+      "kazuha",
       "sayu"
     ],
     "weapons": []
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Maguu Kenki"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

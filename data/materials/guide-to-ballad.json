@@ -7,19 +7,19 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "lisa",
-      "kaeya",
-      "venti",
-      "fischl",
+      "aether-anemo",
+      "aether-geo",
       "albedo",
-      "rosaria",
-      "mika",
       "dahlia",
       "durin",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler"
+      "fischl",
+      "kaeya",
+      "lisa",
+      "lumine-anemo",
+      "lumine-geo",
+      "mika",
+      "rosaria",
+      "venti"
     ],
     "weapons": []
   },
@@ -32,5 +32,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-ballad",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-ballad-series",
+  "tier": 2
 }

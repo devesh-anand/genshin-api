@@ -9,10 +9,10 @@
   ],
   "used_by": {
     "characters": [
+      "aether-hydro",
       "baizhu",
       "freminet",
-      "traveler",
-      "traveler"
+      "lumine-hydro"
     ],
     "weapons": []
   },
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Guardian of Apep's Oasis Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

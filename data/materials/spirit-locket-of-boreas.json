@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
+      "fischl",
       "kaeya",
       "ningguang",
-      "fischl",
       "sucrose"
     ],
     "weapons": []
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Wolf of the North Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

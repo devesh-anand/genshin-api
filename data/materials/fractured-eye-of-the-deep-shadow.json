@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Fishers of Hidden Depths"
-  }
+  },
+  "craft": null,
+  "family": "hooked-beak-of-the-deep-shadow-series",
+  "tier": 1
 }

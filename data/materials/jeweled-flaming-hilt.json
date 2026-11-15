@@ -18,5 +18,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Domain Keepers"
-  }
+  },
+  "craft": {
+    "from": "fractured-flaming-hilt",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "jeweled-flaming-hilt-series",
+  "tier": 3
 }

@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "thoma",
-      "sangonomiya-kokomi",
-      "shenhe"
+      "kokomi",
+      "shenhe",
+      "thoma"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Signora Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

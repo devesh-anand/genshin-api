@@ -9,7 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "sandrone"
+      "sandrone",
+      "vodyanitsa"
     ],
     "weapons": []
   },
@@ -17,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ The Doctor Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

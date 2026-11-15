@@ -5,42 +5,45 @@
   "rarity": 1,
   "category": "common-drop",
   "dropped_by": [
-    "tepetlisaur-whelp",
-    "tepetlisaurus",
+    "iktomisaurus",
+    "iktomisaurus-chick",
     "koholasaur-whelp",
     "koholasaurus",
-    "yumkasaur-whelp",
-    "yumkasaurus",
-    "qucusaurus-chick",
     "qucusaurus",
-    "iktomisaurus-chick",
-    "iktomisaurus"
+    "qucusaurus-chick",
+    "tepetlisaur-whelp",
+    "tepetlisaurus",
+    "yumkasaur-whelp",
+    "yumkasaurus"
   ],
   "used_by": {
     "characters": [
-      "kinich",
       "chasca",
-      "ororon",
       "citlali",
-      "varesa",
-      "ifa"
+      "ifa",
+      "kinich",
+      "ororon",
+      "varesa"
     ],
     "weapons": [
-      "flute-of-ezpitzal",
-      "fruitful-hook",
-      "ash-graven-drinking-horn",
-      "waveriding-whirl",
-      "chain-breaker",
-      "peak-patrol-song",
       "a-thousand-blazing-suns",
+      "ash-graven-drinking-horn",
+      "chain-breaker",
+      "flute-of-ezpitzal",
       "fractured-halo",
+      "fruitful-hook",
+      "peak-patrol-song",
       "surfs-up",
-      "vivid-notions"
+      "vivid-notions",
+      "waveriding-whirl"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/juvenile-fang/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Natlan Saurians"
-  }
+  },
+  "craft": null,
+  "family": "tyrants-fang-series",
+  "tier": 1
 }

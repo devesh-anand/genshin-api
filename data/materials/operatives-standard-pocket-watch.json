@@ -5,23 +5,30 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "wind-operative",
-    "frost-operative"
+    "frost-operative",
+    "wind-operative"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "the-dockhands-assistant",
-      "sword-of-narzissenkreuz",
-      "ultimate-overlords-mega-magic-sword",
-      "prospectors-drill",
       "absolution",
-      "cashflow-supervision"
+      "cashflow-supervision",
+      "prospectors-drill",
+      "sword-of-narzissenkreuz",
+      "the-dockhands-assistant",
+      "ultimate-overlords-mega-magic-sword"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/operatives-standard-pocket-watch/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Fatui Operatives"
-  }
+  },
+  "craft": {
+    "from": "old-operatives-pocket-watch",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "operatives-constancy-series",
+  "tier": 2
 }

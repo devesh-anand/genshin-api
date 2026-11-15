@@ -9,7 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "odette"
+      "odette",
+      "vodyanitsa"
     ],
     "weapons": []
   },
@@ -17,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Immortal Constructs"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

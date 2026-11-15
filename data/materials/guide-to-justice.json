@@ -7,13 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "freminet",
+      "aether-hydro",
       "charlotte",
-      "furina",
       "clorinde",
       "escoffier",
-      "traveler",
-      "traveler"
+      "freminet",
+      "furina",
+      "lumine-hydro"
     ],
     "weapons": []
   },
@@ -26,5 +26,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-justice",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-justice-series",
+  "tier": 2
 }

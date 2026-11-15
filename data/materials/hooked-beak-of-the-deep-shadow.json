@@ -18,5 +18,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Fishers of Hidden Depths"
-  }
+  },
+  "craft": {
+    "from": "aberrant-core-of-the-deep-shadow",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "hooked-beak-of-the-deep-shadow-series",
+  "tier": 3
 }

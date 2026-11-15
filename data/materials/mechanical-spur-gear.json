@@ -5,44 +5,51 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "recon-log-mek",
-    "arithmetic-enhancer-mek",
-    "underwater-survey-mek",
-    "geological-survey-mek",
-    "underwater-patrol-mek",
-    "nimble-harvester-mek",
-    "area-alert-mek",
-    "assault-specialist-mek",
-    "suppression-specialist-mek",
     "annihilation-specialist-mek",
-    "construction-specialist-mek"
+    "area-alert-mek",
+    "arithmetic-enhancer-mek",
+    "assault-specialist-mek",
+    "construction-specialist-mek",
+    "geological-survey-mek",
+    "nimble-harvester-mek",
+    "recon-log-mek",
+    "suppression-specialist-mek",
+    "underwater-patrol-mek",
+    "underwater-survey-mek"
   ],
   "used_by": {
     "characters": [
-      "lynette",
-      "wriothesley",
       "charlotte",
       "chevreuse",
       "emilie",
       "escoffier",
-      "skirk"
+      "lynette",
+      "skirk",
+      "wriothesley"
     ],
     "weapons": [
-      "tidal-shadow",
-      "portable-power-saw",
-      "ultimate-overlords-mega-magic-sword",
-      "rightful-reward",
-      "prospectors-drill",
-      "sequence-of-solitude",
       "absolution",
-      "verdict",
       "crimson-moons-semblance",
-      "tome-of-the-eternal-flow"
+      "portable-power-saw",
+      "prospectors-drill",
+      "rightful-reward",
+      "sequence-of-solitude",
+      "tidal-shadow",
+      "tome-of-the-eternal-flow",
+      "ultimate-overlords-mega-magic-sword",
+      "verdict"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mechanical-spur-gear/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Clockwork Meka"
-  }
+  },
+  "craft": {
+    "from": "meshing-gear",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "artificed-dynamic-gear-series",
+  "tier": 2
 }

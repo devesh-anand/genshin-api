@@ -9,7 +9,7 @@
   ],
   "used_by": {
     "characters": [
-      "kaedehara-kazuha",
+      "kazuha",
       "sayu",
       "yelan"
     ],
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Azhdaha Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

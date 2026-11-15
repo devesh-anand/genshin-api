@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "yae-miko",
-      "shenhe"
+      "shenhe",
+      "yae"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Bathysmal Vishap Herds"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

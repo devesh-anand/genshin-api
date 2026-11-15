@@ -8,14 +8,14 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "flute-of-ezpitzal",
-      "sturdy-bone",
-      "heretics-molten-blade",
-      "earth-shaker",
-      "waveriding-whirl",
       "a-thousand-blazing-suns",
+      "earth-shaker",
+      "flute-of-ezpitzal",
       "fractured-halo",
-      "surfs-up"
+      "heretics-molten-blade",
+      "sturdy-bone",
+      "surfs-up",
+      "waveriding-whirl"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/blazing-sacrificial-hearts-terror/icon.png",
@@ -27,5 +27,8 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "blazing-sacrificial-hearts-splendor-series",
+  "tier": 1
 }

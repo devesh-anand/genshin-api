@@ -8,8 +8,11 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "breezeborne-refrain",
+      "exaiphanes-blade",
       "song-of-the-vigil",
-      "exaiphanes-blade"
+      "starsealed-edict",
+      "winters-heavy-heart"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/the-frost-emperors-ceremony/icon.png",
@@ -21,5 +24,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "the-frost-emperors-revival",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "the-frost-emperors-farewell-series",
+  "tier": 2
 }

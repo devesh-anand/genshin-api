@@ -10,10 +10,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "heretics-molten-blade",
       "flame-forged-insight",
-      "sequence-of-solitude",
       "fractured-halo",
+      "heretics-molten-blade",
+      "sequence-of-solitude",
       "vivid-notions"
     ]
   },
@@ -21,5 +21,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Furnace Shell Mountain Weasels"
-  }
+  },
+  "craft": null,
+  "family": "blazing-prismshell-series",
+  "tier": 1
 }

@@ -5,36 +5,48 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "volkodlak-raider",
-    "volkodlak-sharpshooter",
-    "volkodlak-lobber",
-    "volkodlak-basher",
-    "leomastiff-guard",
-    "long-eared-striker",
     "channel-contact",
     "fanged-zealot",
-    "voywolf-hunter",
-    "glaciomancer",
     "glacial-warden",
-    "winged-halberd-knight",
-    "winged-soarer-knight",
+    "glaciomancer",
     "juvenile-tree-segment",
-    "rugged-elder-leshy"
+    "leomastiff-guard",
+    "long-eared-striker",
+    "rugged-elder-leshy",
+    "volkodlak-basher",
+    "volkodlak-lobber",
+    "volkodlak-raider",
+    "volkodlak-sharpshooter",
+    "voywolf-hunter",
+    "winged-halberd-knight",
+    "winged-soarer-knight"
   ],
   "used_by": {
     "characters": [
-      "odette"
+      "odette",
+      "valeriy",
+      "vesna"
     ],
     "weapons": [
-      "emberwell",
-      "song-of-the-vigil",
       "echoes-of-the-heart",
-      "exaiphanes-blade"
+      "emberwell",
+      "exaiphanes-blade",
+      "hymn-of-the-maelstrom",
+      "song-of-the-vigil",
+      "starsealed-edict",
+      "winters-heavy-heart"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/ethereal-crystal/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Fae of Crystalline Flesh"
-  }
+  },
+  "craft": {
+    "from": "ethereal-glimmershard",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "ethereal-crystalscale-stone-series",
+  "tier": 2
 }

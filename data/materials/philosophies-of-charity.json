@@ -7,9 +7,10 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "odette",
-      "traveler",
-      "traveler"
+      "aether-cryo",
+      "lumine-cryo",
+      "mitya",
+      "odette"
     ],
     "weapons": []
   },
@@ -22,5 +23,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "guide-to-charity",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-charity-series",
+  "tier": 3
 }

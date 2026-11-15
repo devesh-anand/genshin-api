@@ -9,7 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "alyosha"
+      "alyosha",
+      "valeriy"
     ],
     "weapons": []
   },
@@ -17,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Chimeric Winged Lions"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

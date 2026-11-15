@@ -9,6 +9,8 @@
     "characters": [],
     "weapons": [
       "frostbreath",
+      "hymn-of-the-maelstrom",
+      "new-bough",
       "whitelake-frostfeather"
     ]
   },
@@ -21,5 +23,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "measured-pour-of-the-cellared-spiritual-nectar",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "revelry-of-the-cellared-spiritual-nectar-series",
+  "tier": 2
 }

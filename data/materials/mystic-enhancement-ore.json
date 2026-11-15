@@ -1,0 +1,21 @@
+{
+  "id": 104013,
+  "name": "Mystic Enhancement Ore",
+  "description": "Weapon EXP material. Gives 10,000 EXP.\nLegend has it that this refined ingot contains the memories of battles that had taken place in the land. The weapons that benefit from these memories naturally become sentient.",
+  "rarity": 3,
+  "category": "exp-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mystic-enhancement-ore/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Forged"
+  },
+  "exp": 10000,
+  "craft": null,
+  "family": null,
+  "tier": null
+}

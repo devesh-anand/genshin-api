@@ -7,16 +7,16 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "xiangling",
+      "aether-geo",
       "chongyun",
       "ganyu",
       "hu-tao",
-      "kaedehara-kazuha",
-      "yun-jin",
-      "yaoyao",
+      "kazuha",
       "lan-yan",
-      "traveler",
-      "traveler"
+      "lumine-geo",
+      "xiangling",
+      "yaoyao",
+      "yun-jin"
     ],
     "weapons": []
   },
@@ -29,5 +29,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-diligence",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-diligence-series",
+  "tier": 2
 }

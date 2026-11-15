@@ -7,19 +7,24 @@
   "dropped_by": [
     "chimeric-armored-beast",
     "chimeric-burrowbeast",
-    "chimeric-winged-elephant",
-    "chimeric-horned-bear"
+    "chimeric-horned-bear",
+    "chimeric-winged-elephant"
   ],
   "used_by": {
     "characters": [
+      "aether-cryo",
       "alyosha",
-      "traveler",
-      "traveler"
+      "lumine-cryo",
+      "mitya",
+      "vodyanitsa"
     ],
     "weapons": [
+      "beyond-the-chrysalis",
       "blade-of-atonement",
-      "frostbreath",
+      "breezeborne-refrain",
       "covenant-of-frost-and-snow",
+      "frostbreath",
+      "new-bough",
       "whitelake-frostfeather"
     ]
   },
@@ -27,5 +32,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Aberrant Chimeric Monsters"
-  }
+  },
+  "craft": {
+    "from": "symbiotic-chimeric-nucleus",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "prime-chimeric-nexus-series",
+  "tier": 3
 }

@@ -8,24 +8,25 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "skyrider-sword",
-      "skyrider-greatsword",
       "black-tassel",
-      "iron-sting",
-      "prototype-archaic",
-      "serpent-spine",
-      "luxurious-sea-lord",
-      "prototype-starglitter",
-      "lithic-spear",
-      "mappa-mare",
+      "cloudforged",
       "compound-bow",
       "fading-twilight",
-      "cloudforged",
+      "iron-sting",
       "jade-vista",
       "lightbearing-moonshard",
-      "vortex-vanquisher",
+      "lithic-spear",
+      "luxurious-sea-lord",
+      "mappa-mare",
+      "memory-of-dust",
+      "prototype-archaic",
+      "prototype-starglitter",
+      "serpent-spine",
+      "silver-light",
+      "skyrider-greatsword",
+      "skyrider-sword",
       "staff-of-homa",
-      "memory-of-dust"
+      "vortex-vanquisher"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/bit-of-aerosiderite/icon.png",
@@ -37,5 +38,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "piece-of-aerosiderite",
+    "quantity": 3,
+    "mora": 350
+  },
+  "family": "chunk-of-aerosiderite-series",
+  "tier": 3
 }

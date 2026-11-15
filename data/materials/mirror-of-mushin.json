@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "layla",
       "alhaitham",
+      "layla",
       "mika",
       "xilonen"
     ],
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Shouki no Kami, the Prodigal Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

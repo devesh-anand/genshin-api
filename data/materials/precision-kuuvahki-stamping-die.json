@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "flins",
-      "aino"
+      "aino",
+      "flins"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Knuckle Duckles"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

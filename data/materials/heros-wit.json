@@ -1,0 +1,21 @@
+{
+  "id": 104003,
+  "name": "Hero's Wit",
+  "description": "Character EXP material. Gives 20,000 EXP.\nThese experiences are extremely precious for a pilgrim traveling through Teyvat in order to be closer to Celestia.",
+  "rarity": 4,
+  "category": "exp-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/heros-wit/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Random Event Reward"
+  },
+  "exp": 20000,
+  "craft": null,
+  "family": null,
+  "tier": null
+}

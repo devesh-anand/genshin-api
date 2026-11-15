@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "neuvillette",
       "chevreuse",
-      "clorinde"
+      "clorinde",
+      "neuvillette"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Millennial Pearl Seahorses"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

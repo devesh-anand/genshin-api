@@ -10,16 +10,23 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "calamity-of-eshu",
-      "tamayuratei-no-ohanashi",
-      "rainbow-serpents-rain-bow",
+      "astral-vultures-crimson-plumage",
       "azurelight",
-      "astral-vultures-crimson-plumage"
+      "calamity-of-eshu",
+      "rainbow-serpents-rain-bow",
+      "tamayuratei-no-ohanashi"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/bewildering-broadleaf/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Tenebrous Mimiflora"
-  }
+  },
+  "craft": {
+    "from": "refractive-bud",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "illusory-leafcoil-series",
+  "tier": 2
 }

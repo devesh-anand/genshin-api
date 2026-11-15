@@ -17,5 +17,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Il Dottore Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

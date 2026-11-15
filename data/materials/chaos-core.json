@@ -5,38 +5,45 @@
   "rarity": 4,
   "category": "common-drop",
   "dropped_by": [
+    "ruin-grader",
     "ruin-guard",
-    "ruin-hunter",
-    "ruin-grader"
+    "ruin-hunter"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "travelers-handy-sword",
-      "white-iron-greatsword",
+      "alley-hunter",
+      "amos-bow",
+      "cinnabar-spindle",
+      "favonius-greatsword",
+      "favonius-lance",
+      "favonius-warbow",
+      "freedom-sworn",
+      "frostbearer",
+      "lost-prayer-to-the-sacred-winds",
       "otherworldly-story",
       "recurve-bow",
-      "sacrificial-sword",
-      "cinnabar-spindle",
-      "wolf-fang",
-      "favonius-greatsword",
-      "royal-greatsword",
-      "favonius-lance",
-      "sacrificial-fragments",
-      "frostbearer",
-      "favonius-warbow",
       "royal-bow",
-      "alley-hunter",
-      "freedom-sworn",
-      "wolfs-gravestone",
+      "royal-greatsword",
+      "sacrificial-fragments",
+      "sacrificial-sword",
       "skyward-spine",
-      "lost-prayer-to-the-sacred-winds",
-      "amos-bow"
+      "travelers-handy-sword",
+      "white-iron-greatsword",
+      "wolf-fang",
+      "wolfs-gravestone"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/chaos-core/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Ruin Guards"
-  }
+  },
+  "craft": {
+    "from": "chaos-circuit",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "chaos-core-series",
+  "tier": 3
 }

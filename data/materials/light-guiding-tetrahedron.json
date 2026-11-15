@@ -10,8 +10,8 @@
   "used_by": {
     "characters": [
       "candace",
-      "faruzan",
-      "dehya"
+      "dehya",
+      "faruzan"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Semi-Intransient Matrices"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "raiden-shogun",
-      "kujou-sara"
+      "raiden",
+      "sara"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Thunder Manifestations"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

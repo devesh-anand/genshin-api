@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "nefer",
       "columbina",
+      "nefer",
       "prune"
     ],
     "weapons": []
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Frostnight Herras"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

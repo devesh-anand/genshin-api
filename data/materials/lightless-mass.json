@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ All-Devouring Narwhal Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

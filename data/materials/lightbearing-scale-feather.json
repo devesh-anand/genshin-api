@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "lauma",
-      "jahoda"
+      "jahoda",
+      "lauma"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Radiant Moonflies"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

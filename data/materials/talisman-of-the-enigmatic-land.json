@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Wayward Hermetic Spiritspeakers"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

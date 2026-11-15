@@ -11,15 +11,21 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "beyond-the-chrysalis",
       "blade-of-atonement",
-      "song-of-the-vigil",
       "covenant-of-frost-and-snow",
-      "whitelake-frostfeather"
+      "new-bough",
+      "song-of-the-vigil",
+      "whitelake-frostfeather",
+      "winters-heavy-heart"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/hollow-root-of-life/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Wildwood Leshies"
-  }
+  },
+  "craft": null,
+  "family": "coiled-core-of-life-series",
+  "tier": 1
 }

@@ -7,14 +7,14 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "xiangling",
       "chongyun",
       "ganyu",
       "hu-tao",
-      "kaedehara-kazuha",
-      "yun-jin",
+      "kazuha",
+      "lan-yan",
+      "xiangling",
       "yaoyao",
-      "lan-yan"
+      "yun-jin"
     ],
     "weapons": []
   },
@@ -27,5 +27,8 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-diligence-series",
+  "tier": 1
 }

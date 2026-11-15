@@ -7,22 +7,29 @@
   "dropped_by": [
     "blazing-brilliance-frostnight-scion",
     "gleaming-charge-frostnight-scion",
-    "tangled-vines-frostnight-scion",
-    "icy-crystal-frostnight-scion"
+    "icy-crystal-frostnight-scion",
+    "tangled-vines-frostnight-scion"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "serenitys-call",
+      "athame-artis",
       "blackmarrow-lantern",
       "dawning-frost",
-      "athame-artis",
-      "nightweavers-looking-glass"
+      "nightweavers-looking-glass",
+      "serenitys-call"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/frostnights-glory/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Frostnight Scions"
-  }
+  },
+  "craft": {
+    "from": "frostnights-glow",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "frostnights-glory-series",
+  "tier": 3
 }

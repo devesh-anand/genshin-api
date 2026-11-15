@@ -5,45 +5,45 @@
   "rarity": 1,
   "category": "common-drop",
   "dropped_by": [
-    "hilichurl-shooter",
-    "pyro-hilichurl-shooter",
+    "cryo-hilichurl-shooter",
     "electro-hilichurl-shooter",
-    "cryo-hilichurl-shooter"
+    "hilichurl-shooter",
+    "pyro-hilichurl-shooter"
   ],
   "used_by": {
     "characters": [
+      "aether-geo",
       "amber",
-      "fischl",
-      "diona",
       "collei",
       "dahlia",
+      "diona",
+      "fischl",
       "lohen",
-      "traveler",
-      "traveler"
+      "lumine-geo"
     ],
     "weapons": [
-      "dull-blade",
-      "silver-sword",
-      "cool-steel",
-      "bloodtainted-greatsword",
+      "aquila-favonia",
       "black-tassel",
-      "raven-bow",
-      "favonius-sword",
       "blackcliff-longsword",
-      "sacrificial-greatsword",
+      "bloodtainted-greatsword",
+      "cool-steel",
+      "dull-blade",
+      "favonius-sword",
+      "hamayumi",
+      "kings-squire",
       "lithic-blade",
       "lithic-spear",
-      "prototype-amber",
-      "the-stringless",
-      "the-viridescent-hunt",
-      "hamayumi",
       "predator",
-      "kings-squire",
-      "song-of-stillness",
-      "snare-hook",
-      "aquila-favonia",
+      "prototype-amber",
+      "raven-bow",
+      "sacrificial-greatsword",
+      "silver-sword",
       "skyward-atlas",
       "skyward-harp",
+      "snare-hook",
+      "song-of-stillness",
+      "the-stringless",
+      "the-viridescent-hunt",
       "thundering-pulse"
     ]
   },
@@ -51,5 +51,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Hilichurl Shooters"
-  }
+  },
+  "craft": null,
+  "family": "weathered-arrowhead-series",
+  "tier": 1
 }

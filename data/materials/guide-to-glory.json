@@ -7,8 +7,10 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "traveler",
-      "traveler"
+      "aether-cryo",
+      "lumine-cryo",
+      "valeriy",
+      "vesna"
     ],
     "weapons": []
   },
@@ -21,5 +23,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-glory",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-glory-series",
+  "tier": 2
 }

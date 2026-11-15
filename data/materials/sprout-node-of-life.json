@@ -11,15 +11,25 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "beyond-the-chrysalis",
       "blade-of-atonement",
-      "song-of-the-vigil",
       "covenant-of-frost-and-snow",
-      "whitelake-frostfeather"
+      "new-bough",
+      "song-of-the-vigil",
+      "whitelake-frostfeather",
+      "winters-heavy-heart"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sprout-node-of-life/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Wildwood Leshies"
-  }
+  },
+  "craft": {
+    "from": "hollow-root-of-life",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "coiled-core-of-life-series",
+  "tier": 2
 }

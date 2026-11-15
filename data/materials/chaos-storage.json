@@ -11,10 +11,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "sapwood-blade",
       "forest-regalia",
       "makhaira-aquamarine",
       "moonpiercer",
+      "sapwood-blade",
       "staff-of-the-scarlet-sands"
     ]
   },
@@ -22,5 +22,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Ruin Drakes"
-  }
+  },
+  "craft": null,
+  "family": "chaos-bolt-series",
+  "tier": 1
 }

@@ -7,18 +7,18 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "barbara",
-      "amber",
-      "klee",
-      "tartaglia",
-      "diona",
-      "sucrose",
+      "aether-anemo",
+      "aether-geo",
       "aloy",
-      "varka",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler"
+      "amber",
+      "barbara",
+      "diona",
+      "klee",
+      "lumine-anemo",
+      "lumine-geo",
+      "sucrose",
+      "tartaglia",
+      "varka"
     ],
     "weapons": []
   },
@@ -31,5 +31,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-freedom",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-freedom-series",
+  "tier": 2
 }

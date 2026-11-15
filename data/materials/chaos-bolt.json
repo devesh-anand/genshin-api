@@ -11,10 +11,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "sapwood-blade",
       "forest-regalia",
       "makhaira-aquamarine",
       "moonpiercer",
+      "sapwood-blade",
       "staff-of-the-scarlet-sands"
     ]
   },
@@ -22,5 +22,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Ruin Drakes"
-  }
+  },
+  "craft": {
+    "from": "chaos-module",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "chaos-bolt-series",
+  "tier": 3
 }

@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "shikanoin-heizou",
-      "yelan",
-      "kuki-shinobu"
+      "heizou",
+      "kuki",
+      "yelan"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Ruin Serpents"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

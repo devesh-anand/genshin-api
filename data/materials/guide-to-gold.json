@@ -7,16 +7,16 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
+      "aether-geo",
+      "baizhu",
       "beidou",
+      "lumine-geo",
+      "xianyun",
       "xingqiu",
-      "zhongli",
       "xinyan",
       "yanfei",
-      "baizhu",
-      "xianyun",
-      "zibai",
-      "traveler",
-      "traveler"
+      "zhongli",
+      "zibai"
     ],
     "weapons": []
   },
@@ -29,5 +29,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-gold",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-gold-series",
+  "tier": 2
 }

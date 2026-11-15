@@ -9,7 +9,7 @@
   ],
   "used_by": {
     "characters": [
-      "arataki-itto",
+      "itto",
       "yun-jin"
     ],
     "weapons": []
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Golden Wolflords"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

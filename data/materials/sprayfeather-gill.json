@@ -11,5 +11,13 @@
     ],
     "weapons": []
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sprayfeather-gill/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sprayfeather-gill/icon.png",
+  "region": "Natlan",
+  "source": {
+    "type": "local-specialty",
+    "region": "Natlan"
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

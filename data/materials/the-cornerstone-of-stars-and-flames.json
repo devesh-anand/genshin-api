@@ -7,8 +7,8 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "traveler",
-      "traveler"
+      "aether-pyro",
+      "lumine-pyro"
     ],
     "weapons": []
   },
@@ -16,5 +16,8 @@
   "source": {
     "type": "boss",
     "description": "Obtained from completed regional quests in Natlan"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

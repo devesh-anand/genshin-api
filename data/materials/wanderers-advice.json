@@ -1,0 +1,21 @@
+{
+  "id": 104001,
+  "name": "Wanderer's Advice",
+  "description": "Character EXP material. Gives 1,000 EXP.\nThese experiences are still beneficial even if one does not live in Teyvat.",
+  "rarity": 2,
+  "category": "exp-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/wanderers-advice/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Adventure and Exploration Reward"
+  },
+  "exp": 1000,
+  "craft": null,
+  "family": null,
+  "tier": null
+}

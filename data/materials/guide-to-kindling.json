@@ -7,12 +7,12 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "kinich",
-      "xilonen",
-      "ororon",
+      "aether-pyro",
       "citlali",
-      "traveler",
-      "traveler"
+      "kinich",
+      "lumine-pyro",
+      "ororon",
+      "xilonen"
     ],
     "weapons": []
   },
@@ -25,5 +25,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-kindling",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-kindling-series",
+  "tier": 2
 }

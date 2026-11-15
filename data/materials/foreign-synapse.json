@@ -5,25 +5,32 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "large-shatterstone-breacher-primus",
-    "shatterstone-breacher-primus",
     "large-overgrown-breacher-primus",
-    "overgrown-breacher-primus"
+    "large-shatterstone-breacher-primus",
+    "overgrown-breacher-primus",
+    "shatterstone-breacher-primus"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "tidal-shadow",
+      "flowing-purity",
       "portable-power-saw",
       "rightful-reward",
-      "flowing-purity",
-      "verdict",
-      "tome-of-the-eternal-flow"
+      "tidal-shadow",
+      "tome-of-the-eternal-flow",
+      "verdict"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/foreign-synapse/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Breacher Primuses"
-  }
+  },
+  "craft": {
+    "from": "rift-core",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "alien-life-core-series",
+  "tier": 2
 }

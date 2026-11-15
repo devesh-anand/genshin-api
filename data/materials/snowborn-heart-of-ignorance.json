@@ -13,5 +13,16 @@
       "starsealed-edict"
     ]
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/snowborn-heart-of-ignorance/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/snowborn-heart-of-ignorance/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Dropped by Lv. 60+ Mindless Iceborns"
+  },
+  "craft": {
+    "from": "snowborn-mirrorheart",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "snowborn-heart-of-ignorance-series",
+  "tier": 3
 }

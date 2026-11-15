@@ -8,24 +8,24 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "dark-iron-sword",
-      "white-tassel",
-      "emerald-orb",
-      "slingshot",
-      "lions-roar",
-      "blackcliff-longsword",
-      "whiteblind",
-      "lithic-blade",
-      "crescent-pike",
-      "solar-pearl",
+      "aqua-simulacra",
       "blackcliff-agate",
-      "sacrificial-jade",
-      "rust",
+      "blackcliff-longsword",
       "blackcliff-warbow",
-      "summit-shaper",
-      "primordial-jade-winged-spear",
+      "crescent-pike",
+      "dark-iron-sword",
+      "emerald-orb",
       "jadefalls-splendor",
-      "aqua-simulacra"
+      "lions-roar",
+      "lithic-blade",
+      "primordial-jade-winged-spear",
+      "rust",
+      "sacrificial-jade",
+      "slingshot",
+      "solar-pearl",
+      "summit-shaper",
+      "white-tassel",
+      "whiteblind"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/relic-from-guyun/icon.png",
@@ -37,5 +37,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "lustrous-stone-from-guyun",
+    "quantity": 3,
+    "mora": 350
+  },
+  "family": "divine-body-from-guyun-series",
+  "tier": 3
 }

@@ -7,13 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
+      "baizhu",
       "beidou",
+      "xianyun",
       "xingqiu",
-      "zhongli",
       "xinyan",
       "yanfei",
-      "baizhu",
-      "xianyun",
+      "zhongli",
       "zibai"
     ],
     "weapons": []
@@ -27,5 +27,8 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-gold-series",
+  "tier": 1
 }

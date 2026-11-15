@@ -7,19 +7,19 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "jean",
-      "diluc",
-      "razor",
+      "aether-anemo",
+      "aether-geo",
       "bennett",
-      "noelle",
-      "mona",
+      "diluc",
       "eula",
+      "jean",
       "lohen",
+      "lumine-anemo",
+      "lumine-geo",
+      "mona",
+      "noelle",
       "prune",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler"
+      "razor"
     ],
     "weapons": []
   },
@@ -32,5 +32,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-resistance",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-resistance-series",
+  "tier": 2
 }

@@ -5,34 +5,34 @@
   "rarity": 3,
   "category": "ascension-gem",
   "dropped_by": [
+    "azhdaha",
+    "experimental-field-generator",
     "geo-hypostasis",
     "golden-wolflord",
-    "ruin-serpent",
-    "perpetual-mechanical-array",
-    "experimental-field-generator",
-    "watcher-fallen-vigil",
-    "primo-geovishap",
     "legatus-golem",
-    "radiant-moongecko",
     "lupus-boreas-dominator-of-wolves",
-    "azhdaha"
+    "perpetual-mechanical-array",
+    "primo-geovishap",
+    "radiant-moongecko",
+    "ruin-serpent",
+    "watcher-fallen-vigil"
   ],
   "used_by": {
     "characters": [
-      "ningguang",
-      "zhongli",
-      "noelle",
       "albedo",
-      "gorou",
-      "arataki-itto",
-      "yun-jin",
-      "navia",
       "chiori",
-      "kachina",
-      "xilonen",
-      "zibai",
+      "gorou",
       "illuga",
-      "linnea"
+      "itto",
+      "kachina",
+      "linnea",
+      "navia",
+      "ningguang",
+      "noelle",
+      "xilonen",
+      "yun-jin",
+      "zhongli",
+      "zibai"
     ],
     "weapons": []
   },
@@ -40,5 +40,12 @@
   "source": {
     "type": "boss",
     "description": "Check the Enemies Tab in the Adventurer Handbook"
-  }
+  },
+  "craft": {
+    "from": "prithiva-topaz-sliver",
+    "quantity": 3,
+    "mora": 300
+  },
+  "family": "prithiva-topaz-gemstone-series",
+  "tier": 2
 }

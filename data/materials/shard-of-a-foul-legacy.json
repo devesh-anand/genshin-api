@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "tartaglia",
       "diona",
-      "hu-tao"
+      "hu-tao",
+      "tartaglia"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Childe Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

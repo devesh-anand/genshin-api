@@ -5,41 +5,48 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "nobushi-jintouban",
-    "nobushi-hitsukeban",
-    "nobushi-kikouban",
+    "kairagi-dancing-thunder",
     "kairagi-fiery-might",
-    "kairagi-dancing-thunder"
+    "nobushi-hitsukeban",
+    "nobushi-jintouban",
+    "nobushi-kikouban"
   ],
   "used_by": {
     "characters": [
-      "kamisato-ayaka",
-      "raiden-shogun",
-      "yae-miko",
-      "kamisato-ayato",
+      "aether-electro",
+      "ayaka",
+      "ayato",
+      "lumine-electro",
+      "raiden",
       "wanderer",
-      "yumemizuki-mizuki",
-      "traveler",
-      "traveler"
+      "yae",
+      "yumemizuki-mizuki"
     ],
     "weapons": [
-      "amenoma-kageuchi",
-      "toukabou-shigure",
-      "finale-of-the-deep",
-      "katsuragikiri-nagamasa",
       "akuoumaru",
-      "wavebreakers-fin",
-      "tamayuratei-no-ohanashi",
-      "mistsplitter-reforged",
+      "amenoma-kageuchi",
+      "engulfing-lightning",
+      "finale-of-the-deep",
       "haran-geppaku-futsu",
-      "uraku-misugiri",
+      "katsuragikiri-nagamasa",
+      "mistsplitter-reforged",
       "redhorn-stonethresher",
-      "engulfing-lightning"
+      "tamayuratei-no-ohanashi",
+      "toukabou-shigure",
+      "uraku-misugiri",
+      "wavebreakers-fin"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/kageuchi-handguard/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Nobushi"
-  }
+  },
+  "craft": {
+    "from": "old-handguard",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "famed-handguard-series",
+  "tier": 2
 }

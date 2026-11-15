@@ -23,5 +23,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "guide-to-vagrancy",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-vagrancy-series",
+  "tier": 3
 }

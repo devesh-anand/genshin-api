@@ -18,5 +18,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Fishers of Hidden Depths"
-  }
+  },
+  "craft": {
+    "from": "fractured-eye-of-the-deep-shadow",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "hooked-beak-of-the-deep-shadow-series",
+  "tier": 2
 }

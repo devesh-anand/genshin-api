@@ -5,45 +5,52 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "floating-hydro-fungus",
     "floating-anemo-fungus",
     "floating-dendro-fungus",
-    "whirling-pyro-fungus",
-    "whirling-electro-fungus",
-    "whirling-cryo-fungus",
-    "stretchy-pyro-fungus",
+    "floating-hydro-fungus",
+    "grounded-geoshroom",
+    "grounded-hydroshroom",
     "stretchy-anemo-fungus",
     "stretchy-geo-fungus",
-    "grounded-hydroshroom",
-    "winged-dendroshroom",
+    "stretchy-pyro-fungus",
+    "whirling-cryo-fungus",
+    "whirling-electro-fungus",
+    "whirling-pyro-fungus",
     "winged-cryoshroom",
-    "grounded-geoshroom"
+    "winged-dendroshroom"
   ],
   "used_by": {
     "characters": [
-      "tighnari",
-      "nilou",
-      "nahida",
-      "kaveh",
+      "aether-dendro",
       "baizhu",
-      "traveler",
-      "traveler"
+      "kaveh",
+      "lumine-dendro",
+      "nahida",
+      "nilou",
+      "tighnari"
     ],
     "weapons": [
-      "fruit-of-fulfillment",
-      "wandering-evenstar",
+      "a-thousand-floating-dreams",
       "end-of-the-line",
+      "fruit-of-fulfillment",
+      "jadefalls-splendor",
+      "reliquary-of-truth",
       "scion-of-the-blazing-sun",
       "staff-of-the-scarlet-sands",
-      "a-thousand-floating-dreams",
       "tulaytullahs-remembrance",
-      "jadefalls-splendor",
-      "reliquary-of-truth"
+      "wandering-evenstar"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/luminescent-pollen/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Fungi"
-  }
+  },
+  "craft": {
+    "from": "fungal-spores",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "crystalline-cyst-dust-series",
+  "tier": 2
 }

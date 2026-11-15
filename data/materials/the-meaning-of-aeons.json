@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "yae-miko",
-      "shikanoin-heizou",
-      "tighnari"
+      "heizou",
+      "tighnari",
+      "yae"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Guardian of Eternity Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

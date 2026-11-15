@@ -5,51 +5,55 @@
   "rarity": 1,
   "category": "common-drop",
   "dropped_by": [
-    "fatui-skirmisher-pyroslinger-bracer",
-    "fatui-skirmisher-hydrogunner-legionnaire",
-    "fatui-skirmisher-anemoboxer-vanguard",
-    "fatui-skirmisher-electrohammer-vanguard",
-    "fatui-skirmisher-cryogunner-legionnaire",
-    "fatui-skirmisher-geochanter-bracer",
-    "fatui-pyro-agent",
+    "fatui-cryo-cicin-mage",
     "fatui-electro-cicin-mage",
-    "fatui-cryo-cicin-mage"
+    "fatui-pyro-agent",
+    "fatui-skirmisher-anemoboxer-vanguard",
+    "fatui-skirmisher-cryogunner-legionnaire",
+    "fatui-skirmisher-electrohammer-vanguard",
+    "fatui-skirmisher-geochanter-bracer",
+    "fatui-skirmisher-hydrogunner-legionnaire",
+    "fatui-skirmisher-pyroslinger-bracer"
   ],
   "used_by": {
     "characters": [
+      "arlecchino",
       "diluc",
-      "ningguang",
-      "tartaglia",
-      "rosaria",
-      "yelan",
-      "mika",
       "lyney",
-      "arlecchino"
+      "mika",
+      "ningguang",
+      "rosaria",
+      "tartaglia",
+      "yelan"
     ],
     "weapons": [
-      "skyrider-sword",
-      "white-tassel",
-      "twin-nephrite",
-      "prototype-rancour",
-      "festering-desire",
-      "favonius-greatsword",
-      "blackcliff-slasher",
       "blackcliff-pole",
-      "royal-spear",
-      "dragonspine-spear",
-      "moonpiercer",
-      "royal-grimoire",
-      "compound-bow",
+      "blackcliff-slasher",
       "cloudforged",
-      "jade-vista",
+      "compound-bow",
+      "dragonspine-spear",
+      "elegy-for-the-end",
+      "favonius-greatsword",
+      "festering-desire",
       "gest-of-the-mighty-wolf",
+      "jade-vista",
+      "moonpiercer",
       "primordial-jade-winged-spear",
-      "elegy-for-the-end"
+      "prototype-rancour",
+      "royal-grimoire",
+      "royal-spear",
+      "silver-light",
+      "skyrider-sword",
+      "twin-nephrite",
+      "white-tassel"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/recruits-insignia/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Fatui Skirmishers"
-  }
+  },
+  "craft": null,
+  "family": "lieutenants-insignia-series",
+  "tier": 1
 }

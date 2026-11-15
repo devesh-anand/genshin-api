@@ -118,7 +118,7 @@
       "mora": 20000,
       "materials": [
         {
-          "slug": "unknown-101274",
+          "slug": "kristallfold",
           "quantity": 3
         },
         {
@@ -137,7 +137,7 @@
       "mora": 40000,
       "materials": [
         {
-          "slug": "unknown-101274",
+          "slug": "kristallfold",
           "quantity": 10
         },
         {
@@ -149,7 +149,7 @@
           "quantity": 15
         },
         {
-          "slug": "unknown-113093",
+          "slug": "shattered-stability-anchor",
           "quantity": 2
         }
       ]
@@ -160,7 +160,7 @@
       "mora": 60000,
       "materials": [
         {
-          "slug": "unknown-101274",
+          "slug": "kristallfold",
           "quantity": 20
         },
         {
@@ -172,7 +172,7 @@
           "quantity": 12
         },
         {
-          "slug": "unknown-113093",
+          "slug": "shattered-stability-anchor",
           "quantity": 4
         }
       ]
@@ -183,7 +183,7 @@
       "mora": 80000,
       "materials": [
         {
-          "slug": "unknown-101274",
+          "slug": "kristallfold",
           "quantity": 30
         },
         {
@@ -195,7 +195,7 @@
           "quantity": 18
         },
         {
-          "slug": "unknown-113093",
+          "slug": "shattered-stability-anchor",
           "quantity": 8
         }
       ]
@@ -206,7 +206,7 @@
       "mora": 100000,
       "materials": [
         {
-          "slug": "unknown-101274",
+          "slug": "kristallfold",
           "quantity": 45
         },
         {
@@ -218,7 +218,7 @@
           "quantity": 12
         },
         {
-          "slug": "unknown-113093",
+          "slug": "shattered-stability-anchor",
           "quantity": 12
         }
       ]
@@ -229,7 +229,7 @@
       "mora": 120000,
       "materials": [
         {
-          "slug": "unknown-101274",
+          "slug": "kristallfold",
           "quantity": 60
         },
         {
@@ -241,7 +241,7 @@
           "quantity": 24
         },
         {
-          "slug": "unknown-113093",
+          "slug": "shattered-stability-anchor",
           "quantity": 20
         }
       ]

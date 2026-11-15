@@ -5,23 +5,30 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "rock-cavernous-wayob-manifestation",
     "flow-inverted-wayob-manifestation",
-    "foliar-swift-wayob-manifestation"
+    "foliar-swift-wayob-manifestation",
+    "rock-cavernous-wayob-manifestation"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "sturdy-bone",
       "ring-of-yaxche",
-      "waveriding-whirl",
+      "starcallers-watch",
+      "sturdy-bone",
       "surfs-up",
-      "starcallers-watch"
+      "waveriding-whirl"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/locus-of-a-clear-will/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Wayob Manifestations"
-  }
+  },
+  "craft": {
+    "from": "shard-of-a-shattered-will",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "sigil-of-a-striding-will-series",
+  "tier": 2
 }

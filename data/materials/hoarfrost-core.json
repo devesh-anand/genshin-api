@@ -9,11 +9,11 @@
   ],
   "used_by": {
     "characters": [
+      "chongyun",
+      "diona",
+      "ganyu",
       "kaeya",
       "qiqi",
-      "chongyun",
-      "ganyu",
-      "diona",
       "rosaria"
     ],
     "weapons": []
@@ -22,5 +22,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Cryo Regisvines"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

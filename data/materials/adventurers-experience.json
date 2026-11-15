@@ -1,0 +1,21 @@
+{
+  "id": 104002,
+  "name": "Adventurer's Experience",
+  "description": "Character EXP material. Gives 5,000 EXP.\nThese experiences are very beneficial for journeys into the unknown.",
+  "rarity": 3,
+  "category": "exp-material",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/adventurers-experience/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Adventure and Exploration Reward"
+  },
+  "exp": 5000,
+  "craft": null,
+  "family": null,
+  "tier": null
+}

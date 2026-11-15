@@ -5,38 +5,41 @@
   "rarity": 1,
   "category": "common-drop",
   "dropped_by": [
-    "close-combat-storm-landcruiser",
     "close-combat-scout-landcruiser",
-    "force-recon-storm-landcruiser",
-    "force-recon-scout-landcruiser",
-    "force-recon-ground-effect-landcruiser",
-    "cutting-edge-all-purpose-storm-landcruiser",
+    "close-combat-storm-landcruiser",
     "cutting-edge-all-purpose-scout-landcruiser",
-    "cutting-edge-fire-support-ground-effect-landcruiser"
+    "cutting-edge-all-purpose-storm-landcruiser",
+    "cutting-edge-fire-support-ground-effect-landcruiser",
+    "force-recon-ground-effect-landcruiser",
+    "force-recon-scout-landcruiser",
+    "force-recon-storm-landcruiser"
   ],
   "used_by": {
     "characters": [
-      "flins",
       "aino",
-      "jahoda",
+      "flins",
       "illuga",
-      "varka",
-      "sandrone"
+      "jahoda",
+      "sandrone",
+      "varka"
     ],
     "weapons": [
-      "moonweavers-dawn",
-      "master-key",
-      "prospectors-shovel",
-      "sacrificers-staff",
+      "angelos-heptades",
       "athame-artis",
       "lightbearing-moonshard",
+      "master-key",
+      "moonweavers-dawn",
       "nightweavers-looking-glass",
-      "angelos-heptades"
+      "prospectors-shovel",
+      "sacrificers-staff"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/broken-drive-shaft/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Landcruisers"
-  }
+  },
+  "craft": null,
+  "family": "precision-drive-shaft-series",
+  "tier": 1
 }

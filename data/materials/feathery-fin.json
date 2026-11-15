@@ -10,9 +10,9 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "dialogues-of-the-desert-sages",
       "chain-breaker",
       "cranes-echoing-call",
+      "dialogues-of-the-desert-sages",
       "silvershower-heartstrings"
     ]
   },
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Xuanwen Beasts"
-  }
+  },
+  "craft": null,
+  "family": "chasmlight-fin-series",
+  "tier": 1
 }

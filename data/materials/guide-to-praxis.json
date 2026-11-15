@@ -7,13 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
+      "aether-dendro",
       "collei",
-      "nilou",
-      "wanderer",
       "dehya",
+      "lumine-dendro",
+      "nilou",
       "sethos",
-      "traveler",
-      "traveler"
+      "wanderer"
     ],
     "weapons": []
   },
@@ -26,5 +26,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-praxis",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-praxis-series",
+  "tier": 2
 }

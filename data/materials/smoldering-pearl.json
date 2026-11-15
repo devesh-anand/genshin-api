@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "yoimiya",
-      "thoma"
+      "thoma",
+      "yoimiya"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv.30+ Pyro Hypostases"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

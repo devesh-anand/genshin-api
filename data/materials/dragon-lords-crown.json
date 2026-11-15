@@ -9,10 +9,10 @@
   ],
   "used_by": {
     "characters": [
-      "yoimiya",
+      "aether-electro",
       "eula",
-      "traveler",
-      "traveler"
+      "lumine-electro",
+      "yoimiya"
     ],
     "weapons": []
   },
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Azhdaha Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

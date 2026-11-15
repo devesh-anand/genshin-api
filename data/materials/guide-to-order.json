@@ -7,13 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "lynette",
-      "wriothesley",
-      "chevreuse",
+      "aether-hydro",
       "arlecchino",
+      "chevreuse",
       "emilie",
-      "traveler",
-      "traveler"
+      "lumine-hydro",
+      "lynette",
+      "wriothesley"
     ],
     "weapons": []
   },
@@ -26,5 +26,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-order",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-order-series",
+  "tier": 2
 }

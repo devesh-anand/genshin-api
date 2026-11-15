@@ -8,15 +8,15 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "absolution",
       "fleuve-cendre-ferryman",
-      "sword-of-narzissenkreuz",
       "prospectors-drill",
-      "song-of-stillness",
       "range-gauge",
       "sequence-of-solitude",
-      "absolution",
-      "verdict",
-      "the-first-great-magic"
+      "song-of-stillness",
+      "sword-of-narzissenkreuz",
+      "the-first-great-magic",
+      "verdict"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/echo-of-an-ancient-chord/icon.png",
@@ -28,5 +28,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "movement-of-an-ancient-chord",
+    "quantity": 3,
+    "mora": 1075
+  },
+  "family": "echo-of-an-ancient-chord-series",
+  "tier": 4
 }

@@ -6,25 +6,25 @@
   "category": "ascension-gem",
   "dropped_by": [
     "dendro-hypostasis",
-    "jadeplume-terrorshroom",
     "gluttonous-yumkasaur-mountain-king",
-    "radiant-moonfly",
-    "guardian-of-apeps-oasis"
+    "guardian-of-apeps-oasis",
+    "jadeplume-terrorshroom",
+    "radiant-moonfly"
   ],
   "used_by": {
     "characters": [
-      "kirara",
-      "collei",
-      "tighnari",
-      "nahida",
-      "yaoyao",
       "alhaitham",
-      "kaveh",
       "baizhu",
+      "collei",
       "emilie",
+      "kaveh",
       "kinich",
+      "kirara",
       "lauma",
-      "nefer"
+      "nahida",
+      "nefer",
+      "tighnari",
+      "yaoyao"
     ],
     "weapons": []
   },
@@ -32,5 +32,8 @@
   "source": {
     "type": "boss",
     "description": "Check the Enemies Tab in the Adventurer Handbook"
-  }
+  },
+  "craft": null,
+  "family": "nagadus-emerald-gemstone-series",
+  "tier": 1
 }

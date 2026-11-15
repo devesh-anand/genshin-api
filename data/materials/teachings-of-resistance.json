@@ -7,15 +7,15 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "jean",
-      "diluc",
-      "razor",
       "bennett",
-      "noelle",
-      "mona",
+      "diluc",
       "eula",
+      "jean",
       "lohen",
-      "prune"
+      "mona",
+      "noelle",
+      "prune",
+      "razor"
     ],
     "weapons": []
   },
@@ -28,5 +28,8 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-resistance-series",
+  "tier": 1
 }

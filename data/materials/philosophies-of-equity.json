@@ -7,12 +7,12 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
+      "aether-hydro",
+      "lumine-hydro",
       "lyney",
-      "neuvillette",
       "navia",
-      "sigewinne",
-      "traveler",
-      "traveler"
+      "neuvillette",
+      "sigewinne"
     ],
     "weapons": []
   },
@@ -25,5 +25,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "guide-to-equity",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-equity-series",
+  "tier": 3
 }

@@ -5,44 +5,51 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "pyro-abyss-mage",
-    "hydro-abyss-mage",
-    "cryo-abyss-mage",
     "abyss-herald-wicked-torrents",
     "abyss-lector-fathomless-flames",
-    "abyss-lector-violet-lightning"
+    "abyss-lector-violet-lightning",
+    "cryo-abyss-mage",
+    "hydro-abyss-mage",
+    "pyro-abyss-mage"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "waster-greatsword",
+      "bloodtainted-greatsword",
+      "deathmatch",
+      "dodoco-tales",
+      "harbinger-of-dawn",
       "hunters-bow",
       "old-mercs-pal",
-      "seasoned-hunters-bow",
-      "harbinger-of-dawn",
-      "bloodtainted-greatsword",
-      "thrilling-tales-of-dragon-slayers",
-      "sharpshooters-oath",
-      "the-flute",
-      "the-black-sword",
-      "sword-of-descension",
-      "sacrificial-greatsword",
-      "deathmatch",
-      "the-widsith",
-      "wine-and-song",
-      "dodoco-tales",
       "sacrificial-bow",
-      "windblume-ode",
+      "sacrificial-greatsword",
+      "seasoned-hunters-bow",
+      "sharpshooters-oath",
+      "skyward-atlas",
       "skyward-blade",
+      "skyward-harp",
       "skyward-pride",
       "staff-of-homa",
-      "skyward-atlas",
-      "skyward-harp"
+      "sword-of-descension",
+      "the-black-sword",
+      "the-flute",
+      "the-widsith",
+      "thrilling-tales-of-dragon-slayers",
+      "waster-greatsword",
+      "windblume-ode",
+      "wine-and-song"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/dead-ley-line-leaves/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Abyss Mages"
-  }
+  },
+  "craft": {
+    "from": "dead-ley-line-branch",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "ley-line-sprout-series",
+  "tier": 2
 }

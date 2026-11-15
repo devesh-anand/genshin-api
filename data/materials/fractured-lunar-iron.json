@@ -17,5 +17,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Precursor's Secret Source Matrix of Overseer Network"
-  }
+  },
+  "craft": null,
+  "family": "unblemished-lunar-iron-series",
+  "tier": 1
 }

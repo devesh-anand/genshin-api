@@ -10,8 +10,8 @@
   "used_by": {
     "characters": [
       "jean",
-      "venti",
-      "sucrose"
+      "sucrose",
+      "venti"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Anemo Hypostases"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

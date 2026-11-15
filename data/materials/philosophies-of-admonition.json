@@ -7,12 +7,12 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "tighnari",
-      "cyno",
+      "aether-dendro",
       "candace",
+      "cyno",
       "faruzan",
-      "traveler",
-      "traveler"
+      "lumine-dendro",
+      "tighnari"
     ],
     "weapons": []
   },
@@ -25,5 +25,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "guide-to-admonition",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-admonition-series",
+  "tier": 3
 }

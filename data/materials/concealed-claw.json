@@ -5,25 +5,28 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "rockfond-rifthound-whelp",
-    "thundercraven-rifthound-whelp",
     "rockfond-rifthound",
-    "thundercraven-rifthound"
+    "rockfond-rifthound-whelp",
+    "thundercraven-rifthound",
+    "thundercraven-rifthound-whelp"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
       "akuoumaru",
-      "wavebreakers-fin",
-      "oathsworn-eye",
-      "redhorn-stonethresher",
       "kaguras-verity",
-      "polar-star"
+      "oathsworn-eye",
+      "polar-star",
+      "redhorn-stonethresher",
+      "wavebreakers-fin"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/concealed-claw/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Riftwolves"
-  }
+  },
+  "craft": null,
+  "family": "concealed-talon-series",
+  "tier": 1
 }

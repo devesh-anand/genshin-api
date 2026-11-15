@@ -9,13 +9,13 @@
   ],
   "used_by": {
     "characters": [
+      "aether-anemo",
+      "aether-geo",
       "amber",
       "beidou",
       "chongyun",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler"
+      "lumine-anemo",
+      "lumine-geo"
     ],
     "weapons": []
   },
@@ -23,5 +23,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Stormterror Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

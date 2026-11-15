@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "lynette",
-      "chiori"
+      "chiori",
+      "lynette"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ \"Icewind Suite\""
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

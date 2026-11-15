@@ -8,10 +8,11 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "emberwell",
+      "beyond-the-chrysalis",
       "blade-of-atonement",
+      "covenant-of-frost-and-snow",
       "echoes-of-the-heart",
-      "covenant-of-frost-and-snow"
+      "emberwell"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/triumph-of-the-pale-star-army/icon.png",
@@ -23,5 +24,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "clarion-of-the-pale-star-army",
+    "quantity": 3,
+    "mora": 1075
+  },
+  "family": "triumph-of-the-pale-star-army-series",
+  "tier": 4
 }

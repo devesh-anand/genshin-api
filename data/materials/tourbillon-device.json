@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "wriothesley",
-      "charlotte"
+      "charlotte",
+      "wriothesley"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Experimental Field Generators"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

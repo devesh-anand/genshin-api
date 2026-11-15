@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "zibai",
-      "nicole"
+      "nicole",
+      "zibai"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Lords of the Hidden Depths: Whisperer of Nightmares"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

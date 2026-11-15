@@ -10,6 +10,7 @@
   "used_by": {
     "characters": [
       "columbina",
+      "mitya",
       "prune"
     ],
     "weapons": []
@@ -18,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ The Doctor Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

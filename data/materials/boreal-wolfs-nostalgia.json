@@ -8,28 +8,28 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "harbinger-of-dawn",
-      "bloodtainted-greatsword",
-      "thrilling-tales-of-dragon-slayers",
-      "sharpshooters-oath",
-      "the-flute",
-      "the-black-sword",
-      "sword-of-descension",
-      "sacrificial-greatsword",
-      "deathmatch",
-      "dragonspine-spear",
-      "missive-windspear",
-      "the-widsith",
-      "wine-and-song",
-      "dodoco-tales",
       "ballad-of-the-boundless-blue",
-      "sacrificial-bow",
-      "skyward-blade",
-      "skyward-pride",
+      "bloodtainted-greatsword",
+      "deathmatch",
+      "dodoco-tales",
+      "dragonspine-spear",
+      "elegy-for-the-end",
       "gest-of-the-mighty-wolf",
+      "harbinger-of-dawn",
+      "missive-windspear",
+      "sacrificial-bow",
+      "sacrificial-greatsword",
+      "sharpshooters-oath",
       "skyward-atlas",
+      "skyward-blade",
       "skyward-harp",
-      "elegy-for-the-end"
+      "skyward-pride",
+      "sword-of-descension",
+      "the-black-sword",
+      "the-flute",
+      "the-widsith",
+      "thrilling-tales-of-dragon-slayers",
+      "wine-and-song"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/boreal-wolfs-nostalgia/icon.png",
@@ -41,5 +41,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "boreal-wolfs-broken-fang",
+    "quantity": 3,
+    "mora": 1075
+  },
+  "family": "boreal-wolfs-nostalgia-series",
+  "tier": 4
 }

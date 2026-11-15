@@ -147,21 +147,21 @@
     {
       "name": "A Subordinate's Skills",
       "unlock": "Constellation Lv. 2",
-      "description": "Crimson Ooyoroi's duration is increased by 3s. ",
+      "description": "Crimson Ooyoroi's duration is increased by 3s.",
       "level": 2,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-2.png"
     },
     {
       "name": "Fortified Resolve",
       "unlock": "Constellation Lv. 3",
-      "description": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15. ",
+      "description": "Increases the Level of Blazing Blessing by 3.\nMaximum upgrade level is 15.",
       "level": 3,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-3.png"
     },
     {
       "name": "Long-Term Planning",
       "unlock": "Constellation Lv. 4",
-      "description": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma. ",
+      "description": "After using Crimson Ooyoroi, 15 Energy will be restored to Thoma.",
       "level": 4,
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/thoma/constellation-4.png"
     },

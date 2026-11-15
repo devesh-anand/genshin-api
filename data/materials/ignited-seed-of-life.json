@@ -12,9 +12,9 @@
     "characters": [],
     "weapons": [
       "earth-shaker",
-      "mountain-bracing-bolt",
-      "flower-wreathed-feathers",
       "fang-of-the-mountain-king",
+      "flower-wreathed-feathers",
+      "mountain-bracing-bolt",
       "sunny-morning-sleep-in"
     ]
   },
@@ -22,5 +22,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Avatars of Lava"
-  }
+  },
+  "craft": {
+    "from": "ignited-stone",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "ignited-seeing-eye-series",
+  "tier": 2
 }

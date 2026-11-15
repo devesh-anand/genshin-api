@@ -9,11 +9,11 @@
   ],
   "used_by": {
     "characters": [
-      "venti",
-      "xingqiu",
+      "aether-geo",
+      "lumine-geo",
       "qiqi",
-      "traveler",
-      "traveler"
+      "venti",
+      "xingqiu"
     ],
     "weapons": []
   },
@@ -21,5 +21,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Wolf of the North Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

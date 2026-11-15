@@ -4,12 +4,14 @@
   "description": "A rare sample resulting from the alchemical activation of a substance.\nIn the esoteric codices, the bronze knight knows not whether its mission is to conquer or to protect. Since its alchemical elevation, it has merely been seeking to discover its purpose. The age of bronze was an age of heroes.",
   "rarity": 5,
   "category": "weekly-boss-drop",
-  "dropped_by": [],
+  "dropped_by": [
+    "the-game-before-the-gate"
+  ],
   "used_by": {
     "characters": [
-      "skirk",
       "jahoda",
-      "lohen"
+      "lohen",
+      "skirk"
     ],
     "weapons": []
   },
@@ -17,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ The Game Before the Gate Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

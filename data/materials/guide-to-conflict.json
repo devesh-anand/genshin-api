@@ -7,15 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "kachina",
+      "aether-pyro",
       "chasca",
-      "varesa",
       "ifa",
       "ineffa",
-      "manekin",
-      "manekina",
-      "traveler",
-      "traveler"
+      "kachina",
+      "lumine-pyro",
+      "varesa"
     ],
     "weapons": []
   },
@@ -28,5 +26,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-conflict",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-conflict-series",
+  "tier": 2
 }

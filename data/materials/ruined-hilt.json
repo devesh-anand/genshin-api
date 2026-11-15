@@ -10,10 +10,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "flute-of-ezpitzal",
-      "forged-by-the-golden-melody",
       "cloudforged",
       "crimson-moons-semblance",
+      "flute-of-ezpitzal",
+      "forged-by-the-golden-melody",
       "lumidouce-elegy"
     ]
   },
@@ -21,5 +21,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Praetorian Golems"
-  }
+  },
+  "craft": null,
+  "family": "still-smoldering-hilt-series",
+  "tier": 1
 }

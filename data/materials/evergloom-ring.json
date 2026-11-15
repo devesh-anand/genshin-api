@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "kirara",
-      "baizhu"
+      "baizhu",
+      "kirara"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Iniquitous Baptists"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

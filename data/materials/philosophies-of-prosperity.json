@@ -7,15 +7,15 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "xiao",
+      "aether-geo",
+      "gaming",
+      "keqing",
+      "lumine-geo",
       "ningguang",
       "qiqi",
-      "keqing",
-      "yelan",
       "shenhe",
-      "gaming",
-      "traveler",
-      "traveler"
+      "xiao",
+      "yelan"
     ],
     "weapons": []
   },
@@ -28,5 +28,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "guide-to-prosperity",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-prosperity-series",
+  "tier": 3
 }

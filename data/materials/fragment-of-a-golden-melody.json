@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Legatus Golems"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

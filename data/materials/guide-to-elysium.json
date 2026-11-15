@@ -8,8 +8,8 @@
   "used_by": {
     "characters": [
       "aino",
-      "nefer",
       "illuga",
+      "nefer",
       "nicole"
     ],
     "weapons": []
@@ -23,5 +23,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-elysium",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-elysium-series",
+  "tier": 2
 }

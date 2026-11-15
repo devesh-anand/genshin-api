@@ -1,7 +1,7 @@
 {
   "id": 25010501,
   "name": "Treasure Hoarders: Electro Potioneer",
-  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n\"Potioneer\" is the nickname given to members of the Treasure Hoarder organization who know how to brew up dangerous chemicals.\n<i>\"What? Did you think this treasure has 'Adventurers' Guild' written all over it or something?\"</i>\n—A certain Treasure Hoarder Potioneer during a confrontation with adventurers",
+  "description": "A member of the decentralized criminal organization that has footprints all over the continent and even deep within unknown domains.\n\"Potioneer\" is the nickname given to members of the Treasure Hoarder organization who know how to brew up dangerous chemicals.\n\"What? Did you think this treasure has 'Adventurers' Guild' written all over it or something?\"\n—A certain Treasure Hoarder Potioneer during a confrontation with adventurers",
   "type": "Human Faction",
   "drops": [
     "treasure-hoarder-insignia",

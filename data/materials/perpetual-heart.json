@@ -9,7 +9,7 @@
   ],
   "used_by": {
     "characters": [
-      "kamisato-ayaka",
+      "ayaka",
       "gorou"
     ],
     "weapons": []
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Perpetual Mechanical Arrays"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

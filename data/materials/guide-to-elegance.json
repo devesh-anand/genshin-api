@@ -7,13 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "kamisato-ayaka",
-      "kujou-sara",
-      "arataki-itto",
-      "kuki-shinobu",
-      "kamisato-ayato",
-      "traveler",
-      "traveler"
+      "aether-electro",
+      "ayaka",
+      "ayato",
+      "itto",
+      "kuki",
+      "lumine-electro",
+      "sara"
     ],
     "weapons": []
   },
@@ -26,5 +26,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-elegance",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-elegance-series",
+  "tier": 2
 }

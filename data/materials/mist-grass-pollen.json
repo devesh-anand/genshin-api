@@ -5,36 +5,39 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "fatui-electro-cicin-mage",
-    "fatui-cryo-cicin-mage"
+    "fatui-cryo-cicin-mage",
+    "fatui-electro-cicin-mage"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "fillet-blade",
+      "blackcliff-pole",
+      "blackcliff-slasher",
+      "calamity-queller",
       "debate-club",
+      "dragons-bane",
+      "dragonspine-spear",
+      "eye-of-perception",
+      "fillet-blade",
       "halberd",
-      "twin-nephrite",
       "messenger",
+      "primordial-jade-cutter",
+      "prototype-amber",
+      "prototype-crescent",
       "prototype-rancour",
       "rainslasher",
-      "blackcliff-slasher",
-      "dragons-bane",
-      "blackcliff-pole",
       "royal-spear",
-      "dragonspine-spear",
-      "prototype-amber",
-      "eye-of-perception",
       "sacrificial-jade",
-      "prototype-crescent",
-      "primordial-jade-cutter",
       "the-unforged",
-      "calamity-queller"
+      "twin-nephrite"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mist-grass-pollen/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Fatui Cicin Mages"
-  }
+  },
+  "craft": null,
+  "family": "mist-grass-wick-series",
+  "tier": 1
 }

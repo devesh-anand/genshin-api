@@ -7,7 +7,8 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "alyosha"
+      "alyosha",
+      "vodyanitsa"
     ],
     "weapons": []
   },
@@ -20,5 +21,8 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-fortitude-series",
+  "tier": 1
 }

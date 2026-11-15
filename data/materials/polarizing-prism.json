@@ -10,11 +10,11 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "everlasting-moonglow",
       "hakushin-ring",
       "hamayumi",
-      "predator",
       "mouuns-moon",
-      "everlasting-moonglow",
+      "predator",
       "thundering-pulse"
     ]
   },
@@ -22,5 +22,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Mirror Maidens"
-  }
+  },
+  "craft": {
+    "from": "crystal-prism",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "polarizing-prism-series",
+  "tier": 3
 }

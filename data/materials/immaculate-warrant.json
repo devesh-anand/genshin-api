@@ -5,40 +5,47 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "oprichniki-line-trooper",
-    "oprichniki-support-trooper",
-    "oprichniki-grenadier",
-    "oprichniki-vanguard",
-    "oprichniki-medic",
     "oprichniki-bombardier",
     "oprichniki-fireblade-shock-trooper",
+    "oprichniki-grenadier",
     "oprichniki-hailstorm-cannoneer",
-    "oprichniki-thunderblitz-gvardiya"
+    "oprichniki-line-trooper",
+    "oprichniki-medic",
+    "oprichniki-support-trooper",
+    "oprichniki-thunderblitz-gvardiya",
+    "oprichniki-vanguard"
   ],
   "used_by": {
     "characters": [
-      "lauma",
-      "nefer",
       "durin",
-      "zibai",
+      "lauma",
       "linnea",
-      "nicole"
+      "nefer",
+      "nicole",
+      "zibai"
     ],
     "weapons": [
-      "serenitys-call",
-      "etherlight-spindlelute",
-      "blackmarrow-lantern",
-      "dawning-frost",
-      "rainbow-serpents-rain-bow",
       "a-teaspoon-of-transcendence",
+      "blackmarrow-lantern",
       "bloodsoaked-ruins",
+      "dawning-frost",
+      "etherlight-spindlelute",
+      "golden-frostbound-oath",
       "nocturnes-curtain-call",
-      "golden-frostbound-oath"
+      "rainbow-serpents-rain-bow",
+      "serenitys-call"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/immaculate-warrant/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Fatui Oprichniki"
-  }
+  },
+  "craft": {
+    "from": "tattered-warrant",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "frost-etched-warrant-series",
+  "tier": 2
 }

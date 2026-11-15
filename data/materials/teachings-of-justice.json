@@ -7,11 +7,11 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "freminet",
       "charlotte",
-      "furina",
       "clorinde",
-      "escoffier"
+      "escoffier",
+      "freminet",
+      "furina"
     ],
     "weapons": []
   },
@@ -24,5 +24,8 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-justice-series",
+  "tier": 1
 }

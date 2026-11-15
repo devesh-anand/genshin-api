@@ -10,27 +10,34 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "dark-iron-sword",
-      "white-tassel",
-      "emerald-orb",
-      "slingshot",
-      "lions-roar",
-      "blackcliff-longsword",
-      "whiteblind",
-      "lithic-blade",
-      "crescent-pike",
-      "solar-pearl",
       "blackcliff-agate",
-      "rust",
+      "blackcliff-longsword",
       "blackcliff-warbow",
+      "crescent-pike",
+      "dark-iron-sword",
+      "emerald-orb",
       "fading-twilight",
+      "lions-roar",
+      "lithic-blade",
+      "primordial-jade-winged-spear",
+      "rust",
+      "slingshot",
+      "solar-pearl",
       "summit-shaper",
-      "primordial-jade-winged-spear"
+      "white-tassel",
+      "whiteblind"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/inspectors-sacrificial-knife/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Fatui Agents"
-  }
+  },
+  "craft": {
+    "from": "agents-sacrificial-knife",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "inspectors-sacrificial-knife-series",
+  "tier": 3
 }

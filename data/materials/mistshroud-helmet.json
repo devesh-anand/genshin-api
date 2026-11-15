@@ -11,16 +11,23 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "bloodsoaked-ruins",
+      "lightbearing-moonshard",
       "prospectors-shovel",
       "sacrificers-staff",
-      "snare-hook",
-      "lightbearing-moonshard",
-      "bloodsoaked-ruins"
+      "snare-hook"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mistshroud-helmet/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Wasteland Wild Hunt"
-  }
+  },
+  "craft": {
+    "from": "mistshroud-plate",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "mistshroud-helmet-series",
+  "tier": 3
 }

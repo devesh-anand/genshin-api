@@ -5,35 +5,43 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "geovishap-hatchling",
+    "bolteater-bathysmal-vishap",
     "geovishap",
+    "geovishap-hatchling",
     "primordial-bathysmal-vishap",
-    "rimebiter-bathysmal-vishap",
-    "bolteater-bathysmal-vishap"
+    "rimebiter-bathysmal-vishap"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "skyrider-sword",
-      "skyrider-greatsword",
-      "black-tassel",
-      "iron-sting",
-      "prototype-archaic",
-      "serpent-spine",
-      "luxurious-sea-lord",
-      "prototype-starglitter",
-      "lithic-spear",
-      "mappa-mare",
       "ballad-of-the-boundless-blue",
+      "black-tassel",
       "compound-bow",
+      "iron-sting",
       "jade-vista",
-      "vortex-vanquisher",
-      "memory-of-dust"
+      "lithic-spear",
+      "luxurious-sea-lord",
+      "mappa-mare",
+      "memory-of-dust",
+      "prototype-archaic",
+      "prototype-starglitter",
+      "serpent-spine",
+      "silver-light",
+      "skyrider-greatsword",
+      "skyrider-sword",
+      "vortex-vanquisher"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sturdy-bone-shard/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Geovishap Hatchlings"
-  }
+  },
+  "craft": {
+    "from": "fragile-bone-shard",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "fossilized-bone-shard-series",
+  "tier": 2
 }

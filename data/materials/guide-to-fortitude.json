@@ -7,9 +7,10 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
+      "aether-cryo",
       "alyosha",
-      "traveler",
-      "traveler"
+      "lumine-cryo",
+      "vodyanitsa"
     ],
     "weapons": []
   },
@@ -22,5 +23,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-fortitude",
+    "quantity": 3,
+    "mora": 175
+  },
+  "family": "philosophies-of-fortitude-series",
+  "tier": 2
 }

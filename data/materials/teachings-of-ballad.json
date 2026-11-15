@@ -7,15 +7,15 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "lisa",
-      "kaeya",
-      "venti",
-      "fischl",
       "albedo",
-      "rosaria",
-      "mika",
       "dahlia",
-      "durin"
+      "durin",
+      "fischl",
+      "kaeya",
+      "lisa",
+      "mika",
+      "rosaria",
+      "venti"
     ],
     "weapons": []
   },
@@ -28,5 +28,8 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-ballad-series",
+  "tier": 1
 }

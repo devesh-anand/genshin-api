@@ -5,43 +5,43 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "hilichurl-shooter",
-    "pyro-hilichurl-shooter",
+    "cryo-hilichurl-shooter",
     "electro-hilichurl-shooter",
-    "cryo-hilichurl-shooter"
+    "hilichurl-shooter",
+    "pyro-hilichurl-shooter"
   ],
   "used_by": {
     "characters": [
+      "aether-geo",
       "amber",
-      "fischl",
-      "diona",
       "collei",
       "dahlia",
+      "diona",
+      "fischl",
       "lohen",
-      "traveler",
-      "traveler"
+      "lumine-geo"
     ],
     "weapons": [
-      "cool-steel",
-      "bloodtainted-greatsword",
+      "aquila-favonia",
       "black-tassel",
-      "raven-bow",
-      "favonius-sword",
       "blackcliff-longsword",
-      "sacrificial-greatsword",
+      "bloodtainted-greatsword",
+      "cool-steel",
+      "favonius-sword",
+      "hamayumi",
+      "kings-squire",
       "lithic-blade",
       "lithic-spear",
-      "prototype-amber",
-      "the-stringless",
-      "the-viridescent-hunt",
-      "hamayumi",
       "predator",
-      "kings-squire",
-      "song-of-stillness",
-      "snare-hook",
-      "aquila-favonia",
+      "prototype-amber",
+      "raven-bow",
+      "sacrificial-greatsword",
       "skyward-atlas",
       "skyward-harp",
+      "snare-hook",
+      "song-of-stillness",
+      "the-stringless",
+      "the-viridescent-hunt",
       "thundering-pulse"
     ]
   },
@@ -49,5 +49,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Hilichurl Shooters"
-  }
+  },
+  "craft": {
+    "from": "sharp-arrowhead",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "weathered-arrowhead-series",
+  "tier": 3
 }

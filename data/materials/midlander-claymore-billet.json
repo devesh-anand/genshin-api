@@ -1,0 +1,26 @@
+{
+  "id": 101113,
+  "name": "Midlander Claymore Billet",
+  "description": "Weapon forging material. Can be used to forge 4-star claymores.\nPhilosophers believe that there are four purposes behind earthly things. The purpose of these billets is to become a weapon worthy of accompanying a hero.",
+  "rarity": 4,
+  "category": "weapon-billet",
+  "dropped_by": [
+    "all-devouring-narwhal",
+    "guardian-of-apeps-oasis",
+    "il-dottore",
+    "shouki-no-kami-the-prodigal",
+    "the-knave"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/midlander-claymore-billet/icon.png",
+  "source": {
+    "type": "boss",
+    "description": "Sumeru and Fontaine Trounce Domain Challenge Reward"
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
+}

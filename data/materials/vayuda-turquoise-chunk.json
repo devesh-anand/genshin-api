@@ -5,37 +5,38 @@
   "rarity": 4,
   "category": "ascension-gem",
   "dropped_by": [
-    "anemo-hypostasis",
-    "tenebrous-papilla-type-i",
     "algorithm-of-semi-intransient-matrix-of-overseer-network",
+    "anemo-hypostasis",
+    "chimeric-winged-lion",
     "icewind-suite",
     "maguu-kenki",
     "setekh-wenut",
+    "shouki-no-kami-the-prodigal",
     "solitary-suanni",
-    "chimeric-winged-lion",
     "stormterror",
-    "shouki-no-kami-the-prodigal"
+    "tenebrous-papilla-type-i"
   ],
   "used_by": {
     "characters": [
-      "jean",
-      "venti",
-      "xiao",
-      "sucrose",
-      "kaedehara-kazuha",
-      "sayu",
-      "shikanoin-heizou",
-      "wanderer",
-      "faruzan",
-      "lynette",
-      "xianyun",
       "chasca",
-      "lan-yan",
-      "yumemizuki-mizuki",
+      "faruzan",
+      "heizou",
       "ifa",
       "jahoda",
+      "jean",
+      "kazuha",
+      "lan-yan",
+      "lynette",
+      "prune",
+      "sayu",
+      "sucrose",
       "varka",
-      "prune"
+      "venti",
+      "vesna",
+      "wanderer",
+      "xianyun",
+      "xiao",
+      "yumemizuki-mizuki"
     ],
     "weapons": []
   },
@@ -43,5 +44,12 @@
   "source": {
     "type": "boss",
     "description": "Check the Enemies Tab in the Adventurer Handbook"
-  }
+  },
+  "craft": {
+    "from": "vayuda-turquoise-fragment",
+    "quantity": 3,
+    "mora": 900
+  },
+  "family": "vayuda-turquoise-gemstone-series",
+  "tier": 3
 }

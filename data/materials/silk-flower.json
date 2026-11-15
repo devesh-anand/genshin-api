@@ -7,10 +7,18 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "xingqiu",
-      "hu-tao"
+      "hu-tao",
+      "xingqiu"
     ],
     "weapons": []
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silk-flower/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/silk-flower/icon.png",
+  "region": "Liyue",
+  "source": {
+    "type": "local-specialty",
+    "region": "Liyue"
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

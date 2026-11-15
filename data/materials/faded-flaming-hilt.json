@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Domain Keepers"
-  }
+  },
+  "craft": null,
+  "family": "jeweled-flaming-hilt-series",
+  "tier": 1
 }

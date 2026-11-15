@@ -10,9 +10,9 @@
   "used_by": {
     "characters": [
       "barbara",
-      "xingqiu",
+      "mona",
       "tartaglia",
-      "mona"
+      "xingqiu"
     ],
     "weapons": []
   },
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Oceanids"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

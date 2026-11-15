@@ -9,11 +9,11 @@
   ],
   "used_by": {
     "characters": [
-      "lisa",
-      "razor",
       "beidou",
       "fischl",
-      "keqing"
+      "keqing",
+      "lisa",
+      "razor"
     ],
     "weapons": []
   },
@@ -21,5 +21,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Electro Hypostases"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

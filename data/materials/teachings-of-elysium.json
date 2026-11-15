@@ -8,8 +8,8 @@
   "used_by": {
     "characters": [
       "aino",
-      "nefer",
       "illuga",
+      "nefer",
       "nicole"
     ],
     "weapons": []
@@ -23,5 +23,8 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-elysium-series",
+  "tier": 1
 }

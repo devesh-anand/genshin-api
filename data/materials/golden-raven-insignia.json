@@ -5,55 +5,62 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "treasure-hoarders-scout",
-    "treasure-hoarders-pyro-potioneer",
-    "treasure-hoarders-hydro-potioneer",
-    "treasure-hoarders-electro-potioneer",
+    "treasure-hoarders-crusher",
     "treasure-hoarders-cryo-potioneer",
-    "treasure-hoarders-handyman",
-    "treasure-hoarders-marksman",
+    "treasure-hoarders-electro-potioneer",
     "treasure-hoarders-gravedigger",
-    "treasure-hoarders-seaman",
+    "treasure-hoarders-handyman",
+    "treasure-hoarders-hydro-potioneer",
+    "treasure-hoarders-marksman",
     "treasure-hoarders-pugilist",
-    "treasure-hoarders-crusher"
+    "treasure-hoarders-pyro-potioneer",
+    "treasure-hoarders-scout",
+    "treasure-hoarders-seaman"
   ],
   "used_by": {
     "characters": [
-      "kaeya",
       "beidou",
       "bennett",
-      "xinyan",
-      "kaedehara-kazuha",
-      "yanfei",
+      "heizou",
+      "kaeya",
+      "kazuha",
+      "prune",
       "thoma",
-      "shikanoin-heizou",
-      "prune"
+      "xinyan",
+      "yanfei"
     ],
     "weapons": [
-      "fillet-blade",
-      "skyrider-greatsword",
-      "emerald-orb",
-      "messenger",
-      "lions-roar",
-      "sword-of-descension",
-      "whiteblind",
-      "makhaira-aquamarine",
-      "crescent-pike",
-      "kitain-cross-spear",
-      "sacrificial-fragments",
-      "wine-and-song",
       "ballad-of-the-boundless-blue",
-      "prototype-crescent",
+      "crescent-pike",
+      "emerald-orb",
+      "fillet-blade",
+      "kitain-cross-spear",
+      "lions-roar",
+      "makhaira-aquamarine",
+      "messenger",
       "mitternachts-waltz",
       "primordial-jade-cutter",
+      "prototype-crescent",
+      "sacrificial-fragments",
+      "skyrider-greatsword",
+      "sword-of-descension",
+      "the-daybreak-chronicles",
       "the-unforged",
       "vortex-vanquisher",
-      "the-daybreak-chronicles"
+      "whiteblind",
+      "wine-and-song"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/golden-raven-insignia/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Treasure Hoarders"
-  }
+  },
+  "craft": {
+    "from": "silver-raven-insignia",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "golden-raven-insignia-series",
+  "tier": 3
 }

@@ -18,5 +18,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Domain Keepers"
-  }
+  },
+  "craft": {
+    "from": "faded-flaming-hilt",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "jeweled-flaming-hilt-series",
+  "tier": 2
 }

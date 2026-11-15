@@ -5,53 +5,60 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "hydro-samachurl",
     "anemo-samachurl",
-    "electro-samachurl",
-    "dendro-samachurl",
     "cryo-samachurl",
-    "geo-samachurl"
+    "dendro-samachurl",
+    "electro-samachurl",
+    "geo-samachurl",
+    "hydro-samachurl"
   ],
   "used_by": {
     "characters": [
-      "barbara",
-      "klee",
-      "qiqi",
+      "aether-anemo",
+      "aether-geo",
       "albedo",
-      "yoimiya",
+      "barbara",
       "cyno",
+      "klee",
       "layla",
+      "lumine-anemo",
+      "lumine-geo",
+      "qiqi",
       "xianyun",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler"
+      "yoimiya"
     ],
     "weapons": [
       "beginners-protector",
-      "iron-point",
-      "travelers-handy-sword",
-      "thrilling-tales-of-dragon-slayers",
-      "recurve-bow",
-      "sacrificial-sword",
-      "the-alley-flash",
-      "rainslasher",
-      "dragons-bane",
-      "favonius-codex",
       "blackcliff-agate",
-      "hakushin-ring",
-      "sacrificial-jade",
-      "royal-bow",
+      "cranes-echoing-call",
+      "dragons-bane",
       "fading-twilight",
+      "favonius-codex",
       "freedom-sworn",
-      "wolfs-gravestone",
+      "hakushin-ring",
+      "iron-point",
+      "rainslasher",
+      "recurve-bow",
+      "royal-bow",
+      "sacrificial-jade",
+      "sacrificial-sword",
       "skyward-spine",
-      "cranes-echoing-call"
+      "the-alley-flash",
+      "thrilling-tales-of-dragon-slayers",
+      "travelers-handy-sword",
+      "wolfs-gravestone"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/sealed-scroll/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ samachurls"
-  }
+  },
+  "craft": {
+    "from": "divining-scroll",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "forbidden-curse-scroll-series",
+  "tier": 2
 }

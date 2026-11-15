@@ -7,14 +7,14 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "yoimiya",
-      "thoma",
-      "sangonomiya-kokomi",
-      "shikanoin-heizou",
+      "aether-electro",
+      "heizou",
       "kirara",
-      "yumemizuki-mizuki",
-      "traveler",
-      "traveler"
+      "kokomi",
+      "lumine-electro",
+      "thoma",
+      "yoimiya",
+      "yumemizuki-mizuki"
     ],
     "weapons": []
   },
@@ -27,5 +27,8 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-transience-series",
+  "tier": 1
 }

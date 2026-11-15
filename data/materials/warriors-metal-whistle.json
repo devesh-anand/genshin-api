@@ -5,59 +5,64 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "forged-sand-interrogator",
-    "forged-sand-shieldbreaker",
-    "forged-sand-javelineer",
-    "swiftstep-seeker",
-    "swiftstep-storm-scout",
-    "swiftstep-armed-courier",
-    "flowing-blade-skirmisher",
     "flowing-blade-grease-saw",
     "flowing-blade-harpoon-thrower",
-    "winged-warrior-feathershedder",
-    "winged-warrior-skymaster",
+    "flowing-blade-skirmisher",
+    "forged-sand-interrogator",
+    "forged-sand-javelineer",
+    "forged-sand-shieldbreaker",
+    "iktomisaurus-warrior-cryocrystal-cannon",
+    "iktomisaurus-warrior-icy-tidebearer",
+    "koholasaurus-warrior-reefsplitter",
+    "koholasaurus-warrior-waveshuttler",
+    "qucusaurus-warrior-heartstar-hammer",
+    "spiritspeaker-warrior-contemplator",
     "spiritspeaker-warrior-determinator",
     "spiritspeaker-warrior-psychokinetic",
-    "spiritspeaker-warrior-contemplator",
-    "tepetlisaurus-warrior-shard-striker",
+    "swiftstep-armed-courier",
+    "swiftstep-seeker",
+    "swiftstep-storm-scout",
     "tepetlisaurus-warrior-rockbreaker-blade",
-    "yumkasaurus-warrior-whirling-leaves",
+    "tepetlisaurus-warrior-shard-striker",
+    "winged-warrior-feathershedder",
+    "winged-warrior-skymaster",
     "yumkasaurus-warrior-flowing-skyfire",
-    "koholasaurus-warrior-waveshuttler",
-    "koholasaurus-warrior-reefsplitter",
-    "qucusaurus-warrior-heartstar-hammer",
-    "iktomisaurus-warrior-icy-tidebearer",
-    "iktomisaurus-warrior-cryocrystal-cannon"
+    "yumkasaurus-warrior-whirling-leaves"
   ],
   "used_by": {
     "characters": [
-      "kachina",
-      "mualani",
-      "xilonen",
-      "mavuika",
+      "aether-pyro",
       "iansan",
       "ineffa",
-      "manekin",
-      "manekina",
-      "traveler",
-      "traveler"
+      "kachina",
+      "lumine-pyro",
+      "mavuika",
+      "mualani",
+      "xilonen"
     ],
     "weapons": [
-      "sturdy-bone",
-      "calamity-of-eshu",
-      "heretics-molten-blade",
-      "earth-shaker",
-      "footprint-of-the-rainbow",
-      "flower-wreathed-feathers",
+      "astral-vultures-crimson-plumage",
       "azurelight",
+      "calamity-of-eshu",
+      "earth-shaker",
       "fang-of-the-mountain-king",
+      "flower-wreathed-feathers",
+      "footprint-of-the-rainbow",
+      "heretics-molten-blade",
       "starcallers-watch",
-      "astral-vultures-crimson-plumage"
+      "sturdy-bone"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/warriors-metal-whistle/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Sauroform Tribal Warriors"
-  }
+  },
+  "craft": {
+    "from": "sentrys-wooden-whistle",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "saurian-crowned-warriors-golden-whistle-series",
+  "tier": 2
 }

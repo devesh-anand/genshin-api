@@ -8,10 +8,10 @@
   "used_by": {
     "characters": [
       "collei",
-      "nilou",
-      "wanderer",
       "dehya",
-      "sethos"
+      "nilou",
+      "sethos",
+      "wanderer"
     ],
     "weapons": []
   },
@@ -24,5 +24,8 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-praxis-series",
+  "tier": 1
 }

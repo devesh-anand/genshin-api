@@ -5,44 +5,51 @@
   "rarity": 2,
   "category": "common-drop",
   "dropped_by": [
-    "pyro-whopperflower",
+    "cryo-whopperflower",
     "electro-whopperflower",
-    "cryo-whopperflower"
+    "pyro-whopperflower"
   ],
   "used_by": {
     "characters": [
+      "furina",
       "ganyu",
-      "mona",
-      "keqing",
-      "sucrose",
       "hu-tao",
+      "keqing",
+      "lan-yan",
+      "mona",
       "sayu",
       "shenhe",
-      "furina",
-      "lan-yan"
+      "sucrose"
     ],
     "weapons": [
+      "ballad-of-the-fjords",
+      "blackcliff-warbow",
+      "calamity-queller",
+      "deathmatch",
+      "disaster-and-remorse",
+      "favonius-warbow",
       "ferrous-shadow",
+      "frostbearer",
       "halberd",
       "iron-sting",
-      "the-bell",
-      "serpent-spine",
-      "deathmatch",
-      "ballad-of-the-fjords",
-      "mountain-bracing-bolt",
-      "solar-pearl",
-      "frostbearer",
-      "favonius-warbow",
-      "blackcliff-warbow",
-      "windblume-ode",
-      "calamity-queller",
       "lumidouce-elegy",
-      "disaster-and-remorse"
+      "mountain-bracing-bolt",
+      "serpent-spine",
+      "solar-pearl",
+      "the-bell",
+      "windblume-ode"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/shimmering-nectar/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ whopperflowers"
-  }
+  },
+  "craft": {
+    "from": "whopperflower-nectar",
+    "quantity": 3,
+    "mora": 25
+  },
+  "family": "energy-nectar-series",
+  "tier": 2
 }

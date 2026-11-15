@@ -4,7 +4,9 @@
   "description": "A rare sample resulting from the alchemical activation of a substance.\nThe name of this piece derives from the word for the \"Chariot\" in the ancient language of Sumeru. In divination, the Chariot card is depicted with two heavenly steeds — one black and one white — symbolizing the alchemical principle of balancing opposing properties.",
   "rarity": 5,
   "category": "weekly-boss-drop",
-  "dropped_by": [],
+  "dropped_by": [
+    "the-game-before-the-gate"
+  ],
   "used_by": {
     "characters": [
       "ifa",
@@ -17,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ The Game Before the Gate Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

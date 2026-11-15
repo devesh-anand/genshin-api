@@ -5,37 +5,44 @@
   "rarity": 3,
   "category": "common-drop",
   "dropped_by": [
-    "hydro-specter",
     "anemo-specter",
     "dendro-specter",
-    "geo-specter"
+    "geo-specter",
+    "hydro-specter"
   ],
   "used_by": {
     "characters": [
-      "sangonomiya-kokomi",
+      "aloy",
+      "chiori",
       "gorou",
       "kirara",
-      "aloy",
-      "kuki-shinobu",
-      "chiori"
+      "kokomi",
+      "kuki"
     ],
     "weapons": [
-      "kagotsurube-isshin",
-      "mailed-flower",
-      "the-catch",
+      "aqua-simulacra",
       "dialogues-of-the-desert-sages",
-      "oathsworn-eye",
-      "mouuns-moon",
       "everlasting-moonglow",
+      "kagotsurube-isshin",
       "kaguras-verity",
-      "sunny-morning-sleep-in",
+      "mailed-flower",
+      "mouuns-moon",
+      "oathsworn-eye",
       "polar-star",
-      "aqua-simulacra"
+      "sunny-morning-sleep-in",
+      "the-catch"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spectral-nucleus/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Specters"
-  }
+  },
+  "craft": {
+    "from": "spectral-heart",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "spectral-nucleus-series",
+  "tier": 3
 }

@@ -7,13 +7,13 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "dori",
-      "nahida",
-      "layla",
+      "aether-dendro",
       "alhaitham",
+      "dori",
       "kaveh",
-      "traveler",
-      "traveler"
+      "layla",
+      "lumine-dendro",
+      "nahida"
     ],
     "weapons": []
   },
@@ -26,5 +26,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "teachings-of-ingenuity",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-ingenuity-series",
+  "tier": 2
 }

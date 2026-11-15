@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "kujou-sara",
-      "arataki-itto",
+      "itto",
+      "sara",
       "yun-jin"
     ],
     "weapons": []
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Signora Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

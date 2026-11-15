@@ -9,10 +9,10 @@
   ],
   "used_by": {
     "characters": [
+      "albedo",
       "ningguang",
-      "zhongli",
       "noelle",
-      "albedo"
+      "zhongli"
     ],
     "weapons": []
   },
@@ -20,5 +20,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv.30+ Geo Hypostases"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

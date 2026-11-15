@@ -7,8 +7,8 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "lauma",
-      "columbina"
+      "columbina",
+      "lauma"
     ],
     "weapons": []
   },
@@ -21,5 +21,12 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "guide-to-moonlight",
+    "quantity": 3,
+    "mora": 550
+  },
+  "family": "philosophies-of-moonlight-series",
+  "tier": 3
 }

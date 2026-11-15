@@ -7,9 +7,10 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
-      "odette",
-      "traveler",
-      "traveler"
+      "aether-cryo",
+      "lumine-cryo",
+      "mitya",
+      "odette"
     ],
     "weapons": []
   },
@@ -22,5 +23,8 @@
       "thursday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "philosophies-of-charity-series",
+  "tier": 1
 }

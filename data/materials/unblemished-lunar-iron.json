@@ -17,5 +17,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Precursor's Secret Source Matrix of Overseer Network"
-  }
+  },
+  "craft": {
+    "from": "depleted-lunar-iron",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "unblemished-lunar-iron-series",
+  "tier": 3
 }

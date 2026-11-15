@@ -13,8 +13,8 @@
     "weapons": [
       "finale-of-the-deep",
       "fleuve-cendre-ferryman",
-      "song-of-stillness",
       "range-gauge",
+      "song-of-stillness",
       "splendor-of-tranquil-waters",
       "symphonist-of-scents",
       "the-first-great-magic"
@@ -24,5 +24,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Tainted Hydro Phantasms"
-  }
+  },
+  "craft": null,
+  "family": "newborn-tainted-hydro-phantasm-series",
+  "tier": 1
 }

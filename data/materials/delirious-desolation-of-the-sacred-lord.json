@@ -9,11 +9,11 @@
     "characters": [],
     "weapons": [
       "calamity-of-eshu",
+      "fang-of-the-mountain-king",
       "flame-forged-insight",
       "footprint-of-the-rainbow",
       "mountain-bracing-bolt",
       "ring-of-yaxche",
-      "fang-of-the-mountain-king",
       "starcallers-watch",
       "vivid-notions"
     ]
@@ -27,5 +27,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "delirious-decadence-of-the-sacred-lord",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "delirious-divinity-of-the-sacred-lord-series",
+  "tier": 2
 }

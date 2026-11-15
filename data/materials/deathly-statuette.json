@@ -8,24 +8,31 @@
     "abyss-herald-wicked-torrents",
     "abyss-lector-fathomless-flames",
     "abyss-lector-violet-lightning",
-    "shadowy-husk-standard-bearer",
-    "shadowy-husk-line-breaker",
+    "black-serpent-knight-windcutter",
     "shadowy-husk-defender",
-    "black-serpent-knight-windcutter"
+    "shadowy-husk-line-breaker",
+    "shadowy-husk-standard-bearer"
   ],
   "used_by": {
     "characters": [],
     "weapons": [
-      "kagotsurube-isshin",
-      "missive-windspear",
+      "aqua-simulacra",
       "fruit-of-fulfillment",
       "haran-geppaku-futsu",
-      "aqua-simulacra"
+      "kagotsurube-isshin",
+      "missive-windspear"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/deathly-statuette/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 60+ Black Serpents"
-  }
+  },
+  "craft": {
+    "from": "dark-statuette",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "deathly-statuette-series",
+  "tier": 3
 }

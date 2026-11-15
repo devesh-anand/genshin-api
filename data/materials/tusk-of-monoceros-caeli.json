@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "zhongli",
       "albedo",
-      "xinyan"
+      "xinyan",
+      "zhongli"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ Childe Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

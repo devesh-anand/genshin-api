@@ -8,10 +8,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "moonweavers-dawn",
-      "master-key",
-      "etherlight-spindlelute",
       "a-teaspoon-of-transcendence",
+      "etherlight-spindlelute",
+      "master-key",
+      "moonweavers-dawn",
       "nocturnes-curtain-call"
     ]
   },
@@ -24,5 +24,12 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "sundered-glory-of-the-far-north-scions",
+    "quantity": 3,
+    "mora": 125
+  },
+  "family": "aureate-radiance-of-the-far-north-scions-series",
+  "tier": 2
 }

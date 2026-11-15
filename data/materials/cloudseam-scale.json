@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "xianyun",
-      "sethos"
+      "sethos",
+      "xianyun"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Solitary Suanni"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

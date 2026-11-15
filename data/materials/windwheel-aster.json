@@ -7,24 +7,32 @@
   "dropped_by": [],
   "used_by": {
     "characters": [
+      "aether-anemo",
+      "aether-cryo",
+      "aether-dendro",
+      "aether-electro",
+      "aether-geo",
+      "aether-hydro",
+      "aether-pyro",
       "bennett",
-      "sucrose",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler",
-      "traveler"
+      "lumine-anemo",
+      "lumine-cryo",
+      "lumine-dendro",
+      "lumine-electro",
+      "lumine-geo",
+      "lumine-hydro",
+      "lumine-pyro",
+      "sucrose"
     ],
     "weapons": []
   },
-  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/windwheel-aster/icon.png"
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/windwheel-aster/icon.png",
+  "region": "Mondstadt",
+  "source": {
+    "type": "local-specialty",
+    "region": "Mondstadt"
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

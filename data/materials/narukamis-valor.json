@@ -8,15 +8,15 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "toukabou-shigure",
-      "katsuragikiri-nagamasa",
       "hamayumi",
-      "predator",
-      "mouuns-moon",
       "haran-geppaku-futsu",
+      "katsuragikiri-nagamasa",
+      "mouuns-moon",
+      "predator",
       "redhorn-stonethresher",
       "sunny-morning-sleep-in",
-      "thundering-pulse"
+      "thundering-pulse",
+      "toukabou-shigure"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/narukamis-valor/icon.png",
@@ -28,5 +28,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "narukamis-affection",
+    "quantity": 3,
+    "mora": 1075
+  },
+  "family": "narukamis-valor-series",
+  "tier": 4
 }

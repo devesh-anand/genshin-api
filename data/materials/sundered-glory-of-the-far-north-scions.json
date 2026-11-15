@@ -8,10 +8,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "moonweavers-dawn",
-      "master-key",
-      "etherlight-spindlelute",
       "a-teaspoon-of-transcendence",
+      "etherlight-spindlelute",
+      "master-key",
+      "moonweavers-dawn",
       "nocturnes-curtain-call"
     ]
   },
@@ -24,5 +24,8 @@
       "saturday",
       "sunday"
     ]
-  }
+  },
+  "craft": null,
+  "family": "aureate-radiance-of-the-far-north-scions-series",
+  "tier": 1
 }

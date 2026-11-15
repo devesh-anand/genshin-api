@@ -9,9 +9,9 @@
   ],
   "used_by": {
     "characters": [
-      "kinich",
       "citlali",
-      "iansan"
+      "iansan",
+      "kinich"
     ],
     "weapons": []
   },
@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Lv. 70+ The Knave Challenge Reward"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

@@ -9,13 +9,13 @@
     "characters": [],
     "weapons": [
       "finale-of-the-deep",
-      "the-dockhands-assistant",
-      "forged-by-the-golden-melody",
       "flowing-purity",
+      "forged-by-the-golden-melody",
+      "silvershower-heartstrings",
       "splendor-of-tranquil-waters",
       "symphonist-of-scents",
-      "tome-of-the-eternal-flow",
-      "silvershower-heartstrings"
+      "the-dockhands-assistant",
+      "tome-of-the-eternal-flow"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/spring-of-pure-sacred-dewdrop/icon.png",
@@ -27,5 +27,12 @@
       "friday",
       "sunday"
     ]
-  }
+  },
+  "craft": {
+    "from": "sublimation-of-pure-sacred-dewdrop",
+    "quantity": 3,
+    "mora": 350
+  },
+  "family": "essence-of-pure-sacred-dewdrop-series",
+  "tier": 3
 }

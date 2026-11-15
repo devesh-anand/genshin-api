@@ -11,16 +11,19 @@
   "used_by": {
     "characters": [],
     "weapons": [
+      "bloodsoaked-ruins",
+      "lightbearing-moonshard",
       "prospectors-shovel",
       "sacrificers-staff",
-      "snare-hook",
-      "lightbearing-moonshard",
-      "bloodsoaked-ruins"
+      "snare-hook"
     ]
   },
   "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/mistshroud-manifestation/icon.png",
   "source": {
     "type": "boss",
     "description": "Dropped by Wasteland Wild Hunt"
-  }
+  },
+  "craft": null,
+  "family": "mistshroud-helmet-series",
+  "tier": 1
 }

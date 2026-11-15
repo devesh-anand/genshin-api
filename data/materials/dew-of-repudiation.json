@@ -9,8 +9,8 @@
   ],
   "used_by": {
     "characters": [
-      "sangonomiya-kokomi",
-      "kamisato-ayato"
+      "ayato",
+      "kokomi"
     ],
     "weapons": []
   },
@@ -18,5 +18,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Hydro Hypostases"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

@@ -19,5 +19,8 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 30+ Tenebrous Papilla"
-  }
+  },
+  "craft": null,
+  "family": null,
+  "tier": null
 }

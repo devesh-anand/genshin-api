@@ -12,10 +12,10 @@
   "used_by": {
     "characters": [],
     "weapons": [
-      "moonweavers-dawn",
-      "master-key",
-      "etherlight-spindlelute",
       "disaster-and-remorse",
+      "etherlight-spindlelute",
+      "master-key",
+      "moonweavers-dawn",
       "reliquary-of-truth"
     ]
   },
@@ -23,5 +23,12 @@
   "source": {
     "type": "boss",
     "description": "Dropped by Lv. 40+ Radiant Beasts"
-  }
+  },
+  "craft": {
+    "from": "lightless-bone",
+    "quantity": 3,
+    "mora": 50
+  },
+  "family": "radiant-exoskeleton-series",
+  "tier": 2
 }
