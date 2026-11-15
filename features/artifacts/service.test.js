@@ -37,3 +37,18 @@ describe('artifacts service', () => {
       assert.deepEqual(Object.keys(svc.toSummary(entry)), ['key', 'name', 'rarity', 'bonus', 'img']);
    });
 });
+
+describe('artifacts service: model-facing helpers', () => {
+   it('resolveArtifact finds entries by display name, or throws NotFoundError', async () => {
+      const [first] = await svc.listArtifacts();
+      const resolved = await svc.resolveArtifact(first.data.name).catch((e) => e);
+      // Display names can be shared (→ ambiguous), so accept a match or a suggestion that includes it.
+      assert.ok(resolved.slug === first.slug || resolved.suggestions?.includes(first.slug), JSON.stringify(resolved));
+      await assert.rejects(svc.resolveArtifact('zzzzzzzzzz'), (e) => e.status === 404);
+   });
+
+   it('describeArtifact includes the key', async () => {
+      const [first] = await svc.listArtifacts();
+      assert.equal(svc.describeArtifact(first).key, first.slug);
+   });
+});

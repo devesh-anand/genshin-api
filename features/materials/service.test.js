@@ -37,3 +37,18 @@ describe('materials service', () => {
       assert.deepEqual(Object.keys(svc.toSummary(entry)), ['key', 'name', 'rarity', 'category', 'img']);
    });
 });
+
+describe('materials service: model-facing helpers', () => {
+   it('resolveMaterial finds entries by display name, or throws NotFoundError', async () => {
+      const [first] = await svc.listMaterials();
+      const resolved = await svc.resolveMaterial(first.data.name).catch((e) => e);
+      // Display names can be shared (→ ambiguous), so accept a match or a suggestion that includes it.
+      assert.ok(resolved.slug === first.slug || resolved.suggestions?.includes(first.slug), JSON.stringify(resolved));
+      await assert.rejects(svc.resolveMaterial('zzzzzzzzzz'), (e) => e.status === 404);
+   });
+
+   it('describeMaterial includes the key', async () => {
+      const [first] = await svc.listMaterials();
+      assert.equal(svc.describeMaterial(first).key, first.slug);
+   });
+});

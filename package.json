@@ -7,7 +7,9 @@
    "scripts": {
       "start": "node index.js",
       "dev": "nodemon index.js",
-      "test": "node --test \"lib/**/*.test.js\" \"features/**/*.test.js\" app.test.js"
+      "test": "node --test \"lib/**/*.test.js\" \"features/**/*.test.js\" \"mcp/**/*.test.js\" app.test.js",
+      "mcp": "node mcp/stdio.js",
+      "mcp:inspect": "npx @modelcontextprotocol/inspector node mcp/stdio.js"
    },
    "repository": {
       "type": "git",
@@ -20,13 +22,15 @@
    },
    "homepage": "https://github.com/devesh-anand/genshin-api#readme",
    "dependencies": {
+      "@modelcontextprotocol/sdk": "^1.32.2",
       "aws-sdk": "^2.1225.0",
       "body-parser": "^1.20.0",
       "cors": "^2.8.5",
       "dotenv": "^16.0.3",
       "express": "^4.18.1",
       "express-rate-limit": "^8.7.0",
-      "nodemon": "^2.0.19"
+      "nodemon": "^2.0.19",
+      "zod": "^4.6.7"
    },
    "engines": {
       "node": ">=22"
