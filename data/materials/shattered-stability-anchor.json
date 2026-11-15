@@ -1,0 +1,17 @@
+{
+  "id": 113093,
+  "name": "Shattered Stability Anchor",
+  "description": "A massive anchor once wielded as a weapon.\nJust as wishes carried too far may slowly drift from the purpose that first set them in motion, this great anchor was originally built to help explorers survive the open sea. Now, it is little more than a ponderous weapon in the hands of a fae that has long forgotten what it was meant to do.",
+  "rarity": 4,
+  "category": "boss-drop",
+  "dropped_by": [
+    "wavebinder"
+  ],
+  "used_by": {
+    "characters": [
+      "mitya"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/shattered-stability-anchor/icon.png"
+}

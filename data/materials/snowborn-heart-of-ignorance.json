@@ -1,0 +1,17 @@
+{
+  "id": 112160,
+  "name": "Snowborn Heart of Ignorance",
+  "description": "A remnant left behind when a monster formed from ice and snow fades away.\nUnder the influence of some unknown, overwhelming power, these monsters, at once humanoid and beastlike, take form in a way unlike ordinary elemental beings. The proof lies in the power core they leave behind, its jagged growths jutting outward like the unruly scales of some primeval creature.",
+  "rarity": 4,
+  "category": "common-drop",
+  "dropped_by": [
+    "icebound-reflection"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "starsealed-edict"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/snowborn-heart-of-ignorance/icon.png"
+}

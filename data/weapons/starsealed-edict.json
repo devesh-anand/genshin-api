@@ -1,0 +1,140 @@
+{
+  "id": 14525,
+  "name": "Starsealed Edict",
+  "description": "A hefty tome containing the Royal Energy Commission's internal rules and procedures, with numerous entries dating back many years.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "type_key": "Catalyst",
+  "sub_stat": "CRIT DMG",
+  "sub_stat_key": "FIGHT_PROP_CRITICAL_HURT",
+  "base_atk": 44.3,
+  "passive_name": "Dawnstar's Flowing Trail",
+  "passive_desc": "Increases CRIT DMG by 24%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 48 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 24. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 12%.\\nThese effects can be triggered even when the equipping character is off-field.",
+  "passive_upgrades": [
+    "Increases CRIT DMG by 24%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 48 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 24. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 12%.\\nThese effects can be triggered even when the equipping character is off-field.",
+    "Increases CRIT DMG by 30%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 60 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 30. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 15%.\\nThese effects can be triggered even when the equipping character is off-field.",
+    "Increases CRIT DMG by 36%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 72 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 36. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 18%.\\nThese effects can be triggered even when the equipping character is off-field.",
+    "Increases CRIT DMG by 42%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 84 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 42. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 21%.\\nThese effects can be triggered even when the equipping character is off-field.",
+    "Increases CRIT DMG by 48%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 96 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 48. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 24%.\\nThese effects can be triggered even when the equipping character is off-field."
+  ],
+  "img": {
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starsealed-edict/icon.png",
+    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starsealed-edict/icon-awaken.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 10000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 3
+        },
+        {
+          "slug": "unknown-112158",
+          "quantity": 5
+        },
+        {
+          "slug": "the-frost-emperors-revival",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "ethereal-glimmershard",
+          "quantity": 12
+        },
+        {
+          "slug": "unknown-112158",
+          "quantity": 18
+        },
+        {
+          "slug": "the-frost-emperors-ceremony",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 30000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 9
+        },
+        {
+          "slug": "unknown-112159",
+          "quantity": 9
+        },
+        {
+          "slug": "the-frost-emperors-ceremony",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 45000,
+      "materials": [
+        {
+          "slug": "ethereal-crystal",
+          "quantity": 14
+        },
+        {
+          "slug": "unknown-112159",
+          "quantity": 18
+        },
+        {
+          "slug": "the-frost-emperors-lament",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 55000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 9
+        },
+        {
+          "slug": "unknown-112160",
+          "quantity": 14
+        },
+        {
+          "slug": "the-frost-emperors-lament",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 65000,
+      "materials": [
+        {
+          "slug": "ethereal-crystalscale-stone",
+          "quantity": 18
+        },
+        {
+          "slug": "unknown-112160",
+          "quantity": 27
+        },
+        {
+          "slug": "the-frost-emperors-farewell",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
+}

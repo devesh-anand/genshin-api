@@ -1,0 +1,17 @@
+{
+  "id": 112159,
+  "name": "Snowborn Mirrorheart",
+  "description": "A remnant left behind when a monster formed from ice and snow fades away.\nFor reasons unknown, the creature possesses no intelligence with which to communicate, yet bears a fierce hostility toward certain targets. It is as though that hatred was etched into its very being the moment it took form.",
+  "rarity": 3,
+  "category": "common-drop",
+  "dropped_by": [
+    "icebound-reflection"
+  ],
+  "used_by": {
+    "characters": [],
+    "weapons": [
+      "starsealed-edict"
+    ]
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/snowborn-mirrorheart/icon.png"
+}

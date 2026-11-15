@@ -1,0 +1,15 @@
+{
+  "id": 101273,
+  "name": "Fairy Wormwood",
+  "description": "A curious variety of wormwood that grows in Teplo Oasis. As it takes root, the plant draws minerals from deep beneath the earth, causing crystal-like deposits to form across its leaves.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "valeriy"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/fairy-wormwood/icon.png"
+}

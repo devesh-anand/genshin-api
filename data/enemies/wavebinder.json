@@ -1,0 +1,14 @@
+{
+  "id": 25134601,
+  "name": "Wavebinder",
+  "description": "A Volkodlak of peerless strength, brought into being to fulfill an ancient civilization's grand ambition of exploring the waters unhindered.\nTo move freely beneath the waves, it was endowed with a body capable of withstanding the crushing pressure of the deep sea, as well as the strength to contend with unseen undercurrents.\nIt is said that, in the beginning, Volkodlak of this bloodline grew so enormous that they struggled simply to survive. Now that their bloodline has been diluted, such creatures are finally able to move about on land — though they have, in turn, lost the ability to remain submerged for long periods of time.",
+  "type": "Beast",
+  "drops": [
+    "varunada-lazurite-sliver",
+    "varunada-lazurite-fragment",
+    "varunada-lazurite-chunk",
+    "varunada-lazurite-gemstone",
+    "shattered-stability-anchor"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/wavebinder/icon.png"
+}

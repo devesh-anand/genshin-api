@@ -1,0 +1,696 @@
+{
+  "name": "Mitya",
+  "title": "Rules Set at Naught",
+  "vision": "Electro",
+  "weapon": "Catalyst",
+  "nation": "Snezhnaya",
+  "affiliation": "Royal Energy Commission of Snezhnaya",
+  "rarity": 5,
+  "constellation": "Nodus Gordianus",
+  "birthday": "0000-02-08",
+  "description": "An exceptionally ingenious energy specialist and a master of the fine art of \"schedule-dodging.\"",
+  "skillTalents": [
+    {
+      "name": "Chain Reaction",
+      "unlock": "Normal Attack",
+      "description": "Normal Attack\nPerforms a maximum of 3 attacks that deal Electro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Electro DMG to the area in front after a short casting time.\nMitya will instead perform the special Charged Attack Gradient Detonation, which consumes no Stamina, if a {LINK#N11360002}Detection Core: Overload{/LINK} created by Mitya himself is currently on the field and he has at least 1 {LINK#N11360001}Gradient Beacon{/LINK}: Deals 1 instance of AoE Electro DMG to the area in front and continuously consumes Gradient Beacons while held. Each Gradient Beacon consumed deals 1 instance of AoE Electro DMG to the area in front that is considered Stellar-Conduct reaction DMG.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE Electro DMG upon impact.",
+      "upgrades": [],
+      "type": "NORMAL_ATTACK",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/talent-1.png"
+    },
+    {
+      "name": "Principle: Variable Detection",
+      "unlock": "Elemental Skill",
+      "description": "Conducts a theoretically relatively safe experiment at a theoretically relatively safe yield, dealing AoE Electro DMG and creating a {LINK#N11360002}Detection Core{/LINK} in different ways depending on whether the Skill is tapped or held.\n\nTapping the Elemental Skill Principle: Variable Detection again within 6s after using it changes the Detection Core's state. The Detection Core's state can be changed in this way every 1.5s.",
+      "upgrades": [],
+      "type": "ELEMENTAL_SKILL",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/talent-skill.png"
+    },
+    {
+      "name": "Analysis: Gradient Theory",
+      "unlock": "Elemental Burst",
+      "description": "Let the elements burst forth like inspiration itself! Deals AoE Electro DMG and creates 3 {LINK#N11360001}Gradient Beacons{/LINK}.",
+      "upgrades": [],
+      "type": "ELEMENTAL_BURST",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/talent-burst.png"
+    }
+  ],
+  "passiveTalents": [
+    {
+      "name": "Baseline Stress Test",
+      "unlock": "Unlocked at Ascension 1",
+      "description": "The {LINK#N11360002}Detection Core{/LINK} created by the Elemental Skill Principle: Variable Detection is enhanced. Depending on the state of the Detection Core created:\n·Steady State: All nearby party members gain 30 Elemental Mastery for each {LINK#N11360001}Gradient Beacon{/LINK} Mitya has;\n·Overloaded: After nearby party members trigger Stellar-Conduct reactions, instead obtain 1 Gradient Beacon every 1.5s for 6s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/talent-passive-1.png"
+    },
+    {
+      "name": "Explosive Reagent: Safe Limits Exceeded",
+      "unlock": "Unlocked at Ascension 4",
+      "description": "The duration of {LINK#N11360001}Gradient Beacons{/LINK} is increased to 10s. Additionally, Mitya's CRIT Rate increases by 5% for 15s after creating a Gradient Beacon. This effect can stack up to 4 times.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/talent-passive-2.png"
+    },
+    {
+      "name": "Stellar Jubilee: Top-Secret Protocol",
+      "unlock": "Unlocked Automatically",
+      "description": "When party members trigger Superconduct, it will be changed to Stellar-Conduct. Stellar-Conduct reactions will no longer create Starlight Prisms, and will instead create 1 {LINK#N11360001}Gradient Beacon{/LINK} nearby every 1.5s for 3s. These Beacons can be carried by Mitya and transform the area around them into an even larger Polestar Field. Triggering another Stellar-Conduct reaction will refresh the duration of the aforementioned effects.\nAdditionally, the Base Stellar-Conduct DMG dealt by all nearby party members will be increased based on Mitya's Elemental Mastery: Every point of Elemental Mastery he has increases Base Stellar-Conduct DMG by 0.028%. The maximum Base DMG increase that can be gained this way is 14%. While within a Polestar Field, Mitya will also enter the Radiance: Stellar-Conduct state.",
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/talent-passive-0.png"
+    }
+  ],
+  "constellations": [
+    {
+      "name": "The Observer Seeking What Is Missing",
+      "unlock": "Constellation Lv. 1",
+      "description": "The maximum number of {LINK#N11360001}Gradient Beacons{/LINK} Mitya can carry is increased to 5. Using the Elemental Skill Principle: Variable Detection additionally creates 1 Gradient Beacon.\nWhile the {LINK#N11360002}Detection Core{/LINK} is present, your own active character's CRIT DMG is increased by 40%.\nAdditionally, Mitya regenerates 10 Elemental Energy when a Gradient Beacon is created. This effect can be triggered once every 8s.",
+      "level": 1,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation-1.png"
+    },
+    {
+      "name": "The Matter That Slumbers Beyond Inertness",
+      "unlock": "Constellation Lv. 2",
+      "description": "While the {LINK#N11360002}Detection Core{/LINK} is present, all opponents within the Polestar Field have their Cryo RES and Electro RES decreased by 20%.\nAdditionally, if the Detection Core created is:\n·Steady State: All nearby party members gain 123 Elemental Mastery;\n·Overloaded: Your own active character gains 234 Elemental Mastery.",
+      "level": 2,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation-2.png"
+    },
+    {
+      "name": "The Knotted String of Invariant Topology",
+      "unlock": "Constellation Lv. 3",
+      "description": "Increases the Level of the Elemental Skill {LINK#S11362}Principle: Variable Detection{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 3,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation-3.png"
+    },
+    {
+      "name": "The Isotopes Born of Decay",
+      "unlock": "Constellation Lv. 4",
+      "description": "{LINK#N11360002}Detection Cores{/LINK} created by Mitya himself deals 1 instance of AoE Electro DMG equal to 300% of Mitya's Elemental Mastery to nearby opponents for every 5 {LINK#N11360001}Gradient Beacons{/LINK} consumed while it is on the field. This DMG is considered Stellar-Conduct reaction DMG.",
+      "level": 4,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation-4.png"
+    },
+    {
+      "name": "The Periodic Law That Orders All",
+      "unlock": "Constellation Lv. 5",
+      "description": "Increases the Level of Normal Attack: {LINK#S11361}Chain Reaction{/LINK} by 3.\nMaximum upgrade level is 15.",
+      "level": 5,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation-5.png"
+    },
+    {
+      "name": "Elemental Transition at the Gate of Reason",
+      "unlock": "Constellation Lv. 6",
+      "description": "{LINK#N11360002}Detection Core{/LINK} is enhanced. If the Detection Core:\n · Is in the Steady State: Detection Core deals 115% of its original DMG.\n· Is Overloaded: There is a 34% chance to create 1 new {LINK#N11360001}Gradient Beacon{/LINK} whenever Mitya consumes a Gradient Beacon with the {LINK#N11360002}Detection Core{/LINK}.\nAdditionally, Stellar-Conduct reaction DMG dealt by all nearby party members is {LINK#N11190007}Elevated{/LINK} by 20%.",
+      "level": 6,
+      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation-6.png"
+    }
+  ],
+  "vision_key": "ELECTRO",
+  "weapon_type": "CATALYST",
+  "img": {
+    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/card.png",
+    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/constellation.png",
+    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/gacha-splash.png",
+    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/icon.png",
+    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/icon-big.png",
+    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mitya/portrait.png"
+  },
+  "ascension_costs": [
+    {
+      "phase": 1,
+      "max_level": 40,
+      "mora": 20000,
+      "materials": [
+        {
+          "slug": "unknown-101274",
+          "quantity": 3
+        },
+        {
+          "slug": "vajrada-amethyst-sliver",
+          "quantity": 1
+        },
+        {
+          "slug": "chimeric-core",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "max_level": 50,
+      "mora": 40000,
+      "materials": [
+        {
+          "slug": "unknown-101274",
+          "quantity": 10
+        },
+        {
+          "slug": "vajrada-amethyst-fragment",
+          "quantity": 3
+        },
+        {
+          "slug": "chimeric-core",
+          "quantity": 15
+        },
+        {
+          "slug": "unknown-113093",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "max_level": 60,
+      "mora": 60000,
+      "materials": [
+        {
+          "slug": "unknown-101274",
+          "quantity": 20
+        },
+        {
+          "slug": "vajrada-amethyst-fragment",
+          "quantity": 6
+        },
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 12
+        },
+        {
+          "slug": "unknown-113093",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "max_level": 70,
+      "mora": 80000,
+      "materials": [
+        {
+          "slug": "unknown-101274",
+          "quantity": 30
+        },
+        {
+          "slug": "vajrada-amethyst-chunk",
+          "quantity": 3
+        },
+        {
+          "slug": "symbiotic-chimeric-nucleus",
+          "quantity": 18
+        },
+        {
+          "slug": "unknown-113093",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "max_level": 80,
+      "mora": 100000,
+      "materials": [
+        {
+          "slug": "unknown-101274",
+          "quantity": 45
+        },
+        {
+          "slug": "vajrada-amethyst-chunk",
+          "quantity": 6
+        },
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 12
+        },
+        {
+          "slug": "unknown-113093",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "max_level": 90,
+      "mora": 120000,
+      "materials": [
+        {
+          "slug": "unknown-101274",
+          "quantity": 60
+        },
+        {
+          "slug": "vajrada-amethyst-gemstone",
+          "quantity": 6
+        },
+        {
+          "slug": "prime-chimeric-nexus",
+          "quantity": 24
+        },
+        {
+          "slug": "unknown-113093",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "talent_costs": {
+    "normal_attack": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-charity",
+            "quantity": 3
+          },
+          {
+            "slug": "chimeric-core",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 2
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 4
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 6
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 9
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 4
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 4
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 6
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 6
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 12
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 9
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 16
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 12
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_skill": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-charity",
+            "quantity": 3
+          },
+          {
+            "slug": "chimeric-core",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 2
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 4
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 6
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 9
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 4
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 4
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 6
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 6
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 12
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 9
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 16
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 12
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "elemental_burst": [
+      {
+        "level": 2,
+        "mora": 12500,
+        "materials": [
+          {
+            "slug": "teachings-of-charity",
+            "quantity": 3
+          },
+          {
+            "slug": "chimeric-core",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "mora": 17500,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 2
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "mora": 25000,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 4
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "mora": 30000,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 6
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "mora": 37500,
+        "materials": [
+          {
+            "slug": "guide-to-charity",
+            "quantity": 9
+          },
+          {
+            "slug": "symbiotic-chimeric-nucleus",
+            "quantity": 9
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "mora": 120000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 4
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 4
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "mora": 260000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 6
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 6
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "mora": 450000,
+        "materials": [
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 12
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 9
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "mora": 700000,
+        "materials": [
+          {
+            "slug": "crown-of-insight",
+            "quantity": 1
+          },
+          {
+            "slug": "philosophies-of-charity",
+            "quantity": 16
+          },
+          {
+            "slug": "prime-chimeric-nexus",
+            "quantity": 12
+          },
+          {
+            "slug": "mask-of-the-virtuous-doctor",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }
+}

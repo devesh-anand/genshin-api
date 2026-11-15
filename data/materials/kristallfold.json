@@ -1,0 +1,15 @@
+{
+  "id": 101274,
+  "name": "Kristallfold",
+  "description": "A peculiar mushroom that grows along the veins of the Kresnik Kristall, named for its ridged cap, which resembles a pleated parasol carved from crystal.",
+  "rarity": 1,
+  "category": "local-specialty",
+  "dropped_by": [],
+  "used_by": {
+    "characters": [
+      "mitya"
+    ],
+    "weapons": []
+  },
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/materials/kristallfold/icon.png"
+}

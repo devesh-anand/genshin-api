@@ -1,0 +1,12 @@
+{
+  "id": 20090101,
+  "name": "Icebound Reflection",
+  "description": "A strange monster born from a peculiar kind of ice and snow.\nSince ages long past, some remnant of a great power lingering in Snezhnaya has caused creatures such as this to grow amid the wind and snow. Yet for reasons unknown, the will that should have arisen alongside the growth of its body has never stirred from the depths of its frozen form. Perhaps the will that once allowed its life to come into being has simply been dead for far too long.",
+  "type": "Elemental Lifeform",
+  "drops": [
+    "snowborn-heartshard",
+    "snowborn-mirrorheart",
+    "snowborn-heart-of-ignorance"
+  ],
+  "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/enemies/icebound-reflection/icon.png"
+}
