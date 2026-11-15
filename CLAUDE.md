@@ -1,8 +1,8 @@
 # genshin-api
 
 Unofficial Genshin Impact data API (Express, Node ≥ 22, ES modules, plain JS).
-Public REST API plus a local MCP server (`mcp/`, stdio). Planned: public `/mcp` over HTTP,
-material planner, team/DPS data, wish history with accounts — see `docs/mcp-plan.md`.
+Public REST API plus an MCP server: hosted at `/mcp` (Streamable HTTP) and local over stdio.
+Planned: material planner, team/DPS data, wish history with accounts — see `docs/mcp-plan.md`.
 
 ## Commands
 
@@ -20,7 +20,7 @@ npm run mcp:inspect   # MCP Inspector UI against the stdio server
 ## Layout
 
 ```
-app.js              createApp() + ROUTES — the explicit REST route registry
+app.js              createApp() + ROUTES — the explicit REST route registry; mounts /mcp first
 index.js            loads .env, listens. Nothing else.
 lib/                shared, feature-agnostic helpers
   dataStore.js        in-memory JSON store (getAll/getOne/query/getDistinct)
@@ -42,7 +42,10 @@ mcp/                MCP server (transport-agnostic core + entry points)
   server.js           createMcpServer(): registers tools, maps errors, hides 'auth' tools without a user
   schema.js           zod helpers: enumOf() (data-derived enums), rarityOf(), sectionsOf(), pageArgs
   stdio.js            local entry point
+  http.js             /mcp router: stateless Streamable HTTP, JSON responses, own rate limit + body limit,
+                      JSON-RPC errors, one log line per tool call (never arguments)
   server.test.js      MCP client tests: catalogue rules, calls, errors, registry, stdio smoke test
+  http.test.js        MCP client over HTTP + transport behaviour (405/413/429, CORS, logging)
 middlewares/        cross-cutting Express middleware (rate limit, cache headers, errors)
 data/               game data JSON, written by scripts/ — don't hand-edit in feature PRs
 scripts/            data sync/populate scripts (run by .github/workflows/sync.yml weekly)
@@ -133,4 +136,8 @@ Tools are read-only by default (annotations); override with `annotations` only f
   via `SLUG_OVERRIDES` in the scripts; travelers exist only as `aether-<element>` and
   `lumine-<element>`). Use `find*()` for user/model input.
 - There is no image upload endpoint: images are uploaded to R2 by the sync/populate scripts only.
-- The rate limiter (100 req/min/IP) is skipped in tests via `createApp({ rateLimit: false })`.
+- The REST rate limiter (100 req/min/IP) is skipped in tests via `createApp({ rateLimit: false })`.
+  `/mcp` has its own limiter (300/min/IP) — pass `createApp({ mcp: { rateLimit: false } })` to skip it.
+- Client IPs come from `X-Forwarded-For` via `trust proxy` (1 hop, for Railway; `TRUST_PROXY` env
+  overrides). Without it every user shares the proxy's IP and one rate-limit bucket.
+- `/mcp` is mounted before the REST body parser and limiter on purpose — keep it there.

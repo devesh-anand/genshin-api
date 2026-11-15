@@ -25,9 +25,9 @@ so adding login later doesn't require restructuring.
 | Phase | Scope | Status |
 |---|---|---|
 | 0 | Feature-folder refactor, service layer, name resolver, tests + CI, CLAUDE.md | ✅ #15 |
-| 1 | MCP over stdio: core lookup tools; tested with MCP Inspector, Claude Code, Claude Desktop | ✅ this PR |
-| 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | next |
-| 3 | Material planner (`plan_materials`) from `ascension_costs` / `talent_costs` + material sources | |
+| 1 | MCP over stdio: core lookup tools; tested with MCP Inspector, Claude Code, Claude Desktop | ✅ #16, #17 |
+| 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | ✅ this PR |
+| 3 | Material planner (`plan_materials`) from `ascension_costs` / `talent_costs` + material sources | next |
 | 4 | Teams & DPS: ingest public community calc DBs (check licenses/attribution); likely Postgres | |
 | 5 | Accounts + wish history (desktop sync app); OAuth 2.1 on `/mcp`; personal tools | |
 
@@ -53,6 +53,14 @@ Largest default response is ~5.6k tokens (`list_artifacts` with bonuses); most a
 2. MCP integration tests using the SDK client over an in-memory transport.
 3. MCP Inspector for manual checks.
 4. Real hosts: does the model pick the right tool from its description alone?
+
+### Phase 2 notes
+
+- Stateless: a fresh server + transport per POST; GET/DELETE return 405 (no SSE stream, no sessions).
+- JSON responses (`enableJsonResponse`), `Cache-Control: no-store`, 64 KB body limit.
+- No auth and no Origin/Host allowlist: the data is public and read-only, and there are no
+  credentials or user state a malicious page could abuse. Revisit both in Phase 5.
+- Usage log line per tool call: `{"event":"mcp_tool_call","tool","ok","ms","error"?}` — no arguments, no IPs.
 
 ## Known data gaps to resolve before Phase 3
 
