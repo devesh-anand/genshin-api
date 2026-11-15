@@ -12,6 +12,7 @@ import express from 'express';
 import rateLimit from 'express-rate-limit';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
 import { createMcpServer, loadToolDefinitions } from './server.js';
+import { rateLimitKey } from '../lib/clientIp.js';
 
 export const MCP_BODY_LIMIT = '64kb';
 export const MCP_RATE_LIMIT = { windowMs: 60 * 1000, limit: 300 }; // ~one busy conversation per IP
@@ -49,6 +50,7 @@ export function createMcpRouter({ rateLimit: limits = MCP_RATE_LIMIT, onToolCall
             ...limits,
             standardHeaders: true,
             legacyHeaders: false,
+            keyGenerator: rateLimitKey, // real client IP, incl. behind Cloudflare (lib/clientIp.js)
             handler: (req, res) =>
                sendRpcError(res, 429, -32000, 'Too many requests. Please slow down and retry in a minute.', {
                   'Retry-After': String(Math.ceil((limits.windowMs ?? MCP_RATE_LIMIT.windowMs) / 1000)),

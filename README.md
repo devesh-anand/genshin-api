@@ -2,7 +2,7 @@
 
 Open-source REST API for Genshin Impact character, weapon, and artifact data — including stats, talents, constellations, and images.
 
-**Base URL:** `https://genshin-impact.up.railway.app`
+**Base URL:** `https://genshin-api.deve.sh`
 
 For contribution guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
@@ -389,7 +389,7 @@ Returns server status, uptime, and total counts for each resource.
 genshin-api is also a [Model Context Protocol](https://modelcontextprotocol.io) server, so AI assistants
 like Claude can look up characters, weapons, artifacts, materials and enemies directly.
 
-**Hosted endpoint:** `https://genshin-impact.up.railway.app/mcp` (Streamable HTTP, no sign-in needed)
+**Hosted endpoint:** `https://genshin-api.deve.sh/mcp` (Streamable HTTP, no sign-in needed)
 
 **Tools:** `search`, `list_characters`, `get_character`, `list_weapons`, `get_weapon`, `list_artifacts`,
 `get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`.
@@ -398,7 +398,7 @@ like Claude can look up characters, weapons, artifacts, materials and enemies di
 
 **Claude Code:**
 ```bash
-claude mcp add --transport http genshin https://genshin-impact.up.railway.app/mcp
+claude mcp add --transport http genshin https://genshin-api.deve.sh/mcp
 ```
 
 **Other clients:** any MCP client that supports Streamable HTTP can use the URL above.

@@ -138,6 +138,8 @@ Tools are read-only by default (annotations); override with `annotations` only f
 - There is no image upload endpoint: images are uploaded to R2 by the sync/populate scripts only.
 - The REST rate limiter (100 req/min/IP) is skipped in tests via `createApp({ rateLimit: false })`.
   `/mcp` has its own limiter (300/min/IP) — pass `createApp({ mcp: { rateLimit: false } })` to skip it.
-- Client IPs come from `X-Forwarded-For` via `trust proxy` (1 hop, for Railway; `TRUST_PROXY` env
-  overrides). Without it every user shares the proxy's IP and one rate-limit bucket.
+- Production path: client → Cloudflare (`genshin-api.deve.sh`, proxied) → Railway edge → app.
+  Rate limits key on `lib/clientIp.js`: `trust proxy` (1 hop; `TRUST_PROXY` overrides) gives the hop
+  Railway saw, and `CF-Connecting-IP` is used only when that hop is a Cloudflare IP (else it's
+  spoofable via the Railway domain). Get this wrong and users share rate-limit buckets.
 - `/mcp` is mounted before the REST body parser and limiter on purpose — keep it there.
