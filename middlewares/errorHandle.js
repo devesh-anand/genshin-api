@@ -1,8 +1,10 @@
+import { AppError } from '../lib/errors.js';
+
+// eslint-disable-next-line no-unused-vars
 export default function errorHandle(err, req, res, next) {
-   try {
-      console.log("error: ", err.stack);
-      res.send({ error: err.message });
-   } catch (err) {
-      next(err);
+   if (err instanceof AppError) {
+      return res.status(err.status).send({ error: err.message });
    }
+   console.error('error: ', err.stack);
+   res.status(500).send({ error: 'Internal server error.' });
 }

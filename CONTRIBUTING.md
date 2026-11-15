@@ -14,26 +14,23 @@
 2. Understand the project structure:
 
 ```
-data:
-    - characters
-        - (all character jsons)
-    - weapons
-        - (all weapons jsons)
-routes:
-    - (has all routes related to different features)
-middlewares:
-    - (all middlewares to be used in project go here)
-index.js: The entry point to the web server.
-
+data/          game data JSON (characters, weapons, artifacts, materials, enemies)
+features/      one folder per feature: service.js (logic), store.js (data), rest.js (routes), tests
+lib/           shared helpers (data store, name resolver, errors, paths)
+middlewares/   Express middleware (rate limit, caching, errors)
+app.js         builds the app and mounts every feature's routes
+index.js       entry point — starts the server
 ```
+
+See [CLAUDE.md](./CLAUDE.md) for code conventions and the "adding a feature" checklist.
 
 2. If you just want to add a new character, weapons or boss etc., you'll just need to understand the `data` folder.
 
 ## Local setup
 
 1. Clone the repo and run `npm install`, that's basically it.
-2. Add a `.env` file, and inside it, add `PORT=5000` (or any port you wish).
-3. To start the server locally, run `nodemon`.
+2. Copy `.env.example` to `.env` (sets `PORT=5000`; change it if you wish).
+3. To start the server locally, run `npm run dev`. Run `npm test` before opening a PR.
 4. You'll be able to access the routes on `localhost:PORT` (PORT here is whatever PORT you set up in `.env`).
 
 ## Adding a new entry
