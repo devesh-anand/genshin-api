@@ -93,16 +93,8 @@ img:
     - portrait
 ```
 
-2. For images, go to [genshin-wiki image upload (work-in-progess)](https://genshin-impact-wiki.vercel.app/submit-image).
-   ![text fields](https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/extras/img-upload-fields.png)
+2. For images, you don't need to upload anything. Leave the `img` fields empty. The maintainer uploads images to the image bucket with the sync scripts and fills in the URLs before merging. If you know a good source for an image, link it in the PR description.
 
-   -  Enter name of character whose image you want to upload.
-   -  Select the images.
-   -  Upload and wait for all images to upload (time depends on your internet speed).
-   -  You'll see a list of all images uploaded with their public profile.
-      ![public urls of images uploaded](https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/extras/urls.png)
-   -  You can simply paste the url for the characters you're adding.
-
-3. Add the [character].json in `/data/assets/characters` and open a PR. One of the maintainers (as of now just me) will review and merge the PR.
+3. Add the [character].json in `/data/characters` and open a PR. One of the maintainers (as of now just me) will review and merge the PR.
 
 ### Weapon

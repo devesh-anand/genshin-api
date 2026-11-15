@@ -13,7 +13,6 @@ import healthRoutes from "./routes/health/healthRoutes.js";
 import searchRoutes from "./routes/search/searchRoutes.js";
 import materialRoutes from "./routes/materials/materialRoutes.js";
 import enemyRoutes from "./routes/enemies/enemyRoutes.js";
-import miscRoutes from "./routes/misc/miscRoutes.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -37,7 +36,6 @@ app.use(["/material", "/materials"], materialRoutes);
 app.use(["/enemy", "/enemies"], enemyRoutes);
 app.use("/health", healthRoutes);
 app.use("/search", searchRoutes);
-app.use("/others", miscRoutes);
 
 app.use(errorHandle);
 
