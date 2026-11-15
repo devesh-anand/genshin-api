@@ -49,15 +49,19 @@ export async function loadToolDefinitions(toolsets = TOOLSETS) {
 }
 
 /**
- * @param {{ user?: object|null, toolsets?: Function[] }} [opts]
- *   user     - authenticated user (Phase 5); tools with access 'auth' are hidden without one
- *   toolsets - override the registry (tests only)
+ * @param {{ user?: object|null, toolsets?: Function[], definitions?: object[], onToolCall?: Function }} [opts]
+ *   user        - authenticated user (Phase 5); tools with access 'auth' are hidden without one
+ *   toolsets    - override the registry (tests only)
+ *   definitions - pre-loaded tool definitions (the HTTP transport builds a server per request
+ *                 and loads definitions once); defaults to loading from `toolsets`
+ *   onToolCall  - called after every tool call with { tool, ok, ms, error? } — usage logging.
+ *                 `error` is the error class name only; arguments are never passed (privacy).
  * @returns {Promise<McpServer>}
  */
-export async function createMcpServer({ user = null, toolsets = TOOLSETS } = {}) {
+export async function createMcpServer({ user = null, toolsets = TOOLSETS, definitions, onToolCall } = {}) {
    const server = new McpServer({ name: SERVER_NAME, version }, { instructions: INSTRUCTIONS });
 
-   for (const def of await loadToolDefinitions(toolsets)) {
+   for (const def of definitions ?? (await loadToolDefinitions(toolsets))) {
       if ((def.access ?? 'public') === 'auth' && !user) continue;
       server.registerTool(
          def.name,
@@ -68,11 +72,24 @@ export async function createMcpServer({ user = null, toolsets = TOOLSETS } = {})
             annotations: { title: def.title, ...DEFAULT_ANNOTATIONS, ...def.annotations },
          },
          async (args) => {
+            const started = performance.now();
+            let result;
+            let error;
             try {
-               return toToolResult(await def.handler(args ?? {}, { user }));
+               result = toToolResult(await def.handler(args ?? {}, { user }));
             } catch (err) {
-               return toErrorResult(err, def.name);
+               error = err;
+               result = toErrorResult(err, def.name);
             }
+            if (onToolCall) {
+               const ms = Math.round(performance.now() - started);
+               try {
+                  onToolCall({ tool: def.name, ok: !error, ms, ...(error && { error: error.name || 'Error' }) });
+               } catch {
+                  // logging must never break a tool call
+               }
+            }
+            return result;
          }
       );
    }
