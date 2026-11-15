@@ -24,27 +24,28 @@ so adding login later doesn't require restructuring.
 
 | Phase | Scope | Status |
 |---|---|---|
-| 0 | Feature-folder refactor, service layer, name resolver, tests + CI, CLAUDE.md | ✅ this PR |
-| 1 | MCP over stdio: core lookup tools; tested with MCP Inspector, Claude Code, Claude Desktop | next |
-| 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | |
+| 0 | Feature-folder refactor, service layer, name resolver, tests + CI, CLAUDE.md | ✅ #15 |
+| 1 | MCP over stdio: core lookup tools; tested with MCP Inspector, Claude Code, Claude Desktop | ✅ this PR |
+| 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | next |
 | 3 | Material planner (`plan_materials`) from `ascension_costs` / `talent_costs` + material sources | |
 | 4 | Teams & DPS: ingest public community calc DBs (check licenses/attribution); likely Postgres | |
 | 5 | Accounts + wish history (desktop sync app); OAuth 2.1 on `/mcp`; personal tools | |
 
-### Phase 1 tools (draft)
+### Phase 1 tools (shipped)
 
 | Tool | Notes |
 |---|---|
-| `search(query, types?)` | cross-entity name search |
-| `list_characters(element?, weapon?, nation?, rarity?, sort?)` | summaries |
-| `get_character(name, sections?)` | `overview` by default; `talents`, `constellations`, `ascension`, `costs`, `images` on request |
-| `list_weapons` / `get_weapon` | |
-| `list_artifacts` / `get_artifact` | |
-| `get_material(name)` | drop sources + what uses it |
-| `list_enemies` / `get_enemy` | |
-| `get_game_info()` | elements, nations, weapon types, categories, last data sync |
+| `search(query, types?, limit?)` | cross-entity name search; per-type limit (default 10) with `totals` |
+| `list_characters(element?, weapon?, nation?, rarity?, sort?, order?, limit?, offset?)` | brief entries, paged |
+| `get_character(name, sections?)` | `overview` default; `talents`, `constellations`, `ascension_costs`, `talent_costs`, `images` |
+| `list_weapons` / `get_weapon(name, sections?)` | sections: `overview`, `refinements`, `ascension_costs`, `images` |
+| `list_artifacts` / `get_artifact(name, images?)` | list includes set bonuses |
+| `list_materials` / `get_material(name)` | drop sources, `used_by`, `source` |
+| `list_enemies` / `get_enemy(name)` | drops |
+| `get_game_info()` | valid filter values, counts, last sync, disclaimer |
 
-All read-only (`readOnlyHint`). Names resolved via `find*()`; misses return `isError` with suggestions.
+All read-only. Names resolved via `resolve*()`; misses return `isError` with suggestions.
+Largest default response is ~5.6k tokens (`list_artifacts` with bonuses); most are < 1k.
 
 ### Testing (every phase)
 

@@ -384,6 +384,33 @@ Returns server status, uptime, and total counts for each resource.
 
 ---
 
+## MCP server (for AI assistants)
+
+genshin-api ships a [Model Context Protocol](https://modelcontextprotocol.io) server, so assistants like
+Claude can look up characters, weapons, artifacts, materials and enemies directly. It currently runs
+locally over stdio (a public HTTP endpoint is planned).
+
+**Tools:** `search`, `list_characters`, `get_character`, `list_weapons`, `get_weapon`, `list_artifacts`,
+`get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`.
+
+**Claude Code:**
+```bash
+claude mcp add genshin -- node /absolute/path/to/genshin-api/mcp/stdio.js
+```
+
+**Claude Desktop** (`claude_desktop_config.json`):
+```json
+{
+  "mcpServers": {
+    "genshin": { "command": "node", "args": ["/absolute/path/to/genshin-api/mcp/stdio.js"] }
+  }
+}
+```
+
+**Try it by hand:** `npm run mcp:inspect` opens the MCP Inspector.
+
+---
+
 ## Local Development
 
 ```bash
