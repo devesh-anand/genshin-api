@@ -1,45 +1,44 @@
-import { materialStore, queryMaterials } from './materialStore.js';
+/** Materials — all logic lives here. No HTTP (req/res) and no MCP types. */
+import { materialStore, queryMaterials } from './store.js';
 import { sortResults } from '../../lib/sort.js';
+import { resolveName, nameIncludes } from '../../lib/nameResolver.js';
 
-const SORT_FIELDS = {
+export const SORT_FIELDS = {
    name:     'name',
    rarity:   'rarity',
    category: 'category',
 };
 
-export const materials = async (req, res, next) => {
-   try {
-      const { category, rarity, details, sort, order } = req.query;
-      let results = await queryMaterials({ category, rarity });
-      results = sortResults(results, SORT_FIELDS[sort] ?? null, order);
+export function toSummary({ slug, data }) {
+   return {
+      key: slug,
+      name: data.name,
+      rarity: data.rarity,
+      category: data.category,
+      img: data.img,
+   };
+}
 
-      if (details === 'true') {
-         return res.send({ materials: results.map(({ slug, data }) => ({
-            key: slug,
-            name: data.name,
-            rarity: data.rarity,
-            category: data.category,
-            img: data.img,
-         }))});
-      }
-      res.send({ materials: results.map((r) => r.slug) });
-   } catch (e) {
-      next(e);
-   }
-};
+// Search results currently share the summary shape.
+export const toSearchResult = toSummary;
 
-export const materialByName = async (req, res) => {
-   try {
-      const data = await materialStore.getOne(req.params.name);
-      if (!data) return res.status(404).send({ error: 'Material not found.' });
-      res.send(data);
-   } catch (e) {
-      res.status(404).send({ error: 'Material not found.' });
-   }
-};
+/** @param {{ category?, rarity?, sort?: keyof SORT_FIELDS, order?: 'asc'|'desc' }} [opts] */
+export async function listMaterials({ category, rarity, sort, order } = {}) {
+   return sortResults(await queryMaterials({ category, rarity }), SORT_FIELDS[sort] ?? null, order);
+}
 
-export const materialCategories = async (req, res, next) => {
-   try {
-      res.send({ categories: await materialStore.getDistinct('category') });
-   } catch (e) { next(e); }
-};
+export const getMaterial = (slug) => materialStore.getOne(slug);
+
+export async function findMaterial(name) {
+   return resolveName(await materialStore.getAll(), name);
+}
+
+export const listMaterialCategories = () => materialStore.getDistinct('category');
+
+export async function searchMaterials(term) {
+   return (await materialStore.query(nameIncludes(term))).map(toSearchResult);
+}
+
+export async function countMaterials() {
+   return (await materialStore.getAll()).length;
+}

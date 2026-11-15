@@ -1,7 +1,8 @@
-import path from 'path';
 import { createDataStore } from '../../lib/dataStore.js';
+import { dataDir } from '../../lib/paths.js';
 
-const store = createDataStore(path.join(path.resolve(), 'data/characters'));
+/** Data access only. Other features must go through ./service.js, not this file. */
+export const characterStore = createDataStore(dataDir('characters'));
 
 /**
  * Query characters with optional filters. All filters are case-insensitive.
@@ -11,7 +12,7 @@ const store = createDataStore(path.join(path.resolve(), 'data/characters'));
  * @returns {Promise<Array<{ slug: string, data: object }>>}
  */
 export function queryCharacters({ element, weapon, nation, rarity } = {}) {
-   return store.query((char) => {
+   return characterStore.query((char) => {
       if (element && char.vision?.toLowerCase() !== element.toLowerCase()) return false;
       if (weapon && char.weapon_type?.toLowerCase() !== weapon.toLowerCase()) return false;
       if (nation && char.nation?.toLowerCase() !== nation.toLowerCase()) return false;
@@ -19,5 +20,3 @@ export function queryCharacters({ element, weapon, nation, rarity } = {}) {
       return true;
    });
 }
-
-export { store as characterStore };

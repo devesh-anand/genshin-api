@@ -1,8 +1,13 @@
 import express from 'express';
-import { search } from './controllers.js';
+import { handle } from '../../lib/http.js';
+import { searchAll } from './service.js';
 
 const router = express.Router();
 
-router.get('/', search);
+router.get('/', handle(async (req, res) => {
+   const result = await searchAll(req.query.q);
+   res.set('Cache-Control', 'public, max-age=300');
+   res.send(result);
+}));
 
 export default router;

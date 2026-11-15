@@ -1,8 +1,13 @@
-import { characterStore, queryCharacters } from './characterStore.js';
+/**
+ * Characters — all logic lives here. No HTTP (req/res) and no MCP types.
+ * Consumed by ./rest.js, the search feature, and (Phase 1) the MCP tools.
+ */
+import { characterStore, queryCharacters } from './store.js';
 import { sortResults } from '../../lib/sort.js';
+import { resolveName, nameIncludes } from '../../lib/nameResolver.js';
 
-// ?sort= values → data field names
-const SORT_FIELDS = {
+/** Public sort keys → data fields. */
+export const SORT_FIELDS = {
    name:    'name',
    rarity:  'rarity',
    element: 'vision',
@@ -10,8 +15,8 @@ const SORT_FIELDS = {
    weapon:  'weapon',
 };
 
-// Summary shape returned when ?details=true
-function toSummary({ slug, data }) {
+/** Summary shape (REST ?details=true). */
+export function toSummary({ slug, data }) {
    return {
       key: slug,
       name: data.name,
@@ -24,82 +29,42 @@ function toSummary({ slug, data }) {
    };
 }
 
-export const characters = async (req, res, next) => {
-   try {
-      const { element, weapon, nation, rarity, details, sort, order } = req.query;
-      let results = await queryCharacters({ element, weapon, nation, rarity });
-      results = sortResults(results, SORT_FIELDS[sort] ?? null, order);
+/** Compact shape used in cross-entity search results. */
+export function toSearchResult({ slug, data }) {
+   return {
+      key: slug,
+      name: data.name,
+      vision: data.vision,
+      weapon: data.weapon,
+      rarity: data.rarity,
+      img: data.img?.icon ?? null,
+   };
+}
 
-      if (details === 'true') {
-         return res.send({ characters: results.map(toSummary) });
-      }
-      res.send({ characters: results.map((r) => r.slug) });
-   } catch (e) {
-      next(e);
-   }
-};
+/**
+ * @param {{ element?, weapon?, nation?, rarity?, sort?: keyof SORT_FIELDS, order?: 'asc'|'desc' }} [opts]
+ * @returns {Promise<Array<{slug, data}>>}
+ */
+export async function listCharacters({ element, weapon, nation, rarity, sort, order } = {}) {
+   const results = await queryCharacters({ element, weapon, nation, rarity });
+   return sortResults(results, SORT_FIELDS[sort] ?? null, order);
+}
 
-export const name = async (req, res) => {
-   try {
-      const data = await characterStore.getOne(req.params.name);
-      if (!data) return res.status(404).send({ error: 'Character not found.' });
-      res.send(data);
-   } catch (e) {
-      res.status(404).send({ error: 'Character not found.' });
-   }
-};
+/** Full record by exact slug, or null. */
+export const getCharacter = (slug) => characterStore.getOne(slug);
 
-// Kept for backwards compatibility — delegates to queryCharacters
-export const element = async (req, res, next) => {
-   try {
-      const results = await queryCharacters({ element: req.params.element });
-      res.send({ characters: results.map((r) => r.slug) });
-   } catch (e) {
-      next(e);
-   }
-};
+/** Loose name → { slug, suggestions } (see lib/nameResolver.js). */
+export async function findCharacter(name) {
+   return resolveName(await characterStore.getAll(), name);
+}
 
-export const weapon = async (req, res, next) => {
-   try {
-      const results = await queryCharacters({ weapon: req.params.weapon });
-      res.send({ characters: results.map((r) => r.slug) });
-   } catch (e) {
-      next(e);
-   }
-};
+export const listElements = () => characterStore.getDistinct('vision');
+export const listNations = () => characterStore.getDistinct('nation');
 
-export const elements = async (req, res, next) => {
-   try {
-      const values = await characterStore.getDistinct('vision');
-      res.send({ elements: values });
-   } catch (e) {
-      next(e);
-   }
-};
+export async function searchCharacters(term) {
+   return (await characterStore.query(nameIncludes(term))).map(toSearchResult);
+}
 
-export const nations = async (req, res, next) => {
-   try {
-      const values = await characterStore.getDistinct('nation');
-      res.send({ nations: values });
-   } catch (e) {
-      next(e);
-   }
-};
-
-export const imgList = async (req, res, next) => {
-   try {
-      const results = await queryCharacters();
-      res.send({ characters: results.map(toSummary) });
-   } catch (e) {
-      next(e);
-   }
-};
-
-export const imgOfCharsOfElement = async (req, res, next) => {
-   try {
-      const results = await queryCharacters({ element: req.params.element });
-      res.send({ characters: results.map(toSummary) });
-   } catch (e) {
-      next(e);
-   }
-};
+export async function countCharacters() {
+   return (await characterStore.getAll()).length;
+}

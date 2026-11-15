@@ -1,44 +1,9 @@
-import * as dotenv from "dotenv";
+import * as dotenv from 'dotenv';
 dotenv.config();
-import express from "express";
-import cors from "cors";
-import bodyParser from "body-parser";
-import errorHandle from "./middlewares/errorHandle.js";
-import rateLimiter from "./middlewares/rateLimiter.js";
-import { cacheControl } from "./middlewares/cache.js";
-import characterRoutes from "./routes/character/characterRoutes.js";
-import weaponRoutes from "./routes/weapons/weaponRoutes.js";
-import artifactRoutes from "./routes/artifacts/artifactRoutes.js";
-import healthRoutes from "./routes/health/healthRoutes.js";
-import searchRoutes from "./routes/search/searchRoutes.js";
-import materialRoutes from "./routes/materials/materialRoutes.js";
-import enemyRoutes from "./routes/enemies/enemyRoutes.js";
+import { createApp } from './app.js';
 
-const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-app.use(rateLimiter);
-app.use(cacheControl(3600)); // 1-hour default; /health overrides to no-store
-
-app.get("/", (req, res) => {
-   res.send("Welcome to genshin-api");
-});
-
-app.use(["/character", "/characters"], characterRoutes);
-
-app.use(["/weapon", "/weapons"], weaponRoutes);
-app.use(["/artifact", "/artifacts"], artifactRoutes);
-
-app.use(["/material", "/materials"], materialRoutes);
-app.use(["/enemy", "/enemies"], enemyRoutes);
-app.use("/health", healthRoutes);
-app.use("/search", searchRoutes);
-
-app.use(errorHandle);
-
-app.listen(PORT, () => {
+createApp().listen(PORT, () => {
    console.log(`app running on port ${PORT}`);
 });

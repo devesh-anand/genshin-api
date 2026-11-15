@@ -1,7 +1,8 @@
-import path from 'path';
 import { createDataStore } from '../../lib/dataStore.js';
+import { dataDir } from '../../lib/paths.js';
 
-export const weaponStore = createDataStore(path.join(path.resolve(), 'data/weapons'));
+/** Data access only. Other features must go through ./service.js, not this file. */
+export const weaponStore = createDataStore(dataDir('weapons'));
 
 export function queryWeapons({ type, rarity } = {}) {
    return weaponStore.query((w) => {

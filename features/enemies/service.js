@@ -1,43 +1,42 @@
-import { enemyStore, queryEnemies } from './enemyStore.js';
+/** Enemies — all logic lives here. No HTTP (req/res) and no MCP types. */
+import { enemyStore, queryEnemies } from './store.js';
 import { sortResults } from '../../lib/sort.js';
+import { resolveName, nameIncludes } from '../../lib/nameResolver.js';
 
-const SORT_FIELDS = {
+export const SORT_FIELDS = {
    name: 'name',
    type: 'type',
 };
 
-export const enemies = async (req, res, next) => {
-   try {
-      const { type, details, sort, order } = req.query;
-      let results = await queryEnemies({ type });
-      results = sortResults(results, SORT_FIELDS[sort] ?? null, order);
+export function toSummary({ slug, data }) {
+   return {
+      key: slug,
+      name: data.name,
+      type: data.type,
+      img: data.img,
+   };
+}
 
-      if (details === 'true') {
-         return res.send({ enemies: results.map(({ slug, data }) => ({
-            key: slug,
-            name: data.name,
-            type: data.type,
-            img: data.img,
-         }))});
-      }
-      res.send({ enemies: results.map((r) => r.slug) });
-   } catch (e) {
-      next(e);
-   }
-};
+// Search results currently share the summary shape.
+export const toSearchResult = toSummary;
 
-export const enemyByName = async (req, res) => {
-   try {
-      const data = await enemyStore.getOne(req.params.name);
-      if (!data) return res.status(404).send({ error: 'Enemy not found.' });
-      res.send(data);
-   } catch (e) {
-      res.status(404).send({ error: 'Enemy not found.' });
-   }
-};
+/** @param {{ type?, sort?: keyof SORT_FIELDS, order?: 'asc'|'desc' }} [opts] */
+export async function listEnemies({ type, sort, order } = {}) {
+   return sortResults(await queryEnemies({ type }), SORT_FIELDS[sort] ?? null, order);
+}
 
-export const enemyTypes = async (req, res, next) => {
-   try {
-      res.send({ types: await enemyStore.getDistinct('type') });
-   } catch (e) { next(e); }
-};
+export const getEnemy = (slug) => enemyStore.getOne(slug);
+
+export async function findEnemy(name) {
+   return resolveName(await enemyStore.getAll(), name);
+}
+
+export const listEnemyTypes = () => enemyStore.getDistinct('type');
+
+export async function searchEnemies(term) {
+   return (await enemyStore.query(nameIncludes(term))).map(toSearchResult);
+}
+
+export async function countEnemies() {
+   return (await enemyStore.getAll()).length;
+}
