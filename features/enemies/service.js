@@ -1,7 +1,7 @@
 /** Enemies — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { enemyStore, queryEnemies } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
 
 export const SORT_FIELDS = {
    name: 'name',
@@ -34,7 +34,7 @@ export async function findEnemy(name) {
 export const listEnemyTypes = () => enemyStore.getDistinct('type');
 
 export async function searchEnemies(term) {
-   return (await enemyStore.query(nameIncludes(term))).map(toSearchResult);
+   return (await enemyStore.query(matchesSearchTerm(term))).map(toSearchResult);
 }
 
 export async function countEnemies() {

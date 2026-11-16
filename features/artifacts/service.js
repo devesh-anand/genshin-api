@@ -1,7 +1,10 @@
 /** Artifact sets — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { artifactStore, queryArtifacts } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
+import { ARTIFACT_ALIASES } from './aliases.js';
+
+export { ARTIFACT_ALIASES };
 import { omitKeys } from '../../lib/objects.js';
 
 export const SORT_FIELDS = {
@@ -36,11 +39,11 @@ export async function listArtifacts({ rarity, sort, order } = {}) {
 export const getArtifact = (slug) => artifactStore.getOne(slug);
 
 export async function findArtifact(name) {
-   return resolveName(await artifactStore.getAll(), name);
+   return resolveName(await artifactStore.getAll(), name, { aliases: ARTIFACT_ALIASES });
 }
 
 export async function searchArtifacts(term) {
-   return (await artifactStore.query(nameIncludes(term))).map(toSearchResult);
+   return (await artifactStore.query(matchesSearchTerm(term, ARTIFACT_ALIASES))).map(toSearchResult);
 }
 
 export async function countArtifacts() {
@@ -56,10 +59,14 @@ export function toBrief({ slug, data }) {
 
 /** @throws {NotFoundError} with suggestions */
 export async function resolveArtifact(name) {
-   return resolveOrThrow(await artifactStore.getAll(), name, 'artifact set');
+   return resolveOrThrow(await artifactStore.getAll(), name, 'artifact set', { aliases: ARTIFACT_ALIASES });
 }
 
 /** Full set (records are small), with piece images only when asked. */
 export function describeArtifact({ slug, data }, { images = false } = {}) {
-   return { key: slug, ...(images ? data : omitKeys(data, ['img'])) };
+   return {
+      key: slug,
+      ...(ARTIFACT_ALIASES[slug] && { aliases: ARTIFACT_ALIASES[slug] }),
+      ...(images ? data : omitKeys(data, ['img'])),
+   };
 }

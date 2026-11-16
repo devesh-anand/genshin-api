@@ -54,7 +54,7 @@ describe('characters service: model-facing helpers', () => {
    it('describeCharacter returns only the requested sections', async () => {
       const entry = await svc.resolveCharacter('nahida');
       assert.deepEqual(Object.keys(svc.describeCharacter(entry)).sort(),
-         ['affiliation', 'birthday', 'constellation', 'description', 'key', 'name', 'nation', 'rarity', 'title', 'vision', 'weapon']);
+         ['affiliation', 'aliases', 'birthday', 'constellation', 'description', 'key', 'name', 'nation', 'rarity', 'title', 'vision', 'weapon']);
       const costs = svc.describeCharacter(entry, ['talent_costs']);
       assert.deepEqual(Object.keys(costs), ['key', 'talent_costs']);
    });
@@ -71,5 +71,19 @@ describe('characters service: model-facing helpers', () => {
    it('toBrief has a stable shape', async () => {
       const [entry] = await svc.listCharacters();
       assert.deepEqual(Object.keys(svc.toBrief(entry)), ['key', 'name', 'element', 'weapon', 'nation', 'rarity']);
+   });
+});
+
+describe('characters service: nicknames', () => {
+   it('resolve, appear in the overview, and are searchable', async () => {
+      assert.equal((await svc.resolveCharacter('Childe')).slug, 'tartaglia');
+      assert.equal((await svc.resolveCharacter('Ei')).slug, 'raiden');
+      assert.deepEqual(svc.describeCharacter(await svc.resolveCharacter('scara')).aliases.slice(0, 2), ['Scaramouche', 'Scara']);
+      assert.ok((await svc.searchCharacters('morax')).some((c) => c.key === 'zhongli'));
+   });
+
+   it('travelers stay ambiguous between Aether and Lumine', async () => {
+      await assert.rejects(svc.resolveCharacter('anemo traveler'), (e) =>
+         e.status === 404 && e.suggestions.includes('aether-anemo') && e.suggestions.includes('lumine-anemo'));
    });
 });

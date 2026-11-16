@@ -13,7 +13,7 @@ import fs from 'fs';
 import path from 'path';
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { ROOT_DIR } from '../lib/paths.js';
-import { AppError } from '../lib/errors.js';
+import { AppError, NotFoundError } from '../lib/errors.js';
 import { TOOLSETS } from './registry.js';
 
 const { version } = JSON.parse(fs.readFileSync(path.join(ROOT_DIR, 'package.json'), 'utf-8'));
@@ -25,11 +25,25 @@ export const INSTRUCTIONS = `Genshin Impact game data: characters, weapons, arti
 - Not sure what something is? Call search first, then the matching get_* tool with a returned key.
 - get_character and get_weapon return only the sections you request — ask for just what the question needs.
 - Material keys in costs/drops can be passed to get_material.
+- Abbreviations can mean different things in different categories ("HoD" is the sword Harbinger of
+  Dawn and the artifact set Heart of Depth). Pick the tool for the category the user means; if
+  unsure, call search and decide from context (e.g. the character's weapon type and element), or ask.
 - For "what do I need to build X" use plan_materials (pass the player's inventory if known); for
   "what should I farm today" use get_farming_schedule. Don't add up costs yourself.
 - Unofficial fan project, not affiliated with HoYoverse; game content belongs to HoYoverse / COGNOSPHERE.`;
 
 const DEFAULT_ANNOTATIONS = { readOnlyHint: true, idempotentHint: true, openWorldHint: false };
+
+export const MAX_LOGGED_QUERY = 64;
+
+/** A looked-up name made safe to log: control characters stripped, whitespace collapsed, capped. */
+export function cleanQuery(value) {
+   return String(value)
+      .replace(/[\u0000-\u001f\u007f]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, MAX_LOGGED_QUERY);
+}
 
 /** Turns a handler's return value into an MCP tool result. */
 export function toToolResult(value) {
@@ -56,8 +70,10 @@ export async function loadToolDefinitions(toolsets = TOOLSETS) {
  *   toolsets    - override the registry (tests only)
  *   definitions - pre-loaded tool definitions (the HTTP transport builds a server per request
  *                 and loads definitions once); defaults to loading from `toolsets`
- *   onToolCall  - called after every tool call with { tool, ok, ms, error? } — usage logging.
- *                 `error` is the error class name only; arguments are never passed (privacy).
+ *   onToolCall  - called after every tool call with { tool, ok, ms, error?, unresolved? } — usage logging.
+ *                 `error` is the error class name. Arguments are never passed, with one exception:
+ *                 for a name that didn't resolve, `unresolved` = { entity, query } (the game-name text,
+ *                 cleaned and capped at 64 chars) so missing nicknames can be found and added.
  * @returns {Promise<McpServer>}
  */
 export async function createMcpServer({ user = null, toolsets = TOOLSETS, definitions, onToolCall } = {}) {
@@ -86,7 +102,15 @@ export async function createMcpServer({ user = null, toolsets = TOOLSETS, defini
             if (onToolCall) {
                const ms = Math.round(performance.now() - started);
                try {
-                  onToolCall({ tool: def.name, ok: !error, ms, ...(error && { error: error.name || 'Error' }) });
+                  onToolCall({
+                     tool: def.name,
+                     ok: !error,
+                     ms,
+                     ...(error && { error: error.name || 'Error' }),
+                     ...(error instanceof NotFoundError && error.query !== undefined && {
+                        unresolved: { entity: error.entity, query: cleanQuery(error.query) },
+                     }),
+                  });
                } catch {
                   // logging must never break a tool call
                }

@@ -392,7 +392,7 @@ Errors: `400` invalid input, `404` unknown character/weapon name (with suggestio
 
 ### `GET /search?q=`
 
-Searches across characters, weapons, and artifacts by name. Requires at least 2 characters.
+Searches characters, weapons, artifacts, materials and enemies by name (characters, weapons and artifacts also by community nickname, e.g. `childe`, `pjws`, `eosf`). Requires at least 2 characters.
 
 ```
 GET /search?q=nahida
@@ -457,6 +457,10 @@ like Claude can look up characters, weapons, artifacts, materials and enemies di
   `get_farming_schedule` (what to farm where, by weekday) — same engine as [`/planner`](#planner)
 
 **claude.ai / Claude apps:** Settings → Connectors → *Add custom connector* → paste the endpoint URL.
+
+Names are matched loosely: typos, community nicknames ("Childe", "Ei", "Scara", "Fav Sword") and
+initials ("PJWS", "EoSF", "VV"). Each tool matches within its own category, so "HoD" is Harbinger
+of Dawn for `get_weapon` and Heart of Depth for `get_artifact`; `search` shows both.
 
 **Claude Code:**
 ```bash

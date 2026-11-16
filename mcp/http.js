@@ -26,7 +26,7 @@ export function sendRpcError(res, status, code, message, headers = {}) {
    });
 }
 
-/** One JSON line per tool call on stdout (Railway logs). Never includes arguments. */
+/** One JSON line per tool call on stdout (Railway logs). No arguments except an unresolved name (see server.js). */
 export function logToolCall(entry) {
    console.log(JSON.stringify({ event: 'mcp_tool_call', ...entry }));
 }
