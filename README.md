@@ -384,6 +384,25 @@ Same body as `/planner/plan`, plus optional `"day": "monday"` … `"sunday"`. Re
 grouped by where to farm it: `domains` (with open days), `domains_by_day`, `bosses`, `local_specialties`
 (by region), `enemies` (common drops), `other`, and `mora_needed`.
 
+### `POST /planner/resin`
+
+Same body as `/planner/plan`, plus optional `"resin"` settings. Estimates how much Original Resin the plan
+still needs and roughly how long it takes, from average drop rates:
+
+```json
+{ "targets": [ … ], "inventory": { … },
+  "resin": { "world_level": 8, "domain_level": 4, "weekly_boss_level": 6, "resin_per_day": 180, "include_mora": false } }
+```
+
+Returns `total_resin`, `days` (a lower bound: the largest of resin per day, domain open days and
+once-a-week weekly bosses) with `limited_by`, the `activities` (talent/weapon domains, normal bosses —
+material and gems from the same runs — weekly bosses with their 30/60 resin cost, Ley Lines) with runs and
+resin each, `not_from_resin` (local specialties, common drops, forged ore…), `settings`, `notes` and `sources`.
+`/planner/farming` includes the same estimate as `resin`.
+
+Drop averages come from the [Genshin Impact Fandom wiki](https://genshin-impact.fandom.com/wiki/Loot_System/Material_Drop_Distribution)
+(CC BY-SA 3.0); they're community-sampled averages, so real farming varies around them.
+
 Errors: `400` invalid input, `404` unknown character/weapon name (with suggestions in the message).
 
 ---
@@ -454,7 +473,7 @@ like Claude can look up characters, weapons, artifacts, materials and enemies di
 - Lookup: `search`, `list_characters`, `get_character`, `list_weapons`, `get_weapon`, `list_artifacts`,
   `get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`
 - Planner: `plan_materials` (everything a build needs, optionally after your inventory) and
-  `get_farming_schedule` (what to farm where, by weekday) — same engine as [`/planner`](#planner)
+  `get_farming_schedule` (what to farm where, by weekday, plus resin and days needed) — same engine as [`/planner`](#planner)
 
 **claude.ai / Claude apps:** Settings → Connectors → *Add custom connector* → paste the endpoint URL.
 

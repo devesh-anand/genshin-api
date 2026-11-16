@@ -1,6 +1,6 @@
 import express from 'express';
 import { handle } from '../../lib/http.js';
-import { planMaterials, getFarmingSchedule } from './service.js';
+import { planMaterials, getFarmingSchedule, estimateResin } from './service.js';
 
 const router = express.Router();
 
@@ -12,6 +12,10 @@ router.post('/plan', handle(async (req, res) => {
 
 router.post('/farming', handle(async (req, res) => {
    res.send(await getFarmingSchedule(req.body));
+}));
+
+router.post('/resin', handle(async (req, res) => {
+   res.send(await estimateResin(req.body));
 }));
 
 export default router;

@@ -147,6 +147,10 @@ Tools are read-only by default (annotations); override with `annotations` only f
 - Slugs don't always match display names (`raiden` is "Raiden Shogun", `kuki-shinobu` is `kuki`
   via `SLUG_OVERRIDES` in the scripts; travelers exist only as `aether-<element>` and
   `lumine-<element>`). Use `find*()` for user/model input.
+- Resin estimates use `features/planner/farming-rates.js`: hand-curated average drops per claim, resin
+  costs and regeneration, from the Fandom wiki (CC BY-SA — keep `FARMING_SOURCES` and the README credit).
+  Update it (with the source URL + date) if the game changes drop tables; `resin.test.js` and the planner
+  golden tests pin the maths.
 - There is no image upload endpoint: images are uploaded to R2 by the sync/populate scripts only.
 - The REST rate limiter (100 req/min/IP) is skipped in tests via `createApp({ rateLimit: false })`.
   `/mcp` has its own limiter (300/min/IP) — pass `createApp({ mcp: { rateLimit: false } })` to skip it.

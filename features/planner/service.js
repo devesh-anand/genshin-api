@@ -15,9 +15,15 @@ import { z } from 'zod';
 import { ValidationError } from '../../lib/errors.js';
 import { resolveCharacter } from '../characters/service.js';
 import { resolveWeapon } from '../weapons/service.js';
-import { getMaterial, getMaterialFamily, resolveMaterial } from '../materials/service.js';
+import { getMaterial, getMaterialFamily, resolveMaterial, listMaterials } from '../materials/service.js';
+import { getEnemy } from '../enemies/service.js';
 import { getProgression } from './store.js';
 import { resolveFamily } from './inventory.js';
+import { runsForChain, runsForSingle, runsForWeeklyBoss, weeklyBossResin, estimateDays } from './resin.js';
+import {
+   RESIN, TALENT_DOMAIN, WEAPON_DOMAIN, NORMAL_BOSS, WEEKLY_BOSS, LEY_LINE,
+   MAX_WORLD_LEVEL, MAX_BOSS_TABLE_WORLD_LEVEL, FARMING_SOURCES, FARMING_DATA_LICENSE,
+} from './farming-rates.js';
 
 export const TALENTS = ['normal_attack', 'elemental_skill', 'elemental_burst'];
 export const MAX_TARGETS = 20;
@@ -360,9 +366,22 @@ export async function planMaterials(input) {
 
 export const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 
+export const resinOptionsSchema = z
+   .object({
+      world_level: z.number().int().min(0).max(MAX_WORLD_LEVEL).optional().describe('World Level (affects bosses and Ley Lines). Default 8.'),
+      domain_level: z.number().int().min(1).max(4).optional().describe('Domain level I–IV you run (talent/weapon domains). Default 4.'),
+      weekly_boss_level: z.number().int().min(1).max(6).optional().describe('Weekly boss domain level I–VI. Default 6.'),
+      resin_per_day: z.number().int().min(1).max(2000).optional().describe(`Resin spent per day. Default ${RESIN.per_day} (natural regeneration).`),
+      include_mora: z.boolean().optional().describe('Also count Mora Ley Lines for the plan\'s Mora. Default false (most players have Mora from elsewhere).'),
+   })
+   .describe('Assumptions for the resin/time estimate.');
+
 export const farmingInputSchema = planInputSchema.extend({
    day: z.enum(DAYS).optional().describe('Only show domains open on this day (server reset time). Default: the whole week.'),
+   resin: resinOptionsSchema.optional(),
 });
+
+export const resinInputSchema = planInputSchema.extend({ resin: resinOptionsSchema.optional() });
 
 const need = (m) => m.missing ?? m.quantity;
 const brief = (m) => ({ key: m.key, name: m.name, tier: m.tier, quantity: need(m) });
@@ -373,9 +392,10 @@ const brief = (m) => ({ key: m.key, name: m.name, tier: m.tier, quantity: need(m
  * @returns {Promise<{ domains, bosses, local_specialties, enemies, other, mora_needed }>}
  */
 export async function getFarmingSchedule(input) {
-   const { day, ...planInput } = parseOrThrow(farmingInputSchema, input);
+   const { day, resin: resinOptions, ...planInput } = parseOrThrow(farmingInputSchema, input);
    const plan = await runPlan(planInput);
    const open = plan.materials.filter((m) => need(m) > 0);
+   const resin = await estimateFromPlan(plan, resinOptions);
 
    const domains = new Map();
    const bosses = [];
@@ -416,6 +436,192 @@ export async function getFarmingSchedule(input) {
       enemies,
       other,
       mora_needed: plan.mora.total,
+      resin,
       ...(plan.unknown_inventory && { unknown_inventory: plan.unknown_inventory }),
+   };
+}
+
+// ── Resin and time estimate ───────────────────────────────────────────────────────────────
+
+/**
+ * How much Original Resin (and roughly how many days) a plan still needs, from average
+ * drops (features/planner/farming-rates.js). Materials that don't cost resin are listed
+ * separately. Uses `missing` after inventory/crafting when an inventory was given.
+ *
+ * @param {unknown} input - planMaterials input + optional `resin` options (see resinOptionsSchema)
+ */
+export async function estimateResin(input) {
+   const { resin: options, ...planInput } = parseOrThrow(resinInputSchema, input);
+   return estimateFromPlan(await runPlan(planInput), options);
+}
+
+async function enemyName(slug) {
+   return (await getEnemy(slug))?.name ?? slug;
+}
+
+/** Need per tier for a family, lowest tier first, from the plan's lines. */
+async function familyNeeds(family, needByKey) {
+   const members = await getMaterialFamily(family);
+   return { members, need: members.map(({ slug }) => needByKey.get(slug) ?? 0) };
+}
+
+async function estimateFromPlan(plan, options = {}) {
+   const settings = {
+      world_level: options.world_level ?? 8,
+      domain_level: options.domain_level ?? 4,
+      weekly_boss_level: options.weekly_boss_level ?? 6,
+      resin_per_day: options.resin_per_day ?? RESIN.per_day,
+      include_mora: options.include_mora ?? false,
+   };
+   const notes = [
+      'Run counts use average drops (community-sampled), so real farming varies around them.',
+      'Days are a lower bound: resin per day, domain open days and the once-a-week weekly bosses all limit progress.',
+   ];
+   const bossWl = Math.min(settings.world_level, MAX_BOSS_TABLE_WORLD_LEVEL);
+   if (settings.world_level > MAX_BOSS_TABLE_WORLD_LEVEL) {
+      notes.push(`No published boss drop table for World Level ${settings.world_level}; using World Level ${bossWl}.`);
+   }
+   const prog = await getProgression();
+
+   const lines = plan.materials.filter((m) => need(m) > 0);
+   const needByKey = new Map(lines.map((m) => [m.key, need(m)]));
+   const activities = [];
+   const notFromResin = [];
+   const handled = new Set();
+
+   // Domains: one claim yields one family's drops, so runs add up per domain.
+   const domainRuns = new Map();
+   for (const family of new Set(lines.filter((m) => m.source?.type === 'domain' && m.family).map((m) => m.family))) {
+      const { members, need: needs } = await familyNeeds(family, needByKey);
+      const first = lines.find((m) => m.family === family);
+      const table = first.category === 'weapon-material' ? WEAPON_DOMAIN : TALENT_DOMAIN;
+      const runs = runsForChain(needs, table[settings.domain_level], members[1]?.data.craft?.quantity ?? 3);
+      const d = domainRuns.get(first.source.name) ?? {
+         type: first.category === 'weapon-material' ? 'weapon_domain' : 'talent_domain',
+         name: first.source.name,
+         open_days: first.source.days ?? [],
+         runs: 0,
+         materials: [],
+      };
+      d.runs += runs;
+      d.materials.push(family);
+      domainRuns.set(first.source.name, d);
+      members.forEach(({ slug }) => handled.add(slug));
+   }
+   for (const d of domainRuns.values()) activities.push({ ...d, resin: d.runs * RESIN.domain });
+
+   // Normal bosses: each claim drops the boss's own material and gems of its element together.
+   const bossEntries = new Map();
+   for (const m of lines.filter((x) => x.category === 'boss-drop')) {
+      const boss = m.dropped_by?.[0];
+      if (!boss) continue;
+      const runs = runsForSingle(needByKey.get(m.key), NORMAL_BOSS.material[bossWl]);
+      const e = bossEntries.get(boss) ?? { type: 'normal_boss', boss, name: await enemyName(boss), runs: 0, materials: [] };
+      e.runs = Math.max(e.runs, runs);
+      e.materials.push(m.key);
+      bossEntries.set(boss, e);
+      handled.add(m.key);
+   }
+   for (const family of new Set(lines.filter((m) => m.category === 'ascension-gem' && m.family).map((m) => m.family))) {
+      const { members, need: needs } = await familyNeeds(family, needByKey);
+      const droppers = new Set(members.flatMap(({ data }) => data.dropped_by ?? []));
+      if (!droppers.size) continue; // e.g. Brilliant Diamond: not from bosses
+      const gemRuns = runsForChain(needs, NORMAL_BOSS.gems[bossWl], members[1]?.data.craft?.quantity ?? 3);
+      const sharing = [...bossEntries.values()].filter((e) => droppers.has(e.boss)).sort((a, b) => b.runs - a.runs);
+      const covered = sharing.reduce((s, e) => s + e.runs, 0);
+      if (sharing.length) {
+         sharing[0].materials.push(family);
+         if (gemRuns > covered) {
+            sharing[0].runs += gemRuns - covered;
+            sharing[0].limited_by = 'gems';
+         }
+      } else {
+         const options = [...droppers].slice(0, 5);
+         bossEntries.set(family, {
+            type: 'normal_boss', boss: null, name: `Any boss that drops ${members.at(-1).data.name}`,
+            options: await Promise.all(options.map(enemyName)), runs: gemRuns, materials: [family],
+         });
+      }
+      members.forEach(({ slug }) => handled.add(slug));
+   }
+   for (const e of bossEntries.values()) activities.push({ ...e, resin: e.runs * RESIN.normal_boss });
+
+   // Weekly bosses: random type among the boss's three, Dream Solvents convert between them.
+   const weeklyNeeds = new Map();
+   for (const m of lines.filter((x) => x.category === 'weekly-boss-drop')) {
+      const boss = m.dropped_by?.[0];
+      if (!boss) continue; // quest rewards etc.
+      weeklyNeeds.set(boss, [...(weeklyNeeds.get(boss) ?? []), m.key]);
+      handled.add(m.key);
+   }
+   const weeklyAll = weeklyNeeds.size ? await listMaterials({ category: 'weekly-boss-drop' }) : [];
+   const weeklyEntries = [];
+   for (const [boss, keys] of weeklyNeeds) {
+      const mats = weeklyAll.filter((x) => x.data.dropped_by?.includes(boss)).map((x) => x.slug);
+      const runs = runsForWeeklyBoss(
+         mats.map((k) => needByKey.get(k) ?? 0),
+         WEEKLY_BOSS.materials[settings.weekly_boss_level],
+         WEEKLY_BOSS.dream_solvent,
+         Math.max(mats.length, WEEKLY_BOSS.materials_per_boss)
+      );
+      weeklyEntries.push({ type: 'weekly_boss', boss, name: await enemyName(boss), runs, weeks: runs, materials: keys });
+   }
+   const weekly = weeklyBossResin(weeklyEntries.map((e) => e.runs));
+   // Spread the weekly resin across bosses for display (discounts go to the bosses claimed most).
+   for (const e of weeklyEntries) {
+      activities.push({ ...e, resin: Math.round((weekly.resin * e.runs) / Math.max(1, weeklyEntries.reduce((s, x) => s + x.runs, 0))) });
+   }
+
+   // Ley Lines: character EXP (and Mora if asked).
+   const charExpItems = prog.exp_materials.character;
+   const charExp = lines
+      .filter((m) => charExpItems.some((e) => e.slug === m.key))
+      .reduce((s, m) => s + needByKey.get(m.key) * charExpItems.find((e) => e.slug === m.key).exp, 0);
+   charExpItems.forEach((e) => handled.add(e.slug));
+   if (charExp > 0) {
+      const runs = runsForSingle(charExp, LEY_LINE.character_exp[settings.world_level]);
+      activities.push({ type: 'ley_line_exp', name: 'Ley Line Outcrop (Blossom of Revelation)', runs, resin: runs * RESIN.ley_line, exp: charExp });
+   }
+   if (settings.include_mora && plan.mora.total > 0) {
+      const runs = runsForSingle(plan.mora.total, LEY_LINE.mora[settings.world_level]);
+      activities.push({ type: 'ley_line_mora', name: 'Ley Line Outcrop (Blossom of Wealth)', runs, resin: runs * RESIN.ley_line, mora: plan.mora.total });
+   }
+
+   // Everything else costs no resin.
+   const NON_RESIN = {
+      'local-specialty': 'Collected in the open world (respawns over time)',
+      'common-drop': 'Dropped by common enemies',
+      'exp-material': 'Weapon EXP ore is forged (no resin)',
+      'weapon-billet': 'Weekly boss / Trounce rewards, or forged',
+   };
+   for (const m of lines.filter((x) => !handled.has(x.key))) {
+      notFromResin.push({
+         key: m.key, name: m.name, category: m.category, quantity: need(m),
+         how: m.source?.region ? `${NON_RESIN[m.category] ?? ''} — ${m.source.region}`.replace(/^ — /, '') : (NON_RESIN[m.category] ?? m.source?.description ?? null),
+      });
+   }
+
+   // Settings that can't produce a needed tier (e.g. domain level I for 4★ books): report, don't count.
+   const unobtainable = activities.filter((a) => !Number.isFinite(a.runs));
+   for (const a of unobtainable) Object.assign(a, { runs: null, resin: null, obtainable: false });
+   if (unobtainable.length) {
+      notes.push(`Not obtainable at these settings: ${unobtainable.map((a) => a.name).join(', ')} — try a higher domain/boss level.`);
+   }
+   const total = activities.reduce((s, a) => s + (a.resin ?? 0), 0);
+   const days = estimateDays({
+      total,
+      perDay: settings.resin_per_day,
+      domains: activities.filter((a) => a.type.endsWith('_domain') && a.resin).map((a) => ({ resin: a.resin, openDays: a.open_days.length })),
+      weeklyWeeks: Number.isFinite(weekly.weeks) ? weekly.weeks : 0,
+   });
+
+   return {
+      total_resin: total,
+      ...days,
+      activities: activities.sort((a, b) => (b.resin ?? 0) - (a.resin ?? 0)),
+      not_from_resin: notFromResin,
+      settings,
+      notes,
+      sources: { license: FARMING_DATA_LICENSE, pages: FARMING_SOURCES.map((s) => s.url) },
    };
 }
