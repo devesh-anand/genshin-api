@@ -186,6 +186,14 @@ describe('MCP: planner tools', () => {
       assert.ok(r.json.materials.every((m) => typeof m.missing === 'number'));
    });
 
+   it('get_farming_schedule includes a resin estimate and accepts settings', async () => {
+      const r = await call('get_farming_schedule', { targets: [nahida], resin: { world_level: 8, resin_per_day: 240 } });
+      assert.equal(r.isError, false, r.text);
+      assert.ok(r.json.resin.total_resin > 0);
+      assert.equal(r.json.resin.settings.resin_per_day, 240);
+      assert.ok(r.json.resin.activities.some((a) => a.type === 'ley_line_exp'));
+   });
+
    it('get_farming_schedule filters by day', async () => {
       const r = await call('get_farming_schedule', { targets: [nahida], day: 'tuesday' });
       assert.equal(r.json.day, 'tuesday');

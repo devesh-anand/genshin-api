@@ -111,6 +111,14 @@ describe('REST planner', () => {
       assert.equal((await fetch(base + '/planner/plan')).status, 404);
    });
 
+   it('POST /planner/resin estimates resin and days', async () => {
+      const res = await post('/planner/resin', { targets: [nahida], resin: { world_level: 8 } });
+      assert.equal(res.status, 200);
+      const r = await res.json();
+      assert.ok(r.total_resin > 0 && r.days > 0);
+      assert.equal((await post('/planner/resin', { targets: [nahida], resin: { world_level: 99 } })).status, 400);
+   });
+
    it('plans are not cached', async () => {
       assert.equal((await post('/planner/plan', { targets: [nahida] })).headers.get('cache-control'), null);
    });

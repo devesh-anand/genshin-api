@@ -2,7 +2,7 @@
 // If one fails after a data sync, the data changed — check the game before "fixing" the test.
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
-import { planMaterials, getFarmingSchedule, phaseAt, expItemsFor, sortNeeds } from './service.js';
+import { planMaterials, getFarmingSchedule, estimateResin, phaseAt, expItemsFor, sortNeeds } from './service.js';
 import { ValidationError, NotFoundError } from '../../lib/errors.js';
 
 const qty = (plan) => Object.fromEntries(plan.materials.map((m) => [m.key, m.quantity]));
@@ -247,5 +247,81 @@ describe('planner: farming schedule', () => {
    it('leaves out what the inventory already covers', async () => {
       const f = await getFarmingSchedule({ ...input, inventory: { 'kalpalata lotus': 168 } });
       assert.ok(!f.local_specialties.some((r) => r.materials.some((m) => m.key === 'kalpalata-lotus')));
+   });
+});
+
+describe('planner: resin estimate', () => {
+   const t9 = Object.fromEntries(['normal_attack', 'elemental_skill', 'elemental_burst'].map((t) => [t, { from: 1, to: 9 }]));
+   const nahida = { type: 'character', name: 'nahida', level: { from: 1, to: 90 }, talents: t9 };
+   const act = (r, type) => r.activities.find((a) => a.type === type);
+
+   it('Nahida 1→90, 9/9/9: runs per activity from average drops', async () => {
+      const r = await estimateResin({ targets: [nahida] });
+      assert.equal(act(r, 'ley_line_exp').runs, Math.ceil(8362650 / 122500)); // 69
+      assert.equal(act(r, 'talent_domain').runs, 79);
+      assert.equal(act(r, 'talent_domain').name, 'Domain of Mastery: Witticism');
+      const boss = act(r, 'normal_boss');
+      assert.equal(boss.boss, 'dendro-hypostasis');
+      assert.equal(boss.limited_by, 'gems'); // 46 Quelled Creeper alone = 18 runs; gems need more
+      assert.equal(boss.runs, 32);
+      assert.deepEqual([act(r, 'weekly_boss').runs, act(r, 'weekly_boss').resin], [12, 12 * 30]);
+      assert.equal(r.total_resin, r.activities.reduce((s, a) => s + a.resin, 0));
+      assert.deepEqual([r.days, r.limited_by], [78, 'weekly_bosses']);
+   });
+
+   it('lists what costs no resin', async () => {
+      const r = await estimateResin({ targets: [nahida] });
+      const keys = r.not_from_resin.map((x) => x.key);
+      assert.ok(keys.includes('kalpalata-lotus') && keys.includes('crystalline-cyst-dust'));
+      assert.match(r.not_from_resin.find((x) => x.key === 'kalpalata-lotus').how, /Sumeru/);
+      assert.ok(!keys.includes('heros-wit'), 'character EXP comes from Ley Lines');
+   });
+
+   it('inventory lowers the estimate', async () => {
+      const full = await estimateResin({ targets: [nahida] });
+      const owned = await estimateResin({ targets: [nahida], inventory: { 'heros wit': 200, 'philosophies of ingenuity': 30 } });
+      assert.ok(act(owned, 'ley_line_exp').runs < act(full, 'ley_line_exp').runs);
+      assert.ok(act(owned, 'talent_domain').runs < act(full, 'talent_domain').runs);
+   });
+
+   it('settings: lower levels need more runs; Mora Ley Lines are opt-in; more resin per day is faster', async () => {
+      const base = await estimateResin({ targets: [nahida] });
+      const low = await estimateResin({ targets: [nahida], resin: { domain_level: 3, world_level: 5 } });
+      assert.ok(act(low, 'talent_domain').runs > act(base, 'talent_domain').runs);
+      assert.ok(act(low, 'ley_line_exp').runs > act(base, 'ley_line_exp').runs);
+      assert.equal(act(base, 'ley_line_mora'), undefined);
+      const mora = await estimateResin({ targets: [nahida], resin: { include_mora: true } });
+      assert.ok(act(mora, 'ley_line_mora').runs > 0);
+      const lvl = { targets: [{ type: 'character', name: 'nahida', level: { from: 1, to: 90 } }] };
+      assert.ok((await estimateResin({ ...lvl, resin: { resin_per_day: 360 } })).days < (await estimateResin(lvl)).days);
+   });
+
+   it('World Level 9 falls back to the World Level 8 boss table, with a note', async () => {
+      const r = await estimateResin({ targets: [nahida], resin: { world_level: 9 } });
+      assert.ok(r.notes.some((n) => /World Level 9/.test(n)));
+      assert.equal(act(r, 'normal_boss').runs, 32);
+   });
+
+   it('weapons: domain runs; EXP ore is not resin', async () => {
+      const r = await estimateResin({ targets: [{ type: 'weapon', name: 'mistsplitter', level: { from: 1, to: 90 } }] });
+      assert.ok(act(r, 'weapon_domain').runs > 0);
+      assert.ok(r.not_from_resin.some((x) => x.key === 'mystic-enhancement-ore'));
+   });
+
+   it('nothing to farm → 0 resin, 0 days', async () => {
+      const r = await estimateResin({ targets: [{ type: 'character', name: 'nahida', level: { from: 90, to: 90 } }] });
+      assert.deepEqual([r.total_resin, r.days, r.limited_by], [0, 0, null]);
+   });
+
+   it('rejects bad settings', async () => {
+      await assert.rejects(estimateResin({ targets: [nahida], resin: { world_level: 10 } }), ValidationError);
+      await assert.rejects(estimateResin({ targets: [nahida], resin: { domain_level: 5 } }), ValidationError);
+   });
+
+   it('farming schedule includes the estimate and cites its sources', async () => {
+      const f = await getFarmingSchedule({ targets: [nahida] });
+      assert.ok(f.resin.total_resin > 0);
+      assert.match(f.resin.sources.license, /CC BY-SA/);
+      assert.ok(f.resin.sources.pages.every((u) => u.startsWith('https://genshin-impact.fandom.com/')));
    });
 });

@@ -1,7 +1,7 @@
 /** MCP tools for the material planner — thin wrappers over ./service.js (no logic here). */
 import { z } from '../../mcp/schema.js';
 import { omitKeys } from '../../lib/objects.js';
-import { planMaterials, getFarmingSchedule, targetSchema, inventorySchema, DAYS, MAX_TARGETS } from './service.js';
+import { planMaterials, getFarmingSchedule, targetSchema, inventorySchema, resinOptionsSchema, DAYS, MAX_TARGETS } from './service.js';
 
 const targets = z
    .array(targetSchema)
@@ -34,12 +34,15 @@ export async function tools() {
          description:
             'For the same targets (and optional inventory) as plan_materials: what is still needed, grouped by where to ' +
             'farm it — domains with their open weekdays (filter with `day`; Sunday opens all), bosses and weekly bosses, ' +
-            'local specialties by region, and common drops with the enemies that drop them. Use for "what should I farm ' +
-            'today/this week?".',
+            'local specialties by region, and common drops with the enemies that drop them — plus a resin estimate: ' +
+            'resin per activity (domain/boss/weekly boss/Ley Line runs), total resin, and estimated days (limited by ' +
+            'resin, domain open days and once-a-week weekly bosses), from average drop rates. Use for "what should I farm ' +
+            'today/this week?" and "how long will this build take?".',
          inputSchema: {
             targets,
             inventory: inventorySchema.optional(),
             day: z.enum(DAYS).optional().describe('Only domains open on this day. Default: the whole week.'),
+            resin: resinOptionsSchema.optional(),
          },
          handler: async (args) => getFarmingSchedule(args),
       },
