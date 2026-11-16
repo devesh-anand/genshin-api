@@ -4,7 +4,7 @@
  */
 import { characterStore, queryCharacters } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameOrAliasIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
 import { CHARACTER_ALIASES } from './aliases.js';
 
 export { CHARACTER_ALIASES };
@@ -66,7 +66,7 @@ export const listElements = () => characterStore.getDistinct('vision');
 export const listNations = () => characterStore.getDistinct('nation');
 
 export async function searchCharacters(term) {
-   return (await characterStore.query(nameOrAliasIncludes(term, CHARACTER_ALIASES))).map(toSearchResult);
+   return (await characterStore.query(matchesSearchTerm(term, CHARACTER_ALIASES))).map(toSearchResult);
 }
 
 export async function countCharacters() {

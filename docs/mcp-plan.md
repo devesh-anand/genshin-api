@@ -60,5 +60,7 @@ Largest default response is ~5.6k tokens (`list_artifacts` with bonuses); most a
 - JSON responses (`enableJsonResponse`), `Cache-Control: no-store`, 64 KB body limit.
 - No auth and no Origin/Host allowlist: the data is public and read-only, and there are no
   credentials or user state a malicious page could abuse. Revisit both in Phase 5.
-- Usage log line per tool call: `{"event":"mcp_tool_call","tool","ok","ms","error"?}` — no arguments, no IPs.
+- Usage log line per tool call: `{"event":"mcp_tool_call","tool","ok","ms","error"?,"unresolved"?}` — no IPs and
+  no arguments, except the text of a name that didn't resolve (`unresolved: { entity, query }`, ≤ 64 chars),
+  used to find missing nicknames.
 

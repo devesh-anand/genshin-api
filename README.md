@@ -458,8 +458,9 @@ like Claude can look up characters, weapons, artifacts, materials and enemies di
 
 **claude.ai / Claude apps:** Settings → Connectors → *Add custom connector* → paste the endpoint URL.
 
-Names are matched loosely, including typos and community nicknames/abbreviations
-("Childe", "Ei", "Scara", "PJWS", "Fav Sword", "EoSF", "VV", "HoD"…).
+Names are matched loosely: typos, community nicknames ("Childe", "Ei", "Scara", "Fav Sword") and
+initials ("PJWS", "EoSF", "VV"). Each tool matches within its own category, so "HoD" is Harbinger
+of Dawn for `get_weapon` and Heart of Depth for `get_artifact`; `search` shows both.
 
 **Claude Code:**
 ```bash

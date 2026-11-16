@@ -1,7 +1,7 @@
 /** Materials — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { materialStore, queryMaterials } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
 
 export const SORT_FIELDS = {
    name:     'name',
@@ -36,7 +36,7 @@ export async function findMaterial(name) {
 export const listMaterialCategories = () => materialStore.getDistinct('category');
 
 export async function searchMaterials(term) {
-   return (await materialStore.query(nameIncludes(term))).map(toSearchResult);
+   return (await materialStore.query(matchesSearchTerm(term))).map(toSearchResult);
 }
 
 export async function countMaterials() {

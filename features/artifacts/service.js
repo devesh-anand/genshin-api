@@ -1,7 +1,7 @@
 /** Artifact sets — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { artifactStore, queryArtifacts } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameOrAliasIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
 import { ARTIFACT_ALIASES } from './aliases.js';
 
 export { ARTIFACT_ALIASES };
@@ -43,7 +43,7 @@ export async function findArtifact(name) {
 }
 
 export async function searchArtifacts(term) {
-   return (await artifactStore.query(nameOrAliasIncludes(term, ARTIFACT_ALIASES))).map(toSearchResult);
+   return (await artifactStore.query(matchesSearchTerm(term, ARTIFACT_ALIASES))).map(toSearchResult);
 }
 
 export async function countArtifacts() {

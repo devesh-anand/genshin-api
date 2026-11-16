@@ -1,7 +1,7 @@
 /** Weapons — all logic lives here. No HTTP (req/res) and no MCP types. */
 import { weaponStore, queryWeapons } from './store.js';
 import { sortResults } from '../../lib/sort.js';
-import { resolveName, resolveOrThrow, nameOrAliasIncludes } from '../../lib/nameResolver.js';
+import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
 import { WEAPON_ALIASES } from './aliases.js';
 
 export { WEAPON_ALIASES };
@@ -49,7 +49,7 @@ export async function findWeapon(name) {
 export const listWeaponTypes = () => weaponStore.getDistinct('type');
 
 export async function searchWeapons(term) {
-   return (await weaponStore.query(nameOrAliasIncludes(term, WEAPON_ALIASES))).map(toSearchResult);
+   return (await weaponStore.query(matchesSearchTerm(term, WEAPON_ALIASES))).map(toSearchResult);
 }
 
 export async function countWeapons() {

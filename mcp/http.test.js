@@ -51,16 +51,24 @@ describe('/mcp over HTTP', () => {
       assert.equal(JSON.parse(again.content[0].text).key, 'hu-tao');
    });
 
-   it('logs each tool call without arguments', async () => {
+   it('logs each tool call; only an unresolved name is ever logged, never other arguments', async () => {
       calls.length = 0;
-      await client.callTool({ name: 'get_character', arguments: { name: 'nahida' } });
-      await client.callTool({ name: 'get_character', arguments: { name: 'zzzzzzzzzz' } });
-      assert.deepEqual(calls.map(({ tool, ok, error }) => ({ tool, ok, error })), [
-         { tool: 'get_character', ok: true, error: undefined },
-         { tool: 'get_character', ok: false, error: 'NotFoundError' },
+      await client.callTool({ name: 'get_character', arguments: { name: 'nahida', sections: ['talents'] } });
+      await client.callTool({ name: 'get_character', arguments: { name: 'zzzzzzzzzz', sections: ['constellations'] } });
+      assert.deepEqual(calls.map(({ tool, ok, error, unresolved }) => ({ tool, ok, error, unresolved })), [
+         { tool: 'get_character', ok: true, error: undefined, unresolved: undefined },
+         { tool: 'get_character', ok: false, error: 'NotFoundError', unresolved: { entity: 'character', query: 'zzzzzzzzzz' } },
       ]);
       assert.ok(calls.every((c) => Number.isInteger(c.ms)));
-      assert.ok(!JSON.stringify(calls).includes('zzzz'), 'arguments must not be logged');
+      const logged = JSON.stringify(calls);
+      assert.ok(!logged.includes('nahida') && !logged.includes('talents') && !logged.includes('constellations'));
+   });
+
+   it('cleans and caps logged names', async () => {
+      calls.length = 0;
+      await client.callTool({ name: 'get_weapon', arguments: { name: `zz\n\u0007${'q'.repeat(200)}` } });
+      const q = calls[0].unresolved.query;
+      assert.ok(q.length <= 64 && !/[\u0000-\u001f]/.test(q), JSON.stringify(q));
    });
 
    it('returns plain JSON, uncached, with no session id', async () => {
