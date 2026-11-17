@@ -13,6 +13,7 @@ npm start          # production start
 npm test           # node:test — must pass before every commit
 node --test features/characters/service.test.js   # a single file
 node scripts/sync.mjs [characters|weapons|materials|enemies]   # pull new game data (network)
+node scripts/image-variants.mjs [--write] [--prefix nahida/]   # resized WebP copies in R2 (dry run by default)
 npm run mcp        # MCP server on stdio (what hosts spawn)
 npm run mcp:inspect   # MCP Inspector UI against the stdio server
 ```
@@ -97,6 +98,8 @@ and the full add-new-characters process.
 
 - `node scripts/sync.mjs` handles a normal patch. It does not handle traveler variants — run
   `node scripts/fix-traveler.mjs` when a new traveler element ships.
+- `scripts/image-variants.mjs` makes resized WebP copies (`{key}.w{width}.webp`) the frontend loads instead of
+  the originals. Separate from sync; CI runs it after every sync. Keep `VARIANT_WIDTHS` in step with the frontend loader.
 - Scripts are `.mjs` ES modules and need R2 credentials (`R2_ID`, `AWS_ID`, `AWS_KEY`) in `.env`.
   The API server itself needs none of them.
 - Cloudflare caches R2 images ~24h; append `?v=2` to check a freshly replaced image.
