@@ -3,6 +3,7 @@
  * (see scripts/lib/variants.mjs for the naming scheme and widths).
  *
  * Separate from sync.mjs on purpose: it only reads and writes R2, never data/.
+ * It never writes to an original — only `*.w{width}.webp` keys.
  * Safe to re-run — originals whose variants are already up to date are skipped.
  *
  * Dry run by default (lists what it would do, writes nothing). Pass --write to upload.
@@ -18,7 +19,6 @@
  *   --prefix <p>        only originals whose key starts with <p>
  *   --force             regenerate even if variants are up to date
  *   --concurrency <n>   originals processed in parallel (default 8)
- *   --cache-headers     also set Cache-Control on the originals (copy-in-place; image bytes unchanged)
  */
 
 import S3 from 'aws-sdk/clients/s3.js';
@@ -28,6 +28,7 @@ import {
    CACHE_CONTROL,
    VARIANT_WIDTHS,
    isOriginalKey,
+   isVariantKey,
    planVariants,
    renderVariants,
    variantKey,
@@ -43,7 +44,6 @@ const { values: opts } = parseArgs({
       prefix: { type: 'string', default: '' },
       force: { type: 'boolean', default: false },
       concurrency: { type: 'string', default: '8' },
-      'cache-headers': { type: 'boolean', default: false },
    },
 });
 const concurrency = Math.max(1, Number.parseInt(opts.concurrency, 10) || 8);
@@ -91,38 +91,6 @@ async function pool(items, size, worker) {
 const kb = (bytes) => `${(bytes / 1024).toFixed(0)}KB`;
 const mb = (bytes) => `${(bytes / 1024 / 1024).toFixed(1)}MB`;
 
-// Copy each original onto itself with Cache-Control set. Bytes and Content-Type are kept.
-// This bumps the original's LastModified, so it runs before variants are planned.
-async function setOriginalCacheHeaders(originals) {
-   let updated = 0;
-   let failed = 0;
-   await pool(originals, concurrency, async ({ Key }) => {
-      try {
-         const head = await s3.headObject({ Bucket: BUCKET, Key }).promise();
-         if (head.CacheControl === CACHE_CONTROL) return;
-         if (opts.write) {
-            await s3
-               .copyObject({
-                  Bucket: BUCKET,
-                  Key,
-                  CopySource: `${BUCKET}/${Key.split('/').map(encodeURIComponent).join('/')}`,
-                  MetadataDirective: 'REPLACE',
-                  ContentType: head.ContentType,
-                  CacheControl: CACHE_CONTROL,
-                  Metadata: head.Metadata,
-               })
-               .promise();
-         }
-         updated++;
-      } catch (e) {
-         failed++;
-         console.error(`  ✗ ${Key} (cache headers): ${e.message}`);
-      }
-   });
-   console.log(`Cache headers: ${updated} original(s) ${opts.write ? 'updated' : 'would be updated'}, ${failed} failed.`);
-   return failed;
-}
-
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 console.log(
@@ -130,13 +98,8 @@ console.log(
       `widths ${VARIANT_WIDTHS.join('/')}, concurrency ${concurrency}${opts.force ? ', force' : ''}`,
 );
 
-let objects = await listAll(opts.prefix);
+const objects = await listAll(opts.prefix);
 let failures = 0;
-
-if (opts['cache-headers']) {
-   failures += await setOriginalCacheHeaders(objects.filter((o) => isOriginalKey(o.Key)));
-   if (opts.write) objects = await listAll(opts.prefix);
-}
 
 const originals = objects.filter((o) => isOriginalKey(o.Key));
 const sizes = new Map(objects.map((o) => [o.Key, o.Size]));
@@ -153,7 +116,7 @@ if (!opts.write) {
    for (const p of plan.slice(0, 20)) console.log(`  ${p.key} → ${p.widths.map((w) => `w${w}`).join(' ')}`);
    if (plan.length > 20) console.log(`  … and ${plan.length - 20} more`);
    console.log('Dry run — nothing written. Re-run with --write to upload.');
-   process.exit(failures ? 1 : 0);
+   process.exit(0);
 }
 
 let done = 0;
@@ -164,10 +127,13 @@ await pool(plan, concurrency, async ({ key, widths }) => {
       const obj = await s3.getObject({ Bucket: BUCKET, Key: key }).promise();
       const variants = await renderVariants(obj.Body, widths);
       for (const v of variants) {
+         const target = variantKey(key, v.width);
+         // Hard guard: this script must never overwrite an original.
+         if (!isVariantKey(target) || target === key) throw new Error(`refusing to write non-variant key ${target}`);
          await s3
             .putObject({
                Bucket: BUCKET,
-               Key: variantKey(key, v.width),
+               Key: target,
                Body: v.buffer,
                ContentType: 'image/webp',
                CacheControl: CACHE_CONTROL,

@@ -28,6 +28,16 @@ describe('variant keys', () => {
       assert.ok(!isOriginalKey('notes/readme.txt'));
    });
 
+   it('variant keys are never an original key (so uploads cannot overwrite originals)', () => {
+      for (const key of ['a/icon.png', 'a/b.c/icon.jpeg', 'albedo/icon-big.png.png.png', 'x/art.webp']) {
+         for (const w of VARIANT_WIDTHS) {
+            const v = variantKey(key, w);
+            assert.notEqual(v, key);
+            assert.ok(isVariantKey(v) && !isOriginalKey(v), v);
+         }
+      }
+   });
+
    it('never marks variants immutable (originals can be replaced under the same key)', () => {
       assert.ok(!CACHE_CONTROL.includes('immutable'));
    });

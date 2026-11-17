@@ -138,8 +138,9 @@ node scripts/image-variants.mjs --write --prefix nahida/  # one folder — check
 node scripts/image-variants.mjs --write                   # everything missing
 ```
 
-Options: `--force` (regenerate up-to-date variants), `--concurrency <n>` (default 8), `--cache-headers` (also set the same `Cache-Control` on the originals by copying each onto itself — bytes unchanged; this bumps their LastModified, so the script does it before planning variants).
+Options: `--force` (regenerate up-to-date variants), `--concurrency <n>` (default 8).
 
+- **Never writes to an original** — only `*.w{width}.webp` keys. Existing variants are left alone unless their original changed.
 - **Re-runnable:** an original is skipped when all its widths exist and are not older than it. Re-uploading an original (e.g. `fix-traveler.mjs`) makes its variants stale, and the next run redoes them.
 - **CI:** `.github/workflows/image-variants.yml` runs it with `--write` after every `Sync Genshin Data` run, and can be started by hand from the Actions tab (dry run unless "write" is ticked). It is not part of `sync.mjs` on purpose.
 - Exits 1 if any image failed; the rest are still uploaded, and a re-run retries only what's missing.
