@@ -18,9 +18,9 @@
     "Normal Attack SPD is increased by 20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tulaytullahs-remembrance/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tulaytullahs-remembrance/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tulaytullahs-remembrance/wish.png"
+    "icon": "https://gi.deve.sh/weapons/tulaytullahs-remembrance/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/tulaytullahs-remembrance/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/tulaytullahs-remembrance/wish.png"
   },
   "ascension_costs": [
     {

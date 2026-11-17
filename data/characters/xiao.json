@@ -49,7 +49,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-na.png"
+      "img": "https://gi.deve.sh/xiao/talent-na.png"
     },
     {
       "name": "Lemniscatic Wind Cycling",
@@ -66,7 +66,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-skill.png"
+      "img": "https://gi.deve.sh/xiao/talent-skill.png"
     },
     {
       "name": "Bane of All Evil",
@@ -95,7 +95,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-burst.png"
+      "img": "https://gi.deve.sh/xiao/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -104,38 +104,38 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Starting Bane of All Evil increases Xiao's DMG by 5%. After this, Xiao's DMG continues to increase by 5% every 3s until the skill ends. Max 25% increase.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-1.png"
+      "img": "https://gi.deve.sh/xiao/talent-passive-1.png"
     },
     {
       "name": "Dissolution Eon - Heaven Fall",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Lemniscatic Wind Cycling is used, increases all subsequent Lemniscatic Wind Cycling's DMG by 10% for 6s. Max 3 stacks. Duration refreshes with new stacks.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-2.png"
+      "img": "https://gi.deve.sh/xiao/talent-passive-2.png"
     },
     {
       "name": "Transcension - Gravity Defier",
       "unlock": "Unlocked Automatically",
       "description": "Decreases all party member's falling DMG by 30%.\nThe greatest effect out of all Talents of the same type prevails.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-0.png"
+      "img": "https://gi.deve.sh/xiao/talent-passive-0.png"
     },
     {
       "name": "Conqueror of Evil: Tamer of Demons",
       "unlock": "Unlocked Automatically",
       "description": "While under the effects of Bane of All Evil, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/xiao/talent-passive-extra-3.png"
     },
     {
       "name": "Dissolution Eon: Heaven Fall",
       "unlock": "Unlocked Automatically",
       "description": "Using Lemniscatic Wind Cycling increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-extra-4.png"
+      "img": "https://gi.deve.sh/xiao/talent-passive-extra-4.png"
     },
     {
       "name": "Transcension: Gravity Defier",
       "unlock": "Unlocked Automatically",
       "description": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/talent-passive-extra-5.png"
+      "img": "https://gi.deve.sh/xiao/talent-passive-extra-5.png"
     }
   ],
   "constellations": [
@@ -144,53 +144,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Increases Lemniscatic Wind Cycling's charges by 1.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-1.png"
+      "img": "https://gi.deve.sh/xiao/constellation-1.png"
     },
     {
       "name": "Annihilation Eon - Blossom of Kaleidos",
       "unlock": "Constellation Lv. 2",
       "description": "When in party but not the currently active character, Xiao's Energy Recharge is increased by 25%.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-2.png"
+      "img": "https://gi.deve.sh/xiao/constellation-2.png"
     },
     {
       "name": "Evil Conqueror - Wrath Deity",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Lemniscatic Wind Cycling by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-3.png"
+      "img": "https://gi.deve.sh/xiao/constellation-3.png"
     },
     {
       "name": "Transcension - Extinction of Suffering",
       "unlock": "Constellation Lv. 4",
       "description": "When Xiao's HP falls below 50%, gains a 100% DEF Bonus.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-4.png"
+      "img": "https://gi.deve.sh/xiao/constellation-4.png"
     },
     {
       "name": "Evolution Eon - Origin of Ignorance",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Bane of All Evil by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-5.png"
+      "img": "https://gi.deve.sh/xiao/constellation-5.png"
     },
     {
       "name": "Evil Conqueror - Vigilant Yaksha",
       "unlock": "Constellation Lv. 6",
       "description": "During Bane of All Evil, hitting 2 or more enemies with a Charged Attack grants Lemniscatic Wind Cycling 1 additional charge and reduces Lemniscatic Wind Cycling's CD by 1s.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation-6.png"
+      "img": "https://gi.deve.sh/xiao/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
   "weapon_type": "POLEARM",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/xiao/portrait.png"
+    "card": "https://gi.deve.sh/xiao/card.png",
+    "constellation": "https://gi.deve.sh/xiao/constellation.png",
+    "banner": "https://gi.deve.sh/xiao/gacha-splash.png",
+    "icon": "https://gi.deve.sh/xiao/icon.png",
+    "icon-big": "https://gi.deve.sh/xiao/icon-big.png",
+    "portrait": "https://gi.deve.sh/xiao/portrait.png"
   },
   "ascension_costs": [
     {

@@ -91,7 +91,8 @@ Use is tolerated, not licensed, so:
 ## Data pipeline
 
 `scripts/` pulls game data from yatta.moe / Enka / the Fandom wiki, uploads images to the R2
-bucket `genshin-images` (public base `https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev`), and
+bucket `genshin-images` (public base `https://gi.deve.sh`, the bucket's custom domain — set once in
+`scripts/lib/r2.mjs`; the old `pub-….r2.dev` address serves the same keys but don't write it to `data/`), and
 writes `data/`. **Read [`docs/data-pipeline.md`](docs/data-pipeline.md) before running or changing
 any script** — it has the character JSON format, the source for every image field, per-script usage,
 and the full add-new-characters process.

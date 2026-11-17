@@ -18,9 +18,9 @@
     "Hitting an opponent with Normal and Charged Attacks has a 100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 360% of ATK. Can only occur once every 10s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/snow-tombed-starsilver/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/snow-tombed-starsilver/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/snow-tombed-starsilver/full.png"
+    "icon": "https://gi.deve.sh/weapons/snow-tombed-starsilver/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/snow-tombed-starsilver/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/snow-tombed-starsilver/full.png"
   },
   "ascension_costs": [
     {

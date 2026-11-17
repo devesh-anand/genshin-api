@@ -18,9 +18,9 @@
     "After the character's Elemental Skill hits an opponent, their ATK will be increased by 40% for 8s. After the character takes DMG, their ATK will be increased by 40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 64%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/beacon-of-the-reed-sea/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/beacon-of-the-reed-sea/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/beacon-of-the-reed-sea/wish.png"
+    "icon": "https://gi.deve.sh/weapons/beacon-of-the-reed-sea/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/beacon-of-the-reed-sea/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/beacon-of-the-reed-sea/wish.png"
   },
   "ascension_costs": [
     {

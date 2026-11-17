@@ -18,9 +18,9 @@
     "For 6s after an Elemental Skill hits an opponent, ATK is increased by 16% and Energy Recharge is increased by 12%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificers-staff/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificers-staff/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificers-staff/wish.png"
+    "icon": "https://gi.deve.sh/weapons/sacrificers-staff/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/sacrificers-staff/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/sacrificers-staff/wish.png"
   },
   "ascension_costs": [
     {

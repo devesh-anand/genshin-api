@@ -18,10 +18,10 @@
     "CRIT Rate is increased by 8%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 240% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/light-of-foliar-incision/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/light-of-foliar-incision/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/light-of-foliar-incision/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/light-of-foliar-incision/full.png"
+    "icon": "https://gi.deve.sh/weapons/light-of-foliar-incision/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/light-of-foliar-incision/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/light-of-foliar-incision/wish.png",
+    "full": "https://gi.deve.sh/weapons/light-of-foliar-incision/full.png"
   },
   "ascension_costs": [
     {

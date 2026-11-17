@@ -18,9 +18,9 @@
     "Using an Elemental Burst regenerates 6 Energy every 2s for 6s. All party members will regenerate 6% HP every 2s for this duration."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-amber/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-amber/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-amber/full.png"
+    "icon": "https://gi.deve.sh/weapons/prototype-amber/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/prototype-amber/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/prototype-amber/full.png"
   },
   "ascension_costs": [
     {

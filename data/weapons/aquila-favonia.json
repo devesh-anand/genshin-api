@@ -18,10 +18,10 @@
     "ATK is increased by 40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 160% of ATK and dealing 320% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aquila-favonia/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aquila-favonia/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aquila-favonia/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aquila-favonia/full.png"
+    "icon": "https://gi.deve.sh/weapons/aquila-favonia/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/aquila-favonia/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/aquila-favonia/wish.png",
+    "full": "https://gi.deve.sh/weapons/aquila-favonia/full.png"
   },
   "ascension_costs": [
     {

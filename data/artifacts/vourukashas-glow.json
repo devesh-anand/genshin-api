@@ -10,27 +10,27 @@
     "flower": {
       "name": "Stamen of Khvarena's Origin",
       "description": "An insignia in the shape of a lovely little flower that was once worn by pilgrims in times long bygone.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/flower.png"
+      "img": "https://gi.deve.sh/artifacts/vourukashas-glow/flower.png"
     },
     "plume": {
       "name": "Vibrant Pinion",
       "description": "An exquisite feather-shaped decoration on which the vivid hues of verdant leaves and fragrant flowers shimmer.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/plume.png"
+      "img": "https://gi.deve.sh/artifacts/vourukashas-glow/plume.png"
     },
     "sands": {
       "name": "Ancient Abscission",
       "description": "An ancient timepiece upon which the light of Khvarena gleams. It is filled with a pure liquid that appears alive.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/sands.png"
+      "img": "https://gi.deve.sh/artifacts/vourukashas-glow/sands.png"
     },
     "goblet": {
       "name": "Feast of Boundless Joy",
       "description": "An opulent wine goblet that was once filled with nectar and honeydew, but is empty today.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/vourukashas-glow/goblet.png"
     },
     "circlet": {
       "name": "Heart of Khvarena's Brilliance",
       "description": "Intricate and vibrant earrings upon which the luster of a hundred flowers seems to flow.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/vourukashas-glow/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/vourukashas-glow/circlet.png"
     }
   }
 }

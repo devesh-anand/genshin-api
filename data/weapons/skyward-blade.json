@@ -18,10 +18,10 @@
     "CRIT Rate increased by 8%. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and Normal and Charged hits deal additional DMG equal to 40% of ATK. Skypiercing Might lasts for 12s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-blade/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-blade/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-blade/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-blade/full.png"
+    "icon": "https://gi.deve.sh/weapons/skyward-blade/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/skyward-blade/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/skyward-blade/wish.png",
+    "full": "https://gi.deve.sh/weapons/skyward-blade/full.png"
   },
   "ascension_costs": [
     {

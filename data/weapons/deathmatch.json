@@ -18,9 +18,9 @@
     "If there are at least 2 opponents nearby, ATK is increased by 32% and DEF is increased by 32%. If there are fewer than 2 opponents nearby, ATK is increased by 48%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/deathmatch/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/deathmatch/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/deathmatch/full.png"
+    "icon": "https://gi.deve.sh/weapons/deathmatch/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/deathmatch/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/deathmatch/full.png"
   },
   "ascension_costs": [
     {

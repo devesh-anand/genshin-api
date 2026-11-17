@@ -18,10 +18,10 @@
     "Increases Elemental Burst DMG by 40%. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional 32%/56%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/moonweavers-dawn/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/moonweavers-dawn/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/moonweavers-dawn/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/moonweavers-dawn/full.png"
+    "icon": "https://gi.deve.sh/weapons/moonweavers-dawn/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/moonweavers-dawn/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/moonweavers-dawn/wish.png",
+    "full": "https://gi.deve.sh/weapons/moonweavers-dawn/full.png"
   },
   "ascension_costs": [
     {

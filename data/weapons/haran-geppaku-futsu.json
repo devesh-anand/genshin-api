@@ -18,10 +18,10 @@
     "Obtain 24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 40% for 8s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/haran-geppaku-futsu/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/haran-geppaku-futsu/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/haran-geppaku-futsu/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/haran-geppaku-futsu/full.png"
+    "icon": "https://gi.deve.sh/weapons/haran-geppaku-futsu/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/haran-geppaku-futsu/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/haran-geppaku-futsu/wish.png",
+    "full": "https://gi.deve.sh/weapons/haran-geppaku-futsu/full.png"
   },
   "ascension_costs": [
     {

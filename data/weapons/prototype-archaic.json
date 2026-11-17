@@ -18,9 +18,9 @@
     "On hit, Normal or Charged Attacks have a 50% chance to deal an additional 480% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-archaic/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-archaic/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-archaic/full.png"
+    "icon": "https://gi.deve.sh/weapons/prototype-archaic/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/prototype-archaic/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/prototype-archaic/full.png"
   },
   "ascension_costs": [
     {

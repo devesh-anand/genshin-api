@@ -18,10 +18,10 @@
     "Increases Normal and Charged Attack DMG by 24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 16% every 0.1s the arrow is in the air for up to 5 times."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amos-bow/full.png"
+    "icon": "https://gi.deve.sh/weapons/amos-bow/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/amos-bow/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/amos-bow/wish.png",
+    "full": "https://gi.deve.sh/weapons/amos-bow/full.png"
   },
   "ascension_costs": [
     {

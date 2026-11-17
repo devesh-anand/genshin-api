@@ -10,27 +10,27 @@
     "flower": {
       "name": "Dreaming Steelbloom",
       "description": "A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gilded-dreams/flower.png"
+      "img": "https://gi.deve.sh/artifacts/gilded-dreams/flower.png"
     },
     "plume": {
       "name": "Feather of Judgment",
       "description": "This special feather was once used to weigh the hearts of the guilty, but it has since lost its original function.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gilded-dreams/plume.png"
+      "img": "https://gi.deve.sh/artifacts/gilded-dreams/plume.png"
     },
     "sands": {
       "name": "The Sunken Years",
       "description": "This dark-golden sundial seems to tell the ancient tale of the desert.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gilded-dreams/sands.png"
+      "img": "https://gi.deve.sh/artifacts/gilded-dreams/sands.png"
     },
     "goblet": {
       "name": "Honeyed Final Feast",
       "description": "A wine cup that was once used at a grand and ancient feast. It has now lost much of that luster.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gilded-dreams/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/gilded-dreams/goblet.png"
     },
     "circlet": {
       "name": "Shadow of the Sand King",
       "description": "This gold-inlaid headband was once used by desert priests in the days of old. They were made in imitation of one worn by a legendary ruler of the desert peoples.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/gilded-dreams/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/gilded-dreams/circlet.png"
     }
   }
 }

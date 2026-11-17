@@ -18,9 +18,9 @@
     "Increases DMG dealt by Normal and Charged Attacks by 40%. Additionally, regenerates 100% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-black-sword/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-black-sword/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-black-sword/full.png"
+    "icon": "https://gi.deve.sh/weapons/the-black-sword/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/the-black-sword/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/the-black-sword/full.png"
   },
   "ascension_costs": [
     {

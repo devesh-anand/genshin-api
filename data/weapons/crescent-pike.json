@@ -18,9 +18,9 @@
     "After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 40% of ATK for 5s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/crescent-pike/full.png"
+    "icon": "https://gi.deve.sh/weapons/crescent-pike/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/crescent-pike/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/crescent-pike/full.png"
   },
   "ascension_costs": [
     {

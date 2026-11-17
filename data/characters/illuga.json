@@ -16,7 +16,7 @@
       "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-1.png"
+      "img": "https://gi.deve.sh/illuga/talent-1.png"
     },
     {
       "name": "Dawnbearing Songbird",
@@ -24,7 +24,7 @@
       "description": "Summons the trusty messenger bird, \"Aedon.\" Different effects are produced depending on whether the skill is Tapped or Held.\n\nTap\nAedon dashes towards enemies in front, dealing Geo DMG to enemies it comes into contact with.\n\nHold\nEnter aiming mode, and command Aedon to dash towards opponents being aimed at, dealing Geo DMG to opponents it comes into contact with.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-skill.png"
+      "img": "https://gi.deve.sh/illuga/talent-skill.png"
     },
     {
       "name": "Shadowless Reflection",
@@ -32,7 +32,7 @@
       "description": "Light the lamp, dealing AoE Geo DMG, and gain Haunted Night's Oriole-Song effect for 20s. When this effect is active, Illuga gains 21 stacks of Nightingale's Song. When Normal Attacks, Charged Attacks, Plunging Attacks, Elemental Skills, and Elemental Bursts of nearby active party members deal Geo DMG to opponents, 1 stack of Nightingale's Song is consumed to increase the DMG dealt. Increase in DMG is based on Illuga's Elemental Mastery. If DMG is inflicted by Lunar-Crystallize, DMG dealt will increase further.\nWhen Geo DMG dealt in this manner hits multiple opponents, multiple stacks of Nightingale's Song will be consumed, depending on how many opponents are hit.\n\nAdditionally, if there are Geo Constructs created by nearby party members on the battlefield while Illuga unleashes his Elemental Burst, or when nearby party members create Geo Constructs while Haunted Night's Oriole-Song is active, every Geo Construct on the battlefield will allow Illuga to gain 5 additional stacks of Nightingale's Song. Within 20s after unleashing his Elemental Burst, Illuga can gain a maximum of 15 additional stacks of Nightingale's Song this way.\n\nWhen all stacks of Nightingale's Song have been consumed, or when the state's duration ends, the Haunted Night's Oriole-Song effect will end.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-burst.png"
+      "img": "https://gi.deve.sh/illuga/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -41,26 +41,26 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "After unleashing Elemental Skill Dawnbearing Songbird or Elemental Burst Shadowless Reflection, other nearby party members will gain the Lightkeeper's Oath effect for 20s: For Geo DMG dealt to opponents, CRIT Rate increases by 5% and CRIT DMG increases by 10%.\n\nMoonsign: Ascendant Gleam \nParty members affected by the Lightkeeper's Oath effect have their Elemental Mastery increased by 50.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-1.png"
+      "img": "https://gi.deve.sh/illuga/talent-passive-1.png"
     },
     {
       "name": "Demonhunter's Dusk",
       "unlock": "Unlocked at Ascension 4",
       "description": "Nightingale's Song's effects are enhanced: When there are 1/2/3 Hydro or Geo characters in the party, Nightingale's Song will further increase DMG. Increase in DMG is equal to 7%/14%/24% of Illuga's Elemental Mastery. If this aforementioned DMG is inflicted by a Lunar-Crystallize reaction, increase in DMG is equal to 48%/96%/160% of Illuga's Elemental Mastery.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-2.png"
+      "img": "https://gi.deve.sh/illuga/talent-passive-2.png"
     },
     {
       "name": "Moonsign Benediction: Unwithering in Winter",
       "unlock": "Unlocked Automatically",
       "description": "When Illuga is in the party, the party's Moonsign will increase by 1 level.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-0.png"
+      "img": "https://gi.deve.sh/illuga/talent-passive-0.png"
     },
     {
       "name": "Night Warden's Stride",
       "unlock": "Unlocked Automatically",
       "description": "At night (18:00 – 06:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.\nAdditionally, Illuga appears to be able to decipher the whispers of the Wild Hunt...",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/illuga/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
@@ -69,53 +69,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "After Illuga triggers a Geo-related Reaction on the field, he will regain 12 Elemental Energy. This effect can be triggered at most once every 15s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-1.png"
+      "img": "https://gi.deve.sh/illuga/constellation-1.png"
     },
     {
       "name": "Elk With Fanged Antlers",
       "unlock": "Constellation Lv. 2",
       "description": "When Elemental Burst Shadowless Reflection's Haunted Night's Oriole-Song effect is active, for every 7 stacks of Nightingale's Song consumed, Illuga will summon Aedon, dealing a single instance of Geo DMG to 1 nearby opponent. The DMG dealt is based on 400% of Illuga's Elemental Mastery and 200% of his DEF. This DMG is considered Elemental Burst DMG.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-2.png"
+      "img": "https://gi.deve.sh/illuga/constellation-2.png"
     },
     {
       "name": "Earthshaking Maw",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Elemental Burst Shadowless Reflection by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-3.png"
+      "img": "https://gi.deve.sh/illuga/constellation-3.png"
     },
     {
       "name": "Solarhunting Wolf",
       "unlock": "Constellation Lv. 4",
       "description": "When Elemental Burst Shadowless Reflection's Haunted Night's Oriole-Song effect is active, nearby active party members will have their DEF increased by 200.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-4.png"
+      "img": "https://gi.deve.sh/illuga/constellation-4.png"
     },
     {
       "name": "Hurricane Steed",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of Elemental Skill Dawnbearing Songbird by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-5.png"
+      "img": "https://gi.deve.sh/illuga/constellation-5.png"
     },
     {
       "name": "Nightmare Orioles",
       "unlock": "Constellation Lv. 6",
       "description": "Enhances the Lightkeeper's Oath effect of the Ascension Talent Torchforger's Covenant: For Geo DMG dealt to opponents, CRIT Rate is increased by 10%, CRIT DMG is increased by 30%.\n\nMoonsign: Ascendant Gleam:\nWhen characters are affected by Lightkeeper's Oath, Elemental Mastery is increased by 80.\nYou must first unlock the Ascension Talent \"Torchforger's Covenant.\"",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation-6.png"
+      "img": "https://gi.deve.sh/illuga/constellation-6.png"
     }
   ],
   "vision_key": "GEO",
   "weapon_type": "POLEARM",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/illuga/portrait.png"
+    "card": "https://gi.deve.sh/illuga/card.png",
+    "constellation": "https://gi.deve.sh/illuga/constellation.png",
+    "banner": "https://gi.deve.sh/illuga/gacha-splash.png",
+    "icon": "https://gi.deve.sh/illuga/icon.png",
+    "icon-big": "https://gi.deve.sh/illuga/icon-big.png",
+    "portrait": "https://gi.deve.sh/illuga/portrait.png"
   },
   "ascension_costs": [
     {

@@ -57,7 +57,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/talent-na.png"
+      "img": "https://gi.deve.sh/chongyun/talent-na.png"
     },
     {
       "name": "Spirit Blade - Chonghua's Layered Frost",
@@ -82,7 +82,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/talent-skill.png"
+      "img": "https://gi.deve.sh/chongyun/talent-skill.png"
     },
     {
       "name": "Spirit Blade - Cloud-parting Star",
@@ -103,7 +103,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/talent-burst.png"
+      "img": "https://gi.deve.sh/chongyun/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -112,20 +112,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Sword, Claymore, or Polearm-wielding characters within the field created by Spirit Blade: Chonghua's Layered Frost have their Normal ATK SPD increased by 8%.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/talent-passive-1.png"
+      "img": "https://gi.deve.sh/chongyun/talent-passive-1.png"
     },
     {
       "name": "Rimechaser Blade",
       "unlock": "Unlocked at Ascension 4",
       "description": "When the field created by Spirit Blade: Chonghua's Layered Frost disappears, another spirit blade will be summoned to strike nearby opponents, dealing 100% of Chonghua's Layered Frost's Skill DMG as AoE Cryo DMG. Opponents hit by this blade will have their Cryo RES decreased by 10% for 8s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/talent-passive-2.png"
+      "img": "https://gi.deve.sh/chongyun/talent-passive-2.png"
     },
     {
       "name": "Gallant Journey",
       "unlock": "Unlocked Automatically",
       "description": "When dispatched on an expedition in Liyue, time consumed is reduced by 25%.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/talent-passive-0.png"
+      "img": "https://gi.deve.sh/chongyun/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -134,53 +134,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as Cryo DMG to all enemies in its path.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation-1.png"
+      "img": "https://gi.deve.sh/chongyun/constellation-1.png"
     },
     {
       "name": "Atmospheric Revolution",
       "unlock": "Constellation Lv. 2",
       "description": "Elemental Skills and Elemental Bursts cast within the Frost Field created by Spirit Blade - Chongyun's Layered Frost have their CD time decreased by 15%.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation-2.png"
+      "img": "https://gi.deve.sh/chongyun/constellation-2.png"
     },
     {
       "name": "Cloudburst",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Spirit Blade - Cloud-parting Star by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation-3.png"
+      "img": "https://gi.deve.sh/chongyun/constellation-3.png"
     },
     {
       "name": "Frozen Skies",
       "unlock": "Constellation Lv. 4",
       "description": "Chongyun regenerates 1 Energy every time he hits an enemy affected by Cold or Frozen status effects.\nThis effect can only occur once every 2s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation-4.png"
+      "img": "https://gi.deve.sh/chongyun/constellation-4.png"
     },
     {
       "name": "The True Path",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Spirit Blade - Chongyun's Layered Frost by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation-5.png"
+      "img": "https://gi.deve.sh/chongyun/constellation-5.png"
     },
     {
       "name": "Rally of Four Blades",
       "unlock": "Constellation Lv. 6",
       "description": "Spirit Blade - Cloud-parting Star deals 15% more DMG to enemies with a lower percentage of their Max HP remaining than Chongyun.\nThis skill will also summon 1 additional spirt blade.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation-6.png"
+      "img": "https://gi.deve.sh/chongyun/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
   "weapon_type": "CLAYMORE",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/chongyun/portrait.png"
+    "card": "https://gi.deve.sh/chongyun/card.png",
+    "constellation": "https://gi.deve.sh/chongyun/constellation.png",
+    "banner": "https://gi.deve.sh/chongyun/gacha-splash.png",
+    "icon": "https://gi.deve.sh/chongyun/icon.png",
+    "icon-big": "https://gi.deve.sh/chongyun/icon-big.png",
+    "portrait": "https://gi.deve.sh/chongyun/portrait.png"
   },
   "ascension_costs": [
     {

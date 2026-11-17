@@ -18,9 +18,9 @@
     "Upon causing an Elemental Reaction, increases Elemental Mastery by 120 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 120. This effect can be triggered even if the equipping character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/master-key/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/master-key/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/master-key/full.png"
+    "icon": "https://gi.deve.sh/weapons/master-key/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/master-key/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/master-key/full.png"
   },
   "ascension_costs": [
     {

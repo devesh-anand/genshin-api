@@ -18,9 +18,9 @@
     "Normal Attack hits on opponents increase Charged Attack DMG by 32% for 6s. Charged Attack hits on opponents increase ATK by 16% for 6s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dodoco-tales/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dodoco-tales/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dodoco-tales/full.png"
+    "icon": "https://gi.deve.sh/weapons/dodoco-tales/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/dodoco-tales/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/dodoco-tales/full.png"
   },
   "ascension_costs": [
     {

@@ -18,10 +18,10 @@
     "Taking DMG generates a shield which absorbs DMG up to 32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 24% increased DMG."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-bell/full.png"
+    "icon": "https://gi.deve.sh/weapons/the-bell/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/the-bell/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/the-bell/wish.png",
+    "full": "https://gi.deve.sh/weapons/the-bell/full.png"
   },
   "ascension_costs": [
     {

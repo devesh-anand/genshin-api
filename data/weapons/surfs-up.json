@@ -18,10 +18,10 @@
     "Max HP increased by 40%. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by 24%. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/surfs-up/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/surfs-up/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/surfs-up/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/surfs-up/full.png"
+    "icon": "https://gi.deve.sh/weapons/surfs-up/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/surfs-up/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/surfs-up/wish.png",
+    "full": "https://gi.deve.sh/weapons/surfs-up/full.png"
   },
   "ascension_costs": [
     {

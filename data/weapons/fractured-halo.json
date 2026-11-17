@@ -18,10 +18,10 @@
     "After an Elemental Skill or Elemental Burst is used, ATK is increased by 48% for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal 80% more Lunar-Charged DMG."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fractured-halo/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fractured-halo/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fractured-halo/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fractured-halo/full.png"
+    "icon": "https://gi.deve.sh/weapons/fractured-halo/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/fractured-halo/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/fractured-halo/wish.png",
+    "full": "https://gi.deve.sh/weapons/fractured-halo/full.png"
   },
   "ascension_costs": [
     {

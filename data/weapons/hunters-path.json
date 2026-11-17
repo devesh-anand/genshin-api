@@ -18,10 +18,10 @@
     "Gain 24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/hunters-path/full.png"
+    "icon": "https://gi.deve.sh/weapons/hunters-path/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/hunters-path/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/hunters-path/wish.png",
+    "full": "https://gi.deve.sh/weapons/hunters-path/full.png"
   },
   "ascension_costs": [
     {

@@ -16,7 +16,7 @@
       "description": "Normal Attack\nPerforms up to 3 consecutive sword strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to leap forward and slam the ground, dealing Physical DMG to nearby opponents.\nWhen Valeriy has at least 40 Impact Momentum, he will consume all Impact Momentum to instead perform the special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/talent-1.png"
+      "img": "https://gi.deve.sh/valeriy/talent-1.png"
     },
     {
       "name": "Active Defense: Bastion Charge",
@@ -24,7 +24,7 @@
       "description": "Valeriy raises his shield cannon and charges forward, dealing AoE Electro DMG, gaining 40 Impact Momentum, and deploying a Supercharged Shield.\nThe Supercharged Shield's DMG Absorption scales with Valeriy's ATK, and has 250% absorption efficiency against Electro DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/talent-skill.png"
+      "img": "https://gi.deve.sh/valeriy/talent-skill.png"
     },
     {
       "name": "Focused Fire: Lightning Salvo",
@@ -32,7 +32,7 @@
       "description": "Deals AoE Electro DMG to nearby opponents and fires a Thunderburst Shell high into the air. The Thunderburst Shell disperses into a barrage of projectiles that rain down, dealing AoE Electro DMG to nearby opponents.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/talent-burst.png"
+      "img": "https://gi.deve.sh/valeriy/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -41,20 +41,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Valeriy gains 5 Impact Momentum whenever another nearby active character in the party hits an opponent with an Electro attack while the Thunderburst Shells from his Elemental Burst Focused Fire: Lightning Salvo are falling. He can gain up to 80 Impact Momentum in this way after each use of his Elemental Burst.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/talent-passive-1.png"
+      "img": "https://gi.deve.sh/valeriy/talent-passive-1.png"
     },
     {
       "name": "Into the Breach",
       "unlock": "Unlocked at Ascension 4",
       "description": "Offensive Directive is enhanced based on the amount of Impact Momentum consumed when performing his special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment. Each point consumed further increases the DMG Bonus granted by Offensive Directive. If Valeriy is:\n·In the Radiance: Stellar-Conduct state: Each point of Impact Momentum consumed increases this DMG Bonus by an amount equal to 0.9% of Valeriy's ATK;\n·Not in the Radiance: Stellar-Conduct state: Each point of Impact Momentum consumed increases this DMG Bonus by an amount equal to 0.3% of Valeriy's ATK.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/talent-passive-2.png"
+      "img": "https://gi.deve.sh/valeriy/talent-passive-2.png"
     },
     {
       "name": "Subzero Conditioning",
       "unlock": "Unlocked Automatically",
       "description": "Valeriy enters the Radiance: Stellar-Conduct state while within a Polestar Field.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/talent-passive-0.png"
+      "img": "https://gi.deve.sh/valeriy/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -63,53 +63,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Valeriy regenerates 6 Elemental Energy after performing the special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment. For every 10 Impact Momentum consumed beyond 40 when performing this special Charged Attack, he regenerates an additional 1.5 Elemental Energy. Each time he performs Direct-Fire Mortar: Point-Blank Bombardment, he can regenerate up to 15 Elemental Energy in this way. This effect can trigger once every 15s.\nAdditionally, each time Valeriy enters combat, the first time he uses his Elemental Skill Active Defense: Bastion Charge, he gains an additional amount of Impact Momentum equal to 150% of the amount normally gained.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation-1.png"
+      "img": "https://gi.deve.sh/valeriy/constellation-1.png"
     },
     {
       "name": "Ranks That Charge as One",
       "unlock": "Constellation Lv. 2",
       "description": "All nearby party members gain 100 Elemental Mastery for 18s after Valeriy uses his Elemental Skill Active Defense: Bastion Charge.\nAdditionally, while protected by a Supercharged Shield, if Valeriy is already at maximum Impact Momentum, any further Impact Momentum he would gain is instead converted into increased DMG Absorption for the shield. Each point of excess Impact Momentum increases the Supercharged Shield's DMG Absorption by an amount equal to 8% of Valeriy's ATK. Up to 20 excess Impact Momentum can be converted in this way.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation-2.png"
+      "img": "https://gi.deve.sh/valeriy/constellation-2.png"
     },
     {
       "name": "Vigilance at Close Quarters",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Normal Attack Guard Tactics: Sword and Shield by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation-3.png"
+      "img": "https://gi.deve.sh/valeriy/constellation-3.png"
     },
     {
       "name": "Fortitude Unshaken by Attrition",
       "unlock": "Constellation Lv. 4",
       "description": "Impact Momentum's limit is increased by 30, and its charging efficiency is increased by 30%.\nAdditionally, the Ascension Talent Advance With the Creeping Barrage is enhanced: The maximum amount of Impact Momentum that can be gained from this Talent after using the Elemental Burst is 104. You must unlock the Ascension Talent Advance With the Creeping Barrage to gain access to this effect.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation-4.png"
+      "img": "https://gi.deve.sh/valeriy/constellation-4.png"
     },
     {
       "name": "Resolve to Divide and Destroy",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of the Elemental Skill Active Defense: Bastion Charge by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation-5.png"
+      "img": "https://gi.deve.sh/valeriy/constellation-5.png"
     },
     {
       "name": "The Strength to Breach Enemy Lines",
       "unlock": "Constellation Lv. 6",
       "description": "The special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment and Thunderburst Shells from Elemental Burst Focused Fire: Lightning Salvo are enhanced: Their DMG is increased by 100%, and opponents they hit have the CRIT Rate of Electro DMG they take increased by 10% for 7s. If the Electro DMG taken is Stellar-Conduct reaction DMG, that DMG instance's CRIT DMG is also increased by 40%.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation-6.png"
+      "img": "https://gi.deve.sh/valeriy/constellation-6.png"
     }
   ],
   "vision_key": "ELECTRO",
   "weapon_type": "SWORD",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/valeriy/portrait.png"
+    "card": "https://gi.deve.sh/valeriy/card.png",
+    "constellation": "https://gi.deve.sh/valeriy/constellation.png",
+    "banner": "https://gi.deve.sh/valeriy/gacha-splash.png",
+    "icon": "https://gi.deve.sh/valeriy/icon.png",
+    "icon-big": "https://gi.deve.sh/valeriy/icon-big.png",
+    "portrait": "https://gi.deve.sh/valeriy/portrait.png"
   },
   "ascension_costs": [
     {

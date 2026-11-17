@@ -18,9 +18,9 @@
     "When an attack hits an opponent, deal AoE DMG equal to 80% of Max HP at the target's location. This effect can be triggered once every 15s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sequence-of-solitude/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sequence-of-solitude/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sequence-of-solitude/full.png"
+    "icon": "https://gi.deve.sh/weapons/sequence-of-solitude/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/sequence-of-solitude/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/sequence-of-solitude/full.png"
   },
   "ascension_costs": [
     {

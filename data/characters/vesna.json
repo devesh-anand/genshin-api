@@ -16,7 +16,7 @@
       "description": "Normal Attack\nPerforms up to 6 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to trample opponents in front of her.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along her path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-1.png"
+      "img": "https://gi.deve.sh/vesna/talent-1.png"
     },
     {
       "name": "The Art of Victory",
@@ -24,7 +24,7 @@
       "description": "Calls forth Spirit Blades passed down through generations of the Vila to deal AoE Anemo DMG, then switches to the Armed for Action mode and gains 2 stacks of Sword Essence.\n\nArmed for Action\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become Anemo DMG that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional Anemo DMG. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of Sword Essence.\nVesna can consume Sword Essence to unleash the special Elemental Skill Windborne Sword, which deals to the opponent Anemo DMG.\nEach use of the special Elemental Skill Windborne Sword in the same instance of Armed for Action will increase the level of Windborne Sword, beginning from Lv. 1 to Lv. 3 max, for more Anemo DMG. Using Windborne Sword at Lv. 2 and Lv. 3 will also summon Spirit Blades which deal Anemo DMG.\nVesna will exit the mode when its duration ends or when she has used Windborne Sword at the highest level 3 times. Exiting will clear all remaining Sword Essence she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\nRadiance: Stellar Swirl: DMG dealt with the Spirit Blades becomes Anemo DMG that is also considered Stellar Swirl reaction DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-skill.png"
+      "img": "https://gi.deve.sh/vesna/talent-skill.png"
     },
     {
       "name": "Elemental Burst",
@@ -32,7 +32,7 @@
       "description": "",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-burst.png"
+      "img": "https://gi.deve.sh/vesna/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -41,20 +41,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-passive-1.png"
+      "img": "https://gi.deve.sh/vesna/talent-passive-1.png"
     },
     {
       "name": "For the Tsaritsa!",
       "unlock": "Unlocked at Ascension 4",
       "description": "Summons multiple Spirit Blades, dealing AoE Anemo DMG. Also gains a stack of Sword Essence.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-passive-2.png"
+      "img": "https://gi.deve.sh/vesna/talent-passive-2.png"
     },
     {
       "name": "Rite of Spring's Procession",
       "unlock": "Unlocked Automatically",
       "description": "After Vesna uses the special Elemental Skill Windborne Sword or the Elemental Burst For the Tsaritsa!, she also gains 1 stack of Disciplinary Action which lasts 20s. Max 6 stacks, and the duration of each stack is independent of the others'.\nWhen she has Disciplinary Action stacks active, the Spirit Blades summoned by Vesna will deal DMG equal to (100% + 10% × Disciplinary Action stack count) of the original DMG instead. All active stacks of Disciplinary Action are cleared when Vesna uses the Elemental Skill The Art of Victory or when she leaves the field.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/talent-passive-0.png"
+      "img": "https://gi.deve.sh/vesna/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -63,53 +63,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "When in the Armed for Action mode, Vesna can unleash Windborne Sword at the highest level 4 times instead of 3. Also, each time she enters the Armed for Action mode, she will not consume Sword Essence the first time she uses Windborne Sword at the highest level.\nAdditionally, Vesna deals 20% increased Stellar Swirl reaction DMG when in the Armed for Action mode.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-1.png"
+      "img": "https://gi.deve.sh/vesna/constellation-1.png"
     },
     {
       "name": "Kolo of Spring's Arrival",
       "unlock": "Constellation Lv. 2",
       "description": "The Ascension Talent Rite of Spring's Procession is enhanced: Vesna gains the maximum number of Disciplinary Action stacks when she enters Armed for Action mode. Vesna's ATK is increased by 40% when she has maximum Disciplinary Action stacks.\nYou must unlock the Ascension Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-2.png"
+      "img": "https://gi.deve.sh/vesna/constellation-2.png"
     },
     {
       "name": "Winter's Last Offering",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of the Elemental Skill The Art of Victory by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-3.png"
+      "img": "https://gi.deve.sh/vesna/constellation-3.png"
     },
     {
       "name": "Glory to Our Forebears",
       "unlock": "Constellation Lv. 4",
       "description": "The Ascension Talent Truth Prevails is enhanced: Its ATK and Elemental Mastery bonuses increase to 3 times their original values.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-4.png"
+      "img": "https://gi.deve.sh/vesna/constellation-4.png"
     },
     {
       "name": "The Nobleborn's Charge",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of the Elemental Burst For the Tsaritsa! by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-5.png"
+      "img": "https://gi.deve.sh/vesna/constellation-5.png"
     },
     {
       "name": "Unwavering Ardor",
       "unlock": "Constellation Lv. 6",
       "description": "Tapping on Normal Attack or Elemental Skill in the 5s after Vesna uses Windborne Sword at its highest level will unleash the secret Vila ability Windborne Sword: Transpose, dealing Anemo DMG at 150% of Vesna's ATK as well as summoning Spirit Blades which deal an additional instance of Anemo DMG at 200% of Vesna's ATK. If Vesna is in the Armed for Action mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is elevated by 20%.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation-6.png"
+      "img": "https://gi.deve.sh/vesna/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
   "weapon_type": "SWORD",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/vesna/portrait.png"
+    "card": "https://gi.deve.sh/vesna/card.png",
+    "constellation": "https://gi.deve.sh/vesna/constellation.png",
+    "banner": "https://gi.deve.sh/vesna/gacha-splash.png",
+    "icon": "https://gi.deve.sh/vesna/icon.png",
+    "icon-big": "https://gi.deve.sh/vesna/icon-big.png",
+    "portrait": "https://gi.deve.sh/vesna/portrait.png"
   },
   "ascension_costs": [
     {

@@ -1,15 +1,16 @@
 // Finds image URLs in data/ that point at R2 objects that don't exist.
 //
 // Walks every JSON file under data/, collects every image URL, and HEADs each
-// one on the public R2 host. Slow on purpose: pub-….r2.dev answers bursts with
-// 429, so requests go out a few at a time and back off on 429/5xx.
+// one on the host it names (gi.deve.sh). Requests go out a few at a time and
+// back off on 429/5xx. Old pub-….r2.dev URLs answer bursts with 429, so use
+// --concurrency 1 --delay 150 for those.
 //
 // Usage:
 //   node scripts/check-data-images.mjs                  # HEAD every URL in data/
 //   node scripts/check-data-images.mjs --prefix albedo/ # only keys starting with albedo/
 //   node scripts/check-data-images.mjs --variants       # also HEAD the w48…w1920 variants of each original
 //
-// Options: --concurrency <n> (default 2), --delay <ms> between requests per worker (default 150).
+// Options: --concurrency <n> (default 6), --delay <ms> between requests per worker (default 0).
 // Exits 1 if any URL is missing (or could not be checked).
 
 import { readdir, readFile } from 'fs/promises';
@@ -22,11 +23,11 @@ const { values: opts } = parseArgs({
    options: {
       prefix: { type: 'string', default: '' },
       variants: { type: 'boolean', default: false },
-      concurrency: { type: 'string', default: '2' },
-      delay: { type: 'string', default: '150' },
+      concurrency: { type: 'string', default: '6' },
+      delay: { type: 'string', default: '0' },
    },
 });
-const concurrency = Math.max(1, Number.parseInt(opts.concurrency, 10) || 2);
+const concurrency = Math.max(1, Number.parseInt(opts.concurrency, 10) || 6);
 const delay = Math.max(0, Number.parseInt(opts.delay, 10) || 0);
 
 const URL_RE = /https?:\/\/[^"\s]+\.(?:png|jpe?g|webp)(?:\?[^"\s]*)?/gi;

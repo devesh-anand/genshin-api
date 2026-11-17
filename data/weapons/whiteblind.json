@@ -18,9 +18,9 @@
     "On hit, Normal or Charged Attacks increase ATK and DEF by 12% for 6s. Max 4 stacks. This effect can only occur once every 0.5s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/whiteblind/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/whiteblind/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/whiteblind/full.png"
+    "icon": "https://gi.deve.sh/weapons/whiteblind/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/whiteblind/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/whiteblind/full.png"
   },
   "ascension_costs": [
     {

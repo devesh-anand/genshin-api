@@ -18,9 +18,9 @@
     "Elemental Mastery increases by 240 for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by 192 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 64 for 30s after the wielder's Elemental Burst hits an opponent."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sunny-morning-sleep-in/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sunny-morning-sleep-in/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sunny-morning-sleep-in/wish.png"
+    "icon": "https://gi.deve.sh/weapons/sunny-morning-sleep-in/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/sunny-morning-sleep-in/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/sunny-morning-sleep-in/wish.png"
   },
   "ascension_costs": [
     {

@@ -18,9 +18,9 @@
     "When Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Crystallize or Lunar-Crystallize is triggered, restore 24 Elemental Energy and increase Elemental Mastery by 120 for 15 seconds. This effect can be triggered at most once every 15s and can be triggered even when the equipping character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flame-forged-insight/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flame-forged-insight/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flame-forged-insight/full.png"
+    "icon": "https://gi.deve.sh/weapons/flame-forged-insight/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/flame-forged-insight/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/flame-forged-insight/full.png"
   },
   "ascension_costs": [
     {
