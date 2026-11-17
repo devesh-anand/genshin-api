@@ -197,16 +197,6 @@ Older R2 folders (2022 uploads) have odd keys like `albedo/talent-na.png.png` an
 
 ---
 
-### `scripts/upload-wiki-image.mjs`
-
-Restores one missing image from the Fandom wiki to the R2 key `data/` already points at. Dry run unless `--write`; refuses to overwrite an existing object unless `--overwrite`. Run `image-variants.mjs --write --prefix <folder>/` afterwards.
-
-```bash
-node scripts/upload-wiki-image.mjs "Canis Bellatoris.png" gorou/constellation.png --write
-```
-
----
-
 ## Adding New Characters (Full Process)
 
 1. **Run the sync** (or `populate-characters.mjs` for characters only):
