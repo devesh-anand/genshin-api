@@ -10,27 +10,27 @@
     "flower": {
       "name": "Flower of Creviced Cliff",
       "description": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/flower.png"
+      "img": "https://gi.deve.sh/artifacts/archaic-petra/flower.png"
     },
     "plume": {
       "name": "Feather of Jagged Peaks",
       "description": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/plume.png"
+      "img": "https://gi.deve.sh/artifacts/archaic-petra/plume.png"
     },
     "sands": {
       "name": "Sundial of Enduring Jade",
       "description": "A sundial carved from a single, large piece of jade. Its lined with a pattern that silently records the passage of time.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/sands.png"
+      "img": "https://gi.deve.sh/artifacts/archaic-petra/sands.png"
     },
     "goblet": {
       "name": "Goblet of Chiseled Crag",
       "description": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/archaic-petra/goblet.png"
     },
     "circlet": {
       "name": "Mask of Solitude Basalt",
       "description": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/archaic-petra/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/archaic-petra/circlet.png"
     }
   }
 }

@@ -18,10 +18,10 @@
     "Increase Plunging Attack CRIT Rate by 32%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 32% for 10s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/fruitful-hook/full.png"
+    "icon": "https://gi.deve.sh/weapons/fruitful-hook/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/fruitful-hook/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/fruitful-hook/wish.png",
+    "full": "https://gi.deve.sh/weapons/fruitful-hook/full.png"
   },
   "ascension_costs": [
     {

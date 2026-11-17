@@ -14,9 +14,9 @@
     "When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kagotsurube-isshin/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kagotsurube-isshin/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kagotsurube-isshin/full.png"
+    "icon": "https://gi.deve.sh/weapons/kagotsurube-isshin/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/kagotsurube-isshin/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/kagotsurube-isshin/full.png"
   },
   "ascension_costs": [
     {

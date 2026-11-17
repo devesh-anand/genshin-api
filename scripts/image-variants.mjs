@@ -34,10 +34,9 @@ import {
    renderVariants,
    variantKey,
 } from './lib/variants.mjs';
+import { BUCKET } from './lib/r2.mjs';
 
 dotenv.config();
-
-const BUCKET = 'genshin-images';
 
 const { values: opts } = parseArgs({
    options: {

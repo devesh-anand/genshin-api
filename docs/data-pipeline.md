@@ -2,7 +2,7 @@
 
 How game data and images get into `data/` and the R2 bucket. Read this before running anything in `scripts/`. Code conventions live in [CLAUDE.md](../CLAUDE.md).
 
-Images are stored on **Cloudflare R2** (`genshin-images` bucket) and served publicly at `https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev`. Scripts use R2 through `aws-sdk/clients/s3.js` (S3-compatible). The API server itself never writes to R2.
+Images are stored on **Cloudflare R2** (`genshin-images` bucket) and served publicly at `https://gi.deve.sh`, the bucket's custom domain (R2 → Settings → Custom Domains, cached by Cloudflare). Every image URL in `data/` uses it; the base lives in `scripts/lib/r2.mjs` (`PUBLIC_URL`, with `BUCKET`). The old public address `https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev` serves the same keys and still works for old links, but it's rate-limited and uncached, so nothing should write it to `data/` any more. Scripts use R2 through `aws-sdk/clients/s3.js` (S3-compatible). The API server itself never writes to R2.
 
 ---
 
@@ -132,7 +132,7 @@ nahida/icon.png  →  nahida/icon.w48.webp … nahida/icon.w1920.webp
 
 Every original gets every width, never upscaled (a 256px icon's `w1920` is the 256px image as WebP), so a loader can build any variant URL from the original URL alone. **Changing `VARIANT_WIDTHS` means changing the frontend loader too.** Variants are uploaded with `Cache-Control: public, max-age=86400` (one day, about how long Cloudflare keeps the originals) — deliberately not `immutable`, because an original can be re-uploaded under the same key and its variants are then regenerated under the same keys. To show a replaced image sooner, bump the `?v=` on its URL in `data/` as usual: the loader carries the query string over to the variant URL (`card.w640.webp?v=2`).
 
-**Where the frontend should load them from:** a custom domain on the bucket (R2 → Settings → Custom Domains, e.g. `img.deve.sh`), with the loader rewriting the `pub-….r2.dev` host from `data/` to it. Don't serve visitors from `r2.dev` directly: Cloudflare documents it as [non-production, rate-limited and uncached](https://developers.cloudflare.com/r2/buckets/public-buckets/). `data/` URLs can stay as they are.
+**Where the frontend loads them from:** `https://gi.deve.sh`, the bucket's custom domain, which is live and is the host every URL in `data/` already uses, so a loader only has to swap the extension for `.w{width}.webp`. The frontend loader also accepts the old `pub-….r2.dev` host for old links. Don't serve visitors from `r2.dev` directly: Cloudflare documents it as [non-production, rate-limited and uncached](https://developers.cloudflare.com/r2/buckets/public-buckets/).
 
 ```bash
 node scripts/image-variants.mjs                           # dry run: what's missing, writes nothing
@@ -185,7 +185,7 @@ node scripts/check-image-urls.mjs nahida --old tighnari   # compare with an old 
 
 ### `scripts/check-data-images.mjs`
 
-Finds image URLs in `data/` whose R2 object doesn't exist. Walks every JSON file under `data/` and HEADs each URL on the public host, a few at a time with backoff (`pub-….r2.dev` answers bursts with 429), so a full run takes a while. Exits 1 if anything is missing.
+Finds image URLs in `data/` whose R2 object doesn't exist. Walks every JSON file under `data/` and HEADs each URL on the host it names, a few at a time, backing off on 429/5xx. Keep `--concurrency` low (1–2) if you point it at old `pub-….r2.dev` URLs, which answer bursts with 429. Exits 1 if anything is missing.
 
 ```bash
 node scripts/check-data-images.mjs                    # every URL in data/
@@ -231,7 +231,8 @@ Older R2 folders (2022 uploads) have odd keys like `albedo/talent-na.png.png` an
 | Enka CDN | `https://enka.network/ui/{filename}.png` | Game asset icons (icon, splash, talent) |
 | Genshin wiki API | `https://genshin-impact.fandom.com/api.php` | Card, portrait, constellation background |
 | R2 bucket | `genshin-images` | Stores all images served by the API |
-| R2 public URL | `https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev` | Public image base URL |
+| Image host | `https://gi.deve.sh` | Public image base URL (bucket custom domain) |
+| R2 public URL (old) | `https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev` | Same keys; rate-limited, only for old links |
 
 ---
 

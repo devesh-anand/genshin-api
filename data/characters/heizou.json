@@ -53,7 +53,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-na.png"
+      "img": "https://gi.deve.sh/heizou/talent-na.png"
     },
     {
       "name": "Heartstopper Strike",
@@ -82,7 +82,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-skill.png"
+      "img": "https://gi.deve.sh/heizou/talent-skill.png"
     },
     {
       "name": "Windmuster Kick",
@@ -107,7 +107,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-burst.png"
+      "img": "https://gi.deve.sh/heizou/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -116,20 +116,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "When Shikanoin Heizou activates a Swirl or Stellar Swirl reaction while on the field, he will gain 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 0.1s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-passive-1.png"
+      "img": "https://gi.deve.sh/heizou/talent-passive-1.png"
     },
     {
       "name": "Penetrative Reasoning",
       "unlock": "Unlocked at Ascension 4",
       "description": "After Shikanoin Heizou's Heartstopper Strike hits an opponent, increases all party members' (excluding Shikanoin Heizou) Elemental Mastery by 80 for 10s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-passive-2.png"
+      "img": "https://gi.deve.sh/heizou/talent-passive-2.png"
     },
     {
       "name": "Pre-Existing Guilt",
       "unlock": "Unlocked Automatically",
       "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/talent-passive-0.png"
+      "img": "https://gi.deve.sh/heizou/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -138,53 +138,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "For 5s after Shikanoin Heizou takes the field, his Normal Attack SPD is increased by 15%. He also gains 1 Declension stack for Heartstopper Strike. This effect can be triggered once every 10s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation-1.png"
+      "img": "https://gi.deve.sh/heizou/constellation-1.png"
     },
     {
       "name": "Investigative Collection",
       "unlock": "Constellation Lv. 2",
       "description": "The pull effect of the Arresting Windtunnel created by Windmuster Kick is enhanced, and its duration is increased to 1s.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation-2.png"
+      "img": "https://gi.deve.sh/heizou/constellation-2.png"
     },
     {
       "name": "Esoteric Puzzle Book",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Heartstopper Strike by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation-3.png"
+      "img": "https://gi.deve.sh/heizou/constellation-3.png"
     },
     {
       "name": "Tome of Lies",
       "unlock": "Constellation Lv. 4",
       "description": "The first Windmuster Iris explosion in each Windmuster Kick will regenerate 9 Elemental Energy for Shikanoin Heizou. Every subsequent explosion in that Windmuster Kick will each regenerate an additional 1.5 Energy for Heizou.\nOne Windmuster Kick can regenerate a total of 13.5 Energy for Heizou in this manner.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation-4.png"
+      "img": "https://gi.deve.sh/heizou/constellation-4.png"
     },
     {
       "name": "Secret Archive",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of Windmuster Kick by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation-5.png"
+      "img": "https://gi.deve.sh/heizou/constellation-5.png"
     },
     {
       "name": "Curious Casefiles",
       "unlock": "Constellation Lv. 6",
       "description": "Each Declension stack will increase the CRIT Rate of the Heartstopper Strike unleashed by 4%. When Heizou possesses Conviction, this Heartstopper Strike's CRIT DMG is increased by 32%.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation-6.png"
+      "img": "https://gi.deve.sh/heizou/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
   "weapon_type": "CATALYST",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/heizou/portrait.png"
+    "card": "https://gi.deve.sh/heizou/card.png",
+    "constellation": "https://gi.deve.sh/heizou/constellation.png",
+    "banner": "https://gi.deve.sh/heizou/gacha-splash.png",
+    "icon": "https://gi.deve.sh/heizou/icon.png",
+    "icon-big": "https://gi.deve.sh/heizou/icon-big.png",
+    "portrait": "https://gi.deve.sh/heizou/portrait.png"
   },
   "ascension_costs": [
     {

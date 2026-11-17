@@ -18,9 +18,9 @@
     "Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 16% and Charged Attack DMG will be increased by 12%. Max 3 stacks. This effect can be triggered once every 0.3s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-boundless-blue/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-boundless-blue/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-boundless-blue/full.png"
+    "icon": "https://gi.deve.sh/weapons/ballad-of-the-boundless-blue/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/ballad-of-the-boundless-blue/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/ballad-of-the-boundless-blue/full.png"
   },
   "ascension_costs": [
     {

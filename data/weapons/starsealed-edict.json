@@ -18,8 +18,8 @@
     "Increases CRIT DMG by 48%. The equipping character gains the Crystal Compounding effect when they use their Elemental Skill, increasing Elemental Mastery by 96 for 20s. During this time, the equipping character gains a Law of Combustion stack when a nearby party member triggers an Elemental Reaction. Each stack increases Elemental Mastery by an additional 48. Max 3 stacks. These stacks last until Crystal Compounding ends or the equipping character uses their Elemental Skill again.\nRadiance: Stellar-Conduct: Each Law of Combustion stack also increases the equipping character's Stellar-Conduct CRIT DMG by 24%.\nThese effects can be triggered even when the equipping character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starsealed-edict/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starsealed-edict/icon-awaken.png"
+    "icon": "https://gi.deve.sh/weapons/starsealed-edict/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/starsealed-edict/icon-awaken.png"
   },
   "ascension_costs": [
     {

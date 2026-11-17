@@ -18,10 +18,10 @@
     "On hit, increases ATK by 6% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 24%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-winged-spear/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-winged-spear/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-winged-spear/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-winged-spear/full.png"
+    "icon": "https://gi.deve.sh/weapons/primordial-jade-winged-spear/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/primordial-jade-winged-spear/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/primordial-jade-winged-spear/wish.png",
+    "full": "https://gi.deve.sh/weapons/primordial-jade-winged-spear/full.png"
   },
   "ascension_costs": [
     {

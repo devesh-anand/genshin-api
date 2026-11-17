@@ -18,9 +18,9 @@
     "After using an Elemental Skill, increases Normal and Charged Attack DMG by 16% for 12s. Max 2 stacks."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-starglitter/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-starglitter/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-starglitter/full.png"
+    "icon": "https://gi.deve.sh/weapons/prototype-starglitter/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/prototype-starglitter/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/prototype-starglitter/full.png"
   },
   "ascension_costs": [
     {

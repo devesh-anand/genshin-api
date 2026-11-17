@@ -18,10 +18,10 @@
     "HP is increased by 32%. When current HP increases or decreases, Charged Attack DMG will be increased by 30% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, 12 Energy will be restored. This Energy restoration effect can be triggered once every 12s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/tome-of-the-eternal-flow/full.png"
+    "icon": "https://gi.deve.sh/weapons/tome-of-the-eternal-flow/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/tome-of-the-eternal-flow/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/tome-of-the-eternal-flow/wish.png",
+    "full": "https://gi.deve.sh/weapons/tome-of-the-eternal-flow/full.png"
   },
   "ascension_costs": [
     {

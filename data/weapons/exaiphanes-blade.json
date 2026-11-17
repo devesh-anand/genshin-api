@@ -18,7 +18,7 @@
     "When the Traveler equips this, their CRIT DMG increases by 6% for every Element they have resonated with. Additionally, the Traveler's ATK will also increase by 40% for 8s, and regenerate 5 Elemental Energy, after they attack and hit an opponent. This effect can trigger once every 5s. This can be triggered even when the character is not on the field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/exaiphanes-blade/icon.png",
+    "icon": "https://gi.deve.sh/weapons/exaiphanes-blade/icon.png",
     "icon-awaken": null
   },
   "ascension_costs": [

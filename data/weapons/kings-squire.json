@@ -18,9 +18,9 @@
     "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 140 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kings-squire/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kings-squire/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/kings-squire/full.png"
+    "icon": "https://gi.deve.sh/weapons/kings-squire/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/kings-squire/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/kings-squire/full.png"
   },
   "ascension_costs": [
     {

@@ -18,9 +18,9 @@
     "While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by 40%, and Normal and Charged Attack CRIT Rate is increased by 16%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/calamity-of-eshu/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/calamity-of-eshu/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/calamity-of-eshu/full.png"
+    "icon": "https://gi.deve.sh/weapons/calamity-of-eshu/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/calamity-of-eshu/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/calamity-of-eshu/full.png"
   },
   "ascension_costs": [
     {

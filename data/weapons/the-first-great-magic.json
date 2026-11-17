@@ -18,10 +18,10 @@
     "DMG dealt by Charged Attacks increased by 32%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 32%/64%/96%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 12%/15%/18%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/the-first-great-magic/full.png"
+    "icon": "https://gi.deve.sh/weapons/the-first-great-magic/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/the-first-great-magic/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/the-first-great-magic/wish.png",
+    "full": "https://gi.deve.sh/weapons/the-first-great-magic/full.png"
   },
   "ascension_costs": [
     {

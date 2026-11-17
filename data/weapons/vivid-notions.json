@@ -18,10 +18,10 @@
     "ATK is increased by 56%. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by 56%. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by 80%. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/vivid-notions/full.png"
+    "icon": "https://gi.deve.sh/weapons/vivid-notions/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/vivid-notions/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/vivid-notions/wish.png",
+    "full": "https://gi.deve.sh/weapons/vivid-notions/full.png"
   },
   "ascension_costs": [
     {

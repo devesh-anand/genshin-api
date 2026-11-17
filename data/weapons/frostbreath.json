@@ -18,8 +18,8 @@
     "Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by 40% for the next 15s, as well as regenerates 12 Elemental Energy for other members of their party. This effect can trigger once every 16s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/frostbreath/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/frostbreath/icon-awaken.png"
+    "icon": "https://gi.deve.sh/weapons/frostbreath/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/frostbreath/icon-awaken.png"
   },
   "ascension_costs": [
     {

@@ -49,7 +49,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-na.png"
+      "img": "https://gi.deve.sh/mona/talent-na.png"
     },
     {
       "name": "Reflection of Doom",
@@ -70,7 +70,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-skill.png"
+      "img": "https://gi.deve.sh/mona/talent-skill.png"
     },
     {
       "name": "Stellaris Phantasm",
@@ -103,7 +103,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-burst.png"
+      "img": "https://gi.deve.sh/mona/talent-burst.png"
     },
     {
       "name": "Illusory Torrent",
@@ -119,7 +119,7 @@
           "value": "15/s"
         }
       ],
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-misc.png"
+      "img": "https://gi.deve.sh/mona/talent-passive-misc.png"
     }
   ],
   "passiveTalents": [
@@ -128,32 +128,32 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "After she has used Illusory Torrent for 2s, if there are any enemies nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-1.png"
+      "img": "https://gi.deve.sh/mona/talent-passive-1.png"
     },
     {
       "name": "Waterborne Destiny",
       "unlock": "Unlocked at Ascension 4",
       "description": "Increases Mona's Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-2.png"
+      "img": "https://gi.deve.sh/mona/talent-passive-2.png"
     },
     {
       "name": "Principium of Astrology",
       "unlock": "Unlocked Automatically",
       "description": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-0.png"
+      "img": "https://gi.deve.sh/mona/talent-passive-0.png"
     },
     {
       "name": "\"Come 'n' Get Me, Hag!\"",
       "unlock": "Unlocked Automatically",
       "description": "After she has used Illusory Torrent for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of Mirror Reflection of Doom.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/mona/talent-passive-extra-3.png"
     },
     {
       "name": "Witch's Eve Rite: Genesis of Starsigns",
       "unlock": "Unlocked Automatically",
       "description": "After completing Witch's Homework: Of Untested Insight, Mona will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\nWhen Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of Astral Glow of Mercury, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%.\nAdditionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's Omen duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/talent-passive-extra-4.png"
+      "img": "https://gi.deve.sh/mona/talent-passive-extra-4.png"
     }
   ],
   "constellations": [
@@ -203,12 +203,12 @@
   "vision_key": "HYDRO",
   "weapon_type": "CATALYST",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/mona/portrait.png"
+    "card": "https://gi.deve.sh/mona/card.png",
+    "constellation": "https://gi.deve.sh/mona/constellation.png",
+    "banner": "https://gi.deve.sh/mona/gacha-splash.png",
+    "icon": "https://gi.deve.sh/mona/icon.png",
+    "icon-big": "https://gi.deve.sh/mona/icon-big.png",
+    "portrait": "https://gi.deve.sh/mona/portrait.png"
   },
   "ascension_costs": [
     {

@@ -18,10 +18,10 @@
     "CRIT DMG increased by 40%. Increasing the value of a Bond of Life increases the DMG the equipping character deals by 32% for 6s. Max 3 stacks."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/absolution/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/absolution/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/absolution/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/absolution/full.png"
+    "icon": "https://gi.deve.sh/weapons/absolution/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/absolution/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/absolution/wish.png",
+    "full": "https://gi.deve.sh/weapons/absolution/full.png"
   },
   "ascension_costs": [
     {

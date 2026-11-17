@@ -61,7 +61,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-na.png"
+      "img": "https://gi.deve.sh/beidou/talent-na.png"
     },
     {
       "name": "Tidecaller",
@@ -86,7 +86,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-skill.png"
+      "img": "https://gi.deve.sh/beidou/talent-skill.png"
     },
     {
       "name": "Stormbreaker",
@@ -119,7 +119,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-burst.png"
+      "img": "https://gi.deve.sh/beidou/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -128,26 +128,26 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Counterattacking with Tidecaller at the precise moment when the character is hit grants the maximum DMG Bonus.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-1.png"
+      "img": "https://gi.deve.sh/beidou/talent-passive-1.png"
     },
     {
       "name": "Lightning Storm",
       "unlock": "Unlocked at Ascension 4",
       "description": "Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus: \n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n·Greatly reduced delay before unleashing Charged Attacks.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-2.png"
+      "img": "https://gi.deve.sh/beidou/talent-passive-2.png"
     },
     {
       "name": "Conqueror of Tides",
       "unlock": "Unlocked Automatically",
       "description": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-0.png"
+      "img": "https://gi.deve.sh/beidou/talent-passive-0.png"
     },
     {
       "name": "Polaris",
       "unlock": "Unlocked Automatically",
       "description": "When holding down on the Elemental Skill Tidecaller, 1 stack of power will accumulate every 0.8s, even when not under attack. This increases the DMG dealt at the point of unleashing.\nAdditionally, holding down to unleash Tidecaller and hitting the opponent also gives extra boosts based on the power accumulated: every stack active decreases Beidou's Elemental Skill CD by 4s, as well as regenerates 8 Elemental Energy for her. This effect can trigger once every 15s.\nAdditionally, when inside a Polestar Field, Beidou will enter the Radiance: Stellar-Conduct state.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/beidou/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
@@ -156,53 +156,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "When Stormbreaker is used:\nCreates a shield that absorbs up to 16% of Beidou's Max HP for 15s.\nThis shield absorbs Electro DMG 250% more effectively.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation-1.png"
+      "img": "https://gi.deve.sh/beidou/constellation-1.png"
     },
     {
       "name": "Upon the Turbulent Sea, the Thunder Arises",
       "unlock": "Constellation Lv. 2",
       "description": "Stormbreaker's arc lightning can jump 2 additional targets.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation-2.png"
+      "img": "https://gi.deve.sh/beidou/constellation-2.png"
     },
     {
       "name": "Summoner of Storm",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Tidecaller by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation-3.png"
+      "img": "https://gi.deve.sh/beidou/constellation-3.png"
     },
     {
       "name": "Stunning Revenge",
       "unlock": "Constellation Lv. 4",
       "description": "Within 10s of taking DMG, Beidou's Normal Attacks gain 20% additional Electro DMG.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation-4.png"
+      "img": "https://gi.deve.sh/beidou/constellation-4.png"
     },
     {
       "name": "Crimson Tidewalker",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Stormbreaker by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation-5.png"
+      "img": "https://gi.deve.sh/beidou/constellation-5.png"
     },
     {
       "name": "Bane of Evil",
       "unlock": "Constellation Lv. 6",
       "description": "During the duration of Stormbreaker, the Electro RES of surrounding enemies is decreased by 15%.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation-6.png"
+      "img": "https://gi.deve.sh/beidou/constellation-6.png"
     }
   ],
   "vision_key": "ELECTRO",
   "weapon_type": "CLAYMORE",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/beidou/portrait.png"
+    "card": "https://gi.deve.sh/beidou/card.png",
+    "constellation": "https://gi.deve.sh/beidou/constellation.png",
+    "banner": "https://gi.deve.sh/beidou/gacha-splash.png",
+    "icon": "https://gi.deve.sh/beidou/icon.png",
+    "icon-big": "https://gi.deve.sh/beidou/icon-big.png",
+    "portrait": "https://gi.deve.sh/beidou/portrait.png"
   },
   "ascension_costs": [
     {

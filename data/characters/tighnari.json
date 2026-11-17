@@ -57,7 +57,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/talent-1.png"
+      "img": "https://gi.deve.sh/tighnari/talent-1.png"
     },
     {
       "name": "Vijnana-Phala Mine",
@@ -82,7 +82,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/talent-skill.png"
+      "img": "https://gi.deve.sh/tighnari/talent-skill.png"
     },
     {
       "name": "Fashioner's Tanglevine Shaft",
@@ -107,7 +107,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/talent-burst.png"
+      "img": "https://gi.deve.sh/tighnari/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -116,20 +116,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "After Tighnari fires a Wreath Arrow, his Elemental Mastery is increased by 50 for 4s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/talent-passive-1.png"
+      "img": "https://gi.deve.sh/tighnari/talent-passive-1.png"
     },
     {
       "name": "Scholarly Blade",
       "unlock": "Unlocked at Ascension 4",
       "description": "For every point of Elemental Mastery Tighnari possesses, his Charged Attack and Fashioner's Tanglevine Shaft DMG are increased by 0.06%.\nThe maximum DMG Bonus obtainable this way is 60%.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/talent-passive-2.png"
+      "img": "https://gi.deve.sh/tighnari/talent-passive-2.png"
     },
     {
       "name": "Encyclopedic Knowledge",
       "unlock": "Unlocked Automatically",
       "description": "Displays the location of nearby resources unique to Sumeru on the mini-map.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/talent-passive-0.png"
+      "img": "https://gi.deve.sh/tighnari/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -138,53 +138,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Tighnari's Charged Attack CRIT Rate is increased by 15%.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation-1.png"
+      "img": "https://gi.deve.sh/tighnari/constellation-1.png"
     },
     {
       "name": "Origins Known From the Stem",
       "unlock": "Constellation Lv. 2",
       "description": "When there are opponents within the Vijnana-Khanda Field created by Vijnana-Phala Mine, Tighnari gains 20% Dendro DMG Bonus.\nThe effect will last up to 6s if the field's duration ends or if it no longer has opponents with it.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation-2.png"
+      "img": "https://gi.deve.sh/tighnari/constellation-2.png"
     },
     {
       "name": "Fortunes Read Amongst the Branches",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Fashioner's Tanglevine Shaft by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation-3.png"
+      "img": "https://gi.deve.sh/tighnari/constellation-3.png"
     },
     {
       "name": "Withering Glimpsed in the Leaves",
       "unlock": "Constellation Lv. 4",
       "description": "When Fashioner's Tanglevine Shaft is unleashed, all nearby party members gain 60 Elemental Mastery for 8s. If the Fashioner's Tanglevine Shaft triggers a Burning, Bloom, Quicken, or Spread reaction, their Elemental Mastery will be further increased by 60. This latter case will also refresh the buff state's duration.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation-4.png"
+      "img": "https://gi.deve.sh/tighnari/constellation-4.png"
     },
     {
       "name": "Comprehension Amidst the Flowers",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Vijnana-Phala Mine by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation-5.png"
+      "img": "https://gi.deve.sh/tighnari/constellation-5.png"
     },
     {
       "name": "Karma Adjudged From the Leaden Fruit",
       "unlock": "Constellation Lv. 6",
       "description": "Wreath Arrow's charging time is decreased by 0.9s, and will produce 1 additional Clusterbloom Arrow upon hit. This arrow deals 150% of Tighnari's ATK as DMG.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation-6.png"
+      "img": "https://gi.deve.sh/tighnari/constellation-6.png"
     }
   ],
   "vision_key": "DENDRO",
   "weapon_type": "BOW",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/tighnari/portrait.png"
+    "card": "https://gi.deve.sh/tighnari/card.png",
+    "constellation": "https://gi.deve.sh/tighnari/constellation.png",
+    "banner": "https://gi.deve.sh/tighnari/gacha-splash.png",
+    "icon": "https://gi.deve.sh/tighnari/icon.png",
+    "icon-big": "https://gi.deve.sh/tighnari/icon-big.png",
+    "portrait": "https://gi.deve.sh/tighnari/portrait.png"
   },
   "ascension_costs": [
     {

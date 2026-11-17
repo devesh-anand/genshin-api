@@ -18,9 +18,9 @@
     "HP increased by 40%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.24% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.4% of the equipping character's max HP for 20s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/key-of-khaj-nisut/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/key-of-khaj-nisut/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/key-of-khaj-nisut/wish.png"
+    "icon": "https://gi.deve.sh/weapons/key-of-khaj-nisut/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/key-of-khaj-nisut/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/key-of-khaj-nisut/wish.png"
   },
   "ascension_costs": [
     {

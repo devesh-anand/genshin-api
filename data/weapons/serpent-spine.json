@@ -18,9 +18,9 @@
     "Every 4s a character is on the field, they will deal 10% more DMG and take 2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serpent-spine/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serpent-spine/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/serpent-spine/full.png"
+    "icon": "https://gi.deve.sh/weapons/serpent-spine/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/serpent-spine/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/serpent-spine/full.png"
   },
   "ascension_costs": [
     {

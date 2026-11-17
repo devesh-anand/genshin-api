@@ -16,7 +16,7 @@
       "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/talent-1.png"
+      "img": "https://gi.deve.sh/manekin/talent-1.png"
     },
     {
       "name": "Punishing Barrage",
@@ -24,7 +24,7 @@
       "description": "The Manekin attacks nearby opponents once, dealing AoE DMG corresponding to their own Elemental Type before pulling back rapidly. After unleashing an Elemental Skill, the Manekin's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to deal the corresponding elemental DMG, which cannot be overridden by other Elemental infusions, for a period of time. This effect will disappear when the Manekin leaves the field.\n\nHas 2 charges.\n\n\"A well-measured blow is a necessary warning.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/talent-skill.png"
+      "img": "https://gi.deve.sh/manekin/talent-skill.png"
     },
     {
       "name": "No Entry",
@@ -32,7 +32,7 @@
       "description": "The Manekin summons a \"Restricted Area\" that follows them around, dealing 1 instance of DMG corresponding to the Manekin's Elemental Type to nearby opponents.\nAdditionally, when opponents enter the Restricted Area, they will receive 1 instance of DMG corresponding to the Manekin's Elemental Type. This effect can trigger once every 0.5s.\nThe Restricted Area will disappear when the Manekin leaves the field.\n\n\"Those who insist on trespassing within the restricted area will be regarded as hostile and expelled with maximum force.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/talent-burst.png"
+      "img": "https://gi.deve.sh/manekin/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -41,20 +41,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "When the Manekin leaves the field, if a Restricted Area that they summoned is still active, it will explode, dealing AoE DMG of the Manekin's Elemental Type equal to 200% of the Manekin's ATK.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/talent-passive-1.png"
+      "img": "https://gi.deve.sh/manekin/talent-passive-1.png"
     },
     {
       "name": "Combat Readiness",
       "unlock": "Unlocked at Ascension 4",
       "description": "When the Manekin is not on the field and their Elemental Energy is below 30%, they will recover 2 Elemental Energy per second.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/talent-passive-2.png"
+      "img": "https://gi.deve.sh/manekin/talent-passive-2.png"
     },
     {
       "name": "Agile Stance",
       "unlock": "Unlocked Automatically",
       "description": "When the Manekin unleashes an Elemental Skill or Burst, it will change to one of its existing Cosmetic Plans at random.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/talent-passive-0.png"
+      "img": "https://gi.deve.sh/manekin/talent-passive-0.png"
     }
   ],
   "constellations": [],
@@ -62,11 +62,11 @@
   "weapon_type": "SWORD",
   "img": {
     "card": null,
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/manekin/portrait.png"
+    "constellation": "https://gi.deve.sh/manekin/constellation.png",
+    "banner": "https://gi.deve.sh/manekin/gacha-splash.png",
+    "icon": "https://gi.deve.sh/manekin/icon.png",
+    "icon-big": "https://gi.deve.sh/manekin/icon-big.png",
+    "portrait": "https://gi.deve.sh/manekin/portrait.png"
   },
   "ascension_costs": [],
   "talent_costs": {

@@ -49,7 +49,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-na.png"
+      "img": "https://gi.deve.sh/sucrose/talent-na.png"
     },
     {
       "name": "Astable Anemohypostasis Creation - 6308",
@@ -66,7 +66,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-skill.png"
+      "img": "https://gi.deve.sh/sucrose/talent-skill.png"
     },
     {
       "name": "Forbidden Creation - Isomer 75 / Type II",
@@ -95,7 +95,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-burst.png"
+      "img": "https://gi.deve.sh/sucrose/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -104,26 +104,26 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "When Sucrose triggers a Swirl or Stellar Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-1.png"
+      "img": "https://gi.deve.sh/sucrose/talent-passive-1.png"
     },
     {
       "name": "Mollis Favonius",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-2.png"
+      "img": "https://gi.deve.sh/sucrose/talent-passive-2.png"
     },
     {
       "name": "Astable Invention",
       "unlock": "Unlocked Automatically",
       "description": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-0.png"
+      "img": "https://gi.deve.sh/sucrose/talent-passive-0.png"
     },
     {
       "name": "Witch's Eve Rite: Sevenfold Transmutation",
       "unlock": "Unlocked Automatically",
       "description": "After completing Witch's Homework: Of Wonderland Flowers, Sucrose will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\n\nHexerei: Secret Rite\n· After Sucrose creates a Small Wind Spirit, nearby party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 5.71428% for 15s.\n· After Sucrose creates a Large Wind Spirit, nearby Hexerei party members' Normal Attack, Charged Attack, Plunging Attack, Elemental Skill, and Elemental Burst DMG are increased by 7.14285% for 20s.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/sucrose/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
@@ -132,53 +132,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation-1.png"
+      "img": "https://gi.deve.sh/sucrose/constellation-1.png"
     },
     {
       "name": "Beth - Unbound Form",
       "unlock": "Constellation Lv. 2",
       "description": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation-2.png"
+      "img": "https://gi.deve.sh/sucrose/constellation-2.png"
     },
     {
       "name": "Flawless Alchemistress",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation-3.png"
+      "img": "https://gi.deve.sh/sucrose/constellation-3.png"
     },
     {
       "name": "Alchemania",
       "unlock": "Constellation Lv. 4",
       "description": "Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation-4.png"
+      "img": "https://gi.deve.sh/sucrose/constellation-4.png"
     },
     {
       "name": "Caution: Standard Flask",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Forbidden Creation - Isomer 75 / Type II by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation-5.png"
+      "img": "https://gi.deve.sh/sucrose/constellation-5.png"
     },
     {
       "name": "Chaotic Entropy",
       "unlock": "Constellation Lv. 6",
       "description": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation-6.png"
+      "img": "https://gi.deve.sh/sucrose/constellation-6.png"
     }
   ],
   "vision_key": "ANEMO",
   "weapon_type": "CATALYST",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/sucrose/portrait.png"
+    "card": "https://gi.deve.sh/sucrose/card.png",
+    "constellation": "https://gi.deve.sh/sucrose/constellation.png",
+    "banner": "https://gi.deve.sh/sucrose/gacha-splash.png",
+    "icon": "https://gi.deve.sh/sucrose/icon.png",
+    "icon-big": "https://gi.deve.sh/sucrose/icon-big.png",
+    "portrait": "https://gi.deve.sh/sucrose/portrait.png"
   },
   "ascension_costs": [
     {

@@ -18,10 +18,10 @@
     "Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 24%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 24% for 8s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mountain-bracing-bolt/full.png"
+    "icon": "https://gi.deve.sh/weapons/mountain-bracing-bolt/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/mountain-bracing-bolt/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/mountain-bracing-bolt/wish.png",
+    "full": "https://gi.deve.sh/weapons/mountain-bracing-bolt/full.png"
   },
   "ascension_costs": [
     {

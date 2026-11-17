@@ -10,27 +10,27 @@
     "flower": {
       "name": "Forgotten Oath of Days Past",
       "description": "An ever-blooming flower shaped from larimar and shimmering silver. They say that this is still viewed as a symbol of resistance.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/song-of-days-past/flower.png"
+      "img": "https://gi.deve.sh/artifacts/song-of-days-past/flower.png"
     },
     "plume": {
       "name": "Recollection of Days Past",
       "description": "A butterfly-shaped feather accessory made from silver and azure crystals. It is said to, in the distant past, have symbolized an oath to never be parted.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/song-of-days-past/plume.png"
+      "img": "https://gi.deve.sh/artifacts/song-of-days-past/plume.png"
     },
     "sands": {
       "name": "Echoing Sound From Days Past",
       "description": "An oddly shaped hourglass made from lazurite and aqua jade. It was reportedly inspired by the bell tower in Petrichor.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/song-of-days-past/sands.png"
+      "img": "https://gi.deve.sh/artifacts/song-of-days-past/sands.png"
     },
     "goblet": {
       "name": "Promised Dream of Days Past",
       "description": "An opulent vessel made based on the form of the legendary \"Pure Grail.\" It is said to be able to fulfill the wishes of the purest of people.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/song-of-days-past/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/song-of-days-past/goblet.png"
     },
     "circlet": {
       "name": "Poetry of Days Past",
       "description": "A formal hat that was once in vogue amongst creators of opera in Fontaine. Word has it that its feathered adornment was based on the legendary helms of the Lochknights.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/song-of-days-past/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/song-of-days-past/circlet.png"
     }
   }
 }

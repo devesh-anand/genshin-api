@@ -10,27 +10,27 @@
     "flower": {
       "name": "Beast Tamer's Talisman",
       "description": "A flower carved from flint and Drakite, signifying that its bearer is qualified to become a beast tamer.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scroll-of-the-hero-of-cinder-city/flower.png"
+      "img": "https://gi.deve.sh/artifacts/scroll-of-the-hero-of-cinder-city/flower.png"
     },
     "plume": {
       "name": "Mountain Ranger's Marker",
       "description": "A signal used by mountain rangers to mark out paths. Their bird-feather shapes make them very eye-catching indeed.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scroll-of-the-hero-of-cinder-city/plume.png"
+      "img": "https://gi.deve.sh/artifacts/scroll-of-the-hero-of-cinder-city/plume.png"
     },
     "sands": {
       "name": "Mystic's Gold Dial",
       "description": "A golden disc shaped like a sun. The draconic patterns on it seem to symbolize the cycle of life and death.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scroll-of-the-hero-of-cinder-city/sands.png"
+      "img": "https://gi.deve.sh/artifacts/scroll-of-the-hero-of-cinder-city/sands.png"
     },
     "goblet": {
       "name": "Wandering Scholar's Claw Cup",
       "description": "A strange goblet strikingly similar in shape to a dragon's claw. Its maker must have made it with something special in mind.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scroll-of-the-hero-of-cinder-city/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/scroll-of-the-hero-of-cinder-city/goblet.png"
     },
     "circlet": {
       "name": "Demon-Warrior's Feather Mask",
       "description": "A feather mask with falcon-esque plumage. Many legends surround this object.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scroll-of-the-hero-of-cinder-city/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/scroll-of-the-hero-of-cinder-city/circlet.png"
     }
   }
 }

@@ -18,9 +18,9 @@
     "After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 32% more DMG to the opponent affected by Cursed Parasol."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/toukabou-shigure/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/toukabou-shigure/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/toukabou-shigure/full.png"
+    "icon": "https://gi.deve.sh/weapons/toukabou-shigure/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/toukabou-shigure/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/toukabou-shigure/full.png"
   },
   "ascension_costs": [
     {

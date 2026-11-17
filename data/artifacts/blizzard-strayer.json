@@ -10,27 +10,27 @@
     "flower": {
       "name": "Snowswept Memory",
       "description": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/blizzard-strayer/flower.png"
+      "img": "https://gi.deve.sh/artifacts/blizzard-strayer/flower.png"
     },
     "plume": {
       "name": "Icebreaker's Resolve",
       "description": "A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/blizzard-strayer/plume.png"
+      "img": "https://gi.deve.sh/artifacts/blizzard-strayer/plume.png"
     },
     "sands": {
       "name": "Frozen Homeland's Demise",
       "description": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/blizzard-strayer/sands.png"
+      "img": "https://gi.deve.sh/artifacts/blizzard-strayer/sands.png"
     },
     "goblet": {
       "name": "Frost-Weaved Dignity",
       "description": "A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/blizzard-strayer/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/blizzard-strayer/goblet.png"
     },
     "circlet": {
       "name": "Broken Rime's Echo",
       "description": "The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/blizzard-strayer/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/blizzard-strayer/circlet.png"
     }
   }
 }

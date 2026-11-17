@@ -18,9 +18,9 @@
     "When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 240."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-fjords/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-fjords/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ballad-of-the-fjords/full.png"
+    "icon": "https://gi.deve.sh/weapons/ballad-of-the-fjords/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/ballad-of-the-fjords/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/ballad-of-the-fjords/full.png"
   },
   "ascension_costs": [
     {

@@ -18,9 +18,9 @@
     "Increases ATK by 40%. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 36%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/verdict/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/verdict/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/verdict/wish.png"
+    "icon": "https://gi.deve.sh/weapons/verdict/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/verdict/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/verdict/wish.png"
   },
   "ascension_costs": [
     {

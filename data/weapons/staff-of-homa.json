@@ -18,10 +18,10 @@
     "HP increased by 40%. Additionally, provides an ATK Bonus based on 1.6% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1.8% of Max HP."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-homa/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-homa/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-homa/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/staff-of-homa/full.png"
+    "icon": "https://gi.deve.sh/weapons/staff-of-homa/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/staff-of-homa/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/staff-of-homa/wish.png",
+    "full": "https://gi.deve.sh/weapons/staff-of-homa/full.png"
   },
   "ascension_costs": [
     {

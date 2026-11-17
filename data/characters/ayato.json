@@ -53,7 +53,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-na.png"
+      "img": "https://gi.deve.sh/ayato/talent-na.png"
     },
     {
       "name": "Kamisato Art: Kyouka",
@@ -94,7 +94,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-skill.png"
+      "img": "https://gi.deve.sh/ayato/talent-skill.png"
     },
     {
       "name": "Kamisato Art: Suiyuu",
@@ -123,7 +123,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-burst.png"
+      "img": "https://gi.deve.sh/ayato/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -132,20 +132,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Kamisato Art: Kyouka has the following properties:\n·After it is used, Kamisato Ayato will gain 2 Namisen stacks.\n·When the water illusion explodes, Ayato will gain a Namisen effect equal to the maximum number of stacks possible.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-passive-1.png"
+      "img": "https://gi.deve.sh/ayato/talent-passive-1.png"
     },
     {
       "name": "Kamisato Art: Michiyuku Hagetsu",
       "unlock": "Unlocked at Ascension 4",
       "description": "If Kamisato Ayato is not on the field and his Energy is less than 40, he will regenerate 2 Energy for himself every second.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-passive-2.png"
+      "img": "https://gi.deve.sh/ayato/talent-passive-2.png"
     },
     {
       "name": "Kamisato Art: Daily Cooking",
       "unlock": "Unlocked Automatically",
       "description": "When Ayato cooks a dish perfectly, he has an 18% chance to receive an additional \"Suspicious\" dish of the same type.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/talent-passive-0.png"
+      "img": "https://gi.deve.sh/ayato/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -154,53 +154,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Shunsuiken DMG is increased by 40% against opponents with 50% HP or less.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation-1.png"
+      "img": "https://gi.deve.sh/ayato/constellation-1.png"
     },
     {
       "name": "World Source",
       "unlock": "Constellation Lv. 2",
       "description": "Namisen's maximum stack count is increased to 5. When Kamisato Ayato has at least 3 Namisen stacks, his Max HP is increased by 50%.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation-2.png"
+      "img": "https://gi.deve.sh/ayato/constellation-2.png"
     },
     {
       "name": "To Admire the Flowers",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Kamisato Art: Kyouka by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation-3.png"
+      "img": "https://gi.deve.sh/ayato/constellation-3.png"
     },
     {
       "name": "Endless Flow",
       "unlock": "Constellation Lv. 4",
       "description": "After using Kamisato Art: Suiyuu, all nearby party members will have 15% increased Normal Attack SPD for 15s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation-4.png"
+      "img": "https://gi.deve.sh/ayato/constellation-4.png"
     },
     {
       "name": "Bansui Ichiro",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Kamisato Art: Suiyuu by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation-5.png"
+      "img": "https://gi.deve.sh/ayato/constellation-5.png"
     },
     {
       "name": "Boundless Origin",
       "unlock": "Constellation Lv. 6",
       "description": "After using Kamisato Art: Kyouka, Ayato's next Shunsuiken attack will create 2 extra Shunsuiken strikes when they hit opponents, each one dealing 450% of Ayato's ATK as DMG. Both these Shunsuiken attacks will not be affected by Namisen.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation-6.png"
+      "img": "https://gi.deve.sh/ayato/constellation-6.png"
     }
   ],
   "vision_key": "HYDRO",
   "weapon_type": "SWORD",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/constellation.webp",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/ayato/card.png"
+    "card": "https://gi.deve.sh/ayato/card.png",
+    "constellation": "https://gi.deve.sh/ayato/constellation.webp",
+    "banner": "https://gi.deve.sh/ayato/gacha-splash.png",
+    "icon": "https://gi.deve.sh/ayato/icon.png",
+    "icon-big": "https://gi.deve.sh/ayato/icon-big.png",
+    "portrait": "https://gi.deve.sh/ayato/card.png"
   },
   "ascension_costs": [
     {

@@ -18,9 +18,9 @@
     "After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 80% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 3.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cranes-echoing-call/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cranes-echoing-call/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/cranes-echoing-call/wish.png"
+    "icon": "https://gi.deve.sh/weapons/cranes-echoing-call/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/cranes-echoing-call/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/cranes-echoing-call/wish.png"
   },
   "ascension_costs": [
     {

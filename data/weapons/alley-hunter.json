@@ -18,10 +18,10 @@
     "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 4% every second up to a max of 40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 8% per second until it reaches 0%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/alley-hunter/full.png"
+    "icon": "https://gi.deve.sh/weapons/alley-hunter/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/alley-hunter/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/alley-hunter/wish.png",
+    "full": "https://gi.deve.sh/weapons/alley-hunter/full.png"
   },
   "ascension_costs": [
     {

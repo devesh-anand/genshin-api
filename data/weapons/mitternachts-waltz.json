@@ -18,10 +18,10 @@
     "Normal Attack hits on opponents increase Elemental Skill DMG by 40% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 40% for 5s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mitternachts-waltz/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mitternachts-waltz/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mitternachts-waltz/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mitternachts-waltz/full.png"
+    "icon": "https://gi.deve.sh/weapons/mitternachts-waltz/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/mitternachts-waltz/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/mitternachts-waltz/wish.png",
+    "full": "https://gi.deve.sh/weapons/mitternachts-waltz/full.png"
   },
   "ascension_costs": [
     {

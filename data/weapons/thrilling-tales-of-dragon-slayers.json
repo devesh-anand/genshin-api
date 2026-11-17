@@ -18,10 +18,10 @@
     "When switching characters, the new character taking the field has their ATK increased by 48% for 10s. This effect can only occur once every 20s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/thrilling-tales-of-dragon-slayers/full.png"
+    "icon": "https://gi.deve.sh/weapons/thrilling-tales-of-dragon-slayers/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/thrilling-tales-of-dragon-slayers/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/thrilling-tales-of-dragon-slayers/wish.png",
+    "full": "https://gi.deve.sh/weapons/thrilling-tales-of-dragon-slayers/full.png"
   },
   "ascension_costs": [
     {

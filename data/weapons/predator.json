@@ -14,9 +14,9 @@
     "Effective only on the following platform: \n\"PlayStation™Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/predator/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/predator/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/predator/full.png"
+    "icon": "https://gi.deve.sh/weapons/predator/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/predator/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/predator/full.png"
   },
   "ascension_costs": [
     {

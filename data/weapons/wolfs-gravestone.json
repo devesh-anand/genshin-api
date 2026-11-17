@@ -18,9 +18,9 @@
     "Increases ATK by 40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 80% for 12s. Can only occur once every 30s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/wolfs-gravestone/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/wolfs-gravestone/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/wolfs-gravestone/wish.png"
+    "icon": "https://gi.deve.sh/weapons/wolfs-gravestone/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/wolfs-gravestone/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/wolfs-gravestone/wish.png"
   },
   "ascension_costs": [
     {

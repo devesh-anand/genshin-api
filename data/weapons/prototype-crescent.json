@@ -18,9 +18,9 @@
     "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 72% for 10s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-crescent/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-crescent/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/prototype-crescent/full.png"
+    "icon": "https://gi.deve.sh/weapons/prototype-crescent/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/prototype-crescent/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/prototype-crescent/full.png"
   },
   "ascension_costs": [
     {

@@ -18,10 +18,10 @@
     "Increases Elemental Mastery by 200. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 56% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/starcallers-watch/full.png"
+    "icon": "https://gi.deve.sh/weapons/starcallers-watch/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/starcallers-watch/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/starcallers-watch/wish.png",
+    "full": "https://gi.deve.sh/weapons/starcallers-watch/full.png"
   },
   "ascension_costs": [
     {
