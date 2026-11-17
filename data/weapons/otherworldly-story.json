@@ -18,9 +18,9 @@
     "Each Elemental Orb or Particle collected restores 2% HP."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/otherworldly-story/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/otherworldly-story/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/otherworldly-story/full.png"
+    "icon": "https://gi.deve.sh/weapons/otherworldly-story/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/otherworldly-story/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/otherworldly-story/full.png"
   },
   "ascension_costs": [
     {

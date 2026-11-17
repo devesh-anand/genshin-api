@@ -18,9 +18,9 @@
     "Increases Elemental Skill DMG by 32% and Elemental Skill CRIT Rate by 12%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/festering-desire/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/festering-desire/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/festering-desire/full.png"
+    "icon": "https://gi.deve.sh/weapons/festering-desire/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/festering-desire/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/festering-desire/full.png"
   },
   "ascension_costs": [
     {

@@ -18,8 +18,8 @@
     "DMG dealt by Elemental Skill and Elemental Burst is increased by 32%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by 4%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by 4%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/wolf-fang/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/wolf-fang/icon-awaken.png"
+    "icon": "https://gi.deve.sh/weapons/wolf-fang/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/wolf-fang/icon-awaken.png"
   },
   "ascension_costs": [
     {

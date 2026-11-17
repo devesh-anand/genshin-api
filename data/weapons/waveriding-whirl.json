@@ -18,10 +18,10 @@
     "Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 40%. For every Hydro Elemental Type character in the party, Max HP is increased by another 24%, and the maximum increase that can be achieved in this way is 48%. Can be triggered once every 15s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waveriding-whirl/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waveriding-whirl/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waveriding-whirl/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/waveriding-whirl/full.png"
+    "icon": "https://gi.deve.sh/weapons/waveriding-whirl/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/waveriding-whirl/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/waveriding-whirl/wish.png",
+    "full": "https://gi.deve.sh/weapons/waveriding-whirl/full.png"
   },
   "ascension_costs": [
     {

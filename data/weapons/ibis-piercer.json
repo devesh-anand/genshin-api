@@ -18,9 +18,9 @@
     "The character's Elemental Mastery will increase by 80 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ibis-piercer/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ibis-piercer/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ibis-piercer/full.png"
+    "icon": "https://gi.deve.sh/weapons/ibis-piercer/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/ibis-piercer/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/ibis-piercer/full.png"
   },
   "ascension_costs": [
     {

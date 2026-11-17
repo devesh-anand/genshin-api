@@ -18,10 +18,10 @@
     "ATK is increased by 24%. After the equipping character creates a Shield, they gain \"Pathfinder's Light\" for 20s: Increases your active party member's DMG by 22% for every 1,000 ATK the equipping character has, up to a maximum of 58%. Additionally, when the equipping character creates a Shield, they will also gain \"Guide's Contentment\": Restores 18 Elemental Energy to the equipping character. The aforementioned effect can trigger once every 14s, and can also be triggered when any type of chest is opened outside of combat. The equipping character may trigger this effect even when they are an off-field.\nHexerei: Secret Rite: When your own Hexerei character is off-field in the party, they will also gain 50% of the DMG increase from Pathfinder's Light."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/angelos-heptades/full.png"
+    "icon": "https://gi.deve.sh/weapons/angelos-heptades/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/angelos-heptades/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/angelos-heptades/wish.png",
+    "full": "https://gi.deve.sh/weapons/angelos-heptades/full.png"
   },
   "ascension_costs": [
     {

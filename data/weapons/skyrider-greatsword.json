@@ -18,9 +18,9 @@
     "On hit, Normal or Charged Attacks increase ATK by 10% for 6s. Max 4 stacks. Can occur once every 0.5s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyrider-greatsword/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyrider-greatsword/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyrider-greatsword/full.png"
+    "icon": "https://gi.deve.sh/weapons/skyrider-greatsword/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/skyrider-greatsword/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/skyrider-greatsword/full.png"
   },
   "ascension_costs": [
     {

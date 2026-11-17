@@ -18,10 +18,10 @@
     "After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 16s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificial-sword/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificial-sword/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificial-sword/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sacrificial-sword/full.png"
+    "icon": "https://gi.deve.sh/weapons/sacrificial-sword/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/sacrificial-sword/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/sacrificial-sword/wish.png",
+    "full": "https://gi.deve.sh/weapons/sacrificial-sword/full.png"
   },
   "ascension_costs": [
     {

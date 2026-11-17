@@ -16,7 +16,7 @@
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-1.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-1.png"
     },
     {
       "name": "Ice Fog Piercer",
@@ -24,7 +24,7 @@
       "description": "Stabs at the opponent with the Traveler's weapon, which releases an ice-cold fog. This deals Cryo DMG to opponents up ahead and forms a Frostpierce Star next to the Traveler.\n\nFrostpierce Star\n· Follows your own party members around the field and periodically fires ice crystals at nearby opponents, dealing Cryo DMG.\nRadiance: Stellar-Conduct: The Frostpierce Star will no longer fire ice crystals at opponents at intervals but will instead fire an ice crystal at opponents in a coordinated attack when the Traveler hits an opponent with a Normal Attack, Charged Attack, or Plunging Attack. This effect can trigger once every 0.2s.\n· When an opponent is hit with an ice crystal, the Traveler gains 1 stack of Frostglow (max 8 stacks).\n· When not in combat, Frostglow expires after 30s.\n\nYou observed the formation of frost together with Paimon.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-skill.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-skill.png"
     },
     {
       "name": "Frostbound Javelin",
@@ -32,7 +32,7 @@
       "description": "Generates an ice javelin with the power of Cryo, then directs it at enemies to deal multiple instances of Cryo DMG.\nWhen cast, the Traveler consumes all existing stacks of Frostglow, which in turn increases the DMG dealt by this Elemental Burst. When 8 stacks of Frostglow are consumed, the number of DMG instances caused by the javelins is also increased.\n\nRadiance: Stellar Glimmer: DMG from the current Elemental Burst is changed to Cryo DMG of the corresponding Stellar Glimmer reaction type.\n\nYou felt the keen edge of the icicles alongside Paimon.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-burst.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -41,26 +41,26 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Radiance: Stellar-Conduct: When a Frostpierce Star is on the field, DMG from the Traveler's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to Cryo DMG that cannot be overridden by another elemental infusion, and DMG dealt is also increased by 80% of the Traveler's ATK.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-passive-1.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-passive-1.png"
     },
     {
       "name": "Lucent Ice",
       "unlock": "Unlocked at Ascension 4",
       "description": "The Traveler's Elemental Mastery is increased by 8% of their ATK. Up to 160 Elemental Mastery can be gained in this way.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-passive-2.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-passive-2.png"
     },
     {
       "name": "Stellar Jubilee: Illusory Frostmirror",
       "unlock": "Unlocked Automatically",
       "description": "The Traveler will enter the Radiance: Stellar-Conduct state when inside a Polestar Field, or the Radiance: Stellar Swirl state for 8s after a nearby party member triggers a Stellar Swirl reaction.\nWhen a party member triggers a Superconduct or Cryo Swirl reaction, it becomes a Stellar-Conduct or Stellar Swirl reaction instead, and the Base DMG of said reaction is also increased by 0.35% for every 100 points of the Traveler's ATK. A maximum 7% increase can be obtained in this way.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-passive-0.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-passive-0.png"
     },
     {
       "name": "Foreign Permafrost",
       "unlock": "Unlocked Automatically",
       "description": "Draws new strength and power from their past travels: Every Elemental Type the Traveler has resonated with now grants an additional enhancement effect.\n\nAdditionally, when a nearby party member deals Stellar-Conduct or Stellar Swirl DMG, the Traveler gains 1 stack of \"Icepoint.\" 1 stack of Icepoint can be obtained in this way once every 2s, max 3 stacks. When the Traveler unleashes a Charged Attack at 3 stacks of Icepoint, all stacks are consumed to change the attack into a special Charged Attack: Freezing Ice.\n\nCharged Attack: Freezing Ice\n· Cryo DMG dealt is increased by 140% of the Traveler's ATK, and the Traveler also gains 2 stacks of Frostglow.\n· Charged Attack: Freezing Ice can be unleashed once every 15s. Additionally, the DMG Bonus from the Ascension Talent \"Ever-Keen Frost\" does not apply to Charged Attack: Freezing Ice.\nRadiance: Stellar Glimmer: DMG from Charged Attack: Freezing Ice is instead considered Cryo DMG of the corresponding Stellar Glimmer reaction type.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/aether-cryo/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
@@ -69,53 +69,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "The Traveler regenerates 5 Elemental Energy when they deal Stellar Glimmer DMG. This effect can trigger once every 0.5s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-1.png"
+      "img": "https://gi.deve.sh/aether-cryo/constellation-1.png"
     },
     {
       "name": "Frostfall Reverberation",
       "unlock": "Constellation Lv. 2",
       "description": "The active character's Elemental Mastery is increased by 60 for 5s when an opponent is hit by an ice crystal fired by the Elemental Skill Ice Fog Piercer.\nAdditionally, when a character affected by the aforementioned effect triggers a Stellar Glimmer reaction or deals Stellar Glimmer reaction DMG, the Elemental Mastery boost described above will be increased to 120 for its duration.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-2.png"
+      "img": "https://gi.deve.sh/aether-cryo/constellation-2.png"
     },
     {
       "name": "Glacial Shard",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of the Elemental Burst Frostbound Javelin by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-3.png"
+      "img": "https://gi.deve.sh/aether-cryo/constellation-3.png"
     },
     {
       "name": "Enduring Ice",
       "unlock": "Constellation Lv. 4",
       "description": "The duration of the Frostpierce Star created by the Elemental Skill Ice Fog Piercer is increased by 25%.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-4.png"
+      "img": "https://gi.deve.sh/aether-cryo/constellation-4.png"
     },
     {
       "name": "Bittercold Fog",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of the Elemental Skill Ice Fog Piercer by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-5.png"
+      "img": "https://gi.deve.sh/aether-cryo/constellation-5.png"
     },
     {
       "name": "Brumal Grimfrost",
       "unlock": "Constellation Lv. 6",
       "description": "Every stack of Frostglow consumed when using the Elemental Burst Frostbound Javelin increases Stellar Glimmer reaction DMG dealt by other party members by 5% for 15s. A maximum 40% increase can be obtained in this way.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation-6.png"
+      "img": "https://gi.deve.sh/aether-cryo/constellation-6.png"
     }
   ],
   "vision_key": "CRYO",
   "weapon_type": "SWORD",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/aether-cryo/portrait.png"
+    "card": "https://gi.deve.sh/aether-cryo/card.png",
+    "constellation": "https://gi.deve.sh/aether-cryo/constellation.png",
+    "banner": "https://gi.deve.sh/aether-cryo/gacha-splash.png",
+    "icon": "https://gi.deve.sh/aether-cryo/icon.png",
+    "icon-big": "https://gi.deve.sh/aether-cryo/icon-big.png",
+    "portrait": "https://gi.deve.sh/aether-cryo/portrait.png"
   },
   "ascension_costs": [
     {

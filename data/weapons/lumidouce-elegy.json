@@ -18,10 +18,10 @@
     "ATK increased by 31%. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by 38%. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore 16 Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lumidouce-elegy/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lumidouce-elegy/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lumidouce-elegy/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lumidouce-elegy/full.png"
+    "icon": "https://gi.deve.sh/weapons/lumidouce-elegy/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/lumidouce-elegy/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/lumidouce-elegy/wish.png",
+    "full": "https://gi.deve.sh/weapons/lumidouce-elegy/full.png"
   },
   "ascension_costs": [
     {

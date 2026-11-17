@@ -18,9 +18,9 @@
     "ATK will be increased by 32% for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by 24% for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/talking-stick/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/talking-stick/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/talking-stick/full.png"
+    "icon": "https://gi.deve.sh/weapons/talking-stick/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/talking-stick/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/talking-stick/full.png"
   },
   "ascension_costs": [
     {

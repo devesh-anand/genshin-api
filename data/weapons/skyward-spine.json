@@ -18,10 +18,10 @@
     "Increases CRIT Rate by 16% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 100% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-spine/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-spine/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-spine/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-spine/full.png"
+    "icon": "https://gi.deve.sh/weapons/skyward-spine/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/skyward-spine/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/skyward-spine/wish.png",
+    "full": "https://gi.deve.sh/weapons/skyward-spine/full.png"
   },
   "ascension_costs": [
     {

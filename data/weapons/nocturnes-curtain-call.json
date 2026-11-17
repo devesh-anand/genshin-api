@@ -18,10 +18,10 @@
     "Max HP increases by 18%. When triggering Lunar reactions or inflicting Lunar Reaction DMG, the equipping character will recover 18 Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional 22%, CRIT DMG from Lunar Reaction DMG increases by 140%. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/nocturnes-curtain-call/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/nocturnes-curtain-call/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/nocturnes-curtain-call/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/nocturnes-curtain-call/full.png"
+    "icon": "https://gi.deve.sh/weapons/nocturnes-curtain-call/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/nocturnes-curtain-call/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/nocturnes-curtain-call/wish.png",
+    "full": "https://gi.deve.sh/weapons/nocturnes-curtain-call/full.png"
   },
   "ascension_costs": [
     {

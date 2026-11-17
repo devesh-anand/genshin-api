@@ -16,7 +16,7 @@
       "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes and applies the Hunter's Mark to the opponent hit by the final strike.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents in his path.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-1.png"
+      "img": "https://gi.deve.sh/alyosha/talent-1.png"
     },
     {
       "name": "Thunderbolt Strike",
@@ -24,7 +24,7 @@
       "description": "Follows his hunter's instincts. Tap or hold to produce different effects as well as apply the Hunter's Mark effect to the hit opponents.\n\nTapping\nFires at opponents in front of him, dealing AoE Electro DMG.\n\nHolding\nEnters aiming mode, then targets opponents within a certain area in front of him. Alyosha's Interruption RES is enhanced when in this mode.\nAt the end of the button hold, he deals Electro DMG to the targeted opponents.\n\nThe reckless hunter once reached for the spear's edge, and it was only after they survived a lesson paid in blood that they came to understand the harsh truths of survival on the frozen plains.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-skill.png"
+      "img": "https://gi.deve.sh/alyosha/talent-skill.png"
     },
     {
       "name": "Hunter's Advance",
@@ -32,7 +32,7 @@
       "description": "Summons his trusted companion Tugarin to fight alongside him on the field. This also turns an area in front of him into a Fulgurite Hunting Field for a short time.\n\nFulgurite Hunting Field\n· Continuously taunts nearby opponents to incite them to attack.\n· Every 2s, deals an instance of AoE Electro DMG to any opponent that enters the field.\n\nTugarin\n· If there are any opponents nearby, Tugarin will quickly move close to an opponent and maul them every 2s, dealing Electro DMG.\n· If an opponent affected by the Hunter's Mark effect is hit, the Hunter's Mark will also be activated.\n· Where there are multiple opponents, Tugarin will attack those affected by the Hunter's Mark effect first.\n\nWait. Keep waiting until the impatience fades. That's when the red-bellied plover shall sweep across the birch grove and present itself before one's arrow.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-burst.png"
+      "img": "https://gi.deve.sh/alyosha/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -41,26 +41,26 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "When Tugarin attacks, it will also restore HP to nearby active characters at 120% of Alyosha's ATK.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-1.png"
+      "img": "https://gi.deve.sh/alyosha/talent-passive-1.png"
     },
     {
       "name": "Suffer the Winter Wheat Will",
       "unlock": "Unlocked at Ascension 4",
       "description": "Increases the DMG Alyosha deals with his Elemental Skill and Elemental Burst by 0.35% for every 1% of his Energy Recharge. Up to a 70% increase can be obtained in this way.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-2.png"
+      "img": "https://gi.deve.sh/alyosha/talent-passive-2.png"
     },
     {
       "name": "Into the Fray",
       "unlock": "Unlocked Automatically",
       "description": "Alyosha will enter the Radiance: Stellar-Conduct state when inside a Polestar Field.\nRadiance: Stellar-Conduct: The Hunter's Precision effect obtained when the Hunter's Mark is activated will also increase Stellar-Conduct reaction DMG dealt by the character when on the field by 20%.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-0.png"
+      "img": "https://gi.deve.sh/alyosha/talent-passive-0.png"
     },
     {
       "name": "Treetop Watch",
       "unlock": "Unlocked Automatically",
       "description": "Displays the location of nearby resources unique to Snezhnaya on the mini-map.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/alyosha/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
@@ -69,53 +69,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Alyosha regenerates 15 Elemental Energy when nearby party members trigger an Electro-related reaction on an opponent. This effect can trigger once every 18s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-1.png"
+      "img": "https://gi.deve.sh/alyosha/constellation-1.png"
     },
     {
       "name": "Howl From Afar",
       "unlock": "Constellation Lv. 2",
       "description": "The duration of the Elemental Burst Hunter's Advance is extended by 6s.\nAdditionally, each time Tugarin attacks the opponent, he will also apply the Hunter's Mark to a target. This effect does not activate existing Hunter's Marks.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-2.png"
+      "img": "https://gi.deve.sh/alyosha/constellation-2.png"
     },
     {
       "name": "Friendly Call",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of the Elemental Skill Thunderbolt Strike by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-3.png"
+      "img": "https://gi.deve.sh/alyosha/constellation-3.png"
     },
     {
       "name": "Harvest the Spoils",
       "unlock": "Constellation Lv. 4",
       "description": "When Tugarin attacks, he will also restore 60% of Alyosha's ATK as HP to the nearby party member with the lowest HP by percentage.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-4.png"
+      "img": "https://gi.deve.sh/alyosha/constellation-4.png"
     },
     {
       "name": "When the Nightbird Falls Silent",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the Level of the Elemental Burst Hunter's Advance by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-5.png"
+      "img": "https://gi.deve.sh/alyosha/constellation-5.png"
     },
     {
       "name": "Standard Reclaimed",
       "unlock": "Constellation Lv. 6",
       "description": "The Hunter's Precision effect obtained from activating a Hunter's Mark can now stack, max 2 stacks. When the stack count reaches 2, characters affected by Hunter's Precision will also have their Elemental Mastery increased by 100 if they are on the field.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation-6.png"
+      "img": "https://gi.deve.sh/alyosha/constellation-6.png"
     }
   ],
   "vision_key": "ELECTRO",
   "weapon_type": "POLEARM",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/alyosha/portrait.png"
+    "card": "https://gi.deve.sh/alyosha/card.png",
+    "constellation": "https://gi.deve.sh/alyosha/constellation.png",
+    "banner": "https://gi.deve.sh/alyosha/gacha-splash.png",
+    "icon": "https://gi.deve.sh/alyosha/icon.png",
+    "icon-big": "https://gi.deve.sh/alyosha/icon-big.png",
+    "portrait": "https://gi.deve.sh/alyosha/portrait.png"
   },
   "ascension_costs": [
     {

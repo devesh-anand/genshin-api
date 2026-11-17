@@ -18,9 +18,9 @@
     "For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 144. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 96."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dawning-frost/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dawning-frost/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/dawning-frost/wish.png"
+    "icon": "https://gi.deve.sh/weapons/dawning-frost/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/dawning-frost/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/dawning-frost/wish.png"
   },
   "ascension_costs": [
     {

@@ -10,27 +10,27 @@
     "flower": {
       "name": "Gilded Corsage",
       "description": "A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-depth/flower.png"
+      "img": "https://gi.deve.sh/artifacts/heart-of-depth/flower.png"
     },
     "plume": {
       "name": "Gust of Nostalgia",
       "description": "A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-depth/plume.png"
+      "img": "https://gi.deve.sh/artifacts/heart-of-depth/plume.png"
     },
     "sands": {
       "name": "Copper Compass",
       "description": "An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-depth/sands.png"
+      "img": "https://gi.deve.sh/artifacts/heart-of-depth/sands.png"
     },
     "goblet": {
       "name": "Goblet of Thundering Deep",
       "description": "A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-depth/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/heart-of-depth/goblet.png"
     },
     "circlet": {
       "name": "Wine-Stained Tricorne",
       "description": "An ancient, wine-stained sea hat that still reeks of alcohol even now.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/heart-of-depth/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/heart-of-depth/circlet.png"
     }
   }
 }

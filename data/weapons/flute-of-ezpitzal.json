@@ -18,9 +18,9 @@
     "Using an Elemental Skill increases DEF by 32% for 15s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flute-of-ezpitzal/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flute-of-ezpitzal/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/flute-of-ezpitzal/full.png"
+    "icon": "https://gi.deve.sh/weapons/flute-of-ezpitzal/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/flute-of-ezpitzal/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/flute-of-ezpitzal/full.png"
   },
   "ascension_costs": [
     {

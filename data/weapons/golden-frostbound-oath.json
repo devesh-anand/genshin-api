@@ -18,10 +18,10 @@
     "Increase DEF by 32%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 80%, Lunar-Crystallize Reaction DMG increases by 80%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 40% and Lunar-Crystallize Reaction DMG increases by 40%. This effect can be triggered even when the equipping character is off-field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/golden-frostbound-oath/full.png"
+    "icon": "https://gi.deve.sh/weapons/golden-frostbound-oath/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/golden-frostbound-oath/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/golden-frostbound-oath/wish.png",
+    "full": "https://gi.deve.sh/weapons/golden-frostbound-oath/full.png"
   },
   "ascension_costs": [
     {

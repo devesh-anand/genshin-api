@@ -18,8 +18,8 @@
     "Triggering an Elemental Reaction increases the equipping character's ATK by 32% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 32% for 12s. The aforementioned effects can trigger even when the character is not on the field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/emberwell/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/emberwell/icon-awaken.png"
+    "icon": "https://gi.deve.sh/weapons/emberwell/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/emberwell/icon-awaken.png"
   },
   "ascension_costs": [
     {

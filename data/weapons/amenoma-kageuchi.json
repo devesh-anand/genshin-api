@@ -18,9 +18,9 @@
     "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 12 Energy for each seed consumed."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amenoma-kageuchi/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amenoma-kageuchi/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/amenoma-kageuchi/full.png"
+    "icon": "https://gi.deve.sh/weapons/amenoma-kageuchi/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/amenoma-kageuchi/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/amenoma-kageuchi/full.png"
   },
   "ascension_costs": [
     {

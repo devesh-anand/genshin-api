@@ -10,27 +10,27 @@
     "flower": {
       "name": "Scholar's Bookmark",
       "description": "A dried flower used as a bookmark. It has absorbed the scent from the pages.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scholar/flower.png"
+      "img": "https://gi.deve.sh/artifacts/scholar/flower.png"
     },
     "plume": {
       "name": "Scholar's Quill Pen",
       "description": "A bird's feather that serves as a quill pen. The tip has long been stained black.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scholar/plume.png"
+      "img": "https://gi.deve.sh/artifacts/scholar/plume.png"
     },
     "sands": {
       "name": "Scholar's Clock",
       "description": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scholar/sands.png"
+      "img": "https://gi.deve.sh/artifacts/scholar/sands.png"
     },
     "goblet": {
       "name": "Scholar's Ink Cup",
       "description": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scholar/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/scholar/goblet.png"
     },
     "circlet": {
       "name": "Scholar's Lens",
       "description": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/scholar/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/scholar/circlet.png"
     }
   }
 }

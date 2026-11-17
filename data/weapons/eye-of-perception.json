@@ -18,10 +18,10 @@
     "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 360% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 8s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/eye-of-perception/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/eye-of-perception/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/eye-of-perception/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/eye-of-perception/full.png"
+    "icon": "https://gi.deve.sh/weapons/eye-of-perception/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/eye-of-perception/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/eye-of-perception/wish.png",
+    "full": "https://gi.deve.sh/weapons/eye-of-perception/full.png"
   },
   "ascension_costs": [
     {

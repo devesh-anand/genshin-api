@@ -18,10 +18,10 @@
     "When HP falls below 90%, increases Charged Attack DMG by 50% and Charged Attacks become harder to interrupt."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/ferrous-shadow/full.png"
+    "icon": "https://gi.deve.sh/weapons/ferrous-shadow/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/ferrous-shadow/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/ferrous-shadow/wish.png",
+    "full": "https://gi.deve.sh/weapons/ferrous-shadow/full.png"
   },
   "ascension_costs": [
     {

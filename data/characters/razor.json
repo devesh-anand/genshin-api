@@ -57,7 +57,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-na.png"
+      "img": "https://gi.deve.sh/razor/talent-na.png"
     },
     {
       "name": "Claw and Thunder",
@@ -94,7 +94,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-skill.png"
+      "img": "https://gi.deve.sh/razor/talent-skill.png"
     },
     {
       "name": "Lightning Fang",
@@ -131,7 +131,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-burst.png"
+      "img": "https://gi.deve.sh/razor/talent-burst.png"
     }
   ],
   "passiveTalents": [
@@ -140,26 +140,26 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Decreases Claw and Thunder's CD by 18%.\nUsing Lightning Fang resets the CD of Claw and Thunder.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-passive-1.png"
+      "img": "https://gi.deve.sh/razor/talent-passive-1.png"
     },
     {
       "name": "Hunger",
       "unlock": "Unlocked at Ascension 4",
       "description": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-passive-2.png"
+      "img": "https://gi.deve.sh/razor/talent-passive-2.png"
     },
     {
       "name": "Wolvensprint",
       "unlock": "Unlocked Automatically",
       "description": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-passive-0.png"
+      "img": "https://gi.deve.sh/razor/talent-passive-0.png"
     },
     {
       "name": "Witch's Eve Rite: Surge of Lightning",
       "unlock": "Unlocked Automatically",
       "description": "After completing Witch's Homework: Of the Little Wolf Pack, Razor will become a Hexerei character. When the party includes at least 2 Hexerei characters, you will gain the Hexerei: Secret Rite effect, which enhances Hexerei characters.\nAdditionally, Razor's Elemental Burst Lightning Fang is enhanced: The Wolf Within's DMG dealt is increased by 70% of Razor's ATK.\n\nHexerei: Secret Rite\nWhile the Wolf Within summoned by Razor's Elemental Burst Lightning Fang is active, if the Electro Sigils from Razor's Elemental Skill Claw and Thunder overflow, the Wolf Within will call down a lightning strike on nearby enemies, dealing AoE Electro DMG equal to 150% of Razor's ATK and restoring 7 Energy to Razor. This effect can be triggered once every 1s.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/talent-passive-extra-3.png"
+      "img": "https://gi.deve.sh/razor/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
@@ -168,53 +168,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation-1.png"
+      "img": "https://gi.deve.sh/razor/constellation-1.png"
     },
     {
       "name": "Suppression",
       "unlock": "Constellation Lv. 2",
       "description": "Increases CRIT Rate against enemies with less than 30% HP by 10%.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation-2.png"
+      "img": "https://gi.deve.sh/razor/constellation-2.png"
     },
     {
       "name": "Soul Companion",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Lightning Fang by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation-3.png"
+      "img": "https://gi.deve.sh/razor/constellation-3.png"
     },
     {
       "name": "Bite",
       "unlock": "Constellation Lv. 4",
       "description": "When casting Claw and Thunder (Press), enemies hit will have their DEF decreased by 15% for 7s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation-4.png"
+      "img": "https://gi.deve.sh/razor/constellation-4.png"
     },
     {
       "name": "Sharpened Claws",
       "unlock": "Constellation Lv. 5",
       "description": "Increase the Level of Claw and Thunder by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation-5.png"
+      "img": "https://gi.deve.sh/razor/constellation-5.png"
     },
     {
       "name": "Lupus Fulguris",
       "unlock": "Constellation Lv. 6",
       "description": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG.\nWhen Razor is not using Lightning Fang, a lightning strike on an enemy will grant Razor an Electro Sigil for Claw and Thunder.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation-6.png"
+      "img": "https://gi.deve.sh/razor/constellation-6.png"
     }
   ],
   "vision_key": "ELECTRO",
   "weapon_type": "CLAYMORE",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/razor/portrait.png"
+    "card": "https://gi.deve.sh/razor/card.png",
+    "constellation": "https://gi.deve.sh/razor/constellation.png",
+    "banner": "https://gi.deve.sh/razor/gacha-splash.png",
+    "icon": "https://gi.deve.sh/razor/icon.png",
+    "icon-big": "https://gi.deve.sh/razor/icon-big.png",
+    "portrait": "https://gi.deve.sh/razor/portrait.png"
   },
   "ascension_costs": [
     {

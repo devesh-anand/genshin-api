@@ -18,10 +18,10 @@
     "Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by 64. If not, increase the equipping character's DMG Bonus from their Elemental Type by 26%. The aforementioned effects can have 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by 48. Multiple such effects from multiple such weapons can stack."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-thousand-floating-dreams/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-thousand-floating-dreams/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-thousand-floating-dreams/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/a-thousand-floating-dreams/full.png"
+    "icon": "https://gi.deve.sh/weapons/a-thousand-floating-dreams/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/a-thousand-floating-dreams/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/a-thousand-floating-dreams/wish.png",
+    "full": "https://gi.deve.sh/weapons/a-thousand-floating-dreams/full.png"
   },
   "ascension_costs": [
     {

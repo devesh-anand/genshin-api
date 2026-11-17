@@ -18,10 +18,10 @@
     "HP increased by 40%. Additionally, provides an ATK Bonus based on 2.4% of the wielder's Max HP."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/primordial-jade-cutter/full.png"
+    "icon": "https://gi.deve.sh/weapons/primordial-jade-cutter/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/primordial-jade-cutter/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/primordial-jade-cutter/wish.png",
+    "full": "https://gi.deve.sh/weapons/primordial-jade-cutter/full.png"
   },
   "ascension_costs": [
     {

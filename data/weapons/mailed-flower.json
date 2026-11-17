@@ -18,9 +18,9 @@
     "Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by 24% and 96 respectively."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mailed-flower/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mailed-flower/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/mailed-flower/full.png"
+    "icon": "https://gi.deve.sh/weapons/mailed-flower/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/mailed-flower/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/mailed-flower/full.png"
   },
   "ascension_costs": [
     {

@@ -57,7 +57,7 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/talent-na.png"
+      "img": "https://gi.deve.sh/diluc/talent-na.png"
     },
     {
       "name": "Searing Onslaught",
@@ -82,7 +82,7 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/talent-skill.png"
+      "img": "https://gi.deve.sh/diluc/talent-skill.png"
     },
     {
       "name": "Dawn",
@@ -115,7 +115,7 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/talent_burst.png"
+      "img": "https://gi.deve.sh/diluc/talent_burst.png"
     }
   ],
   "passiveTalents": [
@@ -124,20 +124,20 @@
       "unlock": "Unlocked at Ascension 1",
       "description": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/talent-passive-1.png"
+      "img": "https://gi.deve.sh/diluc/talent-passive-1.png"
     },
     {
       "name": "Blessing of Phoenix",
       "unlock": "Unlocked at Ascension 4",
       "description": "The Pyro Infusion provided by Dawn lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/talent-passive-2.png"
+      "img": "https://gi.deve.sh/diluc/talent-passive-2.png"
     },
     {
       "name": "Tradition of the Dawn Knight",
       "unlock": "Unlocked Automatically",
       "description": "Refunds 15% of the ore used when crafting Claymore-type weapons.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/talent-passive-0.png"
+      "img": "https://gi.deve.sh/diluc/talent-passive-0.png"
     }
   ],
   "constellations": [
@@ -146,53 +146,53 @@
       "unlock": "Constellation Lv. 1",
       "description": "Diluc deals 15% more DMG to enemies whose HP is above 50%.",
       "level": 1,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation-1.png"
+      "img": "https://gi.deve.sh/diluc/constellation-1.png"
     },
     {
       "name": "Searing Ember",
       "unlock": "Constellation Lv. 2",
       "description": "When Diluc takes DMG, his Base ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\nThis effect can stack up to 3 times and can only occur once every 1.5s.",
       "level": 2,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation-2.png"
+      "img": "https://gi.deve.sh/diluc/constellation-2.png"
     },
     {
       "name": "Steel and Fire",
       "unlock": "Constellation Lv. 3",
       "description": "Increases the Level of Searing Onslaught by 3.\nMaximum upgrade level is 15.",
       "level": 3,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation-3.png"
+      "img": "https://gi.deve.sh/diluc/constellation-3.png"
     },
     {
       "name": "Flowing Flame",
       "unlock": "Constellation Lv. 4",
       "description": "Casting Searing Onslaught in sequence greatly increases damage dealt.\nWithin 2s of using Searing Onslaught, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for the next 2s.",
       "level": 4,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation-4.png"
+      "img": "https://gi.deve.sh/diluc/constellation-4.png"
     },
     {
       "name": "Phoenix, Harbinger of Dawn",
       "unlock": "Constellation Lv. 5",
       "description": "Increases the level of Dawn by 3.\nMaximum upgrade level is 15.",
       "level": 5,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation-5.png"
+      "img": "https://gi.deve.sh/diluc/constellation-5.png"
     },
     {
       "name": "Flaming Sword, Nemesis of Dark",
       "unlock": "Constellation Lv. 6",
       "description": "After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.\nAdditionally, Searing Onslaught will not interrupt the Normal Attack combo.",
       "level": 6,
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation-6.png"
+      "img": "https://gi.deve.sh/diluc/constellation-6.png"
     }
   ],
   "vision_key": "PYRO",
   "weapon_type": "CLAYMORE",
   "img": {
-    "card": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/card.png",
-    "constellation": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/constellation.png",
-    "banner": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/gacha-splash.png",
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/icon.png",
-    "icon-big": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/icon-big.png",
-    "portrait": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/diluc/portrait.png"
+    "card": "https://gi.deve.sh/diluc/card.png",
+    "constellation": "https://gi.deve.sh/diluc/constellation.png",
+    "banner": "https://gi.deve.sh/diluc/gacha-splash.png",
+    "icon": "https://gi.deve.sh/diluc/icon.png",
+    "icon-big": "https://gi.deve.sh/diluc/icon-big.png",
+    "portrait": "https://gi.deve.sh/diluc/portrait.png"
   },
   "ascension_costs": [
     {

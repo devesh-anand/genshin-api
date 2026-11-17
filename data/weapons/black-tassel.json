@@ -18,10 +18,10 @@
     "Increases DMG against slimes by 80%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/black-tassel/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/black-tassel/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/black-tassel/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/black-tassel/full.png"
+    "icon": "https://gi.deve.sh/weapons/black-tassel/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/black-tassel/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/black-tassel/wish.png",
+    "full": "https://gi.deve.sh/weapons/black-tassel/full.png"
   },
   "ascension_costs": [
     {

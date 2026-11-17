@@ -18,9 +18,9 @@
     "Upon damaging an opponent, increases CRIT Rate by 16%. Max 5 stacks. A CRIT Hit removes all stacks."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/royal-bow/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/royal-bow/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/royal-bow/full.png"
+    "icon": "https://gi.deve.sh/weapons/royal-bow/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/royal-bow/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/royal-bow/full.png"
   },
   "ascension_costs": [
     {

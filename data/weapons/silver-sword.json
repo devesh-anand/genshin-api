@@ -12,9 +12,9 @@
   "passive_desc": null,
   "passive_upgrades": null,
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-sword/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-sword/icon-awaken.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/silver-sword/full.png"
+    "icon": "https://gi.deve.sh/weapons/silver-sword/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/silver-sword/icon-awaken.png",
+    "full": "https://gi.deve.sh/weapons/silver-sword/full.png"
   },
   "ascension_costs": [
     {

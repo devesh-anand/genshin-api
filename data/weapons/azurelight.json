@@ -18,10 +18,10 @@
     "Within 12s after an Elemental Skill is used, ATK is increased by 48%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 48%, and CRIT DMG will be increased by 80%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/azurelight/full.png"
+    "icon": "https://gi.deve.sh/weapons/azurelight/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/azurelight/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/azurelight/wish.png",
+    "full": "https://gi.deve.sh/weapons/azurelight/full.png"
   },
   "ascension_costs": [
     {

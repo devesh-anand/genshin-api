@@ -10,27 +10,27 @@
     "flower": {
       "name": "Medal of the Brave",
       "description": "A simple flower brooch that is a keepsake from someone's first adventure.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/brave-heart/flower.png"
+      "img": "https://gi.deve.sh/artifacts/brave-heart/flower.png"
     },
     "plume": {
       "name": "Prospect of the Brave",
       "description": "A shimmering feather from a songbird that brings a nudge of courage to its wearer.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/brave-heart/plume.png"
+      "img": "https://gi.deve.sh/artifacts/brave-heart/plume.png"
     },
     "sands": {
       "name": "Fortitude of the Brave",
       "description": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/brave-heart/sands.png"
+      "img": "https://gi.deve.sh/artifacts/brave-heart/sands.png"
     },
     "goblet": {
       "name": "Outset of the Brave",
       "description": "A crude wooden vessel filled only with memories.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/brave-heart/goblet.png"
+      "img": "https://gi.deve.sh/artifacts/brave-heart/goblet.png"
     },
     "circlet": {
       "name": "Crown of the Brave",
       "description": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown.",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/artifacts/brave-heart/circlet.png"
+      "img": "https://gi.deve.sh/artifacts/brave-heart/circlet.png"
     }
   }
 }

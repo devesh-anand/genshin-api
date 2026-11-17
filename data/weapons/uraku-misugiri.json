@@ -18,10 +18,10 @@
     "Normal Attack DMG is increased by 32% and Elemental Skill DMG is increased by 48%. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by 40%."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/uraku-misugiri/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/uraku-misugiri/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/uraku-misugiri/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/uraku-misugiri/full.png"
+    "icon": "https://gi.deve.sh/weapons/uraku-misugiri/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/uraku-misugiri/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/uraku-misugiri/wish.png",
+    "full": "https://gi.deve.sh/weapons/uraku-misugiri/full.png"
   },
   "ascension_costs": [
     {

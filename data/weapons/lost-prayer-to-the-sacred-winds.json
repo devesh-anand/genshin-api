@@ -18,10 +18,10 @@
     "Increases Movement SPD by 10%. When in battle, gain a 16% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lost-prayer-to-the-sacred-winds/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lost-prayer-to-the-sacred-winds/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lost-prayer-to-the-sacred-winds/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lost-prayer-to-the-sacred-winds/full.png"
+    "icon": "https://gi.deve.sh/weapons/lost-prayer-to-the-sacred-winds/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/lost-prayer-to-the-sacred-winds/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/lost-prayer-to-the-sacred-winds/wish.png",
+    "full": "https://gi.deve.sh/weapons/lost-prayer-to-the-sacred-winds/full.png"
   },
   "ascension_costs": [
     {

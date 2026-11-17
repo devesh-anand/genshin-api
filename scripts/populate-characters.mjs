@@ -15,6 +15,7 @@ import * as dotenv from 'dotenv';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { BUCKET, PUBLIC_URL } from './lib/r2.mjs';
 
 dotenv.config();
 
@@ -27,8 +28,6 @@ const s3 = new S3({
    signatureVersion: 'v4',
 });
 
-const BUCKET = 'genshin-images';
-const PUBLIC_URL = 'https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev';
 const DATA_DIR = path.join(__dirname, '../data/characters');
 const YATTA = 'https://gi.yatta.moe';
 const ENKA = 'https://enka.network/ui';

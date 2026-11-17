@@ -18,8 +18,8 @@
     "When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing 320% of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sword-of-narzissenkreuz/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/sword-of-narzissenkreuz/icon-awaken.png"
+    "icon": "https://gi.deve.sh/weapons/sword-of-narzissenkreuz/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/sword-of-narzissenkreuz/icon-awaken.png"
   },
   "ascension_costs": [
     {

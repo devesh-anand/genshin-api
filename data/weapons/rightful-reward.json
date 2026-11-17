@@ -18,8 +18,8 @@
     "When the wielder is healed, restore 16 Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rightful-reward/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/rightful-reward/icon-awaken.png"
+    "icon": "https://gi.deve.sh/weapons/rightful-reward/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/rightful-reward/icon-awaken.png"
   },
   "ascension_costs": [
     {

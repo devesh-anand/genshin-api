@@ -18,10 +18,10 @@
     "HP is increased by 32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 40%. This will take effect whether the character is on-field or not."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/aqua-simulacra/full.png"
+    "icon": "https://gi.deve.sh/weapons/aqua-simulacra/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/aqua-simulacra/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/aqua-simulacra/wish.png",
+    "full": "https://gi.deve.sh/weapons/aqua-simulacra/full.png"
   },
   "ascension_costs": [
     {

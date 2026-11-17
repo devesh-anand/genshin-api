@@ -18,10 +18,10 @@
     "Increases Elemental DMG Bonus by 24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 320% ATK DMG. Can only occur once every 30s."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/skyward-atlas/full.png"
+    "icon": "https://gi.deve.sh/weapons/skyward-atlas/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/skyward-atlas/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/skyward-atlas/wish.png",
+    "full": "https://gi.deve.sh/weapons/skyward-atlas/full.png"
   },
   "ascension_costs": [
     {

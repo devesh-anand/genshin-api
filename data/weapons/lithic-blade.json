@@ -18,10 +18,10 @@
     "For every character in the party who hails from Liyue, the character who equips this weapon gains a 11% ATK increase and a 7% CRIT Rate increase. This effect stacks up to 4 times."
   ],
   "img": {
-    "icon": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lithic-blade/icon.png",
-    "icon-awaken": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lithic-blade/icon-awaken.png",
-    "wish": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lithic-blade/wish.png",
-    "full": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/weapons/lithic-blade/full.png"
+    "icon": "https://gi.deve.sh/weapons/lithic-blade/icon.png",
+    "icon-awaken": "https://gi.deve.sh/weapons/lithic-blade/icon-awaken.png",
+    "wish": "https://gi.deve.sh/weapons/lithic-blade/wish.png",
+    "full": "https://gi.deve.sh/weapons/lithic-blade/full.png"
   },
   "ascension_costs": [
     {
