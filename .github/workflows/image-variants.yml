@@ -1,0 +1,68 @@
+name: Image Variants
+
+# Generates resized WebP copies of R2 images (scripts/image-variants.mjs).
+# Kept separate from the data sync: it only touches R2, never data/, and is a no-op
+# when every image already has up-to-date variants.
+
+on:
+  # After each weekly sync, pick up any images it uploaded.
+  # (Runs whether the sync succeeded or not — new images may have been uploaded either way.)
+  workflow_run:
+    workflows: ['Sync Genshin Data']
+    types: [completed]
+
+  # Manual run from the Actions tab. Defaults to a dry run.
+  workflow_dispatch:
+    inputs:
+      write:
+        description: 'Upload variants (unchecked = dry run)'
+        type: boolean
+        default: false
+      prefix:
+        description: 'Only keys starting with this, e.g. nahida/ (blank = whole bucket)'
+        type: string
+        default: ''
+      force:
+        description: 'Regenerate even if variants are up to date'
+        type: boolean
+        default: false
+
+concurrency:
+  group: image-variants
+  cancel-in-progress: false
+
+jobs:
+  variants:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate variants
+        env:
+          AWS_ID:  ${{ secrets.AWS_ID }}
+          AWS_KEY: ${{ secrets.AWS_KEY }}
+          R2_ID:   ${{ secrets.R2_ID }}
+          # workflow_run (after sync) always writes; manual runs follow the inputs.
+          WRITE:  ${{ github.event_name == 'workflow_run' || inputs.write }}
+          PREFIX: ${{ inputs.prefix }}
+          FORCE:  ${{ inputs.force }}
+        run: |
+          args=()
+          [ "$WRITE" = "true" ] && args+=(--write)
+          [ -n "$PREFIX" ] && args+=(--prefix "$PREFIX")
+          [ "$FORCE" = "true" ] && args+=(--force)
+          node scripts/image-variants.mjs "${args[@]}"

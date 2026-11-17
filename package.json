@@ -7,7 +7,7 @@
    "scripts": {
       "start": "node index.js",
       "dev": "nodemon index.js",
-      "test": "node --test \"lib/**/*.test.js\" \"features/**/*.test.js\" \"mcp/**/*.test.js\" app.test.js",
+      "test": "node --test \"lib/**/*.test.js\" \"scripts/**/*.test.js\" \"features/**/*.test.js\" \"mcp/**/*.test.js\" app.test.js",
       "mcp": "node mcp/stdio.js",
       "mcp:inspect": "npx @modelcontextprotocol/inspector node mcp/stdio.js"
    },
@@ -34,5 +34,8 @@
    },
    "engines": {
       "node": ">=22"
+   },
+   "devDependencies": {
+      "sharp": "^0.35.5"
    }
 }
