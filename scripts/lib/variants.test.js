@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import sharp from 'sharp';
 import {
    CACHE_CONTROL,
+   VARIANT_QUALITY,
    VARIANT_WIDTHS,
    findCollisions,
    isOriginalKey,
@@ -110,6 +111,35 @@ describe('renderVariants', () => {
          [256, 128],
          [300, 150], // 1920 requested, original is only 300 wide
       ]);
+   });
+
+   // A flat 100px icon with hard edges, like the talent and constellation icons.
+   const flatIcon = () =>
+      sharp({ create: { width: 100, height: 100, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })
+         .composite([
+            {
+               input: Buffer.from(
+                  '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">' +
+                     '<path d="M50 5 L95 50 L50 95 L5 50 Z" fill="#fff"/><circle cx="50" cy="50" r="18" fill="#000"/></svg>',
+               ),
+            },
+         ])
+         .png()
+         .toBuffer();
+
+   it('serves a near-full-size request at full size instead of blurring it', async () => {
+      const [v96] = await renderVariants(await flatIcon(), [96]);
+      const m = await sharp(v96.buffer).metadata();
+      assert.equal(v96.width, 96); // still named w96
+      assert.deepEqual([m.width, m.height], [100, 100]);
+   });
+
+   it('keeps the smaller of lossy and lossless for small images', async () => {
+      const icon = await flatIcon();
+      const [v48] = await renderVariants(icon, [48]);
+      const lossy = await sharp(icon).resize({ width: 48 }).webp({ quality: VARIANT_QUALITY }).toBuffer();
+      const lossless = await sharp(icon).resize({ width: 48 }).webp({ lossless: true }).toBuffer();
+      assert.equal(v48.buffer.length, Math.min(lossy.length, lossless.length));
    });
 
    it('rejects a truncated original instead of uploading broken variants', async () => {

@@ -90,24 +90,38 @@ export function planVariants(objects, { force = false, widths = VARIANT_WIDTHS }
    return plan;
 }
 
+// A requested width at least this fraction of the original's is served at full
+// size instead: shrinking a 100px icon to 96px only blurs its crisp edges, which
+// makes it compress worse (and look softer) than the original.
+export const SNAP_TO_ORIGINAL = 0.9;
+
+// Outputs up to this many pixels are also tried as lossless WebP, and the smaller
+// encoding wins. Small flat icons (talents, constellations) come out smaller
+// lossless; photos and splash art never do, and lossless is slow on big images.
+export const LOSSLESS_MAX_PIXELS = 256 * 256;
+
 /**
  * Render WebP variants of one image.
  * @param {Buffer} buffer  original image bytes (PNG, JPEG or WebP — detected from content)
  * @param {number[]} widths
- * @returns {Promise<{ width: number, buffer: Buffer }[]>}
+ * @returns {Promise<{ width: number, buffer: Buffer }[]>}  `width` is the requested width
+ *   (it names the key); the image itself is never wider than the original.
  * Rejects on a truncated or corrupt original (sharp's default `failOn: 'warning'`),
  * so a broken image is reported as a failure instead of uploaded as broken variants.
  */
 export async function renderVariants(buffer, widths = VARIANT_WIDTHS) {
    const source = sharp(buffer);
+   const { width: originalWidth, height: originalHeight } = await source.metadata();
    return Promise.all(
-      widths.map(async (width) => ({
-         width,
-         buffer: await source
-            .clone()
-            .resize({ width, withoutEnlargement: true })
-            .webp({ quality: VARIANT_QUALITY })
-            .toBuffer(),
-      })),
+      widths.map(async (width) => {
+         const target = width >= originalWidth * SNAP_TO_ORIGINAL ? originalWidth : width;
+         const resized = source.clone().resize({ width: target, withoutEnlargement: true });
+         const encodings = [resized.clone().webp({ quality: VARIANT_QUALITY }).toBuffer()];
+         if (target * Math.round((originalHeight * target) / originalWidth) <= LOSSLESS_MAX_PIXELS) {
+            encodings.push(resized.clone().webp({ lossless: true }).toBuffer());
+         }
+         const results = await Promise.all(encodings);
+         return { width, buffer: results.reduce((best, b) => (b.length < best.length ? b : best)) };
+      }),
    );
 }
