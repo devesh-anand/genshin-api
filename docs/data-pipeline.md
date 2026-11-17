@@ -124,7 +124,7 @@ For brand-new characters the wiki art is often not uploaded yet, so they get the
 
 Makes small WebP copies of every image in the bucket so a frontend can show resized images without an image-optimization service (the site's `next/image` loader points at these instead of Vercel's `/_next/image`). It only reads and writes R2 — never `data/` — and does not change any API response: URLs in `data/` still point at the originals.
 
-**Naming.** Each original gets one WebP per width in `VARIANT_WIDTHS` (`scripts/lib/variants.mjs`: 48, 96, 256, 640, 1080, 1920), stored next to it, quality 75:
+**Naming.** Each original gets one WebP per width in `VARIANT_WIDTHS` (`scripts/lib/variants.mjs`: 48, 96, 256, 640, 1080, 1920), stored next to it, picking per file the smaller of lossy (quality 75) and, for outputs up to 256×256, lossless WebP. A request within 10% of the original's width is served at full size (shrinking a 100px icon to 96px only blurs it and makes it bigger):
 
 ```
 nahida/icon.png  →  nahida/icon.w48.webp … nahida/icon.w1920.webp
