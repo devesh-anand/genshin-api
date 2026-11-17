@@ -183,6 +183,20 @@ node scripts/check-image-urls.mjs nahida --old tighnari   # compare with an old 
 
 ---
 
+### `scripts/check-data-images.mjs`
+
+Finds image URLs in `data/` whose R2 object doesn't exist. Walks every JSON file under `data/` and HEADs each URL on the public host, a few at a time with backoff (`pub-….r2.dev` answers bursts with 429), so a full run takes a while. Exits 1 if anything is missing.
+
+```bash
+node scripts/check-data-images.mjs                    # every URL in data/
+node scripts/check-data-images.mjs --prefix gorou/    # one folder
+node scripts/check-data-images.mjs --variants         # also the w48…w1920 variants
+```
+
+Older R2 folders (2022 uploads) have odd keys like `albedo/talent-na.png.png` and `alyaloy/` for Aloy. When a URL 404s, list the folder in R2 first: the image is often there under a slightly different key, and the fix is the URL in `data/`, not a new upload.
+
+---
+
 ## Adding New Characters (Full Process)
 
 1. **Run the sync** (or `populate-characters.mjs` for characters only):
