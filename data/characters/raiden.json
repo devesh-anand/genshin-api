@@ -52,12 +52,6 @@
       "unlock": "Unlocked Automatically",
       "description": "Mora expended when ascending Swords and Polearms is decreased by 50%.",
       "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/raiden/talent-passive-0.png"
-    },
-    {
-      "name": "",
-      "unlock": "Unlocked Automatically",
-      "description": "",
-      "img": "https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev/raiden/talent-passive-extra-3.png"
     }
   ],
   "constellations": [
