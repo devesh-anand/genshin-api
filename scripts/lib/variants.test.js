@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import {
    CACHE_CONTROL,
    VARIANT_WIDTHS,
+   findCollisions,
    isOriginalKey,
    isVariantKey,
    planVariants,
@@ -69,6 +70,22 @@ describe('planVariants', () => {
       assert.deepEqual(planVariants(objects), [{ key: 'a/icon.png', widths: VARIANT_WIDTHS }]);
    });
 
+   it('skips originals whose variant keys would collide, and reports them', () => {
+      const objects = [
+         { Key: 'x/icon.png', LastModified: at('2026-01-01') },
+         { Key: 'x/icon.webp', LastModified: at('2026-01-01') },
+         { Key: 'y/art.png', LastModified: at('2026-01-01') },
+         { Key: 'y/art.PNG', LastModified: at('2026-01-01') },
+         { Key: 'z/ok.png', LastModified: at('2026-01-01') },
+      ];
+      assert.deepEqual(findCollisions(objects), [
+         ['x/icon.png', 'x/icon.webp'],
+         ['y/art.png', 'y/art.PNG'],
+      ]);
+      assert.deepEqual(planVariants(objects).map((p) => p.key), ['z/ok.png']);
+      assert.deepEqual(planVariants(objects, { force: true }).map((p) => p.key), ['z/ok.png']);
+   });
+
    it('regenerates everything with force, and never treats variants as originals', () => {
       const objects = [{ Key: 'a/icon.png', LastModified: at('2026-01-01') }, ...allVariants('a/icon.png', '2026-01-02')];
       assert.deepEqual(planVariants(objects, { force: true }), [{ key: 'a/icon.png', widths: VARIANT_WIDTHS }]);
@@ -93,5 +110,14 @@ describe('renderVariants', () => {
          [256, 128],
          [300, 150], // 1920 requested, original is only 300 wide
       ]);
+   });
+
+   it('rejects a truncated original instead of uploading broken variants', async () => {
+      const png = await sharp({
+         create: { width: 400, height: 400, channels: 3, background: { r: 10, g: 120, b: 200 } },
+      })
+         .png({ compressionLevel: 0 })
+         .toBuffer();
+      await assert.rejects(renderVariants(png.subarray(0, Math.floor(png.length / 2)), [48]));
    });
 });

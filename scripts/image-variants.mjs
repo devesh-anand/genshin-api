@@ -27,6 +27,7 @@ import { parseArgs } from 'util';
 import {
    CACHE_CONTROL,
    VARIANT_WIDTHS,
+   findCollisions,
    isOriginalKey,
    isVariantKey,
    planVariants,
@@ -103,14 +104,21 @@ let failures = 0;
 
 const originals = objects.filter((o) => isOriginalKey(o.Key));
 const sizes = new Map(objects.map((o) => [o.Key, o.Size]));
+const collisions = findCollisions(objects);
+const skipped = collisions.flat().length;
 const plan = planVariants(objects, { force: opts.force });
 const files = plan.reduce((n, p) => n + p.widths.length, 0);
 const planBytes = plan.reduce((n, p) => n + (sizes.get(p.key) ?? 0), 0);
 
 console.log(
-   `Originals: ${originals.length} | up to date: ${originals.length - plan.length} | ` +
-      `to generate: ${plan.length} (${files} variant files, ${mb(planBytes)} of originals to download)`,
+   `Originals: ${originals.length} | up to date: ${originals.length - plan.length - skipped} | ` +
+      `to generate: ${plan.length} (${files} variant files, ${mb(planBytes)} of originals to download)` +
+      (skipped ? ` | skipped (name collision): ${skipped}` : ''),
 );
+if (collisions.length) {
+   console.warn(`Skipped ${collisions.length} group(s) of originals that would share variant keys — rename one in each:`);
+   for (const group of collisions) console.warn(`  ${group.join('  ↔  ')}`);
+}
 
 if (!opts.write) {
    for (const p of plan.slice(0, 20)) console.log(`  ${p.key} → ${p.widths.map((w) => `w${w}`).join(' ')}`);

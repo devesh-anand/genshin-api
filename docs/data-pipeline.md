@@ -130,7 +130,9 @@ Makes small WebP copies of every image in the bucket so a frontend can show resi
 nahida/icon.png  →  nahida/icon.w48.webp … nahida/icon.w1920.webp
 ```
 
-Every original gets every width, never upscaled (a 256px icon's `w1920` is the 256px image as WebP), so a loader can build any variant URL from the original URL alone. **Changing `VARIANT_WIDTHS` means changing the frontend loader too.** Variants are uploaded with `Cache-Control: public, max-age=604800` — deliberately not `immutable`, because an original can be re-uploaded under the same key and its variants are then regenerated under the same keys.
+Every original gets every width, never upscaled (a 256px icon's `w1920` is the 256px image as WebP), so a loader can build any variant URL from the original URL alone. **Changing `VARIANT_WIDTHS` means changing the frontend loader too.** Variants are uploaded with `Cache-Control: public, max-age=86400` (one day, about how long Cloudflare keeps the originals) — deliberately not `immutable`, because an original can be re-uploaded under the same key and its variants are then regenerated under the same keys. To show a replaced image sooner, bump the `?v=` on its URL in `data/` as usual: the loader carries the query string over to the variant URL (`card.w640.webp?v=2`).
+
+**Where the frontend should load them from:** a custom domain on the bucket (R2 → Settings → Custom Domains, e.g. `img.deve.sh`), with the loader rewriting the `pub-….r2.dev` host from `data/` to it. Don't serve visitors from `r2.dev` directly: Cloudflare documents it as [non-production, rate-limited and uncached](https://developers.cloudflare.com/r2/buckets/public-buckets/). `data/` URLs can stay as they are.
 
 ```bash
 node scripts/image-variants.mjs                           # dry run: what's missing, writes nothing
@@ -141,6 +143,8 @@ node scripts/image-variants.mjs --write                   # everything missing
 Options: `--force` (regenerate up-to-date variants), `--concurrency <n>` (default 8).
 
 - **Never writes to an original** — only `*.w{width}.webp` keys. Existing variants are left alone unless their original changed.
+- **Name collisions are skipped:** two originals that would share variant keys (`x.png` and `x.webp`, or `x.png` and `x.PNG`) are never processed — the output lists them; rename one in the bucket.
+- **Corrupt originals fail:** a truncated or undecodable image is reported as a failure, not uploaded as broken variants.
 - **Re-runnable:** an original is skipped when all its widths exist and are not older than it. Re-uploading an original (e.g. `fix-traveler.mjs`) makes its variants stale, and the next run redoes them.
 - **CI:** `.github/workflows/image-variants.yml` runs it with `--write` after every `Sync Genshin Data` run, and can be started by hand from the Actions tab (dry run unless "write" is ticked). It is not part of `sync.mjs` on purpose.
 - Exits 1 if any image failed; the rest are still uploaded, and a re-run retries only what's missing.
