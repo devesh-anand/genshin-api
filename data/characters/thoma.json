@@ -49,7 +49,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/thoma/talent-na.png"
+      "img": "https://gi.deve.sh/thoma/talent-na.png",
+      "id": 10501
     },
     {
       "name": "Blazing Blessing",
@@ -74,7 +75,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/thoma/talent-skill.png"
+      "img": "https://gi.deve.sh/thoma/talent-skill.png",
+      "id": 10502
     },
     {
       "name": "Crimson Ooyoroi",
@@ -111,7 +113,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/thoma/talent-burst.png"
+      "img": "https://gi.deve.sh/thoma/talent-burst.png",
+      "id": 10505
     }
   ],
   "passiveTalents": [
@@ -771,5 +774,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000050
 }

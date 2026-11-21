@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 attacks, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\n\nPlunging Attack\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/yumemizuki-mizuki/talent-1.png"
+      "img": "https://gi.deve.sh/yumemizuki-mizuki/talent-1.png",
+      "id": 11091
     },
     {
       "name": "Aisa Utamakura Pilgrimage",
@@ -24,7 +25,8 @@
       "description": "Weaves memories of lovely dreams, entering a Dreamdrifter state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of AoE Anemo DMG to nearby opponents.\n\nDreamdrifter\n·While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing AoE Anemo DMG to nearby opponents at regular intervals.\n·During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of Yumemi Style Special Snacks from the Elemental Burst Anraku Secret Spring Therapy will be increased.\n·Increases the Swirl DMG and Stellar Swirl reaction DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\n·Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.\n\n\"Our dreams touch at midnight, their song ringing on in our hearts.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/yumemizuki-mizuki/talent-skill.png"
+      "img": "https://gi.deve.sh/yumemizuki-mizuki/talent-skill.png",
+      "id": 11092
     },
     {
       "name": "Anraku Secret Spring Therapy",
@@ -32,7 +34,8 @@
       "description": "Summons forth countless lovely dreams and nightmares that pull in nearby objects and opponents, dealing AoE Anemo DMG and summoning a Mini Baku.\n\nMini Baku:\nFollows the current active character. At regular intervals, the Mini Baku will create 1 Yumemi Style Special Snack nearby. After one of your own party members picks up a Special Snack, if their HP is higher than 70%, the Snack will explode and unleash a Munen Shockwave, dealing 1 instance of AoE Anemo DMG to nearby opponents. Otherwise, it will heal the character who picked it up based on Yumemizuki Mizuki's Elemental Mastery. When Yumemizuki Mizuki triggers healing by picking up a Yumemi Style Special Snack, the amount of healing is increased by 100%. If a Snack is not picked up after a period of time, it will explode and release a Munen Shockwave, dealing 1 instance of AoE Anemo DMG to surrounding opponents.\n\n\"If you bury dark emotions for too long, they will become nightmares. With that in mind, why don't we turn them into 'delicious snacks' while we've got the time?\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/yumemizuki-mizuki/talent-burst.png"
+      "img": "https://gi.deve.sh/yumemizuki-mizuki/talent-burst.png",
+      "id": 11095
     }
   ],
   "passiveTalents": [
@@ -115,7 +118,7 @@
     "banner": "https://gi.deve.sh/yumemizuki-mizuki/gacha-splash.png",
     "icon": "https://gi.deve.sh/yumemizuki-mizuki/icon.png",
     "icon-big": "https://gi.deve.sh/yumemizuki-mizuki/icon-big.png",
-    "portrait": "https://gi.deve.sh/yumemizuki-mizuki/portrait.png"
+    "portrait": "https://gi.deve.sh/yumemizuki-mizuki/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000109
 }

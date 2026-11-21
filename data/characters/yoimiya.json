@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/yoimiya/talent-na.png"
+      "img": "https://gi.deve.sh/yoimiya/talent-na.png",
+      "id": 10491
     },
     {
       "name": "Niwabi Fire-Dance",
@@ -74,7 +75,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/yoimiya/talent-skill.png"
+      "img": "https://gi.deve.sh/yoimiya/talent-skill.png",
+      "id": 10492
     },
     {
       "name": "Ryuukin Saxifrage",
@@ -103,7 +105,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/yoimiya/talent-burst.png"
+      "img": "https://gi.deve.sh/yoimiya/talent-burst.png",
+      "id": 10495
     }
   ],
   "passiveTalents": [
@@ -763,5 +766,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000049
 }

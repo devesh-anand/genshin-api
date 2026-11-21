@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, Electro energy will accumulate on the arrowhead. A fully charged arrow will deal Electro DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/ororon/talent-1.png"
+      "img": "https://gi.deve.sh/ororon/talent-1.png",
+      "id": 30501
     },
     {
       "name": "Night's Sling",
@@ -24,7 +25,8 @@
       "description": "Ororon manifests an ancient mystical technique from the Masters of the Night-Wind as a Spirit Orb of midnight shade and throws it at his foe, dealing Nightsoul-aligned Electro DMG.\nWhen other opponents are nearby, the Spirit Orb will bounce between them, dealing Nightsoul-aligned Electro DMG. Each time Night's Sling is used, each opponent can only be selected as a target once.\nAfter 3 bounces, or if there are no eligible targets left, the Orb will disappear.\n\n\"People always wish to foretell the future, but that might be because they have yet to discover that which they must do... Sorry, I'm saying complicated things again, aren't I...\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/ororon/talent-skill.png"
+      "img": "https://gi.deve.sh/ororon/talent-skill.png",
+      "id": 30502
     },
     {
       "name": "Special Jump",
@@ -32,7 +34,8 @@
       "description": "If this character is in Natlan, Hold to consume Phlogiston and execute a Rocket Double Jump. When Phlogiston is completely depleted, it will consume Stamina to execute the Double Jump instead.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/ororon/talent-burst.png"
+      "img": "https://gi.deve.sh/ororon/talent-burst.png",
+      "id": 30505
     }
   ],
   "passiveTalents": [
@@ -121,7 +124,7 @@
     "banner": "https://gi.deve.sh/ororon/gacha-splash.png",
     "icon": "https://gi.deve.sh/ororon/icon.png",
     "icon-big": "https://gi.deve.sh/ororon/icon-big.png",
-    "portrait": "https://gi.deve.sh/ororon/portrait.png"
+    "portrait": "https://gi.deve.sh/ororon/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -704,5 +707,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000105
 }

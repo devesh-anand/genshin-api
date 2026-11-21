@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform an upward slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/emilie/talent-1.png"
+      "img": "https://gi.deve.sh/emilie/talent-1.png",
+      "id": 10991
     },
     {
       "name": "Fragrance Extraction",
@@ -24,7 +25,8 @@
       "description": "Creates a Lumidouce Case that deals AoE Dendro DMG.\n\nLumidouce Case\n·Fires Puffs of Puredew at nearby opponents at intervals, dealing Dendro DMG.\n·When nearby opponents are affected by Burning, they will give off Scents at intervals, and 1 Scent can be created this way every 2s. The Lumidouce Case collects nearby Scents. The Lumidouce Case will level up after gathering 2 of them, after which it will fire 1 extra Puff of Puredew when firing, while the DMG dealt by and DMG AoE of the above attack will also be increased.\n·1 Lumidouce Case created by Emilie herself can exist at any one time. The Case starts at Level 1 and can go up to Level 2. If the Case does not collect any Scents for 8s while it is on the field, it will go back to Level 1.\n\nArkhe: Pneuma\nAt intervals, after Emilie creates a Lumidouce Case this way, a Spiritbreath Thorn will descend in front of her and pierce her opponent, dealing Pneuma-aligned Dendro DMG.\n\n\"The world is an endless harmony of fragrance, color, and song.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/emilie/talent-skill.png"
+      "img": "https://gi.deve.sh/emilie/talent-skill.png",
+      "id": 10992
     },
     {
       "name": "Aromatic Explication",
@@ -32,7 +34,8 @@
       "description": "Guiding the fragrances collected within the Case, Emilie converts them into pure Dendro energy, creating a Level 3 Lumidouce Case and stowing existing Cases away.\nWhile it exists, the Level 3 Lumidouce Case will not gather nearby Scents, but it will continuously cause Scented Dew to descend, attacking opponents within range and dealing Dendro DMG. During this time, 1 drop of Scented Dew will descend every 0.3 seconds, and 1 opponent can become the target every 0.7 seconds.\nWhen the duration ends, a Level 1 Lumidouce Case will be recreated. If a Lumidouce Case was stowed away when using Aromatic Explication, then the Case that was stowed away will be deployed instead, and its duration will be reset.\nWhile Aromatic Explication is active, the Elemental Skill \"Fragrance Extraction\" will not create a Lumidouce Case.\n\nNo matter the perfume, it will begin to change the instant it comes into contact with the air, before finally dissipating amidst the whispers of wind, trees, and grass. In that sense, no two people will appreciate the exact same fragrance.\nSo it is for the paths taken by all who live. In that sense, you can consider perfumes an explication of human life.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/emilie/talent-burst.png"
+      "img": "https://gi.deve.sh/emilie/talent-burst.png",
+      "id": 10995
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/emilie/gacha-splash.png",
     "icon": "https://gi.deve.sh/emilie/icon.png",
     "icon-big": "https://gi.deve.sh/emilie/icon-big.png",
-    "portrait": "https://gi.deve.sh/emilie/portrait.png"
+    "portrait": "https://gi.deve.sh/emilie/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000099
 }

@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/aether-pyro/talent-1.png"
+      "img": "https://gi.deve.sh/aether-pyro/talent-1.png",
+      "id": 100541
     },
     {
       "name": "Flowfire Blade",
@@ -24,7 +25,8 @@
       "description": "Wields a searing flame that can incinerate the very earth. Has different effects when Tapped or Held.\n\nTap\nCall forth flames in a raging blaze. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Blazing Threshold that follows the current active character.\nWhen the Blazing Threshold gets close to opponents, it will deal Nightsoul-aligned Pyro DMG to nearby opponents at intervals.\n\nHold\nUnleash fire in a composed manner, dealing Nightsoul-aligned AoE Pyro DMG to nearby opponents. When used, the Traveler gains 42 Nightsoul points and enters the Nightsoul's Blessing state, summoning a Scorching Threshold that follows the current active character.\nWhen the current active character within a Scorching Threshold deals DMG to opponents, the Threshold will launch a Coordinated Attack that deals Nightsoul-aligned Pyro DMG based on the Traveler's ATK. This effect can occur once every 3s.\n\nNightsoul's Blessing: Traveler\nContinuously consumes Nightsoul points. The Traveler's Nightsoul's Blessing state lasts 12s at maximum, and when their Nightsoul points are exhausted, this state will end. If this Elemental Skill is used again while active, the Traveler's Nightsoul points will be reset to 42 points.\nBlazing and Scorching Thresholds will disappear once the Traveler's Nightsoul's Blessing state ends, and only 1 Blazing or Scorching Threshold summoned by the Traveler themselves can exist at any one time.\n\nTogether, you and Paimon watched the shifting colors of the flowing flames.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/aether-pyro/talent-skill.png"
+      "img": "https://gi.deve.sh/aether-pyro/talent-skill.png",
+      "id": 10097
     },
     {
       "name": "Plains Scorcher",
@@ -32,7 +34,8 @@
       "description": "Condense the flames into a mark, dealing Nightsoul-aligned AoE Pyro DMG to opponents up ahead. The Traveler restores 7 Nightsoul points per second for the next 4s.\n\nTogether, you and Paimon studied the principles behind an undying flame.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/aether-pyro/talent-burst.png"
+      "img": "https://gi.deve.sh/aether-pyro/talent-burst.png",
+      "id": 10098
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/aether-pyro/gacha-splash.png",
     "icon": "https://gi.deve.sh/aether-pyro/icon.png",
     "icon-big": "https://gi.deve.sh/aether-pyro/icon-big.png",
-    "portrait": "https://gi.deve.sh/aether-pyro/portrait.png"
+    "portrait": "https://gi.deve.sh/aether-pyro/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -672,5 +675,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000005
 }

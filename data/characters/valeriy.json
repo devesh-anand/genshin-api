@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 consecutive sword strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to leap forward and slam the ground, dealing Physical DMG to nearby opponents.\nWhen Valeriy has at least 40 Impact Momentum, he will consume all Impact Momentum to instead perform the special Charged Attack Direct-Fire Mortar: Point-Blank Bombardment.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/valeriy/talent-1.png"
+      "img": "https://gi.deve.sh/valeriy/talent-1.png",
+      "id": 30601
     },
     {
       "name": "Active Defense: Bastion Charge",
@@ -24,7 +25,8 @@
       "description": "Valeriy raises his shield cannon and charges forward, dealing AoE Electro DMG, gaining 40 Impact Momentum, and deploying a Supercharged Shield.\nThe Supercharged Shield's DMG Absorption scales with Valeriy's ATK, and has 250% absorption efficiency against Electro DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/valeriy/talent-skill.png"
+      "img": "https://gi.deve.sh/valeriy/talent-skill.png",
+      "id": 30602
     },
     {
       "name": "Focused Fire: Lightning Salvo",
@@ -32,7 +34,8 @@
       "description": "Deals AoE Electro DMG to nearby opponents and fires a Thunderburst Shell high into the air. The Thunderburst Shell disperses into a barrage of projectiles that rain down, dealing AoE Electro DMG to nearby opponents.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/valeriy/talent-burst.png"
+      "img": "https://gi.deve.sh/valeriy/talent-burst.png",
+      "id": 30605
     }
   ],
   "passiveTalents": [
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000137
 }

@@ -49,7 +49,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/collei/talent-na.png"
+      "img": "https://gi.deve.sh/collei/talent-na.png",
+      "id": 10671
     },
     {
       "name": "Floral Brush",
@@ -66,7 +67,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/collei/talent-skill.png"
+      "img": "https://gi.deve.sh/collei/talent-skill.png",
+      "id": 10672
     },
     {
       "name": "Trump-Card Kitty",
@@ -95,7 +97,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/collei/talent-burst.png"
+      "img": "https://gi.deve.sh/collei/talent-burst.png",
+      "id": 10675
     }
   ],
   "passiveTalents": [
@@ -172,7 +175,7 @@
     "banner": "https://gi.deve.sh/collei/gacha-splash.png",
     "icon": "https://gi.deve.sh/collei/icon.png",
     "icon-big": "https://gi.deve.sh/collei/icon-big.png",
-    "portrait": "https://gi.deve.sh/collei/card.png"
+    "portrait": "https://gi.deve.sh/collei/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -755,5 +758,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000067
 }

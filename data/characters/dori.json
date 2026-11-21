@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 consecutive strikes.\n\nCharged Attack\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, performs a more powerful slash. \n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/dori/talent-1.png"
+      "img": "https://gi.deve.sh/dori/talent-1.png",
+      "id": 10681
     },
     {
       "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
@@ -24,7 +25,8 @@
       "description": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing Electro DMG.\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal Electro DMG.\n\nIt is said that Dori can fix any problem for you... for the right price.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/dori/talent-skill.png"
+      "img": "https://gi.deve.sh/dori/talent-skill.png",
+      "id": 10682
     },
     {
       "name": "Alcazarzaray's Exactitude",
@@ -32,7 +34,8 @@
       "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\nJinni\nConnects to a nearby character. The connected character will:\n· Continuously restore HP based on Dori's Max HP.\n· Continuously regenerate Energy.\n· Be affected by Electro.\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4s.\n\nOnly one Jinni can exist at one time.\n\n\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/dori/talent-burst.png"
+      "img": "https://gi.deve.sh/dori/talent-burst.png",
+      "id": 10685
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/dori/gacha-splash.png",
     "icon": "https://gi.deve.sh/dori/icon.png",
     "icon-big": "https://gi.deve.sh/dori/icon-big.png",
-    "portrait": "https://gi.deve.sh/dori/portrait.png"
+    "portrait": "https://gi.deve.sh/dori/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000068
 }

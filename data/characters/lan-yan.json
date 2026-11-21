@@ -16,7 +16,8 @@
       "description": "Normal Attack\nWields her Feathermoon Rings to perform up to 4 attacks, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing Anemo DMG.\n\nPlunging Attack\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/lan-yan/talent-1.png"
+      "img": "https://gi.deve.sh/lan-yan/talent-1.png",
+      "id": 11081
     },
     {
       "name": "Swallow-Wisp Pinion Dance",
@@ -24,7 +25,8 @@
       "description": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against Anemo DMG.\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing Anemo DMG.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the dash direction.\n\n\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/lan-yan/talent-skill.png"
+      "img": "https://gi.deve.sh/lan-yan/talent-skill.png",
+      "id": 11082
     },
     {
       "name": "Lustrous Moonrise",
@@ -32,7 +34,8 @@
       "description": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of AoE Anemo DMG.\n\nStrictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/lan-yan/talent-burst.png"
+      "img": "https://gi.deve.sh/lan-yan/talent-burst.png",
+      "id": 11085
     }
   ],
   "passiveTalents": [
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000108
 }

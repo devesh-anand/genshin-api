@@ -41,7 +41,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/ningguang/talent-na.png"
+      "img": "https://gi.deve.sh/ningguang/talent-na.png",
+      "id": 10271
     },
     {
       "name": "Jade Screen",
@@ -62,7 +63,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/ningguang/talent-skill.png"
+      "img": "https://gi.deve.sh/ningguang/talent-skill.png",
+      "id": 10272
     },
     {
       "name": "Starshatter",
@@ -83,7 +85,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/ningguang/talent-burst.png"
+      "img": "https://gi.deve.sh/ningguang/talent-burst.png",
+      "id": 10274
     }
   ],
   "passiveTalents": [
@@ -759,5 +762,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000027
 }

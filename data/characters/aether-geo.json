@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/aether-geo/talent-1.png"
+      "img": "https://gi.deve.sh/aether-geo/talent-1.png",
+      "id": 100545
     },
     {
       "name": "Starfell Sword",
@@ -24,7 +25,8 @@
       "description": "You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG.\nThe meteorite is considered a Geo Construct, and can be climbed or used to block attacks.\n\nHold\nThis skill's positioning may be adjusted.\n\nYou spoke with Paimon about the final destination of falling stars.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/aether-geo/talent-skill.png"
+      "img": "https://gi.deve.sh/aether-geo/talent-skill.png",
+      "id": 10077
     },
     {
       "name": "Wake of Earth",
@@ -32,7 +34,8 @@
       "description": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals AoE Geo DMG.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a Geo Construct, and may be used to block attacks.\n\nYou and Paimon studied the pulse of the mountains.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/aether-geo/talent-burst.png"
+      "img": "https://gi.deve.sh/aether-geo/talent-burst.png",
+      "id": 10078
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/aether-geo/gacha-splash.png",
     "icon": "https://gi.deve.sh/aether-geo/icon.png",
     "icon-big": "https://gi.deve.sh/aether-geo/icon-big.png",
-    "portrait": "https://gi.deve.sh/aether-geo/portrait.png"
+    "portrait": "https://gi.deve.sh/aether-geo/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -672,5 +675,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000005
 }

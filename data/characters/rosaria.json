@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/rosaria/talent-na.png"
+      "img": "https://gi.deve.sh/rosaria/talent-na.png",
+      "id": 10451
     },
     {
       "name": "Ravaging Confession",
@@ -70,7 +71,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/rosaria/talent-skill.png"
+      "img": "https://gi.deve.sh/rosaria/talent-skill.png",
+      "id": 10452
     },
     {
       "name": "Rites of Termination",
@@ -99,7 +101,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/rosaria/talent-burst.png"
+      "img": "https://gi.deve.sh/rosaria/talent-burst.png",
+      "id": 10453
     }
   ],
   "passiveTalents": [
@@ -759,5 +762,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000045
 }

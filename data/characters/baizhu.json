@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 attacks that deal Dendro DMG to opponents in front of him.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Dendro DMG to opponents in front of him after a short casting time.\n\nPlunging Attack\nCalling upon the might of Dendro, Baizhu plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Dendro DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/baizhu/talent-1.png"
+      "img": "https://gi.deve.sh/baizhu/talent-1.png",
+      "id": 10821
     },
     {
       "name": "Universal Diagnosis",
@@ -24,7 +25,8 @@
       "description": "Controls a Gossamer Sprite that cruises and attacks nearby opponents, dealing Dendro DMG.\nAfter it performs 3 attacks or if there are no opponents nearby, the Sprite will return, healing all nearby party members based on Baizhu's Max HP.\n\nThose in the medical field who can read true signs of illness from false ones may even cure people before any symptoms can show.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/baizhu/talent-skill.png"
+      "img": "https://gi.deve.sh/baizhu/talent-skill.png",
+      "id": 10822
     },
     {
       "name": "Holistic Revivification",
@@ -32,7 +34,8 @@
       "description": "Enters the Pulsing Clarity state, creating a Seamless Shield that absorbs Dendro DMG with 250% effectiveness.\nWhile in this state, Baizhu will generate a new Seamless Shield every 2.5s.\n\nThe Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing Dendro DMG under the following circumstances:\n·When a character is under the protection of a Seamless Shield and a new Seamless Shield is generated.\n·When the Seamless Shield's effects expire, or when it is shattered.\n\nIf you can perceive the heavens and the earth, defend against malignant auras with the flow of qi, and keep your mind clear, surely nothing can hinder you.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/baizhu/talent-burst.png"
+      "img": "https://gi.deve.sh/baizhu/talent-burst.png",
+      "id": 10825
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/baizhu/gacha-splash.png",
     "icon": "https://gi.deve.sh/baizhu/icon.png",
     "icon-big": "https://gi.deve.sh/baizhu/icon-big.png",
-    "portrait": "https://gi.deve.sh/baizhu/portrait.png"
+    "portrait": "https://gi.deve.sh/baizhu/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000082
 }

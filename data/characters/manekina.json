@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/manekina/talent-1.png"
+      "img": "https://gi.deve.sh/manekina/talent-1.png",
+      "id": 11171
     },
     {
       "name": "Punishing Barrage",
@@ -24,7 +25,8 @@
       "description": "The Manekin attacks nearby opponents once, dealing AoE DMG corresponding to their own Elemental Type before pulling back rapidly. After unleashing an Elemental Skill, the Manekin's Normal Attacks, Charged Attacks, and Plunging Attacks are converted to deal the corresponding elemental DMG, which cannot be overridden by other Elemental infusions, for a period of time. This effect will disappear when the Manekin leaves the field.\n\nHas 2 charges.\n\n\"A well-measured blow is a necessary warning.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/manekina/talent-skill.png"
+      "img": "https://gi.deve.sh/manekina/talent-skill.png",
+      "id": 11172
     },
     {
       "name": "No Entry",
@@ -32,7 +34,8 @@
       "description": "The Manekin summons a \"Restricted Area\" that follows them around, dealing 1 instance of DMG corresponding to the Manekin's Elemental Type to nearby opponents.\nAdditionally, when opponents enter the Restricted Area, they will receive 1 instance of DMG corresponding to the Manekin's Elemental Type. This effect can trigger once every 0.5s.\nThe Restricted Area will disappear when the Manekin leaves the field.\n\n\"Those who insist on trespassing within the restricted area will be regarded as hostile and expelled with maximum force.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/manekina/talent-burst.png"
+      "img": "https://gi.deve.sh/manekina/talent-burst.png",
+      "id": 111751
     }
   ],
   "passiveTalents": [
@@ -73,5 +76,6 @@
     "normal_attack": [],
     "elemental_skill": [],
     "elemental_burst": []
-  }
+  },
+  "id": 10000118
 }

@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/kazuha/talent-na.png"
+      "img": "https://gi.deve.sh/kazuha/talent-na.png",
+      "id": 10471
     },
     {
       "name": "Chihayaburu",
@@ -78,7 +79,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/kazuha/talent-skill.png"
+      "img": "https://gi.deve.sh/kazuha/talent-skill.png",
+      "id": 10472
     },
     {
       "name": "Kazuha Slash",
@@ -111,7 +113,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/kazuha/talent-burst.png"
+      "img": "https://gi.deve.sh/kazuha/talent-burst.png",
+      "id": 10475
     }
   ],
   "passiveTalents": [
@@ -771,5 +774,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000047
 }

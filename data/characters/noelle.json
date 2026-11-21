@@ -57,7 +57,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/noelle/talent-na.png"
+      "img": "https://gi.deve.sh/noelle/talent-na.png",
+      "id": 10341
     },
     {
       "name": "Breastplate",
@@ -90,7 +91,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/noelle/talent-skill.png"
+      "img": "https://gi.deve.sh/noelle/talent-skill.png",
+      "id": 10342
     },
     {
       "name": "Sweeping Time",
@@ -123,7 +125,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/noelle/talent-burst.png"
+      "img": "https://gi.deve.sh/noelle/talent-burst.png",
+      "id": 10343
     }
   ],
   "passiveTalents": [
@@ -783,5 +786,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000034
 }

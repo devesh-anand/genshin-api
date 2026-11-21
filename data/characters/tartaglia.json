@@ -69,7 +69,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/tartaglia/talent-na.png"
+      "img": "https://gi.deve.sh/tartaglia/talent-na.png",
+      "id": 10331
     },
     {
       "name": "Foul Legacy: Raging Tide",
@@ -130,7 +131,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/tartaglia/talent-skill.png"
+      "img": "https://gi.deve.sh/tartaglia/talent-skill.png",
+      "id": 10332
     },
     {
       "name": "Havor: Obliteration",
@@ -163,7 +165,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/tartaglia/talent-burst.png"
+      "img": "https://gi.deve.sh/tartaglia/talent-burst.png",
+      "id": 10333
     }
   ],
   "passiveTalents": [
@@ -823,5 +826,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000033
 }

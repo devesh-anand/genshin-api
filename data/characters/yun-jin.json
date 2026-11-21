@@ -54,7 +54,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/yun/talent-na.png"
+      "img": "https://gi.deve.sh/yun/talent-na.png",
+      "id": 10641
     },
     {
       "name": "Opening Flourish",
@@ -83,7 +84,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/yun/talent-skill.png"
+      "img": "https://gi.deve.sh/yun/talent-skill.png",
+      "id": 10642
     },
     {
       "name": "Cliffbreaker's Banner'",
@@ -112,7 +114,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/yun/talent-burst.png"
+      "img": "https://gi.deve.sh/yun/talent-burst.png",
+      "id": 10643
     }
   ],
   "passiveTalents": [
@@ -189,7 +192,7 @@
     "banner": "https://gi.deve.sh/yun/gacha-splash.png",
     "icon": "https://gi.deve.sh/yun/icon.png",
     "icon-big": "https://gi.deve.sh/yun/icon-big.png",
-    "portrait": "https://gi.deve.sh/yun/portrait.png"
+    "portrait": "https://gi.deve.sh/yun-jin/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -772,5 +775,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000064
 }

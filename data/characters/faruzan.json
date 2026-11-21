@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, mighty winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, hitting opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/faruzan/talent-1.png"
+      "img": "https://gi.deve.sh/faruzan/talent-1.png",
+      "id": 10761
     },
     {
       "name": "Wind Realm of Nasamjnin",
@@ -24,7 +25,8 @@
       "description": "Faruzan deploys a polyhedron that deals AoE Anemo DMG to nearby opponents. She will also enter the Manifest Gale state.\nWhile in the Manifest Gale state, Faruzan's next fully charged shot will consume this state and will become a Hurricane Arrow that contains high-pressure currents. This arrow deals Anemo DMG based on the DMG of a fully charged Aimed Shot from \"Normal Attack: Parthian Shot.\"\n\nPressurized Collapse\nThe Hurricane Arrow will apply a Pressurized Collapse effect to the opponent or character hit. This effect will be removed after a short delay, creating a vortex that deals AoE Anemo DMG and pulls nearby objects and opponents in. If the Hurricane Arrow does not hit any opponent or character, it will create a Pressurized Collapse effect at its point of impact.\nThe vortex DMG is considered Elemental Skill DMG.\n\nThe winds of truth buffet the spirits of those who seek truth, dispersing the miasma of preconception.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/faruzan/talent-skill.png"
+      "img": "https://gi.deve.sh/faruzan/talent-skill.png",
+      "id": 10762
     },
     {
       "name": "The Wind's Secret Ways",
@@ -32,7 +34,8 @@
       "description": "Faruzan deploys a Dazzling Polyhedron that unleashes a Whirlwind Pulse and deals AoE Anemo DMG.\nWhile the Dazzling Polyhedron persists, it will continuously move along a triangular path. Once it reaches each corner of that triangular path, it will unleash 1 more Whirlwind Pulse.\n\nWhirlwind Pulse\n·When the Whirlwind Pulse is unleashed, it will apply Perfidious Wind's Bale to nearby opponents, decreasing their Anemo RES.\n·The Whirlwind Pulse will also apply Prayerful Wind's Benefit to all nearby party members when it is unleashed, granting them an Anemo DMG Bonus.\n\nOne must have respect for the unknown wisdom that one might find hidden in ancient ruins.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/faruzan/talent-burst.png"
+      "img": "https://gi.deve.sh/faruzan/talent-burst.png",
+      "id": 10765
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/faruzan/gacha-splash.png",
     "icon": "https://gi.deve.sh/faruzan/icon.png",
     "icon-big": "https://gi.deve.sh/faruzan/icon-big.png",
-    "portrait": "https://gi.deve.sh/faruzan/portrait.png"
+    "portrait": "https://gi.deve.sh/faruzan/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000076
 }

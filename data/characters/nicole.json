@@ -16,7 +16,8 @@
       "description": "Normal Attack\nProclaims a decree in the primordial tongue and performs up to 3 attacks that deal Pyro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Pyro DMG to opponents in front of her after a short casting time.\n\nPlunging Attack\nNicole plunges towards the ground from mid-air, damaging all opponents in her path. Also deals AoE Pyro DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/nicole/talent-1.png"
+      "img": "https://gi.deve.sh/nicole/talent-1.png",
+      "id": 11311
     },
     {
       "name": "Revelation: Uncreated Light",
@@ -24,7 +25,8 @@
       "description": "Recreates a fleeting glimpse of an age long past, when the angels acted on the authority of the heavens, bestowing the Grace of Kenosis effect on nearby party members. This increases their ATK and deals AoE Pyro DMG, as well as creates a Shield of Blazing Light.\nThe Shield of Blazing Light's DMG Absorption is based on Nicole's ATK, and it will absorb Pyro DMG at 250% effectiveness.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/nicole/talent-skill.png"
+      "img": "https://gi.deve.sh/nicole/talent-skill.png",
+      "id": 11312
     },
     {
       "name": "Revelation: Ladder of Divine Ascent",
@@ -32,7 +34,8 @@
       "description": "As Nicole weaves the path of anchored fate with golden threads of light, she deals AoE Pyro DMG and switches to Silent Contemplation mode.\nIn this mode, when nearby active party members hit an opponent, an Arcane Projection is summoned to perform a Coordinated Attack against the opponent, dealing AoE Elemental DMG of the character's corresponding Elemental Type. This DMG scales based on the corresponding character's ATK and will be considered as having been dealt by them.\nThis effect can occur once every 3s, and can be triggered up to 4 times each time Nicole switches to Silent Contemplation mode.\n\nIt is worth noting that Hexerei characters' Arcane Projections appear to differ somehow in appearance from the others...",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/nicole/talent-burst.png"
+      "img": "https://gi.deve.sh/nicole/talent-burst.png",
+      "id": 11315
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000131
 }

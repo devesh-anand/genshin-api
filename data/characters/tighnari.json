@@ -57,7 +57,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/tighnari/talent-1.png"
+      "img": "https://gi.deve.sh/tighnari/talent-1.png",
+      "id": 10691
     },
     {
       "name": "Vijnana-Phala Mine",
@@ -82,7 +83,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/tighnari/talent-skill.png"
+      "img": "https://gi.deve.sh/tighnari/talent-skill.png",
+      "id": 10692
     },
     {
       "name": "Fashioner's Tanglevine Shaft",
@@ -107,7 +109,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/tighnari/talent-burst.png"
+      "img": "https://gi.deve.sh/tighnari/talent-burst.png",
+      "id": 10695
     }
   ],
   "passiveTalents": [
@@ -767,5 +770,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000069
 }

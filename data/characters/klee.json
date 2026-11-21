@@ -45,7 +45,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/klee/talent-na.png"
+      "img": "https://gi.deve.sh/klee/talent-na.png",
+      "id": 10291
     },
     {
       "name": "Jumpy Dumpty",
@@ -70,7 +71,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/klee/talent-skill.png"
+      "img": "https://gi.deve.sh/klee/talent-skill.png",
+      "id": 10292
     },
     {
       "name": "Sparks 'n' Splash",
@@ -95,7 +97,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/klee/talent-burst.png"
+      "img": "https://gi.deve.sh/klee/talent-burst.png",
+      "id": 10295
     }
   ],
   "passiveTalents": [
@@ -761,5 +764,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000029
 }

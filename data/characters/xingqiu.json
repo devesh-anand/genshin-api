@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/xingqiu/talent-na.png"
+      "img": "https://gi.deve.sh/xingqiu/talent-na.png",
+      "id": 10381
     },
     {
       "name": "Guhua Sword - Fatal Rainscreen",
@@ -78,7 +79,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/xingqiu/talent-skill.png"
+      "img": "https://gi.deve.sh/xingqiu/talent-skill.png",
+      "id": 10382
     },
     {
       "name": "Guhua Sword - Raincutter",
@@ -103,7 +105,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/xingqiu/talent-burst.png"
+      "img": "https://gi.deve.sh/xingqiu/talent-burst.png",
+      "id": 10385
     }
   ],
   "passiveTalents": [
@@ -763,5 +766,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000025
 }

@@ -57,7 +57,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/razor/talent-na.png"
+      "img": "https://gi.deve.sh/razor/talent-na.png",
+      "id": 10201
     },
     {
       "name": "Claw and Thunder",
@@ -94,7 +95,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/razor/talent-skill.png"
+      "img": "https://gi.deve.sh/razor/talent-skill.png",
+      "id": 10202
     },
     {
       "name": "Lightning Fang",
@@ -131,7 +133,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/razor/talent-burst.png"
+      "img": "https://gi.deve.sh/razor/talent-burst.png",
+      "id": 10203
     }
   ],
   "passiveTalents": [
@@ -797,5 +800,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000020
 }

@@ -15,21 +15,24 @@
       "unlock": "Normal Attack",
       "description": "Normal Attack\nPerform up to 5 consecutive shots with a bow.\nCharged Attack\n Perform a more precise Aimed Shot with increased DMG. While aiming, crackling lightning will accumulate on the arrowhead. An arrow fully charged with the storm's might will deal Electro DMG. When in the Crowfeather Cover state, a fully-charged arrow will leave a Crowfeather behind after it hits.\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/sara/talent-na.png"
+      "img": "https://gi.deve.sh/sara/talent-na.png",
+      "id": 10561
     },
     {
       "name": "Tengu Stormcall",
       "unlock": "Elemental Skill",
       "description": "Retreats rapidly with the speed of a tengu, summoning the protection of the Crowfeather. Gains Crowfeather Cover for 18s, and when Kujou Sara fires a fully-charged Aimed Shot, Crowfeather Cover will be consumed, and will leave a Crowfeather at the target location.\nCrowfeathers will trigger Tengu Juurai: Ambush after a short time, dealing Electro DMG and granting the active character within its AoE an ATK Bonus based on Kujou Sara's Base ATK.\nThe ATK Bonuses from different Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.",
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/sara/talent-skill.png"
+      "img": "https://gi.deve.sh/sara/talent-skill.png",
+      "id": 10562
     },
     {
       "name": "Subjugation: Koukou Sendou",
       "unlock": "Elemental Burst",
       "description": "Casts down Tengu Juurai: Titanbreaker, dealing AoE Electro DMG. Afterwards, Tengu Juurai: Titanbreaker spreads out into 4 consecutive bouts of Tengu Juurai: Stormcluster, dealing AoE Electro DMG.\nTengu Juurai: Titanbreaker and Tengu Juurai: Stormcluster can provide the active character within their AoE with the same ATK Bonus as given by the Elemental Skill, Tengu Stormcall.\nThe ATK Bonus provided by various kinds of Tengu Juurai will not stack, and their effects and duration will be determined by the last Tengu Juurai to take effect.",
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/sara/talent-burst.png"
+      "img": "https://gi.deve.sh/sara/talent-burst.png",
+      "id": 10565
     }
   ],
   "passiveTalents": [
@@ -689,5 +692,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000056
 }

@@ -61,7 +61,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/eula/talent-na.png"
+      "img": "https://gi.deve.sh/eula/talent-na.png",
+      "id": 10511
     },
     {
       "name": "Icetide Vortex",
@@ -110,7 +111,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/eula/talent-skill.png"
+      "img": "https://gi.deve.sh/eula/talent-skill.png",
+      "id": 10512
     },
     {
       "name": "Glacial Illumination",
@@ -143,7 +145,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/eula/talent-burst.png"
+      "img": "https://gi.deve.sh/eula/talent-burst.png",
+      "id": 10515
     }
   ],
   "passiveTalents": [
@@ -803,5 +806,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000051
 }

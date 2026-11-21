@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 consecutive shots with a bow.\n\nCharged Attack\nPerforms a more precise Aimed Shot with increased DMG.\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.\n\nPlunging Attack\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/linnea/talent-1.png"
+      "img": "https://gi.deve.sh/linnea/talent-1.png",
+      "id": 11301
     },
     {
       "name": "Countermeasure: Lumi's Battle Cry!",
@@ -24,7 +25,8 @@
       "description": "Adventure with Lumi! Depending on how you Tap, Lumi attacks in different forms.\n\nTap\nLumi strikes in a Super Power Form, attacking nearby enemies continuously, dealing AoE Geo DMG. If there are Moondrifts nearby, Lumi will also deal AoE Geo DMG to nearby enemies, which will be considered Lunar-Crystallize Reaction DMG.\n\nContinuous Tapping\nTime to show what we're really capable of! After using her Elemental Skill, Linnea will feed Lumi sparkling gemstones when her Elemental Skill or Normal Attack is Tapped repeatedly. A full-bellied Lumi will strike in her Ultimate Power Form, dealing an especially powerful instance of AoE Geo DMG that is considered Lunar-Crystallize Reaction DMG, switching to Standard Power Form.\nAdditionally, tapping the Elemental Skill increases Linnea's interruption resistance.\n\n\"You're up, Lumi!\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/linnea/talent-skill.png"
+      "img": "https://gi.deve.sh/linnea/talent-skill.png",
+      "id": 11302
     },
     {
       "name": "Memo: Survival Guide in Extreme Conditions",
@@ -32,7 +34,8 @@
       "description": "Even master adventurers need proper rest! Linnea summons Lumi to strike in Super Power Form, healing nearby party members. For a short duration, she will continuously heal nearby active party members based on Linnea's DEF.\nIf Lumi is already on the field when Linnea unleashes Elemental Burst, Lumi's active duration will be reset instead and her Strike Form will not change.\n\n\"Any professional adventurer worth their salt prizes making it out of a serious jam over making discoveries, however unprecedented!\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/linnea/talent-burst.png"
+      "img": "https://gi.deve.sh/linnea/talent-burst.png",
+      "id": 11305
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000130
 }

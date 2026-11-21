@@ -45,7 +45,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/cyno/talent-na.png"
+      "img": "https://gi.deve.sh/cyno/talent-na.png",
+      "id": 10711
     },
     {
       "name": "Secret Rite: Chasmic Soulfarer",
@@ -74,7 +75,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/cyno/talent-skill.png"
+      "img": "https://gi.deve.sh/cyno/talent-skill.png",
+      "id": 10712
     },
     {
       "name": "Sacred Rite: Wolf's Swiftness",
@@ -131,7 +133,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/cyno/talent-burst.png"
+      "img": "https://gi.deve.sh/cyno/talent-burst.png",
+      "id": 10715
     }
   ],
   "passiveTalents": [
@@ -804,5 +807,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000071
 }

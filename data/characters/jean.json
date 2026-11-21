@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/jean/talent-na.png"
+      "img": "https://gi.deve.sh/jean/talent-na.png",
+      "id": 10031
     },
     {
       "name": "Gale Blade",
@@ -78,7 +79,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/jean/talent-skill.png"
+      "img": "https://gi.deve.sh/jean/talent-skill.png",
+      "id": 10033
     },
     {
       "name": "Dandelion Breeze",
@@ -111,7 +113,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/jean/talent-burst.png"
+      "img": "https://gi.deve.sh/jean/talent-burst.png",
+      "id": 10034
     }
   ],
   "passiveTalents": [
@@ -782,5 +785,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000003
 }

@@ -45,7 +45,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/yae/talent-na.png"
+      "img": "https://gi.deve.sh/yae/talent-na.png",
+      "id": 10581
     },
     {
       "name": "Yakan Evocation: Sesshou Sakura",
@@ -78,7 +79,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/yae/talent-skill.png"
+      "img": "https://gi.deve.sh/yae/talent-skill.png",
+      "id": 10582
     },
     {
       "name": "Great Secret Art: Tenko Kenshin",
@@ -103,7 +105,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/yae/talent-burst.png"
+      "img": "https://gi.deve.sh/yae/talent-burst.png",
+      "id": 10585
     }
   ],
   "passiveTalents": [
@@ -769,5 +772,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000058
 }

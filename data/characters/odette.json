@@ -16,7 +16,8 @@
       "description": "Normal Attack\nUnleashes a sword attack of up to 5 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash a dazzling slash on opponents in front of her.\n\nPlunging Attack\nAttacks opponents in her path while plunging from mid-air, then deals AoE DMG upon landing.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/odette/talent-1.png"
+      "img": "https://gi.deve.sh/odette/talent-1.png",
+      "id": 11501
     },
     {
       "name": "Adagio: Phantom Night Dancers",
@@ -24,7 +25,8 @@
       "description": "With slow, graceful dance steps, Odette deals AoE Cryo DMG to the opponent, and also summons her Solo Dance Double to the field.\nIf a Dance Double summoned by Odette is already on the field, this will re-summon the Dance Double and reset its duration.\n\nSolo Dance Double\nAlternates between the Plume and Wing dance moves, periodically attacking nearby opponents and dealing to them AoE Cryo DMG.\nAdditionally, for 6s after unleashing the Elemental Skill Adagio: Phantom Night Dancers, Odette's Elemental Skill Adagio: Phantom Night Dancers will become the special Elemental Skill Adagio: Coda at Dawn's Tolling instead, where a dance duet deals AoE Cryo DMG to nearby opponents over time. Then, when the duet ends, she deals another instance of AoE Cryo DMG that is considered Stellar-Conduct or Stellar Swirl DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/odette/talent-skill.png"
+      "img": "https://gi.deve.sh/odette/talent-skill.png",
+      "id": 11502
     },
     {
       "name": "Presto: Bluebird Finale",
@@ -32,7 +34,8 @@
       "description": "With quick, lively dance steps, Odette deals multiple instances of AoE Cryo DMG, and summons her Solo Dance Double. She also gains Snow Swan's Dream, which increases the Stellar Glimmer reaction DMG Odette deals.\nAdditionally, for 6s after unleashing the Elemental Burst Presto: Bluebird Finale, Odette's Elemental Skill Adagio: Phantom Night Dancers will be replaced with the special Elemental Skill Adagio: Coda at Dawn's Tolling instead.\n\nIf there is a Solo Dance Double summoned by Odette on the field, it will be summoned to her side with its duration refreshed.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/odette/talent-burst.png"
+      "img": "https://gi.deve.sh/odette/talent-burst.png",
+      "id": 11505
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000150
 }

@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/qiqi/talent-na.png"
+      "img": "https://gi.deve.sh/qiqi/talent-na.png",
+      "id": 10351
     },
     {
       "name": "Adeptus Art: Herald of Frost",
@@ -86,7 +87,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/qiqi/talent-skill.png"
+      "img": "https://gi.deve.sh/qiqi/talent-skill.png",
+      "id": 10352
     },
     {
       "name": "Adeptus Art: Preserver of Fortune",
@@ -115,7 +117,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/qiqi/talent-burst.png"
+      "img": "https://gi.deve.sh/qiqi/talent-burst.png",
+      "id": 10353
     }
   ],
   "passiveTalents": [
@@ -781,5 +784,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000035
 }
