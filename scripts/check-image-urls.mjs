@@ -1,6 +1,7 @@
 // Check which image URL patterns actually return 200 for a given character
 // Usage: node scripts/check-image-urls.mjs nahida [--old tighnari]
 import * as dotenv from 'dotenv';
+import { USER_AGENT } from './lib/source.mjs';
 dotenv.config();
 
 const name = process.argv[2] || 'nahida';
@@ -12,7 +13,7 @@ const R2 = 'https://pub-1ad979b6618d4a07ab871591a84b954c.r2.dev';
 async function head(url) {
    if (!url) return null;
    try {
-      const r = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'genshin-api/1.0' } });
+      const r = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': USER_AGENT } });
       return { ok: r.ok, status: r.status, size: r.headers.get('content-length') };
    } catch {
       return { ok: false, status: 'ERR' };
@@ -38,7 +39,7 @@ if (oldChar) {
 
 // Fetch the new character data
 const listRes = await fetch('https://gi.yatta.moe/api/v2/en/avatar', {
-   headers: { 'User-Agent': 'genshin-api/1.0' },
+   headers: { 'User-Agent': USER_AGENT },
 });
 const list = await listRes.json();
 const chars = Object.values(list.data?.items || {});
@@ -46,7 +47,7 @@ const char = chars.find(c => c.route?.toLowerCase().replace(/\s+/g, '-') === nam
 if (!char) { console.log('Character not found:', name); process.exit(1); }
 
 const detailRes = await fetch(`https://gi.yatta.moe/api/v2/en/avatar/${char.id}`, {
-   headers: { 'User-Agent': 'genshin-api/1.0' },
+   headers: { 'User-Agent': USER_AGENT },
 });
 const detail = await detailRes.json();
 const d = detail.data;

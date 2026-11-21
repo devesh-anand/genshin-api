@@ -11,6 +11,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { USER_AGENT } from './lib/source.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CHARS_DIR = path.join(__dirname, '../data/characters');
@@ -26,7 +27,7 @@ function slugify(name) {
 }
 
 async function fetchJSON(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'genshin-api/1.0' } });
+  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
   if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);
   return res.json();
 }

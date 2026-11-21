@@ -15,6 +15,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { cleanText } from './lib/text.mjs';
+import { USER_AGENT } from './lib/source.mjs';
 
 dotenv.config();
 
@@ -48,7 +49,7 @@ function slugify(name) {
 }
 
 async function download(url) {
-   const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 genshin-api/1.0' } });
+   const r = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
    if (!r.ok) throw new Error(`HTTP ${r.status}`);
    return Buffer.from(await r.arrayBuffer());
 }
@@ -66,7 +67,7 @@ async function tryUpload(url, key) {
 }
 
 // ── Fetch full artifact list ─────────────────────────────────────────────────
-const listRes = await fetch(YATTA_BASE);
+const listRes = await fetch(YATTA_BASE, { headers: { 'User-Agent': USER_AGENT } });
 const listJson = await listRes.json();
 const allSets = Object.values(listJson.data.items);
 
@@ -94,7 +95,7 @@ for (const set of toProcess) {
    // Fetch full detail
    let detail;
    try {
-      const res = await fetch(`${YATTA_BASE}/${set.id}`);
+      const res = await fetch(`${YATTA_BASE}/${set.id}`, { headers: { 'User-Agent': USER_AGENT } });
       detail = (await res.json()).data;
    } catch (e) {
       console.log(` SKIP (${e.message})`);

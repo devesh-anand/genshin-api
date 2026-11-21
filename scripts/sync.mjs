@@ -2,8 +2,9 @@
  * Master sync script — run after each Genshin patch to keep all data current.
  *
  * Discovers and adds new characters, weapons, materials, and enemies by
- * comparing local data against yatta.moe, then probing for characters not
- * yet in the yatta list endpoint.
+ * comparing local data against yatta.moe (plus IDs the character list skips).
+ * Only released content is added: characters need a release time in the past
+ * (see scripts/lib/source.mjs), and nothing past the newest listed ID is probed.
  *
  * Usage:
  *   node scripts/sync.mjs              # full sync (all entity types)
@@ -76,8 +77,11 @@ async function syncCharacters() {
   const existing = await localSlugs('characters');
   console.log(`  Local: ${existing.size}`);
 
-  console.log('  Discovering new characters (list + ID probe)…');
-  const { fromList, fromProbe } = await discoverNewCharacters(existing);
+  console.log('  Discovering new characters (list + gaps in the listed range)…');
+  const { fromList, fromProbe, unreleased } = await discoverNewCharacters(existing);
+  if (unreleased.length) {
+    console.log(`  Skipped ${unreleased.length} not yet released: ${unreleased.map(c => c.name).join(', ')}`);
+  }
 
   const allNew = [
     ...fromList,

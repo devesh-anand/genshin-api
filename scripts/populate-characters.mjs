@@ -17,6 +17,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { BUCKET, PUBLIC_URL } from './lib/r2.mjs';
 import { cleanText } from './lib/text.mjs';
+import { USER_AGENT, isReleased } from './lib/source.mjs';
 
 dotenv.config();
 
@@ -81,7 +82,7 @@ async function wikiFileUrl(fileName) {
    try {
       const r = await fetch(
          `${WIKI_API}?action=query&titles=${encodeURIComponent('File:' + fileName)}&prop=imageinfo&iiprop=url&format=json`,
-         { headers: { 'User-Agent': 'Mozilla/5.0 genshin-api/1.0' } }
+         { headers: { 'User-Agent': USER_AGENT } }
       );
       const d = await r.json();
       const page = Object.values(d.query.pages)[0];
@@ -91,7 +92,7 @@ async function wikiFileUrl(fileName) {
 
 async function fetchJSON(url) {
    const res = await fetch(url, {
-      headers: { 'User-Agent': 'genshin-api-updater/1.0 (github.com/devesh-anand/genshin-api)' },
+      headers: { 'User-Agent': USER_AGENT },
    });
    if (!res.ok) throw new Error(`HTTP ${res.status}`);
    return res.json();
@@ -99,7 +100,7 @@ async function fetchJSON(url) {
 
 async function downloadBuffer(url) {
    const res = await fetch(url, {
-      headers: { 'User-Agent': 'genshin-api-updater/1.0' },
+      headers: { 'User-Agent': USER_AGENT },
    });
    if (!res.ok) throw new Error(`HTTP ${res.status}`);
    return Buffer.from(await res.arrayBuffer());
@@ -163,6 +164,11 @@ async function processCharacter(charId, charRoute, existing) {
       d = res.data;
    } catch (e) {
       process.stdout.write(` FETCH_ERROR: ${e.message}`);
+      return;
+   }
+   // Never add unreleased content, however this script was invoked (list, slug or raw ID)
+   if (!isReleased(d)) {
+      process.stdout.write(' SKIPPED: not released yet');
       return;
    }
 

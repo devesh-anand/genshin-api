@@ -14,6 +14,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { cleanText } from './lib/text.mjs';
 import { isWeaponSkin } from './lib/discover.mjs';
+import { USER_AGENT } from './lib/source.mjs';
 
 dotenv.config();
 
@@ -62,7 +63,7 @@ function slugify(name) {
 }
 
 async function download(url) {
-   const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 genshin-api/1.0' } });
+   const r = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
    if (!r.ok) throw new Error(`HTTP ${r.status} from ${url}`);
    return Buffer.from(await r.arrayBuffer());
 }
@@ -80,7 +81,7 @@ async function tryUpload(url, key) {
 }
 
 // ── Fetch full weapon list ───────────────────────────────────────────────────
-const listRes = await fetch(YATTA);
+const listRes = await fetch(YATTA, { headers: { 'User-Agent': USER_AGENT } });
 const listJson = await listRes.json();
 const allWeapons = Object.values(listJson.data.items).filter(w => !isWeaponSkin(w.id));
 
@@ -109,7 +110,7 @@ for (const weapon of toProcess) {
    // Fetch full detail
    let detail;
    try {
-      const res = await fetch(`${YATTA}/${weapon.id}`);
+      const res = await fetch(`${YATTA}/${weapon.id}`, { headers: { 'User-Agent': USER_AGENT } });
       detail = (await res.json()).data;
    } catch (e) {
       console.log(` SKIP (fetch error: ${e.message})`);

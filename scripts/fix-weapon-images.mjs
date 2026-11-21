@@ -15,6 +15,7 @@ import * as dotenv from 'dotenv';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { USER_AGENT } from './lib/source.mjs';
 
 dotenv.config();
 
@@ -37,7 +38,7 @@ async function wikiUrl(fileName) {
    try {
       const r = await fetch(
          `${WIKI_API}?action=query&titles=${encodeURIComponent('File:' + fileName)}&prop=imageinfo&iiprop=url&format=json`,
-         { headers: { 'User-Agent': 'Mozilla/5.0 genshin-api/1.0' } }
+         { headers: { 'User-Agent': USER_AGENT } }
       );
       const d = await r.json();
       const page = Object.values(d.query.pages)[0];
@@ -46,7 +47,7 @@ async function wikiUrl(fileName) {
 }
 
 async function download(url) {
-   const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 genshin-api/1.0' } });
+   const r = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
    if (!r.ok) throw new Error(`HTTP ${r.status}`);
    return Buffer.from(await r.arrayBuffer());
 }
