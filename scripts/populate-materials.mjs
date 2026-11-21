@@ -26,6 +26,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { cleanText } from './lib/text.mjs';
+import { USER_AGENT } from './lib/source.mjs';
 
 dotenv.config();
 
@@ -80,14 +81,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchJSON(url) {
    const res = await fetch(url, {
-      headers: { 'User-Agent': 'genshin-api/1.0' },
+      headers: { 'User-Agent': USER_AGENT },
    });
    if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`);
    return res.json();
 }
 
 async function downloadBuffer(url) {
-   const res = await fetch(url, { headers: { 'User-Agent': 'genshin-api/1.0' } });
+   const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
    if (!res.ok) throw new Error(`HTTP ${res.status}`);
    return Buffer.from(await res.arrayBuffer());
 }

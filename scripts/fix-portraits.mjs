@@ -32,12 +32,12 @@ import { parseArgs } from 'util';
 import { BUCKET, PUBLIC_URL } from './lib/r2.mjs';
 import { opaqueBorder, removeWhiteBackground } from './lib/unmatte.mjs';
 import { CACHE_CONTROL, renderVariants, variantKey } from './lib/variants.mjs';
+import { USER_AGENT } from './lib/source.mjs';
 
 dotenv.config();
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, '../data/characters');
 const WIKI_API = 'https://genshin-impact.fandom.com/api.php';
-const UA = 'genshin-api-sync/1.0 (github.com/devesh-anand/genshin-api)';
 
 /** Wiki portrait files for characters whose stored portrait is the wrong art. */
 const PORTRAIT_FILES = {
@@ -66,7 +66,7 @@ const s3 = opts.write ? (() => {
 })() : null;
 
 async function download(url) {
-   const r = await fetch(url, { headers: { 'User-Agent': UA } });
+   const r = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
    if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`);
    if (!/^image\//.test(r.headers.get('content-type') ?? '')) throw new Error(`not an image: ${url}`);
    return Buffer.from(await r.arrayBuffer());
@@ -74,7 +74,7 @@ async function download(url) {
 
 async function wikiFile(name) {
    const r = await fetch(`${WIKI_API}?action=query&titles=${encodeURIComponent('File:' + name)}&prop=imageinfo&iiprop=url&format=json`,
-      { headers: { 'User-Agent': UA } });
+      { headers: { 'User-Agent': USER_AGENT } });
    const page = Object.values((await r.json()).query.pages)[0];
    const url = page.imageinfo?.[0]?.url;
    if (!url) throw new Error(`wiki file not found: ${name}`);

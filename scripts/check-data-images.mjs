@@ -18,6 +18,7 @@ import path from 'path';
 import { parseArgs } from 'util';
 import { VARIANT_WIDTHS, variantKey } from './lib/variants.mjs';
 import { DATA_DIR } from '../lib/paths.js';
+import { USER_AGENT } from './lib/source.mjs';
 
 const { values: opts } = parseArgs({
    options: {
@@ -64,7 +65,7 @@ async function head(url) {
    for (let attempt = 0; ; attempt++) {
       let status;
       try {
-         const r = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': 'genshin-api image check' } });
+         const r = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': USER_AGENT } });
          status = r.status;
       } catch {
          status = 'ERR';

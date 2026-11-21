@@ -99,6 +99,18 @@ All images are downloaded and re-uploaded to R2. The public R2 URL never changes
 
 ---
 
+## Source rules (every script)
+
+- **Only released content.** Character discovery (`scripts/lib/discover.mjs`) never probes IDs past
+  the highest one yatta lists, and every character must have a yatta `release` time in the past
+  (`isReleased` in `scripts/lib/source.mjs`); `populate-characters.mjs` re-checks it, so a run by raw
+  ID can't add an unreleased character either. Weapons, materials, enemies and artifact sets come
+  only from yatta's public lists (they have no release field to check).
+- **One honest User-Agent.** Every request sends `USER_AGENT` from `scripts/lib/source.mjs` (project
+  name + repo URL) — never a browser string. `scripts/lib/source.test.js` fails if a script
+  hard-codes its own.
+- **Be polite.** Scripts sleep between requests; keep it that way when adding new ones.
+
 ## Scripts
 
 For a normal patch update, run `node scripts/sync.mjs` (also runs weekly via `.github/workflows/sync.yml`). It finds new characters, weapons, materials and enemies on yatta.moe and calls `populate-characters` + `add-character-costs` (then `add-game-ids` for any character missing game IDs), `populate-weapons` + `add-weapon-costs`, `populate-materials` and `populate-enemies`. It does **not** handle traveler variants, so run `fix-traveler.mjs` by hand when a new traveler element ships. The per-script sections below are for that and for one-off fixes.
@@ -293,5 +305,5 @@ Older R2 folders (2022 uploads) have odd keys like `albedo/talent-na.png.png` an
 - **Slug overrides** — some characters have shortened slugs (e.g., `kuki-shinobu` → `kuki`). See `SLUG_OVERRIDES` in the scripts.
 - **Wiki CDN serves WebP** even for `.png` file requests. The `ContentType: 'image/png'` in R2 uploads is intentional (browsers handle it fine).
 - **Block comments with `*/` in strings** will break JS block comments — use `//` comments in scripts.
-- **Traveler Cryo game art** missing from wiki as of mid-2026 — uses promo event image instead. Check if `Character_Aether_Game_Cryo.png` has been added on future runs.
+- **Traveler Cryo game art** missing from wiki as of mid-2026, so `aether-cryo` / `lumine-cryo` `constellation.png` is a promo/tutorial image. (Portraits use the shared Traveler cutouts, so they're fine.) Re-run `fix-traveler.mjs` once `Character_Aether_Game_Cryo.png` exists on the wiki.
 - **Existing characters are never re-populated** (populate skips existing slugs). Some older characters have hand-curated images, so don't delete a character JSON just to regenerate it.

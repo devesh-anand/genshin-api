@@ -22,6 +22,7 @@ import * as dotenv from 'dotenv';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { USER_AGENT } from './lib/source.mjs';
 
 dotenv.config();
 
@@ -48,7 +49,7 @@ const YATTA_BASE = { aether: '10000005', lumine: '10000007' };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function downloadBuffer(url) {
-   const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 Chrome/120 genshin-api/1.0' } });
+   const r = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
    if (!r.ok) throw new Error(`HTTP ${r.status}`);
    return Buffer.from(await r.arrayBuffer());
 }
@@ -61,7 +62,7 @@ async function wikiUrl(fileName) {
    try {
       const r = await fetch(
          `${WIKI_API}?action=query&titles=${encodeURIComponent('File:' + fileName)}&prop=imageinfo&iiprop=url&format=json`,
-         { headers: { 'User-Agent': 'Mozilla/5.0 Chrome/120' } }
+         { headers: { 'User-Agent': USER_AGENT } }
       );
       const d = await r.json();
       const page = Object.values(d.query.pages)[0];
@@ -120,7 +121,7 @@ for (const slug of slugs) {
    // 3. Talent + constellation-level icons (element-specific, from yatta → Enka)
    let iconOk = 0, iconFail = 0;
    try {
-      const res = await fetch(`${YATTA}/api/v2/en/avatar/${yattaId}`, { headers: { 'User-Agent': 'genshin-api/1.0' } });
+      const res = await fetch(`${YATTA}/api/v2/en/avatar/${yattaId}`, { headers: { 'User-Agent': USER_AGENT } });
       const d = (await res.json()).data;
       const talents = Array.isArray(d.talent) ? d.talent : Object.values(d.talent || {});
       const consts  = Array.isArray(d.constellation) ? d.constellation : Object.values(d.constellation || {});

@@ -1,11 +1,12 @@
 /**
  * Shared discovery utilities for the sync framework.
  *
- * Core problem: yatta.moe's list endpoint sometimes lags behind its own
- * detail endpoints — new characters appear at /avatar/{id} days before they
- * show up in /avatar. This module probes the gap so sync.mjs never misses
- * a newly released character.
+ * yatta.moe's list endpoint sometimes lags behind its own detail endpoints, so characters are
+ * also probed by ID — but only inside the range the list already covers, never past the newest
+ * listed ID, and only characters whose release time has passed are returned (isReleased).
+ * Unreleased content must never reach data/ (CLAUDE.md, "Content rules").
  */
+import { USER_AGENT, isReleased } from './source.mjs';
 
 export const YATTA = 'https://gi.yatta.moe/api/v2/en';
 export const TRAVELER_IDS = new Set([10000005, 10000007]);
@@ -20,7 +21,7 @@ export async function fetchJSON(url, retries = 3) {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': 'genshin-api-sync/1.0 (github.com/devesh-anand/genshin-api)' },
+        headers: { 'User-Agent': USER_AGENT },
       });
       if (res.status === 404) return null;
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -68,38 +69,35 @@ export const SKIP_CHAR_SLUGS = new Set();
 // ── Character discovery ───────────────────────────────────────────────────────
 
 /**
- * Returns all character IDs that exist on yatta but are NOT yet in localSlugs.
+ * Released characters on yatta that are NOT yet in localSlugs.
  *
- * Strategy:
- *   1. Fetch yatta list → extract listed IDs and find the max listed ID.
- *   2. Build the set of IDs we want to probe: every integer in
- *      [min_gap, max_listed + PROBE_AHEAD] that isn't already listed.
- *   3. Hit /avatar/{id} for each candidate; keep those that return valid data.
+ *   1. The list: every entry whose release time has passed.
+ *   2. Gaps: IDs between the lowest and highest listed ID that the list skips (it can lag behind
+ *      the detail endpoint — e.g. Vesna 10000143 when the highest listed was 10000150). Each is
+ *      fetched and kept only if it has a release time in the past.
  *
- * This catches two cases:
- *   - Gap characters: IDs inside the listed range that yatta hasn't listed yet
- *     (e.g. Vesna 10000143 when max listed is 10000150).
- *   - Future characters: IDs above the current max (post-patch additions).
+ * Never probes past the highest listed ID: anything there is upcoming content.
+ * @returns {{ fromList: Array<{id, name, slug}>, fromProbe: Array<{id, name, slug}>, unreleased: Array<{id, name}> }}
  */
 export async function discoverNewCharacters(localSlugs) {
   const listRes = await fetchJSON(`${YATTA}/avatar`);
   if (!listRes) throw new Error('Failed to fetch yatta character list');
 
   // Traveler variants appear as composite string IDs ("10000005-pyro") — match on the base ID
-  const listed = Object.values(listRes.data?.items ?? {})
+  const all = Object.values(listRes.data?.items ?? {})
     .filter(c => !TRAVELER_IDS.has(Number(String(c.id).split('-')[0])))
     .filter(c => !SKIP_CHAR_SLUGS.has(charSlug(c.name)));
+  const unreleased = all.filter(c => !isReleased(c)).map(c => ({ id: c.id, name: c.name }));
+  const listed = all.filter(c => isReleased(c));
 
-  const listedIds = new Set(listed.map(c => c.id));
+  // Every listed ID (released or not), so gaps are only IDs the list really skips
+  const listedIds = new Set(all.map(c => c.id).filter(Number.isInteger));
 
-  // Find the range to probe: from the first ID that exists on yatta through max + PROBE_AHEAD
+  // Gaps inside the listed range only — never past the highest listed ID
   const minId = Math.min(...listedIds);
   const maxId = Math.max(...listedIds);
-  const PROBE_AHEAD = 20; // probe this many IDs beyond current max
-
-  // Candidates: integers in [minId, maxId + PROBE_AHEAD] NOT already in the list
   const candidates = [];
-  for (let id = minId; id <= maxId + PROBE_AHEAD; id++) {
+  for (let id = minId; id <= maxId; id++) {
     if (!listedIds.has(id) && !TRAVELER_IDS.has(id)) candidates.push(id);
   }
 
@@ -112,6 +110,7 @@ export async function discoverNewCharacters(localSlugs) {
     const res = await fetchJSON(`${YATTA}/avatar/${id}`);
     if (res?.data?.name) {
       const name = res.data.name;
+      if (!isReleased(res.data)) { unreleased.push({ id, name }); await sleep(200); continue; }
       const slug = charSlug(name);
       if (!SKIP_CHAR_SLUGS.has(slug) && !localSlugs.has(slug)) {
         newFromProbe.push({ id, name, slug });
@@ -123,6 +122,7 @@ export async function discoverNewCharacters(localSlugs) {
   return {
     fromList: newFromList.map(c => ({ id: c.id, name: c.name, slug: charSlug(c.name) })),
     fromProbe: newFromProbe,
+    unreleased,
   };
 }
 

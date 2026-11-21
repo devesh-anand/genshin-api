@@ -253,7 +253,7 @@ GET /weapons/primordial-jade-cutter
 }
 ```
 
-> **Image notes:** `icon` is the 256×256 inventory icon. `icon-awaken` is the refined/ascended variant. `wish` is a transparent-background cutout (512×1024). `full` is the high-res 3D render (~600×900). Not all weapons have `wish` and `full` (unreleased weapons may only have `icon`).
+> **Image notes:** `icon` is the 256×256 inventory icon. `icon-awaken` is the refined/ascended variant. `wish` is a transparent-background cutout (512×1024). `full` is the high-res 3D render (~600×900). Not all weapons have `wish` and `full` (newer weapons may only have `icon` until the wiki has their art).
 
 Returns `404` if the weapon is not found.
 
