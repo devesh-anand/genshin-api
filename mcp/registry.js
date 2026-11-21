@@ -10,5 +10,6 @@ import { tools as materials } from '../features/materials/mcp.js';
 import { tools as enemies } from '../features/enemies/mcp.js';
 import { tools as info } from '../features/info/mcp.js';
 import { tools as planner } from '../features/planner/mcp.js';
+import { tools as showcase } from '../features/showcase/mcp.js';
 
-export const TOOLSETS = [search, characters, weapons, artifacts, materials, enemies, info, planner];
+export const TOOLSETS = [search, characters, weapons, artifacts, materials, enemies, info, planner, showcase];

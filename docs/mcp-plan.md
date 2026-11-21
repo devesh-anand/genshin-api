@@ -28,6 +28,7 @@ so adding login later doesn't require restructuring.
 | 1 | MCP over stdio: core lookup tools; tested with MCP Inspector, Claude Code, Claude Desktop | ✅ #16, #17 |
 | 2 | Public `/mcp` (Streamable HTTP, stateless) on Railway; MCP-specific rate limit; usage logging | ✅ #18, #19 |
 | 3 | Material planner: `plan_materials`, `get_farming_schedule` + `POST /planner/*`; inventory + crafting | ✅ #20–#23 |
+| 3b | Showcase: `get_showcase` + `GET /showcase/:uid` via Enka.Network (public data, bounded cache, no storage); feeds the planner | in progress |
 | 4 | Teams & DPS: ingest public community calc DBs (check licenses/attribution); likely Postgres | next |
 | 5 | Accounts + wish history (desktop sync app); OAuth 2.1 on `/mcp`; personal tools | |
 

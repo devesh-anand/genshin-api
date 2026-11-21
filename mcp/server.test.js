@@ -54,7 +54,7 @@ describe('MCP: tool catalogue', () => {
       for (const n of [
          'search', 'list_characters', 'get_character', 'list_weapons', 'get_weapon', 'list_artifacts',
          'get_artifact', 'list_materials', 'get_material', 'list_enemies', 'get_enemy', 'get_game_info',
-         'plan_materials', 'get_farming_schedule',
+         'plan_materials', 'get_farming_schedule', 'get_showcase',
       ]) assert.ok(names.includes(n), `tool ${n} disappeared`);
    });
 
@@ -199,6 +199,13 @@ describe('MCP: planner tools', () => {
       const unknown = await call('plan_materials', { targets: [{ type: 'weapon', name: 'zzzzzzzzzz', level: { from: 1, to: 20 } }] });
       assert.equal(unknown.isError, true);
       assert.match(unknown.text, /No weapon matches/);
+   });
+});
+
+describe('MCP: showcase tool', () => {
+   it('get_showcase rejects a bad UID without calling Enka', async () => {
+      const r = await client.callTool({ name: 'get_showcase', arguments: { uid: '123' } });
+      assert.equal(r.isError, true);
    });
 });
 

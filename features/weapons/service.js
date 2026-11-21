@@ -6,6 +6,7 @@ import { WEAPON_ALIASES } from './aliases.js';
 
 export { WEAPON_ALIASES };
 import { pick } from '../../lib/objects.js';
+import { lazyIndex } from '../../lib/lazyIndex.js';
 
 export const SORT_FIELDS = {
    name:   'name',
@@ -41,6 +42,11 @@ export async function listWeapons({ type, rarity, sort, order } = {}) {
 }
 
 export const getWeapon = (slug) => weaponStore.getOne(slug);
+
+const byGameId = lazyIndex(weaponStore, (w) => (w.id ? Number(w.id) : null));
+
+/** Weapon by the game's item ID (as in Enka showcases, e.g. 15508), or null. */
+export const findWeaponByGameId = (id) => byGameId(Number(id));
 
 export async function findWeapon(name) {
    return resolveName(await weaponStore.getAll(), name, { aliases: WEAPON_ALIASES });

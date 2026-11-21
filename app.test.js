@@ -65,6 +65,12 @@ describe('REST API', () => {
       assert.equal(r.headers.get('cache-control'), 'public, max-age=300');
    });
 
+   it('health reports the showcase cache', async () => {
+      const { body } = await get('/health');
+      assert.ok(body.showcase_cache.max_entries > 0 && body.showcase_cache.max_bytes > 0);
+      assert.ok(body.showcase_cache.bytes <= body.showcase_cache.max_bytes);
+   });
+
    it('health is never cached', async () => {
       const r = await get('/health');
       assert.equal(r.body.status, 'ok');
@@ -113,6 +119,19 @@ describe('REST planner', () => {
 
    it('plans are not cached', async () => {
       assert.equal((await post('/planner/plan', { targets: [nahida] })).headers.get('cache-control'), null);
+   });
+});
+
+describe('REST showcase', () => {
+   // No network here: only paths that fail before any Enka request. Normalizing is covered
+   // by features/showcase/service.test.js against a saved response.
+   it('bad UIDs are 400 and errors are never cached', async () => {
+      for (const uid of ['123', 'abcdefghi', '0123456789']) {
+         const r = await get('/showcase/' + uid);
+         assert.equal(r.status, 400);
+         assert.match(r.body.error, /9 or 10 digits/);
+         assert.equal(r.headers.get('cache-control'), 'no-store');
+      }
    });
 });
 

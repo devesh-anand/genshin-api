@@ -9,6 +9,7 @@ import { CHARACTER_ALIASES } from './aliases.js';
 
 export { CHARACTER_ALIASES };
 import { omitKeys, pick } from '../../lib/objects.js';
+import { lazyGroups } from '../../lib/lazyIndex.js';
 
 /** Public sort keys → data fields. */
 export const SORT_FIELDS = {
@@ -60,6 +61,28 @@ export const getCharacter = (slug) => characterStore.getOne(slug);
 /** Loose name → { slug, suggestions } (see lib/nameResolver.js). */
 export async function findCharacter(name) {
    return resolveName(await characterStore.getAll(), name, { aliases: CHARACTER_ALIASES });
+}
+
+const byGameId = lazyGroups(characterStore, (c) => (Number.isInteger(c.id) ? c.id : null));
+
+const elementalSkillId = (c) => c.skillTalents?.find((t) => t.type === 'ELEMENTAL_SKILL')?.id;
+
+/**
+ * Character by the game's avatar ID (as in Enka showcases), or null.
+ * Travelers share one avatar ID per gender (an entry per element), so for them the element comes
+ * from the skill IDs the player data carries (each element has its own Elemental Skill), or else
+ * from `element`. With neither, a traveler is null rather than a guess.
+ * @param {number} id - e.g. 10000022
+ * @param {{ skillIds?: Array<number|string>, element?: string }} [hints] - e.g. skillIds [100553, 10067, 10068]
+ *   (Anemo Lumine), element 'Anemo'
+ */
+export async function findCharacterByGameId(id, { skillIds = [], element } = {}) {
+   const hits = await byGameId(Number(id));
+   if (hits.length <= 1) return hits[0] ?? null;
+   const ids = new Set(skillIds.map(Number));
+   return hits.find((e) => ids.has(elementalSkillId(e.data)))
+      ?? (element ? hits.find((e) => e.data.vision === element) : null)
+      ?? null;
 }
 
 export const listElements = () => characterStore.getDistinct('vision');
