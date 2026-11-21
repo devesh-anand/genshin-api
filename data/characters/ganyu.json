@@ -65,7 +65,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/ganyu/talent-na.png"
+      "img": "https://gi.deve.sh/ganyu/talent-na.png",
+      "id": 10371
     },
     {
       "name": "Trail of the Qilin",
@@ -94,7 +95,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/ganyu/talent-skill.png"
+      "img": "https://gi.deve.sh/ganyu/talent-skill.png",
+      "id": 10372
     },
     {
       "name": "Celestial Shower",
@@ -119,7 +121,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/ganyu/talent-burst.png"
+      "img": "https://gi.deve.sh/ganyu/talent-burst.png",
+      "id": 10373
     }
   ],
   "passiveTalents": [
@@ -779,5 +782,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000037
 }

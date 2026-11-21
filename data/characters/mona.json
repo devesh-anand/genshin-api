@@ -49,7 +49,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/mona/talent-na.png"
+      "img": "https://gi.deve.sh/mona/talent-na.png",
+      "id": 10411
     },
     {
       "name": "Reflection of Doom",
@@ -70,7 +71,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/mona/talent-skill.png"
+      "img": "https://gi.deve.sh/mona/talent-skill.png",
+      "id": 10412
     },
     {
       "name": "Stellaris Phantasm",
@@ -103,7 +105,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/mona/talent-burst.png"
+      "img": "https://gi.deve.sh/mona/talent-burst.png",
+      "id": 10415
     },
     {
       "name": "Illusory Torrent",
@@ -791,5 +794,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000041
 }

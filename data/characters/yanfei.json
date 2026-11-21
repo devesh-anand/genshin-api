@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/yanfei/talent-na.png"
+      "img": "https://gi.deve.sh/yanfei/talent-na.png",
+      "id": 10481
     },
     {
       "name": "Signed Edict",
@@ -70,7 +71,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/yanfei/talent-skill.png"
+      "img": "https://gi.deve.sh/yanfei/talent-skill.png",
+      "id": 10482
     },
     {
       "name": "Done Deal",
@@ -91,7 +93,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/yanfei/talent-burst.png"
+      "img": "https://gi.deve.sh/yanfei/talent-burst.png",
+      "id": 10485
     }
   ],
   "passiveTalents": [
@@ -751,5 +754,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000048
 }

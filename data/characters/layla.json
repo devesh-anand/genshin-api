@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/layla/talent-1.png"
+      "img": "https://gi.deve.sh/layla/talent-1.png",
+      "id": 10741
     },
     {
       "name": "Nights of Formal Focus",
@@ -24,7 +25,8 @@
       "description": "Puts forth a shield known as the Curtain of Slumber, dealing AoE Cryo DMG.\nThe Curtain of Slumber's DMG Absorption is based on Layla's Max HP and absorbs Cryo DMG with 250% effectiveness. When the shield is deployed, Layla will have Cryo applied to her briefly.\n\nNight Stars and Shooting Stars\nWhile the Curtain of Slumber is active, it will create 1 Night Star that will be attached to it every 1.5s. When a character protected by this shield uses an Elemental Skill, 2 Night Stars will be created. Night Stars can be created once every 0.3s in this way. A maximum of 4 Night Stars can be accumulated at any one time.\nOnce the Curtain of Slumber has accumulated 4 Night Stars and there are opponents nearby, these Night Stars will transform into homing Shooting Stars that will be fired off in sequence, dealing Cryo DMG to any opponents hit.\nIf the Curtain of Slumber's duration ends or it is destroyed, the Night Stars will disappear. If they are already being fired off as Shooting Stars, these Shooting Stars will last until this wave of shots ends.\n\nNew Night Stars cannot be created until the previous wave of Shooting Stars has been fired completely.\n\n\"She and I are like two master artisans who have never met, yet who sit at the same cushioned seat, embroidering the same dream-flower.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/layla/talent-skill.png"
+      "img": "https://gi.deve.sh/layla/talent-skill.png",
+      "id": 10742
     },
     {
       "name": "Dream of the Star-Stream Shaker",
@@ -32,7 +34,8 @@
       "description": "Unleashes a Celestial Dreamsphere that constantly fires Starlight Slugs at opponents within its AoE, dealing Cryo DMG.\nWhen a Starlight Slug hits, it will generate 1 Night Star for nearby Curtains of Slumber. Each Curtain of Slumber can gain 1 Night Star this way every 0.5s.\n\n\"Sleep now, sleep now; and may many destinies be revealed before your slumbering eyes, within your star-paved dreams.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/layla/talent-burst.png"
+      "img": "https://gi.deve.sh/layla/talent-burst.png",
+      "id": 10745
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/layla/gacha-splash.png",
     "icon": "https://gi.deve.sh/layla/icon.png",
     "icon-big": "https://gi.deve.sh/layla/icon-big.png",
-    "portrait": "https://gi.deve.sh/layla/portrait.png"
+    "portrait": "https://gi.deve.sh/layla/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000074
 }

@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/dahlia/talent-1.png"
+      "img": "https://gi.deve.sh/dahlia/talent-1.png",
+      "id": 11151
     },
     {
       "name": "Immersive Ordinance",
@@ -24,7 +25,8 @@
       "description": "Time for a fun little trick! Summons the Sacramental Shower in different ways depending on whether you Tap or Hold it.\n\nTap\nAfter a short prayer, summons the Sacramental Shower in front.\n\nHold\nEngages in continuous prayer, and when done, summons forth a Sacramental Shower in the designated position.\n\nSacramental Shower\nWhen opponents or nearby party members touch the Sacramental Shower, different effects will occur depending on the one who touches it:\nIf an opponent touches the Shower, it will explode and deal AoE Hydro DMG to nearby opponents.\nIf a nearby party member touches it, it will bounce the one who touches it high in the air.\n\nOnly 1 Sacramental Shower summoned by Dahlia himself can be on the field at once.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/dahlia/talent-skill.png"
+      "img": "https://gi.deve.sh/dahlia/talent-skill.png",
+      "id": 11152
     },
     {
       "name": "Radiant Psalter",
@@ -32,7 +34,8 @@
       "description": "Appeals to the divine with earnestness and song, dealing AoE Hydro DMG to nearby opponents and granting his party members Favonian Favor, summoning a Shield of Sacred Favor.\nThe Shield of Sacred Favor's DMG absorption is based on Dahlia's Max HP, and it will absorb Hydro DMG with 250% effectiveness.\n\nFavonian Favor\nWhile this effect is active, 1 Benison stack may be consumed to summon a new Shield of Sacred Favor when an existing Shield is broken via DMG.\n\nDahlia can obtain Benison via the following methods:\n· He will gain 1 Benison stack when his own active party member hits opponents 4 times with Normal Attacks while affected by Favonian Favor.\n· After triggering the effect of his Ascension Talent, \"The Wind's Gentle Grace\" (You must first unlock this Ascension Talent.)\nDahlia can gain a maximum of 4 Benison stacks per Favonian Favor duration.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/dahlia/talent-burst.png"
+      "img": "https://gi.deve.sh/dahlia/talent-burst.png",
+      "id": 11155
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/dahlia/gacha-splash.png",
     "icon": "https://gi.deve.sh/dahlia/icon.png",
     "icon-big": "https://gi.deve.sh/dahlia/icon-big.png",
-    "portrait": "https://gi.deve.sh/dahlia/portrait.png"
+    "portrait": "https://gi.deve.sh/dahlia/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000115
 }

@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/keqing/talent-na.png"
+      "img": "https://gi.deve.sh/keqing/talent-na.png",
+      "id": 10421
     },
     {
       "name": "Stellar Restoration",
@@ -78,7 +79,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/keqing/talent-skill.png"
+      "img": "https://gi.deve.sh/keqing/talent-skill.png",
+      "id": 10422
     },
     {
       "name": "Starward Sword",
@@ -107,7 +109,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/keqing/talent-burst.png"
+      "img": "https://gi.deve.sh/keqing/talent-burst.png",
+      "id": 10425
     }
   ],
   "passiveTalents": [
@@ -778,5 +781,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000042
 }

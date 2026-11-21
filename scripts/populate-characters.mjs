@@ -16,6 +16,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { BUCKET, PUBLIC_URL } from './lib/r2.mjs';
+import { cleanText } from './lib/text.mjs';
 
 dotenv.config();
 
@@ -68,9 +69,8 @@ const SLUG_OVERRIDES = {
 };
 
 // Characters to skip entirely (non-playable, bosses, NPCs, or confirmed unreleased)
-const SKIP_SLUGS = new Set([
-   'manekin', 'manekina',  // test/placeholder characters
-]);
+// (Manekin/Manekina used to be listed here as "test" entries — they're live, playable characters)
+const SKIP_SLUGS = new Set([]);
 
 // Skip Traveler — handled as separate traveler-{element}.json files
 const TRAVELER_IDS = new Set([10000005, 10000007]);
@@ -110,7 +110,8 @@ async function uploadToR2(r2Key, buffer) {
    return `${PUBLIC_URL}/${r2Key}`;
 }
 
-// Try each URL in order; upload the first that succeeds. Returns public URL.
+// Try each URL in order; upload the first that succeeds. Returns public URL, or null if none worked
+// (never a URL to an object that isn't in R2).
 async function tryImg(candidates, r2Key) {
    for (const url of candidates) {
       if (!url) continue;
@@ -124,23 +125,12 @@ async function tryImg(candidates, r2Key) {
       }
    }
    process.stdout.write('✗');
-   return `${PUBLIC_URL}/${r2Key}`; // placeholder — image will be missing in R2
+   return null;
 }
 
 function titleCase(str) {
    if (!str) return '';
    return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-}
-
-// Strip Genshin's in-game text markup: <color=#...>, </color>, <i>, </i>
-function cleanText(str) {
-   if (!str) return '';
-   return str
-      .replace(/<color=#[0-9A-Fa-f]+>/g, '')
-      .replace(/<\/color>/g, '')
-      .replace(/<\/?i>/g, '')
-      .replace(/\\n/g, '\n')
-      .trim();
 }
 
 function formatBirthday(arr) {
@@ -178,9 +168,13 @@ async function processCharacter(charId, charRoute, existing) {
 
    const iconName = d.icon || `UI_AvatarIcon_${slug}`;
    const internalName = iconName.replace('UI_AvatarIcon_', '');
-   const vision = ELEMENT_MAP[d.element] || d.element || 'Unknown';
+   // Some characters have no fixed element (Manekin/Manekina switch freely) — store null, not a fake element
+   const vision = d.element ? (ELEMENT_MAP[d.element] || d.element) : null;
    const weaponInfo = WEAPON_MAP[d.weaponType] || { display: d.weaponType || '', key: d.weaponType || '' };
-   const nation = titleCase(d.region);
+   // yatta suffixes some regions (e.g. SNEZHNAYA_STAR for Fatui Harbingers) — keep only the nation
+   // MAINACTOR is yatta's region for player-avatar characters (Manekin/Manekina) — not a nation
+   const region = (d.region || '').split('_')[0];
+   const nation = !region || region === 'MAINACTOR' ? 'Unknown' : titleCase(region);
    const yattaUI = `${YATTA}/assets/UI`;
 
    // talent is a 0-indexed array:
@@ -334,7 +328,8 @@ async function processCharacter(charId, charRoute, existing) {
       vision,
       weapon: weaponInfo.display,
       nation,
-      affiliation: d.fetter?.native || '',
+      // yatta uses '——' as an empty placeholder
+      affiliation: /^[—-]*$/.test(d.fetter?.native || '') ? '' : d.fetter.native,
       rarity: d.rank,
       constellation: d.fetter?.constellation || '',
       birthday: formatBirthday(d.birthday),
@@ -342,7 +337,7 @@ async function processCharacter(charId, charRoute, existing) {
       skillTalents,
       passiveTalents,
       constellations,
-      vision_key: vision.toUpperCase(),
+      vision_key: vision ? vision.toUpperCase() : null,
       weapon_type: weaponInfo.key,
       img: {
          card,
@@ -387,7 +382,7 @@ async function main() {
 
    let processed = 0;
    for (const char of characters) {
-      if (TRAVELER_IDS.has(char.id)) continue;
+      if (TRAVELER_IDS.has(Number(String(char.id).split('-')[0]))) continue;
       // Skip yatta entries that resolve to traveler-boy/girl slugs (duplicates of aether-*/lumine-*)
       if (/traveler-(boy|girl)$/.test(getSlug(char.route))) continue;
 

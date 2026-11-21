@@ -12,13 +12,13 @@ For contribution guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Caching
 
-All `GET` endpoints set `Cache-Control: public, max-age=3600` (1 hour) by default. Clients and CDNs may cache responses for up to an hour. The `/health` endpoint is always fresh (`no-store`). The `/search` endpoint caches for 5 minutes.
+All `GET` endpoints set `Cache-Control: public, max-age=3600` (1 hour) by default. Clients and CDNs may cache responses for up to an hour. The `/health` endpoint is always fresh (`no-store`). The `/search` endpoint caches for 5 minutes. `/showcase/:uid` caches until Enka.Network would refresh that player (about a minute); its errors are never cached.
 
 ---
 
 ## Rate Limiting
 
-100 requests per minute per IP. Exceeding the limit returns `429` with:
+100 requests per minute per IP (`/showcase` also has its own limit of 10 per minute). Exceeding the limit returns `429` with:
 ```json
 { "error": "Too many requests. Please try again in a minute." }
 ```
@@ -124,11 +124,16 @@ GET /characters/aether-pyro
   "constellation": "Sapientia Oromasdis",
   "birthday": "0000-10-27",
   "description": "...",
-  "skillTalents": [...],
+  "skillTalents": [
+    { "name": "Akara", "unlock": "Normal Attack", "type": "NORMAL_ATTACK", "id": 10731, ... },
+    { "name": "All Schemes to Know", "unlock": "Elemental Skill", "type": "ELEMENTAL_SKILL", "id": 10732, ... },
+    { "name": "Illusory Heart", "unlock": "Elemental Burst", "type": "ELEMENTAL_BURST", "id": 10735, ... }
+  ],
   "passiveTalents": [...],
   "constellations": [...],
   "vision_key": "DENDRO",
   "weapon_type": "CATALYST",
+  "id": 10000073,
   "img": {
     "card": "https://...",
     "constellation": "https://...",
@@ -141,6 +146,10 @@ GET /characters/aether-pyro
 ```
 
 Returns `404` if the character is not found.
+
+`id` is the game's avatar ID, and each levelable talent in `skillTalents` has its game skill `id`, so
+player data that only has IDs (like [showcases](#showcase)) can be matched. Travelers share an `id` per
+gender; their talent IDs tell the elements apart.
 
 ---
 
@@ -388,6 +397,81 @@ Errors: `400` invalid input, `404` unknown character/weapon name (with suggestio
 
 ---
 
+## Showcase
+
+### `GET /showcase/:uid`
+
+A player's in-game **Character Showcase**, looked up through [Enka.Network](https://enka.network). Only the
+characters the player put on their showcase with **Show Character Details** turned on are visible.
+Everything is matched to this API's own records: `key` fields work with `/characters/:name`,
+`/weapons/:name` and `/artifacts/:name`.
+
+```
+GET /showcase/800000000
+```
+
+**Response** (one character shown, lists trimmed):
+```json
+{
+  "player": {
+    "uid": "800000000", "nickname": "…", "adventure_rank": 59, "world_level": 9, "signature": "…",
+    "achievements": 821, "abyss": "12-3", "abyss_stars": 36, "theater": { "act": 8, "stars": 6 },
+    "profile_picture": { "key": "raiden", "name": "Raiden Shogun", "img": "https://…" }, "namecard_id": 210092
+  },
+  "characters": [
+    {
+      "key": "venti", "id": 10000022, "name": "Venti", "element": "Anemo", "rarity": 5, "weapon_type": "BOW",
+      "level": 90, "ascension": 6, "ascended": false, "max_level": 90, "constellation": 0, "friendship": 10,
+      "talents": {
+        "normal_attack": { "name": "Divine Marksmanship", "level": 8, "bonus": 0 },
+        "elemental_skill": { "name": "Skyward Sonnet", "level": 6, "bonus": 0 },
+        "elemental_burst": { "name": "Wind's Grand Ode", "level": 9, "bonus": 0 }
+      },
+      "weapon": {
+        "key": "aqua-simulacra", "id": 15508, "name": "Aqua Simulacra", "type": "Bow", "rarity": 5,
+        "level": 90, "ascension": 6, "ascended": false, "max_level": 90, "refinement": 1, "base_atk": 542,
+        "sub_stat": { "key": "crit_dmg", "name": "CRIT DMG", "value": 88.2, "percent": true }, "img": "https://…"
+      },
+      "artifacts": [
+        {
+          "slot": "plume", "set": { "key": "viridescent-venerer", "id": 15002, "name": "Viridescent Venerer" },
+          "name": "Viridescent Arrow Feather", "rarity": 5, "level": 20,
+          "main_stat": { "key": "atk", "name": "ATK", "value": 311, "percent": false },
+          "substats": [{ "key": "crit_rate", "name": "CRIT Rate", "value": 13.2, "percent": true }],
+          "crit_value": 32.6, "img": "https://…"
+        }
+      ],
+      "set_bonuses": [{ "key": "viridescent-venerer", "name": "Viridescent Venerer", "pieces": 3, "bonus": 2 }],
+      "crit_value": 76.8,
+      "stats": [{ "key": "hp", "name": "HP", "value": 14038, "percent": false }],
+      "img": { "icon": "https://…", "card": "https://…", "portrait": "https://…" }
+    }
+  ],
+  "details_hidden": false,
+  "listed": [{ "key": "venti", "id": 10000022, "name": "Venti", "level": 90 }],
+  "fetched_at": "2026-11-21T08:26:17.776Z",
+  "cached_until": "2026-11-21T08:27:17.776Z",
+  "source": "Enka.Network"
+}
+```
+
+- Percent stats (`percent: true`) are already percentages: `13.2` means 13.2%.
+- `talents.*.level` is the level the player raised it to; `bonus` is what constellations add on top.
+- `ascended: true` means the level is a cap (20/40/…/80) and was already ascended past, the same
+  meaning as `from_ascended` in the [planner](#planner).
+- `artifacts[].level` is the in-game +0…+20. `crit_value` is 2 × CRIT Rate + CRIT DMG from substats.
+- `set_bonuses[].bonus` is the highest set bonus reached (2 or 4 pieces).
+- `details_hidden: true` with empty `characters` means the showcase is empty or details are turned off;
+  `listed` still shows which characters are on it.
+- A `key` is `null` when something is newer than this API's data.
+
+Errors: `400` not a 9–10 digit UID, `404` no player with that UID, `503` (with `Retry-After`) when
+Enka.Network is down, busy or updating after a game patch.
+
+Nothing is stored: each UID is kept in a size-limited memory cache until Enka would refresh it, then dropped.
+
+---
+
 ## Search
 
 ### `GET /search?q=`
@@ -427,7 +511,7 @@ Returns `400` if query is shorter than 2 characters.
 
 ### `GET /health`
 
-Returns server status, uptime, and total counts for each resource.
+Returns server status, uptime, total counts for each resource, and the showcase cache's size and hit counts.
 
 ```json
 {
@@ -437,6 +521,10 @@ Returns server status, uptime, and total counts for each resource.
     "characters": 102,
     "weapons": 270,
     "artifacts": 63
+  },
+  "showcase_cache": {
+    "entries": 2, "max_entries": 2000, "bytes": 55283, "max_bytes": 33554432,
+    "hits": 1, "misses": 2, "in_flight": 0, "queued": 0
   }
 }
 ```
@@ -455,6 +543,7 @@ like Claude can look up characters, weapons, artifacts, materials and enemies di
   `get_artifact`, `list_materials`, `get_material`, `list_enemies`, `get_enemy`, `get_game_info`
 - Planner: `plan_materials` (everything a build needs, optionally after your inventory) and
   `get_farming_schedule` (what to farm where, by weekday) — same engine as [`/planner`](#planner)
+- Showcase: `get_showcase` (a player's showcased builds by UID, with ready-made planner targets) — same data as [`/showcase`](#showcase)
 
 **claude.ai / Claude apps:** Settings → Connectors → *Add custom connector* → paste the endpoint URL.
 

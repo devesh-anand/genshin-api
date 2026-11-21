@@ -61,7 +61,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/beidou/talent-na.png"
+      "img": "https://gi.deve.sh/beidou/talent-na.png",
+      "id": 10241
     },
     {
       "name": "Tidecaller",
@@ -86,7 +87,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/beidou/talent-skill.png"
+      "img": "https://gi.deve.sh/beidou/talent-skill.png",
+      "id": 10242
     },
     {
       "name": "Stormbreaker",
@@ -119,7 +121,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/beidou/talent-burst.png"
+      "img": "https://gi.deve.sh/beidou/talent-burst.png",
+      "id": 10245
     }
   ],
   "passiveTalents": [
@@ -785,5 +788,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000024
 }

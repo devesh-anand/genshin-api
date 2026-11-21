@@ -33,6 +33,15 @@ async function fetchJSON(url) {
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// Characters whose progression doesn't use materials (Manekin/Manekina level in Miliastra
+// Wonderland; yatta lists talent costs for them, but the game doesn't use them).
+// They get empty cost tables in the normal shape so consumers needn't special-case them.
+const NO_COST_CHARS = new Set(['manekin', 'manekina']);
+const EMPTY_COSTS = {
+  ascension_costs: [],
+  talent_costs: { normal_attack: [], elemental_skill: [], elemental_burst: [] },
+};
+
 async function buildMatMap() {
   const files = await fs.readdir(MATS_DIR);
   const map = new Map();
@@ -132,6 +141,14 @@ async function main() {
 
     if (!targetSlug && charData.ascension_costs) {
       skipped++;
+      continue;
+    }
+
+    if (NO_COST_CHARS.has(slug)) {
+      await fs.writeFile(path.join(CHARS_DIR, file), JSON.stringify({ ...charData, ...EMPTY_COSTS }, null, 2));
+      process.stdout.write(`
+→ ${slug.padEnd(42)} ✓ (no material costs)`);
+      processed++;
       continue;
     }
 

@@ -16,7 +16,8 @@
       "description": "Normal Attack\nCoalescing frost about his fist, Wriothesley will unleash powerful Repelling Fists, performing up to 5 rapid attacks that deal Cryo DMG.\nApart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.\n\nCharged Attack\nConsumes a fixed amount of Stamina to leap and unleash a Vaulting Fist, dealing AoE Cryo DMG.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE Cryo DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/wriothesley/talent-1.png"
+      "img": "https://gi.deve.sh/wriothesley/talent-1.png",
+      "id": 10861
     },
     {
       "name": "Icefang Rush",
@@ -24,7 +25,8 @@
       "description": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the Chilling Penalty state and unleashing more powerful attacks than before.\n\nChilling Penalty\n·Increases Wriothesley's interruption resistance\n·When his HP is above 50%, it will enhance the Repelling Fists of Normal Attack: Forceful Fists of Frost and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.\nThis effect will be canceled should Wriothesley leave the field.\n\n\"Past convictions are past. It is our future choices that we must grasp.\"\n\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/wriothesley/talent-skill.png"
+      "img": "https://gi.deve.sh/wriothesley/talent-skill.png",
+      "id": 10862
     },
     {
       "name": "Darkgold Wolfbite",
@@ -32,7 +34,8 @@
       "description": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of AoE Cryo DMG in a frontal area.\n\nArkhe: Ousia\nAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned Cryo DMG.\n\nThere are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/wriothesley/talent-burst.png"
+      "img": "https://gi.deve.sh/wriothesley/talent-burst.png",
+      "id": 10865
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000086
 }

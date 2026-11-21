@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/zibai/talent-1.png"
+      "img": "https://gi.deve.sh/zibai/talent-1.png",
+      "id": 11261
     },
     {
       "name": "Heaven and Earth Made Manifest",
@@ -24,7 +25,8 @@
       "description": "Summoning a shadow of her former powers, she switches to the Lunar Phase Shift mode.\nIn this mode, Zibai's Normal Attacks and Charged Attacks will deal Geo DMG that cannot be overridden by other infusions, and she can accrue special Phase Shift Radiance through different methods. Zibai can consume Phase Shift Radiance to unleash the special Elemental Skill Spirit Steed's Stride.\n\nMoonsign: Ascendant Gleam\nWhile in the Lunar Phase Shift mode, when Zibai performs Normal Attacks, the fourth attack will deal an additional instance of Geo DMG, which is considered Lunar-Crystallize Reaction DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/zibai/talent-skill.png"
+      "img": "https://gi.deve.sh/zibai/talent-skill.png",
+      "id": 11262
     },
     {
       "name": "Tri-Sphere Eminence",
@@ -32,7 +34,8 @@
       "description": "Zibai operates the Jadelight Canopy, dealing two instances of Geo DMG, with the second damage instance being considered Lunar-Crystallize Reaction DMG.\nWhen cast, if Zibai is in the Lunar Phase Shift, the duration of the current Lunar Phase Shift will extend by an additional 1.7s.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/zibai/talent-burst.png"
+      "img": "https://gi.deve.sh/zibai/talent-burst.png",
+      "id": 11265
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000126
 }

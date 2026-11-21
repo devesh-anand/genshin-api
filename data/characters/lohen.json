@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 5 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform a forward thrust.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/lohen/talent-1.png"
+      "img": "https://gi.deve.sh/lohen/talent-1.png",
+      "id": 11291
     },
     {
       "name": "Unforeseen Strike",
@@ -24,7 +25,8 @@
       "description": "As he searches for weaknesses, Lohen switches to Masterstroke mode. While in this state:\n· Lohen can actively accumulate Joy, using it to unleash the special Elemental Skill Etched Into Bone and Soul.\n· Nearby party members can accumulate Will to Win for Lohen, increasing the DMG dealt by Etched Into Bone and Soul.\nLohen can unleash Etched Into Bone and Soul up to 3 times while in Masterstroke mode, after which, he will no longer be able to accumulate Joy.\n\n\"Chivalry? Hah, what better way to bait the trap? When an enemy dreams of an honorable victory, they inevitably fail to suspect the 'pleasant surprise' that awaits them.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/lohen/talent-skill.png"
+      "img": "https://gi.deve.sh/lohen/talent-skill.png",
+      "id": 11292
     },
     {
       "name": "Manifest Judgment",
@@ -32,7 +34,8 @@
       "description": "Performs a swift series of forward strikes, consuming all Will to Win and dealing Cryo DMG. This DMG will be increased based on the amount of Will to Win consumed. If Lohen is in Masterstroke mode when this is performed, the duration of Masterstroke will be extended by 1.65s.\n\n\"So quick to cave? What a pity, I was just starting to enjoy myself...\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/lohen/talent-burst.png"
+      "img": "https://gi.deve.sh/lohen/talent-burst.png",
+      "id": 11295
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000129
 }

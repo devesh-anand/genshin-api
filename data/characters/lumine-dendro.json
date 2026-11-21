@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/lumine-dendro/talent-1.png"
+      "img": "https://gi.deve.sh/lumine-dendro/talent-1.png",
+      "id": 100557
     },
     {
       "name": "Razorgrass Blade",
@@ -24,7 +25,8 @@
       "description": "With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.\n\nYou and Paimon observed the flowing edges of grass and leaf.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/lumine-dendro/talent-skill.png"
+      "img": "https://gi.deve.sh/lumine-dendro/talent-skill.png",
+      "id": 10117
     },
     {
       "name": "Surgent Manifestation",
@@ -32,7 +34,8 @@
       "description": "Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.\nThis Lamp will deal continuous Dendro DMG to opponents within its AoE.\n\nLotuslight Transfiguration\nThe Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:\n·Hydro: the Lamp's AoE and the AoE of its attacks are increased.\n·Electro: the Lamp's ATK SPD is increased.\n·Pyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.\nThe Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.\n\nOnly one Lamp created by the Traveler can exist at any one time.\n\nYou and Paimon studied the sounds of plants that sprout after the rain.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/lumine-dendro/talent-burst.png"
+      "img": "https://gi.deve.sh/lumine-dendro/talent-burst.png",
+      "id": 10118
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/lumine-dendro/gacha-splash.png",
     "icon": "https://gi.deve.sh/lumine-dendro/icon.png",
     "icon-big": "https://gi.deve.sh/lumine-dendro/icon-big.png",
-    "portrait": "https://gi.deve.sh/lumine-dendro/portrait.png"
+    "portrait": "https://gi.deve.sh/lumine-dendro/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -672,5 +675,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000007
 }

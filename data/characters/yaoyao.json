@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 consecutive spear strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/yaoyao/talent-1.png"
+      "img": "https://gi.deve.sh/yaoyao/talent-1.png",
+      "id": 10771
     },
     {
       "name": "Raphanus Sky Cluster",
@@ -24,7 +25,8 @@
       "description": "Calls upon \"Yuegui: Throwing Mode,\" a special device created by a certain adeptus to help Yaoyao solve her problems.\nThis skill will be used differently in Holding Mode.\n\nHold\nEnters Aiming Mode to adjust the throw direction.\n\nYuegui: Throwing Mode\nThrows out White Jade Radishes that will explode upon hitting characters or opponents, dealing Dendro DMG to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao's Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.\nYuegui: Throwing Mode will choose its radish-throw targets.\n·If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.\n·If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.\n\nA maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.\n\n\"A radish a day keeps trouble away! ... Oh, this isn't about a radish's medical properties, exactly, but it does have some health benefits, yeah!\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/yaoyao/talent-skill.png"
+      "img": "https://gi.deve.sh/yaoyao/talent-skill.png",
+      "id": 10772
     },
     {
       "name": "Moonjade Descent",
@@ -32,7 +34,8 @@
       "description": "At the enjoinment of a certain adeptus, Yuegui's full potential can be unleashed in an emergency, dealing Dendro DMG to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.\n\nAdeptal Legacy\n·White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the Dendro DMG that they deal will be viewed as Elemental Burst DMG instead.\n·Summons \"Yuegui: Jumping Mode\" at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \"Yuegui: Throwing Mode\" in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.\n·Yaoyao's Movement SPD is increased by 15%.\n·Yaoyao's Dendro RES will be increased.\n\nThe Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.\n\n\"Eh? Which one of these is actually Yuegui, you ask? Aren't they all Yuegui?\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/yaoyao/talent-burst.png"
+      "img": "https://gi.deve.sh/yaoyao/talent-burst.png",
+      "id": 10775
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/yaoyao/gacha-splash.png",
     "icon": "https://gi.deve.sh/yaoyao/icon.png",
     "icon-big": "https://gi.deve.sh/yaoyao/icon-big.png",
-    "portrait": "https://gi.deve.sh/yaoyao/portrait.png"
+    "portrait": "https://gi.deve.sh/yaoyao/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000077
 }

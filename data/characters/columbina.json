@@ -16,7 +16,8 @@
       "description": "Normal Attack\nSummons Moonlit Tides, performing up to 3 attacks that deal Hydro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Hydro DMG after a short casting time.\nIf you have at least 1 Verdant Dew, Columbina's Charged Attacks will be replaced with the special Charged Attack Moondew Cleanse, which will not consume Stamina: Consume 1 Verdant Dew to deal 3 instances of AoE Dendro DMG to opponents in front. This DMG is considered Lunar-Bloom DMG.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/columbina/talent-1.png"
+      "img": "https://gi.deve.sh/columbina/talent-1.png",
+      "id": 11251
     },
     {
       "name": "Eternal Tides",
@@ -24,7 +25,8 @@
       "description": "Awaken Moonbound Tides, dealing AoE Hydro DMG and summoning Gravity Ripple.\nGravity Ripple will follow the active character on the field, while continuously dealing AoE Hydro DMG to surrounding opponents. While Gravity Ripple is on the field, and nearby party members trigger Lunar reactions or inflict Lunar Reaction DMG, Columbina will accrue a special Gravity. Once Gravity is accumulated to its limit, different types of damage will be dealt to enemies based on the type of Lunar Reaction that has accumulated the most Gravity for Columbina.\nMoonsign: Ascendant Gleam: Gravity Ripple inflicts AoE Hydro DMG over a wider area.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/columbina/talent-skill.png"
+      "img": "https://gi.deve.sh/columbina/talent-skill.png",
+      "id": 11252
     },
     {
       "name": "Moonlit Melancholy",
@@ -32,7 +34,8 @@
       "description": "Hills and tides unite under the silver light of a pristine new moon. Temporarily transforms the surrounding terrain into Lunar Domain, dealing  AoE Hydro DMG.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/columbina/talent-burst.png"
+      "img": "https://gi.deve.sh/columbina/talent-burst.png",
+      "id": 11255
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000125
 }

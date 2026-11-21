@@ -55,7 +55,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/amber/talent-na.png"
+      "img": "https://gi.deve.sh/amber/talent-na.png",
+      "id": 10041
     },
     {
       "name": "Explosive Puppet",
@@ -76,7 +77,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/amber/talent-skill.png"
+      "img": "https://gi.deve.sh/amber/talent-skill.png",
+      "id": 10032
     },
     {
       "name": "Fiery Rain",
@@ -105,7 +107,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/amber/talent-burst.png"
+      "img": "https://gi.deve.sh/amber/talent-burst.png",
+      "id": 10017
     }
   ],
   "passiveTalents": [
@@ -765,5 +768,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000021
 }

@@ -16,7 +16,8 @@
       "description": "Normal Attack\nCalls upon secret arts passed down through the Masters of the Night-Wind from generation to generation, performing up to three strikes that deal Cryo DMG.\n\nCharged Attack\nEnters Aiming Mode, and after Holding, consumes a certain amount of Stamina to call forth a Frost Star that deals Cryo DMG to opponents in its path.\n\nPlunging Attack\nGathers the power of Cryo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals Aoe Cryo DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/citlali/talent-1.png"
+      "img": "https://gi.deve.sh/citlali/talent-1.png",
+      "id": 11071
     },
     {
       "name": "Dawnfrost Darkstar",
@@ -24,7 +25,8 @@
       "description": "Invoking secret pacts passed down by her tribe over the millennia, Citlali deploys an Opal Shield and calls forth \"Obsidian Tzitzimitl: Itzpapa,\" a creature that is (reputedly) terrifying beyond compare, dealing Nightsoul-aligned AoE Cryo DMG.\nThe Opal Shield's DMG absorption scales based on Citlali's Elemental Mastery, and absorbs Cryo DMG with 250% efficiency. When it is deployed, it will cause Citlali to briefly be affected by Cryo.\nAfter using this skill, Citlali gains 24 Nightsoul points and enters the Nightsoul's Blessing state.\n\nNightsoul's Blessing: Citlali\nWhen Itzpapa leaves the field, Citlali exits the Nightsoul's Blessing state.\n\nItzpapa\n·Itzpapa will follow the character.\n·If Citlali has at least 50 Nightsoul points, Itzpapa enters the Opal Fire state and continuously consumes Nightsoul points to whip up a Frostfall Storm that follows the character and attacks opponents within its AoE, dealing Nightsoul-aligned Cryo DMG.\n·When Citlali's Nightsoul points are fully depleted, Itzpapa's Opal Fire state also ends.\n\nUsually, the wills that symbolize different stars cannot coexist, for how can purest black be reflected in purest white?\nBe that as it may, Citlali has never harbored a particular preference for colors themselves, and that is just how things played out.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/citlali/talent-skill.png"
+      "img": "https://gi.deve.sh/citlali/talent-skill.png",
+      "id": 11072
     },
     {
       "name": "Elemental Burst",
@@ -32,7 +34,8 @@
       "description": "",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/citlali/talent-burst.png"
+      "img": "https://gi.deve.sh/citlali/talent-burst.png",
+      "id": 11075
     }
   ],
   "passiveTalents": [
@@ -121,7 +124,7 @@
     "banner": "https://gi.deve.sh/citlali/gacha-splash.png",
     "icon": "https://gi.deve.sh/citlali/icon.png",
     "icon-big": "https://gi.deve.sh/citlali/icon-big.png",
-    "portrait": "https://gi.deve.sh/citlali/portrait.png"
+    "portrait": "https://gi.deve.sh/citlali/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -704,5 +707,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000107
 }

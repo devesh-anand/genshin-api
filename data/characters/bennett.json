@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/bennett/talent-na.png"
+      "img": "https://gi.deve.sh/bennett/talent-na.png",
+      "id": 10321
     },
     {
       "name": "Passion Overload",
@@ -82,7 +83,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/bennett/talent-skill.png"
+      "img": "https://gi.deve.sh/bennett/talent-skill.png",
+      "id": 10322
     },
     {
       "name": "Fantastic Voyage",
@@ -115,7 +117,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/bennett/talent-burst.png"
+      "img": "https://gi.deve.sh/bennett/talent-burst.png",
+      "id": 10323
     }
   ],
   "passiveTalents": [
@@ -775,5 +778,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000032
 }

@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/chiori/talent-1.png"
+      "img": "https://gi.deve.sh/chiori/talent-1.png",
+      "id": 10941
     },
     {
       "name": "Fluttering Hasode",
@@ -24,7 +25,8 @@
       "description": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing AoE Geo DMG to nearby opponents based on her ATK and DEF.\nHolding the Skill will cause it to behave differently.\n\nHold\nEnter Aiming Mode to adjust the dash direction.\n\nTamoto\n· Will slash at nearby opponents at intervals, dealing AoE Geo DMG based on Chiori's ATK and DEF.\n· While active, if there are nearby Geo Construct(s) or Geo Construct(s) are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.\n\n\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/chiori/talent-skill.png"
+      "img": "https://gi.deve.sh/chiori/talent-skill.png",
+      "id": 10942
     },
     {
       "name": "Hiyoku: Twin Blades",
@@ -32,7 +34,8 @@
       "description": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing AoE Geo DMG based on her ATK and DEF.\n\n\"Master one principle, and the path to all others shall open to you.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/chiori/talent-burst.png"
+      "img": "https://gi.deve.sh/chiori/talent-burst.png",
+      "id": 10945
     }
   ],
   "passiveTalents": [
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000094
 }

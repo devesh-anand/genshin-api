@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 5 rapid strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/aether-anemo/talent-1.png"
+      "img": "https://gi.deve.sh/aether-anemo/talent-1.png",
+      "id": 100543
     },
     {
       "name": "Palm Vortex",
@@ -24,7 +25,8 @@
       "description": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\nHold\nDMG and AoE will gradually increase.\n\nElemental Absorption\nIf the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\nYou discussed the way to grasp the formless wind with Paimon.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/aether-anemo/talent-skill.png"
+      "img": "https://gi.deve.sh/aether-anemo/talent-skill.png",
+      "id": 10067
     },
     {
       "name": "Gust Surge",
@@ -32,7 +34,8 @@
       "description": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.\n\nElemental Absorption\nIf the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.\n\nYou and Paimon studied the flapping of a butterfly's wings.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/aether-anemo/talent-burst.png"
+      "img": "https://gi.deve.sh/aether-anemo/talent-burst.png",
+      "id": 10068
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/aether-anemo/gacha-splash.png",
     "icon": "https://gi.deve.sh/aether-anemo/icon.png",
     "icon-big": "https://gi.deve.sh/aether-anemo/icon-big.png",
-    "portrait": "https://gi.deve.sh/aether-anemo/portrait.png"
+    "portrait": "https://gi.deve.sh/aether-anemo/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -672,5 +675,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000005
 }

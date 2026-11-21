@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/ayato/talent-na.png"
+      "img": "https://gi.deve.sh/ayato/talent-na.png",
+      "id": 10661
     },
     {
       "name": "Kamisato Art: Kyouka",
@@ -94,7 +95,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/ayato/talent-skill.png"
+      "img": "https://gi.deve.sh/ayato/talent-skill.png",
+      "id": 10662
     },
     {
       "name": "Kamisato Art: Suiyuu",
@@ -123,7 +125,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/ayato/talent-burst.png"
+      "img": "https://gi.deve.sh/ayato/talent-burst.png",
+      "id": 10665
     }
   ],
   "passiveTalents": [
@@ -200,7 +203,7 @@
     "banner": "https://gi.deve.sh/ayato/gacha-splash.png",
     "icon": "https://gi.deve.sh/ayato/icon.png",
     "icon-big": "https://gi.deve.sh/ayato/icon-big.png",
-    "portrait": "https://gi.deve.sh/ayato/card.png"
+    "portrait": "https://gi.deve.sh/ayato/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -783,5 +786,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000066
 }

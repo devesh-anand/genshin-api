@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 4 consecutive claymore strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform an especially powerful Severing Splendor strike toward the front.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/mavuika/talent-1.png"
+      "img": "https://gi.deve.sh/mavuika/talent-1.png",
+      "id": 11061
     },
     {
       "name": "The Named Moment",
@@ -24,7 +25,8 @@
       "description": "Calling upon her authority over \"conflict,\" Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned Pyro DMG.\nAfter using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state.\n\nAll-Fire Armaments\nHas different forms when Tapped or Held.\n\nTap\n\"Divine Name Unleashed\": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned Pyro DMG.\n\nHold\n\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned Pyro DMG which cannot be overridden. When sprinting, she also deals Nightsoul-aligned Pyro DMG to opponents along her path.\n\nWhile in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.\n\nNightsoul's Blessing: Mavuika\nContinuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once her Nightsoul points are exhausted.\n\nIf you told Mavuika that in another world vehicles like the Flamestrider required license plates for identification, that would make her happy too:\n\"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/mavuika/talent-skill.png"
+      "img": "https://gi.deve.sh/mavuika/talent-skill.png",
+      "id": 11062
     },
     {
       "name": "Hour of Burning Skies",
@@ -32,7 +34,8 @@
       "description": "Let the people's inner voices reach the divine throne in the heavens.\nMavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"\n\nFighting Spirit\nWhen Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.\nMavuika can obtain Fighting Spirit via the following methods:\n· When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.\n· When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s.\n\nAfter using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned AoE Pyro DMG and entering the \"Crucible of Death and Life\" state.\n\nCrucible of Death and Life\nDuring this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and \"Ancient Name Unbound\"'s Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.\nCrucible of Death and Life will be canceled when Mavuika leaves the field.\n\n\"—But this time, I want to break the cycle and free us from this fate for good.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/mavuika/talent-burst.png"
+      "img": "https://gi.deve.sh/mavuika/talent-burst.png",
+      "id": 11065
     }
   ],
   "passiveTalents": [
@@ -115,7 +118,7 @@
     "banner": "https://gi.deve.sh/mavuika/gacha-splash.png",
     "icon": "https://gi.deve.sh/mavuika/icon.png",
     "icon-big": "https://gi.deve.sh/mavuika/icon-big.png",
-    "portrait": "https://gi.deve.sh/mavuika/portrait.png"
+    "portrait": "https://gi.deve.sh/mavuika/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000106
 }

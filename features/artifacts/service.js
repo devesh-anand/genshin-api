@@ -6,6 +6,7 @@ import { ARTIFACT_ALIASES } from './aliases.js';
 
 export { ARTIFACT_ALIASES };
 import { omitKeys } from '../../lib/objects.js';
+import { lazyIndex } from '../../lib/lazyIndex.js';
 
 export const SORT_FIELDS = {
    name:   'name',
@@ -37,6 +38,11 @@ export async function listArtifacts({ rarity, sort, order } = {}) {
 }
 
 export const getArtifact = (slug) => artifactStore.getOne(slug);
+
+const bySetId = lazyIndex(artifactStore, (a) => (a.id ? Number(a.id) : null));
+
+/** Artifact set by the game's set ID (as in Enka showcases, e.g. 15002), or null. */
+export const findArtifactBySetId = (id) => bySetId(Number(id));
 
 export async function findArtifact(name) {
    return resolveName(await artifactStore.getAll(), name, { aliases: ARTIFACT_ALIASES });

@@ -12,6 +12,10 @@
  *   node scripts/sync.mjs materials
  *   node scripts/sync.mjs enemies
  *
+ * Order matters: materials first (so new characters/weapons can resolve their cost materials),
+ * then enemies, characters (plus their game IDs), weapons. After that, levelling tables are refreshed and
+ * link-data.mjs rebuilds every cross-reference (used_by, drops/dropped_by, cost slugs).
+ *
  * After sync, data/meta.json is updated with the current counts and timestamp.
  */
 
@@ -166,6 +170,39 @@ async function syncMaterials() {
   return { added, failed: 0 };
 }
 
+// id / skillTalents[].id for any character missing them (matches showcase data to our records)
+async function addGameIds() {
+  header('Character game IDs');
+  const ok = await run('add-game-ids.mjs');
+  return { added: 0, failed: ok ? 0 : 1 };
+}
+
+// transparent portraits: removes the white background the wiki flattens newer portraits onto
+async function fixPortraits() {
+  header('Character portraits');
+  const ok = await run('fix-portraits.mjs', '--write');
+  return { added: 0, failed: ok ? 0 : 1 };
+}
+
+// source / region / exp / craft / family / tier for any material missing them
+async function enrichMaterials() {
+  header('Material details');
+  const ok = await run('enrich-materials.mjs');
+  return { added: 0, failed: ok ? 0 : 1 };
+}
+
+async function syncProgression() {
+  header('Levelling tables');
+  const ok = await run('populate-progression.mjs');
+  return { added: 0, failed: ok ? 0 : 1 };
+}
+
+async function linkData() {
+  header('Cross-references');
+  const ok = await run('link-data.mjs');
+  return { added: 0, failed: ok ? 0 : 1 };
+}
+
 async function syncEnemies() {
   header('Enemies');
 
@@ -229,10 +266,16 @@ console.log(`${'═'.repeat(60)}`);
 const results = {};
 
 try {
-  if (TARGET === 'all' || TARGET === 'characters') results.characters = await syncCharacters();
-  if (TARGET === 'all' || TARGET === 'weapons')    results.weapons    = await syncWeapons();
   if (TARGET === 'all' || TARGET === 'materials')  results.materials  = await syncMaterials();
+  if (TARGET === 'all' || TARGET === 'materials')  results.material_details = await enrichMaterials();
   if (TARGET === 'all' || TARGET === 'enemies')    results.enemies    = await syncEnemies();
+  if (TARGET === 'all' || TARGET === 'characters') results.characters = await syncCharacters();
+  if (TARGET === 'all' || TARGET === 'characters') results.game_ids   = await addGameIds();
+  if (TARGET === 'all' || TARGET === 'characters') results.portraits  = await fixPortraits();
+  if (TARGET === 'all' || TARGET === 'weapons')    results.weapons    = await syncWeapons();
+  if (TARGET === 'all')                            results.progression = await syncProgression();
+  // Always last, whatever the target: keeps every reference consistent
+  results.links = await linkData();
 } catch (e) {
   console.error('\nFatal error during sync:', e);
   process.exit(1);

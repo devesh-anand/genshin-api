@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import errorHandle from './middlewares/errorHandle.js';
-import rateLimiter from './middlewares/rateLimiter.js';
+import rateLimiter, { showcaseRateLimiter } from './middlewares/rateLimiter.js';
 import { cacheControl } from './middlewares/cache.js';
 import { createMcpRouter } from './mcp/http.js';
 
@@ -14,6 +14,7 @@ import enemies from './features/enemies/rest.js';
 import search from './features/search/rest.js';
 import health from './features/health/rest.js';
 import planner from './features/planner/rest.js';
+import showcase from './features/showcase/rest.js';
 
 /**
  * REST route registry — every feature's router is mounted here, explicitly.
@@ -29,6 +30,7 @@ export const ROUTES = [
    ['/search', search],
    ['/health', health],
    ['/planner', planner],
+   ['/showcase', showcase],
 ];
 
 /**
@@ -62,6 +64,7 @@ export function createApp({ rateLimit = true, mcp = {} } = {}) {
    app.use(bodyParser.urlencoded({ extended: false }));
    app.use(bodyParser.json());
    if (rateLimit) app.use(rateLimiter);
+   if (rateLimit) app.use('/showcase', showcaseRateLimiter); // each lookup can cost an Enka request
    app.use(cacheControl(3600)); // 1-hour default; /health overrides to no-store, /search to 5 min
 
    app.get('/', (req, res) => {

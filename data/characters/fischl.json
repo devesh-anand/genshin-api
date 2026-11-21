@@ -53,7 +53,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/fischl/talent-na.png"
+      "img": "https://gi.deve.sh/fischl/talent-na.png",
+      "id": 10311
     },
     {
       "name": "Nightrider",
@@ -78,7 +79,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/fischl/talent-skill.png"
+      "img": "https://gi.deve.sh/fischl/talent-skill.png",
+      "id": 10312
     },
     {
       "name": "Midnight Phantasmagoria",
@@ -99,7 +101,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/fischl/talent-burst.png"
+      "img": "https://gi.deve.sh/fischl/talent-burst.png",
+      "id": 10313
     }
   ],
   "passiveTalents": [
@@ -765,5 +768,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000031
 }

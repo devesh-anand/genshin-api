@@ -16,7 +16,8 @@
       "description": "Normal Attack\nImitating an ancient knightly war-dance, Varka wields dual claymores to perform up to 5 consecutive strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to charge forward and perform an especially powerful dual blade slash toward the front.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/varka/talent-1.png"
+      "img": "https://gi.deve.sh/varka/talent-1.png",
+      "id": 11281
     },
     {
       "name": "Windbound Execution",
@@ -24,7 +25,8 @@
       "description": "Manifest the true essence of Favonius Bladework with absolute power. Produces different effects depending on whether the skill is Tapped or Held.\n\nTap\nLeap forward and slash in one fluid motion, dealing AoE Anemo DMG and switching to Sturm und Drang mode.\nWhile in Sturm und Drang, Varka's Normal Attack and Charged Attack DMG is increased, and he cannot perform Plunging Attacks. Also, when performing Normal or Charged Attacks, Varka's dual-wielded claymores will deal corresponding Elemental DMG based on the Elemental Types of the characters in the party, respectively. This Elemental DMG cannot be overridden by infusions.\nAdditionally, when in Sturm und Drang, if there are Pyro, Hydro, Electro or Cryo characters in the party, Varka's Elemental Skill Windbound Execution will be converted to the special Elemental Skill, Four Winds' Ascension, dealing corresponding Elemental DMG and Anemo DMG. Additionally, Varka can also expend uses of the special Elemental Skill Four Winds' Ascension to perform a special Charged Attack, Azure Devour, that does not consume stamina to deal corresponding Elemental DMG and Anemo DMG.\n\nHold\nAfter charging for a while, leap forward. The duration of the charge will increase the distance of the leap.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/varka/talent-skill.png"
+      "img": "https://gi.deve.sh/varka/talent-skill.png",
+      "id": 11282
     },
     {
       "name": "Northwind Avatar",
@@ -32,7 +34,8 @@
       "description": "In the name of the mightiest Knight of Boreas, unleash a powerful double slash attack toward the front, dealing 2 instances of Anemo DMG.\nIf there are Pyro, Hydro, Electro or Cryo characters in the party, the first slash will be converted to deal corresponding Elemental DMG according to the aforementioned priority order of Elemental Types.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/varka/talent-burst.png"
+      "img": "https://gi.deve.sh/varka/talent-burst.png",
+      "id": 11285
     }
   ],
   "passiveTalents": [
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000128
 }

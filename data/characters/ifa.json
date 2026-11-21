@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 attacks, dealing Anemo DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina and fires off a shot, dealing AoE Anemo DMG.\n\nPlunging Attack\nPlunges towards the ground from mid-air, damaging all opponents along the path. Deals AoE Anemo DMG upon impact with the ground.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/ifa/talent-1.png"
+      "img": "https://gi.deve.sh/ifa/talent-1.png",
+      "id": 11131
     },
     {
       "name": "Airborne Disease Prevention",
@@ -24,7 +25,8 @@
       "description": "It's time for the real bash bros to step up! Ifa calls Cacucu in as backup.\nAfter using this skill, Ifa gains 80 Nightsoul points and enters the Nightsoul's Blessing state. In the Nightsoul's Blessing state, Ifa will hover with Cacucu's help. When he uses Normal Attacks in this state, he will use different kinds of Supporting Fire depending on whether you Tap or Hold, firing Tonicshots that are capable of healing all party members.\n\nAdditionally, Holding the Elemental Skill Airborne Disease Prevention while Ifa is in Nightsoul's Blessing will cause him to use a Nightsoul-aligned Plunging Attack. Letting go of the skill button will interrupt this Plunging Attack to maintain his hover. If Ifa lands due to this Plunging Attack, his Nightsoul's Blessing state will end.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/ifa/talent-skill.png"
+      "img": "https://gi.deve.sh/ifa/talent-skill.png",
+      "id": 11132
     },
     {
       "name": "Compound Sedation Field",
@@ -32,7 +34,8 @@
       "description": "Fires a Therapeutic Sedative at a (temporarily aggressive) opponent. The sedative will explode on impact, creating a restraining wind current that pulls nearby objects and opponents in while dealing Nightsoul-aligned AoE Anemo DMG.\nWhen the Therapeutic Sedative hits an opponent affected by Hydro/Pyro/Cryo/Electro, it will apply a Sedation Mark to them.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/ifa/talent-burst.png"
+      "img": "https://gi.deve.sh/ifa/talent-burst.png",
+      "id": 11135
     }
   ],
   "passiveTalents": [
@@ -115,7 +118,7 @@
     "banner": "https://gi.deve.sh/ifa/gacha-splash.png",
     "icon": "https://gi.deve.sh/ifa/icon.png",
     "icon-big": "https://gi.deve.sh/ifa/icon-big.png",
-    "portrait": "https://gi.deve.sh/ifa/portrait.png"
+    "portrait": "https://gi.deve.sh/ifa/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -698,5 +701,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000113
 }

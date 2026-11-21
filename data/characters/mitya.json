@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms a maximum of 3 attacks that deal Electro DMG.\n\nCharged Attack\nConsumes a certain amount of Stamina to deal AoE Electro DMG to the area in front after a short casting time.\nMitya will instead perform the special Charged Attack Gradient Detonation, which consumes no Stamina, if a Detection Core: Overload created by Mitya himself is currently on the field and he has at least 1 Gradient Beacon: Deals 1 instance of AoE Electro DMG to the area in front and continuously consumes Gradient Beacons while held. Each Gradient Beacon consumed deals 1 instance of AoE Electro DMG to the area in front that is considered Stellar-Conduct reaction DMG.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE Electro DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/mitya/talent-1.png"
+      "img": "https://gi.deve.sh/mitya/talent-1.png",
+      "id": 11361
     },
     {
       "name": "Principle: Variable Detection",
@@ -24,7 +25,8 @@
       "description": "Conducts a theoretically relatively safe experiment at a theoretically relatively safe yield, dealing AoE Electro DMG and creating a Detection Core in different ways depending on whether the Skill is tapped or held.\n\nTapping the Elemental Skill Principle: Variable Detection again within 6s after using it changes the Detection Core's state. The Detection Core's state can be changed in this way every 1.5s.",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/mitya/talent-skill.png"
+      "img": "https://gi.deve.sh/mitya/talent-skill.png",
+      "id": 11362
     },
     {
       "name": "Analysis: Gradient Theory",
@@ -32,7 +34,8 @@
       "description": "Let the elements burst forth like inspiration itself! Deals AoE Electro DMG and creates 3 Gradient Beacons.",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/mitya/talent-burst.png"
+      "img": "https://gi.deve.sh/mitya/talent-burst.png",
+      "id": 11364
     }
   ],
   "passiveTalents": [
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000136
 }

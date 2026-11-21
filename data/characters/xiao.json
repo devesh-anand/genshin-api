@@ -49,7 +49,8 @@
         }
       ],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/xiao/talent-na.png"
+      "img": "https://gi.deve.sh/xiao/talent-na.png",
+      "id": 10261
     },
     {
       "name": "Lemniscatic Wind Cycling",
@@ -66,7 +67,8 @@
         }
       ],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/xiao/talent-skill.png"
+      "img": "https://gi.deve.sh/xiao/talent-skill.png",
+      "id": 10262
     },
     {
       "name": "Bane of All Evil",
@@ -95,7 +97,8 @@
         }
       ],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/xiao/talent-burst.png"
+      "img": "https://gi.deve.sh/xiao/talent-burst.png",
+      "id": 10265
     }
   ],
   "passiveTalents": [
@@ -773,5 +776,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000026
 }

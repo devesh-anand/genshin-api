@@ -16,7 +16,8 @@
       "description": "Normal Attack\nPerforms up to 3 consecutive sword strikes.\n\nCharged Attack\nConsumes a certain amount of Stamina to perform a twirling slash.\n\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "upgrades": [],
       "type": "NORMAL_ATTACK",
-      "img": "https://gi.deve.sh/nilou/talent-1.png"
+      "img": "https://gi.deve.sh/nilou/talent-1.png",
+      "id": 10701
     },
     {
       "name": "Dance of Haftkarsvar",
@@ -24,7 +25,8 @@
       "description": "Enters the Pirouette state, dealing Hydro DMG to nearby opponents based on Nilou's Max HP.\nWhile she is in the Pirouette state, Nilou's Normal Attacks and Elemental Skill will cause her to enter the Sword Dance and Whirling Steps stances respectively, causing DMG she deals to be converted to Hydro DMG that cannot be overridden and that is considered Elemental Skill DMG.\n\nIn these stances, Nilou's third dance step will end Pirouette, and has the following effects based on the type of said dance step:\n·Sword Dance: unleashes a Luminous Illusion that deals Hydro DMG to opponents it touches and grants Nilou the Lunar Prayer effect. This effect converts Nilou's Normal Attacks into Sword Dance techniques, and her final hit will unleash a Luminous Illusion.\n·Whirling Steps: Nilou unleashes a Whirling Water Wheel that deals AoE Hydro DMG and creates a Tranquility Aura that follows your active character around and applies Wet to opponents within its AoE.\n\nNilou is unable to perform Charged Attacks when under the effect of Pirouette or Lunar Prayer. These effects will be removed once she leaves the field.\n\n\"Daintily her toes touch the water's face, and the light that ripples forth equals even the seven heavens.\"",
       "upgrades": [],
       "type": "ELEMENTAL_SKILL",
-      "img": "https://gi.deve.sh/nilou/talent-skill.png"
+      "img": "https://gi.deve.sh/nilou/talent-skill.png",
+      "id": 10702
     },
     {
       "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
@@ -32,7 +34,8 @@
       "description": "Begins the dance of faraway dreams and springs that hear, causing a Lotus of Distant Waters to bloom, dealing AoE Hydro DMG based on Nilou's Max HP and applying the Lingering Aeon effect to all opponents hit.\nAfter an interval, opponents affected by Lingering Aeon will take Hydro DMG.\n\n\"We have never witnessed that distant dream, but this dance can bring it to life.\"",
       "upgrades": [],
       "type": "ELEMENTAL_BURST",
-      "img": "https://gi.deve.sh/nilou/talent-burst.png"
+      "img": "https://gi.deve.sh/nilou/talent-burst.png",
+      "id": 10705
     }
   ],
   "passiveTalents": [
@@ -109,7 +112,7 @@
     "banner": "https://gi.deve.sh/nilou/gacha-splash.png",
     "icon": "https://gi.deve.sh/nilou/icon.png",
     "icon-big": "https://gi.deve.sh/nilou/icon-big.png",
-    "portrait": "https://gi.deve.sh/nilou/portrait.png"
+    "portrait": "https://gi.deve.sh/nilou/portrait.png?v=2"
   },
   "ascension_costs": [
     {
@@ -692,5 +695,6 @@
         ]
       }
     ]
-  }
+  },
+  "id": 10000070
 }
