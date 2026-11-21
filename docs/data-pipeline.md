@@ -34,11 +34,14 @@ Only the scripts and the sync and image-variant workflows (`.github/workflows/sy
   "constellation": "Paradisaea",
   "birthday": "0000-07-09",
   "description": "...",
-  "skillTalents": [...],        // normal attack, skill, burst
+  "skillTalents": [...],        // normal attack, skill, burst (+ alternate sprints etc.);
+                                //   the three with a `type` also have the game skill `id`
+                                //   (add-game-ids.mjs): Kaveh 10811 / 10812 / 10815
   "passiveTalents": [...],      // A1, A4, utility passive
   "constellations": [...],      // C1–C6, each with img
   "vision_key": "DENDRO",
   "weapon_type": "CLAYMORE",
+  "id": 10000081,               // game avatar ID (add-game-ids.mjs)
   "img": {
     "card":          "https://.../kaveh/card.png",        // 1080×1920 character card
     "constellation": "https://.../kaveh/constellation.png",// star-map background art
@@ -63,7 +66,7 @@ All images are downloaded and re-uploaded to R2. The public R2 URL never changes
 | Image | R2 key | Source | Notes |
 |-------|--------|--------|-------|
 | `card.png` | `{slug}/card.png` | Wiki `{Name}_Card.png` | 1080×1920 WebP, ~300–460KB |
-| `portrait.png` | `{slug}/portrait.png` | Wiki `{Name}_Portrait.png` | Large hi-res art, ~800KB–5MB |
+| `portrait.png` | `{slug}/portrait.png` | Wiki `{Name}_Portrait.png` | Transparent cutout, ≤ 2560px. The wiki flattens many newer ones onto white; `fix-portraits.mjs` removes that |
 | `constellation.png` | `{slug}/constellation.png` | Wiki `{ConstellationName}.png` | Star-map background art |
 | `gacha-splash.png` | `{slug}/gacha-splash.png` | Enka `UI_Gacha_AvatarImg_{internal}.png` | Landscape, 2048×1024 |
 | `icon.png` | `{slug}/icon.png` | Enka `UI_AvatarIcon_{internal}.png` | Small square icon |
@@ -85,7 +88,7 @@ All images are downloaded and re-uploaded to R2. The public R2 URL never changes
 | Image | Source | Notes |
 |-------|--------|-------|
 | `card.png` | Wiki `Traveler_Male_Card.png` / `Traveler_Female_Card.png` | Same for all elements per gender |
-| `portrait.png` | Wiki `Character_Aether_Game_{Element}.png` / `Character_Lumine_Game_{Element}.png` | 914×1645, element-specific |
+| `portrait.png` | Wiki `Traveler_(Male)_Portrait.png` / `Traveler_(Female)_Portrait.png` | Transparent cutout, shared per gender (the element game art has a coloured background) |
 | `constellation.png` | Same as portrait (element-specific game art) | No separate constellation BG exists |
 | `gacha-splash.png` | Enka `UI_Gacha_AvatarImg_PlayerBoy/Girl.png` | Same for all elements per gender |
 | `icon.png` / `icon-big.png` | Enka `UI_AvatarIcon_PlayerBoy/Girl.png` | Same for all elements |
@@ -98,7 +101,7 @@ All images are downloaded and re-uploaded to R2. The public R2 URL never changes
 
 ## Scripts
 
-For a normal patch update, run `node scripts/sync.mjs` (also runs weekly via `.github/workflows/sync.yml`). It finds new characters, weapons, materials and enemies on yatta.moe and calls `populate-characters` + `add-character-costs`, `populate-weapons` + `add-weapon-costs`, `populate-materials` and `populate-enemies`. It does **not** handle traveler variants, so run `fix-traveler.mjs` by hand when a new traveler element ships. The per-script sections below are for that and for one-off fixes.
+For a normal patch update, run `node scripts/sync.mjs` (also runs weekly via `.github/workflows/sync.yml`). It finds new characters, weapons, materials and enemies on yatta.moe and calls `populate-characters` + `add-character-costs` (then `add-game-ids` for any character missing game IDs), `populate-weapons` + `add-weapon-costs`, `populate-materials` and `populate-enemies`. It does **not** handle traveler variants, so run `fix-traveler.mjs` by hand when a new traveler element ships. The per-script sections below are for that and for one-off fixes.
 
 
 ### `scripts/populate-characters.mjs`
@@ -117,6 +120,52 @@ node scripts/populate-characters.mjs nahida    # one character
 - Writes `data/characters/{slug}.json`
 
 For brand-new characters the wiki art is often not uploaded yet, so they get the lower-quality Enka fallback. Re-check them after a few days with `check-image-urls.mjs`.
+
+---
+
+### `scripts/fix-portraits.mjs` — transparent portraits
+
+Every `img.portrait` should be a transparent cutout: the frontend and the showcase cards put it on
+coloured and dark backgrounds. The wiki stores many newer `{Name}_Portrait` files flattened onto
+white, so this script removes that background (`scripts/lib/unmatte.mjs`: flood-fills the white
+connected to the border, which stops at the line art, then turns it to alpha so edges don't halo).
+It also re-fetches `PORTRAIT_FILES` (characters whose portrait pointed at their card art, which has
+the game logo) and uses the shared traveler cutouts. Already-transparent portraits are skipped, so
+`sync.mjs` runs it after characters.
+
+```bash
+node scripts/fix-portraits.mjs --preview <dir>   # dry run; writes before/after PNGs to check by eye
+node scripts/fix-portraits.mjs --write [slug]    # upload, regenerate variants, update data/
+```
+
+- Uploads `{slug}/portrait.png` (WebP, ≤ 2560px) and its `.w{width}.webp` variants; the replaced
+  original is kept once at `_backup/portraits/{slug}.png.bak`.
+- Points `img.portrait` at it with a bumped `?v=` so Cloudflare's 24h cache doesn't serve the old art.
+- Skips (and reports) a flattened portrait whose background isn't plain white.
+
+### `scripts/add-game-ids.mjs` — game IDs for showcases
+
+Adds `id` and a skill `id` on the three levelable `skillTalents` entries to character JSON, so Enka showcase data,
+which only has numeric IDs, can be matched to our records (`/showcase/:uid`). No image uploads.
+`sync.mjs` runs it after characters; it only touches files missing a field.
+
+```bash
+node scripts/add-game-ids.mjs          # characters missing any of the fields
+node scripts/add-game-ids.mjs --all    # refresh every character
+node scripts/add-game-ids.mjs venti    # one character
+```
+
+- `id` and the talent IDs come from yatta's `/avatar/{id}` talent list, in game order: first combat talent =
+  Normal Attack, second = Elemental Skill (alternate sprints such as Ayaka's come later), type-1 = Burst. They're attached to the `skillTalents` entry with the matching `type`
+  (`NORMAL_ATTACK` / `ELEMENTAL_SKILL` / `ELEMENTAL_BURST`); other entries get none.
+  Sorting skill IDs does **not** work (Ayaka's are 10024, 10018, 10019). Checked against Enka's
+  `store/characters.json` `SkillOrder` for all 119 characters it has; that file is stale (it lacks the
+  15 newest characters and the Cryo Traveler), so it is not used as a source.
+- Travelers share one `id` per gender (10000005 Aether, 10000007 Lumine). Each element has its own
+  Elemental Skill and Burst IDs, so a showcase's talent IDs pick the element; Enka's details-hidden
+  list has no talents, so there its `energyType` (1 Pyro, 2 Hydro, 3 Dendro, 4 Electro, 5 Cryo,
+  7 Anemo, 8 Geo) is used instead.
+- Weapons and artifact sets already carry their game IDs (`id`), so showcases match them directly.
 
 ---
 
@@ -161,7 +210,8 @@ Older notes mention a separate `fix-images.mjs` pass to swap Enka card/portrait/
 
 Fixes all images for `aether-*` and `lumine-*` traveler variants in one pass:
 - `card` — wiki `Traveler_Male/Female_Card.png` (shared per gender)
-- `portrait` + `constellation` — wiki `Character_Aether/Lumine_Game_{Element}.png` (element-specific)
+- `portrait` — wiki `Traveler_(Male|Female)_Portrait.png` (transparent, shared per gender)
+- `constellation` — wiki `Character_Aether/Lumine_Game_{Element}.png` (element-specific)
 - Talent icons — yatta element-specific IDs → Enka
 - `constellation-1` through `-6` — wiki `Constellation {Name}.png` (upgraded quality)
 

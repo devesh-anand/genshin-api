@@ -10,6 +10,10 @@
 export const YATTA = 'https://gi.yatta.moe/api/v2/en';
 export const TRAVELER_IDS = new Set([10000005, 10000007]);
 
+// Weapon IDs >= 100000 (310001, 350003, ...) are cosmetic Weapon Appearances
+// (e.g. Stygian Onslaught rewards), not weapons: no stats, no levelling. Never sync them.
+export const isWeaponSkin = id => Number(id) >= 100000;
+
 // ── Shared fetch ──────────────────────────────────────────────────────────────
 
 export async function fetchJSON(url, retries = 3) {
@@ -58,8 +62,8 @@ export function charSlug(name) {
   return CHAR_SLUG_OVERRIDES[base] ?? base;
 }
 
-// Characters excluded from auto-sync (test/placeholder entries on yatta)
-export const SKIP_CHAR_SLUGS = new Set(['manekin', 'manekina']);
+// Characters excluded from auto-sync (none today — Manekin/Manekina are live and synced)
+export const SKIP_CHAR_SLUGS = new Set();
 
 // ── Character discovery ───────────────────────────────────────────────────────
 
@@ -81,8 +85,9 @@ export async function discoverNewCharacters(localSlugs) {
   const listRes = await fetchJSON(`${YATTA}/avatar`);
   if (!listRes) throw new Error('Failed to fetch yatta character list');
 
+  // Traveler variants appear as composite string IDs ("10000005-pyro") — match on the base ID
   const listed = Object.values(listRes.data?.items ?? {})
-    .filter(c => !TRAVELER_IDS.has(c.id))
+    .filter(c => !TRAVELER_IDS.has(Number(String(c.id).split('-')[0])))
     .filter(c => !SKIP_CHAR_SLUGS.has(charSlug(c.name)));
 
   const listedIds = new Set(listed.map(c => c.id));
@@ -126,7 +131,8 @@ export async function discoverNewCharacters(localSlugs) {
 export async function discoverNew(entity, localSlugs, slugFn = slugify) {
   const res = await fetchJSON(`${YATTA}/${entity}`);
   if (!res) throw new Error(`Failed to fetch yatta ${entity} list`);
-  const items = Object.values(res.data?.items ?? {});
+  const items = Object.values(res.data?.items ?? {})
+    .filter(i => !(entity === 'weapon' && isWeaponSkin(i.id)));
   return items
     .map(i => ({ ...i, slug: slugFn(i.name) }))
     .filter(i => !localSlugs.has(i.slug));
