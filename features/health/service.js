@@ -4,21 +4,25 @@ import { countArtifacts } from '../artifacts/service.js';
 import { countMaterials } from '../materials/service.js';
 import { countEnemies } from '../enemies/service.js';
 import { getShowcaseCacheStats } from '../showcase/service.js';
+import { checkDb } from '../../lib/db.js';
 
 const startTime = Date.now();
 
 export async function getHealth() {
-   const [characters, weapons, artifacts, materials, enemies] = await Promise.all([
+   const [characters, weapons, artifacts, materials, enemies, database] = await Promise.all([
       countCharacters(),
       countWeapons(),
       countArtifacts(),
       countMaterials(),
       countEnemies(),
+      checkDb(),
    ]);
    return {
       status: 'ok',
       uptime: Math.floor((Date.now() - startTime) / 1000),
       counts: { characters, weapons, artifacts, materials, enemies },
       showcase_cache: getShowcaseCacheStats(),
+      // The API serves game data without a database; this reports platform storage only.
+      database,
    };
 }

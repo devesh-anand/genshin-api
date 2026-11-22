@@ -14,6 +14,8 @@ npm test           # node:test — must pass before every commit
 node --test features/characters/service.test.js   # a single file
 node scripts/sync.mjs [characters|weapons|materials|enemies]   # pull new game data (network)
 node scripts/image-variants.mjs [--write] [--prefix nahida/]   # resized WebP copies in R2 (dry run by default)
+npm run db:generate   # write a migration after editing features/*/schema.js (commit it)
+npm run db:migrate    # apply migrations (DATABASE_URL; pglite://.pglite works with no Postgres server)
 npm run mcp        # MCP server on stdio (what hosts spawn)
 npm run mcp:inspect   # MCP Inspector UI against the stdio server
 ```
@@ -31,9 +33,11 @@ lib/                shared, feature-agnostic helpers
   http.js             handle(), sendList(), sendOr404() for rest.js files
   objects.js          omitKeys(), pick() — trim records for model-facing output
   paginate.js         offset pagination for list tools
+  db.js               shared Postgres handle (Drizzle): getDb(), checkDb(), closeDb(); small pool + timeouts
   sort.js
 features/<name>/    one folder per feature — everything about it lives here
-  store.js            data access only (JSON today; a DB later for user data)
+  store.js            data access only: JSON for game data, lib/db.js for platform data
+  schema.js           Drizzle tables, if the feature stores data (export from db/schema.js)
   service.js          ALL logic. Plain async functions. No req/res, no express, no MCP types.
   rest.js             Express router: parse req → call service → send. No logic.
   mcp.js              tools() → MCP tool definitions wrapping the service. No logic.
@@ -47,6 +51,7 @@ mcp/                MCP server (transport-agnostic core + entry points)
                       JSON-RPC errors, one log line per tool call (never arguments)
   server.test.js      MCP client tests: catalogue rules, calls, errors, registry, stdio smoke test
   http.test.js        MCP client over HTTP + transport behaviour (405/413/429, CORS, logging)
+db/                 schema.js (registry of every features/*/schema.js), migrations/ (generated, committed)
 middlewares/        cross-cutting Express middleware (rate limit, cache headers, errors)
 data/               game data JSON, written by scripts/ — don't hand-edit in feature PRs
 scripts/            data sync/populate scripts (run by .github/workflows/sync.yml weekly)
@@ -133,6 +138,15 @@ Tools are read-only by default (annotations); override with `annotations` only f
 - Personal-data tools (Phase 5) take the user from the auth context, never from an argument.
 - **Never write to stdout** in code the MCP server runs — stdout is the stdio protocol channel.
   Use `console.error` for diagnostics.
+
+## Database
+
+Read [`docs/database.md`](docs/database.md) before changing storage. Postgres via Drizzle holds platform data;
+game data stays in JSON. Only `store.js`/`schema.js` import `lib/db.js` (checked by `db/schema.test.js`).
+Schema changes: edit `features/<name>/schema.js` → `npm run db:generate` → review and commit the SQL. Never
+`drizzle-kit push` to production, never edit an applied migration. Production migrations run in Railway's
+pre-deploy step (`npm run db:migrate`). The Railway Postgres is small (0.5 vCPU / 512 MB, max_connections 20):
+keep the pool at `POOL_DEFAULTS`, index every filter, and precompute anything aggregated per request.
 
 ## Gotchas
 

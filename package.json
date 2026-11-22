@@ -7,9 +7,11 @@
    "scripts": {
       "start": "node index.js",
       "dev": "nodemon index.js",
-      "test": "node --test \"lib/**/*.test.js\" \"scripts/**/*.test.js\" \"features/**/*.test.js\" \"mcp/**/*.test.js\" app.test.js",
+      "test": "node --test \"lib/**/*.test.js\" \"scripts/**/*.test.js\" \"features/**/*.test.js\" \"mcp/**/*.test.js\" \"db/**/*.test.js\" app.test.js",
       "mcp": "node mcp/stdio.js",
-      "mcp:inspect": "npx @modelcontextprotocol/inspector node mcp/stdio.js"
+      "mcp:inspect": "npx @modelcontextprotocol/inspector node mcp/stdio.js",
+      "db:generate": "drizzle-kit generate",
+      "db:migrate": "node scripts/db-migrate.mjs"
    },
    "repository": {
       "type": "git",
@@ -27,16 +29,20 @@
       "body-parser": "^1.20.0",
       "cors": "^2.8.5",
       "dotenv": "^16.0.3",
+      "drizzle-orm": "^0.45.4",
       "express": "^4.18.1",
       "express-rate-limit": "^8.7.0",
       "lru-cache": "^11.5.3",
       "nodemon": "^2.0.19",
+      "pg": "^8.23.1",
       "zod": "^4.6.7"
    },
    "engines": {
       "node": ">=22"
    },
    "devDependencies": {
+      "@electric-sql/pglite": "^0.5.17",
+      "drizzle-kit": "^0.31.11",
       "sharp": "^0.35.5"
    }
 }

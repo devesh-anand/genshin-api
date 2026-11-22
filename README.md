@@ -606,4 +606,8 @@ npm run dev            # dev server at http://localhost:5000
 npm test               # run tests
 ```
 
+The game-data API needs no database. Platform features (accounts, player data) use Postgres — set
+`DATABASE_URL` (or `pglite://.pglite` for a local in-process database) and run `npm run db:migrate`; see
+[docs/database.md](./docs/database.md).
+
 Code layout and conventions (one folder per feature under `features/`) are documented in [CLAUDE.md](./CLAUDE.md). The MCP server roadmap is in [docs/mcp-plan.md](./docs/mcp-plan.md).
