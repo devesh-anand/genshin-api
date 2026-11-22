@@ -249,9 +249,32 @@ GET /weapons/primordial-jade-cutter
     "icon-awaken": "https://...",
     "wish": "https://...",
     "full": "https://..."
+  },
+  "growth": {
+    "atk": { "init": 45.9364, "curve": "GROW_CURVE_ATTACK_301" },
+    "sub_stat": { "init": 0.144, "curve": "GROW_CURVE_CRITICAL_301" },
+    "ascension_atk": [0, 31.1, 62.2, 93.4, 124.5, 155.6, 186.7],
+    "max_level": 90
+  },
+  "stats": {
+    "max_level": 90,
+    "sub_stat": { "key": "crit_dmg", "name": "CRIT DMG", "percent": true },
+    "levels": [
+      { "level": 1, "ascension": 0, "atk": 46, "sub_stat": 14.4 },
+      { "level": 20, "ascension": 0, "atk": 122, "sub_stat": 25.4 },
+      { "level": 20, "ascension": 1, "atk": 153, "sub_stat": 25.4 },
+      "…",
+      { "level": 90, "ascension": 6, "atk": 608, "sub_stat": 66.2 }
+    ]
   }
 }
 ```
+
+`stats` lists base ATK and the substat at every level. Each ascension level (20, 40, 50, 60, 70, 80)
+appears twice: before ascending and after, since ascending adds flat ATK. Values are rounded as the game
+shows them (percentages to one decimal). 1★/2★ weapons cap at 70 and have no substat (`sub_stat` is
+`null`). `growth` holds the inputs: stat = `init` × the curve's multiplier at that level, plus
+`ascension_atk[ascension]` for ATK.
 
 > **Image notes:** `icon` is the 256×256 inventory icon. `icon-awaken` is the refined/ascended variant. `wish` is a transparent-background cutout (512×1024). `full` is the high-res 3D render (~600×900). Not all weapons have `wish` and `full` (newer weapons may only have `icon` until the wiki has their art).
 

@@ -93,5 +93,19 @@
         }
       ]
     }
-  ]
+  ],
+  "growth": {
+    "atk": {
+      "init": 32.93,
+      "curve": "GROW_CURVE_ATTACK_101"
+    },
+    "ascension_atk": [
+      0,
+      11.7,
+      23.3,
+      35,
+      46.7
+    ],
+    "max_level": 70
+  }
 }

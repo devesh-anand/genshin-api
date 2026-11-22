@@ -135,6 +135,23 @@ For brand-new characters the wiki art is often not uploaded yet, so they get the
 
 ---
 
+### `scripts/add-weapon-stats.mjs` — stats by level
+
+Stores what `features/weapons/service.js` needs to compute a weapon's base ATK and substat at any level
+(`stats` on `GET /weapons/:name`, the `stats` section of `get_weapon`). No image uploads.
+
+```bash
+node scripts/add-weapon-stats.mjs           # weapons missing growth (+ refresh the curve table)
+node scripts/add-weapon-stats.mjs --all     # every weapon
+node scripts/add-weapon-stats.mjs aqua-simulacra
+```
+
+- `growth` on each weapon (from yatta `/weapon/{id}` `upgrade`): `atk` and `sub_stat` as `{ init, curve }`,
+  `ascension_atk` (flat ATK per ascension phase — a running total, not per-phase increments) and `max_level`.
+- `data/weapon-curves.json` (from yatta `/static/weaponCurve`): each curve's multiplier at levels 1–90,
+  only the curves weapons use.
+- `sync.mjs` runs it after weapons. Checked against the game: Aqua Simulacra Lv 90 = 542 ATK / 88.2% CRIT DMG.
+
 ### `scripts/fix-portraits.mjs` — transparent portraits
 
 Every `img.portrait` should be a transparent cutout: the frontend and the showcase cards put it on

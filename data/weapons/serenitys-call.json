@@ -136,5 +136,25 @@
         }
       ]
     }
-  ]
+  ],
+  "growth": {
+    "atk": {
+      "init": 41.0671,
+      "curve": "GROW_CURVE_ATTACK_204"
+    },
+    "sub_stat": {
+      "init": 0.133333,
+      "curve": "GROW_CURVE_CRITICAL_201"
+    },
+    "ascension_atk": [
+      0,
+      25.9,
+      51.9,
+      77.8,
+      103.7,
+      129.7,
+      155.6
+    ],
+    "max_level": 90
+  }
 }

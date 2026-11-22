@@ -181,6 +181,13 @@ async function addGameIds() {
   return { added: 0, failed: ok ? 0 : 1 };
 }
 
+// growth (init value, curve, ascension ATK) for weapons missing it + the curve table — stats by level
+async function addWeaponStats() {
+  header('Weapon stats');
+  const ok = await run('add-weapon-stats.mjs');
+  return { added: 0, failed: ok ? 0 : 1 };
+}
+
 // transparent portraits: removes the white background the wiki flattens newer portraits onto
 async function fixPortraits() {
   header('Character portraits');
@@ -277,6 +284,7 @@ try {
   if (TARGET === 'all' || TARGET === 'characters') results.game_ids   = await addGameIds();
   if (TARGET === 'all' || TARGET === 'characters') results.portraits  = await fixPortraits();
   if (TARGET === 'all' || TARGET === 'weapons')    results.weapons    = await syncWeapons();
+  if (TARGET === 'all' || TARGET === 'weapons')    results.weapon_stats = await addWeaponStats();
   if (TARGET === 'all')                            results.progression = await syncProgression();
   // Always last, whatever the target: keeps every reference consistent
   results.links = await linkData();

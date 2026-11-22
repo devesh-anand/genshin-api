@@ -157,6 +157,9 @@ describe('MCP: nicknames', () => {
    it('get_* tools accept community nicknames and abbreviations', async () => {
       assert.equal((await call('get_character', { name: 'Childe' })).json.key, 'tartaglia');
       assert.equal((await call('get_weapon', { name: 'PJWS' })).json.key, 'primordial-jade-winged-spear');
+      const stats = (await call('get_weapon', { name: 'PJWS', sections: ['stats'] })).json.stats;
+      assert.equal(stats.levels.length, 14); // milestones only, not all 96 levels
+      assert.deepEqual(stats.levels.at(-1), { level: 90, ascension: 6, atk: 674, sub_stat: 22.1 });
       assert.equal((await call('get_artifact', { name: 'EoSF' })).json.key, 'emblem-of-severed-fate');
       const plan = await call('plan_materials', { targets: [{ type: 'character', name: 'Ei', level: { from: 1, to: 20 } }] });
       assert.equal(plan.json.targets[0].key, 'raiden');

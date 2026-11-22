@@ -1,5 +1,6 @@
 /** Weapons — all logic lives here. No HTTP (req/res) and no MCP types. */
-import { weaponStore, queryWeapons } from './store.js';
+import { weaponStore, queryWeapons, weaponCurves } from './store.js';
+import { FIGHT_PROPS } from '../../lib/fightProps.js';
 import { sortResults } from '../../lib/sort.js';
 import { resolveName, resolveOrThrow, matchesSearchTerm } from '../../lib/nameResolver.js';
 import { WEAPON_ALIASES } from './aliases.js';
@@ -78,7 +79,70 @@ export const WEAPON_SECTIONS = {
    refinements: (d) => ({ passive_upgrades: d.passive_upgrades ?? [] }),
    ascension_costs: (d) => ({ ascension_costs: d.ascension_costs ?? [] }),
    images: (d) => ({ img: d.img ?? {} }),
+   stats: (d) => ({ stats: weaponStatMilestones(d) }),
 };
+
+// ── Stats by level ───────────────────────────────────────────────────────────────
+
+/** Levels where a weapon ascends (the level cap before each ascension phase). */
+const ASCENSION_LEVELS = [20, 40, 50, 60, 70, 80];
+
+/**
+ * A weapon's base ATK and substat at every level, computed from its growth data
+ * (scripts/add-weapon-stats.mjs): stat = init × curve[level] (+ the ascension phase's ATK bonus).
+ * Each ascension level appears twice — before and after ascending — so a row is identified by
+ * (level, ascension). Values are rounded the way the game shows them: ATK and flat stats to whole
+ * numbers, percentages to one decimal.
+ * @param {object} data - a weapon record
+ * @returns {null | {
+ *   max_level: number,
+ *   sub_stat: { key: string|null, name: string|null, percent: boolean } | null,
+ *   levels: Array<{ level: number, ascension: number, atk: number, sub_stat: number|null }>,
+ * }} null when the weapon has no growth data
+ */
+export function weaponStats(data) {
+   const g = data?.growth;
+   const curves = g && weaponCurves();
+   const atkCurve = curves?.[g.atk?.curve];
+   const subCurve = g?.sub_stat ? curves?.[g.sub_stat.curve] : null;
+   if (!atkCurve || (g.sub_stat && !subCurve)) return null;
+
+   const prop = FIGHT_PROPS[data.sub_stat_key];
+   const percent = Boolean(prop?.percent);
+   const sub = g.sub_stat ? { key: prop?.key ?? null, name: data.sub_stat ?? prop?.name ?? null, percent } : null;
+   const subAt = (level) => {
+      const v = g.sub_stat.init * subCurve[level - 1];
+      return percent ? Math.round(v * 1000) / 10 : Math.round(v);
+   };
+   const row = (level, ascension) => ({
+      level,
+      ascension,
+      atk: Math.round(g.atk.init * atkCurve[level - 1] + (g.ascension_atk?.[ascension] ?? 0)),
+      sub_stat: sub ? subAt(level) : null,
+   });
+
+   const levels = [];
+   let ascension = 0;
+   for (let level = 1; level <= g.max_level; level++) {
+      levels.push(row(level, ascension));
+      if (ASCENSION_LEVELS.includes(level) && level < g.max_level) levels.push(row(level, ++ascension));
+   }
+   return { max_level: g.max_level, sub_stat: sub, levels };
+}
+
+/** weaponStats() trimmed to the levels players compare: 1, each ascension (before/after), max. */
+export function weaponStatMilestones(data) {
+   const stats = weaponStats(data);
+   if (!stats) return null;
+   const keep = (r) => r.level === 1 || r.level === stats.max_level || ASCENSION_LEVELS.includes(r.level);
+   return { ...stats, levels: stats.levels.filter(keep) };
+}
+
+/** Full weapon record for GET /weapons/:name, plus its stats at every level. */
+export async function getWeaponDetail(slug) {
+   const data = await getWeapon(slug);
+   return data && { ...data, stats: weaponStats(data) };
+}
 
 /** @throws {NotFoundError} with suggestions */
 export async function resolveWeapon(name) {

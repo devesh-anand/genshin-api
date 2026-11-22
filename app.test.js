@@ -65,6 +65,15 @@ describe('REST API', () => {
       assert.equal(r.headers.get('cache-control'), 'public, max-age=300');
    });
 
+   it('GET /weapons/:name includes stats at every level', async () => {
+      const { status, body } = await get('/weapons/aqua-simulacra');
+      assert.equal(status, 200);
+      assert.equal(body.name, 'Aqua Simulacra'); // existing fields unchanged
+      assert.equal(body.base_atk, 44.3);
+      assert.deepEqual(body.stats.levels.at(-1), { level: 90, ascension: 6, atk: 542, sub_stat: 88.2 });
+      assert.equal(body.stats.sub_stat.key, 'crit_dmg');
+   });
+
    it('health reports the showcase cache', async () => {
       const { body } = await get('/health');
       assert.ok(body.showcase_cache.max_entries > 0 && body.showcase_cache.max_bytes > 0);
