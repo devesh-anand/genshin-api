@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Local in-process Postgres (DATABASE_URL=pglite://.pglite)
+.pglite/
